@@ -88,6 +88,12 @@ CREATE TABLE IF NOT EXISTS "expenses_type" (
 	PRIMARY KEY ("id")
 );
 
+CREATE TABLE IF NOT EXISTS "income_type" (
+	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
+	"type" varchar(255) NOT NULL,
+	PRIMARY KEY ("id")
+);
+
 
 ALTER TABLE "income" ADD CONSTRAINT "income_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
 ALTER TABLE "groceries" ADD CONSTRAINT "groceries_fk1" FOREIGN KEY ("type") REFERENCES "expenses_type"("type");
@@ -108,3 +114,5 @@ ALTER TABLE "health" ADD CONSTRAINT "health_fk3" FOREIGN KEY ("currency") REFERE
 ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk1" FOREIGN KEY ("type") REFERENCES "expenses_type"("type");
 
 ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
+
+ALTER TABLE "income_type" ADD CONSTRAINT "income_type_fk1" FOREIGN KEY ("type") REFERENCES "income"("type");
