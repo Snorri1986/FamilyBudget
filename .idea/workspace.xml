@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#1 - values for currency table" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#1 - values for expenses table" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719435725983</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="#1 - values for expenses table">
+      <option name="closed" value="true" />
+      <created>1719606029156</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719606029156</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +152,7 @@
     <MESSAGE value="#1 - field type was replaced in all tabs" />
     <MESSAGE value="#1 - new version with new field name" />
     <MESSAGE value="#1 - values for currency table" />
-    <option name="LAST_COMMIT_MESSAGE" value="#1 - values for currency table" />
+    <MESSAGE value="#1 - values for expenses table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#1 - values for expenses table" />
   </component>
 </project>

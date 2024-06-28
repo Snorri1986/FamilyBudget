@@ -95,23 +95,25 @@ CREATE TABLE IF NOT EXISTS "income_type" (
 );
 
 
+ALTER TABLE "income" ADD CONSTRAINT "income_fk1" FOREIGN KEY ("i_type") REFERENCES "income_type"("inc_type");
+
 ALTER TABLE "income" ADD CONSTRAINT "income_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-ALTER TABLE "groceries" ADD CONSTRAINT "groceries_fk1" FOREIGN KEY ("g_type") REFERENCES "expenses_type"("type");
+ALTER TABLE "groceries" ADD CONSTRAINT "groceries_fk1" FOREIGN KEY ("g_type") REFERENCES "expenses_type"("e_type");
 
 ALTER TABLE "groceries" ADD CONSTRAINT "groceries_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-ALTER TABLE "housing_rent" ADD CONSTRAINT "housing_rent_fk1" FOREIGN KEY ("hr_type") REFERENCES "expenses_type"("type");
+ALTER TABLE "housing_rent" ADD CONSTRAINT "housing_rent_fk1" FOREIGN KEY ("hr_type") REFERENCES "expenses_type"("e_type");
 
 ALTER TABLE "housing_rent" ADD CONSTRAINT "housing_rent_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-ALTER TABLE "travel" ADD CONSTRAINT "travel_fk1" FOREIGN KEY ("tr_type") REFERENCES "expenses_type"("type");
+ALTER TABLE "travel" ADD CONSTRAINT "travel_fk1" FOREIGN KEY ("tr_type") REFERENCES "expenses_type"("e_type");
 
 ALTER TABLE "travel" ADD CONSTRAINT "travel_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-ALTER TABLE "entertainment" ADD CONSTRAINT "entertainment_fk1" FOREIGN KEY ("event_type") REFERENCES "expenses_type"("type");
+ALTER TABLE "entertainment" ADD CONSTRAINT "entertainment_fk1" FOREIGN KEY ("event_type") REFERENCES "expenses_type"("e_type");
 
 ALTER TABLE "entertainment" ADD CONSTRAINT "entertainment_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-ALTER TABLE "health" ADD CONSTRAINT "health_fk1" FOREIGN KEY ("h_type") REFERENCES "expenses_type"("type");
+ALTER TABLE "health" ADD CONSTRAINT "health_fk1" FOREIGN KEY ("h_type") REFERENCES "expenses_type"("e_type");
 
 ALTER TABLE "health" ADD CONSTRAINT "health_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk1" FOREIGN KEY ("t_type") REFERENCES "expenses_type"("type");
+ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk1" FOREIGN KEY ("t_type") REFERENCES "expenses_type"("e_type");
 
 ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
 
