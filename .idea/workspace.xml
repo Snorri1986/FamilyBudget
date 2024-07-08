@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#1 - values for expenses table" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - correct syntax on the statement">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +132,47 @@
       <option name="project" value="LOCAL" />
       <updated>1719606029156</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="#1 - final version of db on this stage">
+      <option name="closed" value="true" />
+      <created>1719606548338</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719606548338</updated>
+    </task>
+    <task id="LOCAL-00012" summary="#2 - add ( to the insert statement">
+      <option name="closed" value="true" />
+      <created>1720472064009</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720472064009</updated>
+    </task>
+    <task id="LOCAL-00013" summary="#2 - add ( and wrote right field name">
+      <option name="closed" value="true" />
+      <created>1720472386991</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720472386991</updated>
+    </task>
+    <task id="LOCAL-00014" summary="#2 - set correct table and field name">
+      <option name="closed" value="true" />
+      <created>1720472644502</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720472644502</updated>
+    </task>
+    <task id="LOCAL-00015" summary="#2 - correct syntax on the statement">
+      <option name="closed" value="true" />
+      <created>1720472772333</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720472772333</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +197,11 @@
     <MESSAGE value="#1 - new version with new field name" />
     <MESSAGE value="#1 - values for currency table" />
     <MESSAGE value="#1 - values for expenses table" />
-    <option name="LAST_COMMIT_MESSAGE" value="#1 - values for expenses table" />
+    <MESSAGE value="#1 - final version of db on this stage" />
+    <MESSAGE value="#2 - add ( to the insert statement" />
+    <MESSAGE value="#2 - add ( and wrote right field name" />
+    <MESSAGE value="#2 - set correct table and field name" />
+    <MESSAGE value="#2 - correct syntax on the statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="#2 - correct syntax on the statement" />
   </component>
 </project>
