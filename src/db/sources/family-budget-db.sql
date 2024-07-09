@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS "income" (
 
 CREATE TABLE IF NOT EXISTS "groceries" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"g_type" varchar(255) NOT NULL,
+	"g_type" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
