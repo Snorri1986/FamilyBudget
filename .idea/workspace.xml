@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - correct syntax on the statement">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720472772333</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="#2 - others">
+      <option name="closed" value="true" />
+      <created>1720473066572</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720473066572</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +208,7 @@
     <MESSAGE value="#2 - add ( and wrote right field name" />
     <MESSAGE value="#2 - set correct table and field name" />
     <MESSAGE value="#2 - correct syntax on the statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="#2 - correct syntax on the statement" />
+    <MESSAGE value="#2 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#2 - others" />
   </component>
 </project>
