@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS "currency" (
 
 CREATE TABLE IF NOT EXISTS "income" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"i_type" varchar(255) NOT NULL,
+	"i_type" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
@@ -96,7 +96,7 @@ CREATE TABLE IF NOT EXISTS "income_type" (
 
 ALTER TABLE "income" ADD CONSTRAINT "income_fk1" FOREIGN KEY ("i_type") REFERENCES "income_type"("inc_type");
 
-ALTER TABLE "income" ADD CONSTRAINT "income_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
+-- ALTER TABLE "income" ADD CONSTRAINT "income_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
 ALTER TABLE "groceries" ADD CONSTRAINT "groceries_fk1" FOREIGN KEY ("g_type") REFERENCES "expenses_type"("e_type");
 
 ALTER TABLE "groceries" ADD CONSTRAINT "groceries_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
