@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - FK groceries_fk3 set to currency.id" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - renamed for using FK with expense_type.id">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720817175253</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="#2 - renamed for using FK with expense_type.id">
+      <option name="closed" value="true" />
+      <created>1720817556931</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1720817556931</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +289,7 @@
     <MESSAGE value="#2 - groceries.g_type was changed to bigint" />
     <MESSAGE value="#2 - FK groceries_fk1 set to expenses_type.id" />
     <MESSAGE value="#2 - FK groceries_fk3 set to currency.id" />
-    <option name="LAST_COMMIT_MESSAGE" value="#2 - FK groceries_fk3 set to currency.id" />
+    <MESSAGE value="#2 - renamed for using FK with expense_type.id" />
+    <option name="LAST_COMMIT_MESSAGE" value="#2 - renamed for using FK with expense_type.id" />
   </component>
 </project>
