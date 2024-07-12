@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - housing_rent_fk3 FK with currency.id" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - FK travel_fk3 on currency.id">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -264,7 +266,31 @@
       <option name="project" value="LOCAL" />
       <updated>1720818062389</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="#2 - for using FK on expenses_type.id">
+      <option name="closed" value="true" />
+      <created>1720818345513</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1720818345513</updated>
+    </task>
+    <task id="LOCAL-00029" summary="#2 - FK travel_fk1 on expenses_type.id">
+      <option name="closed" value="true" />
+      <created>1720818472618</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1720818472618</updated>
+    </task>
+    <task id="LOCAL-00030" summary="#2 - FK travel_fk3 on currency.id">
+      <option name="closed" value="true" />
+      <created>1720818629063</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1720818629063</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,9 +306,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#1 - some additional files" />
-    <MESSAGE value="#1 - db_scheme_version1" />
-    <MESSAGE value="#1 - db_scheme_version2" />
     <MESSAGE value="#1 - insert for income_table" />
     <MESSAGE value="#1 - field type was replaced in all tabs" />
     <MESSAGE value="#1 - new version with new field name" />
@@ -305,6 +328,9 @@
     <MESSAGE value="#2 - renamed for using FK with expense_type.id" />
     <MESSAGE value="#2 - housing_rent_fk1 FK with expense_type.id" />
     <MESSAGE value="#2 - housing_rent_fk3 FK with currency.id" />
-    <option name="LAST_COMMIT_MESSAGE" value="#2 - housing_rent_fk3 FK with currency.id" />
+    <MESSAGE value="#2 - for using FK on expenses_type.id" />
+    <MESSAGE value="#2 - FK travel_fk1 on expenses_type.id" />
+    <MESSAGE value="#2 - FK travel_fk3 on currency.id" />
+    <option name="LAST_COMMIT_MESSAGE" value="#2 - FK travel_fk3 on currency.id" />
   </component>
 </project>

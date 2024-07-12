@@ -50,7 +50,7 @@ CREATE TABLE IF NOT EXISTS "travel" (
 
 CREATE TABLE IF NOT EXISTS "entertainment" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"event_type" varchar(255) NOT NULL,
+	"event_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
