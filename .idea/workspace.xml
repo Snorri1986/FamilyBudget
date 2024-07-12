@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - renamed for using FK with expense_type.id">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
-    </list>
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - housing_rent_fk3 FK with currency.id" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,7 +248,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720817556931</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="#2 - housing_rent_fk1 FK with expense_type.id">
+      <option name="closed" value="true" />
+      <created>1720817880824</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1720817880824</updated>
+    </task>
+    <task id="LOCAL-00027" summary="#2 - housing_rent_fk3 FK with currency.id">
+      <option name="closed" value="true" />
+      <created>1720818062389</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1720818062389</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,7 +280,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#1 - first commit" />
     <MESSAGE value="#1 - some additional files" />
     <MESSAGE value="#1 - db_scheme_version1" />
     <MESSAGE value="#1 - db_scheme_version2" />
@@ -290,6 +303,8 @@
     <MESSAGE value="#2 - FK groceries_fk1 set to expenses_type.id" />
     <MESSAGE value="#2 - FK groceries_fk3 set to currency.id" />
     <MESSAGE value="#2 - renamed for using FK with expense_type.id" />
-    <option name="LAST_COMMIT_MESSAGE" value="#2 - renamed for using FK with expense_type.id" />
+    <MESSAGE value="#2 - housing_rent_fk1 FK with expense_type.id" />
+    <MESSAGE value="#2 - housing_rent_fk3 FK with currency.id" />
+    <option name="LAST_COMMIT_MESSAGE" value="#2 - housing_rent_fk3 FK with currency.id" />
   </component>
 </project>

@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS "housing_rent" (
 
 CREATE TABLE IF NOT EXISTS "travel" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"tr_type" varchar(255) NOT NULL,
+	"tr_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
