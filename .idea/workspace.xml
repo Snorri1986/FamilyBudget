@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - income_fk3 executed with ref to currency.id">
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - FK groceries_fk1 set to expenses_type.id">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +187,55 @@
       <option name="project" value="LOCAL" />
       <updated>1720552098594</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="#2 - insert statement to income table">
+      <option name="closed" value="true" />
+      <created>1720552273241</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1720552273241</updated>
+    </task>
+    <task id="LOCAL-00019" summary="#2 - income.i_type changed to bigint">
+      <option name="closed" value="true" />
+      <created>1720552735308</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1720552735308</updated>
+    </task>
+    <task id="LOCAL-00020" summary="#2 - new references with income_type and currency tables">
+      <option name="closed" value="true" />
+      <created>1720552833272</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1720552833272</updated>
+    </task>
+    <task id="LOCAL-00021" summary="#2 - right test insert">
+      <option name="closed" value="true" />
+      <created>1720552890204</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1720552890204</updated>
+    </task>
+    <task id="LOCAL-00022" summary="#2 - groceries.g_type was changed to bigint">
+      <option name="closed" value="true" />
+      <created>1720553394527</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1720553394527</updated>
+    </task>
+    <task id="LOCAL-00023" summary="#2 - FK groceries_fk1 set to expenses_type.id">
+      <option name="closed" value="true" />
+      <created>1720553475032</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1720553475032</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +267,12 @@
     <MESSAGE value="#2 - correct syntax on the statement" />
     <MESSAGE value="#2 - others" />
     <MESSAGE value="#2 - income_fk3 executed with ref to currency.id" />
-    <option name="LAST_COMMIT_MESSAGE" value="#2 - income_fk3 executed with ref to currency.id" />
+    <MESSAGE value="#2 - insert statement to income table" />
+    <MESSAGE value="#2 - income.i_type changed to bigint" />
+    <MESSAGE value="#2 - new references with income_type and currency tables" />
+    <MESSAGE value="#2 - right test insert" />
+    <MESSAGE value="#2 - groceries.g_type was changed to bigint" />
+    <MESSAGE value="#2 - FK groceries_fk1 set to expenses_type.id" />
+    <option name="LAST_COMMIT_MESSAGE" value="#2 - FK groceries_fk1 set to expenses_type.id" />
   </component>
 </project>
