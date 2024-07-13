@@ -108,5 +108,3 @@ ALTER TABLE "health" ADD CONSTRAINT "health_fk1" FOREIGN KEY ("h_type_id") REFER
 ALTER TABLE "health" ADD CONSTRAINT "health_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
 ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk1" FOREIGN KEY ("t_type_id") REFERENCES "expenses_type"("id");
 ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
-
-ALTER TABLE "income_type" ADD CONSTRAINT "income_type_fk1" FOREIGN KEY ("inc_type") REFERENCES "income"("type");
