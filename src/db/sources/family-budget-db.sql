@@ -1,12 +1,11 @@
 CREATE TABLE IF NOT EXISTS "currency" (
-	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"name" varchar(3) NOT NULL UNIQUE,
-	PRIMARY KEY ("id")
+  "id" BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  "name" VARCHAR(3) NOT NULL UNIQUE
 );
 
 CREATE TABLE IF NOT EXISTS "income" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"i_type" varchar(255) NOT NULL,
+	"i_type" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
@@ -17,7 +16,7 @@ CREATE TABLE IF NOT EXISTS "income" (
 
 CREATE TABLE IF NOT EXISTS "groceries" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"g_type" varchar(255) NOT NULL,
+	"g_type" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
@@ -28,7 +27,7 @@ CREATE TABLE IF NOT EXISTS "groceries" (
 
 CREATE TABLE IF NOT EXISTS "housing_rent" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"hr_type" varchar(255) NOT NULL,
+	"hr_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
@@ -39,7 +38,7 @@ CREATE TABLE IF NOT EXISTS "housing_rent" (
 
 CREATE TABLE IF NOT EXISTS "travel" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"tr_type" varchar(255) NOT NULL,
+	"tr_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
@@ -51,7 +50,7 @@ CREATE TABLE IF NOT EXISTS "travel" (
 
 CREATE TABLE IF NOT EXISTS "entertainment" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"event_type" varchar(255) NOT NULL,
+	"event_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
@@ -62,7 +61,7 @@ CREATE TABLE IF NOT EXISTS "entertainment" (
 
 CREATE TABLE IF NOT EXISTS "health" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"h_type" varchar(255) NOT NULL,
+	"h_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
@@ -73,7 +72,7 @@ CREATE TABLE IF NOT EXISTS "health" (
 
 CREATE TABLE IF NOT EXISTS "telecom" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"t_type" varchar(255) NOT NULL,
+	"t_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
@@ -94,27 +93,17 @@ CREATE TABLE IF NOT EXISTS "income_type" (
 	PRIMARY KEY ("id")
 );
 
-
-ALTER TABLE "income" ADD CONSTRAINT "income_fk1" FOREIGN KEY ("i_type") REFERENCES "income_type"("inc_type");
-
-ALTER TABLE "income" ADD CONSTRAINT "income_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-ALTER TABLE "groceries" ADD CONSTRAINT "groceries_fk1" FOREIGN KEY ("g_type") REFERENCES "expenses_type"("e_type");
-
-ALTER TABLE "groceries" ADD CONSTRAINT "groceries_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-ALTER TABLE "housing_rent" ADD CONSTRAINT "housing_rent_fk1" FOREIGN KEY ("hr_type") REFERENCES "expenses_type"("e_type");
-
-ALTER TABLE "housing_rent" ADD CONSTRAINT "housing_rent_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-ALTER TABLE "travel" ADD CONSTRAINT "travel_fk1" FOREIGN KEY ("tr_type") REFERENCES "expenses_type"("e_type");
-
-ALTER TABLE "travel" ADD CONSTRAINT "travel_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-ALTER TABLE "entertainment" ADD CONSTRAINT "entertainment_fk1" FOREIGN KEY ("event_type") REFERENCES "expenses_type"("e_type");
-
-ALTER TABLE "entertainment" ADD CONSTRAINT "entertainment_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-ALTER TABLE "health" ADD CONSTRAINT "health_fk1" FOREIGN KEY ("h_type") REFERENCES "expenses_type"("e_type");
-
-ALTER TABLE "health" ADD CONSTRAINT "health_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk1" FOREIGN KEY ("t_type") REFERENCES "expenses_type"("e_type");
-
-ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("name");
-
-ALTER TABLE "income_type" ADD CONSTRAINT "income_type_fk1" FOREIGN KEY ("inc_type") REFERENCES "income"("type");
+ALTER TABLE "income" ADD CONSTRAINT "income_fk1" FOREIGN KEY ("i_type") REFERENCES "income_type"("id");
+ALTER TABLE "income" ADD CONSTRAINT "income_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
+ALTER TABLE "groceries" ADD CONSTRAINT "groceries_fk1" FOREIGN KEY ("g_type") REFERENCES "expenses_type"("id");
+ALTER TABLE "groceries" ADD CONSTRAINT "groceries_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
+ALTER TABLE "housing_rent" ADD CONSTRAINT "housing_rent_fk1" FOREIGN KEY ("hr_type_id") REFERENCES "expenses_type"("id");
+ALTER TABLE "housing_rent" ADD CONSTRAINT "housing_rent_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
+ALTER TABLE "travel" ADD CONSTRAINT "travel_fk1" FOREIGN KEY ("tr_type_id") REFERENCES "expenses_type"("id");
+ALTER TABLE "travel" ADD CONSTRAINT "travel_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
+ALTER TABLE "entertainment" ADD CONSTRAINT "entertainment_fk1" FOREIGN KEY ("event_type_id") REFERENCES "expenses_type"("id");
+ALTER TABLE "entertainment" ADD CONSTRAINT "entertainment_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
+ALTER TABLE "health" ADD CONSTRAINT "health_fk1" FOREIGN KEY ("h_type_id") REFERENCES "expenses_type"("id");
+ALTER TABLE "health" ADD CONSTRAINT "health_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
+ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk1" FOREIGN KEY ("t_type_id") REFERENCES "expenses_type"("id");
+ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");

@@ -6,7 +6,7 @@
   </component>
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -17,7 +17,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="68a3c84e-c387-427f-8de9-b734fc2fba18">
-      <console name="family-budget-db" type="STANDARD" schema="" session="Main" />
+      <console name="family-budget-db" type="STANDARD" schema="_heroku" session="Main"><![CDATA[select * from currency]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -29,9 +29,18 @@
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="68a3c84e-c387-427f-8de9-b734fc2fba18" />
   </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
+  </component>
+  <component name="DBNavigator.Project.FileConnectionMappingManager">
+    <mapping file-url="file://$PROJECT_DIR$/src/db/sources/family-budget-db.sql" connection-id="68a3c84e-c387-427f-8de9-b734fc2fba18" session-id="MAIN" current-schema="_heroku" />
+  </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
+  </component>
+  <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
+    <recently-used-interfaces />
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
@@ -41,7 +50,7 @@
           <description value="Database for cloud application family-budget-cloud" />
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />
-          <database-version value="9999.0" />
+          <database-version value="16.2" />
           <driver-source value="BUNDLED" />
           <driver-library value="" />
           <driver value="" />
