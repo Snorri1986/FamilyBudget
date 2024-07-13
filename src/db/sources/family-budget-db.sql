@@ -72,7 +72,7 @@ CREATE TABLE IF NOT EXISTS "health" (
 
 CREATE TABLE IF NOT EXISTS "telecom" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"t_type" varchar(255) NOT NULL,
+	"t_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
