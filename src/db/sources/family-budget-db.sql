@@ -61,7 +61,7 @@ CREATE TABLE IF NOT EXISTS "entertainment" (
 
 CREATE TABLE IF NOT EXISTS "health" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-	"h_type" varchar(255) NOT NULL,
+	"h_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
 	"date" timestamp with time zone NOT NULL,
