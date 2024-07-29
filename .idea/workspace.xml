@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - stylish">
-      <change afterPath="$PROJECT_DIR$/src/db/documents/family_budgetdb_public_v0.0.2.png" afterDir="false" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#2 - others">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/func_i_income.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -379,7 +380,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720897211153</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="#2 - last ER diagram">
+      <option name="closed" value="true" />
+      <created>1720897813456</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1720897813456</updated>
+    </task>
+    <task id="LOCAL-00043" summary="#2 - others">
+      <option name="closed" value="true" />
+      <created>1720897827561</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1720897827561</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -395,8 +412,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#2 - income_fk3 executed with ref to currency.id" />
-    <MESSAGE value="#2 - insert statement to income table" />
     <MESSAGE value="#2 - income.i_type changed to bigint" />
     <MESSAGE value="#2 - new references with income_type and currency tables" />
     <MESSAGE value="#2 - right test insert" />
@@ -420,6 +435,8 @@
     <MESSAGE value="#2 - FK telecom_fk3 set for currency.id" />
     <MESSAGE value="#2 - FK income_type_fk1 is not needed more" />
     <MESSAGE value="#2 - stylish" />
-    <option name="LAST_COMMIT_MESSAGE" value="#2 - stylish" />
+    <MESSAGE value="#2 - last ER diagram" />
+    <MESSAGE value="#2 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#2 - others" />
   </component>
 </project>
