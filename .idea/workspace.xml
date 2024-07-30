@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#4 - function i_groceries v1" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#4 - function i_housing_rent v1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -408,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722282415005</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="#4 - function i_housing_rent v1">
+      <option name="closed" value="true" />
+      <created>1722364521451</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1722364521451</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +432,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#2 - right test insert" />
     <MESSAGE value="#2 - groceries.g_type was changed to bigint" />
     <MESSAGE value="#2 - FK groceries_fk1 set to expenses_type.id" />
     <MESSAGE value="#2 - FK groceries_fk3 set to currency.id" />
@@ -449,6 +456,7 @@
     <MESSAGE value="#2 - others" />
     <MESSAGE value="#4 - function i_income v1" />
     <MESSAGE value="#4 - function i_groceries v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="#4 - function i_groceries v1" />
+    <MESSAGE value="#4 - function i_housing_rent v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="#4 - function i_housing_rent v1" />
   </component>
 </project>
