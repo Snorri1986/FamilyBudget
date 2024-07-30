@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#4 - function i_telecom v1" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#7 - make Maven project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybudget/welcome/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -47,14 +57,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00002" summary="#1 - some additional files">
-      <option name="closed" value="true" />
-      <created>1718306254775</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1718306254775</updated>
     </task>
     <task id="LOCAL-00003" summary="#1 - db_scheme_version1">
       <option name="closed" value="true" />
@@ -440,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722366343162</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="#7 - make Maven project">
+      <option name="closed" value="true" />
+      <created>1722366989272</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1722366989272</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#2 - housing_rent_fk1 FK with expense_type.id" />
     <MESSAGE value="#2 - housing_rent_fk3 FK with currency.id" />
     <MESSAGE value="#2 - for using FK on expenses_type.id" />
     <MESSAGE value="#2 - FK travel_fk1 on expenses_type.id" />
@@ -481,6 +490,7 @@
     <MESSAGE value="#4 - function i_entertainment v1" />
     <MESSAGE value="#4 - function i_health v1" />
     <MESSAGE value="#4 - function i_telecom v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="#4 - function i_telecom v1" />
+    <MESSAGE value="#7 - make Maven project" />
+    <option name="LAST_COMMIT_MESSAGE" value="#7 - make Maven project" />
   </component>
 </project>
