@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#4 - function i_travel v1">
-      <change afterPath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" afterDir="false" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#4 - function i_entertainment v1">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/func_i_health.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -426,7 +426,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722365025022</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="#4 - function i_entertainment v1">
+      <option name="closed" value="true" />
+      <created>1722365573368</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1722365573368</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,7 +450,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#2 - FK groceries_fk1 set to expenses_type.id" />
     <MESSAGE value="#2 - FK groceries_fk3 set to currency.id" />
     <MESSAGE value="#2 - renamed for using FK with expense_type.id" />
     <MESSAGE value="#2 - housing_rent_fk1 FK with expense_type.id" />
@@ -467,6 +474,7 @@
     <MESSAGE value="#4 - function i_groceries v1" />
     <MESSAGE value="#4 - function i_housing_rent v1" />
     <MESSAGE value="#4 - function i_travel v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="#4 - function i_travel v1" />
+    <MESSAGE value="#4 - function i_entertainment v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="#4 - function i_entertainment v1" />
   </component>
 </project>
