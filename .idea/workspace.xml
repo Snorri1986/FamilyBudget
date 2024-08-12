@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#7 - welcome page v1(need test)">
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#7 - mvc annotation on dispatcher serv level">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybudget/welcome/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FamilyBudget-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybudget/welcome/WelcomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven.FamilyBudget [clean].executor": "Run",
-    "Maven.FamilyBudget [install].executor": "Run",
-    "Maven.FamilyBudget-LocalTomcat.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowVersion Control.ShowToolbar": "false",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Applications/FamilyBudget",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven.FamilyBudget [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.FamilyBudget [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.FamilyBudget [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowVersion Control.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Applications/FamilyBudget&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="FamilyBudget-LocalTomcat" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -66,7 +81,8 @@
             </option>
             <option name="goals">
               <list>
-                <option value="tomcat7:run" />
+                <option value="clean" />
+                <option value="install" />
               </list>
             </option>
             <option name="multimoduleDir" />
@@ -93,30 +109,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00004" summary="#1 - db_scheme_version2">
-      <option name="closed" value="true" />
-      <created>1719433705604</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1719433705604</updated>
-    </task>
-    <task id="LOCAL-00005" summary="#1 - insert for income_table">
-      <option name="closed" value="true" />
-      <created>1719434963696</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1719434963696</updated>
-    </task>
-    <task id="LOCAL-00006" summary="#1 - field type was replaced in all tabs">
-      <option name="closed" value="true" />
-      <created>1719435363999</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1719435363999</updated>
     </task>
     <task id="LOCAL-00007" summary="#1 - new version with new field name">
       <option name="closed" value="true" />
@@ -486,7 +478,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722367626079</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="#7 - pom.xml configuration">
+      <option name="closed" value="true" />
+      <created>1722450552293</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1722450552293</updated>
+    </task>
+    <task id="LOCAL-00054" summary="#7 - dispatcher servlet">
+      <option name="closed" value="true" />
+      <created>1722450815993</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1722450815993</updated>
+    </task>
+    <task id="LOCAL-00055" summary="#7 - mvc annotation on dispatcher serv level">
+      <option name="closed" value="true" />
+      <created>1722450863665</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1722450863665</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,9 +518,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#2 - for using FK on expenses_type.id" />
-    <MESSAGE value="#2 - FK travel_fk1 on expenses_type.id" />
-    <MESSAGE value="#2 - FK travel_fk3 on currency.id" />
     <MESSAGE value="#2 - renamed filed to use FK with expenses_type.id" />
     <MESSAGE value="#2 - FK entertainment_fk1 with expenses_type.id" />
     <MESSAGE value="#2 - FK entertainment_fk3 with currency.id" />
@@ -527,6 +540,9 @@
     <MESSAGE value="#4 - function i_telecom v1" />
     <MESSAGE value="#7 - make Maven project" />
     <MESSAGE value="#7 - welcome page v1(need test)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#7 - welcome page v1(need test)" />
+    <MESSAGE value="#7 - pom.xml configuration" />
+    <MESSAGE value="#7 - dispatcher servlet" />
+    <MESSAGE value="#7 - mvc annotation on dispatcher serv level" />
+    <option name="LAST_COMMIT_MESSAGE" value="#7 - mvc annotation on dispatcher serv level" />
   </component>
 </project>
