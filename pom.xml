@@ -11,7 +11,7 @@
 	<groupId>org.snorri1986</groupId>
 	<artifactId>FamilyBudget</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>FamilyBudget</name>
 	<description>Family Budget Java web application</description>
 	<url/>
