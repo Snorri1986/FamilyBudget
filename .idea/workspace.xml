@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#7 - add postgresql driver">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/appllication.properties" afterDir="false" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#7 - add credentials to connect to DB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/appllication.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/appllication.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FamilyBudget-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/FamilyBudget-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FamilyBudget-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/FamilyBudget-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +62,11 @@
     "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Normal-SpringBootRun">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="Normal-SpringBootRun" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.FamilyBudgetMain" />
       <module name="FamilyBudget" />
+      <option name="PROGRAM_PARAMETERS" value="clean install" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,8 +83,7 @@
             </option>
             <option name="goals">
               <list>
-                <option value="clean" />
-                <option value="install" />
+                <option value="spring-boot:run" />
               </list>
             </option>
             <option name="multimoduleDir" />
@@ -111,14 +114,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00010" summary="#1 - values for expenses table">
-      <option name="closed" value="true" />
-      <created>1719606029156</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1719606029156</updated>
     </task>
     <task id="LOCAL-00011" summary="#1 - final version of db on this stage">
       <option name="closed" value="true" />
@@ -504,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723578633662</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="#7 - add credentials to connect to DB">
+      <option name="closed" value="true" />
+      <created>1723579257343</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1723579257343</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -525,7 +528,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#2 - renamed field for FK expenses_type.id" />
     <MESSAGE value="#2 - FK health_fk1 set for expenses_type.id" />
     <MESSAGE value="#2 - FK health_fk3 set for currency.id" />
     <MESSAGE value="#2 - FK set for expenses_type.id" />
@@ -550,6 +552,7 @@
     <MESSAGE value="#7 - another SpringBoot MVC project" />
     <MESSAGE value="#7 - add main class" />
     <MESSAGE value="#7 - add postgresql driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="#7 - add postgresql driver" />
+    <MESSAGE value="#7 - add credentials to connect to DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="#7 - add credentials to connect to DB" />
   </component>
 </project>
