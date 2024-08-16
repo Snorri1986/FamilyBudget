@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#10 - try without maven tags" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#10 - clean up for next deploy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,14 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00017" summary="#2 - income_fk3 executed with ref to currency.id">
-      <option name="closed" value="true" />
-      <created>1720552098594</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1720552098594</updated>
     </task>
     <task id="LOCAL-00018" summary="#2 - insert statement to income table">
       <option name="closed" value="true" />
@@ -514,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723829969866</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="#10 - clean up for next deploy">
+      <option name="closed" value="true" />
+      <created>1723830355511</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1723830355511</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -547,7 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#2 - stylish" />
     <MESSAGE value="#2 - last ER diagram" />
     <MESSAGE value="#2 - others" />
     <MESSAGE value="#4 - function i_income v1" />
@@ -572,6 +571,7 @@
     <MESSAGE value="#10 -add version of maven complir source and target" />
     <MESSAGE value="#10 - try with 3.11.0 version" />
     <MESSAGE value="#10 - try without maven tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="#10 - try without maven tags" />
+    <MESSAGE value="#10 - clean up for next deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="#10 - clean up for next deploy" />
   </component>
 </project>
