@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#10 - try with 3.11.0 version">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#10 - try without maven tags" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,14 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00016" summary="#2 - others">
-      <option name="closed" value="true" />
-      <created>1720473066572</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1720473066572</updated>
     </task>
     <task id="LOCAL-00017" summary="#2 - income_fk3 executed with ref to currency.id">
       <option name="closed" value="true" />
@@ -518,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723829412069</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="#10 - try without maven tags">
+      <option name="closed" value="true" />
+      <created>1723829969866</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1723829969866</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -551,7 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#2 - FK income_type_fk1 is not needed more" />
     <MESSAGE value="#2 - stylish" />
     <MESSAGE value="#2 - last ER diagram" />
     <MESSAGE value="#2 - others" />
@@ -576,6 +571,7 @@
     <MESSAGE value="#7 - hide connection credentials to DB" />
     <MESSAGE value="#10 -add version of maven complir source and target" />
     <MESSAGE value="#10 - try with 3.11.0 version" />
-    <option name="LAST_COMMIT_MESSAGE" value="#10 - try with 3.11.0 version" />
+    <MESSAGE value="#10 - try without maven tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="#10 - try without maven tags" />
   </component>
 </project>
