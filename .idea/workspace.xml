@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#10 - try with v.11">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#10 - try with v.17" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,14 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00019" summary="#2 - income.i_type changed to bigint">
-      <option name="closed" value="true" />
-      <created>1720552735308</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1720552735308</updated>
     </task>
     <task id="LOCAL-00020" summary="#2 - new references with income_type and currency tables">
       <option name="closed" value="true" />
@@ -516,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723830766299</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="#10 - try with v.17">
+      <option name="closed" value="true" />
+      <created>1723831017168</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1723831017168</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -549,7 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#2 - others" />
     <MESSAGE value="#4 - function i_income v1" />
     <MESSAGE value="#4 - function i_groceries v1" />
     <MESSAGE value="#4 - function i_housing_rent v1" />
@@ -574,6 +571,7 @@
     <MESSAGE value="#10 - try without maven tags" />
     <MESSAGE value="#10 - clean up for next deploy" />
     <MESSAGE value="#10 - try with v.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="#10 - try with v.11" />
+    <MESSAGE value="#10 - try with v.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="#10 - try with v.17" />
   </component>
 </project>
