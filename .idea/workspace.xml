@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#10 - add maven version">
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#10 - new maven in pom">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,14 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00023" summary="#2 - FK groceries_fk1 set to expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720553475032</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1720553475032</updated>
     </task>
     <task id="LOCAL-00024" summary="#2 - FK groceries_fk3 set to currency.id">
       <option name="closed" value="true" />
@@ -516,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724707515198</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="#10 - new maven in pom">
+      <option name="closed" value="true" />
+      <created>1724708433099</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1724708433099</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -549,7 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#4 - function i_travel v1" />
     <MESSAGE value="#4 - function i_entertainment v1" />
     <MESSAGE value="#4 - function i_health v1" />
     <MESSAGE value="#4 - function i_telecom v1" />
@@ -574,6 +573,7 @@
     <MESSAGE value="#10 - remove release tag" />
     <MESSAGE value="#10 - add system.properties file" />
     <MESSAGE value="#10 - add maven version" />
-    <option name="LAST_COMMIT_MESSAGE" value="#10 - add maven version" />
+    <MESSAGE value="#10 - new maven in pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="#10 - new maven in pom" />
   </component>
 </project>
