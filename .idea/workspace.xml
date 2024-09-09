@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#10 - new Maven version">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#8 - class for main page controller">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,14 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00026" summary="#2 - housing_rent_fk1 FK with expense_type.id">
-      <option name="closed" value="true" />
-      <created>1720817880824</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1720817880824</updated>
     </task>
     <task id="LOCAL-00027" summary="#2 - housing_rent_fk3 FK with currency.id">
       <option name="closed" value="true" />
@@ -516,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724709584799</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="#8 - class for main page controller">
+      <option name="closed" value="true" />
+      <created>1725912892863</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1725912892863</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -549,7 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#4 - function i_telecom v1" />
     <MESSAGE value="#7 - make Maven project" />
     <MESSAGE value="#7 - welcome page v1(need test)" />
     <MESSAGE value="#7 - pom.xml configuration" />
@@ -574,6 +573,7 @@
     <MESSAGE value="#10 - new maven in pom" />
     <MESSAGE value="#10 - JDK 17" />
     <MESSAGE value="#10 - new Maven version" />
-    <option name="LAST_COMMIT_MESSAGE" value="#10 - new Maven version" />
+    <MESSAGE value="#8 - class for main page controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="#8 - class for main page controller" />
   </component>
 </project>
