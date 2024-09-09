@@ -10,7 +10,7 @@ public class MainPageController {
   @GetMapping("/main")
   public String getMainPage(Model model) {
     //TODO: temp attribute.
-    model.addAttribute("the Date",java.time.LocalDateTime.now());
+    model.addAttribute("theDate",java.time.LocalDateTime.now());
     return "main";
   }
 }
