@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#8 - css file for static css rules">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#8 - + link to Bootstrap CSS library">
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,14 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00032" summary="#2 - FK entertainment_fk1 with expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720819369175</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1720819369175</updated>
     </task>
     <task id="LOCAL-00033" summary="#2 - FK entertainment_fk3 with currency.id">
       <option name="closed" value="true" />
@@ -517,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726085830780</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="#8 - + link to Bootstrap CSS library">
+      <option name="closed" value="true" />
+      <created>1726086596369</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1726086596369</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -550,7 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#7 - another SpringBoot MVC project" />
     <MESSAGE value="#7 - add main class" />
     <MESSAGE value="#7 - add postgresql driver" />
     <MESSAGE value="#7 - add credentials to connect to DB" />
@@ -575,6 +573,7 @@
     <MESSAGE value="#8 - set h1 and attribute on main.html" />
     <MESSAGE value="#8 - set title on main.html" />
     <MESSAGE value="#8 - css file for static css rules" />
-    <option name="LAST_COMMIT_MESSAGE" value="#8 - css file for static css rules" />
+    <MESSAGE value="#8 - + link to Bootstrap CSS library" />
+    <option name="LAST_COMMIT_MESSAGE" value="#8 - + link to Bootstrap CSS library" />
   </component>
 </project>
