@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#8 - main page html sorce">
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#8 - set title on main.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,22 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00029" summary="#2 - FK travel_fk1 on expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720818472618</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1720818472618</updated>
-    </task>
-    <task id="LOCAL-00030" summary="#2 - FK travel_fk3 on currency.id">
-      <option name="closed" value="true" />
-      <created>1720818629063</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1720818629063</updated>
     </task>
     <task id="LOCAL-00031" summary="#2 - renamed filed to use FK with expenses_type.id">
       <option name="closed" value="true" />
@@ -518,7 +500,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725913367428</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="#8 - set h1 and attribute on main.html">
+      <option name="closed" value="true" />
+      <created>1725915060652</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1725915060652</updated>
+    </task>
+    <task id="LOCAL-00079" summary="#8 - set title on main.html">
+      <option name="closed" value="true" />
+      <created>1725915190486</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1725915190486</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -551,8 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#7 - pom.xml configuration" />
-    <MESSAGE value="#7 - dispatcher servlet" />
     <MESSAGE value="#7 - mvc annotation on dispatcher serv level" />
     <MESSAGE value="#7 - another SpringBoot MVC project" />
     <MESSAGE value="#7 - add main class" />
@@ -576,6 +572,8 @@
     <MESSAGE value="#8 - class for main page controller" />
     <MESSAGE value="#8 - main page controller prototype" />
     <MESSAGE value="#8 - main page html sorce" />
-    <option name="LAST_COMMIT_MESSAGE" value="#8 - main page html sorce" />
+    <MESSAGE value="#8 - set h1 and attribute on main.html" />
+    <MESSAGE value="#8 - set title on main.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#8 - set title on main.html" />
   </component>
 </project>
