@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#8 - set title on main.html">
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#8 - css file for static css rules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,14 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00031" summary="#2 - renamed filed to use FK with expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720819153766</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1720819153766</updated>
     </task>
     <task id="LOCAL-00032" summary="#2 - FK entertainment_fk1 with expenses_type.id">
       <option name="closed" value="true" />
@@ -516,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725915190486</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="#8 - css file for static css rules">
+      <option name="closed" value="true" />
+      <created>1726085830780</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1726085830780</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -549,7 +550,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#7 - mvc annotation on dispatcher serv level" />
     <MESSAGE value="#7 - another SpringBoot MVC project" />
     <MESSAGE value="#7 - add main class" />
     <MESSAGE value="#7 - add postgresql driver" />
@@ -574,6 +574,7 @@
     <MESSAGE value="#8 - main page html sorce" />
     <MESSAGE value="#8 - set h1 and attribute on main.html" />
     <MESSAGE value="#8 - set title on main.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#8 - set title on main.html" />
+    <MESSAGE value="#8 - css file for static css rules" />
+    <option name="LAST_COMMIT_MESSAGE" value="#8 - css file for static css rules" />
   </component>
 </project>
