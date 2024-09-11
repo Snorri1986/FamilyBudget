@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#8 - added meta teg for responsive page">
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#8 - changed to bootstrap v5.3.3">
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,14 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00034" summary="#2 - renamed field for FK expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720896131682</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1720896131682</updated>
     </task>
     <task id="LOCAL-00035" summary="#2 - FK health_fk1 set for expenses_type.id">
       <option name="closed" value="true" />
@@ -516,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726087022371</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="#8 - changed to bootstrap v5.3.3">
+      <option name="closed" value="true" />
+      <created>1726087249605</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1726087249605</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -549,7 +550,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#7 - add postgresql driver" />
     <MESSAGE value="#7 - add credentials to connect to DB" />
     <MESSAGE value="#7 - add spring-boot-starter-data-jpa" />
     <MESSAGE value="#7 - add DataSourceConfig with bean" />
@@ -574,6 +574,7 @@
     <MESSAGE value="#8 - css file for static css rules" />
     <MESSAGE value="#8 - + link to Bootstrap CSS library" />
     <MESSAGE value="#8 - added meta teg for responsive page" />
-    <option name="LAST_COMMIT_MESSAGE" value="#8 - added meta teg for responsive page" />
+    <MESSAGE value="#8 - changed to bootstrap v5.3.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="#8 - changed to bootstrap v5.3.3" />
   </component>
 </project>
