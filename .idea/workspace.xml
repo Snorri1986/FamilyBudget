@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#8 - buttons on the center">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#8 - other texts on the center">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="v0.0.6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,14 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00041" summary="#2 - stylish">
-      <option name="closed" value="true" />
-      <created>1720897211153</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1720897211153</updated>
     </task>
     <task id="LOCAL-00042" summary="#2 - last ER diagram">
       <option name="closed" value="true" />
@@ -516,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727728091516</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="#8 - other texts on the center">
+      <option name="closed" value="true" />
+      <created>1727728281108</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1727728281108</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -529,19 +529,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -549,7 +537,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#10 - try without maven tags" />
     <MESSAGE value="#10 - clean up for next deploy" />
     <MESSAGE value="#10 - try with v.11" />
     <MESSAGE value="#10 - try with v.17" />
@@ -574,6 +561,7 @@
     <MESSAGE value="#8 - added ref to css file" />
     <MESSAGE value="#8 - just rename area-label and added css file" />
     <MESSAGE value="#8 - buttons on the center" />
-    <option name="LAST_COMMIT_MESSAGE" value="#8 - buttons on the center" />
+    <MESSAGE value="#8 - other texts on the center" />
+    <option name="LAST_COMMIT_MESSAGE" value="#8 - other texts on the center" />
   </component>
 </project>
