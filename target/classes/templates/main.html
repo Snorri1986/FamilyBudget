@@ -8,12 +8,13 @@
           rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
           crossorigin="anonymous">
+    <link th:href="@{/css/main.css}" rel="stylesheet" />
     <title>FamilyBudget Cloud App</title>
 </head>
 <body>
 <h1>Welcome to FamilyBudget Cloud Application</h1>
 <p th:text="'Time on a server is ' + ${theDate}" />
-<div class="btn-group" role="group" aria-label="Basic example">
+<div class="btn-group" role="group" aria-label="Buttons of spending's ">
     <button type="button" class="btn btn-primary btn-lg">Incomes</button>
     <button type="button" class="btn btn-primary btn-lg">Entertainment</button>
     <button type="button" class="btn btn-primary btn-lg">Groceries</button>
