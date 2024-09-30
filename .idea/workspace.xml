@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#10 - new maven in pom">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#8 - buttons on the center">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,142 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00024" summary="#2 - FK groceries_fk3 set to currency.id">
-      <option name="closed" value="true" />
-      <created>1720817175253</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1720817175253</updated>
-    </task>
-    <task id="LOCAL-00025" summary="#2 - renamed for using FK with expense_type.id">
-      <option name="closed" value="true" />
-      <created>1720817556931</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1720817556931</updated>
-    </task>
-    <task id="LOCAL-00026" summary="#2 - housing_rent_fk1 FK with expense_type.id">
-      <option name="closed" value="true" />
-      <created>1720817880824</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1720817880824</updated>
-    </task>
-    <task id="LOCAL-00027" summary="#2 - housing_rent_fk3 FK with currency.id">
-      <option name="closed" value="true" />
-      <created>1720818062389</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1720818062389</updated>
-    </task>
-    <task id="LOCAL-00028" summary="#2 - for using FK on expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720818345513</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1720818345513</updated>
-    </task>
-    <task id="LOCAL-00029" summary="#2 - FK travel_fk1 on expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720818472618</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1720818472618</updated>
-    </task>
-    <task id="LOCAL-00030" summary="#2 - FK travel_fk3 on currency.id">
-      <option name="closed" value="true" />
-      <created>1720818629063</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1720818629063</updated>
-    </task>
-    <task id="LOCAL-00031" summary="#2 - renamed filed to use FK with expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720819153766</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1720819153766</updated>
-    </task>
-    <task id="LOCAL-00032" summary="#2 - FK entertainment_fk1 with expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720819369175</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1720819369175</updated>
-    </task>
-    <task id="LOCAL-00033" summary="#2 - FK entertainment_fk3 with currency.id">
-      <option name="closed" value="true" />
-      <created>1720819521959</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1720819521959</updated>
-    </task>
-    <task id="LOCAL-00034" summary="#2 - renamed field for FK expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720896131682</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1720896131682</updated>
-    </task>
-    <task id="LOCAL-00035" summary="#2 - FK health_fk1 set for expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720896238827</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1720896238827</updated>
-    </task>
-    <task id="LOCAL-00036" summary="#2 - FK health_fk3 set for currency.id">
-      <option name="closed" value="true" />
-      <created>1720896391744</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1720896391744</updated>
-    </task>
-    <task id="LOCAL-00037" summary="#2 - FK set for expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720896573444</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1720896573444</updated>
-    </task>
-    <task id="LOCAL-00038" summary="#2 - FK telecom_fk1 set for expenses_type.id">
-      <option name="closed" value="true" />
-      <created>1720896661816</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1720896661816</updated>
-    </task>
-    <task id="LOCAL-00039" summary="#2 - FK telecom_fk3 set for currency.id">
-      <option name="closed" value="true" />
-      <created>1720896790271</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1720896790271</updated>
-    </task>
-    <task id="LOCAL-00040" summary="#2 - FK income_type_fk1 is not needed more">
-      <option name="closed" value="true" />
-      <created>1720897175376</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1720897175376</updated>
     </task>
     <task id="LOCAL-00041" summary="#2 - stylish">
       <option name="closed" value="true" />
@@ -516,7 +380,143 @@
       <option name="project" value="LOCAL" />
       <updated>1724708433099</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="#10 - JDK 17">
+      <option name="closed" value="true" />
+      <created>1724709416107</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1724709416107</updated>
+    </task>
+    <task id="LOCAL-00074" summary="#10 - new Maven version">
+      <option name="closed" value="true" />
+      <created>1724709584799</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1724709584799</updated>
+    </task>
+    <task id="LOCAL-00075" summary="#8 - class for main page controller">
+      <option name="closed" value="true" />
+      <created>1725912892863</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1725912892863</updated>
+    </task>
+    <task id="LOCAL-00076" summary="#8 - main page controller prototype">
+      <option name="closed" value="true" />
+      <created>1725913302765</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1725913302765</updated>
+    </task>
+    <task id="LOCAL-00077" summary="#8 - main page html sorce">
+      <option name="closed" value="true" />
+      <created>1725913367428</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1725913367428</updated>
+    </task>
+    <task id="LOCAL-00078" summary="#8 - set h1 and attribute on main.html">
+      <option name="closed" value="true" />
+      <created>1725915060652</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1725915060652</updated>
+    </task>
+    <task id="LOCAL-00079" summary="#8 - set title on main.html">
+      <option name="closed" value="true" />
+      <created>1725915190486</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1725915190486</updated>
+    </task>
+    <task id="LOCAL-00080" summary="#8 - css file for static css rules">
+      <option name="closed" value="true" />
+      <created>1726085830780</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1726085830780</updated>
+    </task>
+    <task id="LOCAL-00081" summary="#8 - + link to Bootstrap CSS library">
+      <option name="closed" value="true" />
+      <created>1726086596369</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1726086596369</updated>
+    </task>
+    <task id="LOCAL-00082" summary="#8 - added meta teg for responsive page">
+      <option name="closed" value="true" />
+      <created>1726087022371</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1726087022371</updated>
+    </task>
+    <task id="LOCAL-00083" summary="#8 - changed to bootstrap v5.3.3">
+      <option name="closed" value="true" />
+      <created>1726087249605</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1726087249605</updated>
+    </task>
+    <task id="LOCAL-00084" summary="#8 - added JS script as suggested main docs">
+      <option name="closed" value="true" />
+      <created>1726087517178</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1726087517178</updated>
+    </task>
+    <task id="LOCAL-00085" summary="#8 - buttons v1">
+      <option name="closed" value="true" />
+      <created>1726088086046</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1726088086046</updated>
+    </task>
+    <task id="LOCAL-00086" summary="#8 - just rename file">
+      <option name="closed" value="true" />
+      <created>1727726946285</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1727726946286</updated>
+    </task>
+    <task id="LOCAL-00087" summary="#8 - added ref to css file">
+      <option name="closed" value="true" />
+      <created>1727727378383</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1727727378383</updated>
+    </task>
+    <task id="LOCAL-00088" summary="#8 - just rename area-label and added css file">
+      <option name="closed" value="true" />
+      <created>1727727585681</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1727727585681</updated>
+    </task>
+    <task id="LOCAL-00089" summary="#8 - buttons on the center">
+      <option name="closed" value="true" />
+      <created>1727728091516</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1727728091516</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -549,23 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#4 - function i_entertainment v1" />
-    <MESSAGE value="#4 - function i_health v1" />
-    <MESSAGE value="#4 - function i_telecom v1" />
-    <MESSAGE value="#7 - make Maven project" />
-    <MESSAGE value="#7 - welcome page v1(need test)" />
-    <MESSAGE value="#7 - pom.xml configuration" />
-    <MESSAGE value="#7 - dispatcher servlet" />
-    <MESSAGE value="#7 - mvc annotation on dispatcher serv level" />
-    <MESSAGE value="#7 - another SpringBoot MVC project" />
-    <MESSAGE value="#7 - add main class" />
-    <MESSAGE value="#7 - add postgresql driver" />
-    <MESSAGE value="#7 - add credentials to connect to DB" />
-    <MESSAGE value="#7 - add spring-boot-starter-data-jpa" />
-    <MESSAGE value="#7 - add DataSourceConfig with bean" />
-    <MESSAGE value="#7 - hide connection credentials to DB" />
-    <MESSAGE value="#10 -add version of maven complir source and target" />
-    <MESSAGE value="#10 - try with 3.11.0 version" />
     <MESSAGE value="#10 - try without maven tags" />
     <MESSAGE value="#10 - clean up for next deploy" />
     <MESSAGE value="#10 - try with v.11" />
@@ -574,6 +557,23 @@
     <MESSAGE value="#10 - add system.properties file" />
     <MESSAGE value="#10 - add maven version" />
     <MESSAGE value="#10 - new maven in pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="#10 - new maven in pom" />
+    <MESSAGE value="#10 - JDK 17" />
+    <MESSAGE value="#10 - new Maven version" />
+    <MESSAGE value="#8 - class for main page controller" />
+    <MESSAGE value="#8 - main page controller prototype" />
+    <MESSAGE value="#8 - main page html sorce" />
+    <MESSAGE value="#8 - set h1 and attribute on main.html" />
+    <MESSAGE value="#8 - set title on main.html" />
+    <MESSAGE value="#8 - css file for static css rules" />
+    <MESSAGE value="#8 - + link to Bootstrap CSS library" />
+    <MESSAGE value="#8 - added meta teg for responsive page" />
+    <MESSAGE value="#8 - changed to bootstrap v5.3.3" />
+    <MESSAGE value="#8 - added JS script as suggested main docs" />
+    <MESSAGE value="#8 - buttons v1" />
+    <MESSAGE value="#8 - just rename file" />
+    <MESSAGE value="#8 - added ref to css file" />
+    <MESSAGE value="#8 - just rename area-label and added css file" />
+    <MESSAGE value="#8 - buttons on the center" />
+    <option name="LAST_COMMIT_MESSAGE" value="#8 - buttons on the center" />
   </component>
 </project>
