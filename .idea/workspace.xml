@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#20 - workspace.xml" />
+    <list default="true" id="8c83fa70-03ad-46ac-b373-579e3de63fe7" name="Changes" comment="#20 - clean up">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,14 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718305164261</updated>
-    </task>
-    <task id="LOCAL-00043" summary="#2 - others">
-      <option name="closed" value="true" />
-      <created>1720897827561</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1720897827561</updated>
     </task>
     <task id="LOCAL-00044" summary="#4 - function i_income v1">
       <option name="closed" value="true" />
@@ -514,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727730315603</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="#20 - clean up">
+      <option name="closed" value="true" />
+      <created>1727899172074</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1727899172074</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -567,7 +570,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="#10 - try with v.11" />
     <MESSAGE value="#10 - try with v.17" />
     <MESSAGE value="#10 - remove release tag" />
     <MESSAGE value="#10 - add system.properties file" />
@@ -592,6 +594,7 @@
     <MESSAGE value="#8 - buttons on the center" />
     <MESSAGE value="#18 - added dependency" />
     <MESSAGE value="#20 - workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="#20 - workspace.xml" />
+    <MESSAGE value="#20 - clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="#20 - clean up" />
   </component>
 </project>
