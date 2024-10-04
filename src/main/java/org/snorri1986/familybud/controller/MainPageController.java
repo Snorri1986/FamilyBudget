@@ -23,4 +23,9 @@ public class MainPageController {
   public String getEntertainmentPage() {
     return "entertainment";
   }
+
+  @GetMapping("/groceries")
+  public String getGroceriesPage() {
+    return "groceries";
+  }
 }
