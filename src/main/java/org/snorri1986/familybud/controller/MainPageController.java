@@ -38,4 +38,9 @@ public class MainPageController {
   public String getRentHousingPage() {
     return "renthousing";
   }
+
+  @GetMapping("/telecom")
+  public String getTelecomPage() {
+    return "telecom";
+  }
 }
