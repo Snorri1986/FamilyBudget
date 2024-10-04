@@ -43,4 +43,9 @@ public class MainPageController {
   public String getTelecomPage() {
     return "telecom";
   }
+
+  @GetMapping("/travel")
+  public String getTravelPage() {
+    return "travel";
+  }
 }
