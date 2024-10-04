@@ -28,4 +28,9 @@ public class MainPageController {
   public String getGroceriesPage() {
     return "groceries";
   }
+
+  @GetMapping("/health")
+  public String getHealthPage() {
+    return "health";
+  }
 }
