@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#26 - method on controller for income.html">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#26 - method on controller for health.html">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728072323895</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="#26 - method on controller for entertainment.html">
+      <option name="closed" value="true" />
+      <created>1728072491148</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728072491148</updated>
+    </task>
+    <task id="LOCAL-00014" summary="#26 - method on controller for groceries.html">
+      <option name="closed" value="true" />
+      <created>1728072614819</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728072614819</updated>
+    </task>
+    <task id="LOCAL-00015" summary="#26 - method on controller for health.html">
+      <option name="closed" value="true" />
+      <created>1728072718986</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728072718986</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,6 +226,9 @@
     <MESSAGE value="#26 - basis for travel.html" />
     <MESSAGE value="#26 - basis for others.html" />
     <MESSAGE value="#26 - method on controller for income.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#26 - method on controller for income.html" />
+    <MESSAGE value="#26 - method on controller for entertainment.html" />
+    <MESSAGE value="#26 - method on controller for groceries.html" />
+    <MESSAGE value="#26 - method on controller for health.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#26 - method on controller for health.html" />
   </component>
 </project>

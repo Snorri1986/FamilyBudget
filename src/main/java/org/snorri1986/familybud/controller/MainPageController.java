@@ -33,4 +33,9 @@ public class MainPageController {
   public String getHealthPage() {
     return "health";
   }
+
+  @GetMapping("/renthousing")
+  public String getRentHousingPage() {
+    return "renthousing";
+  }
 }
