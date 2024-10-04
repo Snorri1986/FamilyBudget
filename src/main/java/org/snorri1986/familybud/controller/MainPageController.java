@@ -13,4 +13,9 @@ public class MainPageController {
     model.addAttribute("theDate",java.time.LocalDateTime.now());
     return "main";
   }
+
+  @GetMapping("/income")
+  public String getIncomePage() {
+    return "income";
+  }
 }
