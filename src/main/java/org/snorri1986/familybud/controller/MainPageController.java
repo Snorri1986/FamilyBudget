@@ -18,4 +18,9 @@ public class MainPageController {
   public String getIncomePage() {
     return "income";
   }
+
+  @GetMapping("/entertainment")
+  public String getEntertainmentPage() {
+    return "entertainment";
+  }
 }

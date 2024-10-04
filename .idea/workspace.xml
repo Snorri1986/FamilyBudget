@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#26 - basis for travel.html">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/others.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#26 - method on controller for income.html">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +169,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728071938353</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="#26 - basis for others.html">
+      <option name="closed" value="true" />
+      <created>1728072127320</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728072127320</updated>
+    </task>
+    <task id="LOCAL-00012" summary="#26 - method on controller for income.html">
+      <option name="closed" value="true" />
+      <created>1728072323895</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728072323895</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,6 +201,8 @@
     <MESSAGE value="#26 - basis for renthousing.html" />
     <MESSAGE value="#26 - basis for telecom.html" />
     <MESSAGE value="#26 - basis for travel.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#26 - basis for travel.html" />
+    <MESSAGE value="#26 - basis for others.html" />
+    <MESSAGE value="#26 - method on controller for income.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#26 - method on controller for income.html" />
   </component>
 </project>
