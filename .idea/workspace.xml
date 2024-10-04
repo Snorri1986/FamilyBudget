@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#26 - basis for health.html">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#26 - basis for travel.html">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/others.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728071314523</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="#26 - basis for renthousing.html">
+      <option name="closed" value="true" />
+      <created>1728071706036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728071706036</updated>
+    </task>
+    <task id="LOCAL-00009" summary="#26 - basis for telecom.html">
+      <option name="closed" value="true" />
+      <created>1728071822473</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728071822473</updated>
+    </task>
+    <task id="LOCAL-00010" summary="#26 - basis for travel.html">
+      <option name="closed" value="true" />
+      <created>1728071938353</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728071938353</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -157,6 +181,9 @@
     <MESSAGE value="#26 - basis for entertainment.html" />
     <MESSAGE value="#26 - basis for groceries.html" />
     <MESSAGE value="#26 - basis for health.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#26 - basis for health.html" />
+    <MESSAGE value="#26 - basis for renthousing.html" />
+    <MESSAGE value="#26 - basis for telecom.html" />
+    <MESSAGE value="#26 - basis for travel.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#26 - basis for travel.html" />
   </component>
 </project>
