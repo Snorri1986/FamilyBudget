@@ -48,4 +48,9 @@ public class MainPageController {
   public String getTravelPage() {
     return "travel";
   }
+
+  @GetMapping("/others")
+  public String getOthersPage() {
+    return "others";
+  }
 }

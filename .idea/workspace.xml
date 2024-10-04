@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#26 - method on controller for health.html">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#26 - method on controller for travel.html">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +208,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728072718986</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="#26 - method on controller for renthousing.html">
+      <option name="closed" value="true" />
+      <created>1728072829325</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728072829325</updated>
+    </task>
+    <task id="LOCAL-00017" summary="#26 - method on controller for telecom.html">
+      <option name="closed" value="true" />
+      <created>1728072966347</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728072966347</updated>
+    </task>
+    <task id="LOCAL-00018" summary="#26 - method on controller for travel.html">
+      <option name="closed" value="true" />
+      <created>1728073082333</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728073082333</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,6 +253,9 @@
     <MESSAGE value="#26 - method on controller for entertainment.html" />
     <MESSAGE value="#26 - method on controller for groceries.html" />
     <MESSAGE value="#26 - method on controller for health.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#26 - method on controller for health.html" />
+    <MESSAGE value="#26 - method on controller for renthousing.html" />
+    <MESSAGE value="#26 - method on controller for telecom.html" />
+    <MESSAGE value="#26 - method on controller for travel.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#26 - method on controller for travel.html" />
   </component>
 </project>
