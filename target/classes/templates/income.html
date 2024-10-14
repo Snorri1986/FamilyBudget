@@ -13,6 +13,39 @@
 </head>
 <body>
 <h1>On Income page</h1>
+
+<!-- code needs modify. Not completed -->
+<div class="container mt-5">
+    <h2>Register User</h2>
+    <form th:action="@{/registerIncome}" th:object="${income_mod_attribute}" method="post" class="needs-validation">
+        <div class="form-group">
+            <label for="incType">IncomeType:</label>
+            <input type="text" class="form-control" id="incType" th:field="*{incomeType}" required>
+        </div>
+        <div class="form-group">
+            <label for="amount">Amount:</label>
+            <input type="text" class="form-control" id="amount" th:field="*{amount}" required>
+        </div>
+        <div class="form-group">
+            <label for="currency">Currency:</label>
+            <input type="text" class="form-control" id="currency" th:field="*{currency}" required>
+        </div>
+        <div class="form-group">
+            <label for="transDate">Transaction Date:</label>
+            <input type="text" class="form-control" id="transDate" th:field="*{transactionDate}" required>
+        </div>
+        <div class="form-group">
+            <label for="cardNum">Card:</label>
+            <input type="text" class="form-control" id="cardNum" th:field="*{cardNum}" required>
+        </div>
+        <div class="form-group">
+            <label for="operDesc">Description:</label>
+            <input type="text" class="form-control" id="operDesc" th:field="*{operDescription}" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<!-- -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
