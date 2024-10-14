@@ -16,14 +16,14 @@
 <p th:text="'Time on a server is ' + ${theDate}" />
 <div class="text-center">
     <div class="btn-group" role="group" aria-label="Buttons of spending's ">
-    <button type="button" class="btn btn-primary btn-lg">Incomes</button>
-    <button type="button" class="btn btn-primary btn-lg">Entertainment</button>
-    <button type="button" class="btn btn-primary btn-lg">Groceries</button>
-    <button type="button" class="btn btn-primary btn-lg">Health</button>
-    <button type="button" class="btn btn-primary btn-lg">Rent/Housing</button>
-    <button type="button" class="btn btn-primary btn-lg">Telecom</button>
-    <button type="button" class="btn btn-primary btn-lg">Travel</button>
-    <button type="button" class="btn btn-primary btn-lg">Others</button>
+    <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/income}'|">Incomes</button>
+    <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/entertainment}'|">Entertainment</button>
+    <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/groceries}'|">Groceries</button>
+    <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/health}'|">Health</button>
+    <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/renthousing}'|">Rent/Housing</button>
+    <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/telecom}'|">Telecom</button>
+    <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/travel}'|">Travel</button>
+    <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/others}'|">Others</button>
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
