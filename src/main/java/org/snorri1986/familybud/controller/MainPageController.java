@@ -1,5 +1,6 @@
 package org.snorri1986.familybud.controller;
 
+import org.snorri1986.familybud.models.IncomeModel;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +16,8 @@ public class MainPageController {
   }
 
   @GetMapping("/income")
-  public String getIncomePage() {
+  public String getIncomePage(Model model) {
+    model.addAttribute("income_mod_attribute", new IncomeModel());
     return "income";
   }
 
