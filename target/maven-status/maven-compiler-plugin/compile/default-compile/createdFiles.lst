@@ -1,3 +1,5 @@
+org\snorri1986\familybud\models\IncomeModel.class
 org\snorri1986\familybud\FamilyBudgetMain.class
 org\snorri1986\familybud\controller\MainPageController.class
 org\snorri1986\familybud\DataSourceConfig.class
+org\snorri1986\familybud\controller\WebFormsController.class
