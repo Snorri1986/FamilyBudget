@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#28 - new controller and submitIncomeForm method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#28 - others" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +263,39 @@
       <option name="project" value="LOCAL" />
       <updated>1728938666920</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="#28 - web form v1 to income.html">
+      <option name="closed" value="true" />
+      <created>1728939713957</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1728939713957</updated>
+    </task>
+    <task id="LOCAL-00024" summary="#28 - getIncomePage method with Model">
+      <option name="closed" value="true" />
+      <created>1728939765425</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1728939765425</updated>
+    </task>
+    <task id="LOCAL-00025" summary="#28 - getIncomePage method with Model">
+      <option name="closed" value="true" />
+      <created>1728939773425</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1728939773425</updated>
+    </task>
+    <task id="LOCAL-00026" summary="#28 - others">
+      <option name="closed" value="true" />
+      <created>1728939863332</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1728939863332</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,8 +310,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#8 - other texts on the center" />
-    <MESSAGE value="#8 - del file" />
     <MESSAGE value="#23 - removed duplicate declaration for actuator" />
     <MESSAGE value="#8 - buttons on the center" />
     <MESSAGE value="#26 - base for income.html" />
@@ -306,6 +332,9 @@
     <MESSAGE value="#26 - others" />
     <MESSAGE value="#28 - model of incomes" />
     <MESSAGE value="#28 - new controller and submitIncomeForm method" />
-    <option name="LAST_COMMIT_MESSAGE" value="#28 - new controller and submitIncomeForm method" />
+    <MESSAGE value="#28 - web form v1 to income.html" />
+    <MESSAGE value="#28 - getIncomePage method with Model" />
+    <MESSAGE value="#28 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#28 - others" />
   </component>
 </project>
