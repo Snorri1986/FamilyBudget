@@ -21,8 +21,10 @@ public class MainPageController {
   @GetMapping("/income")
   public String getIncomePage(Model model) {
     List<String> incomes = Arrays.asList("Salary", "Bonus", "WorkRefund", "ShopRefund", "Other");
+    List<String> currencyNames = Arrays.asList("DKK", "EUR", "USD", "UAH", "Other");
     model.addAttribute("income_mod_attribute", new IncomeModel());
     model.addAttribute("incomes", incomes);
+    model.addAttribute("currencyNames", currencyNames);
     return "income";
   }
 
