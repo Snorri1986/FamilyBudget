@@ -5,6 +5,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import java.util.Arrays;
+import java.util.List;
+
 @Controller
 public class MainPageController {
 
@@ -17,7 +20,9 @@ public class MainPageController {
 
   @GetMapping("/income")
   public String getIncomePage(Model model) {
+    List<String> incomes = Arrays.asList("Salary", "Bonus", "WorkRefund", "ShopRefund", "Other");
     model.addAttribute("income_mod_attribute", new IncomeModel());
+    model.addAttribute("incomes", incomes);
     return "income";
   }
 
