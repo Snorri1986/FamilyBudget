@@ -8,15 +8,13 @@
           rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
           crossorigin="anonymous">
-    <!-- <link th:href="@{/css/main.css}" rel="stylesheet" /> -->
+    <link th:href="@{/css/income.css}" rel="stylesheet" />
     <title>Income page</title>
 </head>
 <body>
-<h1>On Income page</h1>
-
+<h1>Income page</h1>
 <!-- code needs modify. Not completed -->
 <div class="container mt-5">
-    <h2>Register User</h2>
     <form th:action="@{/registerIncome}" th:object="${income_mod_attribute}" method="post" class="needs-validation">
         <div class="form-group">
             <label for="incType">IncomeType:</label>
@@ -31,8 +29,8 @@
             <input type="text" class="form-control" id="currency" th:field="*{currency}" required>
         </div>
         <div class="form-group">
-            <label for="transDate">Transaction Date:</label>
-            <input type="text" class="form-control" id="transDate" th:field="*{transactionDate}" required>
+            <label for="transDate">Transaction Date(dd.mm.yyyy hh:mm):</label>
+            <input type="text" class="form-control" id="transDate"  th:field="*{transactionDate}" required>
         </div>
         <div class="form-group">
             <label for="cardNum">Card:</label>
