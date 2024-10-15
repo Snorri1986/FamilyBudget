@@ -1,11 +1,14 @@
 package org.snorri1986.familybud.models;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 public class IncomeModel {
   private String incomeType;
   private int amount;
   private String currency;
+  @DateTimeFormat(pattern = "dd.MM.yyyy HH:mm")
   private Date transactionDate;
   private int cardNum;
   private String operDescription;
