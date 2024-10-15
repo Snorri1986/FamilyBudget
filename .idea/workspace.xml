@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#28 - make some style">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/IncomeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/IncomeModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#28 - add little css to income page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -307,7 +303,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729016362330</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="#28 - date pattern in model">
+      <option name="closed" value="true" />
+      <created>1729017586022</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1729017586022</updated>
+    </task>
+    <task id="LOCAL-00029" summary="#28 - add example for date field">
+      <option name="closed" value="true" />
+      <created>1729017618941</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1729017618941</updated>
+    </task>
+    <task id="LOCAL-00030" summary="#28 - add little css to income page">
+      <option name="closed" value="true" />
+      <created>1729017803085</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1729017803085</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,9 +342,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#8 - buttons on the center" />
-    <MESSAGE value="#26 - base for income.html" />
-    <MESSAGE value="#26 - added links to redirection" />
     <MESSAGE value="#26 - basis for entertainment.html" />
     <MESSAGE value="#26 - basis for groceries.html" />
     <MESSAGE value="#26 - basis for health.html" />
@@ -347,6 +364,9 @@
     <MESSAGE value="#28 - getIncomePage method with Model" />
     <MESSAGE value="#28 - others" />
     <MESSAGE value="#28 - make some style" />
-    <option name="LAST_COMMIT_MESSAGE" value="#28 - make some style" />
+    <MESSAGE value="#28 - date pattern in model" />
+    <MESSAGE value="#28 - add example for date field" />
+    <MESSAGE value="#28 - add little css to income page" />
+    <option name="LAST_COMMIT_MESSAGE" value="#28 - add little css to income page" />
   </component>
 </project>
