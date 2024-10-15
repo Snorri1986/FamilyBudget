@@ -18,8 +18,7 @@
     <form th:action="@{/registerIncome}" th:object="${income_mod_attribute}" method="post" class="needs-validation">
         <div class="form-group">
             <label for="incType">IncomeType:</label>
-            <!-- <input type="text" class="form-control" id="incType" th:field="*{incomeType}" required> -->
-            <select id="incType" name="country">
+            <select id="incType" name="country" th:field="*{incomeType}" required>>
                 <option value="">-- Select income type --</option>
                 <option th:each="incType : ${incomes}"
                         th:value="${incType}"
