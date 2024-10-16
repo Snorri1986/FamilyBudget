@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#28 - added drop-down list to currency field">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#28 - income.html with web-form(final)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/EntertainmentModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -370,7 +370,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729019335657</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="#28 - added calendar with Flatpick libray">
+      <option name="closed" value="true" />
+      <created>1729110201721</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1729110201721</updated>
+    </task>
+    <task id="LOCAL-00037" summary="#28 - income.html with web-form(final)">
+      <option name="closed" value="true" />
+      <created>1729110342225</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1729110342225</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,8 +401,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#26 - basis for travel.html" />
-    <MESSAGE value="#26 - basis for others.html" />
     <MESSAGE value="#26 - method on controller for income.html" />
     <MESSAGE value="#26 - method on controller for entertainment.html" />
     <MESSAGE value="#26 - method on controller for groceries.html" />
@@ -410,6 +424,8 @@
     <MESSAGE value="#28 - add form validation for incomeType field" />
     <MESSAGE value="#28 - name attribute is fixed" />
     <MESSAGE value="#28 - added drop-down list to currency field" />
-    <option name="LAST_COMMIT_MESSAGE" value="#28 - added drop-down list to currency field" />
+    <MESSAGE value="#28 - added calendar with Flatpick libray" />
+    <MESSAGE value="#28 - income.html with web-form(final)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#28 - income.html with web-form(final)" />
   </component>
 </project>
