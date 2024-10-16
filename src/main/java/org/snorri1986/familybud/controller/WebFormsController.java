@@ -1,5 +1,6 @@
 package org.snorri1986.familybud.controller;
 
+import org.snorri1986.familybud.models.EntertainmentModel;
 import org.snorri1986.familybud.models.IncomeModel;
 import org.springframework.stereotype.Controller;
 
@@ -13,6 +14,14 @@ public class WebFormsController {
   public String submitIncomeForm(@ModelAttribute("income_mod_attribute") IncomeModel income) {
     // Temporary code
     System.out.println("Income Registered: " + income.getOperDescription());
+    //TODO: add this page
+    return "register_success";
+  }
+
+  @PostMapping("/registerEntertainment")
+  public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModel entModel) {
+    // Temporary code
+    System.out.println("Entertainment Registered: " + entModel.getOperDescription());
     //TODO: add this page
     return "register_success";
   }
