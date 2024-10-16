@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#28 - income.html with web-form(final)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/EntertainmentModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#29 - model for entertainment.html">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/entertainment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729110342225</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="#29 - model for entertainment.html">
+      <option name="closed" value="true" />
+      <created>1729111264115</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111264115</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,7 +411,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#26 - method on controller for income.html" />
     <MESSAGE value="#26 - method on controller for entertainment.html" />
     <MESSAGE value="#26 - method on controller for groceries.html" />
     <MESSAGE value="#26 - method on controller for health.html" />
@@ -426,6 +435,7 @@
     <MESSAGE value="#28 - added drop-down list to currency field" />
     <MESSAGE value="#28 - added calendar with Flatpick libray" />
     <MESSAGE value="#28 - income.html with web-form(final)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#28 - income.html with web-form(final)" />
+    <MESSAGE value="#29 - model for entertainment.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#29 - model for entertainment.html" />
   </component>
 </project>
