@@ -1,6 +1,7 @@
 package org.snorri1986.familybud.controller;
 
 import org.snorri1986.familybud.models.EntertainmentModel;
+import org.snorri1986.familybud.models.GroceriesModel;
 import org.snorri1986.familybud.models.IncomeModel;
 import org.springframework.stereotype.Controller;
 
@@ -22,6 +23,14 @@ public class WebFormsController {
   public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModel entModel) {
     // Temporary code
     System.out.println("Entertainment Registered: " + entModel.getOperDescription());
+    //TODO: add this page
+    return "register_success";
+  }
+
+  @PostMapping("/registerGroceries")
+  public String submitGroceriesForm(@ModelAttribute("groceries_mod_attribute") GroceriesModel grocModel) {
+    // Temporary code
+    System.out.println("Groceries purchase Registered: " + grocModel.getOperDescription());
     //TODO: add this page
     return "register_success";
   }
