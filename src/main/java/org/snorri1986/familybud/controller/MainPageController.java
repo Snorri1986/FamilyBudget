@@ -1,5 +1,6 @@
 package org.snorri1986.familybud.controller;
 
+import org.snorri1986.familybud.models.EntertainmentModel;
 import org.snorri1986.familybud.models.IncomeModel;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -28,8 +29,14 @@ public class MainPageController {
     return "income";
   }
 
-  @GetMapping("/entertainment")
+  /*@GetMapping("/entertainment")
   public String getEntertainmentPage() {
+    return "entertainment";
+  }*/
+
+  @GetMapping("/entertainment")
+  public String getEntertainmentPage(Model model) {
+    model.addAttribute("entertainment_mod_attribute", new EntertainmentModel());
     return "entertainment";
   }
 

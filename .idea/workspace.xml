@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#29 - Flatpicker code for operation date field">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#29 - Controller for register entertainment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729111605033</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="#29 - Controller for register entertainment">
+      <option name="closed" value="true" />
+      <created>1729111834832</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111834832</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +433,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#26 - method on controller for health.html" />
     <MESSAGE value="#26 - method on controller for renthousing.html" />
     <MESSAGE value="#26 - method on controller for telecom.html" />
     <MESSAGE value="#26 - method on controller for travel.html" />
@@ -449,6 +457,7 @@
     <MESSAGE value="#29 - model for entertainment.html" />
     <MESSAGE value="#29 - basic css for entertainment.html" />
     <MESSAGE value="#29 - Flatpicker code for operation date field" />
-    <option name="LAST_COMMIT_MESSAGE" value="#29 - Flatpicker code for operation date field" />
+    <MESSAGE value="#29 - Controller for register entertainment" />
+    <option name="LAST_COMMIT_MESSAGE" value="#29 - Controller for register entertainment" />
   </component>
 </project>
