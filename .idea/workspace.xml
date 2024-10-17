@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#29 - clean up on controller side">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#29 - currencyNames list became global variable">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/GroceriesModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729189748868</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="#29 - currencyNames list became global variable">
+      <option name="closed" value="true" />
+      <created>1729190098633</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1729190098633</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#26 - method on controller for others.html" />
     <MESSAGE value="#26 - others" />
     <MESSAGE value="#28 - model of incomes" />
     <MESSAGE value="#28 - new controller and submitIncomeForm method" />
@@ -481,6 +489,7 @@
     <MESSAGE value="#29 - Controller for entertainment from main page" />
     <MESSAGE value="#29 - entertainment.html(final)" />
     <MESSAGE value="#29 - clean up on controller side" />
-    <option name="LAST_COMMIT_MESSAGE" value="#29 - clean up on controller side" />
+    <MESSAGE value="#29 - currencyNames list became global variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="#29 - currencyNames list became global variable" />
   </component>
 </project>
