@@ -12,6 +12,8 @@ import java.util.List;
 @Controller
 public class MainPageController {
 
+  List<String> currencyNames = Arrays.asList("DKK", "EUR", "USD", "UAH", "Other");
+
   @GetMapping("/main")
   public String getMainPage(Model model) {
     //TODO: temp attribute.
@@ -22,7 +24,6 @@ public class MainPageController {
   @GetMapping("/income")
   public String getIncomePage(Model model) {
     List<String> incomes = Arrays.asList("Salary", "Bonus", "WorkRefund", "ShopRefund", "Other");
-    List<String> currencyNames = Arrays.asList("DKK", "EUR", "USD", "UAH", "Other");
     model.addAttribute("income_mod_attribute", new IncomeModel());
     model.addAttribute("incomes", incomes);
     model.addAttribute("currencyNames", currencyNames);
@@ -32,8 +33,6 @@ public class MainPageController {
   @GetMapping("/entertainment")
   public String getEntertainmentPage(Model model) {
     List<String> entList = Arrays.asList("Travel", "Cinema", "Vacation", "Relax", "Homefest","Other");
-    //TODO: remove repeated code
-    List<String> currencyNames = Arrays.asList("DKK", "EUR", "USD", "UAH", "Other");
     model.addAttribute("entertainment_mod_attribute", new EntertainmentModel());
     model.addAttribute("entList", entList);
     model.addAttribute("currencyNames", currencyNames);
