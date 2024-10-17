@@ -29,14 +29,14 @@ public class MainPageController {
     return "income";
   }
 
-  /*@GetMapping("/entertainment")
-  public String getEntertainmentPage() {
-    return "entertainment";
-  }*/
-
   @GetMapping("/entertainment")
   public String getEntertainmentPage(Model model) {
+    List<String> entList = Arrays.asList("Travel", "Cinema", "Vacation", "Relax", "Homefest","Other");
+    //TODO: remove repeated code
+    List<String> currencyNames = Arrays.asList("DKK", "EUR", "USD", "UAH", "Other");
     model.addAttribute("entertainment_mod_attribute", new EntertainmentModel());
+    model.addAttribute("entList", entList);
+    model.addAttribute("currencyNames", currencyNames);
     return "entertainment";
   }
 
