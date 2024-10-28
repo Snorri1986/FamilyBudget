@@ -16,6 +16,47 @@
 </head>
 <body>
 <h1>Health page</h1>
+<div class="container mt-5">
+<form th:action="@{/registerHealth}" th:object="${health_mod_attribute}" method="post" class="needs-validation">
+    <div class="form-group">
+        <label for="healthType">Health Activity Type:</label>
+        <select id="healthType" name="healthType" th:field="*{healthOperType}" required>>
+            <option value="">-- Select health activity type --</option>
+            <option th:each="healthType : ${healthTypeList}"
+                    th:value="${healthType}"
+                    th:text="${healthType}">
+            </option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="amount">Amount:</label>
+        <input type="text" class="form-control" id="amount" th:field="*{amount}" required>
+    </div>
+    <div class="form-group">
+        <label for="currency">Currency:</label>
+        <select id="currency" name="curName" th:field="*{currency}" required>>
+            <option value="">-- Select currency name --</option>
+            <option th:each="currency : ${currencyNames}"
+                    th:value="${currency}"
+                    th:text="${currency}">
+            </option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="transDate">Transaction Date:</label>
+        <input type="text" class="form-control" id="transDate"  th:field="*{transactionDate}" required>
+    </div>
+    <div class="form-group">
+        <label for="cardNum">Card:</label>
+        <input type="text" class="form-control" id="cardNum" th:field="*{cardNum}" required>
+    </div>
+    <div class="form-group">
+        <label for="operDesc">Description:</label>
+        <input type="text" class="form-control" id="operDesc" th:field="*{operDescription}" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

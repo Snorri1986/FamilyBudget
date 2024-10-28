@@ -2,6 +2,7 @@ package org.snorri1986.familybud.controller;
 
 import org.snorri1986.familybud.models.EntertainmentModel;
 import org.snorri1986.familybud.models.GroceriesModel;
+import org.snorri1986.familybud.models.HealthModel;
 import org.snorri1986.familybud.models.IncomeModel;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -50,7 +51,11 @@ public class MainPageController {
   }
 
   @GetMapping("/health")
-  public String getHealthPage() {
+  public String getHealthPage(Model model) {
+    List<String> healthTypeList = Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Other");
+    model.addAttribute("health_mod_attribute", new HealthModel());
+    model.addAttribute("healthTypeList", healthTypeList);
+    model.addAttribute("currencyNames", currencyNames);
     return "health";
   }
 

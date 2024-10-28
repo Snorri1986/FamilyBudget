@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#31 - model for health.html">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/health.css" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#31 - submitHealthForm method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,36 +84,12 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00003" summary="#26 - base for income.html">
-      <option name="closed" value="true" />
-      <created>1727902413722</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1727902413722</updated>
-    </task>
     <task active="true" id="Default" summary="Default task">
       <changelist id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#26 - base for income.html" />
       <created>1728069786681</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00004" summary="#26 - added links to redirection">
-      <option name="closed" value="true" />
-      <created>1728070811114</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1728070811114</updated>
-    </task>
-    <task id="LOCAL-00005" summary="#26 - basis for entertainment.html">
-      <option name="closed" value="true" />
-      <created>1728070964225</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1728070964225</updated>
     </task>
     <task id="LOCAL-00006" summary="#26 - basis for groceries.html">
       <option name="closed" value="true" />
@@ -482,7 +459,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730150191120</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="#31 - basic css for health.html">
+      <option name="closed" value="true" />
+      <created>1730150338493</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1730150338493</updated>
+    </task>
+    <task id="LOCAL-00053" summary="#31 - Flatpicker library for health.html">
+      <option name="closed" value="true" />
+      <created>1730150448224</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1730150448224</updated>
+    </task>
+    <task id="LOCAL-00054" summary="#31 - submitHealthForm method">
+      <option name="closed" value="true" />
+      <created>1730150601210</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1730150601210</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,9 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#28 - make some style" />
-    <MESSAGE value="#28 - date pattern in model" />
-    <MESSAGE value="#28 - add example for date field" />
     <MESSAGE value="#28 - add little css to income page" />
     <MESSAGE value="#28 - add TODO comment" />
     <MESSAGE value="#28 - add drop-down list for income field" />
@@ -522,6 +520,9 @@
     <MESSAGE value="#30 - controller for register groceries.html" />
     <MESSAGE value="#30 - groceries.html(final)" />
     <MESSAGE value="#31 - model for health.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#31 - model for health.html" />
+    <MESSAGE value="#31 - basic css for health.html" />
+    <MESSAGE value="#31 - Flatpicker library for health.html" />
+    <MESSAGE value="#31 - submitHealthForm method" />
+    <option name="LAST_COMMIT_MESSAGE" value="#31 - submitHealthForm method" />
   </component>
 </project>
