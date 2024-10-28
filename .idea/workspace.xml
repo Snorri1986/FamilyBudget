@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#30 - basic css for groceries.html">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#30 - controller for register groceries.html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -465,7 +468,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729191236827</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="#30 - Flatpicker for groceries.html">
+      <option name="closed" value="true" />
+      <created>1729191611564</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1729191611564</updated>
+    </task>
+    <task id="LOCAL-00049" summary="#30 - controller for register groceries.html">
+      <option name="closed" value="true" />
+      <created>1729191845032</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1729191845032</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,8 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#28 - new controller and submitIncomeForm method" />
-    <MESSAGE value="#28 - web form v1 to income.html" />
     <MESSAGE value="#28 - getIncomePage method with Model" />
     <MESSAGE value="#28 - others" />
     <MESSAGE value="#28 - make some style" />
@@ -505,6 +522,8 @@
     <MESSAGE value="#29 - currencyNames list became global variable" />
     <MESSAGE value="#30 - model for Groceries" />
     <MESSAGE value="#30 - basic css for groceries.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#30 - basic css for groceries.html" />
+    <MESSAGE value="#30 - Flatpicker for groceries.html" />
+    <MESSAGE value="#30 - controller for register groceries.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#30 - controller for register groceries.html" />
   </component>
 </project>
