@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#30 - controller for register groceries.html">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#30 - groceries.html(final)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/groceries.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,14 +84,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="#8 - del file">
-      <option name="closed" value="true" />
-      <created>1727900356582</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1727900356582</updated>
-    </task>
     <task id="LOCAL-00002" summary="#23 - removed duplicate declaration for actuator">
       <option name="closed" value="true" />
       <created>1727901118585</created>
@@ -484,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729191845032</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="#30 - groceries.html(final)">
+      <option name="closed" value="true" />
+      <created>1730149141094</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1730149141094</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#28 - getIncomePage method with Model" />
     <MESSAGE value="#28 - others" />
     <MESSAGE value="#28 - make some style" />
     <MESSAGE value="#28 - date pattern in model" />
@@ -524,6 +522,7 @@
     <MESSAGE value="#30 - basic css for groceries.html" />
     <MESSAGE value="#30 - Flatpicker for groceries.html" />
     <MESSAGE value="#30 - controller for register groceries.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#30 - controller for register groceries.html" />
+    <MESSAGE value="#30 - groceries.html(final)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#30 - groceries.html(final)" />
   </component>
 </project>
