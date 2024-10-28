@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#30 - groceries.html(final)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/groceries.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#31 - model for health.html">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/health.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +83,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00002" summary="#23 - removed duplicate declaration for actuator">
-      <option name="closed" value="true" />
-      <created>1727901118585</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1727901118585</updated>
-    </task>
     <task id="LOCAL-00003" summary="#26 - base for income.html">
       <option name="closed" value="true" />
       <created>1727902413722</created>
@@ -483,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730149141094</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="#31 - model for health.html">
+      <option name="closed" value="true" />
+      <created>1730150191120</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1730150191120</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#28 - others" />
     <MESSAGE value="#28 - make some style" />
     <MESSAGE value="#28 - date pattern in model" />
     <MESSAGE value="#28 - add example for date field" />
@@ -523,6 +521,7 @@
     <MESSAGE value="#30 - Flatpicker for groceries.html" />
     <MESSAGE value="#30 - controller for register groceries.html" />
     <MESSAGE value="#30 - groceries.html(final)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#30 - groceries.html(final)" />
+    <MESSAGE value="#31 - model for health.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#31 - model for health.html" />
   </component>
 </project>
