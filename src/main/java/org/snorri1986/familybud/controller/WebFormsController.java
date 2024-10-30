@@ -1,8 +1,6 @@
 package org.snorri1986.familybud.controller;
 
-import org.snorri1986.familybud.models.EntertainmentModel;
-import org.snorri1986.familybud.models.GroceriesModel;
-import org.snorri1986.familybud.models.IncomeModel;
+import org.snorri1986.familybud.models.*;
 import org.springframework.stereotype.Controller;
 
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -36,9 +34,17 @@ public class WebFormsController {
   }
 
   @PostMapping("/registerHealth")
-  public String submitHealthForm(@ModelAttribute("health_mod_attribute") GroceriesModel grocModel) {
+  public String submitHealthForm(@ModelAttribute("health_mod_attribute") HealthModel healthModel) {
     // Temporary code
-    System.out.println("Health purchase Registered: " + grocModel.getOperDescription());
+    System.out.println("Health purchase Registered: " + healthModel.getOperDescription());
+    //TODO: add this page
+    return "register_success";
+  }
+
+  @PostMapping("/registerHousing")
+  public String submitHousingForm(@ModelAttribute("rent_housing_mod_attribute") RentHousingModel rentHousingModel) {
+    // Temporary code
+    System.out.println("RentHousing purchase Registered: " + rentHousingModel.getOperDescription());
     //TODO: add this page
     return "register_success";
   }
