@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#32 - controller for the form in renthousing.html">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#32 - renthousing.html(final)">
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/renthousing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,22 +90,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00011" summary="#26 - basis for others.html">
-      <option name="closed" value="true" />
-      <created>1728072127320</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1728072127320</updated>
-    </task>
-    <task id="LOCAL-00012" summary="#26 - method on controller for income.html">
-      <option name="closed" value="true" />
-      <created>1728072323895</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1728072323895</updated>
     </task>
     <task id="LOCAL-00013" summary="#26 - method on controller for entertainment.html">
       <option name="closed" value="true" />
@@ -482,7 +467,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730321879728</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="#32 - changes in main controller for renthousing.html">
+      <option name="closed" value="true" />
+      <created>1730322201469</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1730322201469</updated>
+    </task>
+    <task id="LOCAL-00061" summary="#32 - renthousing.html(final)">
+      <option name="closed" value="true" />
+      <created>1730322291023</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1730322291023</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,8 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#28 - added drop-down list to currency field" />
-    <MESSAGE value="#28 - added calendar with Flatpick libray" />
     <MESSAGE value="#28 - income.html with web-form(final)" />
     <MESSAGE value="#29 - model for entertainment.html" />
     <MESSAGE value="#29 - basic css for entertainment.html" />
@@ -522,6 +521,8 @@
     <MESSAGE value="#32 - basic css for renthousing.html" />
     <MESSAGE value="#32 - Flatpicker for renthousing.html" />
     <MESSAGE value="#32 - controller for the form in renthousing.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#32 - controller for the form in renthousing.html" />
+    <MESSAGE value="#32 - changes in main controller for renthousing.html" />
+    <MESSAGE value="#32 - renthousing.html(final)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#32 - renthousing.html(final)" />
   </component>
 </project>
