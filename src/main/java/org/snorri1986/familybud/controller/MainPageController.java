@@ -1,9 +1,6 @@
 package org.snorri1986.familybud.controller;
 
-import org.snorri1986.familybud.models.EntertainmentModel;
-import org.snorri1986.familybud.models.GroceriesModel;
-import org.snorri1986.familybud.models.HealthModel;
-import org.snorri1986.familybud.models.IncomeModel;
+import org.snorri1986.familybud.models.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -60,7 +57,10 @@ public class MainPageController {
   }
 
   @GetMapping("/renthousing")
-  public String getRentHousingPage() {
+  public String getRentHousingPage(Model model) {
+    List<String> housingTypes = Arrays.asList("Rent","Electricity","HouseEquipments","Renovation","Other");
+    model.addAttribute("rent_housing_mod_attribute", new RentHousingModel());
+    model.addAttribute("housingTypes", housingTypes);
     return "renthousing";
   }
 
