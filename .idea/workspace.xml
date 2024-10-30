@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#31 - health.html(final)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/RentHousingModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#32 - model for RentHousing">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/renthousing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00007" summary="#26 - basis for health.html">
-      <option name="closed" value="true" />
-      <created>1728071314523</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1728071314523</updated>
     </task>
     <task id="LOCAL-00008" summary="#26 - basis for renthousing.html">
       <option name="closed" value="true" />
@@ -482,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730151472101</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="#32 - model for RentHousing">
+      <option name="closed" value="true" />
+      <created>1730321302329</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1730321302329</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#28 - add TODO comment" />
     <MESSAGE value="#28 - add drop-down list for income field" />
     <MESSAGE value="#28 - add form validation for incomeType field" />
     <MESSAGE value="#28 - name attribute is fixed" />
@@ -522,6 +521,7 @@
     <MESSAGE value="#31 - Flatpicker library for health.html" />
     <MESSAGE value="#31 - submitHealthForm method" />
     <MESSAGE value="#31 - health.html(final)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#31 - health.html(final)" />
+    <MESSAGE value="#32 - model for RentHousing" />
+    <option name="LAST_COMMIT_MESSAGE" value="#32 - model for RentHousing" />
   </component>
 </project>
