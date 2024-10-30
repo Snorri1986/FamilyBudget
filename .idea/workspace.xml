@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#33 - model for telecom.html">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/telecom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#33 - Flatpickr  for telecom.html">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,22 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00014" summary="#26 - method on controller for groceries.html">
-      <option name="closed" value="true" />
-      <created>1728072614819</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1728072614819</updated>
-    </task>
-    <task id="LOCAL-00015" summary="#26 - method on controller for health.html">
-      <option name="closed" value="true" />
-      <created>1728072718986</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1728072718986</updated>
     </task>
     <task id="LOCAL-00016" summary="#26 - method on controller for renthousing.html">
       <option name="closed" value="true" />
@@ -482,7 +466,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730322910120</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="#33 - basic css  for telecom.html">
+      <option name="closed" value="true" />
+      <created>1730323077071</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1730323077074</updated>
+    </task>
+    <task id="LOCAL-00064" summary="#33 - Flatpickr  for telecom.html">
+      <option name="closed" value="true" />
+      <created>1730323199235</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1730323199235</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,8 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#29 - model for entertainment.html" />
-    <MESSAGE value="#29 - basic css for entertainment.html" />
     <MESSAGE value="#29 - Flatpicker code for operation date field" />
     <MESSAGE value="#29 - Controller for register entertainment" />
     <MESSAGE value="#29 - Controller for entertainment from main page" />
@@ -522,6 +520,8 @@
     <MESSAGE value="#32 - changes in main controller for renthousing.html" />
     <MESSAGE value="#32 - renthousing.html(final)" />
     <MESSAGE value="#33 - model for telecom.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#33 - model for telecom.html" />
+    <MESSAGE value="#33 - basic css  for telecom.html" />
+    <MESSAGE value="#33 - Flatpickr  for telecom.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#33 - Flatpickr  for telecom.html" />
   </component>
 </project>

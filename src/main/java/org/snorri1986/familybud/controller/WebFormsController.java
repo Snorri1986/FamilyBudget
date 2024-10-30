@@ -48,4 +48,12 @@ public class WebFormsController {
     //TODO: add this page
     return "register_success";
   }
+
+  @PostMapping("/registerTelecom")
+  public String submitTelecomForm(@ModelAttribute("telecom_mod_attribute") TelecomModel telecomModel) {
+    // Temporary code
+    System.out.println("Telecom purchase Registered: " + telecomModel.getOperDescription());
+    //TODO: add this page
+    return "register_success";
+  }
 }
