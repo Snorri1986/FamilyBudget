@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#26 - method on controller for others.html">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_30_2024_10_56_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_30_2024_10_56_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_2_2024_10_37_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_2_2024_10_37_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#34 - Flatpicker for travel.html">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/travel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,30 +83,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="#8 - del file">
-      <option name="closed" value="true" />
-      <created>1727900356582</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1727900356582</updated>
-    </task>
-    <task id="LOCAL-00002" summary="#23 - removed duplicate declaration for actuator">
-      <option name="closed" value="true" />
-      <created>1727901118585</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1727901118585</updated>
-    </task>
-    <task id="LOCAL-00003" summary="#26 - base for income.html">
-      <option name="closed" value="true" />
-      <created>1727902413722</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1727902413722</updated>
-    </task>
     <task active="true" id="Default" summary="Default task">
       <changelist id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#26 - base for income.html" />
       <created>1728069786681</created>
@@ -116,159 +90,438 @@
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
     </task>
-    <task id="LOCAL-00004" summary="#26 - added links to redirection">
+    <task id="LOCAL-00022" summary="#28 - new controller and submitIncomeForm method">
       <option name="closed" value="true" />
-      <created>1728070811114</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+      <created>1728938666920</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1728070811114</updated>
+      <updated>1728938666920</updated>
     </task>
-    <task id="LOCAL-00005" summary="#26 - basis for entertainment.html">
+    <task id="LOCAL-00023" summary="#28 - web form v1 to income.html">
       <option name="closed" value="true" />
-      <created>1728070964225</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+      <created>1728939713957</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1728070964225</updated>
+      <updated>1728939713957</updated>
     </task>
-    <task id="LOCAL-00006" summary="#26 - basis for groceries.html">
+    <task id="LOCAL-00024" summary="#28 - getIncomePage method with Model">
       <option name="closed" value="true" />
-      <created>1728071162628</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+      <created>1728939765425</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1728071162628</updated>
+      <updated>1728939765425</updated>
     </task>
-    <task id="LOCAL-00007" summary="#26 - basis for health.html">
+    <task id="LOCAL-00025" summary="#28 - getIncomePage method with Model">
       <option name="closed" value="true" />
-      <created>1728071314523</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+      <created>1728939773425</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1728071314523</updated>
+      <updated>1728939773425</updated>
     </task>
-    <task id="LOCAL-00008" summary="#26 - basis for renthousing.html">
+    <task id="LOCAL-00026" summary="#28 - others">
       <option name="closed" value="true" />
-      <created>1728071706036</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+      <created>1728939863332</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1728071706036</updated>
+      <updated>1728939863332</updated>
     </task>
-    <task id="LOCAL-00009" summary="#26 - basis for telecom.html">
+    <task id="LOCAL-00027" summary="#28 - make some style">
       <option name="closed" value="true" />
-      <created>1728071822473</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+      <created>1729016362330</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1728071822473</updated>
+      <updated>1729016362330</updated>
     </task>
-    <task id="LOCAL-00010" summary="#26 - basis for travel.html">
+    <task id="LOCAL-00028" summary="#28 - date pattern in model">
       <option name="closed" value="true" />
-      <created>1728071938353</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+      <created>1729017586022</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1728071938353</updated>
+      <updated>1729017586022</updated>
     </task>
-    <task id="LOCAL-00011" summary="#26 - basis for others.html">
+    <task id="LOCAL-00029" summary="#28 - add example for date field">
       <option name="closed" value="true" />
-      <created>1728072127320</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+      <created>1729017618941</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1728072127320</updated>
+      <updated>1729017618941</updated>
     </task>
-    <task id="LOCAL-00012" summary="#26 - method on controller for income.html">
+    <task id="LOCAL-00030" summary="#28 - add little css to income page">
       <option name="closed" value="true" />
-      <created>1728072323895</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+      <created>1729017803085</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1728072323895</updated>
+      <updated>1729017803085</updated>
     </task>
-    <task id="LOCAL-00013" summary="#26 - method on controller for entertainment.html">
+    <task id="LOCAL-00031" summary="#28 - add TODO comment">
       <option name="closed" value="true" />
-      <created>1728072491148</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+      <created>1729017912690</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1728072491148</updated>
+      <updated>1729017912690</updated>
     </task>
-    <task id="LOCAL-00014" summary="#26 - method on controller for groceries.html">
+    <task id="LOCAL-00032" summary="#28 - add drop-down list for income field">
       <option name="closed" value="true" />
-      <created>1728072614819</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+      <created>1729018611303</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1728072614819</updated>
+      <updated>1729018611303</updated>
     </task>
-    <task id="LOCAL-00015" summary="#26 - method on controller for health.html">
+    <task id="LOCAL-00033" summary="#28 - add form validation for incomeType field">
       <option name="closed" value="true" />
-      <created>1728072718986</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
+      <created>1729018796162</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1728072718986</updated>
+      <updated>1729018796162</updated>
     </task>
-    <task id="LOCAL-00016" summary="#26 - method on controller for renthousing.html">
+    <task id="LOCAL-00034" summary="#28 - name attribute is fixed">
       <option name="closed" value="true" />
-      <created>1728072829325</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
+      <created>1729018945344</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1728072829325</updated>
+      <updated>1729018945344</updated>
     </task>
-    <task id="LOCAL-00017" summary="#26 - method on controller for telecom.html">
+    <task id="LOCAL-00035" summary="#28 - added drop-down list to currency field">
       <option name="closed" value="true" />
-      <created>1728072966347</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
+      <created>1729019335657</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1728072966347</updated>
+      <updated>1729019335657</updated>
     </task>
-    <task id="LOCAL-00018" summary="#26 - method on controller for travel.html">
+    <task id="LOCAL-00036" summary="#28 - added calendar with Flatpick libray">
       <option name="closed" value="true" />
-      <created>1728073082333</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
+      <created>1729110201721</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1728073082333</updated>
+      <updated>1729110201721</updated>
     </task>
-    <task id="LOCAL-00019" summary="#26 - method on controller for others.html">
+    <task id="LOCAL-00037" summary="#28 - income.html with web-form(final)">
       <option name="closed" value="true" />
-      <created>1728073198382</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
+      <created>1729110342225</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
       <option name="project" value="LOCAL" />
-      <updated>1728073198382</updated>
+      <updated>1729110342225</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00038" summary="#29 - model for entertainment.html">
+      <option name="closed" value="true" />
+      <created>1729111264115</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111264115</updated>
+    </task>
+    <task id="LOCAL-00039" summary="#29 - basic css for entertainment.html">
+      <option name="closed" value="true" />
+      <created>1729111470658</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111470658</updated>
+    </task>
+    <task id="LOCAL-00040" summary="#29 - Flatpicker code for operation date field">
+      <option name="closed" value="true" />
+      <created>1729111605033</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111605033</updated>
+    </task>
+    <task id="LOCAL-00041" summary="#29 - Controller for register entertainment">
+      <option name="closed" value="true" />
+      <created>1729111834832</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111834832</updated>
+    </task>
+    <task id="LOCAL-00042" summary="#29 - Controller for entertainment from main page">
+      <option name="closed" value="true" />
+      <created>1729188771166</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1729188771166</updated>
+    </task>
+    <task id="LOCAL-00043" summary="#29 - entertainment.html(final)">
+      <option name="closed" value="true" />
+      <created>1729189635977</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1729189635977</updated>
+    </task>
+    <task id="LOCAL-00044" summary="#29 - clean up on controller side">
+      <option name="closed" value="true" />
+      <created>1729189748868</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1729189748868</updated>
+    </task>
+    <task id="LOCAL-00045" summary="#29 - currencyNames list became global variable">
+      <option name="closed" value="true" />
+      <created>1729190098633</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1729190098633</updated>
+    </task>
+    <task id="LOCAL-00046" summary="#30 - model for Groceries">
+      <option name="closed" value="true" />
+      <created>1729191095058</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1729191095058</updated>
+    </task>
+    <task id="LOCAL-00047" summary="#30 - basic css for groceries.html">
+      <option name="closed" value="true" />
+      <created>1729191236827</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1729191236827</updated>
+    </task>
+    <task id="LOCAL-00048" summary="#30 - Flatpicker for groceries.html">
+      <option name="closed" value="true" />
+      <created>1729191611564</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1729191611564</updated>
+    </task>
+    <task id="LOCAL-00049" summary="#30 - controller for register groceries.html">
+      <option name="closed" value="true" />
+      <created>1729191845032</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1729191845032</updated>
+    </task>
+    <task id="LOCAL-00050" summary="#30 - groceries.html(final)">
+      <option name="closed" value="true" />
+      <created>1730149141094</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1730149141094</updated>
+    </task>
+    <task id="LOCAL-00051" summary="#31 - model for health.html">
+      <option name="closed" value="true" />
+      <created>1730150191120</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1730150191120</updated>
+    </task>
+    <task id="LOCAL-00052" summary="#31 - basic css for health.html">
+      <option name="closed" value="true" />
+      <created>1730150338493</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1730150338493</updated>
+    </task>
+    <task id="LOCAL-00053" summary="#31 - Flatpicker library for health.html">
+      <option name="closed" value="true" />
+      <created>1730150448224</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1730150448224</updated>
+    </task>
+    <task id="LOCAL-00054" summary="#31 - submitHealthForm method">
+      <option name="closed" value="true" />
+      <created>1730150601210</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1730150601210</updated>
+    </task>
+    <task id="LOCAL-00055" summary="#31 - health.html(final)">
+      <option name="closed" value="true" />
+      <created>1730151472101</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1730151472101</updated>
+    </task>
+    <task id="LOCAL-00056" summary="#32 - model for RentHousing">
+      <option name="closed" value="true" />
+      <created>1730321302329</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1730321302329</updated>
+    </task>
+    <task id="LOCAL-00057" summary="#32 - basic css for renthousing.html">
+      <option name="closed" value="true" />
+      <created>1730321517239</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1730321517239</updated>
+    </task>
+    <task id="LOCAL-00058" summary="#32 - Flatpicker for renthousing.html">
+      <option name="closed" value="true" />
+      <created>1730321637579</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1730321637579</updated>
+    </task>
+    <task id="LOCAL-00059" summary="#32 - controller for the form in renthousing.html">
+      <option name="closed" value="true" />
+      <created>1730321879728</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1730321879728</updated>
+    </task>
+    <task id="LOCAL-00060" summary="#32 - changes in main controller for renthousing.html">
+      <option name="closed" value="true" />
+      <created>1730322201469</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1730322201469</updated>
+    </task>
+    <task id="LOCAL-00061" summary="#32 - renthousing.html(final)">
+      <option name="closed" value="true" />
+      <created>1730322291023</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1730322291023</updated>
+    </task>
+    <task id="LOCAL-00062" summary="#33 - model for telecom.html">
+      <option name="closed" value="true" />
+      <created>1730322910120</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1730322910120</updated>
+    </task>
+    <task id="LOCAL-00063" summary="#33 - basic css  for telecom.html">
+      <option name="closed" value="true" />
+      <created>1730323077071</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1730323077074</updated>
+    </task>
+    <task id="LOCAL-00064" summary="#33 - Flatpickr  for telecom.html">
+      <option name="closed" value="true" />
+      <created>1730323199235</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1730323199235</updated>
+    </task>
+    <task id="LOCAL-00065" summary="#33 - Controller for telecom.html">
+      <option name="closed" value="true" />
+      <created>1730323351325</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1730323351325</updated>
+    </task>
+    <task id="LOCAL-00066" summary="#33 - telecom.html(final)">
+      <option name="closed" value="true" />
+      <created>1730491840811</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1730491840811</updated>
+    </task>
+    <task id="LOCAL-00067" summary="#34 - model for travel.html">
+      <option name="closed" value="true" />
+      <created>1730492707020</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1730492707020</updated>
+    </task>
+    <task id="LOCAL-00068" summary="#34 - controller for register new trips travel.html">
+      <option name="closed" value="true" />
+      <created>1730492841965</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1730492841965</updated>
+    </task>
+    <task id="LOCAL-00069" summary="#34 - basic css for travel.html">
+      <option name="closed" value="true" />
+      <created>1730492976431</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1730492976431</updated>
+    </task>
+    <task id="LOCAL-00070" summary="#34 - Flatpicker for travel.html">
+      <option name="closed" value="true" />
+      <created>1730493072144</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1730493072144</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#8 - other texts on the center" />
-    <MESSAGE value="#8 - del file" />
-    <MESSAGE value="#23 - removed duplicate declaration for actuator" />
-    <MESSAGE value="#8 - buttons on the center" />
-    <MESSAGE value="#26 - base for income.html" />
-    <MESSAGE value="#26 - added links to redirection" />
-    <MESSAGE value="#26 - basis for entertainment.html" />
-    <MESSAGE value="#26 - basis for groceries.html" />
-    <MESSAGE value="#26 - basis for health.html" />
-    <MESSAGE value="#26 - basis for renthousing.html" />
-    <MESSAGE value="#26 - basis for telecom.html" />
-    <MESSAGE value="#26 - basis for travel.html" />
-    <MESSAGE value="#26 - basis for others.html" />
-    <MESSAGE value="#26 - method on controller for income.html" />
-    <MESSAGE value="#26 - method on controller for entertainment.html" />
-    <MESSAGE value="#26 - method on controller for groceries.html" />
-    <MESSAGE value="#26 - method on controller for health.html" />
-    <MESSAGE value="#26 - method on controller for renthousing.html" />
-    <MESSAGE value="#26 - method on controller for telecom.html" />
-    <MESSAGE value="#26 - method on controller for travel.html" />
-    <MESSAGE value="#26 - method on controller for others.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#26 - method on controller for others.html" />
+    <MESSAGE value="#30 - model for Groceries" />
+    <MESSAGE value="#30 - basic css for groceries.html" />
+    <MESSAGE value="#30 - Flatpicker for groceries.html" />
+    <MESSAGE value="#30 - controller for register groceries.html" />
+    <MESSAGE value="#30 - groceries.html(final)" />
+    <MESSAGE value="#31 - model for health.html" />
+    <MESSAGE value="#31 - basic css for health.html" />
+    <MESSAGE value="#31 - Flatpicker library for health.html" />
+    <MESSAGE value="#31 - submitHealthForm method" />
+    <MESSAGE value="#31 - health.html(final)" />
+    <MESSAGE value="#32 - model for RentHousing" />
+    <MESSAGE value="#32 - basic css for renthousing.html" />
+    <MESSAGE value="#32 - Flatpicker for renthousing.html" />
+    <MESSAGE value="#32 - controller for the form in renthousing.html" />
+    <MESSAGE value="#32 - changes in main controller for renthousing.html" />
+    <MESSAGE value="#32 - renthousing.html(final)" />
+    <MESSAGE value="#33 - model for telecom.html" />
+    <MESSAGE value="#33 - basic css  for telecom.html" />
+    <MESSAGE value="#33 - Flatpickr  for telecom.html" />
+    <MESSAGE value="#33 - Controller for telecom.html" />
+    <MESSAGE value="#33 - telecom.html(final)" />
+    <MESSAGE value="#34 - model for travel.html" />
+    <MESSAGE value="#34 - controller for register new trips travel.html" />
+    <MESSAGE value="#34 - basic css for travel.html" />
+    <MESSAGE value="#34 - Flatpicker for travel.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#34 - Flatpicker for travel.html" />
   </component>
 </project>
