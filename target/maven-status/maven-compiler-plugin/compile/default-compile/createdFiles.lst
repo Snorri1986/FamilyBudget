@@ -4,6 +4,7 @@ org\snorri1986\familybud\controller\MainPageController.class
 org\snorri1986\familybud\models\RentHousingModel.class
 org\snorri1986\familybud\models\TelecomModel.class
 org\snorri1986\familybud\DataSourceConfig.class
+org\snorri1986\familybud\models\TravelModel.class
 org\snorri1986\familybud\controller\WebFormsController.class
 org\snorri1986\familybud\models\IncomeModel.class
 org\snorri1986\familybud\models\EntertainmentModel.class
