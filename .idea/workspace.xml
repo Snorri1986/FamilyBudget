@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#34 - model for travel.html">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#34 - Flatpicker for travel.html">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/travel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,30 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00019" summary="#26 - method on controller for others.html">
-      <option name="closed" value="true" />
-      <created>1728073198382</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1728073198382</updated>
-    </task>
-    <task id="LOCAL-00020" summary="#26 - others">
-      <option name="closed" value="true" />
-      <created>1728936278619</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1728936278619</updated>
-    </task>
-    <task id="LOCAL-00021" summary="#28 - model of incomes">
-      <option name="closed" value="true" />
-      <created>1728938180530</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1728938180530</updated>
     </task>
     <task id="LOCAL-00022" summary="#28 - new controller and submitIncomeForm method">
       <option name="closed" value="true" />
@@ -481,7 +458,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730492707020</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="#34 - controller for register new trips travel.html">
+      <option name="closed" value="true" />
+      <created>1730492841965</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1730492841965</updated>
+    </task>
+    <task id="LOCAL-00069" summary="#34 - basic css for travel.html">
+      <option name="closed" value="true" />
+      <created>1730492976431</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1730492976431</updated>
+    </task>
+    <task id="LOCAL-00070" summary="#34 - Flatpicker for travel.html">
+      <option name="closed" value="true" />
+      <created>1730493072144</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1730493072144</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,9 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#29 - entertainment.html(final)" />
-    <MESSAGE value="#29 - clean up on controller side" />
-    <MESSAGE value="#29 - currencyNames list became global variable" />
     <MESSAGE value="#30 - model for Groceries" />
     <MESSAGE value="#30 - basic css for groceries.html" />
     <MESSAGE value="#30 - Flatpicker for groceries.html" />
@@ -521,6 +519,9 @@
     <MESSAGE value="#33 - Controller for telecom.html" />
     <MESSAGE value="#33 - telecom.html(final)" />
     <MESSAGE value="#34 - model for travel.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#34 - model for travel.html" />
+    <MESSAGE value="#34 - controller for register new trips travel.html" />
+    <MESSAGE value="#34 - basic css for travel.html" />
+    <MESSAGE value="#34 - Flatpicker for travel.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#34 - Flatpicker for travel.html" />
   </component>
 </project>

@@ -15,7 +15,52 @@
     <title>Travel page</title>
 </head>
 <body>
-<h1>On travel page</h1>
+<h1>Travel page</h1>
+<div class="container mt-5">
+    <form th:action="@{/registerTravel}" th:object="${travel_mod_attribute}" method="post" class="needs-validation">
+        <div class="form-group">
+            <label for="travelType">IncomeType:</label>
+            <select id="travelType" name="incType" th:field="*{travelType}" required>>
+                <option value="">-- Select income type --</option>
+                <option th:each="travelType : ${travelActivities}"
+                        th:value="${travelType}"
+                        th:text="${travelType}">
+                </option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="amount">Amount:</label>
+            <input type="text" class="form-control" id="amount" th:field="*{amount}" required>
+        </div>
+        <div class="form-group">
+            <label for="currency">Currency:</label>
+            <select id="currency" name="curName" th:field="*{currency}" required>>
+                <option value="">-- Select currency name --</option>
+                <option th:each="currency : ${currencyNames}"
+                        th:value="${currency}"
+                        th:text="${currency}">
+                </option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="transDate">Transaction Date:</label>
+            <input type="text" class="form-control" id="transDate"  th:field="*{transactionDate}" required>
+        </div>
+        <div class="form-group">
+            <label for="cardNum">Card:</label>
+            <input type="text" class="form-control" id="cardNum" th:field="*{cardNum}" required>
+        </div>
+        <div class="form-group">
+            <label for="transDate">Destination:</label>
+            <input type="text" class="form-control" id="transDestination"  th:field="*{destination}" required>
+        </div>
+        <div class="form-group">
+            <label for="operDesc">Description:</label>
+            <input type="text" class="form-control" id="operDesc" th:field="*{operDescription}" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
