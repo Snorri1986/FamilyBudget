@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#33 - Controller for telecom.html">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#33 - telecom.html(final)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/telecom.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00017" summary="#26 - method on controller for telecom.html">
-      <option name="closed" value="true" />
-      <created>1728072966347</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1728072966347</updated>
     </task>
     <task id="LOCAL-00018" summary="#26 - method on controller for travel.html">
       <option name="closed" value="true" />
@@ -483,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730323351325</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="#33 - telecom.html(final)">
+      <option name="closed" value="true" />
+      <created>1730491840811</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1730491840811</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#29 - Controller for register entertainment" />
     <MESSAGE value="#29 - Controller for entertainment from main page" />
     <MESSAGE value="#29 - entertainment.html(final)" />
     <MESSAGE value="#29 - clean up on controller side" />
@@ -523,6 +523,7 @@
     <MESSAGE value="#33 - basic css  for telecom.html" />
     <MESSAGE value="#33 - Flatpickr  for telecom.html" />
     <MESSAGE value="#33 - Controller for telecom.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#33 - Controller for telecom.html" />
+    <MESSAGE value="#33 - telecom.html(final)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#33 - telecom.html(final)" />
   </component>
 </project>
