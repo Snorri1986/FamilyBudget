@@ -56,4 +56,12 @@ public class WebFormsController {
     //TODO: add this page
     return "register_success";
   }
+
+  @PostMapping("/registerTravel")
+  public String submitTravelForm(@ModelAttribute("travel_mod_attribute") TravelModel travelModel) {
+    // Temporary code
+    System.out.println("Travel purchase Registered: " + travelModel.getOperDescription());
+    //TODO: add this page
+    return "register_success";
+  }
 }

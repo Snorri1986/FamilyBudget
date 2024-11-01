@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#33 - telecom.html(final)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/telecom.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#34 - model for travel.html">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00018" summary="#26 - method on controller for travel.html">
-      <option name="closed" value="true" />
-      <created>1728073082333</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1728073082333</updated>
     </task>
     <task id="LOCAL-00019" summary="#26 - method on controller for others.html">
       <option name="closed" value="true" />
@@ -484,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730491840811</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="#34 - model for travel.html">
+      <option name="closed" value="true" />
+      <created>1730492707020</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1730492707020</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#29 - Controller for entertainment from main page" />
     <MESSAGE value="#29 - entertainment.html(final)" />
     <MESSAGE value="#29 - clean up on controller side" />
     <MESSAGE value="#29 - currencyNames list became global variable" />
@@ -524,6 +520,7 @@
     <MESSAGE value="#33 - Flatpickr  for telecom.html" />
     <MESSAGE value="#33 - Controller for telecom.html" />
     <MESSAGE value="#33 - telecom.html(final)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#33 - telecom.html(final)" />
+    <MESSAGE value="#34 - model for travel.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#34 - model for travel.html" />
   </component>
 </project>
