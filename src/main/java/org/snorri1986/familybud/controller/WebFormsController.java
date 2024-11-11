@@ -53,15 +53,13 @@ public class WebFormsController {
   public String submitTelecomForm(@ModelAttribute("telecom_mod_attribute") TelecomModel telecomModel) {
     // Temporary code
     System.out.println("Telecom purchase Registered: " + telecomModel.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_telecom";
   }
 
   @PostMapping("/registerTravel")
   public String submitTravelForm(@ModelAttribute("travel_mod_attribute") TravelModel travelModel) {
     // Temporary code
     System.out.println("Travel purchase Registered: " + travelModel.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_travel";
   }
 }
