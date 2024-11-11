@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#41 - s_telecom.html(final),css and +submitTelecomForm()">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/s_renthousing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/s_renthousing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#40 - s_renthousing.html(final),css,+submitHousingForm()">
       <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v0.0.9-5" />
+        <entry key="$PROJECT_DIR$" value="v0.0.9-4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,14 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00026" summary="#28 - others">
-      <option name="closed" value="true" />
-      <created>1728939863332</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1728939863332</updated>
     </task>
     <task id="LOCAL-00027" summary="#28 - make some style">
       <option name="closed" value="true" />
@@ -485,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731359957561</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="#40 - s_renthousing.html(final),css,+submitHousingForm()">
+      <option name="closed" value="true" />
+      <created>1731360817216</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1731360817216</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#30 - groceries.html(final)" />
     <MESSAGE value="#31 - model for health.html" />
     <MESSAGE value="#31 - basic css for health.html" />
     <MESSAGE value="#31 - Flatpicker library for health.html" />
@@ -525,6 +520,7 @@
     <MESSAGE value="#42 - s_travel page and return for +submitTravelForm()" />
     <MESSAGE value="#42 - css for s_travel.html and fixed h1 tag" />
     <MESSAGE value="#41 - s_telecom.html(final),css and +submitTelecomForm()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#41 - s_telecom.html(final),css and +submitTelecomForm()" />
+    <MESSAGE value="#40 - s_renthousing.html(final),css,+submitHousingForm()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#40 - s_renthousing.html(final),css,+submitHousingForm()" />
   </component>
 </project>
