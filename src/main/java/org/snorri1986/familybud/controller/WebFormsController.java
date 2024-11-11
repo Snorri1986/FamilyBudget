@@ -45,8 +45,7 @@ public class WebFormsController {
   public String submitHousingForm(@ModelAttribute("rent_housing_mod_attribute") RentHousingModel rentHousingModel) {
     // Temporary code
     System.out.println("RentHousing purchase Registered: " + rentHousingModel.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_renthousing";
   }
 
   @PostMapping("/registerTelecom")
