@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#34 - Flatpicker for travel.html">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/travel.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#34 - travel.html(final)">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/s_travel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="v0.0.9-5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,14 +90,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00022" summary="#28 - new controller and submitIncomeForm method">
-      <option name="closed" value="true" />
-      <created>1728938666920</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1728938666920</updated>
     </task>
     <task id="LOCAL-00023" summary="#28 - web form v1 to income.html">
       <option name="closed" value="true" />
@@ -482,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730493072144</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="#34 - travel.html(final)">
+      <option name="closed" value="true" />
+      <created>1730493695266</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1730493695266</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#30 - model for Groceries" />
     <MESSAGE value="#30 - basic css for groceries.html" />
     <MESSAGE value="#30 - Flatpicker for groceries.html" />
     <MESSAGE value="#30 - controller for register groceries.html" />
@@ -522,6 +522,7 @@
     <MESSAGE value="#34 - controller for register new trips travel.html" />
     <MESSAGE value="#34 - basic css for travel.html" />
     <MESSAGE value="#34 - Flatpicker for travel.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#34 - Flatpicker for travel.html" />
+    <MESSAGE value="#34 - travel.html(final)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#34 - travel.html(final)" />
   </component>
 </project>

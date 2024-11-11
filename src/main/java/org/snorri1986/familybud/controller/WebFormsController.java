@@ -61,7 +61,6 @@ public class WebFormsController {
   public String submitTravelForm(@ModelAttribute("travel_mod_attribute") TravelModel travelModel) {
     // Temporary code
     System.out.println("Travel purchase Registered: " + travelModel.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_travel";
   }
 }
