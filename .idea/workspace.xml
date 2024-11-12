@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#38 - s_groceries.html(final),css,+submitGroceriesForm()">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/s_entertainment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/s_entertainment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#37-s_entertainment.html and others(css,method)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v0.0.9-2" />
+        <entry key="$PROJECT_DIR$" value="v0.0.9-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,14 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00029" summary="#28 - add example for date field">
-      <option name="closed" value="true" />
-      <created>1729017618941</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1729017618941</updated>
     </task>
     <task id="LOCAL-00030" summary="#28 - add little css to income page">
       <option name="closed" value="true" />
@@ -483,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731441411113</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="#37-s_entertainment.html and others(css,method)">
+      <option name="closed" value="true" />
+      <created>1731442000208</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1731442000208</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#31 - Flatpicker library for health.html" />
     <MESSAGE value="#31 - submitHealthForm method" />
     <MESSAGE value="#31 - health.html(final)" />
     <MESSAGE value="#32 - model for RentHousing" />
@@ -523,6 +518,7 @@
     <MESSAGE value="#40 - s_renthousing.html(final),css,+submitHousingForm()" />
     <MESSAGE value="#39 - s_health.html(final),css,+submitHealthForm()" />
     <MESSAGE value="#38 - s_groceries.html(final),css,+submitGroceriesForm()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#38 - s_groceries.html(final),css,+submitGroceriesForm()" />
+    <MESSAGE value="#37-s_entertainment.html and others(css,method)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#37-s_entertainment.html and others(css,method)" />
   </component>
 </project>

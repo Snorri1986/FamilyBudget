@@ -13,8 +13,7 @@ public class WebFormsController {
   public String submitIncomeForm(@ModelAttribute("income_mod_attribute") IncomeModel income) {
     // Temporary code
     System.out.println("Income Registered: " + income.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_income";
   }
 
   @PostMapping("/registerEntertainment")
