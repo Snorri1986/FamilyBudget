@@ -21,8 +21,7 @@ public class WebFormsController {
   public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModel entModel) {
     // Temporary code
     System.out.println("Entertainment Registered: " + entModel.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_entertainment";
   }
 
   @PostMapping("/registerGroceries")
