@@ -13,55 +13,48 @@ public class WebFormsController {
   public String submitIncomeForm(@ModelAttribute("income_mod_attribute") IncomeModel income) {
     // Temporary code
     System.out.println("Income Registered: " + income.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_income";
   }
 
   @PostMapping("/registerEntertainment")
   public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModel entModel) {
     // Temporary code
     System.out.println("Entertainment Registered: " + entModel.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_entertainment";
   }
 
   @PostMapping("/registerGroceries")
   public String submitGroceriesForm(@ModelAttribute("groceries_mod_attribute") GroceriesModel grocModel) {
     // Temporary code
     System.out.println("Groceries purchase Registered: " + grocModel.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_groceries";
   }
 
   @PostMapping("/registerHealth")
   public String submitHealthForm(@ModelAttribute("health_mod_attribute") HealthModel healthModel) {
     // Temporary code
     System.out.println("Health purchase Registered: " + healthModel.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_health";
   }
 
   @PostMapping("/registerHousing")
   public String submitHousingForm(@ModelAttribute("rent_housing_mod_attribute") RentHousingModel rentHousingModel) {
     // Temporary code
     System.out.println("RentHousing purchase Registered: " + rentHousingModel.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_renthousing";
   }
 
   @PostMapping("/registerTelecom")
   public String submitTelecomForm(@ModelAttribute("telecom_mod_attribute") TelecomModel telecomModel) {
     // Temporary code
     System.out.println("Telecom purchase Registered: " + telecomModel.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_telecom";
   }
 
   @PostMapping("/registerTravel")
   public String submitTravelForm(@ModelAttribute("travel_mod_attribute") TravelModel travelModel) {
     // Temporary code
     System.out.println("Travel purchase Registered: " + travelModel.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_travel";
   }
 }
