@@ -29,8 +29,7 @@ public class WebFormsController {
   public String submitGroceriesForm(@ModelAttribute("groceries_mod_attribute") GroceriesModel grocModel) {
     // Temporary code
     System.out.println("Groceries purchase Registered: " + grocModel.getOperDescription());
-    //TODO: add this page
-    return "register_success";
+    return "s_groceries";
   }
 
   @PostMapping("/registerHealth")
