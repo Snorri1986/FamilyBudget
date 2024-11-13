@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - Interface for DB interaction">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/dbinterfaces/DBInteractionImpl.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - Implementation for interface">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/dbinterfaces/DBInteractionImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/dbinterfaces/DBInteractionImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00035" summary="#28 - added drop-down list to currency field">
-      <option name="closed" value="true" />
-      <created>1729019335657</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1729019335657</updated>
     </task>
     <task id="LOCAL-00036" summary="#28 - added calendar with Flatpick libray">
       <option name="closed" value="true" />
@@ -482,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731530498847</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="#51 - Implementation for interface">
+      <option name="closed" value="true" />
+      <created>1731530816862</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1731530816862</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#32 - controller for the form in renthousing.html" />
     <MESSAGE value="#32 - changes in main controller for renthousing.html" />
     <MESSAGE value="#32 - renthousing.html(final)" />
     <MESSAGE value="#33 - model for telecom.html" />
@@ -522,6 +521,7 @@
     <MESSAGE value="#51 - limit on symbols for Card field(not more 4)" />
     <MESSAGE value="#51 - toString() for IncomeModel" />
     <MESSAGE value="#51 - Interface for DB interaction" />
-    <option name="LAST_COMMIT_MESSAGE" value="#51 - Interface for DB interaction" />
+    <MESSAGE value="#51 - Implementation for interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="#51 - Implementation for interface" />
   </component>
 </project>
