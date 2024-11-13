@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - Implementation for insertIncome()(test version)">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/dbinterfaces/DBInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/dbinterfaces/DBInteraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/dbinterfaces/DBInteractionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/dbinterfaces/DBInteractionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/dbinterfaces/DBRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - Implementation for insertIncome()(test version)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,30 +87,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00038" summary="#29 - model for entertainment.html">
-      <option name="closed" value="true" />
-      <created>1729111264115</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1729111264115</updated>
-    </task>
-    <task id="LOCAL-00039" summary="#29 - basic css for entertainment.html">
-      <option name="closed" value="true" />
-      <created>1729111470658</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1729111470658</updated>
-    </task>
-    <task id="LOCAL-00040" summary="#29 - Flatpicker code for operation date field">
-      <option name="closed" value="true" />
-      <created>1729111605033</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1729111605033</updated>
     </task>
     <task id="LOCAL-00041" summary="#29 - Controller for register entertainment">
       <option name="closed" value="true" />
@@ -487,7 +456,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731532065625</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="#51 - Implementation for insertIncome()(test version)">
+      <option name="closed" value="true" />
+      <created>1731532247375</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1731532247375</updated>
+    </task>
+    <task id="LOCAL-00088" summary="#51 - Implementation for insertIncome()(test version)">
+      <option name="closed" value="true" />
+      <created>1731532251828</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1731532251828</updated>
+    </task>
+    <task id="LOCAL-00089" summary="#51 - Implementation for insertIncome()(test version)">
+      <option name="closed" value="true" />
+      <created>1731532466916</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1731532466916</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,9 +1,8 @@
 package org.snorri1986.familybud.dbinterfaces;
 
 import org.snorri1986.familybud.models.*;
-import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface DBInteraction extends JpaRepository,DBInteractionCustom {
+public interface DBInteractionCustom {
   void insertIncome(IncomeModel income);
   void insertEntertainment(EntertainmentModel entertainmentModel);
   void insertGroceries(GroceriesModel groceriesModel);
