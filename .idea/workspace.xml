@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - toString() for IncomeModel">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/dbinterfaces/DBInteraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - Interface for DB interaction">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/dbinterfaces/DBInteractionImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -90,14 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00034" summary="#28 - name attribute is fixed">
-      <option name="closed" value="true" />
-      <created>1729018945344</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1729018945344</updated>
     </task>
     <task id="LOCAL-00035" summary="#28 - added drop-down list to currency field">
       <option name="closed" value="true" />
@@ -483,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731529633998</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="#51 - Interface for DB interaction">
+      <option name="closed" value="true" />
+      <created>1731530498846</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1731530498847</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#32 - Flatpicker for renthousing.html" />
     <MESSAGE value="#32 - controller for the form in renthousing.html" />
     <MESSAGE value="#32 - changes in main controller for renthousing.html" />
     <MESSAGE value="#32 - renthousing.html(final)" />
@@ -523,6 +521,7 @@
     <MESSAGE value="#50 - limit on symbols for Card field(not more 4)" />
     <MESSAGE value="#51 - limit on symbols for Card field(not more 4)" />
     <MESSAGE value="#51 - toString() for IncomeModel" />
-    <option name="LAST_COMMIT_MESSAGE" value="#51 - toString() for IncomeModel" />
+    <MESSAGE value="#51 - Interface for DB interaction" />
+    <option name="LAST_COMMIT_MESSAGE" value="#51 - Interface for DB interaction" />
   </component>
 </project>
