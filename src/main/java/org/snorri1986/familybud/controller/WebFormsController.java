@@ -11,8 +11,7 @@ public class WebFormsController {
 
   @PostMapping("/registerIncome")
   public String submitIncomeForm(@ModelAttribute("income_mod_attribute") IncomeModel income) {
-    // Temporary code
-    System.out.println("Income Registered: " + income.getOperDescription());
+    System.out.println("New income" + income.toString());
     return "s_income";
   }
 
