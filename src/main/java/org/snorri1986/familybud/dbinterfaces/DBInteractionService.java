@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 public class DBInteractionService {
 
   @Autowired
-  private DBRepository dbRepository;
+  private DBInteraction dbRepository;
 
     public void pushIncome(IncomeModel incomeModel) {
       dbRepository.insertIncome(incomeModel);
