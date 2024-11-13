@@ -1,11 +1,12 @@
 org\snorri1986\familybud\models\GroceriesModel.class
 org\snorri1986\familybud\FamilyBudgetMain.class
 org\snorri1986\familybud\controller\MainPageController.class
-org\snorri1986\familybud\dbinterfaces\DBInteractionImpl.class
 org\snorri1986\familybud\models\RentHousingModel.class
 org\snorri1986\familybud\models\TelecomModel.class
 org\snorri1986\familybud\DataSourceConfig.class
 org\snorri1986\familybud\dbinterfaces\DBInteraction.class
+org\snorri1986\familybud\dbinterfaces\DBInteractionCustomImpl.class
+org\snorri1986\familybud\dbinterfaces\DBInteractionCustom.class
 org\snorri1986\familybud\models\TravelModel.class
 org\snorri1986\familybud\controller\WebFormsController.class
 org\snorri1986\familybud\models\IncomeModel.class

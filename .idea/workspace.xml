@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - Implementation for insertIncome()(test version)" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - Implementation with JPA(test version)">
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/dbinterfaces/DBInteraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/dbinterfaces/DBInteraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/dbinterfaces/DBInteractionImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,14 +92,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00041" summary="#29 - Controller for register entertainment">
-      <option name="closed" value="true" />
-      <created>1729111834832</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1729111834832</updated>
     </task>
     <task id="LOCAL-00042" summary="#29 - Controller for entertainment from main page">
       <option name="closed" value="true" />
@@ -480,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731532466916</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="#51 - Implementation with JPA(test version)">
+      <option name="closed" value="true" />
+      <created>1731532880012</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1731532880012</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#33 - model for telecom.html" />
     <MESSAGE value="#33 - basic css  for telecom.html" />
     <MESSAGE value="#33 - Flatpickr  for telecom.html" />
     <MESSAGE value="#33 - Controller for telecom.html" />
@@ -520,6 +524,7 @@
     <MESSAGE value="#51 - Implementation for interface" />
     <MESSAGE value="#51 - Implementation for insertIncome()" />
     <MESSAGE value="#51 - Implementation for insertIncome()(test version)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#51 - Implementation for insertIncome()(test version)" />
+    <MESSAGE value="#51 - Implementation with JPA(test version)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#51 - Implementation with JPA(test version)" />
   </component>
 </project>
