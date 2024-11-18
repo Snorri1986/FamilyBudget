@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#50 - limit on symbols for Card field(not more 4)">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - jdbcTemplate">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,22 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00032" summary="#28 - add drop-down list for income field">
-      <option name="closed" value="true" />
-      <created>1729018611303</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1729018611303</updated>
-    </task>
-    <task id="LOCAL-00033" summary="#28 - add form validation for incomeType field">
-      <option name="closed" value="true" />
-      <created>1729018796162</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1729018796162</updated>
     </task>
     <task id="LOCAL-00034" summary="#28 - name attribute is fixed">
       <option name="closed" value="true" />
@@ -481,7 +466,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731444190825</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="#51 - delete unnecessary files">
+      <option name="closed" value="true" />
+      <created>1731965200144</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1731965200144</updated>
+    </task>
+    <task id="LOCAL-00082" summary="#51 - jdbcTemplate">
+      <option name="closed" value="true" />
+      <created>1731965265180</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1731965265180</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,8 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#32 - model for RentHousing" />
-    <MESSAGE value="#32 - basic css for renthousing.html" />
     <MESSAGE value="#32 - Flatpicker for renthousing.html" />
     <MESSAGE value="#32 - controller for the form in renthousing.html" />
     <MESSAGE value="#32 - changes in main controller for renthousing.html" />
@@ -521,6 +520,8 @@
     <MESSAGE value="#37-s_entertainment.html and others(css,method)" />
     <MESSAGE value="#36 - s_income.html(final) and others(css,method)" />
     <MESSAGE value="#50 - limit on symbols for Card field(not more 4)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#50 - limit on symbols for Card field(not more 4)" />
+    <MESSAGE value="#51 - delete unnecessary files" />
+    <MESSAGE value="#51 - jdbcTemplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="#51 - jdbcTemplate" />
   </component>
 </project>
