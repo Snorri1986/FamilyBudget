@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - Implementation with JPA(test version)">
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/dbinterfaces/DBInteraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/dbinterfaces/DBInteraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/dbinterfaces/DBInteractionImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#50 - limit on symbols for Card field(not more 4)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
-        <option value="Interface" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -92,6 +88,86 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
+    </task>
+    <task id="LOCAL-00032" summary="#28 - add drop-down list for income field">
+      <option name="closed" value="true" />
+      <created>1729018611303</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1729018611303</updated>
+    </task>
+    <task id="LOCAL-00033" summary="#28 - add form validation for incomeType field">
+      <option name="closed" value="true" />
+      <created>1729018796162</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1729018796162</updated>
+    </task>
+    <task id="LOCAL-00034" summary="#28 - name attribute is fixed">
+      <option name="closed" value="true" />
+      <created>1729018945344</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1729018945344</updated>
+    </task>
+    <task id="LOCAL-00035" summary="#28 - added drop-down list to currency field">
+      <option name="closed" value="true" />
+      <created>1729019335657</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1729019335657</updated>
+    </task>
+    <task id="LOCAL-00036" summary="#28 - added calendar with Flatpick libray">
+      <option name="closed" value="true" />
+      <created>1729110201721</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1729110201721</updated>
+    </task>
+    <task id="LOCAL-00037" summary="#28 - income.html with web-form(final)">
+      <option name="closed" value="true" />
+      <created>1729110342225</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1729110342225</updated>
+    </task>
+    <task id="LOCAL-00038" summary="#29 - model for entertainment.html">
+      <option name="closed" value="true" />
+      <created>1729111264115</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111264115</updated>
+    </task>
+    <task id="LOCAL-00039" summary="#29 - basic css for entertainment.html">
+      <option name="closed" value="true" />
+      <created>1729111470658</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111470658</updated>
+    </task>
+    <task id="LOCAL-00040" summary="#29 - Flatpicker code for operation date field">
+      <option name="closed" value="true" />
+      <created>1729111605033</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111605033</updated>
+    </task>
+    <task id="LOCAL-00041" summary="#29 - Controller for register entertainment">
+      <option name="closed" value="true" />
+      <created>1729111834832</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1729111834832</updated>
     </task>
     <task id="LOCAL-00042" summary="#29 - Controller for entertainment from main page">
       <option name="closed" value="true" />
@@ -405,87 +481,7 @@
       <option name="project" value="LOCAL" />
       <updated>1731444190825</updated>
     </task>
-    <task id="LOCAL-00081" summary="#51 - limit on symbols for Card field(not more 4)">
-      <option name="closed" value="true" />
-      <created>1731529557655</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1731529557655</updated>
-    </task>
-    <task id="LOCAL-00082" summary="#51 - toString() for IncomeModel">
-      <option name="closed" value="true" />
-      <created>1731529633998</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1731529633998</updated>
-    </task>
-    <task id="LOCAL-00083" summary="#51 - Interface for DB interaction">
-      <option name="closed" value="true" />
-      <created>1731530498846</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1731530498847</updated>
-    </task>
-    <task id="LOCAL-00084" summary="#51 - Implementation for interface">
-      <option name="closed" value="true" />
-      <created>1731530816862</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1731530816862</updated>
-    </task>
-    <task id="LOCAL-00085" summary="#51 - Implementation for insertIncome()">
-      <option name="closed" value="true" />
-      <created>1731531505581</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1731531505581</updated>
-    </task>
-    <task id="LOCAL-00086" summary="#51 - Implementation for insertIncome()(test version)">
-      <option name="closed" value="true" />
-      <created>1731532065625</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1731532065625</updated>
-    </task>
-    <task id="LOCAL-00087" summary="#51 - Implementation for insertIncome()(test version)">
-      <option name="closed" value="true" />
-      <created>1731532247375</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1731532247375</updated>
-    </task>
-    <task id="LOCAL-00088" summary="#51 - Implementation for insertIncome()(test version)">
-      <option name="closed" value="true" />
-      <created>1731532251828</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1731532251828</updated>
-    </task>
-    <task id="LOCAL-00089" summary="#51 - Implementation for insertIncome()(test version)">
-      <option name="closed" value="true" />
-      <created>1731532466916</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1731532466916</updated>
-    </task>
-    <task id="LOCAL-00090" summary="#51 - Implementation with JPA(test version)">
-      <option name="closed" value="true" />
-      <created>1731532880012</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1731532880012</updated>
-    </task>
-    <option name="localTasksCounter" value="91" />
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,6 +496,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="#32 - model for RentHousing" />
+    <MESSAGE value="#32 - basic css for renthousing.html" />
+    <MESSAGE value="#32 - Flatpicker for renthousing.html" />
+    <MESSAGE value="#32 - controller for the form in renthousing.html" />
+    <MESSAGE value="#32 - changes in main controller for renthousing.html" />
+    <MESSAGE value="#32 - renthousing.html(final)" />
+    <MESSAGE value="#33 - model for telecom.html" />
     <MESSAGE value="#33 - basic css  for telecom.html" />
     <MESSAGE value="#33 - Flatpickr  for telecom.html" />
     <MESSAGE value="#33 - Controller for telecom.html" />
@@ -518,13 +521,6 @@
     <MESSAGE value="#37-s_entertainment.html and others(css,method)" />
     <MESSAGE value="#36 - s_income.html(final) and others(css,method)" />
     <MESSAGE value="#50 - limit on symbols for Card field(not more 4)" />
-    <MESSAGE value="#51 - limit on symbols for Card field(not more 4)" />
-    <MESSAGE value="#51 - toString() for IncomeModel" />
-    <MESSAGE value="#51 - Interface for DB interaction" />
-    <MESSAGE value="#51 - Implementation for interface" />
-    <MESSAGE value="#51 - Implementation for insertIncome()" />
-    <MESSAGE value="#51 - Implementation for insertIncome()(test version)" />
-    <MESSAGE value="#51 - Implementation with JPA(test version)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#51 - Implementation with JPA(test version)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#50 - limit on symbols for Card field(not more 4)" />
   </component>
 </project>
