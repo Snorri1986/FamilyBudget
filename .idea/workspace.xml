@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - IncomeModel only for DB">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - Use IncomeModelDB on service level">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00039" summary="#29 - basic css for entertainment.html">
-      <option name="closed" value="true" />
-      <created>1729111470658</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1729111470658</updated>
     </task>
     <task id="LOCAL-00040" summary="#29 - Flatpicker code for operation date field">
       <option name="closed" value="true" />
@@ -482,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731967367398</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="#51 - Use IncomeModelDB on service level">
+      <option name="closed" value="true" />
+      <created>1731967427879</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1731967427879</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#33 - basic css  for telecom.html" />
     <MESSAGE value="#33 - Flatpickr  for telecom.html" />
     <MESSAGE value="#33 - Controller for telecom.html" />
     <MESSAGE value="#33 - telecom.html(final)" />
@@ -522,6 +520,7 @@
     <MESSAGE value="#51 - with CAST" />
     <MESSAGE value="#51 - without CAST" />
     <MESSAGE value="#51 - IncomeModel only for DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="#51 - IncomeModel only for DB" />
+    <MESSAGE value="#51 - Use IncomeModelDB on service level" />
+    <option name="LAST_COMMIT_MESSAGE" value="#51 - Use IncomeModelDB on service level" />
   </component>
 </project>
