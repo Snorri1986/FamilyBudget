@@ -12,7 +12,7 @@ public class DBService {
   private JdbcTemplate jdbcTemplate;
 
   public void insertNewIncome(IncomeModel incomeModel) {
-    String sql = "SELECT public.i_income(?,?,?,?,?,?)";
+    String sql = "SELECT public.i_income(CAST(? AS VARCHAR), CAST(? AS INTEGER), CAST(? AS VARCHAR), CAST(? AS DATE), CAST(? AS INTEGER), CAST(? AS VARCHAR))";
     jdbcTemplate.queryForObject(sql, new Object[]{incomeModel.getIncomeType(),
                                                   incomeModel.getAmount(),
                                                   incomeModel.getCurrency(),
