@@ -4,9 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - jdbcTemplate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - insertNewIncome">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/DataSourceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/FamilyBudgetMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/dbinterfaces/DBInteraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/dbinterfaces/DBInteractionCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/dbinterfaces/DBInteractionCustomImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/dbinterfaces/DBInteractionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +105,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00034" summary="#28 - name attribute is fixed">
-      <option name="closed" value="true" />
-      <created>1729018945344</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1729018945344</updated>
     </task>
     <task id="LOCAL-00035" summary="#28 - added drop-down list to currency field">
       <option name="closed" value="true" />
@@ -482,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731965265180</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="#51 - insertNewIncome">
+      <option name="closed" value="true" />
+      <created>1731965934732</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1731965934732</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +513,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#32 - Flatpicker for renthousing.html" />
     <MESSAGE value="#32 - controller for the form in renthousing.html" />
     <MESSAGE value="#32 - changes in main controller for renthousing.html" />
     <MESSAGE value="#32 - renthousing.html(final)" />
@@ -522,6 +537,7 @@
     <MESSAGE value="#50 - limit on symbols for Card field(not more 4)" />
     <MESSAGE value="#51 - delete unnecessary files" />
     <MESSAGE value="#51 - jdbcTemplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="#51 - jdbcTemplate" />
+    <MESSAGE value="#51 - insertNewIncome" />
+    <option name="LAST_COMMIT_MESSAGE" value="#51 - insertNewIncome" />
   </component>
 </project>
