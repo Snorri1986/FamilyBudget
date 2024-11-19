@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 -  change income type">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - insert income(final)">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00043" summary="#29 - entertainment.html(final)">
-      <option name="closed" value="true" />
-      <created>1729189635977</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1729189635977</updated>
     </task>
     <task id="LOCAL-00044" summary="#29 - clean up on controller side">
       <option name="closed" value="true" />
@@ -483,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732044345503</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="#51 - insert income(final)">
+      <option name="closed" value="true" />
+      <created>1732044797444</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1732044797444</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#34 - model for travel.html" />
     <MESSAGE value="#34 - controller for register new trips travel.html" />
     <MESSAGE value="#34 - basic css for travel.html" />
     <MESSAGE value="#34 - Flatpicker for travel.html" />
@@ -523,6 +520,7 @@
     <MESSAGE value="#51 -  submitIncomeForm() in progress" />
     <MESSAGE value="#51 -  object incomeModelDB to DB" />
     <MESSAGE value="#51 -  change income type" />
-    <option name="LAST_COMMIT_MESSAGE" value="#51 -  change income type" />
+    <MESSAGE value="#51 - insert income(final)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#51 - insert income(final)" />
   </component>
 </project>

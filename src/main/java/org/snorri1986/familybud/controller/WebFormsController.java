@@ -42,7 +42,7 @@ public class WebFormsController {
     incomeModelDB.setOperDescription(income.getOperDescription());
 
     dbService.insertNewIncome(incomeModelDB);
-   return "s_income";
+    return "s_income";
   }
 
   @PostMapping("/registerEntertainment")
