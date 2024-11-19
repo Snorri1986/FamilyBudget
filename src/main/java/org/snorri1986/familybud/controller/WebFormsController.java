@@ -32,7 +32,18 @@ public class WebFormsController {
       case "Others":  incomeModelDB.setIncomeType(17);
     }
 
-    //TODO: create new incomeModelDB object
+    incomeModelDB.setAmount(income.getAmount());
+
+    switch (income.getCurrency()) {
+      case "DKK": incomeModelDB.setCurrency(3);
+      case "EUR": incomeModelDB.setCurrency(1);
+      case "UAH": incomeModelDB.setCurrency(2);
+      case "USD": incomeModelDB.setCurrency(4);
+    }
+
+    incomeModelDB.setTransactionDate(income.getTransactionDate());
+    incomeModelDB.setCardNum(income.getCardNum());
+    incomeModelDB.setOperDescription(income.getOperDescription());
 
     dbService.insertNewIncome(incomeModelDB);
    return "s_income";
