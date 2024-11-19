@@ -25,8 +25,7 @@ public class WebFormsController {
       case "Bonus": incomeModelDB.setIncomeType(13);
       case "TravelRefund":  incomeModelDB.setIncomeType(15);
       case "ShopRefund":  incomeModelDB.setIncomeType(16);
-        // TODO: rename on DB level to others
-      case "Others":  incomeModelDB.setIncomeType(17);
+      case "Other":  incomeModelDB.setIncomeType(17);
     }
 
     incomeModelDB.setAmount(income.getAmount());
