@@ -17,16 +17,13 @@ public class WebFormsController {
   @PostMapping("/registerIncome")
   public String submitIncomeForm(@ModelAttribute("income_mod_attribute") IncomeModel income) {
     System.out.println("New income" + income.toString());
-    //TODO:
-    // New incomeIncomeModel{incomeType='Salary', amount=1000, currency='DKK', transactionDate=Wed Nov 13 12:00:00 CET 2024, cardNum=1234, operDescription='Go to DB'}
-    // CREATE OR REPLACE FUNCTION public.i_income(income_type integer, amount_value integer, currency_value integer, oper_date date, payment_card integer, comm_value character
     IncomeModelDB incomeModelDB = new IncomeModelDB();
-    // convert values from form
+
+    // convert values from web form
     switch (income.getIncomeType()) {
       case "Salary": incomeModelDB.setIncomeType(14);
       case "Bonus": incomeModelDB.setIncomeType(13);
-      // TODO: rename to Travel Refund on html level
-      case "WorkRefund":  incomeModelDB.setIncomeType(15);
+      case "TravelRefund":  incomeModelDB.setIncomeType(15);
       case "ShopRefund":  incomeModelDB.setIncomeType(16);
         // TODO: rename on DB level to others
       case "Others":  incomeModelDB.setIncomeType(17);
