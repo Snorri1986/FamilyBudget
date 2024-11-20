@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#36 - s_income.html(final) and others(css,method)">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - insert income(final)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,118 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00031" summary="#28 - add TODO comment">
-      <option name="closed" value="true" />
-      <created>1729017912690</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1729017912690</updated>
-    </task>
-    <task id="LOCAL-00032" summary="#28 - add drop-down list for income field">
-      <option name="closed" value="true" />
-      <created>1729018611303</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1729018611303</updated>
-    </task>
-    <task id="LOCAL-00033" summary="#28 - add form validation for incomeType field">
-      <option name="closed" value="true" />
-      <created>1729018796162</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1729018796162</updated>
-    </task>
-    <task id="LOCAL-00034" summary="#28 - name attribute is fixed">
-      <option name="closed" value="true" />
-      <created>1729018945344</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1729018945344</updated>
-    </task>
-    <task id="LOCAL-00035" summary="#28 - added drop-down list to currency field">
-      <option name="closed" value="true" />
-      <created>1729019335657</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1729019335657</updated>
-    </task>
-    <task id="LOCAL-00036" summary="#28 - added calendar with Flatpick libray">
-      <option name="closed" value="true" />
-      <created>1729110201721</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1729110201721</updated>
-    </task>
-    <task id="LOCAL-00037" summary="#28 - income.html with web-form(final)">
-      <option name="closed" value="true" />
-      <created>1729110342225</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1729110342225</updated>
-    </task>
-    <task id="LOCAL-00038" summary="#29 - model for entertainment.html">
-      <option name="closed" value="true" />
-      <created>1729111264115</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1729111264115</updated>
-    </task>
-    <task id="LOCAL-00039" summary="#29 - basic css for entertainment.html">
-      <option name="closed" value="true" />
-      <created>1729111470658</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1729111470658</updated>
-    </task>
-    <task id="LOCAL-00040" summary="#29 - Flatpicker code for operation date field">
-      <option name="closed" value="true" />
-      <created>1729111605033</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1729111605033</updated>
-    </task>
-    <task id="LOCAL-00041" summary="#29 - Controller for register entertainment">
-      <option name="closed" value="true" />
-      <created>1729111834832</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1729111834832</updated>
-    </task>
-    <task id="LOCAL-00042" summary="#29 - Controller for entertainment from main page">
-      <option name="closed" value="true" />
-      <created>1729188771166</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1729188771166</updated>
-    </task>
-    <task id="LOCAL-00043" summary="#29 - entertainment.html(final)">
-      <option name="closed" value="true" />
-      <created>1729189635977</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1729189635977</updated>
-    </task>
-    <task id="LOCAL-00044" summary="#29 - clean up on controller side">
-      <option name="closed" value="true" />
-      <created>1729189748868</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1729189748868</updated>
     </task>
     <task id="LOCAL-00045" summary="#29 - currencyNames list became global variable">
       <option name="closed" value="true" />
@@ -485,7 +369,119 @@
       <option name="project" value="LOCAL" />
       <updated>1731442498502</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="#50 - limit on symbols for Card field(not more 4)">
+      <option name="closed" value="true" />
+      <created>1731444190825</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1731444190825</updated>
+    </task>
+    <task id="LOCAL-00081" summary="#51 - delete unnecessary files">
+      <option name="closed" value="true" />
+      <created>1731965200144</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1731965200144</updated>
+    </task>
+    <task id="LOCAL-00082" summary="#51 - jdbcTemplate">
+      <option name="closed" value="true" />
+      <created>1731965265180</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1731965265180</updated>
+    </task>
+    <task id="LOCAL-00083" summary="#51 - insertNewIncome">
+      <option name="closed" value="true" />
+      <created>1731965934732</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1731965934732</updated>
+    </task>
+    <task id="LOCAL-00084" summary="#51 - service implementation">
+      <option name="closed" value="true" />
+      <created>1731966220427</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1731966220427</updated>
+    </task>
+    <task id="LOCAL-00085" summary="#51 - with CAST">
+      <option name="closed" value="true" />
+      <created>1731966693979</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1731966693979</updated>
+    </task>
+    <task id="LOCAL-00086" summary="#51 - without CAST">
+      <option name="closed" value="true" />
+      <created>1731966763971</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1731966763971</updated>
+    </task>
+    <task id="LOCAL-00087" summary="#51 - IncomeModel only for DB">
+      <option name="closed" value="true" />
+      <created>1731967367398</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1731967367398</updated>
+    </task>
+    <task id="LOCAL-00088" summary="#51 - Use IncomeModelDB on service level">
+      <option name="closed" value="true" />
+      <created>1731967427879</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1731967427879</updated>
+    </task>
+    <task id="LOCAL-00089" summary="#51 -  submitIncomeForm() in progress">
+      <option name="closed" value="true" />
+      <created>1731967825884</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1731967825884</updated>
+    </task>
+    <task id="LOCAL-00090" summary="#51 -  object incomeModelDB to DB">
+      <option name="closed" value="true" />
+      <created>1732044018259</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1732044018259</updated>
+    </task>
+    <task id="LOCAL-00091" summary="#51 -  change income type">
+      <option name="closed" value="true" />
+      <created>1732044345503</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1732044345503</updated>
+    </task>
+    <task id="LOCAL-00092" summary="#51 - insert income(final)">
+      <option name="closed" value="true" />
+      <created>1732044797444</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1732044797444</updated>
+    </task>
+    <task id="LOCAL-00093" summary="#51 - insert income(final)">
+      <option name="closed" value="true" />
+      <created>1732044993018</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1732044993018</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,19 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#31 - health.html(final)" />
-    <MESSAGE value="#32 - model for RentHousing" />
-    <MESSAGE value="#32 - basic css for renthousing.html" />
-    <MESSAGE value="#32 - Flatpicker for renthousing.html" />
-    <MESSAGE value="#32 - controller for the form in renthousing.html" />
-    <MESSAGE value="#32 - changes in main controller for renthousing.html" />
-    <MESSAGE value="#32 - renthousing.html(final)" />
-    <MESSAGE value="#33 - model for telecom.html" />
-    <MESSAGE value="#33 - basic css  for telecom.html" />
-    <MESSAGE value="#33 - Flatpickr  for telecom.html" />
-    <MESSAGE value="#33 - Controller for telecom.html" />
-    <MESSAGE value="#33 - telecom.html(final)" />
-    <MESSAGE value="#34 - model for travel.html" />
     <MESSAGE value="#34 - controller for register new trips travel.html" />
     <MESSAGE value="#34 - basic css for travel.html" />
     <MESSAGE value="#34 - Flatpicker for travel.html" />
@@ -525,6 +508,19 @@
     <MESSAGE value="#38 - s_groceries.html(final),css,+submitGroceriesForm()" />
     <MESSAGE value="#37-s_entertainment.html and others(css,method)" />
     <MESSAGE value="#36 - s_income.html(final) and others(css,method)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#36 - s_income.html(final) and others(css,method)" />
+    <MESSAGE value="#50 - limit on symbols for Card field(not more 4)" />
+    <MESSAGE value="#51 - delete unnecessary files" />
+    <MESSAGE value="#51 - jdbcTemplate" />
+    <MESSAGE value="#51 - insertNewIncome" />
+    <MESSAGE value="#51 - service implementation" />
+    <MESSAGE value="#51 - with CAST" />
+    <MESSAGE value="#51 - without CAST" />
+    <MESSAGE value="#51 - IncomeModel only for DB" />
+    <MESSAGE value="#51 - Use IncomeModelDB on service level" />
+    <MESSAGE value="#51 -  submitIncomeForm() in progress" />
+    <MESSAGE value="#51 -  object incomeModelDB to DB" />
+    <MESSAGE value="#51 -  change income type" />
+    <MESSAGE value="#51 - insert income(final)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#51 - insert income(final)" />
   </component>
 </project>

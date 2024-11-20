@@ -1,3 +1,4 @@
+org\snorri1986\familybud\models\IncomeModelDB.class
 org\snorri1986\familybud\models\GroceriesModel.class
 org\snorri1986\familybud\FamilyBudgetMain.class
 org\snorri1986\familybud\controller\MainPageController.class
@@ -8,4 +9,5 @@ org\snorri1986\familybud\models\TravelModel.class
 org\snorri1986\familybud\controller\WebFormsController.class
 org\snorri1986\familybud\models\IncomeModel.class
 org\snorri1986\familybud\models\EntertainmentModel.class
+org\snorri1986\familybud\service\DBService.class
 org\snorri1986\familybud\models\HealthModel.class

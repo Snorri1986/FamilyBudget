@@ -1,6 +1,8 @@
 package org.snorri1986.familybud.controller;
 
 import org.snorri1986.familybud.models.*;
+import org.snorri1986.familybud.service.DBService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -9,10 +11,37 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class WebFormsController {
 
+  @Autowired
+  DBService dbService;
+
   @PostMapping("/registerIncome")
   public String submitIncomeForm(@ModelAttribute("income_mod_attribute") IncomeModel income) {
-    // Temporary code
-    System.out.println("Income Registered: " + income.getOperDescription());
+    System.out.println("New income" + income.toString());
+    IncomeModelDB incomeModelDB = new IncomeModelDB();
+
+    // convert values from web form
+    switch (income.getIncomeType()) {
+      case "Salary": incomeModelDB.setIncomeType(14);
+      case "Bonus": incomeModelDB.setIncomeType(13);
+      case "TravelRefund":  incomeModelDB.setIncomeType(15);
+      case "ShopRefund":  incomeModelDB.setIncomeType(16);
+      case "Other":  incomeModelDB.setIncomeType(17);
+    }
+
+    incomeModelDB.setAmount(income.getAmount());
+
+    switch (income.getCurrency()) {
+      case "DKK": incomeModelDB.setCurrency(3);
+      case "EUR": incomeModelDB.setCurrency(1);
+      case "UAH": incomeModelDB.setCurrency(2);
+      case "USD": incomeModelDB.setCurrency(4);
+    }
+
+    incomeModelDB.setTransactionDate(income.getTransactionDate());
+    incomeModelDB.setCardNum(income.getCardNum());
+    incomeModelDB.setOperDescription(income.getOperDescription());
+
+    dbService.insertNewIncome(incomeModelDB);
     return "s_income";
   }
 

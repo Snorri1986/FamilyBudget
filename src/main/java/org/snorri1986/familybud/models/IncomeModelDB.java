@@ -4,20 +4,20 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
-public class IncomeModel {
-  private String incomeType;
+public class IncomeModelDB {
+  private int incomeType;
   private int amount;
-  private String currency;
+  private int currency;
   @DateTimeFormat(pattern = "dd.MM.yyyy HH:mm")
   private Date transactionDate;
   private int cardNum;
   private String operDescription;
 
-  public String getIncomeType() {
+  public int getIncomeType() {
     return incomeType;
   }
 
-  public void setIncomeType(String incomeType) {
+  public void setIncomeType(int incomeType) {
     this.incomeType = incomeType;
   }
 
@@ -29,11 +29,11 @@ public class IncomeModel {
     this.amount = amount;
   }
 
-  public String getCurrency() {
+  public int getCurrency() {
     return currency;
   }
 
-  public void setCurrency(String currency) {
+  public void setCurrency(int currency) {
     this.currency = currency;
   }
 
@@ -60,18 +60,4 @@ public class IncomeModel {
   public void setOperDescription(String operDescription) {
     this.operDescription = operDescription;
   }
-
-  @Override
-  public String toString() {
-    return "IncomeModel{" +
-            "incomeType='" + incomeType + '\'' +
-            ", amount=" + amount +
-            ", currency='" + currency + '\'' +
-            ", transactionDate=" + transactionDate +
-            ", cardNum=" + cardNum +
-            ", operDescription='" + operDescription + '\'' +
-            '}';
-  }
 }
-
-
