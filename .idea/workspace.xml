@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#51 - insert income(final)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/EntertainmentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/EntertainmentModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#52 - add debug info (temp)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/EntertainmentModelDB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,22 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00046" summary="#30 - model for Groceries">
-      <option name="closed" value="true" />
-      <created>1729191095058</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1729191095058</updated>
-    </task>
-    <task id="LOCAL-00047" summary="#30 - basic css for groceries.html">
-      <option name="closed" value="true" />
-      <created>1729191236827</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1729191236827</updated>
     </task>
     <task id="LOCAL-00048" summary="#30 - Flatpicker for groceries.html">
       <option name="closed" value="true" />
@@ -484,7 +465,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732045874878</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="#52 - toString() for EntertainmentModel">
+      <option name="closed" value="true" />
+      <created>1732138101079</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1732138101079</updated>
+    </task>
+    <task id="LOCAL-00096" summary="#52 - add debug info (temp)">
+      <option name="closed" value="true" />
+      <created>1732138250036</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1732138250036</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,8 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#34 - controller for register new trips travel.html" />
-    <MESSAGE value="#34 - basic css for travel.html" />
     <MESSAGE value="#34 - Flatpicker for travel.html" />
     <MESSAGE value="#34 - travel.html(final)" />
     <MESSAGE value="#42 - s_travel page and return for +submitTravelForm()" />
@@ -524,6 +519,8 @@
     <MESSAGE value="#51 -  object incomeModelDB to DB" />
     <MESSAGE value="#51 -  change income type" />
     <MESSAGE value="#51 - insert income(final)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#51 - insert income(final)" />
+    <MESSAGE value="#52 - toString() for EntertainmentModel" />
+    <MESSAGE value="#52 - add debug info (temp)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#52 - add debug info (temp)" />
   </component>
 </project>
