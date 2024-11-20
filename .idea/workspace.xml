@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#52 - add method for inserting new entertainment event">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#52 - set better name to model from web">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,30 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00051" summary="#31 - model for health.html">
-      <option name="closed" value="true" />
-      <created>1730150191120</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1730150191120</updated>
-    </task>
-    <task id="LOCAL-00052" summary="#31 - basic css for health.html">
-      <option name="closed" value="true" />
-      <created>1730150338493</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1730150338493</updated>
-    </task>
-    <task id="LOCAL-00053" summary="#31 - Flatpicker library for health.html">
-      <option name="closed" value="true" />
-      <created>1730150448224</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1730150448224</updated>
     </task>
     <task id="LOCAL-00054" summary="#31 - submitHealthForm method">
       <option name="closed" value="true" />
@@ -482,7 +457,31 @@
       <option name="project" value="LOCAL" />
       <updated>1732138826818</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="#52 - create new model and call DB service">
+      <option name="closed" value="true" />
+      <created>1732140146812</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1732140146812</updated>
+    </task>
+    <task id="LOCAL-00101" summary="#52 - clean">
+      <option name="closed" value="true" />
+      <created>1732140272470</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1732140272470</updated>
+    </task>
+    <task id="LOCAL-00102" summary="#52 - set better name to model from web">
+      <option name="closed" value="true" />
+      <created>1732140372740</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1732140372740</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,9 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#42 - s_travel page and return for +submitTravelForm()" />
-    <MESSAGE value="#42 - css for s_travel.html and fixed h1 tag" />
-    <MESSAGE value="#41 - s_telecom.html(final),css and +submitTelecomForm()" />
     <MESSAGE value="#40 - s_renthousing.html(final),css,+submitHousingForm()" />
     <MESSAGE value="#39 - s_health.html(final),css,+submitHealthForm()" />
     <MESSAGE value="#38 - s_groceries.html(final),css,+submitGroceriesForm()" />
@@ -522,6 +518,9 @@
     <MESSAGE value="#52 - add debug info (temp)" />
     <MESSAGE value="#52 - Entertainment model for DB insert" />
     <MESSAGE value="#52 - add method for inserting new entertainment event" />
-    <option name="LAST_COMMIT_MESSAGE" value="#52 - add method for inserting new entertainment event" />
+    <MESSAGE value="#52 - create new model and call DB service" />
+    <MESSAGE value="#52 - clean" />
+    <MESSAGE value="#52 - set better name to model from web" />
+    <option name="LAST_COMMIT_MESSAGE" value="#52 - set better name to model from web" />
   </component>
 </project>

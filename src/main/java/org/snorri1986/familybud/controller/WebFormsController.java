@@ -30,6 +30,7 @@ public class WebFormsController {
 
     incomeModelDB.setAmount(income.getAmount());
 
+    // TODO: replace and use function method
     switch (income.getCurrency()) {
       case "DKK": incomeModelDB.setCurrency(3);
       case "EUR": incomeModelDB.setCurrency(1);
