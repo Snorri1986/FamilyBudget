@@ -1,5 +1,6 @@
 package org.snorri1986.familybud.service;
 
+import org.snorri1986.familybud.models.EntertainmentModelDB;
 import org.snorri1986.familybud.models.IncomeModelDB;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -20,5 +21,15 @@ public class DBService {
                                                   incomeModel.getCardNum(),
                                                   incomeModel.getOperDescription()},String.class);
 
+  }
+
+  public void insertNewEntertainment(EntertainmentModelDB entertainmentModelDB) {
+    String sql = "SELECT public.i_entertainment(?,?,?,?,?,?)";
+    jdbcTemplate.queryForObject(sql, new Object[]{entertainmentModelDB.getEventType(),
+            entertainmentModelDB.getAmount(),
+            entertainmentModelDB.getCurrency(),
+            entertainmentModelDB.getTransactionDate(),
+            entertainmentModelDB.getCardNum(),
+            entertainmentModelDB.getOperDescription()},String.class);
   }
 }
