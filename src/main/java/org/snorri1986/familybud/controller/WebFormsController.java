@@ -50,6 +50,31 @@ public class WebFormsController {
     System.out.println("Entertainment Registered: " + entModel.toString());
     // TODO: from WebForm Entertainment Registered: EntertainmentModel{eventType='Travel',
     //  amount=1234, currency='USD', transactionDate=Mon Nov 11 12:00:00 CET 2024, cardNum=1000, operDescription='Local entertainment'}
+    EntertainmentModelDB entertainmentModelDB = new EntertainmentModelDB();
+    switch (entModel.getEventType()) {
+      case "Travel": entertainmentModelDB.setEventType(8);
+      case "Cinema": entertainmentModelDB.setEventType(13);
+      case "Vacation": entertainmentModelDB.setEventType(14);
+      case "Relax": entertainmentModelDB.setEventType(15);
+      case "Homefest": entertainmentModelDB.setEventType(16);
+      case "Other": entertainmentModelDB.setEventType(17);
+    }
+
+    entertainmentModelDB.setAmount(entModel.getAmount());
+
+    // TODO: replace repeat code
+    switch (entModel.getCurrency()) {
+      case "DKK": entertainmentModelDB.setCurrency(3);
+      case "EUR": entertainmentModelDB.setCurrency(1);
+      case "UAH": entertainmentModelDB.setCurrency(2);
+      case "USD": entertainmentModelDB.setCurrency(4);
+    }
+
+    entertainmentModelDB.setTransactionDate(entModel.getTransactionDate());
+    entertainmentModelDB.setCardNum(entModel.getCardNum());
+    entertainmentModelDB.setOperDescription(entModel.getOperDescription());
+
+    dbService.insertNewEntertainment(entertainmentModelDB);
     return "s_entertainment";
   }
 

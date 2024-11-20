@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#52 - Entertainment model for DB insert">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#52 - add method for inserting new entertainment event">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,22 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00049" summary="#30 - controller for register groceries.html">
-      <option name="closed" value="true" />
-      <created>1729191845032</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1729191845032</updated>
-    </task>
-    <task id="LOCAL-00050" summary="#30 - groceries.html(final)">
-      <option name="closed" value="true" />
-      <created>1730149141094</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1730149141094</updated>
     </task>
     <task id="LOCAL-00051" summary="#31 - model for health.html">
       <option name="closed" value="true" />
@@ -481,7 +466,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732138552914</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="#52 - add method for inserting new entertainment event">
+      <option name="closed" value="true" />
+      <created>1732138818206</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1732138818206</updated>
+    </task>
+    <task id="LOCAL-00099" summary="#52 - add method for inserting new entertainment event">
+      <option name="closed" value="true" />
+      <created>1732138826818</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1732138826818</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#34 - travel.html(final)" />
     <MESSAGE value="#42 - s_travel page and return for +submitTravelForm()" />
     <MESSAGE value="#42 - css for s_travel.html and fixed h1 tag" />
     <MESSAGE value="#41 - s_telecom.html(final),css and +submitTelecomForm()" />
@@ -521,6 +521,7 @@
     <MESSAGE value="#52 - toString() for EntertainmentModel" />
     <MESSAGE value="#52 - add debug info (temp)" />
     <MESSAGE value="#52 - Entertainment model for DB insert" />
-    <option name="LAST_COMMIT_MESSAGE" value="#52 - Entertainment model for DB insert" />
+    <MESSAGE value="#52 - add method for inserting new entertainment event" />
+    <option name="LAST_COMMIT_MESSAGE" value="#52 - add method for inserting new entertainment event" />
   </component>
 </project>
