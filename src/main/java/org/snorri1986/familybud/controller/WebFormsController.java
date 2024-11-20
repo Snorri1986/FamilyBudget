@@ -48,8 +48,6 @@ public class WebFormsController {
   @PostMapping("/registerEntertainment")
   public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModel entModel) {
     System.out.println("Entertainment Registered: " + entModel.toString());
-    // TODO: from WebForm Entertainment Registered: EntertainmentModel{eventType='Travel',
-    //  amount=1234, currency='USD', transactionDate=Mon Nov 11 12:00:00 CET 2024, cardNum=1000, operDescription='Local entertainment'}
     EntertainmentModelDB entertainmentModelDB = new EntertainmentModelDB();
     switch (entModel.getEventType()) {
       case "Travel": entertainmentModelDB.setEventType(8);
