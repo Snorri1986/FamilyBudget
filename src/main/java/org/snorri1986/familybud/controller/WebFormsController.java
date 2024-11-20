@@ -47,8 +47,7 @@ public class WebFormsController {
 
   @PostMapping("/registerEntertainment")
   public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModel entModel) {
-    // Temporary code
-    System.out.println("Entertainment Registered: " + entModel.getOperDescription());
+    System.out.println("Entertainment Registered: " + entModel.toString());
     return "s_entertainment";
   }
 
