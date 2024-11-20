@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#52 - add debug info (temp)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/EntertainmentModelDB.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#52 - Entertainment model for DB insert">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00048" summary="#30 - Flatpicker for groceries.html">
-      <option name="closed" value="true" />
-      <created>1729191611564</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1729191611564</updated>
     </task>
     <task id="LOCAL-00049" summary="#30 - controller for register groceries.html">
       <option name="closed" value="true" />
@@ -481,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732138250036</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="#52 - Entertainment model for DB insert">
+      <option name="closed" value="true" />
+      <created>1732138552914</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1732138552914</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#34 - Flatpicker for travel.html" />
     <MESSAGE value="#34 - travel.html(final)" />
     <MESSAGE value="#42 - s_travel page and return for +submitTravelForm()" />
     <MESSAGE value="#42 - css for s_travel.html and fixed h1 tag" />
@@ -521,6 +520,7 @@
     <MESSAGE value="#51 - insert income(final)" />
     <MESSAGE value="#52 - toString() for EntertainmentModel" />
     <MESSAGE value="#52 - add debug info (temp)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#52 - add debug info (temp)" />
+    <MESSAGE value="#52 - Entertainment model for DB insert" />
+    <option name="LAST_COMMIT_MESSAGE" value="#52 - Entertainment model for DB insert" />
   </component>
 </project>
