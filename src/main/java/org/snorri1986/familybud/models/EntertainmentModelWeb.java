@@ -4,7 +4,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
-public class EntertainmentModel {
+public class EntertainmentModelWeb {
   private String eventType;
   private int amount;
   private String currency;

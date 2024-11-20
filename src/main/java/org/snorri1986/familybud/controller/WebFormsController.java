@@ -46,7 +46,7 @@ public class WebFormsController {
   }
 
   @PostMapping("/registerEntertainment")
-  public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModel entModel) {
+  public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModelWeb entModel) {
     System.out.println("Entertainment Registered: " + entModel.toString());
     EntertainmentModelDB entertainmentModelDB = new EntertainmentModelDB();
     switch (entModel.getEventType()) {

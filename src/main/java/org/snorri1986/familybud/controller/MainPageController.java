@@ -32,7 +32,7 @@ public class MainPageController {
   @GetMapping("/entertainment")
   public String getEntertainmentPage(Model model) {
     List<String> entList = Arrays.asList("Travel", "Cinema", "Vacation", "Relax", "Homefest","Other");
-    model.addAttribute("entertainment_mod_attribute", new EntertainmentModel());
+    model.addAttribute("entertainment_mod_attribute", new EntertainmentModelWeb());
     model.addAttribute("entList", entList);
     model.addAttribute("currencyNames", currencyNames);
     return "entertainment";
