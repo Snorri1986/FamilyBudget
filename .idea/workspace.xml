@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#52 - final" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#60 - class for utilities">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/Utils.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="v0.0.10-3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,14 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00056" summary="#32 - model for RentHousing">
-      <option name="closed" value="true" />
-      <created>1730321302329</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1730321302329</updated>
     </task>
     <task id="LOCAL-00057" summary="#32 - basic css for renthousing.html">
       <option name="closed" value="true" />
@@ -479,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732140543256</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="#60 - class for utilities">
+      <option name="closed" value="true" />
+      <created>1732568103520</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1732568103521</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#39 - s_health.html(final),css,+submitHealthForm()" />
     <MESSAGE value="#38 - s_groceries.html(final),css,+submitGroceriesForm()" />
     <MESSAGE value="#37-s_entertainment.html and others(css,method)" />
     <MESSAGE value="#36 - s_income.html(final) and others(css,method)" />
@@ -519,6 +520,7 @@
     <MESSAGE value="#52 - clean" />
     <MESSAGE value="#52 - set better name to model from web" />
     <MESSAGE value="#52 - final" />
-    <option name="LAST_COMMIT_MESSAGE" value="#52 - final" />
+    <MESSAGE value="#60 - class for utilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="#60 - class for utilities" />
   </component>
 </project>
