@@ -30,16 +30,7 @@ public class WebFormsController {
     }
 
     incomeModelDB.setAmount(income.getAmount());
-
-    // TODO: replace and use function method
-//    switch (income.getCurrency()) {
-//      case "DKK": incomeModelDB.setCurrency(3);
-//      case "EUR": incomeModelDB.setCurrency(1);
-//      case "UAH": incomeModelDB.setCurrency(2);
-//      case "USD": incomeModelDB.setCurrency(4);
-//    }
     incomeModelDB.setCurrency(Utils.currencyConvert(income.getCurrency()));
-
 
     incomeModelDB.setTransactionDate(income.getTransactionDate());
     incomeModelDB.setCardNum(income.getCardNum());
@@ -63,14 +54,6 @@ public class WebFormsController {
     }
 
     entertainmentModelDB.setAmount(entModel.getAmount());
-
-    // TODO: replace repeat code
-//    switch (entModel.getCurrency()) {
-//      case "DKK": entertainmentModelDB.setCurrency(3);
-//      case "EUR": entertainmentModelDB.setCurrency(1);
-//      case "UAH": entertainmentModelDB.setCurrency(2);
-//      case "USD": entertainmentModelDB.setCurrency(4);
-//    }
     entertainmentModelDB.setCurrency(Utils.currencyConvert(entModel.getCurrency()));
 
     entertainmentModelDB.setTransactionDate(entModel.getTransactionDate());

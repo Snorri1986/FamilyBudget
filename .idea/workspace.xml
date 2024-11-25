@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#60 - class for utilities">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/Utils.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#60 - usage Utils.currencyConvert as test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,22 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00057" summary="#32 - basic css for renthousing.html">
-      <option name="closed" value="true" />
-      <created>1730321517239</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1730321517239</updated>
-    </task>
-    <task id="LOCAL-00058" summary="#32 - Flatpicker for renthousing.html">
-      <option name="closed" value="true" />
-      <created>1730321637579</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1730321637579</updated>
     </task>
     <task id="LOCAL-00059" summary="#32 - controller for the form in renthousing.html">
       <option name="closed" value="true" />
@@ -481,7 +463,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732568103521</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="#60 - method for convert cur vals from String to int">
+      <option name="closed" value="true" />
+      <created>1732568481399</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1732568481399</updated>
+    </task>
+    <task id="LOCAL-00107" summary="#60 - usage Utils.currencyConvert as test">
+      <option name="closed" value="true" />
+      <created>1732568730796</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1732568730796</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,8 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#38 - s_groceries.html(final),css,+submitGroceriesForm()" />
-    <MESSAGE value="#37-s_entertainment.html and others(css,method)" />
     <MESSAGE value="#36 - s_income.html(final) and others(css,method)" />
     <MESSAGE value="#50 - limit on symbols for Card field(not more 4)" />
     <MESSAGE value="#51 - delete unnecessary files" />
@@ -521,6 +517,8 @@
     <MESSAGE value="#52 - set better name to model from web" />
     <MESSAGE value="#52 - final" />
     <MESSAGE value="#60 - class for utilities" />
-    <option name="LAST_COMMIT_MESSAGE" value="#60 - class for utilities" />
+    <MESSAGE value="#60 - method for convert cur vals from String to int" />
+    <MESSAGE value="#60 - usage Utils.currencyConvert as test" />
+    <option name="LAST_COMMIT_MESSAGE" value="#60 - usage Utils.currencyConvert as test" />
   </component>
 </project>
