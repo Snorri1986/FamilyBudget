@@ -65,7 +65,7 @@ public class WebFormsController {
   }
 
   @PostMapping("/registerGroceries")
-  public String submitGroceriesForm(@ModelAttribute("groceries_mod_attribute") GroceriesModel grocModel) {
+  public String submitGroceriesForm(@ModelAttribute("groceries_mod_attribute") GroceriesModelWeb grocModel) {
     // Temporary code
     System.out.println("Groceries purchase Registered: " + grocModel.getOperDescription());
     return "s_groceries";
