@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#52 - set better name to model from web">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#60 - usage Utils.currencyConvert as test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="v0.0.10-3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,46 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00054" summary="#31 - submitHealthForm method">
-      <option name="closed" value="true" />
-      <created>1730150601210</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1730150601210</updated>
-    </task>
-    <task id="LOCAL-00055" summary="#31 - health.html(final)">
-      <option name="closed" value="true" />
-      <created>1730151472101</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1730151472101</updated>
-    </task>
-    <task id="LOCAL-00056" summary="#32 - model for RentHousing">
-      <option name="closed" value="true" />
-      <created>1730321302329</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1730321302329</updated>
-    </task>
-    <task id="LOCAL-00057" summary="#32 - basic css for renthousing.html">
-      <option name="closed" value="true" />
-      <created>1730321517239</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1730321517239</updated>
-    </task>
-    <task id="LOCAL-00058" summary="#32 - Flatpicker for renthousing.html">
-      <option name="closed" value="true" />
-      <created>1730321637579</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1730321637579</updated>
     </task>
     <task id="LOCAL-00059" summary="#32 - controller for the form in renthousing.html">
       <option name="closed" value="true" />
@@ -481,7 +439,47 @@
       <option name="project" value="LOCAL" />
       <updated>1732140372740</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="#52 - final">
+      <option name="closed" value="true" />
+      <created>1732140434321</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1732140434321</updated>
+    </task>
+    <task id="LOCAL-00104" summary="#52 - final">
+      <option name="closed" value="true" />
+      <created>1732140543256</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1732140543256</updated>
+    </task>
+    <task id="LOCAL-00105" summary="#60 - class for utilities">
+      <option name="closed" value="true" />
+      <created>1732568103520</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1732568103521</updated>
+    </task>
+    <task id="LOCAL-00106" summary="#60 - method for convert cur vals from String to int">
+      <option name="closed" value="true" />
+      <created>1732568481399</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1732568481399</updated>
+    </task>
+    <task id="LOCAL-00107" summary="#60 - usage Utils.currencyConvert as test">
+      <option name="closed" value="true" />
+      <created>1732568730796</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1732568730796</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,10 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#40 - s_renthousing.html(final),css,+submitHousingForm()" />
-    <MESSAGE value="#39 - s_health.html(final),css,+submitHealthForm()" />
-    <MESSAGE value="#38 - s_groceries.html(final),css,+submitGroceriesForm()" />
-    <MESSAGE value="#37-s_entertainment.html and others(css,method)" />
     <MESSAGE value="#36 - s_income.html(final) and others(css,method)" />
     <MESSAGE value="#50 - limit on symbols for Card field(not more 4)" />
     <MESSAGE value="#51 - delete unnecessary files" />
@@ -521,6 +515,10 @@
     <MESSAGE value="#52 - create new model and call DB service" />
     <MESSAGE value="#52 - clean" />
     <MESSAGE value="#52 - set better name to model from web" />
-    <option name="LAST_COMMIT_MESSAGE" value="#52 - set better name to model from web" />
+    <MESSAGE value="#52 - final" />
+    <MESSAGE value="#60 - class for utilities" />
+    <MESSAGE value="#60 - method for convert cur vals from String to int" />
+    <MESSAGE value="#60 - usage Utils.currencyConvert as test" />
+    <option name="LAST_COMMIT_MESSAGE" value="#60 - usage Utils.currencyConvert as test" />
   </component>
 </project>
