@@ -4,7 +4,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
-public class EntertainmentModel {
+public class EntertainmentModelWeb {
   private String eventType;
   private int amount;
   private String currency;
@@ -59,5 +59,17 @@ public class EntertainmentModel {
 
   public void setOperDescription(String operDescription) {
     this.operDescription = operDescription;
+  }
+
+  @Override
+  public String toString() {
+    return "EntertainmentModel{" +
+            "eventType='" + eventType + '\'' +
+            ", amount=" + amount +
+            ", currency='" + currency + '\'' +
+            ", transactionDate=" + transactionDate +
+            ", cardNum=" + cardNum +
+            ", operDescription='" + operDescription + '\'' +
+            '}';
   }
 }

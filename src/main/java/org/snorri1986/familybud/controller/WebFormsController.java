@@ -1,5 +1,6 @@
 package org.snorri1986.familybud.controller;
 
+import org.snorri1986.familybud.Utils;
 import org.snorri1986.familybud.models.*;
 import org.snorri1986.familybud.service.DBService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,13 +30,7 @@ public class WebFormsController {
     }
 
     incomeModelDB.setAmount(income.getAmount());
-
-    switch (income.getCurrency()) {
-      case "DKK": incomeModelDB.setCurrency(3);
-      case "EUR": incomeModelDB.setCurrency(1);
-      case "UAH": incomeModelDB.setCurrency(2);
-      case "USD": incomeModelDB.setCurrency(4);
-    }
+    incomeModelDB.setCurrency(Utils.currencyConvert(income.getCurrency()));
 
     incomeModelDB.setTransactionDate(income.getTransactionDate());
     incomeModelDB.setCardNum(income.getCardNum());
@@ -46,9 +41,26 @@ public class WebFormsController {
   }
 
   @PostMapping("/registerEntertainment")
-  public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModel entModel) {
-    // Temporary code
-    System.out.println("Entertainment Registered: " + entModel.getOperDescription());
+  public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModelWeb entModel) {
+    System.out.println("Entertainment Registered: " + entModel.toString());
+    EntertainmentModelDB entertainmentModelDB = new EntertainmentModelDB();
+    switch (entModel.getEventType()) {
+      case "Travel": entertainmentModelDB.setEventType(8);
+      case "Cinema": entertainmentModelDB.setEventType(13);
+      case "Vacation": entertainmentModelDB.setEventType(14);
+      case "Relax": entertainmentModelDB.setEventType(15);
+      case "Homefest": entertainmentModelDB.setEventType(16);
+      case "Other": entertainmentModelDB.setEventType(17);
+    }
+
+    entertainmentModelDB.setAmount(entModel.getAmount());
+    entertainmentModelDB.setCurrency(Utils.currencyConvert(entModel.getCurrency()));
+
+    entertainmentModelDB.setTransactionDate(entModel.getTransactionDate());
+    entertainmentModelDB.setCardNum(entModel.getCardNum());
+    entertainmentModelDB.setOperDescription(entModel.getOperDescription());
+
+    dbService.insertNewEntertainment(entertainmentModelDB);
     return "s_entertainment";
   }
 
