@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#54 - model for transfer to DB">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#54 - JDBC implementation for health expenses">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00070" summary="#34 - Flatpicker for travel.html">
-      <option name="closed" value="true" />
-      <created>1730493072144</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1730493072144</updated>
     </task>
     <task id="LOCAL-00071" summary="#34 - travel.html(final)">
       <option name="closed" value="true" />
@@ -481,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732917081710</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="#54 - JDBC implementation for health expenses">
+      <option name="closed" value="true" />
+      <created>1732917382556</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1732917382556</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#51 -  object incomeModelDB to DB" />
     <MESSAGE value="#51 -  change income type" />
     <MESSAGE value="#51 - insert income(final)" />
     <MESSAGE value="#52 - toString() for EntertainmentModel" />
@@ -521,6 +521,7 @@
     <MESSAGE value="#54 - for debuging data from web" />
     <MESSAGE value="#54 - using to_string() for simple debug" />
     <MESSAGE value="#54 - model for transfer to DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="#54 - model for transfer to DB" />
+    <MESSAGE value="#54 - JDBC implementation for health expenses" />
+    <option name="LAST_COMMIT_MESSAGE" value="#54 - JDBC implementation for health expenses" />
   </component>
 </project>
