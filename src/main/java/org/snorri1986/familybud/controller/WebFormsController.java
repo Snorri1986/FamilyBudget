@@ -67,7 +67,6 @@ public class WebFormsController {
   @PostMapping("/registerGroceries")
   public String submitGroceriesForm(@ModelAttribute("groceries_mod_attribute") GroceriesModelWeb grocModel) {
     System.out.println("Groceries purchase Registered: " + grocModel.getOperDescription());
-    //TODO: not final, not tested
     GroceriesModelDB groceriesModelDB = new GroceriesModelDB();
 
     switch (grocModel.getPurchesType()) {
