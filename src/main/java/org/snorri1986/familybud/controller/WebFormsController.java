@@ -88,7 +88,7 @@ public class WebFormsController {
   }
 
   @PostMapping("/registerHealth")
-  public String submitHealthForm(@ModelAttribute("health_mod_attribute") HealthModel healthModel) {
+  public String submitHealthForm(@ModelAttribute("health_mod_attribute") HealthModelWeb healthModel) {
     // Temporary code
     System.out.println("Health purchase Registered: " + healthModel.getOperDescription());
     return "s_health";
