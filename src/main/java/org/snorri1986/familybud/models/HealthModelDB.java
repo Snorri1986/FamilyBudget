@@ -4,20 +4,20 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
-public class HealthModel {
-  private String healthOperType;
+public class HealthModelDB {
+  private int healthOperType;
   private int amount;
-  private String currency;
+  private int currency;
   @DateTimeFormat(pattern = "dd.MM.yyyy HH:mm")
   private Date transactionDate;
   private int cardNum;
   private String operDescription;
 
-  public String getHealthOperType() {
+  public int getHealthOperType() {
     return healthOperType;
   }
 
-  public void setHealthOperType(String healthOperType) {
+  public void setHealthOperType(int healthOperType) {
     this.healthOperType = healthOperType;
   }
 
@@ -29,11 +29,11 @@ public class HealthModel {
     this.amount = amount;
   }
 
-  public String getCurrency() {
+  public int getCurrency() {
     return currency;
   }
 
-  public void setCurrency(String currency) {
+  public void setCurrency(int currency) {
     this.currency = currency;
   }
 

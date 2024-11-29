@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#53 - submitGroceriesForm() not tested, not final">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2024_10_17_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2024_10_17_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2024_10_24_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2024_10_24_PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#54 - JDBC implementation for health expenses">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
     </list>
@@ -93,54 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00065" summary="#33 - Controller for telecom.html">
-      <option name="closed" value="true" />
-      <created>1730323351325</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1730323351325</updated>
-    </task>
-    <task id="LOCAL-00066" summary="#33 - telecom.html(final)">
-      <option name="closed" value="true" />
-      <created>1730491840811</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1730491840811</updated>
-    </task>
-    <task id="LOCAL-00067" summary="#34 - model for travel.html">
-      <option name="closed" value="true" />
-      <created>1730492707020</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1730492707020</updated>
-    </task>
-    <task id="LOCAL-00068" summary="#34 - controller for register new trips travel.html">
-      <option name="closed" value="true" />
-      <created>1730492841965</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1730492841965</updated>
-    </task>
-    <task id="LOCAL-00069" summary="#34 - basic css for travel.html">
-      <option name="closed" value="true" />
-      <created>1730492976431</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1730492976431</updated>
-    </task>
-    <task id="LOCAL-00070" summary="#34 - Flatpicker for travel.html">
-      <option name="closed" value="true" />
-      <created>1730493072144</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1730493072144</updated>
     </task>
     <task id="LOCAL-00071" summary="#34 - travel.html(final)">
       <option name="closed" value="true" />
@@ -486,7 +434,55 @@
       <option name="project" value="LOCAL" />
       <updated>1732571494786</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="#53 - cleaned up">
+      <option name="closed" value="true" />
+      <created>1732916080971</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1732916080971</updated>
+    </task>
+    <task id="LOCAL-00115" summary="#54 - because data comes from web form">
+      <option name="closed" value="true" />
+      <created>1732916496570</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1732916496570</updated>
+    </task>
+    <task id="LOCAL-00116" summary="#54 - for debuging data from web">
+      <option name="closed" value="true" />
+      <created>1732916663822</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1732916663822</updated>
+    </task>
+    <task id="LOCAL-00117" summary="#54 - using to_string() for simple debug">
+      <option name="closed" value="true" />
+      <created>1732916822472</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1732916822472</updated>
+    </task>
+    <task id="LOCAL-00118" summary="#54 - model for transfer to DB">
+      <option name="closed" value="true" />
+      <created>1732917081710</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1732917081710</updated>
+    </task>
+    <task id="LOCAL-00119" summary="#54 - JDBC implementation for health expenses">
+      <option name="closed" value="true" />
+      <created>1732917382556</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1732917382556</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,12 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#51 - with CAST" />
-    <MESSAGE value="#51 - without CAST" />
-    <MESSAGE value="#51 - IncomeModel only for DB" />
-    <MESSAGE value="#51 - Use IncomeModelDB on service level" />
-    <MESSAGE value="#51 -  submitIncomeForm() in progress" />
-    <MESSAGE value="#51 -  object incomeModelDB to DB" />
     <MESSAGE value="#51 -  change income type" />
     <MESSAGE value="#51 - insert income(final)" />
     <MESSAGE value="#52 - toString() for EntertainmentModel" />
@@ -526,6 +516,12 @@
     <MESSAGE value="#53 - method for debugging purpose" />
     <MESSAGE value="#53 - new service method to add groceries" />
     <MESSAGE value="#53 - submitGroceriesForm() not tested, not final" />
-    <option name="LAST_COMMIT_MESSAGE" value="#53 - submitGroceriesForm() not tested, not final" />
+    <MESSAGE value="#53 - cleaned up" />
+    <MESSAGE value="#54 - because data comes from web form" />
+    <MESSAGE value="#54 - for debuging data from web" />
+    <MESSAGE value="#54 - using to_string() for simple debug" />
+    <MESSAGE value="#54 - model for transfer to DB" />
+    <MESSAGE value="#54 - JDBC implementation for health expenses" />
+    <option name="LAST_COMMIT_MESSAGE" value="#54 - JDBC implementation for health expenses" />
   </component>
 </project>

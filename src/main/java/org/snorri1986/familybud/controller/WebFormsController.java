@@ -66,7 +66,7 @@ public class WebFormsController {
 
   @PostMapping("/registerGroceries")
   public String submitGroceriesForm(@ModelAttribute("groceries_mod_attribute") GroceriesModelWeb grocModel) {
-    System.out.println("Groceries purchase Registered: " + grocModel.getOperDescription());
+    System.out.println("Groceries purchase Registered: " + grocModel.toString());
     GroceriesModelDB groceriesModelDB = new GroceriesModelDB();
 
     switch (grocModel.getPurchesType()) {
@@ -88,9 +88,27 @@ public class WebFormsController {
   }
 
   @PostMapping("/registerHealth")
-  public String submitHealthForm(@ModelAttribute("health_mod_attribute") HealthModel healthModel) {
-    // Temporary code
-    System.out.println("Health purchase Registered: " + healthModel.getOperDescription());
+  public String submitHealthForm(@ModelAttribute("health_mod_attribute") HealthModelWeb healthModel) {
+    System.out.println("Health purchase Registered: " + healthModel.toString());
+    HealthModelDB healthModelDB = new HealthModelDB();
+
+    switch(healthModel.getHealthOperType()) {
+      case "Dentist": healthModelDB.setHealthOperType(23);
+      case "Regular Medical check": healthModelDB.setHealthOperType(24);
+      case "Special doctor": healthModelDB.setHealthOperType(25);
+      case "Swimming pool": healthModelDB.setHealthOperType(26);
+      case "SPA": healthModelDB.setHealthOperType(27);
+      case "Nails": healthModelDB.setHealthOperType(28);
+      case "Other": healthModelDB.setHealthOperType(22);
+    }
+
+    healthModelDB.setAmount(healthModel.getAmount());
+    healthModelDB.setCurrency(Utils.currencyConvert(healthModel.getCurrency()));
+    healthModelDB.setTransactionDate(healthModel.getTransactionDate());
+    healthModelDB.setCardNum(healthModel.getCardNum());
+    healthModelDB.setOperDescription(healthModel.getOperDescription());
+
+    dbService.insertNewHealth(healthModelDB);
     return "s_health";
   }
 
