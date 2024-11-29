@@ -60,4 +60,16 @@ public class HealthModelWeb {
   public void setOperDescription(String operDescription) {
     this.operDescription = operDescription;
   }
+
+  @Override
+  public String toString() {
+    return "HealthModelWeb{" +
+            "healthOperType='" + healthOperType + '\'' +
+            ", amount=" + amount +
+            ", currency='" + currency + '\'' +
+            ", transactionDate=" + transactionDate +
+            ", cardNum=" + cardNum +
+            ", operDescription='" + operDescription + '\'' +
+            '}';
+  }
 }
