@@ -65,9 +65,25 @@ public class WebFormsController {
   }
 
   @PostMapping("/registerGroceries")
-  public String submitGroceriesForm(@ModelAttribute("groceries_mod_attribute") GroceriesModel grocModel) {
-    // Temporary code
+  public String submitGroceriesForm(@ModelAttribute("groceries_mod_attribute") GroceriesModelWeb grocModel) {
     System.out.println("Groceries purchase Registered: " + grocModel.getOperDescription());
+    GroceriesModelDB groceriesModelDB = new GroceriesModelDB();
+
+    switch (grocModel.getPurchesType()) {
+      case "Daily": groceriesModelDB.setPurchesType(18);
+      case "Weekly": groceriesModelDB.setPurchesType(19);
+      case "Weekend": groceriesModelDB.setPurchesType(20);
+      case "Fest": groceriesModelDB.setPurchesType(21);
+      case "Other": groceriesModelDB.setPurchesType(22);
+    }
+
+    groceriesModelDB.setAmount(grocModel.getAmount());
+    groceriesModelDB.setCurrency(Utils.currencyConvert(grocModel.getCurrency()));
+    groceriesModelDB.setTransactionDate(grocModel.getTransactionDate());
+    groceriesModelDB.setCardNum(grocModel.getCardNum());
+    groceriesModelDB.setOperDescription(grocModel.getOperDescription());
+
+    dbService.insertNewGroceries(groceriesModelDB);
     return "s_groceries";
   }
 

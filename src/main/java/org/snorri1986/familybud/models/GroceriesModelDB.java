@@ -4,20 +4,20 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
-public class GroceriesModel {
-  private String purchesType;
+public class GroceriesModelDB {
+  private int purchesType;
   private int amount;
-  private String currency;
+  private int currency;
   @DateTimeFormat(pattern = "dd.MM.yyyy HH:mm")
   private Date transactionDate;
   private int cardNum;
   private String operDescription;
 
-  public String getPurchesType() {
+  public int getPurchesType() {
     return purchesType;
   }
 
-  public void setPurchesType(String purchesType) {
+  public void setPurchesType(int purchesType) {
     this.purchesType = purchesType;
   }
 
@@ -29,11 +29,11 @@ public class GroceriesModel {
     this.amount = amount;
   }
 
-  public String getCurrency() {
+  public int getCurrency() {
     return currency;
   }
 
-  public void setCurrency(String currency) {
+  public void setCurrency(int currency) {
     this.currency = currency;
   }
 

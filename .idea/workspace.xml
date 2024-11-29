@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#60 - usage Utils.currencyConvert as test" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#53 - submitGroceriesForm() not tested, not final">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2024_10_17_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2024_10_17_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2024_10_24_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2024_10_24_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v0.0.10-3" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,54 +93,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00059" summary="#32 - controller for the form in renthousing.html">
-      <option name="closed" value="true" />
-      <created>1730321879728</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1730321879728</updated>
-    </task>
-    <task id="LOCAL-00060" summary="#32 - changes in main controller for renthousing.html">
-      <option name="closed" value="true" />
-      <created>1730322201469</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1730322201469</updated>
-    </task>
-    <task id="LOCAL-00061" summary="#32 - renthousing.html(final)">
-      <option name="closed" value="true" />
-      <created>1730322291023</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1730322291023</updated>
-    </task>
-    <task id="LOCAL-00062" summary="#33 - model for telecom.html">
-      <option name="closed" value="true" />
-      <created>1730322910120</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1730322910120</updated>
-    </task>
-    <task id="LOCAL-00063" summary="#33 - basic css  for telecom.html">
-      <option name="closed" value="true" />
-      <created>1730323077071</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1730323077074</updated>
-    </task>
-    <task id="LOCAL-00064" summary="#33 - Flatpickr  for telecom.html">
-      <option name="closed" value="true" />
-      <created>1730323199235</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1730323199235</updated>
     </task>
     <task id="LOCAL-00065" summary="#33 - Controller for telecom.html">
       <option name="closed" value="true" />
@@ -479,7 +438,55 @@
       <option name="project" value="LOCAL" />
       <updated>1732568730796</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="#60 - clean up">
+      <option name="closed" value="true" />
+      <created>1732569121106</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1732569121106</updated>
+    </task>
+    <task id="LOCAL-00109" summary="#53 - renamed class,because data comes from web">
+      <option name="closed" value="true" />
+      <created>1732570062137</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1732570062137</updated>
+    </task>
+    <task id="LOCAL-00110" summary="#53 - new class for DB insertion">
+      <option name="closed" value="true" />
+      <created>1732570251139</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1732570251139</updated>
+    </task>
+    <task id="LOCAL-00111" summary="#53 - method for debugging purpose">
+      <option name="closed" value="true" />
+      <created>1732570297004</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1732570297004</updated>
+    </task>
+    <task id="LOCAL-00112" summary="#53 - new service method to add groceries">
+      <option name="closed" value="true" />
+      <created>1732570553708</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1732570553708</updated>
+    </task>
+    <task id="LOCAL-00113" summary="#53 - submitGroceriesForm() not tested, not final">
+      <option name="closed" value="true" />
+      <created>1732571494786</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1732571494786</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,12 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#36 - s_income.html(final) and others(css,method)" />
-    <MESSAGE value="#50 - limit on symbols for Card field(not more 4)" />
-    <MESSAGE value="#51 - delete unnecessary files" />
-    <MESSAGE value="#51 - jdbcTemplate" />
-    <MESSAGE value="#51 - insertNewIncome" />
-    <MESSAGE value="#51 - service implementation" />
     <MESSAGE value="#51 - with CAST" />
     <MESSAGE value="#51 - without CAST" />
     <MESSAGE value="#51 - IncomeModel only for DB" />
@@ -519,6 +520,12 @@
     <MESSAGE value="#60 - class for utilities" />
     <MESSAGE value="#60 - method for convert cur vals from String to int" />
     <MESSAGE value="#60 - usage Utils.currencyConvert as test" />
-    <option name="LAST_COMMIT_MESSAGE" value="#60 - usage Utils.currencyConvert as test" />
+    <MESSAGE value="#60 - clean up" />
+    <MESSAGE value="#53 - renamed class,because data comes from web" />
+    <MESSAGE value="#53 - new class for DB insertion" />
+    <MESSAGE value="#53 - method for debugging purpose" />
+    <MESSAGE value="#53 - new service method to add groceries" />
+    <MESSAGE value="#53 - submitGroceriesForm() not tested, not final" />
+    <option name="LAST_COMMIT_MESSAGE" value="#53 - submitGroceriesForm() not tested, not final" />
   </component>
 </project>
