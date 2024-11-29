@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#54 - because data comes from web form">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/HealthModelWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/HealthModelWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#54 - using to_string() for simple debug">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/HealthModelDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,22 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00067" summary="#34 - model for travel.html">
-      <option name="closed" value="true" />
-      <created>1730492707020</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1730492707020</updated>
-    </task>
-    <task id="LOCAL-00068" summary="#34 - controller for register new trips travel.html">
-      <option name="closed" value="true" />
-      <created>1730492841965</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1730492841965</updated>
     </task>
     <task id="LOCAL-00069" summary="#34 - basic css for travel.html">
       <option name="closed" value="true" />
@@ -486,7 +466,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732916496570</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="#54 - for debuging data from web">
+      <option name="closed" value="true" />
+      <created>1732916663822</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1732916663822</updated>
+    </task>
+    <task id="LOCAL-00117" summary="#54 - using to_string() for simple debug">
+      <option name="closed" value="true" />
+      <created>1732916822472</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1732916822472</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,8 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#51 - IncomeModel only for DB" />
-    <MESSAGE value="#51 - Use IncomeModelDB on service level" />
     <MESSAGE value="#51 -  submitIncomeForm() in progress" />
     <MESSAGE value="#51 -  object incomeModelDB to DB" />
     <MESSAGE value="#51 -  change income type" />
@@ -526,6 +520,8 @@
     <MESSAGE value="#53 - submitGroceriesForm() not tested, not final" />
     <MESSAGE value="#53 - cleaned up" />
     <MESSAGE value="#54 - because data comes from web form" />
-    <option name="LAST_COMMIT_MESSAGE" value="#54 - because data comes from web form" />
+    <MESSAGE value="#54 - for debuging data from web" />
+    <MESSAGE value="#54 - using to_string() for simple debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="#54 - using to_string() for simple debug" />
   </component>
 </project>
