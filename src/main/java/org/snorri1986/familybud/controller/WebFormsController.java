@@ -66,7 +66,7 @@ public class WebFormsController {
 
   @PostMapping("/registerGroceries")
   public String submitGroceriesForm(@ModelAttribute("groceries_mod_attribute") GroceriesModelWeb grocModel) {
-    System.out.println("Groceries purchase Registered: " + grocModel.getOperDescription());
+    System.out.println("Groceries purchase Registered: " + grocModel.toString());
     GroceriesModelDB groceriesModelDB = new GroceriesModelDB();
 
     switch (grocModel.getPurchesType()) {
@@ -90,7 +90,7 @@ public class WebFormsController {
   @PostMapping("/registerHealth")
   public String submitHealthForm(@ModelAttribute("health_mod_attribute") HealthModelWeb healthModel) {
     // Temporary code
-    System.out.println("Health purchase Registered: " + healthModel.getOperDescription());
+    System.out.println("Health purchase Registered: " + healthModel.toString());
     return "s_health";
   }
 
