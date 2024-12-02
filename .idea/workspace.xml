@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#55 - submitHousingForm() final to test" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#56 - rename model from Web and use toString()" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v0.0.10-6" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,14 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00077" summary="#38 - s_groceries.html(final),css,+submitGroceriesForm()">
-      <option name="closed" value="true" />
-      <created>1731441411113</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1731441411113</updated>
     </task>
     <task id="LOCAL-00078" summary="#37-s_entertainment.html and others(css,method)">
       <option name="closed" value="true" />
@@ -479,7 +471,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733168075477</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="#56 - rename model from Web and use toString()">
+      <option name="closed" value="true" />
+      <created>1733168643269</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1733168643269</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#52 - create new model and call DB service" />
     <MESSAGE value="#52 - clean" />
     <MESSAGE value="#52 - set better name to model from web" />
     <MESSAGE value="#52 - final" />
@@ -519,6 +518,7 @@
     <MESSAGE value="#55 - add new class for DB insertion" />
     <MESSAGE value="#55 - add method to insert to DB" />
     <MESSAGE value="#55 - submitHousingForm() final to test" />
-    <option name="LAST_COMMIT_MESSAGE" value="#55 - submitHousingForm() final to test" />
+    <MESSAGE value="#56 - rename model from Web and use toString()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#56 - rename model from Web and use toString()" />
   </component>
 </project>
