@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#55 - add toString()">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/RentHousingModelDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelWeb.class" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#55 - add new class for DB insertion">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00074" summary="#41 - s_telecom.html(final),css and +submitTelecomForm()">
-      <option name="closed" value="true" />
-      <created>1731359957561</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1731359957561</updated>
     </task>
     <task id="LOCAL-00075" summary="#40 - s_renthousing.html(final),css,+submitHousingForm()">
       <option name="closed" value="true" />
@@ -484,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733166667693</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="#55 - add new class for DB insertion">
+      <option name="closed" value="true" />
+      <created>1733167131524</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1733167131524</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#52 - add debug info (temp)" />
     <MESSAGE value="#52 - Entertainment model for DB insert" />
     <MESSAGE value="#52 - add method for inserting new entertainment event" />
     <MESSAGE value="#52 - create new model and call DB service" />
@@ -524,6 +520,7 @@
     <MESSAGE value="#54 - submitHealthForm() ready for test" />
     <MESSAGE value="#55 - rename model from web" />
     <MESSAGE value="#55 - add toString()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#55 - add toString()" />
+    <MESSAGE value="#55 - add new class for DB insertion" />
+    <option name="LAST_COMMIT_MESSAGE" value="#55 - add new class for DB insertion" />
   </component>
 </project>
