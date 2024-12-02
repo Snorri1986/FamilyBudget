@@ -136,9 +136,8 @@ public class WebFormsController {
   }
 
   @PostMapping("/registerTelecom")
-  public String submitTelecomForm(@ModelAttribute("telecom_mod_attribute") TelecomModel telecomModel) {
-    // Temporary code
-    System.out.println("Telecom purchase Registered: " + telecomModel.getOperDescription());
+  public String submitTelecomForm(@ModelAttribute("telecom_mod_attribute") TelecomModelWeb telecomModel) {
+    System.out.println("Telecom purchase Registered: " + telecomModel.toString());
     return "s_telecom";
   }
 
