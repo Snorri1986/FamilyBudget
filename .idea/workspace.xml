@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#54 - submitHealthForm() ready for test">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#55 - add toString()">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/RentHousingModelDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelWeb.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,22 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00072" summary="#42 - s_travel page and return for +submitTravelForm()">
-      <option name="closed" value="true" />
-      <created>1731358915807</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1731358915807</updated>
-    </task>
-    <task id="LOCAL-00073" summary="#42 - css for s_travel.html and fixed h1 tag">
-      <option name="closed" value="true" />
-      <created>1731359089336</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1731359089336</updated>
     </task>
     <task id="LOCAL-00074" summary="#41 - s_telecom.html(final),css and +submitTelecomForm()">
       <option name="closed" value="true" />
@@ -481,7 +468,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732918191399</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="#55 - rename model from web">
+      <option name="closed" value="true" />
+      <created>1733166504472</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1733166504472</updated>
+    </task>
+    <task id="LOCAL-00122" summary="#55 - add toString()">
+      <option name="closed" value="true" />
+      <created>1733166667693</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1733166667693</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,8 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#51 - insert income(final)" />
-    <MESSAGE value="#52 - toString() for EntertainmentModel" />
     <MESSAGE value="#52 - add debug info (temp)" />
     <MESSAGE value="#52 - Entertainment model for DB insert" />
     <MESSAGE value="#52 - add method for inserting new entertainment event" />
@@ -521,6 +522,8 @@
     <MESSAGE value="#54 - model for transfer to DB" />
     <MESSAGE value="#54 - JDBC implementation for health expenses" />
     <MESSAGE value="#54 - submitHealthForm() ready for test" />
-    <option name="LAST_COMMIT_MESSAGE" value="#54 - submitHealthForm() ready for test" />
+    <MESSAGE value="#55 - rename model from web" />
+    <MESSAGE value="#55 - add toString()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#55 - add toString()" />
   </component>
 </project>
