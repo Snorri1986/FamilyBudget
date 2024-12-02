@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#54 - JDBC implementation for health expenses">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#54 - submitHealthForm() ready for test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00071" summary="#34 - travel.html(final)">
-      <option name="closed" value="true" />
-      <created>1730493695266</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1730493695266</updated>
     </task>
     <task id="LOCAL-00072" summary="#42 - s_travel page and return for +submitTravelForm()">
       <option name="closed" value="true" />
@@ -482,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732917382556</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="#54 - submitHealthForm() ready for test">
+      <option name="closed" value="true" />
+      <created>1732918191399</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1732918191399</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#51 -  change income type" />
     <MESSAGE value="#51 - insert income(final)" />
     <MESSAGE value="#52 - toString() for EntertainmentModel" />
     <MESSAGE value="#52 - add debug info (temp)" />
@@ -522,6 +520,7 @@
     <MESSAGE value="#54 - using to_string() for simple debug" />
     <MESSAGE value="#54 - model for transfer to DB" />
     <MESSAGE value="#54 - JDBC implementation for health expenses" />
-    <option name="LAST_COMMIT_MESSAGE" value="#54 - JDBC implementation for health expenses" />
+    <MESSAGE value="#54 - submitHealthForm() ready for test" />
+    <option name="LAST_COMMIT_MESSAGE" value="#54 - submitHealthForm() ready for test" />
   </component>
 </project>

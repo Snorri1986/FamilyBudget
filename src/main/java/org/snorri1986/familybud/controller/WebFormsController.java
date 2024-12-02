@@ -113,7 +113,7 @@ public class WebFormsController {
   }
 
   @PostMapping("/registerHousing")
-  public String submitHousingForm(@ModelAttribute("rent_housing_mod_attribute") RentHousingModel rentHousingModel) {
+  public String submitHousingForm(@ModelAttribute("rent_housing_mod_attribute") RentHousingModelWeb rentHousingModel) {
     // Temporary code
     System.out.println("RentHousing purchase Registered: " + rentHousingModel.getOperDescription());
     return "s_renthousing";
