@@ -1,9 +1,6 @@
 package org.snorri1986.familybud.service;
 
-import org.snorri1986.familybud.models.EntertainmentModelDB;
-import org.snorri1986.familybud.models.GroceriesModelDB;
-import org.snorri1986.familybud.models.HealthModelDB;
-import org.snorri1986.familybud.models.IncomeModelDB;
+import org.snorri1986.familybud.models.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
@@ -54,5 +51,15 @@ public class DBService {
             healthModelDB.getTransactionDate(),
             healthModelDB.getCardNum(),
             healthModelDB.getOperDescription()},String.class);
+  }
+
+  public void insertNewRentHousing(RentHousingModelDB rentHousingModelDB) {
+    String sql = "SELECT public.i_housing_rent(?,?,?,?,?,?)";
+    jdbcTemplate.queryForObject(sql, new Object[]{rentHousingModelDB.getHousingType(),
+            rentHousingModelDB.getAmount(),
+            rentHousingModelDB.getCurrency(),
+            rentHousingModelDB.getTransactionDate(),
+            rentHousingModelDB.getCardNum(),
+            rentHousingModelDB.getOperDescription()},String.class);
   }
 }

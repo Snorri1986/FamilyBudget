@@ -1,7 +1,7 @@
-org\snorri1986\familybud\models\RentHousingModel.class
 org\snorri1986\familybud\models\TravelModel.class
 org\snorri1986\familybud\models\IncomeModel.class
 org\snorri1986\familybud\models\EntertainmentModelDB.class
+org\snorri1986\familybud\models\HealthModelDB.class
 org\snorri1986\familybud\Utils.class
 org\snorri1986\familybud\service\DBService.class
 org\snorri1986\familybud\models\EntertainmentModelWeb.class
@@ -13,4 +13,5 @@ org\snorri1986\familybud\controller\MainPageController.class
 org\snorri1986\familybud\models\TelecomModel.class
 org\snorri1986\familybud\DataSourceConfig.class
 org\snorri1986\familybud\controller\WebFormsController.class
+org\snorri1986\familybud\models\RentHousingModelWeb.class
 org\snorri1986\familybud\models\HealthModelWeb.class
