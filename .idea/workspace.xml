@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#55 - add new class for DB insertion">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#55 - add method to insert to DB">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00075" summary="#40 - s_renthousing.html(final),css,+submitHousingForm()">
-      <option name="closed" value="true" />
-      <created>1731360817216</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1731360817216</updated>
     </task>
     <task id="LOCAL-00076" summary="#39 - s_health.html(final),css,+submitHealthForm()">
       <option name="closed" value="true" />
@@ -481,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733167131524</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="#55 - add method to insert to DB">
+      <option name="closed" value="true" />
+      <created>1733167410977</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1733167410977</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#52 - Entertainment model for DB insert" />
     <MESSAGE value="#52 - add method for inserting new entertainment event" />
     <MESSAGE value="#52 - create new model and call DB service" />
     <MESSAGE value="#52 - clean" />
@@ -521,6 +521,7 @@
     <MESSAGE value="#55 - rename model from web" />
     <MESSAGE value="#55 - add toString()" />
     <MESSAGE value="#55 - add new class for DB insertion" />
-    <option name="LAST_COMMIT_MESSAGE" value="#55 - add new class for DB insertion" />
+    <MESSAGE value="#55 - add method to insert to DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="#55 - add method to insert to DB" />
   </component>
 </project>

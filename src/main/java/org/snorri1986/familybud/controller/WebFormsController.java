@@ -115,6 +115,23 @@ public class WebFormsController {
   @PostMapping("/registerHousing")
   public String submitHousingForm(@ModelAttribute("rent_housing_mod_attribute") RentHousingModelWeb rentHousingModel) {
     System.out.println("RentHousing purchase Registered: " + rentHousingModel.toString());
+    RentHousingModelDB rentHousingModelDB = new RentHousingModelDB();
+
+    switch (rentHousingModel.getHousingType()) {
+      case "Rent": rentHousingModelDB.setHousingType(2);
+      case "Electricity": rentHousingModelDB.setHousingType(29);
+      case "HouseEquipments": rentHousingModelDB.setHousingType(30);
+      case "Renovation": rentHousingModelDB.setHousingType(31);
+      case "Other": rentHousingModelDB.setHousingType(22);
+    }
+
+    rentHousingModelDB.setAmount(rentHousingModel.getAmount());
+    rentHousingModelDB.setCurrency(Utils.currencyConvert(rentHousingModel.getCurrency()));
+    rentHousingModelDB.setTransactionDate(rentHousingModel.getTransactionDate());
+    rentHousingModelDB.setCardNum(rentHousingModel.getCardNum());
+    rentHousingModelDB.setOperDescription(rentHousingModel.getOperDescription());
+
+    dbService.insertNewRentHousing(rentHousingModelDB);
     return "s_renthousing";
   }
 
