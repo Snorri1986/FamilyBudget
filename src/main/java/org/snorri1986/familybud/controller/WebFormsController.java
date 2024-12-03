@@ -138,7 +138,22 @@ public class WebFormsController {
   @PostMapping("/registerTelecom")
   public String submitTelecomForm(@ModelAttribute("telecom_mod_attribute") TelecomModelWeb telecomModel) {
     System.out.println("Telecom purchase Registered: " + telecomModel.toString());
-    //TODO: add method implementation
+    TelecomModelDB telecomModelDB = new TelecomModelDB();
+
+    switch (telecomModel.getTelecomType()) {
+      case "Mobile": telecomModelDB.setTelecomType(5);
+      case "Internet": telecomModelDB.setTelecomType(6);
+      case "Roaming bundles": telecomModelDB.setTelecomType(32);
+      case "Others": telecomModelDB.setTelecomType(12);
+    }
+
+    telecomModelDB.setAmount(telecomModel.getAmount());
+    telecomModelDB.setCurrency(Utils.currencyConvert(telecomModel.getCurrency()));
+    telecomModelDB.setTransactionDate(telecomModel.getTransactionDate());
+    telecomModelDB.setCardNum(telecomModel.getCardNum());
+    telecomModelDB.setOperDescription(telecomModel.getOperDescription());
+
+    dbService.insertNewTelecom(telecomModelDB);
     return "s_telecom";
   }
 
