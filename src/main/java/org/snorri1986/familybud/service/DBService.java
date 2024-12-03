@@ -62,4 +62,14 @@ public class DBService {
             rentHousingModelDB.getCardNum(),
             rentHousingModelDB.getOperDescription()},String.class);
   }
+
+  public void insertNewTelecom(TelecomModelDB telecomModelDB) {
+    String sql = "SELECT public.i_telecom(?,?,?,?,?,?)";
+    jdbcTemplate.queryForObject(sql, new Object[]{telecomModelDB.getTelecomType(),
+            telecomModelDB.getAmount(),
+            telecomModelDB.getCurrency(),
+            telecomModelDB.getTransactionDate(),
+            telecomModelDB.getCardNum(),
+            telecomModelDB.getOperDescription()},String.class);
+  }
 }

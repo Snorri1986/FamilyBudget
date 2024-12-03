@@ -4,20 +4,20 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
-public class TelecomModel {
-  private String telecomType;
+public class TelecomModelDB {
+  private int telecomType;
   private int amount;
-  private String currency;
+  private int currency;
   @DateTimeFormat(pattern = "dd.MM.yyyy HH:mm")
   private Date transactionDate;
   private int cardNum;
   private String operDescription;
 
-  public String getTelecomType() {
+  public int getTelecomType() {
     return telecomType;
   }
 
-  public void setTelecomType(String telecomType) {
+  public void setTelecomType(int telecomType) {
     this.telecomType = telecomType;
   }
 
@@ -37,11 +37,11 @@ public class TelecomModel {
     this.transactionDate = transactionDate;
   }
 
-  public String getCurrency() {
+  public int getCurrency() {
     return currency;
   }
 
-  public void setCurrency(String currency) {
+  public void setCurrency(int currency) {
     this.currency = currency;
   }
 

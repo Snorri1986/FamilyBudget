@@ -68,7 +68,7 @@ public class MainPageController {
   @GetMapping("/telecom")
   public String getTelecomPage(Model model) {
     List<String> telecomOperations = Arrays.asList("Mobile","Internet","Roaming bundles","Others");
-    model.addAttribute("telecom_mod_attribute", new TelecomModel());
+    model.addAttribute("telecom_mod_attribute", new TelecomModelWeb());
     model.addAttribute("telecomOperations", telecomOperations);
     model.addAttribute("currencyNames", currencyNames);
     return "telecom";
