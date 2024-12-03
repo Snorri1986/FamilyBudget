@@ -80,6 +80,7 @@ public class DBService {
             travelModelDB.getCurrency(),
             travelModelDB.getTransactionDate(),
             travelModelDB.getCardNum(),
+            travelModelDB.getDestination(),
             travelModelDB.getOperDescription()},String.class);
   }
 }
