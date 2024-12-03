@@ -158,9 +158,8 @@ public class WebFormsController {
   }
 
   @PostMapping("/registerTravel")
-  public String submitTravelForm(@ModelAttribute("travel_mod_attribute") TravelModel travelModel) {
-    // Temporary code
-    System.out.println("Travel purchase Registered: " + travelModel.getOperDescription());
+  public String submitTravelForm(@ModelAttribute("travel_mod_attribute") TravelModelWeb travelModel) {
+    System.out.println("Travel purchase Registered: " + travelModel.toString());
     return "s_travel";
   }
 }

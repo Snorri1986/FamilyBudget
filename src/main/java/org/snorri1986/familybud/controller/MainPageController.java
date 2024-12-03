@@ -76,7 +76,7 @@ public class MainPageController {
   @GetMapping("/travel")
   public String getTravelPage(Model model) {
     List<String> travelActivities = Arrays.asList("Tickets","Hotel","FoodInTrip","TravelEntertainment","Others");
-    model.addAttribute("travel_mod_attribute", new TravelModel());
+    model.addAttribute("travel_mod_attribute", new TravelModelWeb());
     model.addAttribute("travelActivities", travelActivities);
     model.addAttribute("currencyNames", currencyNames);
     return "travel";
