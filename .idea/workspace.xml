@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#57 - renamed class from web and add toString()">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModelDB.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#57 - class to insert data to DB">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00084" summary="#51 - service implementation">
-      <option name="closed" value="true" />
-      <created>1731966220427</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1731966220427</updated>
     </task>
     <task id="LOCAL-00085" summary="#51 - with CAST">
       <option name="closed" value="true" />
@@ -481,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733256860425</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="#57 - class to insert data to DB">
+      <option name="closed" value="true" />
+      <created>1733256999628</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1733256999628</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#60 - usage Utils.currencyConvert as test" />
     <MESSAGE value="#60 - clean up" />
     <MESSAGE value="#53 - renamed class,because data comes from web" />
     <MESSAGE value="#53 - new class for DB insertion" />
@@ -521,6 +520,7 @@
     <MESSAGE value="#56 - submitTelecomForm() ready for test" />
     <MESSAGE value="#57 - rename income model class where data from web" />
     <MESSAGE value="#57 - renamed class from web and add toString()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#57 - renamed class from web and add toString()" />
+    <MESSAGE value="#57 - class to insert data to DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="#57 - class to insert data to DB" />
   </component>
 </project>
