@@ -4,21 +4,22 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
-public class IncomeModel {
-  private String incomeType;
+public class TravelModelDB {
+  private int travelType;
   private int amount;
-  private String currency;
+  private int currency;
   @DateTimeFormat(pattern = "dd.MM.yyyy HH:mm")
   private Date transactionDate;
   private int cardNum;
+  private String destination;
   private String operDescription;
 
-  public String getIncomeType() {
-    return incomeType;
+  public int getTravelType() {
+    return travelType;
   }
 
-  public void setIncomeType(String incomeType) {
-    this.incomeType = incomeType;
+  public void setTravelType(int travelType) {
+    this.travelType = travelType;
   }
 
   public int getAmount() {
@@ -29,11 +30,11 @@ public class IncomeModel {
     this.amount = amount;
   }
 
-  public String getCurrency() {
+  public int getCurrency() {
     return currency;
   }
 
-  public void setCurrency(String currency) {
+  public void setCurrency(int currency) {
     this.currency = currency;
   }
 
@@ -53,6 +54,14 @@ public class IncomeModel {
     this.cardNum = cardNum;
   }
 
+  public String getDestination() {
+    return destination;
+  }
+
+  public void setDestination(String destination) {
+    this.destination = destination;
+  }
+
   public String getOperDescription() {
     return operDescription;
   }
@@ -60,18 +69,4 @@ public class IncomeModel {
   public void setOperDescription(String operDescription) {
     this.operDescription = operDescription;
   }
-
-  @Override
-  public String toString() {
-    return "IncomeModel{" +
-            "incomeType='" + incomeType + '\'' +
-            ", amount=" + amount +
-            ", currency='" + currency + '\'' +
-            ", transactionDate=" + transactionDate +
-            ", cardNum=" + cardNum +
-            ", operDescription='" + operDescription + '\'' +
-            '}';
-  }
 }
-
-

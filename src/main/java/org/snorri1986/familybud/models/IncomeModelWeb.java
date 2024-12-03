@@ -4,22 +4,21 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
-public class TravelModel {
-  private String travelType;
+public class IncomeModelWeb {
+  private String incomeType;
   private int amount;
   private String currency;
   @DateTimeFormat(pattern = "dd.MM.yyyy HH:mm")
   private Date transactionDate;
   private int cardNum;
-  private String destination;
   private String operDescription;
 
-  public String getTravelType() {
-    return travelType;
+  public String getIncomeType() {
+    return incomeType;
   }
 
-  public void setTravelType(String travelType) {
-    this.travelType = travelType;
+  public void setIncomeType(String incomeType) {
+    this.incomeType = incomeType;
   }
 
   public int getAmount() {
@@ -54,14 +53,6 @@ public class TravelModel {
     this.cardNum = cardNum;
   }
 
-  public String getDestination() {
-    return destination;
-  }
-
-  public void setDestination(String destination) {
-    this.destination = destination;
-  }
-
   public String getOperDescription() {
     return operDescription;
   }
@@ -69,4 +60,18 @@ public class TravelModel {
   public void setOperDescription(String operDescription) {
     this.operDescription = operDescription;
   }
+
+  @Override
+  public String toString() {
+    return "IncomeModel{" +
+            "incomeType='" + incomeType + '\'' +
+            ", amount=" + amount +
+            ", currency='" + currency + '\'' +
+            ", transactionDate=" + transactionDate +
+            ", cardNum=" + cardNum +
+            ", operDescription='" + operDescription + '\'' +
+            '}';
+  }
 }
+
+
