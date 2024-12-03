@@ -160,6 +160,24 @@ public class WebFormsController {
   @PostMapping("/registerTravel")
   public String submitTravelForm(@ModelAttribute("travel_mod_attribute") TravelModelWeb travelModel) {
     System.out.println("Travel purchase Registered: " + travelModel.toString());
+    TravelModelDB travelModelDB = new TravelModelDB();
+
+    switch(travelModel.getTravelType()) {
+      case "Tickets": travelModelDB.setTravelType(33);
+      case "Hotel": travelModelDB.setTravelType(34);
+      case "FoodInTrip": travelModelDB.setTravelType(35);
+      case "TravelEntertainment": travelModelDB.setTravelType(36);
+      case "Others": travelModelDB.setTravelType(12);
+    }
+
+    travelModelDB.setAmount(travelModel.getAmount());
+    travelModelDB.setCurrency(Utils.currencyConvert(travelModel.getCurrency()));
+    travelModelDB.setTransactionDate(travelModel.getTransactionDate());
+    travelModelDB.setCardNum(travelModel.getCardNum());
+    travelModelDB.setDestination(travelModel.getDestination());
+    travelModelDB.setOperDescription(travelModel.getOperDescription());
+
+    dbService.insertNewTravel(travelModelDB);
     return "s_travel";
   }
 }
