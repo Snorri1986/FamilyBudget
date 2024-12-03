@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#56 - method to insert data from web to db">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#56 - submitTelecomForm() ready for test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/IncomeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/IncomeModelWeb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00081" summary="#51 - delete unnecessary files">
-      <option name="closed" value="true" />
-      <created>1731965200144</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1731965200144</updated>
     </task>
     <task id="LOCAL-00082" summary="#51 - jdbcTemplate">
       <option name="closed" value="true" />
@@ -482,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733169094466</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="#56 - submitTelecomForm() ready for test">
+      <option name="closed" value="true" />
+      <created>1733256040762</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1733256040762</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#52 - final" />
     <MESSAGE value="#60 - class for utilities" />
     <MESSAGE value="#60 - method for convert cur vals from String to int" />
     <MESSAGE value="#60 - usage Utils.currencyConvert as test" />
@@ -522,6 +523,7 @@
     <MESSAGE value="#56 - rename model from Web and use toString()" />
     <MESSAGE value="#56 - model for mapping into DB" />
     <MESSAGE value="#56 - method to insert data from web to db" />
-    <option name="LAST_COMMIT_MESSAGE" value="#56 - method to insert data from web to db" />
+    <MESSAGE value="#56 - submitTelecomForm() ready for test" />
+    <option name="LAST_COMMIT_MESSAGE" value="#56 - submitTelecomForm() ready for test" />
   </component>
 </project>

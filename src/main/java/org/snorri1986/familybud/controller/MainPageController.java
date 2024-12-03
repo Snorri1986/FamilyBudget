@@ -15,7 +15,6 @@ public class MainPageController {
 
   @GetMapping("/main")
   public String getMainPage(Model model) {
-    //TODO: temp attribute.
     model.addAttribute("theDate",java.time.LocalDateTime.now());
     return "main";
   }
@@ -23,7 +22,7 @@ public class MainPageController {
   @GetMapping("/income")
   public String getIncomePage(Model model) {
     List<String> incomes = Arrays.asList("Salary", "Bonus", "TravelRefund", "ShopRefund", "Other");
-    model.addAttribute("income_mod_attribute", new IncomeModel());
+    model.addAttribute("income_mod_attribute", new IncomeModelWeb());
     model.addAttribute("incomes", incomes);
     model.addAttribute("currencyNames", currencyNames);
     return "income";

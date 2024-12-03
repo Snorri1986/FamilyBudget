@@ -16,7 +16,7 @@ public class WebFormsController {
   DBService dbService;
 
   @PostMapping("/registerIncome")
-  public String submitIncomeForm(@ModelAttribute("income_mod_attribute") IncomeModel income) {
+  public String submitIncomeForm(@ModelAttribute("income_mod_attribute") IncomeModelWeb income) {
     System.out.println("New income" + income.toString());
     IncomeModelDB incomeModelDB = new IncomeModelDB();
 

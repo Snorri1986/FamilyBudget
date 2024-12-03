@@ -4,7 +4,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
-public class IncomeModel {
+public class IncomeModelWeb {
   private String incomeType;
   private int amount;
   private String currency;
