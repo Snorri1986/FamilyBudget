@@ -16,4 +16,5 @@ org\snorri1986\familybud\controller\WebFormsController.class
 org\snorri1986\familybud\models\RentHousingModelWeb.class
 org\snorri1986\familybud\models\HealthModelWeb.class
 org\snorri1986\familybud\models\TravelModelWeb.class
+org\snorri1986\familybud\models\TravelModelDB.class
 org\snorri1986\familybud\models\TelecomModelDB.class

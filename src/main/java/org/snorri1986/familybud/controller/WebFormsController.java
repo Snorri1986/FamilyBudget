@@ -49,6 +49,7 @@ public class WebFormsController {
       case "Cinema": entertainmentModelDB.setEventType(13);
       case "Vacation": entertainmentModelDB.setEventType(14);
       case "Relax": entertainmentModelDB.setEventType(15);
+      case "Restaurant": entertainmentModelDB.setEventType(38);
       case "Homefest": entertainmentModelDB.setEventType(16);
       case "Other": entertainmentModelDB.setEventType(17);
     }
