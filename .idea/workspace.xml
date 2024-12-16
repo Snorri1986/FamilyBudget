@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#57 - insertNewTravel() is ready">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#69 - add restaurant to entertainment">
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,38 +89,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00086" summary="#51 - without CAST">
-      <option name="closed" value="true" />
-      <created>1731966763971</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1731966763971</updated>
-    </task>
-    <task id="LOCAL-00087" summary="#51 - IncomeModel only for DB">
-      <option name="closed" value="true" />
-      <created>1731967367398</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1731967367398</updated>
-    </task>
-    <task id="LOCAL-00088" summary="#51 - Use IncomeModelDB on service level">
-      <option name="closed" value="true" />
-      <created>1731967427879</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1731967427879</updated>
-    </task>
-    <task id="LOCAL-00089" summary="#51 -  submitIncomeForm() in progress">
-      <option name="closed" value="true" />
-      <created>1731967825884</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1731967825884</updated>
     </task>
     <task id="LOCAL-00090" summary="#51 -  object incomeModelDB to DB">
       <option name="closed" value="true" />
@@ -482,7 +450,39 @@
       <option name="project" value="LOCAL" />
       <updated>1733257260057</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="#57 - submitTravelForm() is ready">
+      <option name="closed" value="true" />
+      <created>1733257866901</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1733257866901</updated>
+    </task>
+    <task id="LOCAL-00136" summary="#57 - forgot about destination in insertNewTravel()">
+      <option name="closed" value="true" />
+      <created>1733258087861</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1733258087861</updated>
+    </task>
+    <task id="LOCAL-00137" summary="#69 - add mortage to rent/housing">
+      <option name="closed" value="true" />
+      <created>1734381666518</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1734381666518</updated>
+    </task>
+    <task id="LOCAL-00138" summary="#69 - add restaurant to entertainment">
+      <option name="closed" value="true" />
+      <created>1734382126988</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1734382126988</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,10 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#53 - renamed class,because data comes from web" />
-    <MESSAGE value="#53 - new class for DB insertion" />
-    <MESSAGE value="#53 - method for debugging purpose" />
-    <MESSAGE value="#53 - new service method to add groceries" />
     <MESSAGE value="#53 - submitGroceriesForm() not tested, not final" />
     <MESSAGE value="#53 - cleaned up" />
     <MESSAGE value="#54 - because data comes from web form" />
@@ -522,6 +518,10 @@
     <MESSAGE value="#57 - renamed class from web and add toString()" />
     <MESSAGE value="#57 - class to insert data to DB" />
     <MESSAGE value="#57 - insertNewTravel() is ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="#57 - insertNewTravel() is ready" />
+    <MESSAGE value="#57 - submitTravelForm() is ready" />
+    <MESSAGE value="#57 - forgot about destination in insertNewTravel()" />
+    <MESSAGE value="#69 - add mortage to rent/housing" />
+    <MESSAGE value="#69 - add restaurant to entertainment" />
+    <option name="LAST_COMMIT_MESSAGE" value="#69 - add restaurant to entertainment" />
   </component>
 </project>

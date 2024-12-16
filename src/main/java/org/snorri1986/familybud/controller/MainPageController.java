@@ -30,7 +30,7 @@ public class MainPageController {
 
   @GetMapping("/entertainment")
   public String getEntertainmentPage(Model model) {
-    List<String> entList = Arrays.asList("Travel", "Cinema", "Vacation", "Relax", "Homefest","Other");
+    List<String> entList = Arrays.asList("Travel", "Cinema", "Vacation", "Relax","Restaurant","Homefest","Other");
     model.addAttribute("entertainment_mod_attribute", new EntertainmentModelWeb());
     model.addAttribute("entList", entList);
     model.addAttribute("currencyNames", currencyNames);
@@ -57,7 +57,7 @@ public class MainPageController {
 
   @GetMapping("/renthousing")
   public String getRentHousingPage(Model model) {
-    List<String> housingTypes = Arrays.asList("Rent","Electricity","HouseEquipments","Renovation","Other");
+    List<String> housingTypes = Arrays.asList("Rent","Mortage","Electricity","HouseEquipments","Renovation","Other");
     model.addAttribute("rent_housing_mod_attribute", new RentHousingModelWeb());
     model.addAttribute("housingTypes", housingTypes);
     model.addAttribute("currencyNames", currencyNames);
@@ -75,7 +75,7 @@ public class MainPageController {
 
   @GetMapping("/travel")
   public String getTravelPage(Model model) {
-    List<String> travelActivities = Arrays.asList("Tickets","Hotel","FoodInTrip","TravelEntertainment","Others");
+    List<String> travelActivities = Arrays.asList("Tickets","Hotel","FoodInTrip","TravelEntertainment","Public transport","Others");
     model.addAttribute("travel_mod_attribute", new TravelModelWeb());
     model.addAttribute("travelActivities", travelActivities);
     model.addAttribute("currencyNames", currencyNames);

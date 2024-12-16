@@ -49,6 +49,7 @@ public class WebFormsController {
       case "Cinema": entertainmentModelDB.setEventType(13);
       case "Vacation": entertainmentModelDB.setEventType(14);
       case "Relax": entertainmentModelDB.setEventType(15);
+      case "Restaurant": entertainmentModelDB.setEventType(38);
       case "Homefest": entertainmentModelDB.setEventType(16);
       case "Other": entertainmentModelDB.setEventType(17);
     }
@@ -119,6 +120,7 @@ public class WebFormsController {
 
     switch (rentHousingModel.getHousingType()) {
       case "Rent": rentHousingModelDB.setHousingType(2);
+      case "Mortage": rentHousingModelDB.setHousingType(37);
       case "Electricity": rentHousingModelDB.setHousingType(29);
       case "HouseEquipments": rentHousingModelDB.setHousingType(30);
       case "Renovation": rentHousingModelDB.setHousingType(31);
@@ -167,6 +169,7 @@ public class WebFormsController {
       case "Hotel": travelModelDB.setTravelType(34);
       case "FoodInTrip": travelModelDB.setTravelType(35);
       case "TravelEntertainment": travelModelDB.setTravelType(36);
+      case "Public transport": travelModelDB.setTravelType(7);
       case "Others": travelModelDB.setTravelType(12);
     }
 
