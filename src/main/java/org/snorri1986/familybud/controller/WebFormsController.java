@@ -169,6 +169,7 @@ public class WebFormsController {
       case "Hotel": travelModelDB.setTravelType(34);
       case "FoodInTrip": travelModelDB.setTravelType(35);
       case "TravelEntertainment": travelModelDB.setTravelType(36);
+      case "Public transport": travelModelDB.setTravelType(7);
       case "Others": travelModelDB.setTravelType(12);
     }
 
