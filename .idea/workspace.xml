@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#72 - redirect to main.html for s_health.html">
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_health.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/s_health.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_health.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/s_health.html" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#72 - redirect to main.html for s_telecom.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,22 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00098" summary="#52 - add method for inserting new entertainment event">
-      <option name="closed" value="true" />
-      <created>1732138818206</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1732138818206</updated>
-    </task>
-    <task id="LOCAL-00099" summary="#52 - add method for inserting new entertainment event">
-      <option name="closed" value="true" />
-      <created>1732138826818</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1732138826818</updated>
     </task>
     <task id="LOCAL-00100" summary="#52 - create new model and call DB service">
       <option name="closed" value="true" />
@@ -482,7 +463,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734467645875</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="#72 - redirect to main.html for s_renthousing.html">
+      <option name="closed" value="true" />
+      <created>1734467890380</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1734467890380</updated>
+    </task>
+    <task id="LOCAL-00148" summary="#72 - redirect to main.html for s_telecom.html">
+      <option name="closed" value="true" />
+      <created>1734468079093</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1734468079093</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,8 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#55 - rename model from web" />
-    <MESSAGE value="#55 - add toString()" />
     <MESSAGE value="#55 - add new class for DB insertion" />
     <MESSAGE value="#55 - add method to insert to DB" />
     <MESSAGE value="#55 - submitHousingForm() final to test" />
@@ -522,6 +517,8 @@
     <MESSAGE value="#72 - redirect to main.html for s_entertainment.html" />
     <MESSAGE value="#72 - redirect to main.html for s_groceries.html" />
     <MESSAGE value="#72 - redirect to main.html for s_health.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#72 - redirect to main.html for s_health.html" />
+    <MESSAGE value="#72 - redirect to main.html for s_renthousing.html" />
+    <MESSAGE value="#72 - redirect to main.html for s_telecom.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#72 - redirect to main.html for s_telecom.html" />
   </component>
 </project>
