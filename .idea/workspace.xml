@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#72 - redirect to main.html for s_entertainment.html" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#72 - redirect to main.html for s_groceries.html">
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_entertainment.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/s_entertainment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_groceries.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/s_groceries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/s_entertainment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/s_groceries.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,14 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00096" summary="#52 - add debug info (temp)">
-      <option name="closed" value="true" />
-      <created>1732138250036</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1732138250036</updated>
     </task>
     <task id="LOCAL-00097" summary="#52 - Entertainment model for DB insert">
       <option name="closed" value="true" />
@@ -479,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734467129867</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="#72 - redirect to main.html for s_groceries.html">
+      <option name="closed" value="true" />
+      <created>1734467386851</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1734467386851</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#54 - JDBC implementation for health expenses" />
     <MESSAGE value="#54 - submitHealthForm() ready for test" />
     <MESSAGE value="#55 - rename model from web" />
     <MESSAGE value="#55 - add toString()" />
@@ -519,6 +523,7 @@
     <MESSAGE value="#72 - redirection to main is set for s_income.html" />
     <MESSAGE value="#72 - change css for s_income.html" />
     <MESSAGE value="#72 - redirect to main.html for s_entertainment.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#72 - redirect to main.html for s_entertainment.html" />
+    <MESSAGE value="#72 - redirect to main.html for s_groceries.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#72 - redirect to main.html for s_groceries.html" />
   </component>
 </project>
