@@ -57,7 +57,7 @@ public class MainPageController {
 
   @GetMapping("/renthousing")
   public String getRentHousingPage(Model model) {
-    List<String> housingTypes = Arrays.asList("Rent","Mortage","Electricity","HouseEquipments","Renovation","Other");
+    List<String> housingTypes = Arrays.asList("Rent","Mortage","A-kass","Electricity","HouseEquipments","Renovation","Other");
     model.addAttribute("rent_housing_mod_attribute", new RentHousingModelWeb());
     model.addAttribute("housingTypes", housingTypes);
     model.addAttribute("currencyNames", currencyNames);

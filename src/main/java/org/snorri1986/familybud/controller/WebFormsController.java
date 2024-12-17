@@ -121,6 +121,7 @@ public class WebFormsController {
     switch (rentHousingModel.getHousingType()) {
       case "Rent": rentHousingModelDB.setHousingType(2);
       case "Mortage": rentHousingModelDB.setHousingType(37);
+      case "A-kass": rentHousingModelDB.setHousingType(39);
       case "Electricity": rentHousingModelDB.setHousingType(29);
       case "HouseEquipments": rentHousingModelDB.setHousingType(30);
       case "Renovation": rentHousingModelDB.setHousingType(31);
