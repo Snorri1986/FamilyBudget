@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#71 - add version number to main.html">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#73 - added A-kass to expense type Rent/Housing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/s_income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/s_income.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,14 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00092" summary="#51 - insert income(final)">
-      <option name="closed" value="true" />
-      <created>1732044797444</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1732044797444</updated>
     </task>
     <task id="LOCAL-00093" summary="#51 - insert income(final)">
       <option name="closed" value="true" />
@@ -484,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734384083302</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="#73 - added A-kass to expense type Rent/Housing">
+      <option name="closed" value="true" />
+      <created>1734465795683</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1734465795683</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#54 - because data comes from web form" />
     <MESSAGE value="#54 - for debuging data from web" />
     <MESSAGE value="#54 - using to_string() for simple debug" />
     <MESSAGE value="#54 - model for transfer to DB" />
@@ -524,6 +523,7 @@
     <MESSAGE value="#69 - add restaurant to entertainment" />
     <MESSAGE value="#69 - add Public transport to Travel" />
     <MESSAGE value="#71 - add version number to main.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#71 - add version number to main.html" />
+    <MESSAGE value="#73 - added A-kass to expense type Rent/Housing" />
+    <option name="LAST_COMMIT_MESSAGE" value="#73 - added A-kass to expense type Rent/Housing" />
   </component>
 </project>
