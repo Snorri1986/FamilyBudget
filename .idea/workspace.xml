@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#72 - redirection to main is set for s_income.html">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/s_income.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/s_income.css" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#72 - redirect to main.html for s_entertainment.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,22 +86,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00094" summary="#51 - insert income(final)">
-      <option name="closed" value="true" />
-      <created>1732045874878</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1732045874878</updated>
-    </task>
-    <task id="LOCAL-00095" summary="#52 - toString() for EntertainmentModel">
-      <option name="closed" value="true" />
-      <created>1732138101079</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1732138101079</updated>
     </task>
     <task id="LOCAL-00096" summary="#52 - add debug info (temp)">
       <option name="closed" value="true" />
@@ -481,7 +463,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734466793296</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="#72 - change css for s_income.html">
+      <option name="closed" value="true" />
+      <created>1734466916263</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1734466916263</updated>
+    </task>
+    <task id="LOCAL-00144" summary="#72 - redirect to main.html for s_entertainment.html">
+      <option name="closed" value="true" />
+      <created>1734467129867</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1734467129867</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,8 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#54 - using to_string() for simple debug" />
-    <MESSAGE value="#54 - model for transfer to DB" />
     <MESSAGE value="#54 - JDBC implementation for health expenses" />
     <MESSAGE value="#54 - submitHealthForm() ready for test" />
     <MESSAGE value="#55 - rename model from web" />
@@ -521,6 +517,8 @@
     <MESSAGE value="#71 - add version number to main.html" />
     <MESSAGE value="#73 - added A-kass to expense type Rent/Housing" />
     <MESSAGE value="#72 - redirection to main is set for s_income.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#72 - redirection to main is set for s_income.html" />
+    <MESSAGE value="#72 - change css for s_income.html" />
+    <MESSAGE value="#72 - redirect to main.html for s_entertainment.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#72 - redirect to main.html for s_entertainment.html" />
   </component>
 </project>
