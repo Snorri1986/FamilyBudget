@@ -21,7 +21,7 @@ public class MainPageController {
 
   @GetMapping("/income")
   public String getIncomePage(Model model) {
-    List<String> incomes = Arrays.asList("Salary", "Bonus", "TravelRefund", "ShopRefund", "Other");
+    List<String> incomes = Arrays.asList("Salary", "Bonus", "TravelRefund", "ShopRefund","Money transfer R", "Other");
     model.addAttribute("income_mod_attribute", new IncomeModelWeb());
     model.addAttribute("incomes", incomes);
     model.addAttribute("currencyNames", currencyNames);
@@ -57,7 +57,7 @@ public class MainPageController {
 
   @GetMapping("/renthousing")
   public String getRentHousingPage(Model model) {
-    List<String> housingTypes = Arrays.asList("Rent","Mortage","Electricity","HouseEquipments","Renovation","Other");
+    List<String> housingTypes = Arrays.asList("Rent","Mortage","Money transfer S","A-kass","Electricity","HouseEquipments","Renovation","Other");
     model.addAttribute("rent_housing_mod_attribute", new RentHousingModelWeb());
     model.addAttribute("housingTypes", housingTypes);
     model.addAttribute("currencyNames", currencyNames);

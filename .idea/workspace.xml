@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#69 - add restaurant to entertainment">
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#72 - redirect to main.html for s_travel.html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_travel.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/s_travel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/s_travel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,94 +90,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00090" summary="#51 -  object incomeModelDB to DB">
-      <option name="closed" value="true" />
-      <created>1732044018259</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1732044018259</updated>
-    </task>
-    <task id="LOCAL-00091" summary="#51 -  change income type">
-      <option name="closed" value="true" />
-      <created>1732044345503</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1732044345503</updated>
-    </task>
-    <task id="LOCAL-00092" summary="#51 - insert income(final)">
-      <option name="closed" value="true" />
-      <created>1732044797444</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1732044797444</updated>
-    </task>
-    <task id="LOCAL-00093" summary="#51 - insert income(final)">
-      <option name="closed" value="true" />
-      <created>1732044993018</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1732044993018</updated>
-    </task>
-    <task id="LOCAL-00094" summary="#51 - insert income(final)">
-      <option name="closed" value="true" />
-      <created>1732045874878</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1732045874878</updated>
-    </task>
-    <task id="LOCAL-00095" summary="#52 - toString() for EntertainmentModel">
-      <option name="closed" value="true" />
-      <created>1732138101079</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1732138101079</updated>
-    </task>
-    <task id="LOCAL-00096" summary="#52 - add debug info (temp)">
-      <option name="closed" value="true" />
-      <created>1732138250036</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1732138250036</updated>
-    </task>
-    <task id="LOCAL-00097" summary="#52 - Entertainment model for DB insert">
-      <option name="closed" value="true" />
-      <created>1732138552914</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1732138552914</updated>
-    </task>
-    <task id="LOCAL-00098" summary="#52 - add method for inserting new entertainment event">
-      <option name="closed" value="true" />
-      <created>1732138818206</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1732138818206</updated>
-    </task>
-    <task id="LOCAL-00099" summary="#52 - add method for inserting new entertainment event">
-      <option name="closed" value="true" />
-      <created>1732138826818</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1732138826818</updated>
-    </task>
-    <task id="LOCAL-00100" summary="#52 - create new model and call DB service">
-      <option name="closed" value="true" />
-      <created>1732140146812</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1732140146812</updated>
     </task>
     <task id="LOCAL-00101" summary="#52 - clean">
       <option name="closed" value="true" />
@@ -482,7 +395,95 @@
       <option name="project" value="LOCAL" />
       <updated>1734382126988</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="#69 - add Public transport to Travel">
+      <option name="closed" value="true" />
+      <created>1734382764500</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1734382764500</updated>
+    </task>
+    <task id="LOCAL-00140" summary="#71 - add version number to main.html">
+      <option name="closed" value="true" />
+      <created>1734384083287</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1734384083302</updated>
+    </task>
+    <task id="LOCAL-00141" summary="#73 - added A-kass to expense type Rent/Housing">
+      <option name="closed" value="true" />
+      <created>1734465795683</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1734465795683</updated>
+    </task>
+    <task id="LOCAL-00142" summary="#72 - redirection to main is set for s_income.html">
+      <option name="closed" value="true" />
+      <created>1734466793296</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1734466793296</updated>
+    </task>
+    <task id="LOCAL-00143" summary="#72 - change css for s_income.html">
+      <option name="closed" value="true" />
+      <created>1734466916263</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1734466916263</updated>
+    </task>
+    <task id="LOCAL-00144" summary="#72 - redirect to main.html for s_entertainment.html">
+      <option name="closed" value="true" />
+      <created>1734467129867</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1734467129867</updated>
+    </task>
+    <task id="LOCAL-00145" summary="#72 - redirect to main.html for s_groceries.html">
+      <option name="closed" value="true" />
+      <created>1734467386851</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1734467386851</updated>
+    </task>
+    <task id="LOCAL-00146" summary="#72 - redirect to main.html for s_health.html">
+      <option name="closed" value="true" />
+      <created>1734467645875</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1734467645875</updated>
+    </task>
+    <task id="LOCAL-00147" summary="#72 - redirect to main.html for s_renthousing.html">
+      <option name="closed" value="true" />
+      <created>1734467890380</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1734467890380</updated>
+    </task>
+    <task id="LOCAL-00148" summary="#72 - redirect to main.html for s_telecom.html">
+      <option name="closed" value="true" />
+      <created>1734468079093</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1734468079093</updated>
+    </task>
+    <task id="LOCAL-00149" summary="#72 - redirect to main.html for s_travel.html">
+      <option name="closed" value="true" />
+      <created>1734468324146</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1734468324146</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,17 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#53 - submitGroceriesForm() not tested, not final" />
-    <MESSAGE value="#53 - cleaned up" />
-    <MESSAGE value="#54 - because data comes from web form" />
-    <MESSAGE value="#54 - for debuging data from web" />
-    <MESSAGE value="#54 - using to_string() for simple debug" />
-    <MESSAGE value="#54 - model for transfer to DB" />
-    <MESSAGE value="#54 - JDBC implementation for health expenses" />
-    <MESSAGE value="#54 - submitHealthForm() ready for test" />
-    <MESSAGE value="#55 - rename model from web" />
-    <MESSAGE value="#55 - add toString()" />
-    <MESSAGE value="#55 - add new class for DB insertion" />
     <MESSAGE value="#55 - add method to insert to DB" />
     <MESSAGE value="#55 - submitHousingForm() final to test" />
     <MESSAGE value="#56 - rename model from Web and use toString()" />
@@ -522,6 +512,17 @@
     <MESSAGE value="#57 - forgot about destination in insertNewTravel()" />
     <MESSAGE value="#69 - add mortage to rent/housing" />
     <MESSAGE value="#69 - add restaurant to entertainment" />
-    <option name="LAST_COMMIT_MESSAGE" value="#69 - add restaurant to entertainment" />
+    <MESSAGE value="#69 - add Public transport to Travel" />
+    <MESSAGE value="#71 - add version number to main.html" />
+    <MESSAGE value="#73 - added A-kass to expense type Rent/Housing" />
+    <MESSAGE value="#72 - redirection to main is set for s_income.html" />
+    <MESSAGE value="#72 - change css for s_income.html" />
+    <MESSAGE value="#72 - redirect to main.html for s_entertainment.html" />
+    <MESSAGE value="#72 - redirect to main.html for s_groceries.html" />
+    <MESSAGE value="#72 - redirect to main.html for s_health.html" />
+    <MESSAGE value="#72 - redirect to main.html for s_renthousing.html" />
+    <MESSAGE value="#72 - redirect to main.html for s_telecom.html" />
+    <MESSAGE value="#72 - redirect to main.html for s_travel.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#72 - redirect to main.html for s_travel.html" />
   </component>
 </project>
