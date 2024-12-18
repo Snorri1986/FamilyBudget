@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#72 - redirect to main.html for s_telecom.html" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#72 - redirect to main.html for s_travel.html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_travel.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/s_travel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/s_travel.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,14 +90,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00100" summary="#52 - create new model and call DB service">
-      <option name="closed" value="true" />
-      <created>1732140146812</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1732140146812</updated>
     </task>
     <task id="LOCAL-00101" summary="#52 - clean">
       <option name="closed" value="true" />
@@ -479,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734468079093</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="#72 - redirect to main.html for s_travel.html">
+      <option name="closed" value="true" />
+      <created>1734468324146</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1734468324146</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#55 - add new class for DB insertion" />
     <MESSAGE value="#55 - add method to insert to DB" />
     <MESSAGE value="#55 - submitHousingForm() final to test" />
     <MESSAGE value="#56 - rename model from Web and use toString()" />
@@ -519,6 +522,7 @@
     <MESSAGE value="#72 - redirect to main.html for s_health.html" />
     <MESSAGE value="#72 - redirect to main.html for s_renthousing.html" />
     <MESSAGE value="#72 - redirect to main.html for s_telecom.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#72 - redirect to main.html for s_telecom.html" />
+    <MESSAGE value="#72 - redirect to main.html for s_travel.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#72 - redirect to main.html for s_travel.html" />
   </component>
 </project>

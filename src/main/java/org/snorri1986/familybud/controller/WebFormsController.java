@@ -26,6 +26,7 @@ public class WebFormsController {
       case "Bonus": incomeModelDB.setIncomeType(13);
       case "TravelRefund":  incomeModelDB.setIncomeType(15);
       case "ShopRefund":  incomeModelDB.setIncomeType(16);
+      case "Money transfer R":  incomeModelDB.setIncomeType(41);
       case "Other":  incomeModelDB.setIncomeType(17);
     }
 
@@ -121,6 +122,7 @@ public class WebFormsController {
     switch (rentHousingModel.getHousingType()) {
       case "Rent": rentHousingModelDB.setHousingType(2);
       case "Mortage": rentHousingModelDB.setHousingType(37);
+      case "Money transfer S": rentHousingModelDB.setHousingType(40);
       case "A-kass": rentHousingModelDB.setHousingType(39);
       case "Electricity": rentHousingModelDB.setHousingType(29);
       case "HouseEquipments": rentHousingModelDB.setHousingType(30);
