@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - unit test for MainPageController.getIncomePage()">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - UT for MainPageController.getEntertainmentPage()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JUnit.MainPageControllerTest.executor": "Run",
     "JUnit.MainPageControllerTest.testGetEntertainmentPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetGroceriesPage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetIncomePage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetMainPage.executor": "Run",
     "Maven.FamilyBudget-LocalTomcat.executor": "Run",
@@ -79,6 +82,22 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
       <option name="METHOD_NAME" value="testGetEntertainmentPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageControllerTest.testGetGroceriesPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testGetGroceriesPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,6 +168,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainPageControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetMainPage" />
@@ -163,14 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00106" summary="#60 - method for convert cur vals from String to int">
-      <option name="closed" value="true" />
-      <created>1732568481399</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1732568481399</updated>
     </task>
     <task id="LOCAL-00107" summary="#60 - usage Utils.currencyConvert as test">
       <option name="closed" value="true" />
@@ -556,7 +568,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734987158192</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="#76 - UT for MainPageController.getEntertainmentPage()">
+      <option name="closed" value="true" />
+      <created>1734987421130</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1734987421130</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -571,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#56 - submitTelecomForm() ready for test" />
     <MESSAGE value="#57 - rename income model class where data from web" />
     <MESSAGE value="#57 - renamed class from web and add toString()" />
     <MESSAGE value="#57 - class to insert data to DB" />
@@ -596,6 +615,7 @@
     <MESSAGE value="#76 - set the same resources as prod" />
     <MESSAGE value="#76 - unit test for MainPageController.getMainPage()" />
     <MESSAGE value="#76 - unit test for MainPageController.getIncomePage()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#76 - unit test for MainPageController.getIncomePage()" />
+    <MESSAGE value="#76 - UT for MainPageController.getEntertainmentPage()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#76 - UT for MainPageController.getEntertainmentPage()" />
   </component>
 </project>
