@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - set the same resources as prod">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - unit test for MainPageController.getMainPage()">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +42,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FamilyBudgetMain.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JUnit.MainPageControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetMainPage.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FamilyBudgetMain.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.MainPageControllerTest.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetIncomePage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetMainPage.executor": "Run",
+    "Maven.FamilyBudget-LocalTomcat.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.MainPageControllerTest">
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
@@ -62,6 +66,22 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageControllerTest.testGetIncomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testGetIncomePage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,6 +135,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainPageControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetMainPage" />
       </list>
     </recent_temporary>
@@ -127,14 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00104" summary="#52 - final">
-      <option name="closed" value="true" />
-      <created>1732140543256</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1732140543256</updated>
     </task>
     <task id="LOCAL-00105" summary="#60 - class for utilities">
       <option name="closed" value="true" />
@@ -520,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734985848691</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="#76 - unit test for MainPageController.getMainPage()">
+      <option name="closed" value="true" />
+      <created>1734986247805</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1734986247805</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#56 - model for mapping into DB" />
     <MESSAGE value="#56 - method to insert data from web to db" />
     <MESSAGE value="#56 - submitTelecomForm() ready for test" />
     <MESSAGE value="#57 - rename income model class where data from web" />
@@ -560,6 +580,7 @@
     <MESSAGE value="#74 - added Money transfer as income and expense" />
     <MESSAGE value="#76 - MainPageControllerTest is not final" />
     <MESSAGE value="#76 - set the same resources as prod" />
-    <option name="LAST_COMMIT_MESSAGE" value="#76 - set the same resources as prod" />
+    <MESSAGE value="#76 - unit test for MainPageController.getMainPage()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#76 - unit test for MainPageController.getMainPage()" />
   </component>
 </project>
