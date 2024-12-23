@@ -5,6 +5,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.snorri1986.familybud.models.EntertainmentModelWeb;
 import org.snorri1986.familybud.models.IncomeModelWeb;
 import org.springframework.ui.Model;
 
@@ -39,6 +40,15 @@ public class MainPageControllerTest {
     assertEquals("income", viewName);
     verify(model).addAttribute(eq("income_mod_attribute"), any(IncomeModelWeb.class));
     verify(model).addAttribute(eq("incomes"), any(List.class));
+    verify(model).addAttribute(eq("currencyNames"),any(List.class));
+  }
+
+  @Test
+  void testGetEntertainmentPage() {
+    String viewName = mainPageController.getEntertainmentPage(model);
+    assertEquals("entertainment", viewName);
+    verify(model).addAttribute(eq("entertainment_mod_attribute"), any(EntertainmentModelWeb.class));
+    verify(model).addAttribute(eq("entList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
   }
 }
