@@ -1,24 +1,37 @@
 package org.snorri1986.familybud.controller;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.test.web.servlet.MockMvc;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.ui.Model;
 
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import java.time.LocalDateTime;
 
-@WebMvcTest(MainPageController.class)
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.eq;
+import static org.mockito.Mockito.verify;
+
+
+@ExtendWith(MockitoExtension.class)
 public class MainPageControllerTest {
 
-  @Autowired
-  private MockMvc mockMvc;
+  @InjectMocks
+  private MainPageController mainPageController;
+
+  @Mock
+  private Model model;
 
   @Test
-  void testGetMainPage() throws Exception {
-    mockMvc.perform(get("/main"))
-            .andExpect(status().isOk())                       // HTTP 200 status
-            .andExpect(view().name("main"))                  // Correct view name
-            .andExpect(model().attributeExists("theDate"));  // Model contains 'theDate'
+  void testGetMainPage() {
+    String viewName = mainPageController.getMainPage(model);
+
+    // Verify the returned view name
+    assertEquals("main", viewName);
+
+    // Verify that the model was updated with the attribute 'theDate'
+    verify(model).addAttribute(eq("theDate"), any(LocalDateTime.class));
   }
 }

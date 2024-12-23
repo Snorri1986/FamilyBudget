@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - MainPageControllerTest is not final">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - set the same resources as prod">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MainPageControllerTest.testGetMainPage">
+  <component name="RunManager" selected="JUnit.MainPageControllerTest">
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -116,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainPageControllerTest.testGetMainPage" />
         <item itemvalue="JUnit.MainPageControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest.testGetMainPage" />
       </list>
     </recent_temporary>
   </component>
@@ -129,14 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00103" summary="#52 - final">
-      <option name="closed" value="true" />
-      <created>1732140434321</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1732140434321</updated>
     </task>
     <task id="LOCAL-00104" summary="#52 - final">
       <option name="closed" value="true" />
@@ -522,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734555521170</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="#76 - set the same resources as prod">
+      <option name="closed" value="true" />
+      <created>1734985848676</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1734985848691</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -537,7 +535,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#56 - rename model from Web and use toString()" />
     <MESSAGE value="#56 - model for mapping into DB" />
     <MESSAGE value="#56 - method to insert data from web to db" />
     <MESSAGE value="#56 - submitTelecomForm() ready for test" />
@@ -562,6 +559,7 @@
     <MESSAGE value="#72 - redirect to main.html for s_travel.html" />
     <MESSAGE value="#74 - added Money transfer as income and expense" />
     <MESSAGE value="#76 - MainPageControllerTest is not final" />
-    <option name="LAST_COMMIT_MESSAGE" value="#76 - MainPageControllerTest is not final" />
+    <MESSAGE value="#76 - set the same resources as prod" />
+    <option name="LAST_COMMIT_MESSAGE" value="#76 - set the same resources as prod" />
   </component>
 </project>
