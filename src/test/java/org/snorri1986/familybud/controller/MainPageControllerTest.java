@@ -71,4 +71,6 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("healthTypeList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
   }
+
+  // TODO: class is not finished
 }

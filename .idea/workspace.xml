@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - UT for MainPageController.getEntertainmentPage()">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - UT for MainPageController.getHealthPage()" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +44,7 @@
     "JUnit.MainPageControllerTest.executor": "Run",
     "JUnit.MainPageControllerTest.testGetEntertainmentPage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetGroceriesPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetHealthPage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetIncomePage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetMainPage.executor": "Run",
     "Maven.FamilyBudget-LocalTomcat.executor": "Run",
@@ -183,22 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00107" summary="#60 - usage Utils.currencyConvert as test">
-      <option name="closed" value="true" />
-      <created>1732568730796</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1732568730796</updated>
-    </task>
-    <task id="LOCAL-00108" summary="#60 - clean up">
-      <option name="closed" value="true" />
-      <created>1732569121106</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1732569121106</updated>
     </task>
     <task id="LOCAL-00109" summary="#53 - renamed class,because data comes from web">
       <option name="closed" value="true" />
@@ -576,7 +557,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734987421130</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="#76 - UT for MainPageController.getGroceriesPage()">
+      <option name="closed" value="true" />
+      <created>1734987710645</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1734987710645</updated>
+    </task>
+    <task id="LOCAL-00157" summary="#76 - UT for MainPageController.getHealthPage()">
+      <option name="closed" value="true" />
+      <created>1734987925703</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1734987925703</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,8 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#57 - rename income model class where data from web" />
-    <MESSAGE value="#57 - renamed class from web and add toString()" />
     <MESSAGE value="#57 - class to insert data to DB" />
     <MESSAGE value="#57 - insertNewTravel() is ready" />
     <MESSAGE value="#57 - submitTravelForm() is ready" />
@@ -616,6 +611,8 @@
     <MESSAGE value="#76 - unit test for MainPageController.getMainPage()" />
     <MESSAGE value="#76 - unit test for MainPageController.getIncomePage()" />
     <MESSAGE value="#76 - UT for MainPageController.getEntertainmentPage()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#76 - UT for MainPageController.getEntertainmentPage()" />
+    <MESSAGE value="#76 - UT for MainPageController.getGroceriesPage()" />
+    <MESSAGE value="#76 - UT for MainPageController.getHealthPage()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#76 - UT for MainPageController.getHealthPage()" />
   </component>
 </project>
