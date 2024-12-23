@@ -103,6 +103,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainPageControllerTest.testGetHealthPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testGetHealthPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainPageControllerTest.testGetIncomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -114,22 +130,6 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
       <option name="METHOD_NAME" value="testGetIncomePage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPageControllerTest.testGetMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetMainPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,10 +168,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainPageControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
-        <item itemvalue="JUnit.MainPageControllerTest.testGetMainPage" />
       </list>
     </recent_temporary>
   </component>

@@ -7,6 +7,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.snorri1986.familybud.models.EntertainmentModelWeb;
 import org.snorri1986.familybud.models.GroceriesModelWeb;
+import org.snorri1986.familybud.models.HealthModelWeb;
 import org.snorri1986.familybud.models.IncomeModelWeb;
 import org.springframework.ui.Model;
 
@@ -59,6 +60,15 @@ public class MainPageControllerTest {
     assertEquals("groceries", viewName);
     verify(model).addAttribute(eq("groceries_mod_attribute"), any(GroceriesModelWeb.class));
     verify(model).addAttribute(eq("purchesList"), any(List.class));
+    verify(model).addAttribute(eq("currencyNames"),any(List.class));
+  }
+
+  @Test
+  void testGetHealthPage() {
+    String viewName = mainPageController.getHealthPage(model);
+    assertEquals("health", viewName);
+    verify(model).addAttribute(eq("health_mod_attribute"), any(HealthModelWeb.class));
+    verify(model).addAttribute(eq("healthTypeList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
   }
 }
