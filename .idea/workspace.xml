@@ -4,44 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#74 - added Money transfer as income and expense">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - MainPageControllerTest is not final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/appllication.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/entertainment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/groceries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/health.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/income.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/renthousing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_entertainment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_groceries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_health.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_income.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_renthousing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_telecom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_travel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/telecom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/travel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/entertainment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/groceries.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/health.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/income.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/others.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/renthousing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_entertainment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_groceries.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_health.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_income.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_renthousing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_telecom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_travel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/telecom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/travel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,17 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FamilyBudgetMain.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.MainPageControllerTest.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetMainPage.executor": "Run",
-    "Maven.FamilyBudget-LocalTomcat.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FamilyBudgetMain.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.MainPageControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetMainPage.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.MainPageControllerTest.testGetMainPage">
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
@@ -163,14 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00102" summary="#52 - set better name to model from web">
-      <option name="closed" value="true" />
-      <created>1732140372740</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1732140372740</updated>
     </task>
     <task id="LOCAL-00103" summary="#52 - final">
       <option name="closed" value="true" />
@@ -556,7 +514,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734552715218</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="#76 - MainPageControllerTest is not final">
+      <option name="closed" value="true" />
+      <created>1734555521170</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1734555521170</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -571,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#55 - submitHousingForm() final to test" />
     <MESSAGE value="#56 - rename model from Web and use toString()" />
     <MESSAGE value="#56 - model for mapping into DB" />
     <MESSAGE value="#56 - method to insert data from web to db" />
@@ -596,6 +561,7 @@
     <MESSAGE value="#72 - redirect to main.html for s_telecom.html" />
     <MESSAGE value="#72 - redirect to main.html for s_travel.html" />
     <MESSAGE value="#74 - added Money transfer as income and expense" />
-    <option name="LAST_COMMIT_MESSAGE" value="#74 - added Money transfer as income and expense" />
+    <MESSAGE value="#76 - MainPageControllerTest is not final" />
+    <option name="LAST_COMMIT_MESSAGE" value="#76 - MainPageControllerTest is not final" />
   </component>
 </project>
