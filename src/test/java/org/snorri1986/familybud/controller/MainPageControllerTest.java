@@ -79,7 +79,7 @@ public class MainPageControllerTest {
   }
 
   @Test
-  void testgetTelecomPage() {
+  void testGetTelecomPage() {
     String viewName = mainPageController.getTelecomPage(model);
     assertEquals("telecom", viewName);
     verify(model).addAttribute(eq("telecom_mod_attribute"), any(TelecomModelWeb.class));
