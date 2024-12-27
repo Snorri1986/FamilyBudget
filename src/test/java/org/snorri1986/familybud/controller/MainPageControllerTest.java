@@ -5,10 +5,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.snorri1986.familybud.models.EntertainmentModelWeb;
-import org.snorri1986.familybud.models.GroceriesModelWeb;
-import org.snorri1986.familybud.models.HealthModelWeb;
-import org.snorri1986.familybud.models.IncomeModelWeb;
+import org.snorri1986.familybud.models.*;
 import org.springframework.ui.Model;
 
 import java.time.LocalDateTime;
@@ -72,5 +69,12 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
   }
 
-  // TODO: class is not finished
+  @Test
+  void testRentHousingPage() {
+    String viewName = mainPageController.getRentHousingPage(model);
+    assertEquals("renthousing", viewName);
+    verify(model).addAttribute(eq("rent_housing_mod_attribute"), any(RentHousingModelWeb.class));
+    verify(model).addAttribute(eq("housingTypes"), any(List.class));
+    verify(model).addAttribute(eq("currencyNames"),any(List.class));
+  }
 }
