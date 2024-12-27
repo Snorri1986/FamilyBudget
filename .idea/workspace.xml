@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - rename method">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - UT for MainPageController.getTravelPage">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
   "keyToString": {
     "Application.FamilyBudgetMain.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
     "JUnit.MainPageControllerTest.executor": "Run",
     "JUnit.MainPageControllerTest.testGetEntertainmentPage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetGroceriesPage.executor": "Run",
@@ -55,12 +55,17 @@
     "JUnit.MainPageControllerTest.testGetTravelPage.executor": "Run",
     "JUnit.MainPageControllerTest.testRentHousingPage.executor": "Run",
     "JUnit.MainPageControllerTest.testgetTelecomPage.executor": "Run",
+    "JUnit.WebFormsControllerTest.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor": "Run",
     "Maven.FamilyBudget-LocalTomcat.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainPageControllerTest">
+  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -108,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageControllerTest.testRentHousingPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebFormsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -117,14 +122,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testRentHousingPage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageControllerTest.testgetTelecomPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebFormsControllerTest.testSubmitIncomeForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +137,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testgetTelecomPage" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
+      <option name="METHOD_NAME" value="testSubmitIncomeForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebFormsControllerTest" />
+        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitIncomeForm" />
         <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetTravelPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetTelecomPage" />
-        <item itemvalue="JUnit.MainPageControllerTest.testgetTelecomPage" />
-        <item itemvalue="JUnit.MainPageControllerTest.testRentHousingPage" />
       </list>
     </recent_temporary>
   </component>
@@ -188,14 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00113" summary="#53 - submitGroceriesForm() not tested, not final">
-      <option name="closed" value="true" />
-      <created>1732571494786</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1732571494786</updated>
     </task>
     <task id="LOCAL-00114" summary="#53 - cleaned up">
       <option name="closed" value="true" />
@@ -581,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735331036661</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="#76 - UT for MainPageController.getTravelPage">
+      <option name="closed" value="true" />
+      <created>1735331335256</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1735331335256</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -596,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#57 - forgot about destination in insertNewTravel()" />
     <MESSAGE value="#69 - add mortage to rent/housing" />
     <MESSAGE value="#69 - add restaurant to entertainment" />
     <MESSAGE value="#69 - add Public transport to Travel" />
@@ -621,6 +624,7 @@
     <MESSAGE value="#76 - UT for MainPageController.getRentHousingPage" />
     <MESSAGE value="#76 - UT for MainPageController.getTelecomPage" />
     <MESSAGE value="#76 - rename method" />
-    <option name="LAST_COMMIT_MESSAGE" value="#76 - rename method" />
+    <MESSAGE value="#76 - UT for MainPageController.getTravelPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="#76 - UT for MainPageController.getTravelPage" />
   </component>
 </project>
