@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - UT for MainPageController.getRentHousingPage">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - rename method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
     </list>
@@ -50,6 +51,8 @@
     "JUnit.MainPageControllerTest.testGetHealthPage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetIncomePage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetMainPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetTelecomPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetTravelPage.executor": "Run",
     "JUnit.MainPageControllerTest.testRentHousingPage.executor": "Run",
     "JUnit.MainPageControllerTest.testgetTelecomPage.executor": "Run",
     "Maven.FamilyBudget-LocalTomcat.executor": "Run",
@@ -73,7 +76,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageControllerTest.testGetGroceriesPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageControllerTest.testGetTelecomPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -83,13 +86,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetGroceriesPage" />
+      <option name="METHOD_NAME" value="testGetTelecomPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageControllerTest.testGetHealthPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageControllerTest.testGetTravelPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -99,7 +102,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetHealthPage" />
+      <option name="METHOD_NAME" value="testGetTravelPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,10 +173,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainPageControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest.testGetTravelPage" />
+        <item itemvalue="JUnit.MainPageControllerTest.testGetTelecomPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testgetTelecomPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testRentHousingPage" />
-        <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
-        <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
       </list>
     </recent_temporary>
   </component>
@@ -185,22 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00111" summary="#53 - method for debugging purpose">
-      <option name="closed" value="true" />
-      <created>1732570297004</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1732570297004</updated>
-    </task>
-    <task id="LOCAL-00112" summary="#53 - new service method to add groceries">
-      <option name="closed" value="true" />
-      <created>1732570553708</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1732570553708</updated>
     </task>
     <task id="LOCAL-00113" summary="#53 - submitGroceriesForm() not tested, not final">
       <option name="closed" value="true" />
@@ -578,7 +565,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735330749479</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="#76 - UT for MainPageController.getTelecomPage">
+      <option name="closed" value="true" />
+      <created>1735330984294</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1735330984294</updated>
+    </task>
+    <task id="LOCAL-00161" summary="#76 - rename method">
+      <option name="closed" value="true" />
+      <created>1735331036661</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1735331036661</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -593,8 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#57 - insertNewTravel() is ready" />
-    <MESSAGE value="#57 - submitTravelForm() is ready" />
     <MESSAGE value="#57 - forgot about destination in insertNewTravel()" />
     <MESSAGE value="#69 - add mortage to rent/housing" />
     <MESSAGE value="#69 - add restaurant to entertainment" />
@@ -618,6 +619,8 @@
     <MESSAGE value="#76 - UT for MainPageController.getGroceriesPage()" />
     <MESSAGE value="#76 - UT for MainPageController.getHealthPage()" />
     <MESSAGE value="#76 - UT for MainPageController.getRentHousingPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="#76 - UT for MainPageController.getRentHousingPage" />
+    <MESSAGE value="#76 - UT for MainPageController.getTelecomPage" />
+    <MESSAGE value="#76 - rename method" />
+    <option name="LAST_COMMIT_MESSAGE" value="#76 - rename method" />
   </component>
 </project>
