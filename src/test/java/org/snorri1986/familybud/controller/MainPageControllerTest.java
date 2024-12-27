@@ -77,4 +77,13 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("housingTypes"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
   }
+
+  @Test
+  void testgetTelecomPage() {
+    String viewName = mainPageController.getTelecomPage(model);
+    assertEquals("telecom", viewName);
+    verify(model).addAttribute(eq("telecom_mod_attribute"), any(TelecomModelWeb.class));
+    verify(model).addAttribute(eq("telecomOperations"), any(List.class));
+    verify(model).addAttribute(eq("currencyNames"),any(List.class));
+  }
 }

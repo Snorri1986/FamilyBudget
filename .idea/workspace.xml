@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - UT for MainPageController.getHealthPage()" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#76 - UT for MainPageController.getRentHousingPage">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,21 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FamilyBudgetMain.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JUnit.MainPageControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetEntertainmentPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetGroceriesPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetHealthPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetIncomePage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetMainPage.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FamilyBudgetMain.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.MainPageControllerTest.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetEntertainmentPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetGroceriesPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetHealthPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetIncomePage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetMainPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testRentHousingPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testgetTelecomPage.executor": "Run",
+    "Maven.FamilyBudget-LocalTomcat.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.MainPageControllerTest">
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
@@ -64,22 +69,6 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPageControllerTest.testGetEntertainmentPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetEntertainmentPage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,6 +121,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainPageControllerTest.testgetTelecomPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testgetTelecomPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FamilyBudget-LocalTomcat" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -165,10 +170,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainPageControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest.testgetTelecomPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testRentHousingPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
-        <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
       </list>
     </recent_temporary>
   </component>
@@ -180,14 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00110" summary="#53 - new class for DB insertion">
-      <option name="closed" value="true" />
-      <created>1732570251139</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1732570251139</updated>
     </task>
     <task id="LOCAL-00111" summary="#53 - method for debugging purpose">
       <option name="closed" value="true" />
@@ -573,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734988080972</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="#76 - UT for MainPageController.getRentHousingPage">
+      <option name="closed" value="true" />
+      <created>1735330749479</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1735330749479</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -588,7 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#57 - class to insert data to DB" />
     <MESSAGE value="#57 - insertNewTravel() is ready" />
     <MESSAGE value="#57 - submitTravelForm() is ready" />
     <MESSAGE value="#57 - forgot about destination in insertNewTravel()" />
@@ -613,6 +617,7 @@
     <MESSAGE value="#76 - UT for MainPageController.getEntertainmentPage()" />
     <MESSAGE value="#76 - UT for MainPageController.getGroceriesPage()" />
     <MESSAGE value="#76 - UT for MainPageController.getHealthPage()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#76 - UT for MainPageController.getHealthPage()" />
+    <MESSAGE value="#76 - UT for MainPageController.getRentHousingPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="#76 - UT for MainPageController.getRentHousingPage" />
   </component>
 </project>
