@@ -20,6 +20,7 @@ public class WebFormsController {
     System.out.println("New income" + income.toString());
     IncomeModelDB incomeModelDB = new IncomeModelDB();
 
+    // TODO: switch needs to be replacement
     // convert values from web form
     switch (income.getIncomeType()) {
       case "Salary": incomeModelDB.setIncomeType(14);
@@ -45,6 +46,7 @@ public class WebFormsController {
   public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModelWeb entModel) {
     System.out.println("Entertainment Registered: " + entModel.toString());
     EntertainmentModelDB entertainmentModelDB = new EntertainmentModelDB();
+    // TODO: switch needs to be replacement
     switch (entModel.getEventType()) {
       case "Travel": entertainmentModelDB.setEventType(8);
       case "Cinema": entertainmentModelDB.setEventType(13);
@@ -70,7 +72,7 @@ public class WebFormsController {
   public String submitGroceriesForm(@ModelAttribute("groceries_mod_attribute") GroceriesModelWeb grocModel) {
     System.out.println("Groceries purchase Registered: " + grocModel.toString());
     GroceriesModelDB groceriesModelDB = new GroceriesModelDB();
-
+    // TODO: switch needs to be replacement
     switch (grocModel.getPurchesType()) {
       case "Daily": groceriesModelDB.setPurchesType(18);
       case "Weekly": groceriesModelDB.setPurchesType(19);
@@ -93,7 +95,7 @@ public class WebFormsController {
   public String submitHealthForm(@ModelAttribute("health_mod_attribute") HealthModelWeb healthModel) {
     System.out.println("Health purchase Registered: " + healthModel.toString());
     HealthModelDB healthModelDB = new HealthModelDB();
-
+    // TODO: switch needs to be replacement
     switch(healthModel.getHealthOperType()) {
       case "Dentist": healthModelDB.setHealthOperType(23);
       case "Regular Medical check": healthModelDB.setHealthOperType(24);
@@ -118,7 +120,7 @@ public class WebFormsController {
   public String submitHousingForm(@ModelAttribute("rent_housing_mod_attribute") RentHousingModelWeb rentHousingModel) {
     System.out.println("RentHousing purchase Registered: " + rentHousingModel.toString());
     RentHousingModelDB rentHousingModelDB = new RentHousingModelDB();
-
+    // TODO: switch needs to be replacement
     switch (rentHousingModel.getHousingType()) {
       case "Rent": rentHousingModelDB.setHousingType(2);
       case "Mortage": rentHousingModelDB.setHousingType(37);
@@ -144,7 +146,7 @@ public class WebFormsController {
   public String submitTelecomForm(@ModelAttribute("telecom_mod_attribute") TelecomModelWeb telecomModel) {
     System.out.println("Telecom purchase Registered: " + telecomModel.toString());
     TelecomModelDB telecomModelDB = new TelecomModelDB();
-
+    // TODO: switch needs to be replacement
     switch (telecomModel.getTelecomType()) {
       case "Mobile": telecomModelDB.setTelecomType(5);
       case "Internet": telecomModelDB.setTelecomType(6);
@@ -166,7 +168,7 @@ public class WebFormsController {
   public String submitTravelForm(@ModelAttribute("travel_mod_attribute") TravelModelWeb travelModel) {
     System.out.println("Travel purchase Registered: " + travelModel.toString());
     TravelModelDB travelModelDB = new TravelModelDB();
-
+    // TODO: switch needs to be replacement
     switch(travelModel.getTravelType()) {
       case "Tickets": travelModelDB.setTravelType(33);
       case "Hotel": travelModelDB.setTravelType(34);
