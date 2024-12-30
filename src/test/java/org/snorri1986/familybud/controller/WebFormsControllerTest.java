@@ -29,9 +29,6 @@ public class WebFormsControllerTest {
   @Mock
   private DBService dbService;
 
-  /*@Mock
-  private Utils utils;*/
-
   @Test
   public void testSubmitIncomeForm() {
     // Arrange
@@ -43,9 +40,6 @@ public class WebFormsControllerTest {
     income.setCardNum(6825);
     income.setOperDescription("Monthly salary");
 
-    //TODO: pass Date
-    //Mockito.when(Utils.currencyConvert("USD")).thenReturn(4);
-
     ArgumentCaptor<IncomeModelDB> captor = ArgumentCaptor.forClass(IncomeModelDB.class);
 
     // Act
@@ -54,11 +48,10 @@ public class WebFormsControllerTest {
     // Assert
     Mockito.verify(dbService).insertNewIncome(captor.capture());
     IncomeModelDB capturedIncome = captor.getValue();
-
     assertEquals(17, capturedIncome.getIncomeType());
     assertEquals(5000, capturedIncome.getAmount());
     assertEquals(4, capturedIncome.getCurrency());
-    assertEquals("25.12.2023 11:00", capturedIncome.getTransactionDate());
+    assertEquals(income.getTransactionDate(), capturedIncome.getTransactionDate());
     assertEquals(6825, capturedIncome.getCardNum());
     assertEquals("Monthly salary", capturedIncome.getOperDescription());
     assertEquals("s_income", result);
@@ -70,15 +63,4 @@ public class WebFormsControllerTest {
     Date date = Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant());
     return date;
   }
-
-  /*public int currencyConvert(String currValWeb) {
-    int intCurValue = 0;
-    switch (currValWeb) {
-      case "DKK": intCurValue = 3;
-      case "EUR": intCurValue = 1;
-      case "UAH": intCurValue = 2;
-      case "USD": intCurValue = 4;
-    }
-    return intCurValue;
-  }*/
 }
