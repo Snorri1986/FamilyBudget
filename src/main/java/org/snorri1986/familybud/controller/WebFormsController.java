@@ -20,15 +20,14 @@ public class WebFormsController {
     System.out.println("New income" + income.toString());
     IncomeModelDB incomeModelDB = new IncomeModelDB();
 
-    // TODO: switch needs to be replacement
     // convert values from web form
     switch (income.getIncomeType()) {
-      case "Salary": incomeModelDB.setIncomeType(14);
-      case "Bonus": incomeModelDB.setIncomeType(13);
-      case "TravelRefund":  incomeModelDB.setIncomeType(15);
-      case "ShopRefund":  incomeModelDB.setIncomeType(16);
-      case "Money transfer R":  incomeModelDB.setIncomeType(41);
-      case "Other":  incomeModelDB.setIncomeType(17);
+      case "Salary": incomeModelDB.setIncomeType(14); break;
+      case "Bonus": incomeModelDB.setIncomeType(13); break;
+      case "TravelRefund":  incomeModelDB.setIncomeType(15); break;
+      case "ShopRefund":  incomeModelDB.setIncomeType(16); break;
+      case "Money transfer R":  incomeModelDB.setIncomeType(41); break;
+      case "Other":  incomeModelDB.setIncomeType(17); break;
     }
 
     incomeModelDB.setAmount(income.getAmount());
@@ -38,6 +37,8 @@ public class WebFormsController {
     incomeModelDB.setCardNum(income.getCardNum());
     incomeModelDB.setOperDescription(income.getOperDescription());
 
+    System.out.println("New income to DB" + incomeModelDB.toString());
+
     dbService.insertNewIncome(incomeModelDB);
     return "s_income";
   }
@@ -46,15 +47,15 @@ public class WebFormsController {
   public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModelWeb entModel) {
     System.out.println("Entertainment Registered: " + entModel.toString());
     EntertainmentModelDB entertainmentModelDB = new EntertainmentModelDB();
-    // TODO: switch needs to be replacement
+
     switch (entModel.getEventType()) {
-      case "Travel": entertainmentModelDB.setEventType(8);
-      case "Cinema": entertainmentModelDB.setEventType(13);
-      case "Vacation": entertainmentModelDB.setEventType(14);
-      case "Relax": entertainmentModelDB.setEventType(15);
-      case "Restaurant": entertainmentModelDB.setEventType(38);
-      case "Homefest": entertainmentModelDB.setEventType(16);
-      case "Other": entertainmentModelDB.setEventType(17);
+      case "Travel": entertainmentModelDB.setEventType(8); break;
+      case "Cinema": entertainmentModelDB.setEventType(13); break;
+      case "Vacation": entertainmentModelDB.setEventType(14); break;
+      case "Relax": entertainmentModelDB.setEventType(15); break;
+      case "Restaurant": entertainmentModelDB.setEventType(38); break;
+      case "Homefest": entertainmentModelDB.setEventType(16); break;
+      case "Other": entertainmentModelDB.setEventType(17); break;
     }
 
     entertainmentModelDB.setAmount(entModel.getAmount());
@@ -72,13 +73,13 @@ public class WebFormsController {
   public String submitGroceriesForm(@ModelAttribute("groceries_mod_attribute") GroceriesModelWeb grocModel) {
     System.out.println("Groceries purchase Registered: " + grocModel.toString());
     GroceriesModelDB groceriesModelDB = new GroceriesModelDB();
-    // TODO: switch needs to be replacement
+
     switch (grocModel.getPurchesType()) {
-      case "Daily": groceriesModelDB.setPurchesType(18);
-      case "Weekly": groceriesModelDB.setPurchesType(19);
-      case "Weekend": groceriesModelDB.setPurchesType(20);
-      case "Fest": groceriesModelDB.setPurchesType(21);
-      case "Other": groceriesModelDB.setPurchesType(22);
+      case "Daily": groceriesModelDB.setPurchesType(18); break;
+      case "Weekly": groceriesModelDB.setPurchesType(19); break;
+      case "Weekend": groceriesModelDB.setPurchesType(20); break;
+      case "Fest": groceriesModelDB.setPurchesType(21); break;
+      case "Other": groceriesModelDB.setPurchesType(22); break;
     }
 
     groceriesModelDB.setAmount(grocModel.getAmount());
@@ -95,15 +96,15 @@ public class WebFormsController {
   public String submitHealthForm(@ModelAttribute("health_mod_attribute") HealthModelWeb healthModel) {
     System.out.println("Health purchase Registered: " + healthModel.toString());
     HealthModelDB healthModelDB = new HealthModelDB();
-    // TODO: switch needs to be replacement
+
     switch(healthModel.getHealthOperType()) {
-      case "Dentist": healthModelDB.setHealthOperType(23);
-      case "Regular Medical check": healthModelDB.setHealthOperType(24);
-      case "Special doctor": healthModelDB.setHealthOperType(25);
-      case "Swimming pool": healthModelDB.setHealthOperType(26);
-      case "SPA": healthModelDB.setHealthOperType(27);
-      case "Nails": healthModelDB.setHealthOperType(28);
-      case "Other": healthModelDB.setHealthOperType(22);
+      case "Dentist": healthModelDB.setHealthOperType(23); break;
+      case "Regular Medical check": healthModelDB.setHealthOperType(24); break;
+      case "Special doctor": healthModelDB.setHealthOperType(25); break;
+      case "Swimming pool": healthModelDB.setHealthOperType(26); break;
+      case "SPA": healthModelDB.setHealthOperType(27); break;
+      case "Nails": healthModelDB.setHealthOperType(28); break;
+      case "Other": healthModelDB.setHealthOperType(22); break;
     }
 
     healthModelDB.setAmount(healthModel.getAmount());
@@ -120,16 +121,16 @@ public class WebFormsController {
   public String submitHousingForm(@ModelAttribute("rent_housing_mod_attribute") RentHousingModelWeb rentHousingModel) {
     System.out.println("RentHousing purchase Registered: " + rentHousingModel.toString());
     RentHousingModelDB rentHousingModelDB = new RentHousingModelDB();
-    // TODO: switch needs to be replacement
+
     switch (rentHousingModel.getHousingType()) {
-      case "Rent": rentHousingModelDB.setHousingType(2);
-      case "Mortage": rentHousingModelDB.setHousingType(37);
-      case "Money transfer S": rentHousingModelDB.setHousingType(40);
-      case "A-kass": rentHousingModelDB.setHousingType(39);
-      case "Electricity": rentHousingModelDB.setHousingType(29);
-      case "HouseEquipments": rentHousingModelDB.setHousingType(30);
-      case "Renovation": rentHousingModelDB.setHousingType(31);
-      case "Other": rentHousingModelDB.setHousingType(22);
+      case "Rent": rentHousingModelDB.setHousingType(2); break;
+      case "Mortage": rentHousingModelDB.setHousingType(37); break;
+      case "Money transfer S": rentHousingModelDB.setHousingType(40); break;
+      case "A-kass": rentHousingModelDB.setHousingType(39); break;
+      case "Electricity": rentHousingModelDB.setHousingType(29); break;
+      case "HouseEquipments": rentHousingModelDB.setHousingType(30); break;
+      case "Renovation": rentHousingModelDB.setHousingType(31); break;
+      case "Other": rentHousingModelDB.setHousingType(22); break;
     }
 
     rentHousingModelDB.setAmount(rentHousingModel.getAmount());
@@ -146,12 +147,12 @@ public class WebFormsController {
   public String submitTelecomForm(@ModelAttribute("telecom_mod_attribute") TelecomModelWeb telecomModel) {
     System.out.println("Telecom purchase Registered: " + telecomModel.toString());
     TelecomModelDB telecomModelDB = new TelecomModelDB();
-    // TODO: switch needs to be replacement
+
     switch (telecomModel.getTelecomType()) {
-      case "Mobile": telecomModelDB.setTelecomType(5);
-      case "Internet": telecomModelDB.setTelecomType(6);
-      case "Roaming bundles": telecomModelDB.setTelecomType(32);
-      case "Others": telecomModelDB.setTelecomType(12);
+      case "Mobile": telecomModelDB.setTelecomType(5); break;
+      case "Internet": telecomModelDB.setTelecomType(6); break;
+      case "Roaming bundles": telecomModelDB.setTelecomType(32); break;
+      case "Others": telecomModelDB.setTelecomType(12); break;
     }
 
     telecomModelDB.setAmount(telecomModel.getAmount());
@@ -168,14 +169,14 @@ public class WebFormsController {
   public String submitTravelForm(@ModelAttribute("travel_mod_attribute") TravelModelWeb travelModel) {
     System.out.println("Travel purchase Registered: " + travelModel.toString());
     TravelModelDB travelModelDB = new TravelModelDB();
-    // TODO: switch needs to be replacement
+
     switch(travelModel.getTravelType()) {
-      case "Tickets": travelModelDB.setTravelType(33);
-      case "Hotel": travelModelDB.setTravelType(34);
-      case "FoodInTrip": travelModelDB.setTravelType(35);
-      case "TravelEntertainment": travelModelDB.setTravelType(36);
-      case "Public transport": travelModelDB.setTravelType(7);
-      case "Others": travelModelDB.setTravelType(12);
+      case "Tickets": travelModelDB.setTravelType(33); break;
+      case "Hotel": travelModelDB.setTravelType(34); break;
+      case "FoodInTrip": travelModelDB.setTravelType(35); break;
+      case "TravelEntertainment": travelModelDB.setTravelType(36); break;
+      case "Public transport": travelModelDB.setTravelType(7); break;
+      case "Others": travelModelDB.setTravelType(12); break;
     }
 
     travelModelDB.setAmount(travelModel.getAmount());
