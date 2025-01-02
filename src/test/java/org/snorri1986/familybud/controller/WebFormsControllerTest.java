@@ -53,7 +53,7 @@ public class WebFormsControllerTest {
     IncomeModelDB capturedIncome = captor.getValue();
 
     // TODO: after replace SubmitIncomeForm
-    //assertEquals(14, capturedIncome.getIncomeType());
+    assertEquals(14, capturedIncome.getIncomeType());
     assertEquals(income.getAmount(), capturedIncome.getAmount());
     assertEquals(Utils.currencyConvert(income.getCurrency()), capturedIncome.getCurrency());
     assertEquals(income.getTransactionDate(), capturedIncome.getTransactionDate());
