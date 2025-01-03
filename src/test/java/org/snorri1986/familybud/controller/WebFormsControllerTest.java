@@ -153,6 +153,30 @@ public class WebFormsControllerTest {
     assertEquals("s_renthousing", result);
   }
 
+  @Test
+  public void testSubmitTelecomForm() {
+    TelecomModelWeb telecomModelWeb = new TelecomModelWeb();
+    telecomModelWeb.setTelecomType("Internet");
+    telecomModelWeb.setAmount(100);
+    telecomModelWeb.setCurrency("EUR");
+    telecomModelWeb.setTransactionDate(convertToDate("01.02.2025 11:00"));
+    telecomModelWeb.setCardNum(1234);
+    telecomModelWeb.setOperDescription("Regular monthly pay");
+
+    ArgumentCaptor<TelecomModelDB> captor = ArgumentCaptor.forClass(TelecomModelDB.class);
+    String result = webFormsController.submitTelecomForm(telecomModelWeb);
+
+    Mockito.verify(dbService).insertNewTelecom(captor.capture());
+    TelecomModelDB capturedTelecom = captor.getValue();
+    assertEquals(6, capturedTelecom.getTelecomType());
+    assertEquals(telecomModelWeb.getAmount(), capturedTelecom.getAmount());
+    assertEquals(Utils.currencyConvert(telecomModelWeb.getCurrency()), capturedTelecom.getCurrency());
+    assertEquals(telecomModelWeb.getTransactionDate(), capturedTelecom.getTransactionDate());
+    assertEquals(telecomModelWeb.getCardNum(), capturedTelecom.getCardNum());
+    assertEquals(telecomModelWeb.getOperDescription(), capturedTelecom.getOperDescription());
+    assertEquals("s_telecom", result);
+  }
+
   private Date convertToDate(String dateInString) {
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
     LocalDate localDate = LocalDate.parse(dateInString, formatter);
