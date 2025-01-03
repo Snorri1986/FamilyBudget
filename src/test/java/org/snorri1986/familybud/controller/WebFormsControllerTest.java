@@ -177,6 +177,32 @@ public class WebFormsControllerTest {
     assertEquals("s_telecom", result);
   }
 
+  @Test
+  public void testSubmitTravelForm() {
+    TravelModelWeb travelModelWeb = new TravelModelWeb();
+    travelModelWeb.setTravelType("Hotel");
+    travelModelWeb.setAmount(5);
+    travelModelWeb.setCurrency("DKK");
+    travelModelWeb.setTransactionDate(convertToDate("07.02.2025 11:00"));
+    travelModelWeb.setCardNum(1234);
+    travelModelWeb.setDestination("Kalundborg");
+    travelModelWeb.setOperDescription("Hotel in the city");
+
+    ArgumentCaptor<TravelModelDB> captor = ArgumentCaptor.forClass(TravelModelDB.class);
+    String result = webFormsController.submitTravelForm(travelModelWeb);
+
+    Mockito.verify(dbService).insertNewTravel(captor.capture());
+    TravelModelDB capturedTravel = captor.getValue();
+    assertEquals(34, capturedTravel.getTravelType());
+    assertEquals(travelModelWeb.getAmount(), capturedTravel.getAmount());
+    assertEquals(Utils.currencyConvert(travelModelWeb.getCurrency()), capturedTravel.getCurrency());
+    assertEquals(travelModelWeb.getTransactionDate(), capturedTravel.getTransactionDate());
+    assertEquals(travelModelWeb.getCardNum(), capturedTravel.getCardNum());
+    assertEquals(travelModelWeb.getDestination(), capturedTravel.getDestination());
+    assertEquals(travelModelWeb.getOperDescription(), capturedTravel.getOperDescription());
+    assertEquals("s_travel", result);
+  }
+
   private Date convertToDate(String dateInString) {
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
     LocalDate localDate = LocalDate.parse(dateInString, formatter);
