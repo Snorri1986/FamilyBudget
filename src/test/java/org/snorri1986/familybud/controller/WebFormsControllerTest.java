@@ -206,7 +206,6 @@ public class WebFormsControllerTest {
   private Date convertToDate(String dateInString) {
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
     LocalDate localDate = LocalDate.parse(dateInString, formatter);
-    Date date = Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant());
-    return date;
+    return Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant());
   }
 }
