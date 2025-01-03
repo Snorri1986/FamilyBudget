@@ -9,10 +9,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.snorri1986.familybud.Utils;
-import org.snorri1986.familybud.models.EntertainmentModelDB;
-import org.snorri1986.familybud.models.EntertainmentModelWeb;
-import org.snorri1986.familybud.models.IncomeModelDB;
-import org.snorri1986.familybud.models.IncomeModelWeb;
+import org.snorri1986.familybud.models.*;
 import org.snorri1986.familybud.service.DBService;
 import java.time.LocalDate;
 
@@ -84,6 +81,31 @@ public class WebFormsControllerTest {
     assertEquals(entertainmentModelWeb.getCardNum(), capturedEntertainment.getCardNum());
     assertEquals(entertainmentModelWeb.getOperDescription(), capturedEntertainment.getOperDescription());
     assertEquals("s_entertainment", result);
+  }
+
+  @Test
+  public void testSubmitGroceriesForm() {
+    GroceriesModelWeb groceriesModelWeb = new GroceriesModelWeb();
+    groceriesModelWeb.setPurchesType("Weekly");
+    groceriesModelWeb.setAmount(800);
+    groceriesModelWeb.setCurrency("UAH");
+    groceriesModelWeb.setTransactionDate(convertToDate("28.02.2023 11:00"));
+    groceriesModelWeb.setCardNum(6285);
+    groceriesModelWeb.setOperDescription("Netto");
+
+    ArgumentCaptor<GroceriesModelDB> captor = ArgumentCaptor.forClass(GroceriesModelDB.class);
+
+    String result = webFormsController.submitGroceriesForm(groceriesModelWeb);
+
+    Mockito.verify(dbService).insertNewGroceries(captor.capture());
+    GroceriesModelDB capturedGroceries = captor.getValue();
+    assertEquals(19, capturedGroceries.getPurchesType());
+    assertEquals(groceriesModelWeb.getAmount(), capturedGroceries.getAmount());
+    assertEquals(Utils.currencyConvert(groceriesModelWeb.getCurrency()), capturedGroceries.getCurrency());
+    assertEquals(groceriesModelWeb.getTransactionDate(), capturedGroceries.getTransactionDate());
+    assertEquals(groceriesModelWeb.getCardNum(), capturedGroceries.getCardNum());
+    assertEquals(groceriesModelWeb.getOperDescription(), capturedGroceries.getOperDescription());
+    assertEquals("s_groceries", result);
   }
 
   private Date convertToDate(String dateInString) {
