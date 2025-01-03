@@ -71,7 +71,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest.testSubmitEntertainmentForm">
+  <component name="RunManager" selected="JUnit.WebFormsControllerTest.testSubmitGroceriesForm">
     <configuration name="WebFormsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -103,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebFormsControllerTest.testSubmitHousingForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebFormsControllerTest.testSubmitGroceriesForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +113,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
-      <option name="METHOD_NAME" value="testSubmitHousingForm" />
+      <option name="METHOD_NAME" value="testSubmitGroceriesForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitGroceriesForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitEntertainmentForm" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitTravelForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitTelecomForm" />
-        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHousingForm" />
       </list>
     </recent_temporary>
   </component>

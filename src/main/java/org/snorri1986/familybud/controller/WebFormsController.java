@@ -90,6 +90,8 @@ public class WebFormsController {
     groceriesModelDB.setCardNum(grocModel.getCardNum());
     groceriesModelDB.setOperDescription(grocModel.getOperDescription());
 
+    System.out.println("New groceries to DB: " + groceriesModelDB.toString());
+
     dbService.insertNewGroceries(groceriesModelDB);
     return "s_groceries";
   }

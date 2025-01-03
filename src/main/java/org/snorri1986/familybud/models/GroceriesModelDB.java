@@ -60,4 +60,16 @@ public class GroceriesModelDB {
   public void setOperDescription(String operDescription) {
     this.operDescription = operDescription;
   }
+
+  @Override
+  public String toString() {
+    return "GroceriesModelDB{" +
+            "purchesType=" + purchesType +
+            ", amount=" + amount +
+            ", currency=" + currency +
+            ", transactionDate=" + transactionDate +
+            ", cardNum=" + cardNum +
+            ", operDescription='" + operDescription + '\'' +
+            '}';
+  }
 }
