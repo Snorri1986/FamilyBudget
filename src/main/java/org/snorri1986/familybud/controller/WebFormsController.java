@@ -65,6 +65,8 @@ public class WebFormsController {
     entertainmentModelDB.setCardNum(entModel.getCardNum());
     entertainmentModelDB.setOperDescription(entModel.getOperDescription());
 
+    System.out.println("New entertainment to DB: " + entertainmentModelDB.toString());
+
     dbService.insertNewEntertainment(entertainmentModelDB);
     return "s_entertainment";
   }
