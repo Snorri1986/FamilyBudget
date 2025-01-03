@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#77 - final test for Income and Entertainment">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#77 - final testSubmitGroceriesForm()">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "JUnit.WebFormsControllerTest.executor": "Run",
     "JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor": "Run",
     "JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitHealthForm.executor": "Run",
     "JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor": "Run",
     "Maven.FamilyBudget-LocalTomcat.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -67,21 +68,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.WebFormsControllerTest">
-    <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WebFormsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -124,6 +110,22 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
       <option name="METHOD_NAME" value="testSubmitGroceriesForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebFormsControllerTest.testSubmitHealthForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
+      <option name="METHOD_NAME" value="testSubmitHealthForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,10 +180,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WebFormsControllerTest" />
+        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHealthForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitGroceriesForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitEntertainmentForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitIncomeForm" />
-        <item itemvalue="JUnit.MainPageControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,14 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00126" summary="#56 - rename model from Web and use toString()">
-      <option name="closed" value="true" />
-      <created>1733168643269</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1733168643269</updated>
     </task>
     <task id="LOCAL-00127" summary="#56 - model for mapping into DB">
       <option name="closed" value="true" />
@@ -586,7 +580,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735938621769</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="#77 - final testSubmitGroceriesForm()">
+      <option name="closed" value="true" />
+      <created>1735939169643</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1735939169643</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -601,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#72 - redirect to main.html for s_health.html" />
     <MESSAGE value="#72 - redirect to main.html for s_renthousing.html" />
     <MESSAGE value="#72 - redirect to main.html for s_telecom.html" />
     <MESSAGE value="#72 - redirect to main.html for s_travel.html" />
@@ -626,7 +627,8 @@
     <MESSAGE value="#79 - fix currencyConvert" />
     <MESSAGE value="#79 - new version number" />
     <MESSAGE value="#77 - final test for Income and Entertainment" />
-    <option name="LAST_COMMIT_MESSAGE" value="#77 - final test for Income and Entertainment" />
+    <MESSAGE value="#77 - final testSubmitGroceriesForm()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#77 - final testSubmitGroceriesForm()" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

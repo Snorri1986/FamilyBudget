@@ -41,7 +41,6 @@ public class WebFormsControllerTest {
     income.setOperDescription("Monthly salary");
 
     ArgumentCaptor<IncomeModelDB> captor = ArgumentCaptor.forClass(IncomeModelDB.class);
-
     // Act
     String result = webFormsController.submitIncomeForm(income);
 
@@ -69,7 +68,6 @@ public class WebFormsControllerTest {
     entertainmentModelWeb.setOperDescription("Cinema in Herlev");
 
     ArgumentCaptor<EntertainmentModelDB> captor = ArgumentCaptor.forClass(EntertainmentModelDB.class);
-
     String result = webFormsController.submitEntertainmentForm(entertainmentModelWeb);
 
     Mockito.verify(dbService).insertNewEntertainment(captor.capture());
@@ -94,7 +92,6 @@ public class WebFormsControllerTest {
     groceriesModelWeb.setOperDescription("Netto");
 
     ArgumentCaptor<GroceriesModelDB> captor = ArgumentCaptor.forClass(GroceriesModelDB.class);
-
     String result = webFormsController.submitGroceriesForm(groceriesModelWeb);
 
     Mockito.verify(dbService).insertNewGroceries(captor.capture());
@@ -106,6 +103,30 @@ public class WebFormsControllerTest {
     assertEquals(groceriesModelWeb.getCardNum(), capturedGroceries.getCardNum());
     assertEquals(groceriesModelWeb.getOperDescription(), capturedGroceries.getOperDescription());
     assertEquals("s_groceries", result);
+  }
+
+  @Test
+  public void testSubmitHealthForm() {
+    HealthModelWeb healthModelWeb = new HealthModelWeb();
+    healthModelWeb.setHealthOperType("Regular Medical check");
+    healthModelWeb.setAmount(1200);
+    healthModelWeb.setCurrency("USD");
+    healthModelWeb.setTransactionDate(convertToDate("01.01.2025 11:00"));
+    healthModelWeb.setCardNum(6285);
+    healthModelWeb.setOperDescription("Therapeftist");
+
+    ArgumentCaptor<HealthModelDB> captor = ArgumentCaptor.forClass(HealthModelDB.class);
+    String result = webFormsController.submitHealthForm(healthModelWeb);
+
+    Mockito.verify(dbService).insertNewHealth(captor.capture());
+    HealthModelDB capturedHealth = captor.getValue();
+    assertEquals(24, capturedHealth.getHealthOperType());
+    assertEquals(healthModelWeb.getAmount(), capturedHealth.getAmount());
+    assertEquals(Utils.currencyConvert(healthModelWeb.getCurrency()), capturedHealth.getCurrency());
+    assertEquals(healthModelWeb.getTransactionDate(), capturedHealth.getTransactionDate());
+    assertEquals(healthModelWeb.getCardNum(), capturedHealth.getCardNum());
+    assertEquals(healthModelWeb.getOperDescription(), capturedHealth.getOperDescription());
+    assertEquals("s_health", result);
   }
 
   private Date convertToDate(String dateInString) {
