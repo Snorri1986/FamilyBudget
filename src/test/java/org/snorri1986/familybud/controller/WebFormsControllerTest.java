@@ -52,7 +52,6 @@ public class WebFormsControllerTest {
     Mockito.verify(dbService).insertNewIncome(captor.capture());
     IncomeModelDB capturedIncome = captor.getValue();
 
-    // TODO: after replace SubmitIncomeForm
     assertEquals(14, capturedIncome.getIncomeType());
     assertEquals(income.getAmount(), capturedIncome.getAmount());
     assertEquals(Utils.currencyConvert(income.getCurrency()), capturedIncome.getCurrency());
@@ -62,15 +61,15 @@ public class WebFormsControllerTest {
     assertEquals("s_income", result);
   }
 
-  /*@Test
+  @Test
   public void testSubmitEntertainmentForm() {
     EntertainmentModelWeb entertainmentModelWeb = new EntertainmentModelWeb();
-    entertainmentModelWeb.setEventType("Travel");
+    entertainmentModelWeb.setEventType("Cinema");
     entertainmentModelWeb.setAmount(1000);
     entertainmentModelWeb.setCurrency("EUR");
     entertainmentModelWeb.setTransactionDate(convertToDate("30.12.2024 13:30"));
     entertainmentModelWeb.setCardNum(6285);
-    entertainmentModelWeb.setOperDescription("Public transport");
+    entertainmentModelWeb.setOperDescription("Cinema in Herlev");
 
     ArgumentCaptor<EntertainmentModelDB> captor = ArgumentCaptor.forClass(EntertainmentModelDB.class);
 
@@ -78,14 +77,14 @@ public class WebFormsControllerTest {
 
     Mockito.verify(dbService).insertNewEntertainment(captor.capture());
     EntertainmentModelDB capturedEntertainment = captor.getValue();
-    assertEquals(8, capturedEntertainment.getEventType());
+    assertEquals(13, capturedEntertainment.getEventType());
     assertEquals(entertainmentModelWeb.getAmount(), capturedEntertainment.getAmount());
     assertEquals(Utils.currencyConvert(entertainmentModelWeb.getCurrency()), capturedEntertainment.getCurrency());
     assertEquals(entertainmentModelWeb.getTransactionDate(), capturedEntertainment.getTransactionDate());
     assertEquals(entertainmentModelWeb.getCardNum(), capturedEntertainment.getCardNum());
     assertEquals(entertainmentModelWeb.getOperDescription(), capturedEntertainment.getOperDescription());
     assertEquals("s_entertainment", result);
-  }*/
+  }
 
   private Date convertToDate(String dateInString) {
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
