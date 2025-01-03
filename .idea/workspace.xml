@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#77 - final testSubmitGroceriesForm()">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#77 - final testSubmitHealthForm()">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +58,7 @@
     "JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor": "Run",
     "JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor": "Run",
     "JUnit.WebFormsControllerTest.testSubmitHealthForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitHousingForm.executor": "Run",
     "JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor": "Run",
     "Maven.FamilyBudget-LocalTomcat.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -131,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebFormsControllerTest.testSubmitIncomeForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebFormsControllerTest.testSubmitHousingForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +142,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
-      <option name="METHOD_NAME" value="testSubmitIncomeForm" />
+      <option name="METHOD_NAME" value="testSubmitHousingForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,10 +181,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WebFormsControllerTest" />
+        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHousingForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHealthForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitGroceriesForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitEntertainmentForm" />
-        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitIncomeForm" />
       </list>
     </recent_temporary>
   </component>
@@ -195,14 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00127" summary="#56 - model for mapping into DB">
-      <option name="closed" value="true" />
-      <created>1733168876362</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1733168876362</updated>
     </task>
     <task id="LOCAL-00128" summary="#56 - method to insert data from web to db">
       <option name="closed" value="true" />
@@ -588,7 +581,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735939169643</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="#77 - final testSubmitHealthForm()">
+      <option name="closed" value="true" />
+      <created>1735939661821</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1735939661821</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -603,7 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#72 - redirect to main.html for s_renthousing.html" />
     <MESSAGE value="#72 - redirect to main.html for s_telecom.html" />
     <MESSAGE value="#72 - redirect to main.html for s_travel.html" />
     <MESSAGE value="#74 - added Money transfer as income and expense" />
@@ -628,7 +628,8 @@
     <MESSAGE value="#79 - new version number" />
     <MESSAGE value="#77 - final test for Income and Entertainment" />
     <MESSAGE value="#77 - final testSubmitGroceriesForm()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#77 - final testSubmitGroceriesForm()" />
+    <MESSAGE value="#77 - final testSubmitHealthForm()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#77 - final testSubmitHealthForm()" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

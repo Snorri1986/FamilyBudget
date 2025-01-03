@@ -129,6 +129,30 @@ public class WebFormsControllerTest {
     assertEquals("s_health", result);
   }
 
+  @Test
+  public void testSubmitHousingForm() {
+    RentHousingModelWeb rentHousingModelWeb = new RentHousingModelWeb();
+    rentHousingModelWeb.setHousingType("Mortage");
+    rentHousingModelWeb.setAmount(100);
+    rentHousingModelWeb.setCurrency("DKK");
+    rentHousingModelWeb.setTransactionDate(convertToDate("30.12.2024 11:00"));
+    rentHousingModelWeb.setCardNum(6285);
+    rentHousingModelWeb.setOperDescription("Regular paid");
+
+    ArgumentCaptor<RentHousingModelDB> captor = ArgumentCaptor.forClass(RentHousingModelDB.class);
+    String result = webFormsController.submitHousingForm(rentHousingModelWeb);
+
+    Mockito.verify(dbService).insertNewRentHousing(captor.capture());
+    RentHousingModelDB capturedRentHousing = captor.getValue();
+    assertEquals(37, capturedRentHousing.getHousingType());
+    assertEquals(rentHousingModelWeb.getAmount(), capturedRentHousing.getAmount());
+    assertEquals(Utils.currencyConvert(rentHousingModelWeb.getCurrency()), capturedRentHousing.getCurrency());
+    assertEquals(rentHousingModelWeb.getTransactionDate(), capturedRentHousing.getTransactionDate());
+    assertEquals(rentHousingModelWeb.getCardNum(), capturedRentHousing.getCardNum());
+    assertEquals(rentHousingModelWeb.getOperDescription(), capturedRentHousing.getOperDescription());
+    assertEquals("s_renthousing", result);
+  }
+
   private Date convertToDate(String dateInString) {
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
     LocalDate localDate = LocalDate.parse(dateInString, formatter);
