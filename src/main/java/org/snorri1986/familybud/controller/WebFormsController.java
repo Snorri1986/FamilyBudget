@@ -81,6 +81,7 @@ public class WebFormsController {
       case "Weekly": groceriesModelDB.setPurchesType(19); break;
       case "Weekend": groceriesModelDB.setPurchesType(20); break;
       case "Fest": groceriesModelDB.setPurchesType(21); break;
+      case "Clothes": groceriesModelDB.setPurchesType(43); break;
       case "Other": groceriesModelDB.setPurchesType(22); break;
     }
 
