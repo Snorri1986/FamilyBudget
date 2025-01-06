@@ -60,4 +60,16 @@ public class RentHousingModelDB {
   public void setOperDescription(String operDescription) {
     this.operDescription = operDescription;
   }
+
+  @Override
+  public String toString() {
+    return "RentHousingModelDB{" +
+            "housingType=" + housingType +
+            ", amount=" + amount +
+            ", currency=" + currency +
+            ", transactionDate=" + transactionDate +
+            ", cardNum=" + cardNum +
+            ", operDescription='" + operDescription + '\'' +
+            '}';
+  }
 }

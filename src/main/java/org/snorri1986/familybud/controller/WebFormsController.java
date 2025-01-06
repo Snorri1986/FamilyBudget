@@ -145,6 +145,8 @@ public class WebFormsController {
     rentHousingModelDB.setCardNum(rentHousingModel.getCardNum());
     rentHousingModelDB.setOperDescription(rentHousingModel.getOperDescription());
 
+    System.out.println("New RentHousing DB model: " + rentHousingModelDB.toString());
+
     dbService.insertNewRentHousing(rentHousingModelDB);
     return "s_renthousing";
   }
