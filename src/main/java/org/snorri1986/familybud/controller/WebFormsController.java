@@ -169,6 +169,8 @@ public class WebFormsController {
     telecomModelDB.setCardNum(telecomModel.getCardNum());
     telecomModelDB.setOperDescription(telecomModel.getOperDescription());
 
+    System.out.println("Telecom model DB: " + telecomModelDB.toString());
+
     dbService.insertNewTelecom(telecomModelDB);
     return "s_telecom";
   }
