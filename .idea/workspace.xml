@@ -71,22 +71,7 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest.testSubmitTelecomForm">
-    <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.WebFormsControllerTest.testSubmitTravelForm">
     <configuration name="WebFormsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -150,6 +135,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebFormsControllerTest.testSubmitTravelForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
+      <option name="METHOD_NAME" value="testSubmitTravelForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FamilyBudget-LocalTomcat" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -182,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitTravelForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitTelecomForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHousingForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHealthForm" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
-        <item itemvalue="JUnit.MainPageControllerTest" />
       </list>
     </recent_temporary>
   </component>

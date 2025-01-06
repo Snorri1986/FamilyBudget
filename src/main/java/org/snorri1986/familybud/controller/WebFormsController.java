@@ -196,6 +196,8 @@ public class WebFormsController {
     travelModelDB.setDestination(travelModel.getDestination());
     travelModelDB.setOperDescription(travelModel.getOperDescription());
 
+    System.out.println("New Travel DB: " + travelModelDB.toString());
+
     dbService.insertNewTravel(travelModelDB);
     return "s_travel";
   }
