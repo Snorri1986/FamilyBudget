@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#80 - to_string for RentHousingModelDB">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#80 - set new version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TelecomModelDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TelecomModelDB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -83,6 +84,22 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageControllerTest.testGetHealthPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testGetHealthPage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebFormsControllerTest.testSubmitHousingForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebFormsControllerTest.testSubmitHealthForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -112,23 +129,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
-      <option name="METHOD_NAME" value="testSubmitHousingForm" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebFormsControllerTest.testSubmitTelecomForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
-      <option name="METHOD_NAME" value="testSubmitTelecomForm" />
+      <option name="METHOD_NAME" value="testSubmitHealthForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHealthForm" />
+        <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitTravelForm" />
-        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitTelecomForm" />
-        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHousingForm" />
       </list>
     </recent_temporary>
   </component>
@@ -198,38 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00136" summary="#57 - forgot about destination in insertNewTravel()">
-      <option name="closed" value="true" />
-      <created>1733258087861</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1733258087861</updated>
-    </task>
-    <task id="LOCAL-00137" summary="#69 - add mortage to rent/housing">
-      <option name="closed" value="true" />
-      <created>1734381666518</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1734381666518</updated>
-    </task>
-    <task id="LOCAL-00138" summary="#69 - add restaurant to entertainment">
-      <option name="closed" value="true" />
-      <created>1734382126988</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1734382126988</updated>
-    </task>
-    <task id="LOCAL-00139" summary="#69 - add Public transport to Travel">
-      <option name="closed" value="true" />
-      <created>1734382764500</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1734382764500</updated>
     </task>
     <task id="LOCAL-00140" summary="#71 - add version number to main.html">
       <option name="closed" value="true" />
@@ -591,7 +560,39 @@
       <option name="project" value="LOCAL" />
       <updated>1736194289394</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="#80 - to_string for TelecomModelDB">
+      <option name="closed" value="true" />
+      <created>1736194380062</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1736194380062</updated>
+    </task>
+    <task id="LOCAL-00186" summary="#80 - to_string for TravelModelDB">
+      <option name="closed" value="true" />
+      <created>1736194470767</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1736194470767</updated>
+    </task>
+    <task id="LOCAL-00187" summary="#80 - workspace">
+      <option name="closed" value="true" />
+      <created>1736194551189</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1736194551189</updated>
+    </task>
+    <task id="LOCAL-00188" summary="#80 - set new version">
+      <option name="closed" value="true" />
+      <created>1736194602390</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1736194602390</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,10 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#76 - UT for MainPageController.getGroceriesPage()" />
-    <MESSAGE value="#76 - UT for MainPageController.getHealthPage()" />
-    <MESSAGE value="#76 - UT for MainPageController.getRentHousingPage" />
-    <MESSAGE value="#76 - UT for MainPageController.getTelecomPage" />
     <MESSAGE value="#76 - rename method" />
     <MESSAGE value="#76 - UT for MainPageController.getTravelPage" />
     <MESSAGE value="#77 - testSubmitIncomeForm() not final" />
@@ -631,7 +628,11 @@
     <MESSAGE value="#80 - to_string for GroceriesModelDB" />
     <MESSAGE value="#80 - to_string for HealthModelDB" />
     <MESSAGE value="#80 - to_string for RentHousingModelDB" />
-    <option name="LAST_COMMIT_MESSAGE" value="#80 - to_string for RentHousingModelDB" />
+    <MESSAGE value="#80 - to_string for TelecomModelDB" />
+    <MESSAGE value="#80 - to_string for TravelModelDB" />
+    <MESSAGE value="#80 - workspace" />
+    <MESSAGE value="#80 - set new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="#80 - set new version" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
