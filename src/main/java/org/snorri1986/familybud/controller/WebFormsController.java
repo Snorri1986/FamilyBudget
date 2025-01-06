@@ -117,6 +117,8 @@ public class WebFormsController {
     healthModelDB.setCardNum(healthModel.getCardNum());
     healthModelDB.setOperDescription(healthModel.getOperDescription());
 
+    System.out.println("New health to DB: " + healthModelDB.toString());
+
     dbService.insertNewHealth(healthModelDB);
     return "s_health";
   }

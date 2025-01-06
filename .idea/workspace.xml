@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#77 - remove redundate variable in convertToDate">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/EntertainmentModelDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/EntertainmentModelDB.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#80 - to_string for GroceriesModelDB">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,38 +39,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FamilyBudgetMain.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.MainPageControllerTest.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetEntertainmentPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetGroceriesPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetHealthPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetIncomePage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetMainPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetTelecomPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetTravelPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testRentHousingPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testgetTelecomPage.executor": "Run",
-    "JUnit.WebFormsControllerTest.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitHealthForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitHousingForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitTelecomForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitTravelForm.executor": "Run",
-    "Maven.FamilyBudget-LocalTomcat.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FamilyBudgetMain.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.MainPageControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetEntertainmentPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetGroceriesPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetHealthPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetIncomePage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetMainPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetTelecomPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetTravelPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testRentHousingPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testgetTelecomPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitHealthForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitHousingForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitTelecomForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitTravelForm.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest.testSubmitGroceriesForm">
+}</component>
+  <component name="RunManager" selected="JUnit.WebFormsControllerTest.testSubmitHealthForm">
+    <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebFormsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -119,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebFormsControllerTest.testSubmitTelecomForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebFormsControllerTest.testSubmitHealthForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -129,23 +143,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
-      <option name="METHOD_NAME" value="testSubmitTelecomForm" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebFormsControllerTest.testSubmitTravelForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
-      <option name="METHOD_NAME" value="testSubmitTravelForm" />
+      <option name="METHOD_NAME" value="testSubmitHealthForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHealthForm" />
+        <item itemvalue="JUnit.WebFormsControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitGroceriesForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitEntertainmentForm" />
-        <item itemvalue="JUnit.WebFormsControllerTest" />
-        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitTravelForm" />
-        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitTelecomForm" />
       </list>
     </recent_temporary>
   </component>
@@ -199,22 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00132" summary="#57 - renamed class from web and add toString()">
-      <option name="closed" value="true" />
-      <created>1733256860425</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1733256860425</updated>
-    </task>
-    <task id="LOCAL-00133" summary="#57 - class to insert data to DB">
-      <option name="closed" value="true" />
-      <created>1733256999628</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1733256999628</updated>
     </task>
     <task id="LOCAL-00134" summary="#57 - insertNewTravel() is ready">
       <option name="closed" value="true" />
@@ -592,7 +574,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735941342765</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="#80 - to?string for EntertainmentModelDB">
+      <option name="closed" value="true" />
+      <created>1735941686776</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1735941686776</updated>
+    </task>
+    <task id="LOCAL-00182" summary="#80 - to_string for GroceriesModelDB">
+      <option name="closed" value="true" />
+      <created>1735941804888</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1735941804888</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,8 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#76 - set the same resources as prod" />
-    <MESSAGE value="#76 - unit test for MainPageController.getMainPage()" />
     <MESSAGE value="#76 - unit test for MainPageController.getIncomePage()" />
     <MESSAGE value="#76 - UT for MainPageController.getEntertainmentPage()" />
     <MESSAGE value="#76 - UT for MainPageController.getGroceriesPage()" />
@@ -632,7 +628,9 @@
     <MESSAGE value="#77 - final testSubmitTelecomForm()" />
     <MESSAGE value="#77 - final testSubmitTravelForm()" />
     <MESSAGE value="#77 - remove redundate variable in convertToDate" />
-    <option name="LAST_COMMIT_MESSAGE" value="#77 - remove redundate variable in convertToDate" />
+    <MESSAGE value="#80 - to?string for EntertainmentModelDB" />
+    <MESSAGE value="#80 - to_string for GroceriesModelDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="#80 - to_string for GroceriesModelDB" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
