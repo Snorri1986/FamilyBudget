@@ -69,4 +69,17 @@ public class TravelModelDB {
   public void setOperDescription(String operDescription) {
     this.operDescription = operDescription;
   }
+
+  @Override
+  public String toString() {
+    return "TravelModelDB{" +
+            "travelType=" + travelType +
+            ", amount=" + amount +
+            ", currency=" + currency +
+            ", transactionDate=" + transactionDate +
+            ", cardNum=" + cardNum +
+            ", destination='" + destination + '\'' +
+            ", operDescription='" + operDescription + '\'' +
+            '}';
+  }
 }

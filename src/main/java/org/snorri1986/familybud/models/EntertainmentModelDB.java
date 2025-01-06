@@ -60,4 +60,16 @@ public class EntertainmentModelDB {
   public void setOperDescription(String operDescription) {
     this.operDescription = operDescription;
   }
+
+  @Override
+  public String toString() {
+    return "EntertainmentModelDB{" +
+            "eventType=" + eventType +
+            ", amount=" + amount +
+            ", currency=" + currency +
+            ", transactionDate=" + transactionDate +
+            ", cardNum=" + cardNum +
+            ", operDescription='" + operDescription + '\'' +
+            '}';
+  }
 }

@@ -22,12 +22,12 @@ public class WebFormsController {
 
     // convert values from web form
     switch (income.getIncomeType()) {
-      case "Salary": incomeModelDB.setIncomeType(14);
-      case "Bonus": incomeModelDB.setIncomeType(13);
-      case "TravelRefund":  incomeModelDB.setIncomeType(15);
-      case "ShopRefund":  incomeModelDB.setIncomeType(16);
-      case "Money transfer R":  incomeModelDB.setIncomeType(41);
-      case "Other":  incomeModelDB.setIncomeType(17);
+      case "Salary": incomeModelDB.setIncomeType(14); break;
+      case "Bonus": incomeModelDB.setIncomeType(13); break;
+      case "TravelRefund":  incomeModelDB.setIncomeType(15); break;
+      case "ShopRefund":  incomeModelDB.setIncomeType(16); break;
+      case "Money transfer R":  incomeModelDB.setIncomeType(41); break;
+      case "Other":  incomeModelDB.setIncomeType(17); break;
     }
 
     incomeModelDB.setAmount(income.getAmount());
@@ -37,6 +37,8 @@ public class WebFormsController {
     incomeModelDB.setCardNum(income.getCardNum());
     incomeModelDB.setOperDescription(income.getOperDescription());
 
+    System.out.println("New income to DB" + incomeModelDB.toString());
+
     dbService.insertNewIncome(incomeModelDB);
     return "s_income";
   }
@@ -45,14 +47,15 @@ public class WebFormsController {
   public String submitEntertainmentForm(@ModelAttribute("entertainment_mod_attribute") EntertainmentModelWeb entModel) {
     System.out.println("Entertainment Registered: " + entModel.toString());
     EntertainmentModelDB entertainmentModelDB = new EntertainmentModelDB();
+
     switch (entModel.getEventType()) {
-      case "Travel": entertainmentModelDB.setEventType(8);
-      case "Cinema": entertainmentModelDB.setEventType(13);
-      case "Vacation": entertainmentModelDB.setEventType(14);
-      case "Relax": entertainmentModelDB.setEventType(15);
-      case "Restaurant": entertainmentModelDB.setEventType(38);
-      case "Homefest": entertainmentModelDB.setEventType(16);
-      case "Other": entertainmentModelDB.setEventType(17);
+      case "Travel": entertainmentModelDB.setEventType(8); break;
+      case "Cinema": entertainmentModelDB.setEventType(13); break;
+      case "Vacation": entertainmentModelDB.setEventType(14); break;
+      case "Relax": entertainmentModelDB.setEventType(15); break;
+      case "Restaurant": entertainmentModelDB.setEventType(38); break;
+      case "Homefest": entertainmentModelDB.setEventType(16); break;
+      case "Other": entertainmentModelDB.setEventType(17); break;
     }
 
     entertainmentModelDB.setAmount(entModel.getAmount());
@@ -61,6 +64,8 @@ public class WebFormsController {
     entertainmentModelDB.setTransactionDate(entModel.getTransactionDate());
     entertainmentModelDB.setCardNum(entModel.getCardNum());
     entertainmentModelDB.setOperDescription(entModel.getOperDescription());
+
+    System.out.println("New entertainment to DB: " + entertainmentModelDB.toString());
 
     dbService.insertNewEntertainment(entertainmentModelDB);
     return "s_entertainment";
@@ -72,11 +77,12 @@ public class WebFormsController {
     GroceriesModelDB groceriesModelDB = new GroceriesModelDB();
 
     switch (grocModel.getPurchesType()) {
-      case "Daily": groceriesModelDB.setPurchesType(18);
-      case "Weekly": groceriesModelDB.setPurchesType(19);
-      case "Weekend": groceriesModelDB.setPurchesType(20);
-      case "Fest": groceriesModelDB.setPurchesType(21);
-      case "Other": groceriesModelDB.setPurchesType(22);
+      case "Daily": groceriesModelDB.setPurchesType(18); break;
+      case "Weekly": groceriesModelDB.setPurchesType(19); break;
+      case "Weekend": groceriesModelDB.setPurchesType(20); break;
+      case "Fest": groceriesModelDB.setPurchesType(21); break;
+      case "Clothes": groceriesModelDB.setPurchesType(43); break;
+      case "Other": groceriesModelDB.setPurchesType(22); break;
     }
 
     groceriesModelDB.setAmount(grocModel.getAmount());
@@ -84,6 +90,8 @@ public class WebFormsController {
     groceriesModelDB.setTransactionDate(grocModel.getTransactionDate());
     groceriesModelDB.setCardNum(grocModel.getCardNum());
     groceriesModelDB.setOperDescription(grocModel.getOperDescription());
+
+    System.out.println("New groceries to DB: " + groceriesModelDB.toString());
 
     dbService.insertNewGroceries(groceriesModelDB);
     return "s_groceries";
@@ -95,13 +103,14 @@ public class WebFormsController {
     HealthModelDB healthModelDB = new HealthModelDB();
 
     switch(healthModel.getHealthOperType()) {
-      case "Dentist": healthModelDB.setHealthOperType(23);
-      case "Regular Medical check": healthModelDB.setHealthOperType(24);
-      case "Special doctor": healthModelDB.setHealthOperType(25);
-      case "Swimming pool": healthModelDB.setHealthOperType(26);
-      case "SPA": healthModelDB.setHealthOperType(27);
-      case "Nails": healthModelDB.setHealthOperType(28);
-      case "Other": healthModelDB.setHealthOperType(22);
+      case "Dentist": healthModelDB.setHealthOperType(23); break;
+      case "Regular Medical check": healthModelDB.setHealthOperType(24); break;
+      case "Special doctor": healthModelDB.setHealthOperType(25); break;
+      case "Swimming pool": healthModelDB.setHealthOperType(26); break;
+      case "SPA": healthModelDB.setHealthOperType(27); break;
+      case "Nails": healthModelDB.setHealthOperType(28); break;
+      case "Haircut": healthModelDB.setHealthOperType(42); break;
+      case "Other": healthModelDB.setHealthOperType(22); break;
     }
 
     healthModelDB.setAmount(healthModel.getAmount());
@@ -109,6 +118,8 @@ public class WebFormsController {
     healthModelDB.setTransactionDate(healthModel.getTransactionDate());
     healthModelDB.setCardNum(healthModel.getCardNum());
     healthModelDB.setOperDescription(healthModel.getOperDescription());
+
+    System.out.println("New health to DB: " + healthModelDB.toString());
 
     dbService.insertNewHealth(healthModelDB);
     return "s_health";
@@ -120,14 +131,14 @@ public class WebFormsController {
     RentHousingModelDB rentHousingModelDB = new RentHousingModelDB();
 
     switch (rentHousingModel.getHousingType()) {
-      case "Rent": rentHousingModelDB.setHousingType(2);
-      case "Mortage": rentHousingModelDB.setHousingType(37);
-      case "Money transfer S": rentHousingModelDB.setHousingType(40);
-      case "A-kass": rentHousingModelDB.setHousingType(39);
-      case "Electricity": rentHousingModelDB.setHousingType(29);
-      case "HouseEquipments": rentHousingModelDB.setHousingType(30);
-      case "Renovation": rentHousingModelDB.setHousingType(31);
-      case "Other": rentHousingModelDB.setHousingType(22);
+      case "Rent": rentHousingModelDB.setHousingType(2); break;
+      case "Mortage": rentHousingModelDB.setHousingType(37); break;
+      case "Money transfer S": rentHousingModelDB.setHousingType(40); break;
+      case "A-kass": rentHousingModelDB.setHousingType(39); break;
+      case "Electricity": rentHousingModelDB.setHousingType(29); break;
+      case "HouseEquipments": rentHousingModelDB.setHousingType(30); break;
+      case "Renovation": rentHousingModelDB.setHousingType(31); break;
+      case "Other": rentHousingModelDB.setHousingType(22); break;
     }
 
     rentHousingModelDB.setAmount(rentHousingModel.getAmount());
@@ -135,6 +146,8 @@ public class WebFormsController {
     rentHousingModelDB.setTransactionDate(rentHousingModel.getTransactionDate());
     rentHousingModelDB.setCardNum(rentHousingModel.getCardNum());
     rentHousingModelDB.setOperDescription(rentHousingModel.getOperDescription());
+
+    System.out.println("New RentHousing DB model: " + rentHousingModelDB.toString());
 
     dbService.insertNewRentHousing(rentHousingModelDB);
     return "s_renthousing";
@@ -146,10 +159,10 @@ public class WebFormsController {
     TelecomModelDB telecomModelDB = new TelecomModelDB();
 
     switch (telecomModel.getTelecomType()) {
-      case "Mobile": telecomModelDB.setTelecomType(5);
-      case "Internet": telecomModelDB.setTelecomType(6);
-      case "Roaming bundles": telecomModelDB.setTelecomType(32);
-      case "Others": telecomModelDB.setTelecomType(12);
+      case "Mobile": telecomModelDB.setTelecomType(5); break;
+      case "Internet": telecomModelDB.setTelecomType(6); break;
+      case "Roaming bundles": telecomModelDB.setTelecomType(32); break;
+      case "Others": telecomModelDB.setTelecomType(12); break;
     }
 
     telecomModelDB.setAmount(telecomModel.getAmount());
@@ -157,6 +170,8 @@ public class WebFormsController {
     telecomModelDB.setTransactionDate(telecomModel.getTransactionDate());
     telecomModelDB.setCardNum(telecomModel.getCardNum());
     telecomModelDB.setOperDescription(telecomModel.getOperDescription());
+
+    System.out.println("Telecom model DB: " + telecomModelDB.toString());
 
     dbService.insertNewTelecom(telecomModelDB);
     return "s_telecom";
@@ -168,12 +183,12 @@ public class WebFormsController {
     TravelModelDB travelModelDB = new TravelModelDB();
 
     switch(travelModel.getTravelType()) {
-      case "Tickets": travelModelDB.setTravelType(33);
-      case "Hotel": travelModelDB.setTravelType(34);
-      case "FoodInTrip": travelModelDB.setTravelType(35);
-      case "TravelEntertainment": travelModelDB.setTravelType(36);
-      case "Public transport": travelModelDB.setTravelType(7);
-      case "Others": travelModelDB.setTravelType(12);
+      case "Tickets": travelModelDB.setTravelType(33); break;
+      case "Hotel": travelModelDB.setTravelType(34); break;
+      case "FoodInTrip": travelModelDB.setTravelType(35); break;
+      case "TravelEntertainment": travelModelDB.setTravelType(36); break;
+      case "Public transport": travelModelDB.setTravelType(7); break;
+      case "Others": travelModelDB.setTravelType(12); break;
     }
 
     travelModelDB.setAmount(travelModel.getAmount());
@@ -182,6 +197,8 @@ public class WebFormsController {
     travelModelDB.setCardNum(travelModel.getCardNum());
     travelModelDB.setDestination(travelModel.getDestination());
     travelModelDB.setOperDescription(travelModel.getOperDescription());
+
+    System.out.println("New Travel DB: " + travelModelDB.toString());
 
     dbService.insertNewTravel(travelModelDB);
     return "s_travel";

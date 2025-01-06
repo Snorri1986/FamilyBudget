@@ -39,7 +39,7 @@ public class MainPageController {
 
   @GetMapping("/groceries")
   public String getGroceriesPage(Model model) {
-    List<String> purchesList = Arrays.asList("Daily","Weekly","Weekend","Fest","Other");
+    List<String> purchesList = Arrays.asList("Daily","Weekly","Weekend","Fest","Clothes","Other");
     model.addAttribute("groceries_mod_attribute", new GroceriesModelWeb());
     model.addAttribute("purchesList", purchesList);
     model.addAttribute("currencyNames", currencyNames);
@@ -48,7 +48,7 @@ public class MainPageController {
 
   @GetMapping("/health")
   public String getHealthPage(Model model) {
-    List<String> healthTypeList = Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Other");
+    List<String> healthTypeList = Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Haircut","Other");
     model.addAttribute("health_mod_attribute", new HealthModelWeb());
     model.addAttribute("healthTypeList", healthTypeList);
     model.addAttribute("currencyNames", currencyNames);
