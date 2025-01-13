@@ -18,3 +18,4 @@ org\snorri1986\familybud\models\HealthModelWeb.class
 org\snorri1986\familybud\models\TravelModelWeb.class
 org\snorri1986\familybud\models\TravelModelDB.class
 org\snorri1986\familybud\models\TelecomModelDB.class
+org\snorri1986\familybud\models\UserModel.class

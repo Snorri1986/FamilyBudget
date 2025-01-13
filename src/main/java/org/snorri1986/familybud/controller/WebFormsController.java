@@ -15,6 +15,13 @@ public class WebFormsController {
   @Autowired
   DBService dbService;
 
+  @PostMapping("/toMain")
+  public String goToMain(@ModelAttribute("login_mod_attribute") UserModel uModel) {
+    //TODO: not finished
+    //TODO: no unit test
+    return "main";
+  }
+
   @PostMapping("/registerIncome")
   public String submitIncomeForm(@ModelAttribute("income_mod_attribute") IncomeModelWeb income) {
     System.out.println("New income" + income.toString());

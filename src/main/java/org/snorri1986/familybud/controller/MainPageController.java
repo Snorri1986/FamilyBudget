@@ -15,6 +15,7 @@ public class MainPageController {
 
   @GetMapping("/login")
   public String getLoginPage(Model model) {
+    model.addAttribute("login_mod_attribute", new UserModel());
     return "login";
   }
 
