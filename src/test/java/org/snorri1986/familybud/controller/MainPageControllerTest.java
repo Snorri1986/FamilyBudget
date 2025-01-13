@@ -27,6 +27,12 @@ public class MainPageControllerTest {
   private Model model;
 
   @Test
+  void testGetLoginPage() {
+    String viewName = mainPageController.getLoginPage(model);
+    assertEquals("login", viewName);
+  }
+
+  @Test
   void testGetMainPage() {
     String viewName = mainPageController.getMainPage(model);
     assertEquals("main", viewName);
