@@ -13,6 +13,11 @@ public class MainPageController {
 
   List<String> currencyNames = Arrays.asList("DKK", "EUR", "USD", "UAH", "Other");
 
+  @GetMapping("/login")
+  public String getLoginPage(Model model) {
+    return "login";
+  }
+
   @GetMapping("/main")
   public String getMainPage(Model model) {
     model.addAttribute("theDate",java.time.LocalDateTime.now());
