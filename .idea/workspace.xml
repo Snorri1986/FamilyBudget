@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#83 - model for user">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#83 - web form for login.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FamilyBudgetMain.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.MainPageControllerTest.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetLoginPage.executor": "Run",
-    "JUnit.WebFormsControllerTest.executor": "Run",
-    "Maven.FamilyBudget-LocalTomcat.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Applications/FamilyBudget/src/main/resources/static/css"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FamilyBudgetMain.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.MainPageControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Applications/FamilyBudget/src/main/resources/static/css&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Applications\FamilyBudget\src\main\resources\static\css" />
@@ -158,14 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00107" summary="#60 - usage Utils.currencyConvert as test">
-      <option name="closed" value="true" />
-      <created>1732568730796</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1732568730796</updated>
     </task>
     <task id="LOCAL-00108" summary="#60 - clean up">
       <option name="closed" value="true" />
@@ -551,7 +537,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736804595342</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="#83 - web form for login.html">
+      <option name="closed" value="true" />
+      <created>1736805567002</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1736805567002</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -566,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#57 - rename income model class where data from web" />
     <MESSAGE value="#57 - renamed class from web and add toString()" />
     <MESSAGE value="#57 - class to insert data to DB" />
     <MESSAGE value="#57 - insertNewTravel() is ready" />
@@ -591,6 +584,7 @@
     <MESSAGE value="#83 - change version" />
     <MESSAGE value="#83 - unit test for login page" />
     <MESSAGE value="#83 - model for user" />
-    <option name="LAST_COMMIT_MESSAGE" value="#83 - model for user" />
+    <MESSAGE value="#83 - web form for login.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#83 - web form for login.html" />
   </component>
 </project>
