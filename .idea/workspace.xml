@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#83 - create table users">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#83 - create a function to call while auth">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_login.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_login.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,14 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00111" summary="#53 - method for debugging purpose">
-      <option name="closed" value="true" />
-      <created>1732570297004</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1732570297004</updated>
     </task>
     <task id="LOCAL-00112" summary="#53 - new service method to add groceries">
       <option name="closed" value="true" />
@@ -544,7 +540,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736972558127</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="#83 - create a function to call while auth">
+      <option name="closed" value="true" />
+      <created>1736973556775</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1736973556775</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -559,7 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#57 - submitTravelForm() is ready" />
     <MESSAGE value="#57 - forgot about destination in insertNewTravel()" />
     <MESSAGE value="#69 - add mortage to rent/housing" />
     <MESSAGE value="#69 - add restaurant to entertainment" />
@@ -584,6 +587,7 @@
     <MESSAGE value="#83 - centralized fields and button" />
     <MESSAGE value="#83 - make fields shorter" />
     <MESSAGE value="#83 - create table users" />
-    <option name="LAST_COMMIT_MESSAGE" value="#83 - create table users" />
+    <MESSAGE value="#83 - create a function to call while auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="#83 - create a function to call while auth" />
   </component>
 </project>

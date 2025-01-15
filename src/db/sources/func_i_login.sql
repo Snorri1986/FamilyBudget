@@ -11,7 +11,7 @@ BEGIN
 
     SELECT username, password INTO db_user,db_password FROM users;
 
-    IF web_login == db_user AND web_password == db_password THEN
+    IF web_login = db_user AND web_password = db_password THEN
         validation_result := 1;
     ELSE
         validation_result := 0;
