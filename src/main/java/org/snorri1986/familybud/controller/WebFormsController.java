@@ -17,7 +17,6 @@ public class WebFormsController {
 
   @PostMapping("/toMain")
   public String goToMain(@ModelAttribute("login_mod_attribute") UserModel uModel) {
-    //TODO: not finished
     int loginValidationResult = dbService.checkLogin(uModel);
     if (loginValidationResult == 1) return "main";
     //TODO: temporary
