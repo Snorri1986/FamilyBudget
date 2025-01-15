@@ -83,4 +83,14 @@ public class DBService {
             travelModelDB.getDestination(),
             travelModelDB.getOperDescription()},String.class);
   }
+
+  public int checkLogin(UserModel userModel) {
+    String sql = "SELECT public.i_login(?,?)";
+    int loginResult = jdbcTemplate.queryForObject(
+            sql, new Object[]{
+                    userModel.getUsername(),
+                    userModel.getPassword()
+            }, Integer.class);
+    return loginResult;
+  }
 }
