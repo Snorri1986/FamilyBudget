@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#83 - web form for login.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/login.css" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#83 - make fields shorter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,22 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00108" summary="#60 - clean up">
-      <option name="closed" value="true" />
-      <created>1732569121106</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1732569121106</updated>
-    </task>
-    <task id="LOCAL-00109" summary="#53 - renamed class,because data comes from web">
-      <option name="closed" value="true" />
-      <created>1732570062137</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1732570062137</updated>
     </task>
     <task id="LOCAL-00110" summary="#53 - new class for DB insertion">
       <option name="closed" value="true" />
@@ -545,7 +526,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736805567002</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="#83 - centralized fields and button">
+      <option name="closed" value="true" />
+      <created>1736971820314</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1736971820314</updated>
+    </task>
+    <task id="LOCAL-00158" summary="#83 - make fields shorter">
+      <option name="closed" value="true" />
+      <created>1736971970774</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1736971970774</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -560,8 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#57 - renamed class from web and add toString()" />
-    <MESSAGE value="#57 - class to insert data to DB" />
     <MESSAGE value="#57 - insertNewTravel() is ready" />
     <MESSAGE value="#57 - submitTravelForm() is ready" />
     <MESSAGE value="#57 - forgot about destination in insertNewTravel()" />
@@ -585,6 +580,8 @@
     <MESSAGE value="#83 - unit test for login page" />
     <MESSAGE value="#83 - model for user" />
     <MESSAGE value="#83 - web form for login.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#83 - web form for login.html" />
+    <MESSAGE value="#83 - centralized fields and button" />
+    <MESSAGE value="#83 - make fields shorter" />
+    <option name="LAST_COMMIT_MESSAGE" value="#83 - make fields shorter" />
   </component>
 </project>
