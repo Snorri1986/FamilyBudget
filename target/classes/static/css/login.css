@@ -1,1 +1,10 @@
 h1,p {text-align: center}
+
+.container {
+    text-align: center; /* Optional for centering the form content */
+}
+
+.container .form-control {
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the fields horizontally */
+}

@@ -3,3 +3,8 @@ h1,p {text-align: center}
 .container {
     text-align: center; /* Optional for centering the form content */
 }
+
+.container .form-control {
+    width: 300px;
+    margin: 0 auto;
+}
