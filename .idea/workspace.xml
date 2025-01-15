@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#83 - make fields shorter" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#83 - create table users">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,14 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00110" summary="#53 - new class for DB insertion">
-      <option name="closed" value="true" />
-      <created>1732570251139</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1732570251139</updated>
     </task>
     <task id="LOCAL-00111" summary="#53 - method for debugging purpose">
       <option name="closed" value="true" />
@@ -542,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736971970774</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="#83 - create table users">
+      <option name="closed" value="true" />
+      <created>1736972558126</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1736972558127</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#57 - insertNewTravel() is ready" />
     <MESSAGE value="#57 - submitTravelForm() is ready" />
     <MESSAGE value="#57 - forgot about destination in insertNewTravel()" />
     <MESSAGE value="#69 - add mortage to rent/housing" />
@@ -582,6 +583,7 @@
     <MESSAGE value="#83 - web form for login.html" />
     <MESSAGE value="#83 - centralized fields and button" />
     <MESSAGE value="#83 - make fields shorter" />
-    <option name="LAST_COMMIT_MESSAGE" value="#83 - make fields shorter" />
+    <MESSAGE value="#83 - create table users" />
+    <option name="LAST_COMMIT_MESSAGE" value="#83 - create table users" />
   </component>
 </project>
