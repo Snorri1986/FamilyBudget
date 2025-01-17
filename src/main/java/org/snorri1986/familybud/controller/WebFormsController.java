@@ -19,8 +19,7 @@ public class WebFormsController {
   public String goToMain(@ModelAttribute("login_mod_attribute") UserModel uModel) {
     int loginValidationResult = dbService.checkLogin(uModel);
     if (loginValidationResult == 1) return "main";
-    //TODO: temporary
-    else return "s_income";
+    else return "wrong_auth";
     //TODO: no unit test
     //return "main";
   }
