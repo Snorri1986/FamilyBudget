@@ -20,8 +20,6 @@ public class WebFormsController {
     int loginValidationResult = dbService.checkLogin(uModel);
     if (loginValidationResult == 1) return "main";
     else return "wrong_auth";
-    //TODO: no unit test
-    //return "main";
   }
 
   @PostMapping("/registerIncome")
