@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#86 - Description field has max 50 symbols">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - operType type for Entertainment table" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,14 +167,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00118" summary="#54 - model for transfer to DB">
-      <option name="closed" value="true" />
-      <created>1732917081710</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1732917081710</updated>
     </task>
     <task id="LOCAL-00119" summary="#54 - JDBC implementation for health expenses">
       <option name="closed" value="true" />
@@ -562,7 +552,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737403710371</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="#87 - operType type for Entertainment table">
+      <option name="closed" value="true" />
+      <created>1737404677596</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1737404677596</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -577,7 +575,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#72 - redirection to main is set for s_income.html" />
     <MESSAGE value="#72 - change css for s_income.html" />
     <MESSAGE value="#72 - redirect to main.html for s_entertainment.html" />
     <MESSAGE value="#72 - redirect to main.html for s_groceries.html" />
@@ -602,6 +599,7 @@
     <MESSAGE value="#83 - clean up" />
     <MESSAGE value="#85 - no dates in future for transactions" />
     <MESSAGE value="#86 - Description field has max 50 symbols" />
-    <option name="LAST_COMMIT_MESSAGE" value="#86 - Description field has max 50 symbols" />
+    <MESSAGE value="#87 - operType type for Entertainment table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - operType type for Entertainment table" />
   </component>
 </project>
