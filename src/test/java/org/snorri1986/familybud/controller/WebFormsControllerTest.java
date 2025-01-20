@@ -203,6 +203,17 @@ public class WebFormsControllerTest {
     assertEquals("s_travel", result);
   }
 
+  @Test
+  public void testGoToMain() {
+    UserModel userModel = new UserModel();
+    userModel.setUsername("Denys");
+    userModel.setPassword("1234567890");
+    ArgumentCaptor<UserModel> captor = ArgumentCaptor.forClass(UserModel.class);
+    String result = webFormsController.goToMain(userModel);
+    Mockito.verify(dbService).checkLogin(captor.capture());
+    assertEquals("wrong_auth", result);
+  }
+
   private Date convertToDate(String dateInString) {
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
     LocalDate localDate = LocalDate.parse(dateInString, formatter);
