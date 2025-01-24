@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - change for saving and on control for Entertainment">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - update unit tests for Entertainment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +50,7 @@
     "JUnit.MainPageControllerTest.testGetLoginPage.executor": "Run",
     "JUnit.WebFormsControllerTest.executor": "Run",
     "JUnit.WebFormsControllerTest.testGoToMain.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor": "Run",
     "Maven.FamilyBudget-LocalTomcat.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -60,7 +63,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -187,14 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00122" summary="#55 - add toString()">
-      <option name="closed" value="true" />
-      <created>1733166667693</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1733166667693</updated>
     </task>
     <task id="LOCAL-00123" summary="#55 - add new class for DB insertion">
       <option name="closed" value="true" />
@@ -580,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737749262177</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="#87 - update unit tests for Entertainment">
+      <option name="closed" value="true" />
+      <created>1737749498488</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1737749498488</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -595,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#72 - redirect to main.html for s_health.html" />
     <MESSAGE value="#72 - redirect to main.html for s_renthousing.html" />
     <MESSAGE value="#72 - redirect to main.html for s_telecom.html" />
     <MESSAGE value="#72 - redirect to main.html for s_travel.html" />
@@ -620,6 +622,7 @@
     <MESSAGE value="#87 - change models for Entertainment" />
     <MESSAGE value="#87 - new transaction type for Entertainment" />
     <MESSAGE value="#87 - change for saving and on control for Entertainment" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - change for saving and on control for Entertainment" />
+    <MESSAGE value="#87 - update unit tests for Entertainment" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - update unit tests for Entertainment" />
   </component>
 </project>
