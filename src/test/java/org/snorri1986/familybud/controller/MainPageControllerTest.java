@@ -55,6 +55,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("entertainment_mod_attribute"), any(EntertainmentModelWeb.class));
     verify(model).addAttribute(eq("entList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 
   @Test

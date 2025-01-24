@@ -64,6 +64,7 @@ public class WebFormsControllerTest {
     entertainmentModelWeb.setAmount(1000);
     entertainmentModelWeb.setCurrency("EUR");
     entertainmentModelWeb.setTransactionDate(convertToDate("30.12.2024 13:30"));
+    entertainmentModelWeb.setTransactionType("Card");
     entertainmentModelWeb.setCardNum(6285);
     entertainmentModelWeb.setOperDescription("Cinema in Herlev");
 
@@ -76,6 +77,7 @@ public class WebFormsControllerTest {
     assertEquals(entertainmentModelWeb.getAmount(), capturedEntertainment.getAmount());
     assertEquals(Utils.currencyConvert(entertainmentModelWeb.getCurrency()), capturedEntertainment.getCurrency());
     assertEquals(entertainmentModelWeb.getTransactionDate(), capturedEntertainment.getTransactionDate());
+    assertEquals(entertainmentModelWeb.getTransactionType(), capturedEntertainment.getTransactionType());
     assertEquals(entertainmentModelWeb.getCardNum(), capturedEntertainment.getCardNum());
     assertEquals(entertainmentModelWeb.getOperDescription(), capturedEntertainment.getOperDescription());
     assertEquals("s_entertainment", result);
