@@ -69,6 +69,7 @@ public class WebFormsController {
     entertainmentModelDB.setCurrency(Utils.currencyConvert(entModel.getCurrency()));
 
     entertainmentModelDB.setTransactionDate(entModel.getTransactionDate());
+    entertainmentModelDB.setTransactionType(entModel.getTransactionType());
     entertainmentModelDB.setCardNum(entModel.getCardNum());
     entertainmentModelDB.setOperDescription(entModel.getOperDescription());
 

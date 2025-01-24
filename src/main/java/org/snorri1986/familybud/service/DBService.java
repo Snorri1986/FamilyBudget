@@ -23,11 +23,12 @@ public class DBService {
   }
 
   public void insertNewEntertainment(EntertainmentModelDB entertainmentModelDB) {
-    String sql = "SELECT public.i_entertainment(?,?,?,?,?,?)";
+    String sql = "SELECT public.i_entertainment(?,?,?,?,?,?,?)";
     jdbcTemplate.queryForObject(sql, new Object[]{entertainmentModelDB.getEventType(),
             entertainmentModelDB.getAmount(),
             entertainmentModelDB.getCurrency(),
             entertainmentModelDB.getTransactionDate(),
+            entertainmentModelDB.getTransactionType(),
             entertainmentModelDB.getCardNum(),
             entertainmentModelDB.getOperDescription()},String.class);
   }
