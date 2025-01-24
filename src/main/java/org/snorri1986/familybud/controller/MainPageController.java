@@ -12,6 +12,7 @@ import java.util.List;
 public class MainPageController {
 
   List<String> currencyNames = Arrays.asList("DKK", "EUR", "USD", "UAH", "Other");
+  List<String> transactionTypes = Arrays.asList("Card", "Cash");
 
   @GetMapping("/login")
   public String getLoginPage(Model model) {
@@ -40,6 +41,7 @@ public class MainPageController {
     model.addAttribute("entertainment_mod_attribute", new EntertainmentModelWeb());
     model.addAttribute("entList", entList);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "entertainment";
   }
 
