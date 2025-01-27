@@ -71,6 +71,7 @@ public class MainPageController {
     model.addAttribute("rent_housing_mod_attribute", new RentHousingModelWeb());
     model.addAttribute("housingTypes", housingTypes);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "renthousing";
   }
 

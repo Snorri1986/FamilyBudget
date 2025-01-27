@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - new field for rent_housing table">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_housing_rent.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_housing_rent.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - change models for rent_housing">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,22 +193,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00136" summary="#57 - forgot about destination in insertNewTravel()">
-      <option name="closed" value="true" />
-      <created>1733258087861</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1733258087861</updated>
-    </task>
-    <task id="LOCAL-00137" summary="#69 - add mortage to rent/housing">
-      <option name="closed" value="true" />
-      <created>1734381666518</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1734381666518</updated>
     </task>
     <task id="LOCAL-00138" summary="#69 - add restaurant to entertainment">
       <option name="closed" value="true" />
@@ -585,7 +570,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738011565351</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="#87 - new db function for rent_housing table">
+      <option name="closed" value="true" />
+      <created>1738011809620</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1738011809620</updated>
+    </task>
+    <task id="LOCAL-00186" summary="#87 - change models for rent_housing">
+      <option name="closed" value="true" />
+      <created>1738012000481</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1738012000481</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -600,8 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#83 - create a function to call while auth" />
-    <MESSAGE value="#83 - no needed time on server more" />
     <MESSAGE value="#83 - redirect to wrong auth page if pass wrong" />
     <MESSAGE value="#83 - unit test for auth" />
     <MESSAGE value="#83 - clean up" />
@@ -625,6 +624,8 @@
     <MESSAGE value="#87 - change on DB service level and web cntrl for Health" />
     <MESSAGE value="#87 - unit tests for Health" />
     <MESSAGE value="#87 - new field for rent_housing table" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - new field for rent_housing table" />
+    <MESSAGE value="#87 - new db function for rent_housing table" />
+    <MESSAGE value="#87 - change models for rent_housing" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - change models for rent_housing" />
   </component>
 </project>
