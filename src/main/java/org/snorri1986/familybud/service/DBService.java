@@ -57,11 +57,12 @@ public class DBService {
   }
 
   public void insertNewRentHousing(RentHousingModelDB rentHousingModelDB) {
-    String sql = "SELECT public.i_housing_rent(?,?,?,?,?,?)";
+    String sql = "SELECT public.i_housing_rent(?,?,?,?,?,?,?)";
     jdbcTemplate.queryForObject(sql, new Object[]{rentHousingModelDB.getHousingType(),
             rentHousingModelDB.getAmount(),
             rentHousingModelDB.getCurrency(),
             rentHousingModelDB.getTransactionDate(),
+            rentHousingModelDB.getTransactionType(),
             rentHousingModelDB.getCardNum(),
             rentHousingModelDB.getOperDescription()},String.class);
   }

@@ -154,6 +154,7 @@ public class WebFormsController {
     rentHousingModelDB.setAmount(rentHousingModel.getAmount());
     rentHousingModelDB.setCurrency(Utils.currencyConvert(rentHousingModel.getCurrency()));
     rentHousingModelDB.setTransactionDate(rentHousingModel.getTransactionDate());
+    rentHousingModelDB.setTransactionType(rentHousingModel.getTransactionType());
     rentHousingModelDB.setCardNum(rentHousingModel.getCardNum());
     rentHousingModelDB.setOperDescription(rentHousingModel.getOperDescription());
 
