@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - change on table level for Health">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_health.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_health.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - change models for Health">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,22 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00130" summary="#56 - submitTelecomForm() ready for test">
-      <option name="closed" value="true" />
-      <created>1733256040762</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1733256040762</updated>
-    </task>
-    <task id="LOCAL-00131" summary="#57 - rename income model class where data from web">
-      <option name="closed" value="true" />
-      <created>1733256655377</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1733256655377</updated>
     </task>
     <task id="LOCAL-00132" summary="#57 - renamed class from web and add toString()">
       <option name="closed" value="true" />
@@ -583,7 +567,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738010031004</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="#87 - change db function for Health">
+      <option name="closed" value="true" />
+      <created>1738010344883</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1738010344883</updated>
+    </task>
+    <task id="LOCAL-00180" summary="#87 - change models for Health">
+      <option name="closed" value="true" />
+      <created>1738010576434</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1738010576434</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -598,8 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#83 - unit test for login page" />
-    <MESSAGE value="#83 - model for user" />
     <MESSAGE value="#83 - web form for login.html" />
     <MESSAGE value="#83 - centralized fields and button" />
     <MESSAGE value="#83 - make fields shorter" />
@@ -623,6 +621,8 @@
     <MESSAGE value="#87 - change on DB Service and controller" />
     <MESSAGE value="#87 - unit tests for groceries" />
     <MESSAGE value="#87 - change on table level for Health" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - change on table level for Health" />
+    <MESSAGE value="#87 - change db function for Health" />
+    <MESSAGE value="#87 - change models for Health" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - change models for Health" />
   </component>
 </project>

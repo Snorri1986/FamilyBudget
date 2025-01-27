@@ -61,6 +61,7 @@ public class MainPageController {
     model.addAttribute("health_mod_attribute", new HealthModelWeb());
     model.addAttribute("healthTypeList", healthTypeList);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "health";
   }
 
