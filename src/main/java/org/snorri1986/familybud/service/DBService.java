@@ -46,11 +46,12 @@ public class DBService {
   }
 
   public void insertNewHealth(HealthModelDB healthModelDB) {
-    String sql = "SELECT public.i_health(?,?,?,?,?,?)";
+    String sql = "SELECT public.i_health(?,?,?,?,?,?,?)";
     jdbcTemplate.queryForObject(sql, new Object[]{healthModelDB.getHealthOperType(),
             healthModelDB.getAmount(),
             healthModelDB.getCurrency(),
             healthModelDB.getTransactionDate(),
+            healthModelDB.getTransactionType(),
             healthModelDB.getCardNum(),
             healthModelDB.getOperDescription()},String.class);
   }

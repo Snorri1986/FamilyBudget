@@ -125,6 +125,7 @@ public class WebFormsController {
     healthModelDB.setAmount(healthModel.getAmount());
     healthModelDB.setCurrency(Utils.currencyConvert(healthModel.getCurrency()));
     healthModelDB.setTransactionDate(healthModel.getTransactionDate());
+    healthModelDB.setTransactionType(healthModel.getTransactionType());
     healthModelDB.setCardNum(healthModel.getCardNum());
     healthModelDB.setOperDescription(healthModel.getOperDescription());
 
