@@ -142,6 +142,7 @@ public class WebFormsControllerTest {
     rentHousingModelWeb.setAmount(100);
     rentHousingModelWeb.setCurrency("DKK");
     rentHousingModelWeb.setTransactionDate(convertToDate("30.12.2024 11:00"));
+    rentHousingModelWeb.setTransactionType("Cash");
     rentHousingModelWeb.setCardNum(6285);
     rentHousingModelWeb.setOperDescription("Regular paid");
 
@@ -154,6 +155,7 @@ public class WebFormsControllerTest {
     assertEquals(rentHousingModelWeb.getAmount(), capturedRentHousing.getAmount());
     assertEquals(Utils.currencyConvert(rentHousingModelWeb.getCurrency()), capturedRentHousing.getCurrency());
     assertEquals(rentHousingModelWeb.getTransactionDate(), capturedRentHousing.getTransactionDate());
+    assertEquals(rentHousingModelWeb.getTransactionType(), capturedRentHousing.getTransactionType());
     assertEquals(rentHousingModelWeb.getCardNum(), capturedRentHousing.getCardNum());
     assertEquals(rentHousingModelWeb.getOperDescription(), capturedRentHousing.getOperDescription());
     assertEquals("s_renthousing", result);

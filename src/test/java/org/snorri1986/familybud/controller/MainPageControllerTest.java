@@ -85,6 +85,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("rent_housing_mod_attribute"), any(RentHousingModelWeb.class));
     verify(model).addAttribute(eq("housingTypes"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 
   @Test
