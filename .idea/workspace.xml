@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - unit tests for Health" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - new field for rent_housing table">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_housing_rent.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_housing_rent.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,14 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00135" summary="#57 - submitTravelForm() is ready">
-      <option name="closed" value="true" />
-      <created>1733257866901</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1733257866901</updated>
     </task>
     <task id="LOCAL-00136" summary="#57 - forgot about destination in insertNewTravel()">
       <option name="closed" value="true" />
@@ -583,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738011277705</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="#87 - new field for rent_housing table">
+      <option name="closed" value="true" />
+      <created>1738011565351</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1738011565351</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -598,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#83 - create table users" />
     <MESSAGE value="#83 - create a function to call while auth" />
     <MESSAGE value="#83 - no needed time on server more" />
     <MESSAGE value="#83 - redirect to wrong auth page if pass wrong" />
@@ -623,6 +624,7 @@
     <MESSAGE value="#87 - change main controller and web page for Health" />
     <MESSAGE value="#87 - change on DB service level and web cntrl for Health" />
     <MESSAGE value="#87 - unit tests for Health" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - unit tests for Health" />
+    <MESSAGE value="#87 - new field for rent_housing table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - new field for rent_housing table" />
   </component>
 </project>

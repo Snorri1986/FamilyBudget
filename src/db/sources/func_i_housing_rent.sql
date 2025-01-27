@@ -1,26 +1,20 @@
-CREATE OR REPLACE FUNCTION public.i_housing_rent(
-      hr_type_id int,
-      amount_val int,
-      cur_val int,
-      oper_date date,
-      src_card int,
-      comm_value character
-)
- RETURNS integer
- LANGUAGE plpgsql
-AS $function$
-    DECLARE
+create function i_housing_rent(hr_type_id integer, amount_val integer, cur_val integer, oper_date date, oper_type character, src_card integer, comm_value character) returns integer
+    language plpgsql
+as
+$$
+DECLARE
     last_id int;
 
-    BEGIN
+BEGIN
 
-    INSERT INTO housing_rent(hr_type_id,amount,currency,date,source_card,comments)
-    VALUES (hr_type_id,amount_val,cur_val,oper_date,src_card,comm_value);
+    INSERT INTO housing_rent(hr_type_id,amount,currency,date,source_card,comments,opertype)
+    VALUES (hr_type_id,amount_val,cur_val,oper_date,src_card,comm_value,oper_type);
 
     SELECT max(id) INTO last_id FROM housing_rent;
 
     RETURN last_id;
 
-	END;
-$function$
-;
+END;
+$$;
+
+alter function i_housing_rent(integer, integer, integer, date, char, integer, char) owner to u4cg7fn2s82n4v;
