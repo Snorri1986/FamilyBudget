@@ -75,6 +75,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("health_mod_attribute"), any(HealthModelWeb.class));
     verify(model).addAttribute(eq("healthTypeList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 
   @Test

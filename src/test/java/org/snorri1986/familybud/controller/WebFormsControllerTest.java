@@ -116,6 +116,7 @@ public class WebFormsControllerTest {
     healthModelWeb.setAmount(1200);
     healthModelWeb.setCurrency("USD");
     healthModelWeb.setTransactionDate(convertToDate("01.01.2025 11:00"));
+    healthModelWeb.setTransactionType("Card");
     healthModelWeb.setCardNum(6285);
     healthModelWeb.setOperDescription("Therapeftist");
 
@@ -128,6 +129,7 @@ public class WebFormsControllerTest {
     assertEquals(healthModelWeb.getAmount(), capturedHealth.getAmount());
     assertEquals(Utils.currencyConvert(healthModelWeb.getCurrency()), capturedHealth.getCurrency());
     assertEquals(healthModelWeb.getTransactionDate(), capturedHealth.getTransactionDate());
+    assertEquals(healthModelWeb.getTransactionType(), capturedHealth.getTransactionType());
     assertEquals(healthModelWeb.getCardNum(), capturedHealth.getCardNum());
     assertEquals(healthModelWeb.getOperDescription(), capturedHealth.getOperDescription());
     assertEquals("s_health", result);
