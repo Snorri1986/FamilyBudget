@@ -90,6 +90,7 @@ public class WebFormsControllerTest {
     groceriesModelWeb.setAmount(800);
     groceriesModelWeb.setCurrency("UAH");
     groceriesModelWeb.setTransactionDate(convertToDate("28.02.2023 11:00"));
+    groceriesModelWeb.setTransactionType("Cash");
     groceriesModelWeb.setCardNum(6285);
     groceriesModelWeb.setOperDescription("Netto");
 
@@ -102,6 +103,7 @@ public class WebFormsControllerTest {
     assertEquals(groceriesModelWeb.getAmount(), capturedGroceries.getAmount());
     assertEquals(Utils.currencyConvert(groceriesModelWeb.getCurrency()), capturedGroceries.getCurrency());
     assertEquals(groceriesModelWeb.getTransactionDate(), capturedGroceries.getTransactionDate());
+    assertEquals(groceriesModelWeb.getTransactionType(), capturedGroceries.getTransactionType());
     assertEquals(groceriesModelWeb.getCardNum(), capturedGroceries.getCardNum());
     assertEquals(groceriesModelWeb.getOperDescription(), capturedGroceries.getOperDescription());
     assertEquals("s_groceries", result);

@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - new field on groceries.html">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/groceries.html" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - change on DB Service and controller" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +59,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -81,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageControllerTest.testGetEntertainmentPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageControllerTest.testGetGroceriesPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -91,7 +85,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetEntertainmentPage" />
+      <option name="METHOD_NAME" value="testGetGroceriesPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,22 +106,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebFormsControllerTest.testGoToMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
-      <option name="METHOD_NAME" value="testGoToMain" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WebFormsControllerTest.testSubmitEntertainmentForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -139,6 +117,22 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
       <option name="METHOD_NAME" value="testSubmitEntertainmentForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebFormsControllerTest.testSubmitGroceriesForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
+      <option name="METHOD_NAME" value="testSubmitGroceriesForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,9 +172,9 @@
       <list>
         <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest" />
+        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitGroceriesForm" />
+        <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitEntertainmentForm" />
-        <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
-        <item itemvalue="JUnit.WebFormsControllerTest.testGoToMain" />
       </list>
     </recent_temporary>
   </component>
@@ -192,14 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00127" summary="#56 - model for mapping into DB">
-      <option name="closed" value="true" />
-      <created>1733168876362</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1733168876362</updated>
     </task>
     <task id="LOCAL-00128" summary="#56 - method to insert data from web to db">
       <option name="closed" value="true" />
@@ -585,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738008988612</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="#87 - change on DB Service and controller">
+      <option name="closed" value="true" />
+      <created>1738009414464</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1738009414464</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -600,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#83 - dev DB is configured (temp)" />
     <MESSAGE value="#83 - new html, css and controler for login page" />
     <MESSAGE value="#83 - change version" />
     <MESSAGE value="#83 - unit test for login page" />
@@ -625,6 +618,7 @@
     <MESSAGE value="#87 - new version of functions on db side" />
     <MESSAGE value="#87 - change models for Groceries" />
     <MESSAGE value="#87 - new field on groceries.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - new field on groceries.html" />
+    <MESSAGE value="#87 - change on DB Service and controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - change on DB Service and controller" />
   </component>
 </project>

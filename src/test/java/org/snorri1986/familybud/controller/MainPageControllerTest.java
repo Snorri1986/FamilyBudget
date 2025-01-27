@@ -65,6 +65,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("groceries_mod_attribute"), any(GroceriesModelWeb.class));
     verify(model).addAttribute(eq("purchesList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 
   @Test
