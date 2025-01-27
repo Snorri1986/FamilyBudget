@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - change main controller and web page for Health">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/health.html" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - unit tests for Health" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,11 +44,13 @@
     "JUnit.MainPageControllerTest.executor": "Run",
     "JUnit.MainPageControllerTest.testGetEntertainmentPage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetGroceriesPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetHealthPage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetLoginPage.executor": "Run",
     "JUnit.WebFormsControllerTest.executor": "Run",
     "JUnit.WebFormsControllerTest.testGoToMain.executor": "Run",
     "JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor": "Run",
     "JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitHealthForm.executor": "Run",
     "Maven.FamilyBudget-LocalTomcat.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -69,7 +63,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -196,22 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00133" summary="#57 - class to insert data to DB">
-      <option name="closed" value="true" />
-      <created>1733256999628</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1733256999628</updated>
-    </task>
-    <task id="LOCAL-00134" summary="#57 - insertNewTravel() is ready">
-      <option name="closed" value="true" />
-      <created>1733257260057</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1733257260057</updated>
     </task>
     <task id="LOCAL-00135" summary="#57 - submitTravelForm() is ready">
       <option name="closed" value="true" />
@@ -589,7 +567,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738010749500</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="#87 - change on DB service level and web cntrl for Health">
+      <option name="closed" value="true" />
+      <created>1738011021854</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1738011021854</updated>
+    </task>
+    <task id="LOCAL-00183" summary="#87 - unit tests for Health">
+      <option name="closed" value="true" />
+      <created>1738011277705</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1738011277705</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,8 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#83 - centralized fields and button" />
-    <MESSAGE value="#83 - make fields shorter" />
     <MESSAGE value="#83 - create table users" />
     <MESSAGE value="#83 - create a function to call while auth" />
     <MESSAGE value="#83 - no needed time on server more" />
@@ -629,6 +621,8 @@
     <MESSAGE value="#87 - change db function for Health" />
     <MESSAGE value="#87 - change models for Health" />
     <MESSAGE value="#87 - change main controller and web page for Health" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - change main controller and web page for Health" />
+    <MESSAGE value="#87 - change on DB service level and web cntrl for Health" />
+    <MESSAGE value="#87 - unit tests for Health" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - unit tests for Health" />
   </component>
 </project>

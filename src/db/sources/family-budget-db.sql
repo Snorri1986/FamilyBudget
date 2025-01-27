@@ -31,6 +31,7 @@ CREATE TABLE IF NOT EXISTS "housing_rent" (
 	"hr_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
+	"operType" varchar(255) NOT NULL,
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
