@@ -96,6 +96,7 @@ public class WebFormsController {
     groceriesModelDB.setAmount(grocModel.getAmount());
     groceriesModelDB.setCurrency(Utils.currencyConvert(grocModel.getCurrency()));
     groceriesModelDB.setTransactionDate(grocModel.getTransactionDate());
+    groceriesModelDB.setTransactionType(grocModel.getTransactionType());
     groceriesModelDB.setCardNum(grocModel.getCardNum());
     groceriesModelDB.setOperDescription(grocModel.getOperDescription());
 
