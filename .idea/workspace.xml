@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - unit tests for rent_housing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - add new column for telecom">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_telecom.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_telecom.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,14 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00141" summary="#73 - added A-kass to expense type Rent/Housing">
-      <option name="closed" value="true" />
-      <created>1734465795683</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1734465795683</updated>
     </task>
     <task id="LOCAL-00142" summary="#72 - redirection to main is set for s_income.html">
       <option name="closed" value="true" />
@@ -588,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738012526876</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="#87 - add new column for telecom">
+      <option name="closed" value="true" />
+      <created>1738177854534</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1738177854534</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -603,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#85 - no dates in future for transactions" />
     <MESSAGE value="#86 - Description field has max 50 symbols" />
     <MESSAGE value="#87 - operType type for Entertainment table" />
     <MESSAGE value="#87 - change models for Entertainment" />
@@ -628,6 +626,7 @@
     <MESSAGE value="#87 - change web page and cntrl rent_housing" />
     <MESSAGE value="#87 - change db service and cntrl for rent_housing" />
     <MESSAGE value="#87 - unit tests for rent_housing" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - unit tests for rent_housing" />
+    <MESSAGE value="#87 - add new column for telecom" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - add new column for telecom" />
   </component>
 </project>
