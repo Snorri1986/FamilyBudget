@@ -79,11 +79,12 @@ public class DBService {
   }
 
   public void insertNewTravel(TravelModelDB travelModelDB) {
-    String sql = "SELECT public.i_travel(?,?,?,?,?,?,?)";
+    String sql = "SELECT public.i_travel(?,?,?,?,?,?,?,?)";
     jdbcTemplate.queryForObject(sql, new Object[]{travelModelDB.getTravelType(),
             travelModelDB.getAmount(),
             travelModelDB.getCurrency(),
             travelModelDB.getTransactionDate(),
+            travelModelDB.getTransactionType(),
             travelModelDB.getCardNum(),
             travelModelDB.getDestination(),
             travelModelDB.getOperDescription()},String.class);

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - new function for travel">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModelDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModelDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModelWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModelWeb.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - mainpage cntrl and html for travel">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/travel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,22 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00149" summary="#72 - redirect to main.html for s_travel.html">
-      <option name="closed" value="true" />
-      <created>1734468324146</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1734468324146</updated>
-    </task>
-    <task id="LOCAL-00150" summary="#83 - new DB dump">
-      <option name="closed" value="true" />
-      <created>1736541202275</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1736541202277</updated>
     </task>
     <task id="LOCAL-00151" summary="#83 - dev DB is configured (temp)">
       <option name="closed" value="true" />
@@ -588,7 +575,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738179620047</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="#87 - new models for travel">
+      <option name="closed" value="true" />
+      <created>1738179793382</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1738179793382</updated>
+    </task>
+    <task id="LOCAL-00199" summary="#87 - mainpage cntrl and html for travel">
+      <option name="closed" value="true" />
+      <created>1738179946623</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1738179946623</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -603,8 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - new version of functions on db side" />
-    <MESSAGE value="#87 - change models for Groceries" />
     <MESSAGE value="#87 - new field on groceries.html" />
     <MESSAGE value="#87 - change on DB Service and controller" />
     <MESSAGE value="#87 - unit tests for groceries" />
@@ -628,6 +629,8 @@
     <MESSAGE value="#87 - change unit tests for telecom" />
     <MESSAGE value="#87 - new column on table level for travel" />
     <MESSAGE value="#87 - new function for travel" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - new function for travel" />
+    <MESSAGE value="#87 - new models for travel" />
+    <MESSAGE value="#87 - mainpage cntrl and html for travel" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - mainpage cntrl and html for travel" />
   </component>
 </project>

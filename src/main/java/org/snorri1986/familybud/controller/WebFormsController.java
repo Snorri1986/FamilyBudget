@@ -206,6 +206,7 @@ public class WebFormsController {
     travelModelDB.setAmount(travelModel.getAmount());
     travelModelDB.setCurrency(Utils.currencyConvert(travelModel.getCurrency()));
     travelModelDB.setTransactionDate(travelModel.getTransactionDate());
+    travelModelDB.setTransactionType(travelModel.getTransactionType());
     travelModelDB.setCardNum(travelModel.getCardNum());
     travelModelDB.setDestination(travelModel.getDestination());
     travelModelDB.setOperDescription(travelModel.getOperDescription());
