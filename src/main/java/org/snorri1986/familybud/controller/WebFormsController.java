@@ -179,6 +179,7 @@ public class WebFormsController {
     telecomModelDB.setAmount(telecomModel.getAmount());
     telecomModelDB.setCurrency(Utils.currencyConvert(telecomModel.getCurrency()));
     telecomModelDB.setTransactionDate(telecomModel.getTransactionDate());
+    telecomModelDB.setTransactionType(telecomModel.getTransactionType());
     telecomModelDB.setCardNum(telecomModel.getCardNum());
     telecomModelDB.setOperDescription(telecomModel.getOperDescription());
 
