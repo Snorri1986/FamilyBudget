@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - change unit tests for telecom">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - new function for travel">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModelDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModelDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModelWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModelWeb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,22 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00147" summary="#72 - redirect to main.html for s_renthousing.html">
-      <option name="closed" value="true" />
-      <created>1734467890380</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1734467890380</updated>
-    </task>
-    <task id="LOCAL-00148" summary="#72 - redirect to main.html for s_telecom.html">
-      <option name="closed" value="true" />
-      <created>1734468079093</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1734468079093</updated>
     </task>
     <task id="LOCAL-00149" summary="#72 - redirect to main.html for s_travel.html">
       <option name="closed" value="true" />
@@ -589,7 +572,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738179037173</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="#87 - new column on table level for travel">
+      <option name="closed" value="true" />
+      <created>1738179442521</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1738179442521</updated>
+    </task>
+    <task id="LOCAL-00197" summary="#87 - new function for travel">
+      <option name="closed" value="true" />
+      <created>1738179620047</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1738179620047</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,8 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - update unit tests for Entertainment" />
-    <MESSAGE value="#87 - new field on groceries table" />
     <MESSAGE value="#87 - new version of functions on db side" />
     <MESSAGE value="#87 - change models for Groceries" />
     <MESSAGE value="#87 - new field on groceries.html" />
@@ -629,6 +626,8 @@
     <MESSAGE value="#87 - change on main cntrl and html level for telecom" />
     <MESSAGE value="#87 - change on db serv lvl and web cntrl for telecom" />
     <MESSAGE value="#87 - change unit tests for telecom" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - change unit tests for telecom" />
+    <MESSAGE value="#87 - new column on table level for travel" />
+    <MESSAGE value="#87 - new function for travel" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - new function for travel" />
   </component>
 </project>
