@@ -91,6 +91,7 @@ public class MainPageController {
     model.addAttribute("travel_mod_attribute", new TravelModelWeb());
     model.addAttribute("travelActivities", travelActivities);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "travel";
   }
 
