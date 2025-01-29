@@ -95,6 +95,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("telecom_mod_attribute"), any(TelecomModelWeb.class));
     verify(model).addAttribute(eq("telecomOperations"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 
   @Test

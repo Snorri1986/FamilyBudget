@@ -168,6 +168,7 @@ public class WebFormsControllerTest {
     telecomModelWeb.setAmount(100);
     telecomModelWeb.setCurrency("EUR");
     telecomModelWeb.setTransactionDate(convertToDate("01.02.2025 11:00"));
+    telecomModelWeb.setTransactionType("Card");
     telecomModelWeb.setCardNum(1234);
     telecomModelWeb.setOperDescription("Regular monthly pay");
 
@@ -180,6 +181,7 @@ public class WebFormsControllerTest {
     assertEquals(telecomModelWeb.getAmount(), capturedTelecom.getAmount());
     assertEquals(Utils.currencyConvert(telecomModelWeb.getCurrency()), capturedTelecom.getCurrency());
     assertEquals(telecomModelWeb.getTransactionDate(), capturedTelecom.getTransactionDate());
+    assertEquals(telecomModelWeb.getTransactionType(), capturedTelecom.getTransactionType());
     assertEquals(telecomModelWeb.getCardNum(), capturedTelecom.getCardNum());
     assertEquals(telecomModelWeb.getOperDescription(), capturedTelecom.getOperDescription());
     assertEquals("s_telecom", result);
