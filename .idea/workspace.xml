@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - change on db serv lvl and web cntrl for telecom" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - change unit tests for telecom">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,14 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00146" summary="#72 - redirect to main.html for s_health.html">
-      <option name="closed" value="true" />
-      <created>1734467645875</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1734467645875</updated>
     </task>
     <task id="LOCAL-00147" summary="#72 - redirect to main.html for s_renthousing.html">
       <option name="closed" value="true" />
@@ -585,7 +581,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738178899722</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="#87 - change unit tests for telecom">
+      <option name="closed" value="true" />
+      <created>1738179037173</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1738179037173</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -600,7 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - change for saving and on control for Entertainment" />
     <MESSAGE value="#87 - update unit tests for Entertainment" />
     <MESSAGE value="#87 - new field on groceries table" />
     <MESSAGE value="#87 - new version of functions on db side" />
@@ -625,6 +628,7 @@
     <MESSAGE value="#87 - change models for telecom" />
     <MESSAGE value="#87 - change on main cntrl and html level for telecom" />
     <MESSAGE value="#87 - change on db serv lvl and web cntrl for telecom" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - change on db serv lvl and web cntrl for telecom" />
+    <MESSAGE value="#87 - change unit tests for telecom" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - change unit tests for telecom" />
   </component>
 </project>
