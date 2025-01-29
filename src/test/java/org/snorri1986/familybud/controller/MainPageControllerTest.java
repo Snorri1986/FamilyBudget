@@ -105,5 +105,6 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("travel_mod_attribute"), any(TravelModelWeb.class));
     verify(model).addAttribute(eq("travelActivities"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 }

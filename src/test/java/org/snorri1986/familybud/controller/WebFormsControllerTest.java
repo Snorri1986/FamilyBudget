@@ -194,6 +194,7 @@ public class WebFormsControllerTest {
     travelModelWeb.setAmount(5);
     travelModelWeb.setCurrency("DKK");
     travelModelWeb.setTransactionDate(convertToDate("07.02.2025 11:00"));
+    travelModelWeb.setTransactionType("Cash");
     travelModelWeb.setCardNum(1234);
     travelModelWeb.setDestination("Kalundborg");
     travelModelWeb.setOperDescription("Hotel in the city");
@@ -207,6 +208,7 @@ public class WebFormsControllerTest {
     assertEquals(travelModelWeb.getAmount(), capturedTravel.getAmount());
     assertEquals(Utils.currencyConvert(travelModelWeb.getCurrency()), capturedTravel.getCurrency());
     assertEquals(travelModelWeb.getTransactionDate(), capturedTravel.getTransactionDate());
+    assertEquals(travelModelWeb.getTransactionType(), capturedTravel.getTransactionType());
     assertEquals(travelModelWeb.getCardNum(), capturedTravel.getCardNum());
     assertEquals(travelModelWeb.getDestination(), capturedTravel.getDestination());
     assertEquals(travelModelWeb.getOperDescription(), capturedTravel.getOperDescription());
