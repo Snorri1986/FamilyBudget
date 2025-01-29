@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - change db service and cntrl for rent_housing">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - unit tests for rent_housing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,35 +40,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FamilyBudgetMain.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.MainPageControllerTest.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetEntertainmentPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetGroceriesPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetHealthPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetLoginPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testRentHousingPage.executor": "Run",
-    "JUnit.WebFormsControllerTest.executor": "Run",
-    "JUnit.WebFormsControllerTest.testGoToMain.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitHealthForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitHousingForm.executor": "Run",
-    "Maven.FamilyBudget-LocalTomcat.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Applications/FamilyBudget/src/main/resources/static/css"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FamilyBudgetMain.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.MainPageControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetEntertainmentPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetGroceriesPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetHealthPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testRentHousingPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testGoToMain.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitHealthForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitHousingForm.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Applications/FamilyBudget/src/main/resources/static/css&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Applications\FamilyBudget\src\main\resources\static\css" />
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -197,14 +195,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00140" summary="#71 - add version number to main.html">
-      <option name="closed" value="true" />
-      <created>1734384083287</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1734384083302</updated>
     </task>
     <task id="LOCAL-00141" summary="#73 - added A-kass to expense type Rent/Housing">
       <option name="closed" value="true" />
@@ -590,7 +580,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738012371731</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="#87 - unit tests for rent_housing">
+      <option name="closed" value="true" />
+      <created>1738012526876</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1738012526876</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -605,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#83 - clean up" />
     <MESSAGE value="#85 - no dates in future for transactions" />
     <MESSAGE value="#86 - Description field has max 50 symbols" />
     <MESSAGE value="#87 - operType type for Entertainment table" />
@@ -630,6 +627,7 @@
     <MESSAGE value="#87 - change models for rent_housing" />
     <MESSAGE value="#87 - change web page and cntrl rent_housing" />
     <MESSAGE value="#87 - change db service and cntrl for rent_housing" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - change db service and cntrl for rent_housing" />
+    <MESSAGE value="#87 - unit tests for rent_housing" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - unit tests for rent_housing" />
   </component>
 </project>
