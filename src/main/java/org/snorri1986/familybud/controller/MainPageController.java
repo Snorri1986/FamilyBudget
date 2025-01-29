@@ -81,6 +81,7 @@ public class MainPageController {
     model.addAttribute("telecom_mod_attribute", new TelecomModelWeb());
     model.addAttribute("telecomOperations", telecomOperations);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "telecom";
   }
 
