@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#93 - new table &quot;cash_operations_log&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#101 - new i_entertainment without return types" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,14 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00155" summary="#83 - model for user">
-      <option name="closed" value="true" />
-      <created>1736804595342</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1736804595342</updated>
     </task>
     <task id="LOCAL-00156" summary="#83 - web form for login.html">
       <option name="closed" value="true" />
@@ -587,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738352064986</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="#101 - new i_entertainment without return types">
+      <option name="closed" value="true" />
+      <created>1738353466982</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1738353466985</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -602,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - change db function for Health" />
     <MESSAGE value="#87 - change models for Health" />
     <MESSAGE value="#87 - change main controller and web page for Health" />
     <MESSAGE value="#87 - change on DB service level and web cntrl for Health" />
@@ -627,6 +624,7 @@
     <MESSAGE value="#87 - change on unit test for travel" />
     <MESSAGE value="#92 - new table &quot;cash_balance&quot;" />
     <MESSAGE value="#93 - new table &quot;cash_operations_log&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="#93 - new table &quot;cash_operations_log&quot;" />
+    <MESSAGE value="#101 - new i_entertainment without return types" />
+    <option name="LAST_COMMIT_MESSAGE" value="#101 - new i_entertainment without return types" />
   </component>
 </project>
