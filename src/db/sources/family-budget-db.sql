@@ -102,6 +102,15 @@ CREATE TABLE IF NOT EXISTS "income_type" (
 CREATE TABLE IF NOT EXISTS "cash_balance" (
 "balance" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE );
 
+CREATE TABLE IF NOT EXISTS "cash_operations_log" (
+        "id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
+        "operType" bigint NOT NULL,
+        "amount" bigint NOT NULL,
+        "date" timestamp with time zone NOT NULL,
+        "comments" varchar(255) NOT NULL,
+        PRIMARY KEY ("id")
+);
+
 ALTER TABLE "income" ADD CONSTRAINT "income_fk1" FOREIGN KEY ("i_type") REFERENCES "income_type"("id");
 ALTER TABLE "income" ADD CONSTRAINT "income_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
 ALTER TABLE "groceries" ADD CONSTRAINT "groceries_fk1" FOREIGN KEY ("g_type") REFERENCES "expenses_type"("id");

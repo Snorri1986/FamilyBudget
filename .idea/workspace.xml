@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - change on unit test for travel">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#92 - new table &quot;cash_balance&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,14 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00153" summary="#83 - change version">
-      <option name="closed" value="true" />
-      <created>1736804266318</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1736804266318</updated>
     </task>
     <task id="LOCAL-00154" summary="#83 - unit test for login page">
       <option name="closed" value="true" />
@@ -589,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738180317095</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="#92 - new table &quot;cash_balance&quot;">
+      <option name="closed" value="true" />
+      <created>1738351653937</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1738351653937</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - unit tests for groceries" />
     <MESSAGE value="#87 - change on table level for Health" />
     <MESSAGE value="#87 - change db function for Health" />
     <MESSAGE value="#87 - change models for Health" />
@@ -629,6 +624,7 @@
     <MESSAGE value="#87 - mainpage cntrl and html for travel" />
     <MESSAGE value="#87 - web cntrl and DB service for travel" />
     <MESSAGE value="#87 - change on unit test for travel" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - change on unit test for travel" />
+    <MESSAGE value="#92 - new table &quot;cash_balance&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="#92 - new table &quot;cash_balance&quot;" />
   </component>
 </project>
