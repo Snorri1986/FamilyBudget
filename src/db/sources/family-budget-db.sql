@@ -99,6 +99,9 @@ CREATE TABLE IF NOT EXISTS "income_type" (
 	PRIMARY KEY ("id")
 );
 
+CREATE TABLE IF NOT EXISTS "cash_balance" (
+"balance" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE );
+
 ALTER TABLE "income" ADD CONSTRAINT "income_fk1" FOREIGN KEY ("i_type") REFERENCES "income_type"("id");
 ALTER TABLE "income" ADD CONSTRAINT "income_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
 ALTER TABLE "groceries" ADD CONSTRAINT "groceries_fk1" FOREIGN KEY ("g_type") REFERENCES "expenses_type"("id");

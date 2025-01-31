@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - mainpage cntrl and html for travel">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/travel.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#87 - change on unit test for travel">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,22 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00151" summary="#83 - dev DB is configured (temp)">
-      <option name="closed" value="true" />
-      <created>1736542271981</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1736542271981</updated>
-    </task>
-    <task id="LOCAL-00152" summary="#83 - new html, css and controler for login page">
-      <option name="closed" value="true" />
-      <created>1736804203187</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1736804203188</updated>
     </task>
     <task id="LOCAL-00153" summary="#83 - change version">
       <option name="closed" value="true" />
@@ -591,7 +573,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738179946623</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="#87 - web cntrl and DB service for travel">
+      <option name="closed" value="true" />
+      <created>1738180198937</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1738180198937</updated>
+    </task>
+    <task id="LOCAL-00201" summary="#87 - change on unit test for travel">
+      <option name="closed" value="true" />
+      <created>1738180317095</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1738180317095</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,8 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - new field on groceries.html" />
-    <MESSAGE value="#87 - change on DB Service and controller" />
     <MESSAGE value="#87 - unit tests for groceries" />
     <MESSAGE value="#87 - change on table level for Health" />
     <MESSAGE value="#87 - change db function for Health" />
@@ -631,6 +627,8 @@
     <MESSAGE value="#87 - new function for travel" />
     <MESSAGE value="#87 - new models for travel" />
     <MESSAGE value="#87 - mainpage cntrl and html for travel" />
-    <option name="LAST_COMMIT_MESSAGE" value="#87 - mainpage cntrl and html for travel" />
+    <MESSAGE value="#87 - web cntrl and DB service for travel" />
+    <MESSAGE value="#87 - change on unit test for travel" />
+    <option name="LAST_COMMIT_MESSAGE" value="#87 - change on unit test for travel" />
   </component>
 </project>
