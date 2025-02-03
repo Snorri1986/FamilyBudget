@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#101 - new i_health without return type">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_housing_rent.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_housing_rent.sql" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#101 - new i_telecom without return type" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,22 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00159" summary="#83 - create table users">
-      <option name="closed" value="true" />
-      <created>1736972558126</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1736972558127</updated>
-    </task>
-    <task id="LOCAL-00160" summary="#83 - create a function to call while auth">
-      <option name="closed" value="true" />
-      <created>1736973556775</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1736973556775</updated>
     </task>
     <task id="LOCAL-00161" summary="#83 - no needed time on server more">
       <option name="closed" value="true" />
@@ -588,7 +569,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738610826393</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="#101 - new i_housing_rent without return type">
+      <option name="closed" value="true" />
+      <created>1738611459825</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1738611459825</updated>
+    </task>
+    <task id="LOCAL-00209" summary="#101 - new i_telecom without return type">
+      <option name="closed" value="true" />
+      <created>1738611734048</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1738611734048</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -603,8 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - unit tests for Health" />
-    <MESSAGE value="#87 - new field for rent_housing table" />
     <MESSAGE value="#87 - new db function for rent_housing table" />
     <MESSAGE value="#87 - change models for rent_housing" />
     <MESSAGE value="#87 - change web page and cntrl rent_housing" />
@@ -628,6 +623,8 @@
     <MESSAGE value="#101 - new i_income without return type" />
     <MESSAGE value="#101 - new i_groceries without return type" />
     <MESSAGE value="#101 - new i_health without return type" />
-    <option name="LAST_COMMIT_MESSAGE" value="#101 - new i_health without return type" />
+    <MESSAGE value="#101 - new i_housing_rent without return type" />
+    <MESSAGE value="#101 - new i_telecom without return type" />
+    <option name="LAST_COMMIT_MESSAGE" value="#101 - new i_telecom without return type" />
   </component>
 </project>
