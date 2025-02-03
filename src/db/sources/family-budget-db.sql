@@ -99,8 +99,10 @@ CREATE TABLE IF NOT EXISTS "income_type" (
 	PRIMARY KEY ("id")
 );
 
-CREATE TABLE IF NOT EXISTS "cash_balance" (
-"balance" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE );
+create table cash_balance
+(
+    balance integer
+);
 
 CREATE TABLE IF NOT EXISTS "cash_operations_log" (
         "id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
