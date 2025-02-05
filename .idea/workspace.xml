@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#102 - new name for db_column" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#102 - new version of function with cash loging" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,14 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00164" summary="#83 - clean up">
-      <option name="closed" value="true" />
-      <created>1737402532488</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1737402532488</updated>
     </task>
     <task id="LOCAL-00165" summary="#85 - no dates in future for transactions">
       <option name="closed" value="true" />
@@ -585,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738787229151</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="#102 - new version of function with cash loging">
+      <option name="closed" value="true" />
+      <created>1738787514329</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1738787514329</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -600,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - change db service and cntrl for rent_housing" />
     <MESSAGE value="#87 - unit tests for rent_housing" />
     <MESSAGE value="#87 - add new column for telecom" />
     <MESSAGE value="#87 - new i_ function for telecom" />
@@ -625,6 +624,7 @@
     <MESSAGE value="#101 - new i_travel without return type" />
     <MESSAGE value="#100 - new table cash_balance" />
     <MESSAGE value="#102 - new name for db_column" />
-    <option name="LAST_COMMIT_MESSAGE" value="#102 - new name for db_column" />
+    <MESSAGE value="#102 - new version of function with cash loging" />
+    <option name="LAST_COMMIT_MESSAGE" value="#102 - new version of function with cash loging" />
   </component>
 </project>
