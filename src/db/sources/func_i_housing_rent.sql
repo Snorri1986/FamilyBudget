@@ -5,11 +5,18 @@ $$
 
 BEGIN
 
-    INSERT INTO housing_rent(hr_type_id,amount,currency,date,source_card,comments,opertype)
-    VALUES (hr_type_id,amount_val,cur_val,oper_date,src_card,comm_value,oper_type);
+    IF oper_type = 'Cash' THEN
+        INSERT INTO cash_operations_log(optype, amount, date, comments)
+        VALUES (0,amount_val,oper_date,comm_value);
+    ELSE
+        INSERT INTO housing_rent(hr_type_id,amount,currency,date,source_card,comments,opertype)
+        VALUES (hr_type_id,amount_val,cur_val,oper_date,src_card,comm_value,oper_type);
+    END IF;
 
 END;
 $$;
 
 alter function i_housing_rent(integer, integer, integer, date, char, integer, char) owner to u4cg7fn2s82n4v;
+
+
 
