@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#101 - new i_travel without return type">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#100 - new table cash_balance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,14 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00162" summary="#83 - redirect to wrong auth page if pass wrong">
-      <option name="closed" value="true" />
-      <created>1737142963941</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1737142963941</updated>
     </task>
     <task id="LOCAL-00163" summary="#83 - unit test for auth">
       <option name="closed" value="true" />
@@ -588,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738611987722</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="#100 - new table cash_balance">
+      <option name="closed" value="true" />
+      <created>1738613414673</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1738613414673</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -603,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - change models for rent_housing" />
     <MESSAGE value="#87 - change web page and cntrl rent_housing" />
     <MESSAGE value="#87 - change db service and cntrl for rent_housing" />
     <MESSAGE value="#87 - unit tests for rent_housing" />
@@ -628,6 +626,7 @@
     <MESSAGE value="#101 - new i_housing_rent without return type" />
     <MESSAGE value="#101 - new i_telecom without return type" />
     <MESSAGE value="#101 - new i_travel without return type" />
-    <option name="LAST_COMMIT_MESSAGE" value="#101 - new i_travel without return type" />
+    <MESSAGE value="#100 - new table cash_balance" />
+    <option name="LAST_COMMIT_MESSAGE" value="#100 - new table cash_balance" />
   </component>
 </project>

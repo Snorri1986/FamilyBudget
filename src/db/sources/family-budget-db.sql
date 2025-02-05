@@ -106,7 +106,7 @@ create table cash_balance
 
 CREATE TABLE IF NOT EXISTS "cash_operations_log" (
         "id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
-        "operType" bigint NOT NULL,
+        "optype" bigint NOT NULL,
         "amount" bigint NOT NULL,
         "date" timestamp with time zone NOT NULL,
         "comments" varchar(255) NOT NULL,
