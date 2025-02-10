@@ -46,6 +46,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("income_mod_attribute"), any(IncomeModelWeb.class));
     verify(model).addAttribute(eq("incomes"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 
   @Test

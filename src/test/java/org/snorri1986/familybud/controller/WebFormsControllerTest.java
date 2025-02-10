@@ -37,6 +37,7 @@ public class WebFormsControllerTest {
     income.setAmount(5000);
     income.setCurrency("USD");
     income.setTransactionDate(convertToDate("25.12.2023 11:00"));
+    income.setTransactionType("Cash");
     income.setCardNum(6825);
     income.setOperDescription("Monthly salary");
 
@@ -52,6 +53,7 @@ public class WebFormsControllerTest {
     assertEquals(income.getAmount(), capturedIncome.getAmount());
     assertEquals(Utils.currencyConvert(income.getCurrency()), capturedIncome.getCurrency());
     assertEquals(income.getTransactionDate(), capturedIncome.getTransactionDate());
+    assertEquals(income.getTransactionType(), capturedIncome.getTransactionType());
     assertEquals(income.getCardNum(), capturedIncome.getCardNum());
     assertEquals(income.getOperDescription(), capturedIncome.getOperDescription());
     assertEquals("s_income", result);
