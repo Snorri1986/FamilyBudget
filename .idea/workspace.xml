@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#102 - new version of function with cash loging(health)">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#102 - new version of function with cash loging(housing)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_housing_rent.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_housing_rent.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,14 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00167" summary="#87 - operType type for Entertainment table">
-      <option name="closed" value="true" />
-      <created>1737404677596</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1737404677596</updated>
     </task>
     <task id="LOCAL-00168" summary="#87 - change models for Entertainment">
       <option name="closed" value="true" />
@@ -588,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738788624111</updated>
     </task>
-    <option name="localTasksCounter" value="216" />
+    <task id="LOCAL-00216" summary="#102 - new version of function with cash loging(housing)">
+      <option name="closed" value="true" />
+      <created>1738789402790</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1738789402790</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -603,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - new i_ function for telecom" />
     <MESSAGE value="#87 - change models for telecom" />
     <MESSAGE value="#87 - change on main cntrl and html level for telecom" />
     <MESSAGE value="#87 - change on db serv lvl and web cntrl for telecom" />
@@ -628,6 +626,7 @@
     <MESSAGE value="#102 - new version of function with cash loging" />
     <MESSAGE value="#102 - new version of function with cash loging(groceries)" />
     <MESSAGE value="#102 - new version of function with cash loging(health)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#102 - new version of function with cash loging(health)" />
+    <MESSAGE value="#102 - new version of function with cash loging(housing)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#102 - new version of function with cash loging(housing)" />
   </component>
 </project>
