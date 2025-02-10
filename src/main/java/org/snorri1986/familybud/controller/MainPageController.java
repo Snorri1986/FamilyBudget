@@ -32,6 +32,7 @@ public class MainPageController {
     model.addAttribute("income_mod_attribute", new IncomeModelWeb());
     model.addAttribute("incomes", incomes);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "income";
   }
 
