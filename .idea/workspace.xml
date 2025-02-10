@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#102 - new version of function with cash loging(travel)" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#94 - new db function for increas cash balance">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/IncomeModelDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/IncomeModelDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/IncomeModelWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/IncomeModelWeb.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,14 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00170" summary="#87 - change for saving and on control for Entertainment">
-      <option name="closed" value="true" />
-      <created>1737749262177</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1737749262177</updated>
     </task>
     <task id="LOCAL-00171" summary="#87 - update unit tests for Entertainment">
       <option name="closed" value="true" />
@@ -585,7 +581,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739217919309</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="#94 - new db function for increas cash balance">
+      <option name="closed" value="true" />
+      <created>1739218822972</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1739218822972</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -600,7 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - change on db serv lvl and web cntrl for telecom" />
     <MESSAGE value="#87 - change unit tests for telecom" />
     <MESSAGE value="#87 - new column on table level for travel" />
     <MESSAGE value="#87 - new function for travel" />
@@ -625,6 +628,7 @@
     <MESSAGE value="#102 - new version of function with cash loging(housing)" />
     <MESSAGE value="#102 - new version of function with cash loging(telecom)" />
     <MESSAGE value="#102 - new version of function with cash loging(travel)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#102 - new version of function with cash loging(travel)" />
+    <MESSAGE value="#94 - new db function for increas cash balance" />
+    <option name="LAST_COMMIT_MESSAGE" value="#94 - new db function for increas cash balance" />
   </component>
 </project>
