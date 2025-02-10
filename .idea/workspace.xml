@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#102 - new version of function with cash loging(telecom)" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#102 - new version of function with cash loging(travel)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,14 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00169" summary="#87 - new transaction type for Entertainment">
-      <option name="closed" value="true" />
-      <created>1737748788222</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1737748788222</updated>
     </task>
     <task id="LOCAL-00170" summary="#87 - change for saving and on control for Entertainment">
       <option name="closed" value="true" />
@@ -585,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739217501134</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="#102 - new version of function with cash loging(travel)">
+      <option name="closed" value="true" />
+      <created>1739217919309</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1739217919309</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -600,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - change on main cntrl and html level for telecom" />
     <MESSAGE value="#87 - change on db serv lvl and web cntrl for telecom" />
     <MESSAGE value="#87 - change unit tests for telecom" />
     <MESSAGE value="#87 - new column on table level for travel" />
@@ -625,6 +624,7 @@
     <MESSAGE value="#102 - new version of function with cash loging(health)" />
     <MESSAGE value="#102 - new version of function with cash loging(housing)" />
     <MESSAGE value="#102 - new version of function with cash loging(telecom)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#102 - new version of function with cash loging(telecom)" />
+    <MESSAGE value="#102 - new version of function with cash loging(travel)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#102 - new version of function with cash loging(travel)" />
   </component>
 </project>
