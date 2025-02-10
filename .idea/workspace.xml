@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#94 - new db function for increas cash balance">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/IncomeModelDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/IncomeModelDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/IncomeModelWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/IncomeModelWeb.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#103 - add TransactionType on webforms cntrl" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,38 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00171" summary="#87 - update unit tests for Entertainment">
-      <option name="closed" value="true" />
-      <created>1737749498488</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1737749498488</updated>
-    </task>
-    <task id="LOCAL-00172" summary="#87 - new field on groceries table">
-      <option name="closed" value="true" />
-      <created>1737750148026</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1737750148026</updated>
-    </task>
-    <task id="LOCAL-00173" summary="#87 - new version of functions on db side">
-      <option name="closed" value="true" />
-      <created>1737750232112</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1737750232112</updated>
-    </task>
-    <task id="LOCAL-00174" summary="#87 - change models for Groceries">
-      <option name="closed" value="true" />
-      <created>1737750400548</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1737750400548</updated>
     </task>
     <task id="LOCAL-00175" summary="#87 - new field on groceries.html">
       <option name="closed" value="true" />
@@ -589,7 +553,39 @@
       <option name="project" value="LOCAL" />
       <updated>1739218822972</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="#103 - new models">
+      <option name="closed" value="true" />
+      <created>1739219625378</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1739219625378</updated>
+    </task>
+    <task id="LOCAL-00221" summary="#103 - change on MainController">
+      <option name="closed" value="true" />
+      <created>1739219702925</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1739219702925</updated>
+    </task>
+    <task id="LOCAL-00222" summary="#103 - add TransactionType on html level">
+      <option name="closed" value="true" />
+      <created>1739219762163</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1739219762163</updated>
+    </task>
+    <task id="LOCAL-00223" summary="#103 - add TransactionType on webforms cntrl">
+      <option name="closed" value="true" />
+      <created>1739219860082</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1739219860082</updated>
+    </task>
+    <option name="localTasksCounter" value="224" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,10 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#87 - change unit tests for telecom" />
-    <MESSAGE value="#87 - new column on table level for travel" />
-    <MESSAGE value="#87 - new function for travel" />
-    <MESSAGE value="#87 - new models for travel" />
     <MESSAGE value="#87 - mainpage cntrl and html for travel" />
     <MESSAGE value="#87 - web cntrl and DB service for travel" />
     <MESSAGE value="#87 - change on unit test for travel" />
@@ -629,6 +621,10 @@
     <MESSAGE value="#102 - new version of function with cash loging(telecom)" />
     <MESSAGE value="#102 - new version of function with cash loging(travel)" />
     <MESSAGE value="#94 - new db function for increas cash balance" />
-    <option name="LAST_COMMIT_MESSAGE" value="#94 - new db function for increas cash balance" />
+    <MESSAGE value="#103 - new models" />
+    <MESSAGE value="#103 - change on MainController" />
+    <MESSAGE value="#103 - add TransactionType on html level" />
+    <MESSAGE value="#103 - add TransactionType on webforms cntrl" />
+    <option name="LAST_COMMIT_MESSAGE" value="#103 - add TransactionType on webforms cntrl" />
   </component>
 </project>
