@@ -5,13 +5,20 @@ $$
 
 BEGIN
 
-    INSERT INTO travel(tr_type_id,amount,currency,date,source_card,destination,comments,opertype)
-    VALUES (tr_type_id_val,amount_val,curr_val,oper_date,src_card_val,destin_val,comm_val,oper_type);
+    IF oper_type = 'Cash' THEN
+        INSERT INTO cash_operations_log(optype, amount, date, comments)
+        VALUES (0,amount_val,oper_date,comm_val);
+    ELSE
+        INSERT INTO travel(tr_type_id,amount,currency,date,source_card,destination,comments,opertype)
+        VALUES (tr_type_id_val,amount_val,curr_val,oper_date,src_card_val,destin_val,comm_val,oper_type);
+    END IF;
 
 END;
 $$;
 
 alter function i_travel(integer, integer, integer, date, char, integer, char, char) owner to u4cg7fn2s82n4v;
+
+
 
 
 
