@@ -41,6 +41,7 @@ public class WebFormsController {
     incomeModelDB.setCurrency(Utils.currencyConvert(income.getCurrency()));
 
     incomeModelDB.setTransactionDate(income.getTransactionDate());
+    incomeModelDB.setTransactionType(income.getTransactionType());
     incomeModelDB.setCardNum(income.getCardNum());
     incomeModelDB.setOperDescription(income.getOperDescription());
 
