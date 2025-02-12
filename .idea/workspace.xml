@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#103 - web forms cntrl and change of html">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#96 - function minus_cash_balance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,14 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00181" summary="#87 - change main controller and web page for Health">
-      <option name="closed" value="true" />
-      <created>1738010749500</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1738010749500</updated>
     </task>
     <task id="LOCAL-00182" summary="#87 - change on DB service level and web cntrl for Health">
       <option name="closed" value="true" />
@@ -589,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739221363257</updated>
     </task>
-    <option name="localTasksCounter" value="230" />
+    <task id="LOCAL-00230" summary="#96 - function minus_cash_balance">
+      <option name="closed" value="true" />
+      <created>1739390685917</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1739390685917</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,7 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#101 - new i_income without return type" />
     <MESSAGE value="#101 - new i_groceries without return type" />
     <MESSAGE value="#101 - new i_health without return type" />
     <MESSAGE value="#101 - new i_housing_rent without return type" />
@@ -629,6 +629,7 @@
     <MESSAGE value="#94 - new version of function" />
     <MESSAGE value="#103 - new version of function" />
     <MESSAGE value="#103 - web forms cntrl and change of html" />
-    <option name="LAST_COMMIT_MESSAGE" value="#103 - web forms cntrl and change of html" />
+    <MESSAGE value="#96 - function minus_cash_balance" />
+    <option name="LAST_COMMIT_MESSAGE" value="#96 - function minus_cash_balance" />
   </component>
 </project>
