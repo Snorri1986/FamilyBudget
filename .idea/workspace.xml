@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#103 - change on unit tests level">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#103 - web forms cntrl and change of html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/add_cash_balance.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/add_cash_balance.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/income.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,30 +39,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FamilyBudgetMain.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.MainPageControllerTest.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetEntertainmentPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetGroceriesPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetHealthPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetIncomePage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetLoginPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testRentHousingPage.executor": "Run",
-    "JUnit.WebFormsControllerTest.executor": "Run",
-    "JUnit.WebFormsControllerTest.testGoToMain.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitHealthForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitHousingForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor": "Run",
-    "Maven.FamilyBudget-LocalTomcat.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Applications/FamilyBudget/src/main/resources/static/css"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FamilyBudgetMain.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.MainPageControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetEntertainmentPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetGroceriesPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetHealthPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetIncomePage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testRentHousingPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testGoToMain.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitHealthForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitHousingForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Applications/FamilyBudget/src/main/resources/static/css&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Applications\FamilyBudget\src\main\resources\static\css" />
@@ -199,30 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00178" summary="#87 - change on table level for Health">
-      <option name="closed" value="true" />
-      <created>1738010031004</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1738010031004</updated>
-    </task>
-    <task id="LOCAL-00179" summary="#87 - change db function for Health">
-      <option name="closed" value="true" />
-      <created>1738010344883</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1738010344883</updated>
-    </task>
-    <task id="LOCAL-00180" summary="#87 - change models for Health">
-      <option name="closed" value="true" />
-      <created>1738010576434</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1738010576434</updated>
     </task>
     <task id="LOCAL-00181" summary="#87 - change main controller and web page for Health">
       <option name="closed" value="true" />
@@ -592,7 +565,31 @@
       <option name="project" value="LOCAL" />
       <updated>1739220607007</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="#94 - new version of function">
+      <option name="closed" value="true" />
+      <created>1739221159603</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1739221159603</updated>
+    </task>
+    <task id="LOCAL-00228" summary="#103 - new version of function">
+      <option name="closed" value="true" />
+      <created>1739221331947</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1739221331947</updated>
+    </task>
+    <task id="LOCAL-00229" summary="#103 - web forms cntrl and change of html">
+      <option name="closed" value="true" />
+      <created>1739221363257</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1739221363257</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,9 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#92 - new table &quot;cash_balance&quot;" />
-    <MESSAGE value="#93 - new table &quot;cash_operations_log&quot;" />
-    <MESSAGE value="#101 - new i_entertainment without return types" />
     <MESSAGE value="#101 - new i_income without return type" />
     <MESSAGE value="#101 - new i_groceries without return type" />
     <MESSAGE value="#101 - new i_health without return type" />
@@ -632,6 +626,9 @@
     <MESSAGE value="#103 - add TransactionType column to table" />
     <MESSAGE value="#103 - change on DB service" />
     <MESSAGE value="#103 - change on unit tests level" />
-    <option name="LAST_COMMIT_MESSAGE" value="#103 - change on unit tests level" />
+    <MESSAGE value="#94 - new version of function" />
+    <MESSAGE value="#103 - new version of function" />
+    <MESSAGE value="#103 - web forms cntrl and change of html" />
+    <option name="LAST_COMMIT_MESSAGE" value="#103 - web forms cntrl and change of html" />
   </component>
 </project>
