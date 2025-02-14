@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#97 - new button on html page">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/AtmModelWeb.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#98 - model for ATM cash operations">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/atm_cash.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,14 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00192" summary="#87 - change models for telecom">
-      <option name="closed" value="true" />
-      <created>1738178458757</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1738178458757</updated>
     </task>
     <task id="LOCAL-00193" summary="#87 - change on main cntrl and html level for telecom">
       <option name="closed" value="true" />
@@ -589,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739560470885</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="#98 - model for ATM cash operations">
+      <option name="closed" value="true" />
+      <created>1739560929867</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1739560929867</updated>
+    </task>
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,7 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#102 - new version of function with cash loging(health)" />
     <MESSAGE value="#102 - new version of function with cash loging(housing)" />
     <MESSAGE value="#102 - new version of function with cash loging(telecom)" />
     <MESSAGE value="#102 - new version of function with cash loging(travel)" />
@@ -629,6 +629,7 @@
     <MESSAGE value="#97 - css for others page" />
     <MESSAGE value="#97 - new title" />
     <MESSAGE value="#97 - new button on html page" />
-    <option name="LAST_COMMIT_MESSAGE" value="#97 - new button on html page" />
+    <MESSAGE value="#98 - model for ATM cash operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="#98 - model for ATM cash operations" />
   </component>
 </project>
