@@ -97,7 +97,7 @@ public class MainPageController {
   }
 
   @GetMapping("/additional")
-  public String getOthersPage() {
+  public String getAdditionalFunctionsPage() {
     return "additional";
   }
 }
