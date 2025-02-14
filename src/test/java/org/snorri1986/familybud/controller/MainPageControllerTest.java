@@ -108,4 +108,10 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
+
+  @Test
+  void testGetAdditionalFunctionPage() {
+    String viewName = mainPageController.getAdditionalFunctionsPage(model);
+    assertEquals("additional", viewName);
+  }
 }
