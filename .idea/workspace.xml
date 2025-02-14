@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#104 - func i_housing_rent with cash_balance mins">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#104 - func i_telecom with cash_balance mins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_telecom.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_telecom.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,14 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00186" summary="#87 - change models for rent_housing">
-      <option name="closed" value="true" />
-      <created>1738012000481</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1738012000481</updated>
     </task>
     <task id="LOCAL-00187" summary="#87 - change web page and cntrl rent_housing">
       <option name="closed" value="true" />
@@ -590,7 +581,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739392300944</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="#104 - func i_telecom with cash_balance mins">
+      <option name="closed" value="true" />
+      <created>1739393774548</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1739393774548</updated>
+    </task>
+    <option name="localTasksCounter" value="236" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -605,7 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#101 - new i_travel without return type" />
     <MESSAGE value="#100 - new table cash_balance" />
     <MESSAGE value="#102 - new name for db_column" />
     <MESSAGE value="#102 - new version of function with cash loging" />
@@ -630,6 +628,7 @@
     <MESSAGE value="#104 - func i_groceries with cash_balance mins" />
     <MESSAGE value="#104 - func i_health with cash_balance mins" />
     <MESSAGE value="#104 - func i_housing_rent with cash_balance mins" />
-    <option name="LAST_COMMIT_MESSAGE" value="#104 - func i_housing_rent with cash_balance mins" />
+    <MESSAGE value="#104 - func i_telecom with cash_balance mins" />
+    <option name="LAST_COMMIT_MESSAGE" value="#104 - func i_telecom with cash_balance mins" />
   </component>
 </project>
