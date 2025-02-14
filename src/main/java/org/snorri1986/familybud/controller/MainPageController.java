@@ -96,8 +96,8 @@ public class MainPageController {
     return "travel";
   }
 
-  @GetMapping("/others")
+  @GetMapping("/additional")
   public String getOthersPage() {
-    return "others";
+    return "additional";
   }
 }
