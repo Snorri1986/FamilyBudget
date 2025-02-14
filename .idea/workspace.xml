@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#104 - func i_telecom with cash_balance mins">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#104 - func i_travel with cash_balance mins" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,14 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00187" summary="#87 - change web page and cntrl rent_housing">
-      <option name="closed" value="true" />
-      <created>1738012162571</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1738012162571</updated>
     </task>
     <task id="LOCAL-00188" summary="#87 - change db service and cntrl for rent_housing">
       <option name="closed" value="true" />
@@ -589,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739393774548</updated>
     </task>
-    <option name="localTasksCounter" value="236" />
+    <task id="LOCAL-00236" summary="#104 - func i_travel with cash_balance mins">
+      <option name="closed" value="true" />
+      <created>1739559312305</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1739559312305</updated>
+    </task>
+    <option name="localTasksCounter" value="237" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#100 - new table cash_balance" />
     <MESSAGE value="#102 - new name for db_column" />
     <MESSAGE value="#102 - new version of function with cash loging" />
     <MESSAGE value="#102 - new version of function with cash loging(groceries)" />
@@ -629,6 +626,7 @@
     <MESSAGE value="#104 - func i_health with cash_balance mins" />
     <MESSAGE value="#104 - func i_housing_rent with cash_balance mins" />
     <MESSAGE value="#104 - func i_telecom with cash_balance mins" />
-    <option name="LAST_COMMIT_MESSAGE" value="#104 - func i_telecom with cash_balance mins" />
+    <MESSAGE value="#104 - func i_travel with cash_balance mins" />
+    <option name="LAST_COMMIT_MESSAGE" value="#104 - func i_travel with cash_balance mins" />
   </component>
 </project>
