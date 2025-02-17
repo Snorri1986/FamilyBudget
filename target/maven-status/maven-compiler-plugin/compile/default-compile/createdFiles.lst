@@ -8,6 +8,7 @@ org\snorri1986\familybud\models\GroceriesModelWeb.class
 org\snorri1986\familybud\models\GroceriesModelDB.class
 org\snorri1986\familybud\models\IncomeModelDB.class
 org\snorri1986\familybud\models\RentHousingModelDB.class
+org\snorri1986\familybud\controller\AdditionalFuncPageController.class
 org\snorri1986\familybud\FamilyBudgetMain.class
 org\snorri1986\familybud\controller\MainPageController.class
 org\snorri1986\familybud\models\IncomeModelWeb.class
