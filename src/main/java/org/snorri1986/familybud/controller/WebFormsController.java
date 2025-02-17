@@ -217,4 +217,11 @@ public class WebFormsController {
     dbService.insertNewTravel(travelModelDB);
     return "s_travel";
   }
+
+  @PostMapping("/registerAtm")
+  public String submitNewAtmCash(@ModelAttribute("atm_mod_attribute") AtmModelWeb atmModelWeb) {
+    System.out.println("ATM cash Registered: " + atmModelWeb.toString());
+    dbService.insertNewAtmCash(atmModelWeb);
+    return "s_atm_cash";
+  }
 }

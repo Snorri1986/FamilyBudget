@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#98 - web page and controller">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#105 - atm_cash_register functions">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/s_atm_cash.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/s_atm_cash.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,14 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00202" summary="#92 - new table &quot;cash_balance&quot;">
-      <option name="closed" value="true" />
-      <created>1738351653937</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1738351653937</updated>
     </task>
     <task id="LOCAL-00203" summary="#93 - new table &quot;cash_operations_log&quot;">
       <option name="closed" value="true" />
@@ -592,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739820116650</updated>
     </task>
-    <option name="localTasksCounter" value="251" />
+    <task id="LOCAL-00251" summary="#105 - atm_cash_register functions">
+      <option name="closed" value="true" />
+      <created>1739821395104</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1739821395104</updated>
+    </task>
+    <option name="localTasksCounter" value="252" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,7 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#103 - change on DB service" />
     <MESSAGE value="#103 - change on unit tests level" />
     <MESSAGE value="#94 - new version of function" />
     <MESSAGE value="#103 - new version of function" />
@@ -632,6 +636,7 @@
     <MESSAGE value="#98 - new button click" />
     <MESSAGE value="#98 - new unit test" />
     <MESSAGE value="#98 - web page and controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="#98 - web page and controller" />
+    <MESSAGE value="#105 - atm_cash_register functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="#105 - atm_cash_register functions" />
   </component>
 </project>

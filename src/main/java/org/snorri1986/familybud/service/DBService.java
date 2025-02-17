@@ -100,4 +100,14 @@ public class DBService {
             }, Integer.class);
     return loginResult;
   }
+
+  public void insertNewAtmCash(AtmModelWeb atmModelWeb) {
+    String sql = "SELECT public.atm_cash_register(?,?,?,?)";
+    jdbcTemplate.queryForObject(sql,new Object[]{
+            atmModelWeb.getOperType(),
+            atmModelWeb.getAmount(),
+            atmModelWeb.getTransactionDate(),
+            atmModelWeb.getOperDescription()
+    },String.class);
+  }
 }
