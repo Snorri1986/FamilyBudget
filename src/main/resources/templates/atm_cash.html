@@ -16,15 +16,15 @@
 </head>
 <body>
 <h1>ATM Cash register page</h1>
-<!-- <div class="container mt-5">
-    <form th:action="@{/registerEntertainment}" th:object="${entertainment_mod_attribute}" method="post" class="needs-validation">
+ <div class="container mt-5">
+    <form th:action="@{/registerAtm}" th:object="${atm_mod_attribute}" method="post" class="needs-validation">
         <div class="form-group">
-            <label for="entType">Entertainment Type:</label>
-            <select id="entType" name="entType" th:field="*{eventType}" required>>
-                <option value="">-- Select event type --</option>
-                <option th:each="entType : ${entList}"
-                        th:value="${entType}"
-                        th:text="${entType}">
+            <label for="opType">Operation Type:</label>
+            <select id="opType" name="opType" th:field="*{operType}" required>>
+                <option value="">-- Select operation type --</option>
+                <option th:each="opType : ${opList}"
+                        th:value="${opType}"
+                        th:text="${opType}">
                 </option>
             </select>
         </div>
@@ -33,39 +33,15 @@
             <input type="text" class="form-control" id="amount" th:field="*{amount}" required>
         </div>
         <div class="form-group">
-            <label for="currency">Currency:</label>
-            <select id="currency" name="curName" th:field="*{currency}" required>>
-                <option value="">-- Select currency name --</option>
-                <option th:each="currency : ${currencyNames}"
-                        th:value="${currency}"
-                        th:text="${currency}">
-                </option>
-            </select>
-        </div>
-        <div class="form-group">
             <label for="transDate">Transaction Date:</label>
             <input type="text" class="form-control" id="transDate"  th:field="*{transactionDate}" required>
-        </div>
-        <div class="form-group">
-            <label for="transType">Transaction Type:</label>
-            <select id="transType" name="transType" th:field="*{transactionType}" required>>
-                <option value="">-- Select transaction type: --</option>
-                <option th:each="transType : ${transactionTypes}"
-                        th:value="${transType}"
-                        th:text="${transType}">
-                </option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="cardNum">Card:</label>
-            <input type="text" class="form-control" id="cardNum" th:field="*{cardNum}" maxlength="4" required>
         </div>
         <div class="form-group">
             <label for="operDesc">Description:</label>
             <input type="text" class="form-control" id="operDesc" th:field="*{operDescription}" maxlength="50" required>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
-    </form> -->
+    </form>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
