@@ -7,7 +7,7 @@ AS $function$
              PERFORM  public.add_cash_balance(amount_val);
                      INSERT INTO cash_operations_log(optype, amount, date, comments)
                      VALUES (1,amount_val,oper_date,comm_val);
-         ELSIF oper_type = 'Expense' THEN
+         ELSIF oper_type = 'Expenses' THEN
              PERFORM  public.minus_cash_balance(amount_val);
                      INSERT INTO cash_operations_log(optype, amount, date, comments)
                      VALUES (0,amount_val,oper_date,comm_val);
