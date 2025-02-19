@@ -228,6 +228,19 @@ public class WebFormsControllerTest {
     assertEquals("wrong_auth", result);
   }
 
+  @Test
+  public void testSubmitNewAtm() {
+    AtmModelWeb atmModelWeb = new AtmModelWeb();
+    atmModelWeb.setOperType("Expenses");
+    atmModelWeb.setAmount(1000);
+    atmModelWeb.setTransactionDate(convertToDate("07.02.2025 11:00"));
+    atmModelWeb.setOperDescription("Test operation");
+    ArgumentCaptor<AtmModelWeb> captor = ArgumentCaptor.forClass(AtmModelWeb.class);
+    String result = webFormsController.submitNewAtmCash(atmModelWeb);
+    Mockito.verify(dbService).insertNewAtmCash(captor.capture());
+    assertEquals("s_atm_cash", result);
+  }
+
   private Date convertToDate(String dateInString) {
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
     LocalDate localDate = LocalDate.parse(dateInString, formatter);
