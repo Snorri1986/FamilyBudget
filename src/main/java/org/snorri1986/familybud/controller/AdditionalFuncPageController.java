@@ -18,4 +18,12 @@ public class AdditionalFuncPageController {
     model.addAttribute("opList", opList);
     return "atm_cash";
   }
+
+  @GetMapping("/cashBalance")
+  public String showCashBalance() {
+    //List<String> opList = Arrays.asList("Income", "Expenses");
+    //model.addAttribute("atm_mod_attribute", new AtmModelWeb());
+    //model.addAttribute("opList", opList);
+    return "cash_balance";
+  }
 }
