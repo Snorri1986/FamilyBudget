@@ -110,4 +110,9 @@ public class DBService {
             atmModelWeb.getOperDescription()
     },String.class);
   }
+
+  public int getCashBalance() {
+    String sql = "SELECT public.get_cash_balance()";
+    return jdbcTemplate.queryForObject(sql,Integer.class);
+  }
 }

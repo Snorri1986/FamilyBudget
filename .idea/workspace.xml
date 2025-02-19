@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#99 - new button - cash balance">
-      <change afterPath="$PROJECT_DIR$/src/db/sources/get_cash_balance.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#99 - new DB function get_cash_balance">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00205" summary="#101 - new i_income without return type">
-      <option name="closed" value="true" />
-      <created>1738353868633</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1738353868633</updated>
     </task>
     <task id="LOCAL-00206" summary="#101 - new i_groceries without return type">
       <option name="closed" value="true" />
@@ -591,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739992717837</updated>
     </task>
-    <option name="localTasksCounter" value="254" />
+    <task id="LOCAL-00254" summary="#99 - new DB function get_cash_balance">
+      <option name="closed" value="true" />
+      <created>1739993247693</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1739993247693</updated>
+    </task>
+    <option name="localTasksCounter" value="255" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,7 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#103 - new version of function" />
     <MESSAGE value="#103 - web forms cntrl and change of html" />
     <MESSAGE value="#96 - function minus_cash_balance" />
     <MESSAGE value="#104 - func i_entertainment with cash_balance mins" />
@@ -631,6 +630,7 @@
     <MESSAGE value="#105 - atm_cash_register functions" />
     <MESSAGE value="#98 - unit test to check ATM cash register" />
     <MESSAGE value="#99 - new button - cash balance" />
-    <option name="LAST_COMMIT_MESSAGE" value="#99 - new button - cash balance" />
+    <MESSAGE value="#99 - new DB function get_cash_balance" />
+    <option name="LAST_COMMIT_MESSAGE" value="#99 - new DB function get_cash_balance" />
   </component>
 </project>
