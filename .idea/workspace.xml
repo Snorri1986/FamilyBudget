@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#105 - atm_cash_register functions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#98 - unit test to check ATM cash register">
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -199,14 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00203" summary="#93 - new table &quot;cash_operations_log&quot;">
-      <option name="closed" value="true" />
-      <created>1738352064985</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1738352064986</updated>
     </task>
     <task id="LOCAL-00204" summary="#101 - new i_entertainment without return types">
       <option name="closed" value="true" />
@@ -592,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739821395104</updated>
     </task>
-    <option name="localTasksCounter" value="252" />
+    <task id="LOCAL-00252" summary="#98 - unit test to check ATM cash register">
+      <option name="closed" value="true" />
+      <created>1739992216689</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1739992216689</updated>
+    </task>
+    <option name="localTasksCounter" value="253" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,7 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#103 - change on unit tests level" />
     <MESSAGE value="#94 - new version of function" />
     <MESSAGE value="#103 - new version of function" />
     <MESSAGE value="#103 - web forms cntrl and change of html" />
@@ -632,6 +630,7 @@
     <MESSAGE value="#98 - new unit test" />
     <MESSAGE value="#98 - web page and controller" />
     <MESSAGE value="#105 - atm_cash_register functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="#105 - atm_cash_register functions" />
+    <MESSAGE value="#98 - unit test to check ATM cash register" />
+    <option name="LAST_COMMIT_MESSAGE" value="#98 - unit test to check ATM cash register" />
   </component>
 </project>
