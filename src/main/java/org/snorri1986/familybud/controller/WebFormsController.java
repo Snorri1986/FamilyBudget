@@ -224,4 +224,8 @@ public class WebFormsController {
     dbService.insertNewAtmCash(atmModelWeb);
     return "s_atm_cash";
   }
+
+  public int getCashBalanceFromDB() {
+    return dbService.getCashBalance();
+  }
 }
