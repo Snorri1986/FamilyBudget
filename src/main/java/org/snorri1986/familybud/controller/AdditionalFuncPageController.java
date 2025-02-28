@@ -24,12 +24,9 @@ public class AdditionalFuncPageController {
   }
 
   @GetMapping("/cashBalance")
-  public String showCashBalance() {
-    // TODO: finish and add new model
+  public String showCashBalance(Model model) {
     int cashBalance = webFormsController.getCashBalanceFromDB();
-    //List<String> opList = Arrays.asList("Income", "Expenses");
-    //model.addAttribute("atm_mod_attribute", new AtmModelWeb());
-    //model.addAttribute("opList", opList);
+    model.addAttribute("cashBalance", cashBalance);
     return "cash_balance";
   }
 }
