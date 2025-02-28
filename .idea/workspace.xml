@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#99 - showCashBalance()">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#99 - show cash balance on the web page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cash_balance.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cash_balance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/DataSourceConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00210" summary="#101 - new i_travel without return type">
-      <option name="closed" value="true" />
-      <created>1738611987722</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1738611987722</updated>
     </task>
     <task id="LOCAL-00211" summary="#100 - new table cash_balance">
       <option name="closed" value="true" />
@@ -593,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739994921962</updated>
     </task>
-    <option name="localTasksCounter" value="259" />
+    <task id="LOCAL-00259" summary="#99 - show cash balance on the web page">
+      <option name="closed" value="true" />
+      <created>1740773217551</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1740773217552</updated>
+    </task>
+    <option name="localTasksCounter" value="260" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -608,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#104 - func i_health with cash_balance mins" />
     <MESSAGE value="#104 - func i_housing_rent with cash_balance mins" />
     <MESSAGE value="#104 - func i_telecom with cash_balance mins" />
     <MESSAGE value="#104 - func i_travel with cash_balance mins" />
@@ -633,6 +631,7 @@
     <MESSAGE value="#99 - cash balance page" />
     <MESSAGE value="#99 - new get method - cashBalance" />
     <MESSAGE value="#99 - showCashBalance()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#99 - showCashBalance()" />
+    <MESSAGE value="#99 - show cash balance on the web page" />
+    <option name="LAST_COMMIT_MESSAGE" value="#99 - show cash balance on the web page" />
   </component>
 </project>
