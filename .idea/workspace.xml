@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#84 - return back to PROD DB">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#107 - try with newDate()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/travel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +206,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00212" summary="#102 - new name for db_column">
-      <option name="closed" value="true" />
-      <created>1738787229151</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1738787229151</updated>
     </task>
     <task id="LOCAL-00213" summary="#102 - new version of function with cash loging">
       <option name="closed" value="true" />
@@ -591,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740776366373</updated>
     </task>
-    <option name="localTasksCounter" value="261" />
+    <task id="LOCAL-00261" summary="#107 - try with newDate()">
+      <option name="closed" value="true" />
+      <created>1741029273772</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1741029273772</updated>
+    </task>
+    <option name="localTasksCounter" value="262" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#104 - func i_telecom with cash_balance mins" />
     <MESSAGE value="#104 - func i_travel with cash_balance mins" />
     <MESSAGE value="#97 - css for others page" />
     <MESSAGE value="#97 - new title" />
@@ -631,6 +638,7 @@
     <MESSAGE value="#99 - showCashBalance()" />
     <MESSAGE value="#99 - show cash balance on the web page" />
     <MESSAGE value="#84 - return back to PROD DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="#84 - return back to PROD DB" />
+    <MESSAGE value="#107 - try with newDate()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#107 - try with newDate()" />
   </component>
 </project>
