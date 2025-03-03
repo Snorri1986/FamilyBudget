@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#107 - try with newDate()">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#107 - fix flatpickr solution">
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/travel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,14 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00213" summary="#102 - new version of function with cash loging">
-      <option name="closed" value="true" />
-      <created>1738787514329</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1738787514329</updated>
     </task>
     <task id="LOCAL-00214" summary="#102 - new version of function with cash loging(groceries)">
       <option name="closed" value="true" />
@@ -599,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741029273772</updated>
     </task>
-    <option name="localTasksCounter" value="262" />
+    <task id="LOCAL-00262" summary="#107 - fix flatpickr solution">
+      <option name="closed" value="true" />
+      <created>1741029982019</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1741029982019</updated>
+    </task>
+    <option name="localTasksCounter" value="263" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -614,7 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#104 - func i_travel with cash_balance mins" />
     <MESSAGE value="#97 - css for others page" />
     <MESSAGE value="#97 - new title" />
     <MESSAGE value="#97 - new button on html page" />
@@ -639,6 +630,7 @@
     <MESSAGE value="#99 - show cash balance on the web page" />
     <MESSAGE value="#84 - return back to PROD DB" />
     <MESSAGE value="#107 - try with newDate()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#107 - try with newDate()" />
+    <MESSAGE value="#107 - fix flatpickr solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="#107 - fix flatpickr solution" />
   </component>
 </project>
