@@ -48,7 +48,7 @@ public class MainPageController {
 
   @GetMapping("/groceries")
   public String getGroceriesPage(Model model) {
-    List<String> purchesList = Arrays.asList("Daily","Weekly","Weekend","Fest","Clothes","Other");
+    List<String> purchesList = Arrays.asList("Daily","Weekly","Weekend","Fest","Clothes","Lunch at work","Other");
     model.addAttribute("groceries_mod_attribute", new GroceriesModelWeb());
     model.addAttribute("purchesList", purchesList);
     model.addAttribute("currencyNames", currencyNames);

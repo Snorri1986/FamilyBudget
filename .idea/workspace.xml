@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#107 - fix flatpickr solution">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#107 - solution for mobile chrome">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,22 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00214" summary="#102 - new version of function with cash loging(groceries)">
-      <option name="closed" value="true" />
-      <created>1738788059097</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1738788059097</updated>
-    </task>
-    <task id="LOCAL-00215" summary="#102 - new version of function with cash loging(health)">
-      <option name="closed" value="true" />
-      <created>1738788624111</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1738788624111</updated>
     </task>
     <task id="LOCAL-00216" summary="#102 - new version of function with cash loging(housing)">
       <option name="closed" value="true" />
@@ -591,7 +577,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741029982019</updated>
     </task>
-    <option name="localTasksCounter" value="263" />
+    <task id="LOCAL-00263" summary="#107 - possible solution for mobile chrome">
+      <option name="closed" value="true" />
+      <created>1741030723441</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1741030723441</updated>
+    </task>
+    <task id="LOCAL-00264" summary="#107 - solution for mobile chrome">
+      <option name="closed" value="true" />
+      <created>1741031152518</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1741031152518</updated>
+    </task>
+    <option name="localTasksCounter" value="265" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,8 +608,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#97 - css for others page" />
-    <MESSAGE value="#97 - new title" />
     <MESSAGE value="#97 - new button on html page" />
     <MESSAGE value="#98 - model for ATM cash operations" />
     <MESSAGE value="#98 - atm_cash temporary" />
@@ -631,6 +631,8 @@
     <MESSAGE value="#84 - return back to PROD DB" />
     <MESSAGE value="#107 - try with newDate()" />
     <MESSAGE value="#107 - fix flatpickr solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="#107 - fix flatpickr solution" />
+    <MESSAGE value="#107 - possible solution for mobile chrome" />
+    <MESSAGE value="#107 - solution for mobile chrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="#107 - solution for mobile chrome" />
   </component>
 </project>
