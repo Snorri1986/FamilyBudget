@@ -1,4 +1,5 @@
 org\snorri1986\familybud\models\EntertainmentModelDB.class
+org\snorri1986\familybud\models\AtmModelWeb.class
 org\snorri1986\familybud\models\HealthModelDB.class
 org\snorri1986\familybud\Utils.class
 org\snorri1986\familybud\service\DBService.class
@@ -7,6 +8,7 @@ org\snorri1986\familybud\models\GroceriesModelWeb.class
 org\snorri1986\familybud\models\GroceriesModelDB.class
 org\snorri1986\familybud\models\IncomeModelDB.class
 org\snorri1986\familybud\models\RentHousingModelDB.class
+org\snorri1986\familybud\controller\AdditionalFuncPageController.class
 org\snorri1986\familybud\FamilyBudgetMain.class
 org\snorri1986\familybud\controller\MainPageController.class
 org\snorri1986\familybud\models\IncomeModelWeb.class
@@ -18,3 +20,4 @@ org\snorri1986\familybud\models\HealthModelWeb.class
 org\snorri1986\familybud\models\TravelModelWeb.class
 org\snorri1986\familybud\models\TravelModelDB.class
 org\snorri1986\familybud\models\TelecomModelDB.class
+org\snorri1986\familybud\models\UserModel.class

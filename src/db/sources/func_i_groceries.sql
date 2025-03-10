@@ -1,25 +1,27 @@
-CREATE OR REPLACE FUNCTION public.i_groceries(
-gtype_value integer,
-amount_value integer,
-currency_value integer,
-oper_date date,
-src_payment_card integer,
-comm_value character)
- RETURNS integer
+-- DROP FUNCTION public.i_groceries(int4, int4, int4, date, bpchar, int4, bpchar);
+
+CREATE OR REPLACE FUNCTION public.i_groceries(gtype_value integer, amount_value integer, currency_value integer, oper_date date, oper_type character, src_payment_card integer, comm_value character)
+ RETURNS void
  LANGUAGE plpgsql
 AS $function$
-    DECLARE
-    last_id int;
+BEGIN
 
-    BEGIN
+    IF oper_type = 'Cash' THEN
+        INSERT INTO cash_operations_log(optype, amount, date, comments)
+        VALUES (0,amount_value,oper_date,comm_value);
 
-    INSERT INTO groceries(g_type, amount, currency, date, source_card, comments)
-    VALUES (gtype_value, amount_value,currency_value,oper_date,src_payment_card,comm_value);
+    PERFORM minus_cash_balance(amount_value);
 
-    SELECT max(id) INTO last_id FROM groceries;
+    ELSE
+        INSERT INTO groceries(g_type, amount, currency, date, source_card, comments,opertype)
+        VALUES (gtype_value, amount_value,currency_value,oper_date,src_payment_card,comm_value,oper_type);
+    END IF;
 
-    RETURN last_id;
-
-	END;
+END;
 $function$
 ;
+
+
+
+
+

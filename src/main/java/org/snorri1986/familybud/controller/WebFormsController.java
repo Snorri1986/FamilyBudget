@@ -15,6 +15,13 @@ public class WebFormsController {
   @Autowired
   DBService dbService;
 
+  @PostMapping("/toMain")
+  public String goToMain(@ModelAttribute("login_mod_attribute") UserModel uModel) {
+    int loginValidationResult = dbService.checkLogin(uModel);
+    if (loginValidationResult == 1) return "main";
+    else return "wrong_auth";
+  }
+
   @PostMapping("/registerIncome")
   public String submitIncomeForm(@ModelAttribute("income_mod_attribute") IncomeModelWeb income) {
     System.out.println("New income" + income.toString());
@@ -34,6 +41,7 @@ public class WebFormsController {
     incomeModelDB.setCurrency(Utils.currencyConvert(income.getCurrency()));
 
     incomeModelDB.setTransactionDate(income.getTransactionDate());
+    incomeModelDB.setTransactionType(income.getTransactionType());
     incomeModelDB.setCardNum(income.getCardNum());
     incomeModelDB.setOperDescription(income.getOperDescription());
 
@@ -62,6 +70,7 @@ public class WebFormsController {
     entertainmentModelDB.setCurrency(Utils.currencyConvert(entModel.getCurrency()));
 
     entertainmentModelDB.setTransactionDate(entModel.getTransactionDate());
+    entertainmentModelDB.setTransactionType(entModel.getTransactionType());
     entertainmentModelDB.setCardNum(entModel.getCardNum());
     entertainmentModelDB.setOperDescription(entModel.getOperDescription());
 
@@ -88,6 +97,7 @@ public class WebFormsController {
     groceriesModelDB.setAmount(grocModel.getAmount());
     groceriesModelDB.setCurrency(Utils.currencyConvert(grocModel.getCurrency()));
     groceriesModelDB.setTransactionDate(grocModel.getTransactionDate());
+    groceriesModelDB.setTransactionType(grocModel.getTransactionType());
     groceriesModelDB.setCardNum(grocModel.getCardNum());
     groceriesModelDB.setOperDescription(grocModel.getOperDescription());
 
@@ -116,6 +126,7 @@ public class WebFormsController {
     healthModelDB.setAmount(healthModel.getAmount());
     healthModelDB.setCurrency(Utils.currencyConvert(healthModel.getCurrency()));
     healthModelDB.setTransactionDate(healthModel.getTransactionDate());
+    healthModelDB.setTransactionType(healthModel.getTransactionType());
     healthModelDB.setCardNum(healthModel.getCardNum());
     healthModelDB.setOperDescription(healthModel.getOperDescription());
 
@@ -144,6 +155,7 @@ public class WebFormsController {
     rentHousingModelDB.setAmount(rentHousingModel.getAmount());
     rentHousingModelDB.setCurrency(Utils.currencyConvert(rentHousingModel.getCurrency()));
     rentHousingModelDB.setTransactionDate(rentHousingModel.getTransactionDate());
+    rentHousingModelDB.setTransactionType(rentHousingModel.getTransactionType());
     rentHousingModelDB.setCardNum(rentHousingModel.getCardNum());
     rentHousingModelDB.setOperDescription(rentHousingModel.getOperDescription());
 
@@ -168,6 +180,7 @@ public class WebFormsController {
     telecomModelDB.setAmount(telecomModel.getAmount());
     telecomModelDB.setCurrency(Utils.currencyConvert(telecomModel.getCurrency()));
     telecomModelDB.setTransactionDate(telecomModel.getTransactionDate());
+    telecomModelDB.setTransactionType(telecomModel.getTransactionType());
     telecomModelDB.setCardNum(telecomModel.getCardNum());
     telecomModelDB.setOperDescription(telecomModel.getOperDescription());
 
@@ -194,6 +207,7 @@ public class WebFormsController {
     travelModelDB.setAmount(travelModel.getAmount());
     travelModelDB.setCurrency(Utils.currencyConvert(travelModel.getCurrency()));
     travelModelDB.setTransactionDate(travelModel.getTransactionDate());
+    travelModelDB.setTransactionType(travelModel.getTransactionType());
     travelModelDB.setCardNum(travelModel.getCardNum());
     travelModelDB.setDestination(travelModel.getDestination());
     travelModelDB.setOperDescription(travelModel.getOperDescription());
@@ -202,5 +216,16 @@ public class WebFormsController {
 
     dbService.insertNewTravel(travelModelDB);
     return "s_travel";
+  }
+
+  @PostMapping("/registerAtm")
+  public String submitNewAtmCash(@ModelAttribute("atm_mod_attribute") AtmModelWeb atmModelWeb) {
+    System.out.println("ATM cash Registered: " + atmModelWeb.toString());
+    dbService.insertNewAtmCash(atmModelWeb);
+    return "s_atm_cash";
+  }
+
+  public int getCashBalanceFromDB() {
+    return dbService.getCashBalance();
   }
 }

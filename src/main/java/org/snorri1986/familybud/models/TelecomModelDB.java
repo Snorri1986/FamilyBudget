@@ -10,6 +10,7 @@ public class TelecomModelDB {
   private int currency;
   @DateTimeFormat(pattern = "dd.MM.yyyy HH:mm")
   private Date transactionDate;
+  private String transactionType;
   private int cardNum;
   private String operDescription;
 
@@ -35,6 +36,14 @@ public class TelecomModelDB {
 
   public void setTransactionDate(Date transactionDate) {
     this.transactionDate = transactionDate;
+  }
+
+  public String getTransactionType() {
+    return transactionType;
+  }
+
+  public void setTransactionType(String transactionType) {
+    this.transactionType = transactionType;
   }
 
   public int getCurrency() {
@@ -68,6 +77,7 @@ public class TelecomModelDB {
             ", amount=" + amount +
             ", currency=" + currency +
             ", transactionDate=" + transactionDate +
+            ", transactionType='" + transactionType + '\'' +
             ", cardNum=" + cardNum +
             ", operDescription='" + operDescription + '\'' +
             '}';

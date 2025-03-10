@@ -12,6 +12,13 @@ import java.util.List;
 public class MainPageController {
 
   List<String> currencyNames = Arrays.asList("DKK", "EUR", "USD", "UAH", "Other");
+  List<String> transactionTypes = Arrays.asList("Card", "Cash");
+
+  @GetMapping("/login")
+  public String getLoginPage(Model model) {
+    model.addAttribute("login_mod_attribute", new UserModel());
+    return "login";
+  }
 
   @GetMapping("/main")
   public String getMainPage(Model model) {
@@ -25,6 +32,7 @@ public class MainPageController {
     model.addAttribute("income_mod_attribute", new IncomeModelWeb());
     model.addAttribute("incomes", incomes);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "income";
   }
 
@@ -34,6 +42,7 @@ public class MainPageController {
     model.addAttribute("entertainment_mod_attribute", new EntertainmentModelWeb());
     model.addAttribute("entList", entList);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "entertainment";
   }
 
@@ -43,6 +52,7 @@ public class MainPageController {
     model.addAttribute("groceries_mod_attribute", new GroceriesModelWeb());
     model.addAttribute("purchesList", purchesList);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "groceries";
   }
 
@@ -52,6 +62,7 @@ public class MainPageController {
     model.addAttribute("health_mod_attribute", new HealthModelWeb());
     model.addAttribute("healthTypeList", healthTypeList);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "health";
   }
 
@@ -61,6 +72,7 @@ public class MainPageController {
     model.addAttribute("rent_housing_mod_attribute", new RentHousingModelWeb());
     model.addAttribute("housingTypes", housingTypes);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "renthousing";
   }
 
@@ -70,6 +82,7 @@ public class MainPageController {
     model.addAttribute("telecom_mod_attribute", new TelecomModelWeb());
     model.addAttribute("telecomOperations", telecomOperations);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "telecom";
   }
 
@@ -79,11 +92,12 @@ public class MainPageController {
     model.addAttribute("travel_mod_attribute", new TravelModelWeb());
     model.addAttribute("travelActivities", travelActivities);
     model.addAttribute("currencyNames", currencyNames);
+    model.addAttribute("transactionTypes", transactionTypes);
     return "travel";
   }
 
-  @GetMapping("/others")
-  public String getOthersPage() {
-    return "others";
+  @GetMapping("/additional")
+  public String getAdditionalFunctionsPage(Model model) {
+    return "additional";
   }
 }

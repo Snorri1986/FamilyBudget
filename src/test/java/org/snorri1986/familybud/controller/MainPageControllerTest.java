@@ -27,6 +27,12 @@ public class MainPageControllerTest {
   private Model model;
 
   @Test
+  void testGetLoginPage() {
+    String viewName = mainPageController.getLoginPage(model);
+    assertEquals("login", viewName);
+  }
+
+  @Test
   void testGetMainPage() {
     String viewName = mainPageController.getMainPage(model);
     assertEquals("main", viewName);
@@ -40,6 +46,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("income_mod_attribute"), any(IncomeModelWeb.class));
     verify(model).addAttribute(eq("incomes"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 
   @Test
@@ -49,6 +56,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("entertainment_mod_attribute"), any(EntertainmentModelWeb.class));
     verify(model).addAttribute(eq("entList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 
   @Test
@@ -58,6 +66,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("groceries_mod_attribute"), any(GroceriesModelWeb.class));
     verify(model).addAttribute(eq("purchesList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 
   @Test
@@ -67,6 +76,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("health_mod_attribute"), any(HealthModelWeb.class));
     verify(model).addAttribute(eq("healthTypeList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 
   @Test
@@ -76,6 +86,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("rent_housing_mod_attribute"), any(RentHousingModelWeb.class));
     verify(model).addAttribute(eq("housingTypes"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 
   @Test
@@ -85,6 +96,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("telecom_mod_attribute"), any(TelecomModelWeb.class));
     verify(model).addAttribute(eq("telecomOperations"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
   }
 
   @Test
@@ -94,5 +106,12 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("travel_mod_attribute"), any(TravelModelWeb.class));
     verify(model).addAttribute(eq("travelActivities"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
+    verify(model).addAttribute(eq("transactionTypes"),any(List.class));
+  }
+
+  @Test
+  void testGetAdditionalFunctionPage() {
+    String viewName = mainPageController.getAdditionalFunctionsPage(model);
+    assertEquals("additional", viewName);
   }
 }

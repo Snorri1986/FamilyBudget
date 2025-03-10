@@ -37,6 +37,7 @@ public class WebFormsControllerTest {
     income.setAmount(5000);
     income.setCurrency("USD");
     income.setTransactionDate(convertToDate("25.12.2023 11:00"));
+    income.setTransactionType("Cash");
     income.setCardNum(6825);
     income.setOperDescription("Monthly salary");
 
@@ -52,6 +53,7 @@ public class WebFormsControllerTest {
     assertEquals(income.getAmount(), capturedIncome.getAmount());
     assertEquals(Utils.currencyConvert(income.getCurrency()), capturedIncome.getCurrency());
     assertEquals(income.getTransactionDate(), capturedIncome.getTransactionDate());
+    assertEquals(income.getTransactionType(), capturedIncome.getTransactionType());
     assertEquals(income.getCardNum(), capturedIncome.getCardNum());
     assertEquals(income.getOperDescription(), capturedIncome.getOperDescription());
     assertEquals("s_income", result);
@@ -64,6 +66,7 @@ public class WebFormsControllerTest {
     entertainmentModelWeb.setAmount(1000);
     entertainmentModelWeb.setCurrency("EUR");
     entertainmentModelWeb.setTransactionDate(convertToDate("30.12.2024 13:30"));
+    entertainmentModelWeb.setTransactionType("Card");
     entertainmentModelWeb.setCardNum(6285);
     entertainmentModelWeb.setOperDescription("Cinema in Herlev");
 
@@ -76,6 +79,7 @@ public class WebFormsControllerTest {
     assertEquals(entertainmentModelWeb.getAmount(), capturedEntertainment.getAmount());
     assertEquals(Utils.currencyConvert(entertainmentModelWeb.getCurrency()), capturedEntertainment.getCurrency());
     assertEquals(entertainmentModelWeb.getTransactionDate(), capturedEntertainment.getTransactionDate());
+    assertEquals(entertainmentModelWeb.getTransactionType(), capturedEntertainment.getTransactionType());
     assertEquals(entertainmentModelWeb.getCardNum(), capturedEntertainment.getCardNum());
     assertEquals(entertainmentModelWeb.getOperDescription(), capturedEntertainment.getOperDescription());
     assertEquals("s_entertainment", result);
@@ -88,6 +92,7 @@ public class WebFormsControllerTest {
     groceriesModelWeb.setAmount(800);
     groceriesModelWeb.setCurrency("UAH");
     groceriesModelWeb.setTransactionDate(convertToDate("28.02.2023 11:00"));
+    groceriesModelWeb.setTransactionType("Cash");
     groceriesModelWeb.setCardNum(6285);
     groceriesModelWeb.setOperDescription("Netto");
 
@@ -100,6 +105,7 @@ public class WebFormsControllerTest {
     assertEquals(groceriesModelWeb.getAmount(), capturedGroceries.getAmount());
     assertEquals(Utils.currencyConvert(groceriesModelWeb.getCurrency()), capturedGroceries.getCurrency());
     assertEquals(groceriesModelWeb.getTransactionDate(), capturedGroceries.getTransactionDate());
+    assertEquals(groceriesModelWeb.getTransactionType(), capturedGroceries.getTransactionType());
     assertEquals(groceriesModelWeb.getCardNum(), capturedGroceries.getCardNum());
     assertEquals(groceriesModelWeb.getOperDescription(), capturedGroceries.getOperDescription());
     assertEquals("s_groceries", result);
@@ -112,6 +118,7 @@ public class WebFormsControllerTest {
     healthModelWeb.setAmount(1200);
     healthModelWeb.setCurrency("USD");
     healthModelWeb.setTransactionDate(convertToDate("01.01.2025 11:00"));
+    healthModelWeb.setTransactionType("Card");
     healthModelWeb.setCardNum(6285);
     healthModelWeb.setOperDescription("Therapeftist");
 
@@ -124,6 +131,7 @@ public class WebFormsControllerTest {
     assertEquals(healthModelWeb.getAmount(), capturedHealth.getAmount());
     assertEquals(Utils.currencyConvert(healthModelWeb.getCurrency()), capturedHealth.getCurrency());
     assertEquals(healthModelWeb.getTransactionDate(), capturedHealth.getTransactionDate());
+    assertEquals(healthModelWeb.getTransactionType(), capturedHealth.getTransactionType());
     assertEquals(healthModelWeb.getCardNum(), capturedHealth.getCardNum());
     assertEquals(healthModelWeb.getOperDescription(), capturedHealth.getOperDescription());
     assertEquals("s_health", result);
@@ -136,6 +144,7 @@ public class WebFormsControllerTest {
     rentHousingModelWeb.setAmount(100);
     rentHousingModelWeb.setCurrency("DKK");
     rentHousingModelWeb.setTransactionDate(convertToDate("30.12.2024 11:00"));
+    rentHousingModelWeb.setTransactionType("Cash");
     rentHousingModelWeb.setCardNum(6285);
     rentHousingModelWeb.setOperDescription("Regular paid");
 
@@ -148,6 +157,7 @@ public class WebFormsControllerTest {
     assertEquals(rentHousingModelWeb.getAmount(), capturedRentHousing.getAmount());
     assertEquals(Utils.currencyConvert(rentHousingModelWeb.getCurrency()), capturedRentHousing.getCurrency());
     assertEquals(rentHousingModelWeb.getTransactionDate(), capturedRentHousing.getTransactionDate());
+    assertEquals(rentHousingModelWeb.getTransactionType(), capturedRentHousing.getTransactionType());
     assertEquals(rentHousingModelWeb.getCardNum(), capturedRentHousing.getCardNum());
     assertEquals(rentHousingModelWeb.getOperDescription(), capturedRentHousing.getOperDescription());
     assertEquals("s_renthousing", result);
@@ -160,6 +170,7 @@ public class WebFormsControllerTest {
     telecomModelWeb.setAmount(100);
     telecomModelWeb.setCurrency("EUR");
     telecomModelWeb.setTransactionDate(convertToDate("01.02.2025 11:00"));
+    telecomModelWeb.setTransactionType("Card");
     telecomModelWeb.setCardNum(1234);
     telecomModelWeb.setOperDescription("Regular monthly pay");
 
@@ -172,6 +183,7 @@ public class WebFormsControllerTest {
     assertEquals(telecomModelWeb.getAmount(), capturedTelecom.getAmount());
     assertEquals(Utils.currencyConvert(telecomModelWeb.getCurrency()), capturedTelecom.getCurrency());
     assertEquals(telecomModelWeb.getTransactionDate(), capturedTelecom.getTransactionDate());
+    assertEquals(telecomModelWeb.getTransactionType(), capturedTelecom.getTransactionType());
     assertEquals(telecomModelWeb.getCardNum(), capturedTelecom.getCardNum());
     assertEquals(telecomModelWeb.getOperDescription(), capturedTelecom.getOperDescription());
     assertEquals("s_telecom", result);
@@ -184,6 +196,7 @@ public class WebFormsControllerTest {
     travelModelWeb.setAmount(5);
     travelModelWeb.setCurrency("DKK");
     travelModelWeb.setTransactionDate(convertToDate("07.02.2025 11:00"));
+    travelModelWeb.setTransactionType("Cash");
     travelModelWeb.setCardNum(1234);
     travelModelWeb.setDestination("Kalundborg");
     travelModelWeb.setOperDescription("Hotel in the city");
@@ -197,10 +210,35 @@ public class WebFormsControllerTest {
     assertEquals(travelModelWeb.getAmount(), capturedTravel.getAmount());
     assertEquals(Utils.currencyConvert(travelModelWeb.getCurrency()), capturedTravel.getCurrency());
     assertEquals(travelModelWeb.getTransactionDate(), capturedTravel.getTransactionDate());
+    assertEquals(travelModelWeb.getTransactionType(), capturedTravel.getTransactionType());
     assertEquals(travelModelWeb.getCardNum(), capturedTravel.getCardNum());
     assertEquals(travelModelWeb.getDestination(), capturedTravel.getDestination());
     assertEquals(travelModelWeb.getOperDescription(), capturedTravel.getOperDescription());
     assertEquals("s_travel", result);
+  }
+
+  @Test
+  public void testGoToMain() {
+    UserModel userModel = new UserModel();
+    userModel.setUsername("Denys");
+    userModel.setPassword("1234567890");
+    ArgumentCaptor<UserModel> captor = ArgumentCaptor.forClass(UserModel.class);
+    String result = webFormsController.goToMain(userModel);
+    Mockito.verify(dbService).checkLogin(captor.capture());
+    assertEquals("wrong_auth", result);
+  }
+
+  @Test
+  public void testSubmitNewAtm() {
+    AtmModelWeb atmModelWeb = new AtmModelWeb();
+    atmModelWeb.setOperType("Expenses");
+    atmModelWeb.setAmount(1000);
+    atmModelWeb.setTransactionDate(convertToDate("07.02.2025 11:00"));
+    atmModelWeb.setOperDescription("Test operation");
+    ArgumentCaptor<AtmModelWeb> captor = ArgumentCaptor.forClass(AtmModelWeb.class);
+    String result = webFormsController.submitNewAtmCash(atmModelWeb);
+    Mockito.verify(dbService).insertNewAtmCash(captor.capture());
+    assertEquals("s_atm_cash", result);
   }
 
   private Date convertToDate(String dateInString) {

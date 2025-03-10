@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS "income" (
 	"i_type" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
+	"operType" varchar(255) NOT NULL,
 	"date" timestamp with time zone NOT NULL,
 	"target_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
@@ -19,6 +20,7 @@ CREATE TABLE IF NOT EXISTS "groceries" (
 	"g_type" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
+	"operType" varchar(255) NOT NULL,
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
@@ -30,6 +32,7 @@ CREATE TABLE IF NOT EXISTS "housing_rent" (
 	"hr_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
+	"operType" varchar(255) NOT NULL,
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
@@ -41,6 +44,7 @@ CREATE TABLE IF NOT EXISTS "travel" (
 	"tr_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
+	"operType" varchar(255) NOT NULL,
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"destination" varchar(255) NOT NULL,
@@ -53,6 +57,7 @@ CREATE TABLE IF NOT EXISTS "entertainment" (
 	"event_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
+	"operType" varchar(255) NOT NULL,
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
@@ -64,6 +69,7 @@ CREATE TABLE IF NOT EXISTS "health" (
 	"h_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
+	"operType" varchar(255) NOT NULL,
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
@@ -75,6 +81,7 @@ CREATE TABLE IF NOT EXISTS "telecom" (
 	"t_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
 	"currency" bigint NOT NULL,
+	"operType" varchar(255) NOT NULL,
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
@@ -91,6 +98,20 @@ CREATE TABLE IF NOT EXISTS "income_type" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
 	"inc_type" varchar(255) NOT NULL,
 	PRIMARY KEY ("id")
+);
+
+create table cash_balance
+(
+    balance integer
+);
+
+CREATE TABLE IF NOT EXISTS "cash_operations_log" (
+        "id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
+        "optype" bigint NOT NULL,
+        "amount" bigint NOT NULL,
+        "date" timestamp with time zone NOT NULL,
+        "comments" varchar(255) NOT NULL,
+        PRIMARY KEY ("id")
 );
 
 ALTER TABLE "income" ADD CONSTRAINT "income_fk1" FOREIGN KEY ("i_type") REFERENCES "income_type"("id");
