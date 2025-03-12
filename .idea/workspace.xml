@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#113 - new version">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_login.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_login.sql" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#113 - function to get last login" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,22 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00221" summary="#103 - change on MainController">
-      <option name="closed" value="true" />
-      <created>1739219702925</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1739219702925</updated>
-    </task>
-    <task id="LOCAL-00222" summary="#103 - add TransactionType on html level">
-      <option name="closed" value="true" />
-      <created>1739219762163</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1739219762163</updated>
     </task>
     <task id="LOCAL-00223" summary="#103 - add TransactionType on webforms cntrl">
       <option name="closed" value="true" />
@@ -592,7 +573,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741808387170</updated>
     </task>
-    <option name="localTasksCounter" value="270" />
+    <task id="LOCAL-00270" summary="#113 - new version in case multiple users">
+      <option name="closed" value="true" />
+      <created>1741809349667</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1741809349667</updated>
+    </task>
+    <task id="LOCAL-00271" summary="#113 - function to get last login">
+      <option name="closed" value="true" />
+      <created>1741809610775</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1741809610775</updated>
+    </task>
+    <option name="localTasksCounter" value="272" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,8 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#98 - rename method" />
-    <MESSAGE value="#98 - unit test for additional functions page" />
     <MESSAGE value="#98 - new controller - AdditionalFuncPageController" />
     <MESSAGE value="#98 - new button click" />
     <MESSAGE value="#98 - new unit test" />
@@ -632,6 +627,8 @@
     <MESSAGE value="#113 - new table to track logins" />
     <MESSAGE value="#113 - user_last_login with timestamp" />
     <MESSAGE value="#113 - new version" />
-    <option name="LAST_COMMIT_MESSAGE" value="#113 - new version" />
+    <MESSAGE value="#113 - new version in case multiple users" />
+    <MESSAGE value="#113 - function to get last login" />
+    <option name="LAST_COMMIT_MESSAGE" value="#113 - function to get last login" />
   </component>
 </project>
