@@ -9,7 +9,8 @@ DECLARE
 
 BEGIN
 
-    SELECT username, password INTO db_user,db_password FROM users;
+    SELECT username, password INTO db_user,db_password FROM users
+    WHERE username = web_login;
 
     IF web_login = db_user AND web_password = db_password THEN
         validation_result := 1;
