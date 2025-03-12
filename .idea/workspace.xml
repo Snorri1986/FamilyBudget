@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#107 - solution for mobile chrome">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#91 - back to test DB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/entertainment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/groceries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/health.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/income.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/renthousing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/telecom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/travel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,22 +207,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00216" summary="#102 - new version of function with cash loging(housing)">
-      <option name="closed" value="true" />
-      <created>1738789402790</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1738789402790</updated>
-    </task>
-    <task id="LOCAL-00217" summary="#102 - new version of function with cash loging(telecom)">
-      <option name="closed" value="true" />
-      <created>1739217501134</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1739217501134</updated>
     </task>
     <task id="LOCAL-00218" summary="#102 - new version of function with cash loging(travel)">
       <option name="closed" value="true" />
@@ -593,7 +584,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741031152518</updated>
     </task>
-    <option name="localTasksCounter" value="265" />
+    <task id="LOCAL-00265" summary="#91 - new expenses type for groceries">
+      <option name="closed" value="true" />
+      <created>1741638706131</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1741638706131</updated>
+    </task>
+    <task id="LOCAL-00266" summary="#91 - back to test DB">
+      <option name="closed" value="true" />
+      <created>1741638864636</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1741638864636</updated>
+    </task>
+    <option name="localTasksCounter" value="267" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -608,8 +615,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#97 - new button on html page" />
-    <MESSAGE value="#98 - model for ATM cash operations" />
     <MESSAGE value="#98 - atm_cash temporary" />
     <MESSAGE value="#98 - rename others page" />
     <MESSAGE value="#98 - rename button" />
@@ -633,6 +638,8 @@
     <MESSAGE value="#107 - fix flatpickr solution" />
     <MESSAGE value="#107 - possible solution for mobile chrome" />
     <MESSAGE value="#107 - solution for mobile chrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="#107 - solution for mobile chrome" />
+    <MESSAGE value="#91 - new expenses type for groceries" />
+    <MESSAGE value="#91 - back to test DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="#91 - back to test DB" />
   </component>
 </project>

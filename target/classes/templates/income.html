@@ -71,13 +71,15 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 <script>
-    flatpickr("#transDate", {
-        dateFormat: "d.m.Y H:i",
-        enableTime: true,
-        noCalendar: false,
-        time_24hr: true,
-        maxDate: "today"
-    });
+    setTimeout(() => {
+        flatpickr("#transDate", {
+            dateFormat: "d.m.Y H:i",
+            enableTime: true,
+            noCalendar: false,
+            time_24hr: true,
+            maxDate: new Date()
+        });
+    }, 100);
 </script>
 </body>
 </html>
