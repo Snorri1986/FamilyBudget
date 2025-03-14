@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#114 - user column on health table">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#114 - user column on travel table" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,38 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00228" summary="#103 - new version of function">
-      <option name="closed" value="true" />
-      <created>1739221331947</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1739221331947</updated>
-    </task>
-    <task id="LOCAL-00229" summary="#103 - web forms cntrl and change of html">
-      <option name="closed" value="true" />
-      <created>1739221363257</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1739221363257</updated>
-    </task>
-    <task id="LOCAL-00230" summary="#96 - function minus_cash_balance">
-      <option name="closed" value="true" />
-      <created>1739390685917</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
-      <option name="project" value="LOCAL" />
-      <updated>1739390685917</updated>
-    </task>
-    <task id="LOCAL-00231" summary="#104 - func i_entertainment with cash_balance mins">
-      <option name="closed" value="true" />
-      <created>1739391412051</created>
-      <option name="number" value="00231" />
-      <option name="presentableId" value="LOCAL-00231" />
-      <option name="project" value="LOCAL" />
-      <updated>1739391412051</updated>
     </task>
     <task id="LOCAL-00232" summary="#104 - func i_groceries with cash_balance mins">
       <option name="closed" value="true" />
@@ -591,7 +557,39 @@
       <option name="project" value="LOCAL" />
       <updated>1741979522553</updated>
     </task>
-    <option name="localTasksCounter" value="277" />
+    <task id="LOCAL-00277" summary="#114 - user column on rent_housing table">
+      <option name="closed" value="true" />
+      <created>1741979623201</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1741979623201</updated>
+    </task>
+    <task id="LOCAL-00278" summary="#114 - user column on income table">
+      <option name="closed" value="true" />
+      <created>1741979726040</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1741979726040</updated>
+    </task>
+    <task id="LOCAL-00279" summary="#114 - user column on telecom table">
+      <option name="closed" value="true" />
+      <created>1741979813732</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1741979813732</updated>
+    </task>
+    <task id="LOCAL-00280" summary="#114 - user column on travel table">
+      <option name="closed" value="true" />
+      <created>1741979904251</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1741979904251</updated>
+    </task>
+    <option name="localTasksCounter" value="281" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,10 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#105 - atm_cash_register functions" />
-    <MESSAGE value="#98 - unit test to check ATM cash register" />
-    <MESSAGE value="#99 - new button - cash balance" />
-    <MESSAGE value="#99 - new DB function get_cash_balance" />
     <MESSAGE value="#99 - get Cash balance from DB" />
     <MESSAGE value="#99 - cash balance page" />
     <MESSAGE value="#99 - new get method - cashBalance" />
@@ -631,6 +625,10 @@
     <MESSAGE value="#114 - user column on entertainment table" />
     <MESSAGE value="#114 - user column on groceries table" />
     <MESSAGE value="#114 - user column on health table" />
-    <option name="LAST_COMMIT_MESSAGE" value="#114 - user column on health table" />
+    <MESSAGE value="#114 - user column on rent_housing table" />
+    <MESSAGE value="#114 - user column on income table" />
+    <MESSAGE value="#114 - user column on telecom table" />
+    <MESSAGE value="#114 - user column on travel table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#114 - user column on travel table" />
   </component>
 </project>
