@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#114 - user column on cash_operations_log table">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#114 - user_last_ses column on cash_operations_log table">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00233" summary="#104 - func i_health with cash_balance mins">
-      <option name="closed" value="true" />
-      <created>1739392023661</created>
-      <option name="number" value="00233" />
-      <option name="presentableId" value="LOCAL-00233" />
-      <option name="project" value="LOCAL" />
-      <updated>1739392023661</updated>
     </task>
     <task id="LOCAL-00234" summary="#104 - func i_housing_rent with cash_balance mins">
       <option name="closed" value="true" />
@@ -591,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741980026608</updated>
     </task>
-    <option name="localTasksCounter" value="282" />
+    <task id="LOCAL-00282" summary="#114 - user_last_ses column on cash_operations_log table">
+      <option name="closed" value="true" />
+      <created>1741980508985</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1741980508985</updated>
+    </task>
+    <option name="localTasksCounter" value="283" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,7 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#99 - cash balance page" />
     <MESSAGE value="#99 - new get method - cashBalance" />
     <MESSAGE value="#99 - showCashBalance()" />
     <MESSAGE value="#99 - show cash balance on the web page" />
@@ -631,6 +630,7 @@
     <MESSAGE value="#114 - user column on telecom table" />
     <MESSAGE value="#114 - user column on travel table" />
     <MESSAGE value="#114 - user column on cash_operations_log table" />
-    <option name="LAST_COMMIT_MESSAGE" value="#114 - user column on cash_operations_log table" />
+    <MESSAGE value="#114 - user_last_ses column on cash_operations_log table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#114 - user_last_ses column on cash_operations_log table" />
   </component>
 </project>
