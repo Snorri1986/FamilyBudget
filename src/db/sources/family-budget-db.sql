@@ -37,6 +37,7 @@ CREATE TABLE IF NOT EXISTS "housing_rent" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
+	"user" text NOT NULL
 	PRIMARY KEY ("id")
 );
 
