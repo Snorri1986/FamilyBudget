@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS "income" (
 	"date" timestamp with time zone NOT NULL,
 	"target_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
+	"user" text NOT NULL
 	PRIMARY KEY ("id")
 );
 
