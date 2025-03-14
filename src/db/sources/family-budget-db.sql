@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS "income" (
 	"date" timestamp with time zone NOT NULL,
 	"target_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user" text NOT NULL
+	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
 
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS "groceries" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user" text NOT NULL
+	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
 
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS "housing_rent" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user" text NOT NULL
+	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
 
@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS "travel" (
 	"source_card" bigint NOT NULL,
 	"destination" varchar(255) NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user" text NOT NULL
+	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
 
@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS "entertainment" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user" text NOT NULL
+	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
 
@@ -78,7 +78,7 @@ CREATE TABLE IF NOT EXISTS "health" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user" text NOT NULL
+	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
 
@@ -91,7 +91,7 @@ CREATE TABLE IF NOT EXISTS "telecom" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user" text NOT NULL
+	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
 
@@ -118,7 +118,7 @@ CREATE TABLE IF NOT EXISTS "cash_operations_log" (
         "amount" bigint NOT NULL,
         "date" timestamp with time zone NOT NULL,
         "comments" varchar(255) NOT NULL,
-        "user" text NOT NULL
+        "user_last_session" text NOT NULL
         PRIMARY KEY ("id")
 );
 
