@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#115 - i_telecom with last user">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#115 - atm_cash_register with last user">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_incomes.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_travel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_travel.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,22 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00240" summary="#97 - new button on html page">
-      <option name="closed" value="true" />
-      <created>1739560470885</created>
-      <option name="number" value="00240" />
-      <option name="presentableId" value="LOCAL-00240" />
-      <option name="project" value="LOCAL" />
-      <updated>1739560470885</updated>
-    </task>
-    <task id="LOCAL-00241" summary="#98 - model for ATM cash operations">
-      <option name="closed" value="true" />
-      <created>1739560929867</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1739560929867</updated>
     </task>
     <task id="LOCAL-00242" summary="#98 - atm_cash temporary">
       <option name="closed" value="true" />
@@ -592,7 +576,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742241234714</updated>
     </task>
-    <option name="localTasksCounter" value="289" />
+    <task id="LOCAL-00289" summary="#115 - i_travel with last user">
+      <option name="closed" value="true" />
+      <created>1742241603497</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1742241603497</updated>
+    </task>
+    <task id="LOCAL-00290" summary="#115 - atm_cash_register with last user">
+      <option name="closed" value="true" />
+      <created>1742241851358</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1742241851358</updated>
+    </task>
+    <option name="localTasksCounter" value="291" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,8 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#107 - possible solution for mobile chrome" />
-    <MESSAGE value="#107 - solution for mobile chrome" />
     <MESSAGE value="#91 - new expenses type for groceries" />
     <MESSAGE value="#91 - back to test DB" />
     <MESSAGE value="#113 - new table to track logins" />
@@ -632,6 +630,8 @@
     <MESSAGE value="#115 - i_housing_rent with last user" />
     <MESSAGE value="#115 - i_income with last user" />
     <MESSAGE value="#115 - i_telecom with last user" />
-    <option name="LAST_COMMIT_MESSAGE" value="#115 - i_telecom with last user" />
+    <MESSAGE value="#115 - i_travel with last user" />
+    <MESSAGE value="#115 - atm_cash_register with last user" />
+    <option name="LAST_COMMIT_MESSAGE" value="#115 - atm_cash_register with last user" />
   </component>
 </project>
