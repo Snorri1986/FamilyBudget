@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#115 - i_health with last user" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#115 - i_telecom with last user">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_travel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_travel.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,30 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00237" summary="#97 - css for others page">
-      <option name="closed" value="true" />
-      <created>1739559791633</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
-      <option name="project" value="LOCAL" />
-      <updated>1739559791633</updated>
-    </task>
-    <task id="LOCAL-00238" summary="#97 - css for others page">
-      <option name="closed" value="true" />
-      <created>1739559883308</created>
-      <option name="number" value="00238" />
-      <option name="presentableId" value="LOCAL-00238" />
-      <option name="project" value="LOCAL" />
-      <updated>1739559883308</updated>
-    </task>
-    <task id="LOCAL-00239" summary="#97 - new title">
-      <option name="closed" value="true" />
-      <created>1739560048592</created>
-      <option name="number" value="00239" />
-      <option name="presentableId" value="LOCAL-00239" />
-      <option name="project" value="LOCAL" />
-      <updated>1739560048592</updated>
     </task>
     <task id="LOCAL-00240" summary="#97 - new button on html page">
       <option name="closed" value="true" />
@@ -589,7 +568,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741982346042</updated>
     </task>
-    <option name="localTasksCounter" value="286" />
+    <task id="LOCAL-00286" summary="#115 - i_housing_rent with last user">
+      <option name="closed" value="true" />
+      <created>1742240968734</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1742240968735</updated>
+    </task>
+    <task id="LOCAL-00287" summary="#115 - i_income with last user">
+      <option name="closed" value="true" />
+      <created>1742241117061</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1742241117061</updated>
+    </task>
+    <task id="LOCAL-00288" summary="#115 - i_telecom with last user">
+      <option name="closed" value="true" />
+      <created>1742241234714</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1742241234714</updated>
+    </task>
+    <option name="localTasksCounter" value="289" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,9 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#84 - return back to PROD DB" />
-    <MESSAGE value="#107 - try with newDate()" />
-    <MESSAGE value="#107 - fix flatpickr solution" />
     <MESSAGE value="#107 - possible solution for mobile chrome" />
     <MESSAGE value="#107 - solution for mobile chrome" />
     <MESSAGE value="#91 - new expenses type for groceries" />
@@ -629,6 +629,9 @@
     <MESSAGE value="#115 - i_entertainment with last user" />
     <MESSAGE value="#115 - i_groceries with last user" />
     <MESSAGE value="#115 - i_health with last user" />
-    <option name="LAST_COMMIT_MESSAGE" value="#115 - i_health with last user" />
+    <MESSAGE value="#115 - i_housing_rent with last user" />
+    <MESSAGE value="#115 - i_income with last user" />
+    <MESSAGE value="#115 - i_telecom with last user" />
+    <option name="LAST_COMMIT_MESSAGE" value="#115 - i_telecom with last user" />
   </component>
 </project>
