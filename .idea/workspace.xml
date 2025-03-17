@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#115 - i_groceries with last user" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#115 - i_health with last user" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,14 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00236" summary="#104 - func i_travel with cash_balance mins">
-      <option name="closed" value="true" />
-      <created>1739559312305</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1739559312305</updated>
     </task>
     <task id="LOCAL-00237" summary="#97 - css for others page">
       <option name="closed" value="true" />
@@ -589,7 +581,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741981693653</updated>
     </task>
-    <option name="localTasksCounter" value="285" />
+    <task id="LOCAL-00285" summary="#115 - i_health with last user">
+      <option name="closed" value="true" />
+      <created>1741982346042</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1741982346042</updated>
+    </task>
+    <option name="localTasksCounter" value="286" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,7 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#99 - show cash balance on the web page" />
     <MESSAGE value="#84 - return back to PROD DB" />
     <MESSAGE value="#107 - try with newDate()" />
     <MESSAGE value="#107 - fix flatpickr solution" />
@@ -629,6 +628,7 @@
     <MESSAGE value="#114 - user_last_ses column on cash_operations_log table" />
     <MESSAGE value="#115 - i_entertainment with last user" />
     <MESSAGE value="#115 - i_groceries with last user" />
-    <option name="LAST_COMMIT_MESSAGE" value="#115 - i_groceries with last user" />
+    <MESSAGE value="#115 - i_health with last user" />
+    <option name="LAST_COMMIT_MESSAGE" value="#115 - i_health with last user" />
   </component>
 </project>
