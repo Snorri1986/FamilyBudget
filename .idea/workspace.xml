@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - model for last ten incomes operations">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - method on DB service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,22 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00245" summary="#98 - rename method">
-      <option name="closed" value="true" />
-      <created>1739562063154</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
-      <option name="project" value="LOCAL" />
-      <updated>1739562063154</updated>
-    </task>
-    <task id="LOCAL-00246" summary="#98 - unit test for additional functions page">
-      <option name="closed" value="true" />
-      <created>1739562293772</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
-      <option name="project" value="LOCAL" />
-      <updated>1739562293772</updated>
     </task>
     <task id="LOCAL-00247" summary="#98 - new controller - AdditionalFuncPageController">
       <option name="closed" value="true" />
@@ -592,7 +573,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742583854528</updated>
     </task>
-    <option name="localTasksCounter" value="294" />
+    <task id="LOCAL-00294" summary="#111 - model with constructor">
+      <option name="closed" value="true" />
+      <created>1742584620035</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1742584620035</updated>
+    </task>
+    <task id="LOCAL-00295" summary="#111 - method on DB service">
+      <option name="closed" value="true" />
+      <created>1742584652699</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1742584652699</updated>
+    </task>
+    <option name="localTasksCounter" value="296" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,8 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#113 - user_last_login with timestamp" />
-    <MESSAGE value="#113 - new version" />
     <MESSAGE value="#113 - new version in case multiple users" />
     <MESSAGE value="#113 - function to get last login" />
     <MESSAGE value="#113 - next version of application" />
@@ -632,6 +627,8 @@
     <MESSAGE value="#111 - get_last_ten_incomes" />
     <MESSAGE value="#111 - get_last_ten_cash_oper" />
     <MESSAGE value="#111 - model for last ten incomes operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - model for last ten incomes operations" />
+    <MESSAGE value="#111 - model with constructor" />
+    <MESSAGE value="#111 - method on DB service" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - method on DB service" />
   </component>
 </project>

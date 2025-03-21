@@ -1,6 +1,8 @@
 package org.snorri1986.familybud.controller;
 
 import org.snorri1986.familybud.models.*;
+import org.snorri1986.familybud.service.DBService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,6 +12,9 @@ import java.util.List;
 
 @Controller
 public class MainPageController {
+
+  @Autowired
+  DBService dbService;
 
   List<String> currencyNames = Arrays.asList("DKK", "EUR", "USD", "UAH", "Other");
   List<String> transactionTypes = Arrays.asList("Card", "Cash");
@@ -29,10 +34,12 @@ public class MainPageController {
   @GetMapping("/income")
   public String getIncomePage(Model model) {
     List<String> incomes = Arrays.asList("Salary", "Bonus", "TravelRefund", "ShopRefund","Money transfer R", "Other");
+    List<LastTenIncomesModel> lastTenIncomes = dbService.getLastTenIncomes();
     model.addAttribute("income_mod_attribute", new IncomeModelWeb());
     model.addAttribute("incomes", incomes);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("incomesLastTen", lastTenIncomes);
     return "income";
   }
 
