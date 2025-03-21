@@ -7,7 +7,7 @@ AS $function$
           SELECT c.id,c.optype,c.amount,c.date,c.comments
           FROM public.cash_operations_log c
           WHERE c.user_last_session = get_last_login()
-          ORDER BY i.date DESC
+          ORDER BY c.date DESC
           LIMIT 10;
 	END;
 $function$
