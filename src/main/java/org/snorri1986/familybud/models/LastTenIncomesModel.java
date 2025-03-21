@@ -10,6 +10,15 @@ public class LastTenIncomesModel {
   private long targetCard;
   private String comments;
 
+  public LastTenIncomesModel(long iType, long amount, long currency, ZonedDateTime date, long targetCard, String comments) {
+    this.iType = iType;
+    this.amount = amount;
+    this.currency = currency;
+    this.date = date;
+    this.targetCard = targetCard;
+    this.comments = comments;
+  }
+
   public long getiType() {
     return iType;
   }

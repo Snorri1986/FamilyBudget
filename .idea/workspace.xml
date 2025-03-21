@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - get_last_ten_cash_oper">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenIncomesModel.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - model for last ten incomes operations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -199,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00244" summary="#98 - rename button">
-      <option name="closed" value="true" />
-      <created>1739561933196</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
-      <option name="project" value="LOCAL" />
-      <updated>1739561933196</updated>
     </task>
     <task id="LOCAL-00245" summary="#98 - rename method">
       <option name="closed" value="true" />
@@ -592,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742243675142</updated>
     </task>
-    <option name="localTasksCounter" value="293" />
+    <task id="LOCAL-00293" summary="#111 - model for last ten incomes operations">
+      <option name="closed" value="true" />
+      <created>1742583854528</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1742583854528</updated>
+    </task>
+    <option name="localTasksCounter" value="294" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#113 - new table to track logins" />
     <MESSAGE value="#113 - user_last_login with timestamp" />
     <MESSAGE value="#113 - new version" />
     <MESSAGE value="#113 - new version in case multiple users" />
@@ -632,6 +631,7 @@
     <MESSAGE value="#115 - atm_cash_register with last user" />
     <MESSAGE value="#111 - get_last_ten_incomes" />
     <MESSAGE value="#111 - get_last_ten_cash_oper" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - get_last_ten_cash_oper" />
+    <MESSAGE value="#111 - model for last ten incomes operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - model for last ten incomes operations" />
   </component>
 </project>
