@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - get_last_ten_incomes" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - get_last_ten_cash_oper">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenIncomesModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00243" summary="#98 - rename others page">
-      <option name="closed" value="true" />
-      <created>1739561839880</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1739561839880</updated>
     </task>
     <task id="LOCAL-00244" summary="#98 - rename button">
       <option name="closed" value="true" />
@@ -589,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742243301486</updated>
     </task>
-    <option name="localTasksCounter" value="292" />
+    <task id="LOCAL-00292" summary="#111 - get_last_ten_cash_oper">
+      <option name="closed" value="true" />
+      <created>1742243675142</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1742243675142</updated>
+    </task>
+    <option name="localTasksCounter" value="293" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#91 - back to test DB" />
     <MESSAGE value="#113 - new table to track logins" />
     <MESSAGE value="#113 - user_last_login with timestamp" />
     <MESSAGE value="#113 - new version" />
@@ -629,6 +631,7 @@
     <MESSAGE value="#115 - i_travel with last user" />
     <MESSAGE value="#115 - atm_cash_register with last user" />
     <MESSAGE value="#111 - get_last_ten_incomes" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - get_last_ten_incomes" />
+    <MESSAGE value="#111 - get_last_ten_cash_oper" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - get_last_ten_cash_oper" />
   </component>
 </project>
