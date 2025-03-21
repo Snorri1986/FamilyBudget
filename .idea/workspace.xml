@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - method on DB service" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - adjustment on web page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/income.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,22 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00247" summary="#98 - new controller - AdditionalFuncPageController">
-      <option name="closed" value="true" />
-      <created>1739819070456</created>
-      <option name="number" value="00247" />
-      <option name="presentableId" value="LOCAL-00247" />
-      <option name="project" value="LOCAL" />
-      <updated>1739819070456</updated>
-    </task>
-    <task id="LOCAL-00248" summary="#98 - new button click">
-      <option name="closed" value="true" />
-      <created>1739819105378</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1739819105378</updated>
     </task>
     <task id="LOCAL-00249" summary="#98 - new unit test">
       <option name="closed" value="true" />
@@ -589,7 +580,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742584652699</updated>
     </task>
-    <option name="localTasksCounter" value="296" />
+    <task id="LOCAL-00296" summary="#111 - getIncomePage adjustment">
+      <option name="closed" value="true" />
+      <created>1742584904742</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1742584904742</updated>
+    </task>
+    <task id="LOCAL-00297" summary="#111 - adjustment on web page">
+      <option name="closed" value="true" />
+      <created>1742585057076</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1742585057076</updated>
+    </task>
+    <option name="localTasksCounter" value="298" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,8 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#113 - new version in case multiple users" />
-    <MESSAGE value="#113 - function to get last login" />
     <MESSAGE value="#113 - next version of application" />
     <MESSAGE value="#114 - user column on entertainment table" />
     <MESSAGE value="#114 - user column on groceries table" />
@@ -629,6 +634,8 @@
     <MESSAGE value="#111 - model for last ten incomes operations" />
     <MESSAGE value="#111 - model with constructor" />
     <MESSAGE value="#111 - method on DB service" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - method on DB service" />
+    <MESSAGE value="#111 - getIncomePage adjustment" />
+    <MESSAGE value="#111 - adjustment on web page" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - adjustment on web page" />
   </component>
 </project>
