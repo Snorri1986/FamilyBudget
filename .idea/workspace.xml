@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - adjustment style on web page">
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/income.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/income.css" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - fix alias">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenCashOperModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00250" summary="#98 - web page and controller">
-      <option name="closed" value="true" />
-      <created>1739820116650</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1739820116650</updated>
     </task>
     <task id="LOCAL-00251" summary="#105 - atm_cash_register functions">
       <option name="closed" value="true" />
@@ -591,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742585753578</updated>
     </task>
-    <option name="localTasksCounter" value="299" />
+    <task id="LOCAL-00299" summary="#111 - fix alias">
+      <option name="closed" value="true" />
+      <created>1742586082468</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1742586082468</updated>
+    </task>
+    <option name="localTasksCounter" value="300" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#114 - user column on entertainment table" />
     <MESSAGE value="#114 - user column on groceries table" />
     <MESSAGE value="#114 - user column on health table" />
     <MESSAGE value="#114 - user column on rent_housing table" />
@@ -631,6 +631,7 @@
     <MESSAGE value="#111 - getIncomePage adjustment" />
     <MESSAGE value="#111 - adjustment on web page" />
     <MESSAGE value="#111 - adjustment style on web page" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - adjustment style on web page" />
+    <MESSAGE value="#111 - fix alias" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - fix alias" />
   </component>
 </project>
