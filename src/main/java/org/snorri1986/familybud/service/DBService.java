@@ -136,6 +136,19 @@ public class DBService {
       }
     });
   }
+
+  public List<LastTenCashOperModel> getLastTenCashOperations() {
+    String sql = "SELECT * FROM get_last_ten_cash_oper()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenCashOperModel>() {
+      @Override
+      public LastTenCashOperModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenCashOperModel(rs.getLong("optype"),
+                rs.getLong("amount"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getString("comments"));
+      }
+    });
+  }
 }
 
 
