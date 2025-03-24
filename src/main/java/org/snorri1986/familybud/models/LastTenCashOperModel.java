@@ -8,7 +8,7 @@ public class LastTenCashOperModel {
   private ZonedDateTime date;
   private String comments;
 
-  public LastTenCashOperModel(long opType, long amount, ZonedDateTime date, String comments) {
+  public LastTenCashOperModel(long opType,long amount, ZonedDateTime date, String comments) {
     this.opType = opType;
     this.amount = amount;
     this.date = date;
