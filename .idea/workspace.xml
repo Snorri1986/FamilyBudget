@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - fix error on comments">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - get_last_ten_entertainment">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenEntertainmentModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00259" summary="#99 - show cash balance on the web page">
-      <option name="closed" value="true" />
-      <created>1740773217551</created>
-      <option name="number" value="00259" />
-      <option name="presentableId" value="LOCAL-00259" />
-      <option name="project" value="LOCAL" />
-      <updated>1740773217552</updated>
     </task>
     <task id="LOCAL-00260" summary="#84 - return back to PROD DB">
       <option name="closed" value="true" />
@@ -591,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742843101955</updated>
     </task>
-    <option name="localTasksCounter" value="308" />
+    <task id="LOCAL-00308" summary="#111 - get_last_ten_entertainment">
+      <option name="closed" value="true" />
+      <created>1742844618188</created>
+      <option name="number" value="00308" />
+      <option name="presentableId" value="LOCAL-00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1742844618188</updated>
+    </task>
+    <option name="localTasksCounter" value="309" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,7 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#114 - user_last_ses column on cash_operations_log table" />
     <MESSAGE value="#115 - i_entertainment with last user" />
     <MESSAGE value="#115 - i_groceries with last user" />
     <MESSAGE value="#115 - i_health with last user" />
@@ -631,6 +630,7 @@
     <MESSAGE value="#111 - changes on getAtmCashPage method" />
     <MESSAGE value="#111 - changes on html side" />
     <MESSAGE value="#111 - fix error on comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - fix error on comments" />
+    <MESSAGE value="#111 - get_last_ten_entertainment" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - get_last_ten_entertainment" />
   </component>
 </project>
