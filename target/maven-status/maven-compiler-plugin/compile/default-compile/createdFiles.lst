@@ -1,4 +1,6 @@
 org\snorri1986\familybud\models\LastTenIncomesModel.class
+org\snorri1986\familybud\models\LastTenCashOperModel.class
+org\snorri1986\familybud\service\DBService$2.class
 org\snorri1986\familybud\models\EntertainmentModelDB.class
 org\snorri1986\familybud\models\AtmModelWeb.class
 org\snorri1986\familybud\models\HealthModelDB.class
