@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - last ten cash operations model">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - new method getLastTenCashOperations()" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,22 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00254" summary="#99 - new DB function get_cash_balance">
-      <option name="closed" value="true" />
-      <created>1739993247693</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
-      <option name="project" value="LOCAL" />
-      <updated>1739993247693</updated>
-    </task>
-    <task id="LOCAL-00255" summary="#99 - get Cash balance from DB">
-      <option name="closed" value="true" />
-      <created>1739993647106</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
-      <option name="project" value="LOCAL" />
-      <updated>1739993647106</updated>
     </task>
     <task id="LOCAL-00256" summary="#99 - cash balance page">
       <option name="closed" value="true" />
@@ -591,7 +573,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742842022745</updated>
     </task>
-    <option name="localTasksCounter" value="303" />
+    <task id="LOCAL-00303" summary="#111 - changes on model side">
+      <option name="closed" value="true" />
+      <created>1742842436696</created>
+      <option name="number" value="00303" />
+      <option name="presentableId" value="LOCAL-00303" />
+      <option name="project" value="LOCAL" />
+      <updated>1742842436696</updated>
+    </task>
+    <task id="LOCAL-00304" summary="#111 - new method getLastTenCashOperations()">
+      <option name="closed" value="true" />
+      <created>1742842468985</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1742842468985</updated>
+    </task>
+    <option name="localTasksCounter" value="305" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,8 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#114 - user column on rent_housing table" />
-    <MESSAGE value="#114 - user column on income table" />
     <MESSAGE value="#114 - user column on telecom table" />
     <MESSAGE value="#114 - user column on travel table" />
     <MESSAGE value="#114 - user column on cash_operations_log table" />
@@ -631,6 +627,8 @@
     <MESSAGE value="#111 - fix alias" />
     <MESSAGE value="#111 - fix fields" />
     <MESSAGE value="#111 - last ten cash operations model" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - last ten cash operations model" />
+    <MESSAGE value="#111 - changes on model side" />
+    <MESSAGE value="#111 - new method getLastTenCashOperations()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - new method getLastTenCashOperations()" />
   </component>
 </project>
