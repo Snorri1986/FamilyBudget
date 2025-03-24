@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - changes on getAtmCashPage method">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/atm_cash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/atm_cash.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - fix error on comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,22 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00257" summary="#99 - new get method - cashBalance">
-      <option name="closed" value="true" />
-      <created>1739994338180</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1739994338180</updated>
-    </task>
-    <task id="LOCAL-00258" summary="#99 - showCashBalance()">
-      <option name="closed" value="true" />
-      <created>1739994921962</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1739994921962</updated>
     </task>
     <task id="LOCAL-00259" summary="#99 - show cash balance on the web page">
       <option name="closed" value="true" />
@@ -592,7 +575,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742842700395</updated>
     </task>
-    <option name="localTasksCounter" value="306" />
+    <task id="LOCAL-00306" summary="#111 - changes on html side">
+      <option name="closed" value="true" />
+      <created>1742842988120</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1742842988120</updated>
+    </task>
+    <task id="LOCAL-00307" summary="#111 - fix error on comments">
+      <option name="closed" value="true" />
+      <created>1742843101955</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1742843101955</updated>
+    </task>
+    <option name="localTasksCounter" value="308" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,8 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#114 - user column on travel table" />
-    <MESSAGE value="#114 - user column on cash_operations_log table" />
     <MESSAGE value="#114 - user_last_ses column on cash_operations_log table" />
     <MESSAGE value="#115 - i_entertainment with last user" />
     <MESSAGE value="#115 - i_groceries with last user" />
@@ -632,6 +629,8 @@
     <MESSAGE value="#111 - changes on model side" />
     <MESSAGE value="#111 - new method getLastTenCashOperations()" />
     <MESSAGE value="#111 - changes on getAtmCashPage method" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - changes on getAtmCashPage method" />
+    <MESSAGE value="#111 - changes on html side" />
+    <MESSAGE value="#111 - fix error on comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - fix error on comments" />
   </component>
 </project>
