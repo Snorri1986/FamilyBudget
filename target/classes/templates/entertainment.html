@@ -81,12 +81,12 @@
         </thead>
         <tbody>
         <tr th:each="ent_event : ${entertainmentLastTen}">
-            <td th:text="${ent_event.event_type_id}"></td>
+            <td th:text="${ent_event.eventTypeId}"></td>
             <td th:text="${ent_event.amount}"></td>
             <td th:text="${ent_event.currency}"></td>
             <td th:text="${ent_event.date}"></td>
-            <td th:text="${ent_event.source_card}"></td>
-            <td th:text="${ent_event.opertype}"></td>
+            <td th:text="${ent_event.sourceCard}"></td>
+            <td th:text="${ent_event.operType}"></td>
             <td th:text="${ent_event.comments}"></td>
         </tr>
         </tbody>
