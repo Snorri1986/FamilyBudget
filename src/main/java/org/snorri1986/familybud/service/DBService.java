@@ -165,6 +165,22 @@ public class DBService {
       }
     });
   }
+
+  public List<LastTenGroceriesOperModel> getLastTenGroceriesOperations() {
+    String sql = "SELECT * FROM get_last_ten_groceries_oper()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenGroceriesOperModel>() {
+      @Override
+      public LastTenGroceriesOperModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenGroceriesOperModel(rs.getLong("g_type"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("source_card"),
+                rs.getString("opertype"),
+                rs.getString("comments"));
+      }
+    });
+  }
 }
 
 
