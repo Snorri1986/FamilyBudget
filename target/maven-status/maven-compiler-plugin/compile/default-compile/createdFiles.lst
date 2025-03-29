@@ -14,7 +14,9 @@ org\snorri1986\familybud\models\IncomeModelDB.class
 org\snorri1986\familybud\models\RentHousingModelDB.class
 org\snorri1986\familybud\controller\AdditionalFuncPageController.class
 org\snorri1986\familybud\FamilyBudgetMain.class
+org\snorri1986\familybud\service\DBService$4.class
 org\snorri1986\familybud\controller\MainPageController.class
+org\snorri1986\familybud\models\LastTenGroceriesOperModel.class
 org\snorri1986\familybud\models\IncomeModelWeb.class
 org\snorri1986\familybud\DataSourceConfig.class
 org\snorri1986\familybud\models\TelecomModelWeb.class

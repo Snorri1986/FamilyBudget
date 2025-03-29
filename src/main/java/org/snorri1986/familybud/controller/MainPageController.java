@@ -58,10 +58,12 @@ public class MainPageController {
   @GetMapping("/groceries")
   public String getGroceriesPage(Model model) {
     List<String> purchesList = Arrays.asList("Daily","Weekly","Weekend","Fest","Clothes","Lunch at work","Other");
+    List<LastTenGroceriesOperModel> lastTenGroceries = dbService.getLastTenGroceriesOperations();
     model.addAttribute("groceries_mod_attribute", new GroceriesModelWeb());
     model.addAttribute("purchesList", purchesList);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("groceriesLastTen", lastTenGroceries);
     return "groceries";
   }
 
