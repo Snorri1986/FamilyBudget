@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - adjustment groceries endpoint">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - change frontend side for groceries">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/groceries.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/groceries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/groceries.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00269" summary="#113 - new version">
-      <option name="closed" value="true" />
-      <created>1741808387170</created>
-      <option name="number" value="00269" />
-      <option name="presentableId" value="LOCAL-00269" />
-      <option name="project" value="LOCAL" />
-      <updated>1741808387170</updated>
     </task>
     <task id="LOCAL-00270" summary="#113 - new version in case multiple users">
       <option name="closed" value="true" />
@@ -591,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743240146090</updated>
     </task>
-    <option name="localTasksCounter" value="318" />
+    <task id="LOCAL-00318" summary="#111 - change frontend side for groceries">
+      <option name="closed" value="true" />
+      <created>1743240438860</created>
+      <option name="number" value="00318" />
+      <option name="presentableId" value="LOCAL-00318" />
+      <option name="project" value="LOCAL" />
+      <updated>1743240438860</updated>
+    </task>
+    <option name="localTasksCounter" value="319" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - get_last_ten_cash_oper" />
     <MESSAGE value="#111 - model for last ten incomes operations" />
     <MESSAGE value="#111 - model with constructor" />
     <MESSAGE value="#111 - method on DB service" />
@@ -631,6 +633,7 @@
     <MESSAGE value="#111 - model for groceries operations" />
     <MESSAGE value="#111 - DB service method for groceries operations" />
     <MESSAGE value="#111 - adjustment groceries endpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - adjustment groceries endpoint" />
+    <MESSAGE value="#111 - change frontend side for groceries" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - change frontend side for groceries" />
   </component>
 </project>

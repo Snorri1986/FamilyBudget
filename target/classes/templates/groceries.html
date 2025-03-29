@@ -66,6 +66,31 @@
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+    <h2>Last 10 Groceries operations</h2>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Groceries Type</th>
+            <th>Amount</th>
+            <th>Currency</th>
+            <th>Date</th>
+            <th>Card</th>
+            <th>Operation type</th>
+            <th>Comments</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="groceries : ${groceriesLastTen}">
+            <td th:text="${groceries.groceriesType}"></td>
+            <td th:text="${groceries.amount}"></td>
+            <td th:text="${groceries.currency}"></td>
+            <td th:text="${groceries.date}"></td>
+            <td th:text="${groceries.sourceCard}"></td>
+            <td th:text="${groceries.operType}"></td>
+            <td th:text="${groceries.comments}"></td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
