@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - model for groceries operations">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - adjustment groceries endpoint">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,22 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00267" summary="#113 - new table to track logins">
-      <option name="closed" value="true" />
-      <created>1741806668384</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
-      <option name="project" value="LOCAL" />
-      <updated>1741806668384</updated>
-    </task>
-    <task id="LOCAL-00268" summary="#113 - user_last_login with timestamp">
-      <option name="closed" value="true" />
-      <created>1741808265185</created>
-      <option name="number" value="00268" />
-      <option name="presentableId" value="LOCAL-00268" />
-      <option name="project" value="LOCAL" />
-      <updated>1741808265185</updated>
     </task>
     <task id="LOCAL-00269" summary="#113 - new version">
       <option name="closed" value="true" />
@@ -592,7 +575,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743192189783</updated>
     </task>
-    <option name="localTasksCounter" value="316" />
+    <task id="LOCAL-00316" summary="#111 - DB service method for groceries operations">
+      <option name="closed" value="true" />
+      <created>1743239932894</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1743239932894</updated>
+    </task>
+    <task id="LOCAL-00317" summary="#111 - adjustment groceries endpoint">
+      <option name="closed" value="true" />
+      <created>1743240146090</created>
+      <option name="number" value="00317" />
+      <option name="presentableId" value="LOCAL-00317" />
+      <option name="project" value="LOCAL" />
+      <updated>1743240146090</updated>
+    </task>
+    <option name="localTasksCounter" value="318" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,8 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#115 - atm_cash_register with last user" />
-    <MESSAGE value="#111 - get_last_ten_incomes" />
     <MESSAGE value="#111 - get_last_ten_cash_oper" />
     <MESSAGE value="#111 - model for last ten incomes operations" />
     <MESSAGE value="#111 - model with constructor" />
@@ -632,6 +629,8 @@
     <MESSAGE value="#111 - need to use fields from java model" />
     <MESSAGE value="#111 - db function for groceries" />
     <MESSAGE value="#111 - model for groceries operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - model for groceries operations" />
+    <MESSAGE value="#111 - DB service method for groceries operations" />
+    <MESSAGE value="#111 - adjustment groceries endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - adjustment groceries endpoint" />
   </component>
 </project>
