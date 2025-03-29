@@ -181,6 +181,22 @@ public class DBService {
       }
     });
   }
+
+  public List<LastTenHealthOperations> getLastTenHealthOperations() {
+    String sql = "SELECT * FROM get_last_ten_health_oper()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenHealthOperations>() {
+      @Override
+      public LastTenHealthOperations mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenHealthOperations(rs.getLong("h_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("source_card"),
+                rs.getString("opertype"),
+                rs.getString("comments"));
+      }
+    });
+  }
 }
 
 

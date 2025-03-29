@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - db function for health operations">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHealthOperations.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - model for health operations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00271" summary="#113 - function to get last login">
-      <option name="closed" value="true" />
-      <created>1741809610775</created>
-      <option name="number" value="00271" />
-      <option name="presentableId" value="LOCAL-00271" />
-      <option name="project" value="LOCAL" />
-      <updated>1741809610775</updated>
     </task>
     <task id="LOCAL-00272" summary="#113 - next version of application">
       <option name="closed" value="true" />
@@ -592,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743241251432</updated>
     </task>
-    <option name="localTasksCounter" value="320" />
+    <task id="LOCAL-00320" summary="#111 - model for health operations">
+      <option name="closed" value="true" />
+      <created>1743244638784</created>
+      <option name="number" value="00320" />
+      <option name="presentableId" value="LOCAL-00320" />
+      <option name="project" value="LOCAL" />
+      <updated>1743244638784</updated>
+    </task>
+    <option name="localTasksCounter" value="321" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - model with constructor" />
     <MESSAGE value="#111 - method on DB service" />
     <MESSAGE value="#111 - getIncomePage adjustment" />
     <MESSAGE value="#111 - adjustment on web page" />
@@ -632,6 +631,7 @@
     <MESSAGE value="#111 - adjustment groceries endpoint" />
     <MESSAGE value="#111 - change frontend side for groceries" />
     <MESSAGE value="#111 - db function for health operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - db function for health operations" />
+    <MESSAGE value="#111 - model for health operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - model for health operations" />
   </component>
 </project>
