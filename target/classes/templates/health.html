@@ -66,6 +66,31 @@
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+    <h2>Last 10 Health operations</h2>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Health Type</th>
+            <th>Amount</th>
+            <th>Currency</th>
+            <th>Date</th>
+            <th>Card</th>
+            <th>Operation type</th>
+            <th>Comments</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="health : ${healthLastTen}">
+            <td th:text="${health.healthType}"></td>
+            <td th:text="${health.amount}"></td>
+            <td th:text="${health.currency}"></td>
+            <td th:text="${health.date}"></td>
+            <td th:text="${health.sourceCard}"></td>
+            <td th:text="${health.operType}"></td>
+            <td th:text="${health.comments}"></td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - model for health operations">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - adjustment for health endpoint">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,22 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00272" summary="#113 - next version of application">
-      <option name="closed" value="true" />
-      <created>1741809683270</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1741809683270</updated>
-    </task>
-    <task id="LOCAL-00273" summary="#113 - next version of application">
-      <option name="closed" value="true" />
-      <created>1741809762326</created>
-      <option name="number" value="00273" />
-      <option name="presentableId" value="LOCAL-00273" />
-      <option name="project" value="LOCAL" />
-      <updated>1741809762326</updated>
     </task>
     <task id="LOCAL-00274" summary="#114 - user column on entertainment table">
       <option name="closed" value="true" />
@@ -592,7 +576,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743244638784</updated>
     </task>
-    <option name="localTasksCounter" value="321" />
+    <task id="LOCAL-00321" summary="#111 - db service for health operations">
+      <option name="closed" value="true" />
+      <created>1743245302638</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1743245302638</updated>
+    </task>
+    <task id="LOCAL-00322" summary="#111 - adjustment for health endpoint">
+      <option name="closed" value="true" />
+      <created>1743245411615</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1743245411615</updated>
+    </task>
+    <option name="localTasksCounter" value="323" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,8 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - method on DB service" />
-    <MESSAGE value="#111 - getIncomePage adjustment" />
     <MESSAGE value="#111 - adjustment on web page" />
     <MESSAGE value="#111 - adjustment style on web page" />
     <MESSAGE value="#111 - fix alias" />
@@ -632,6 +630,8 @@
     <MESSAGE value="#111 - change frontend side for groceries" />
     <MESSAGE value="#111 - db function for health operations" />
     <MESSAGE value="#111 - model for health operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - model for health operations" />
+    <MESSAGE value="#111 - db service for health operations" />
+    <MESSAGE value="#111 - adjustment for health endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - adjustment for health endpoint" />
   </component>
 </project>
