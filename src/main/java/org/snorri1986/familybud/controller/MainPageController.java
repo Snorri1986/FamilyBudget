@@ -94,10 +94,12 @@ public class MainPageController {
   @GetMapping("/telecom")
   public String getTelecomPage(Model model) {
     List<String> telecomOperations = Arrays.asList("Mobile","Internet","Roaming bundles","Others");
+    List<LastTenTelecomOperationsModel> lastTenTelecom = dbService.getLastTenTelecomOperations();
     model.addAttribute("telecom_mod_attribute", new TelecomModelWeb());
     model.addAttribute("telecomOperations", telecomOperations);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("telecomLastTen", lastTenTelecom);
     return "telecom";
   }
 
