@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - model for rentHousing">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - change on controller level for rentHousing">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/renthousing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/renthousing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,22 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00277" summary="#114 - user column on rent_housing table">
-      <option name="closed" value="true" />
-      <created>1741979623201</created>
-      <option name="number" value="00277" />
-      <option name="presentableId" value="LOCAL-00277" />
-      <option name="project" value="LOCAL" />
-      <updated>1741979623201</updated>
-    </task>
-    <task id="LOCAL-00278" summary="#114 - user column on income table">
-      <option name="closed" value="true" />
-      <created>1741979726040</created>
-      <option name="number" value="00278" />
-      <option name="presentableId" value="LOCAL-00278" />
-      <option name="project" value="LOCAL" />
-      <updated>1741979726040</updated>
     </task>
     <task id="LOCAL-00279" summary="#114 - user column on telecom table">
       <option name="closed" value="true" />
@@ -591,7 +576,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743444824957</updated>
     </task>
-    <option name="localTasksCounter" value="326" />
+    <task id="LOCAL-00326" summary="#111 - db service method for rentHousing">
+      <option name="closed" value="true" />
+      <created>1743445223174</created>
+      <option name="number" value="00326" />
+      <option name="presentableId" value="LOCAL-00326" />
+      <option name="project" value="LOCAL" />
+      <updated>1743445223174</updated>
+    </task>
+    <task id="LOCAL-00327" summary="#111 - change on controller level for rentHousing">
+      <option name="closed" value="true" />
+      <created>1743445333322</created>
+      <option name="number" value="00327" />
+      <option name="presentableId" value="LOCAL-00327" />
+      <option name="project" value="LOCAL" />
+      <updated>1743445333322</updated>
+    </task>
+    <option name="localTasksCounter" value="328" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,8 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - fix fields" />
-    <MESSAGE value="#111 - last ten cash operations model" />
     <MESSAGE value="#111 - changes on model side" />
     <MESSAGE value="#111 - new method getLastTenCashOperations()" />
     <MESSAGE value="#111 - changes on getAtmCashPage method" />
@@ -631,6 +630,8 @@
     <MESSAGE value="#111 - adjustment for health html and css" />
     <MESSAGE value="#111 - db function for rentHousing" />
     <MESSAGE value="#111 - model for rentHousing" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - model for rentHousing" />
+    <MESSAGE value="#111 - db service method for rentHousing" />
+    <MESSAGE value="#111 - change on controller level for rentHousing" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - change on controller level for rentHousing" />
   </component>
 </project>

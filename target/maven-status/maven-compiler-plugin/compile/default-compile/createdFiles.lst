@@ -25,8 +25,10 @@ org\snorri1986\familybud\models\TelecomModelWeb.class
 org\snorri1986\familybud\controller\WebFormsController.class
 org\snorri1986\familybud\service\DBService$3.class
 org\snorri1986\familybud\models\RentHousingModelWeb.class
+org\snorri1986\familybud\models\LastTenHousingRentOperations.class
 org\snorri1986\familybud\models\HealthModelWeb.class
 org\snorri1986\familybud\models\TravelModelWeb.class
+org\snorri1986\familybud\service\DBService$6.class
 org\snorri1986\familybud\models\LastTenEntertainmentModel.class
 org\snorri1986\familybud\models\TravelModelDB.class
 org\snorri1986\familybud\models\TelecomModelDB.class
