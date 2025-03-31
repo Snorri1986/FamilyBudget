@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - change on web level for rentHousing" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - model for telecom">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,22 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00280" summary="#114 - user column on travel table">
-      <option name="closed" value="true" />
-      <created>1741979904251</created>
-      <option name="number" value="00280" />
-      <option name="presentableId" value="LOCAL-00280" />
-      <option name="project" value="LOCAL" />
-      <updated>1741979904251</updated>
-    </task>
-    <task id="LOCAL-00281" summary="#114 - user column on cash_operations_log table">
-      <option name="closed" value="true" />
-      <created>1741980026608</created>
-      <option name="number" value="00281" />
-      <option name="presentableId" value="LOCAL-00281" />
-      <option name="project" value="LOCAL" />
-      <updated>1741980026608</updated>
     </task>
     <task id="LOCAL-00282" summary="#114 - user_last_ses column on cash_operations_log table">
       <option name="closed" value="true" />
@@ -589,7 +576,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743445674296</updated>
     </task>
-    <option name="localTasksCounter" value="329" />
+    <task id="LOCAL-00329" summary="#111 - db function for telecom">
+      <option name="closed" value="true" />
+      <created>1743446452869</created>
+      <option name="number" value="00329" />
+      <option name="presentableId" value="LOCAL-00329" />
+      <option name="project" value="LOCAL" />
+      <updated>1743446452869</updated>
+    </task>
+    <task id="LOCAL-00330" summary="#111 - model for telecom">
+      <option name="closed" value="true" />
+      <created>1743446616510</created>
+      <option name="number" value="00330" />
+      <option name="presentableId" value="LOCAL-00330" />
+      <option name="project" value="LOCAL" />
+      <updated>1743446616510</updated>
+    </task>
+    <option name="localTasksCounter" value="331" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,8 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - new method getLastTenCashOperations()" />
-    <MESSAGE value="#111 - changes on getAtmCashPage method" />
     <MESSAGE value="#111 - changes on html side" />
     <MESSAGE value="#111 - fix error on comments" />
     <MESSAGE value="#111 - get_last_ten_entertainment" />
@@ -629,6 +630,8 @@
     <MESSAGE value="#111 - db service method for rentHousing" />
     <MESSAGE value="#111 - change on controller level for rentHousing" />
     <MESSAGE value="#111 - change on web level for rentHousing" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - change on web level for rentHousing" />
+    <MESSAGE value="#111 - db function for telecom" />
+    <MESSAGE value="#111 - model for telecom" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - model for telecom" />
   </component>
 </project>
