@@ -182,12 +182,12 @@ public class DBService {
     });
   }
 
-  public List<LastTenHealthOperations> getLastTenHealthOperations() {
+  public List<LastTenHealthOperationsModel> getLastTenHealthOperations() {
     String sql = "SELECT * FROM get_last_ten_health_oper()";
-    return jdbcTemplate.query(sql, new RowMapper<LastTenHealthOperations>() {
+    return jdbcTemplate.query(sql, new RowMapper<LastTenHealthOperationsModel>() {
       @Override
-      public LastTenHealthOperations mapRow(ResultSet rs, int rowNum) throws SQLException {
-        return new LastTenHealthOperations(rs.getLong("h_type_id"),
+      public LastTenHealthOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenHealthOperationsModel(rs.getLong("h_type_id"),
                 rs.getLong("amount"),
                 rs.getLong("currency"),
                 rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),

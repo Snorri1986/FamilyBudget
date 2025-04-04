@@ -2,7 +2,7 @@ package org.snorri1986.familybud.models;
 
 import java.time.ZonedDateTime;
 
-public class LastTenHealthOperations {
+public class LastTenHealthOperationsModel {
   private long healthType;
   private long amount;
   private long currency;
@@ -11,7 +11,7 @@ public class LastTenHealthOperations {
   private String operType;
   private String comments;
 
-  public LastTenHealthOperations(long healthType, long amount, long currency, ZonedDateTime date, long sourceCard, String operType, String comments) {
+  public LastTenHealthOperationsModel(long healthType, long amount, long currency, ZonedDateTime date, long sourceCard, String operType, String comments) {
     this.healthType = healthType;
     this.amount = amount;
     this.currency = currency;

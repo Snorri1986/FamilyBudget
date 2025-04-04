@@ -3,6 +3,7 @@ D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\Groce
 D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\controller\MainPageController.java
 D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\IncomeModelWeb.java
 D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\IncomeModelDB.java
+D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\LastTenHealthOperationsModel.java
 D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\TravelModelDB.java
 D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\TravelModelWeb.java
 D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\Utils.java
@@ -21,7 +22,7 @@ D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\Groce
 D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\EntertainmentModelDB.java
 D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\LastTenHousingRentOperations.java
 D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\AtmModelWeb.java
-D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\LastTenHealthOperations.java
+D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\LastTenTravelOperationsModel.java
 D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\TelecomModelWeb.java
 D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\controller\WebFormsController.java
 D:\Applications\FamilyBudget\src\main\java\org\snorri1986\familybud\models\LastTenCashOperModel.java
