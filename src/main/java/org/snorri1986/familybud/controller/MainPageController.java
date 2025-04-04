@@ -82,7 +82,7 @@ public class MainPageController {
   @GetMapping("/renthousing")
   public String getRentHousingPage(Model model) {
     List<String> housingTypes = Arrays.asList("Rent","Mortage","Money transfer S","A-kass","Electricity","HouseEquipments","Renovation","Other");
-    List<LastTenHousingRentOperations> lastTenRentHousing = dbService.getLastTenHousingRentOperations();
+    List<LastTenHousingRentOperationsModel> lastTenRentHousing = dbService.getLastTenHousingRentOperations();
     model.addAttribute("rent_housing_mod_attribute", new RentHousingModelWeb());
     model.addAttribute("housingTypes", housingTypes);
     model.addAttribute("currencyNames", currencyNames);

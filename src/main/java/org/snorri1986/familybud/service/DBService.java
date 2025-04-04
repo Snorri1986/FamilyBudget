@@ -198,12 +198,12 @@ public class DBService {
     });
   }
 
-  public List<LastTenHousingRentOperations> getLastTenHousingRentOperations() {
+  public List<LastTenHousingRentOperationsModel> getLastTenHousingRentOperations() {
     String sql = "SELECT * FROM get_last_ten_housing_oper()";
-    return jdbcTemplate.query(sql, new RowMapper<LastTenHousingRentOperations>() {
+    return jdbcTemplate.query(sql, new RowMapper<LastTenHousingRentOperationsModel>() {
       @Override
-      public LastTenHousingRentOperations mapRow(ResultSet rs,int rowNum) throws SQLException {
-        return new LastTenHousingRentOperations(rs.getLong("hr_type_id"),
+      public LastTenHousingRentOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenHousingRentOperationsModel(rs.getLong("hr_type_id"),
                 rs.getLong("amount"),
                 rs.getLong("currency"),
                 rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),

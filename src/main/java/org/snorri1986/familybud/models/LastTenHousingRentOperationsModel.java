@@ -2,7 +2,7 @@ package org.snorri1986.familybud.models;
 
 import java.time.ZonedDateTime;
 
-public class LastTenHousingRentOperations {
+public class LastTenHousingRentOperationsModel {
   private long housingRentType;
   private long amount;
   private long currency;
@@ -11,7 +11,7 @@ public class LastTenHousingRentOperations {
   private String operType;
   private String comments;
 
-  public LastTenHousingRentOperations(long housingRentType, long amount, long currency, ZonedDateTime date, long sourceCard, String operType, String comments) {
+  public LastTenHousingRentOperationsModel(long housingRentType, long amount, long currency, ZonedDateTime date, long sourceCard, String operType, String comments) {
     this.housingRentType = housingRentType;
     this.amount = amount;
     this.currency = currency;
