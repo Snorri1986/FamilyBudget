@@ -80,7 +80,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr th:each="telecom : ${Introduce local variable}">
+    <tr th:each="telecom : ${telecomLastTen}">
       <td th:text="${telecom.telecomType}"></td>
       <td th:text="${telecom.amount}"></td>
       <td th:text="${telecom.currency}"></td>
