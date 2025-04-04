@@ -229,6 +229,23 @@ public class DBService {
       }
     });
   }
+
+  public List<LastTenTravelOperationsModel> getLastTenTravelOperations() {
+    String sql = "SELECT * from public.get_last_ten_travel_operations()";
+    return jdbcTemplate.query(sql,new RowMapper<LastTenTravelOperationsModel>() {
+      @Override
+      public LastTenTravelOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenTravelOperationsModel(rs.getLong("tr_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("source_card"),
+                rs.getString("destination"),
+                rs.getString("opertype"),
+                rs.getString("comments"));
+      }
+    });
+  }
 }
 
 

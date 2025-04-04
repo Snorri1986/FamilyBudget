@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - syntax error fixed">
-      <change afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_travel_operations.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/telecom.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - model for travel operations">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,22 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00286" summary="#115 - i_housing_rent with last user">
-      <option name="closed" value="true" />
-      <created>1742240968734</created>
-      <option name="number" value="00286" />
-      <option name="presentableId" value="LOCAL-00286" />
-      <option name="project" value="LOCAL" />
-      <updated>1742240968735</updated>
-    </task>
-    <task id="LOCAL-00287" summary="#115 - i_income with last user">
-      <option name="closed" value="true" />
-      <created>1742241117061</created>
-      <option name="number" value="00287" />
-      <option name="presentableId" value="LOCAL-00287" />
-      <option name="project" value="LOCAL" />
-      <updated>1742241117061</updated>
     </task>
     <task id="LOCAL-00288" summary="#115 - i_telecom with last user">
       <option name="closed" value="true" />
@@ -594,7 +576,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743791286499</updated>
     </task>
-    <option name="localTasksCounter" value="335" />
+    <task id="LOCAL-00335" summary="#111 - db function for last ten travel opers">
+      <option name="closed" value="true" />
+      <created>1743792078363</created>
+      <option name="number" value="00335" />
+      <option name="presentableId" value="LOCAL-00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1743792078363</updated>
+    </task>
+    <task id="LOCAL-00336" summary="#111 - model for travel operations">
+      <option name="closed" value="true" />
+      <created>1743792223809</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1743792223809</updated>
+    </task>
+    <option name="localTasksCounter" value="337" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,8 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - new method on DB service for Entertainment" />
-    <MESSAGE value="#111 - new model attribute for entertainment" />
     <MESSAGE value="#111 - changes on html side for entertainment" />
     <MESSAGE value="#111 - need to use fields from java model" />
     <MESSAGE value="#111 - db function for groceries" />
@@ -634,6 +630,8 @@
     <MESSAGE value="#111 - changes on controller side for telecom" />
     <MESSAGE value="#111 - changes on web side for telecom" />
     <MESSAGE value="#111 - syntax error fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - syntax error fixed" />
+    <MESSAGE value="#111 - db function for last ten travel opers" />
+    <MESSAGE value="#111 - model for travel operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - model for travel operations" />
   </component>
 </project>
