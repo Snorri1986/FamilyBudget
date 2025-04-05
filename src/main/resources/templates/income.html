@@ -67,7 +67,8 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     <h2>Last 10 Income operations</h2>
-    <table border="1">
+    <!-- <table border="1"> -->
+        <table class="full-width-table">
         <thead>
         <tr>
             <th>Income Type</th>
@@ -80,9 +81,28 @@
         </thead>
         <tbody>
         <tr th:each="income : ${incomesLastTen}">
-            <td th:text="${income.iType}"></td>
+            <td>
+            <span th:switch="${income.iType}">
+                <span th:case="14">Salary</span>
+                <span th:case="39">Bonus</span>
+                <span th:case="41">Travel Refund</span>
+                <span th:case="42">Shop Refund</span>
+                <span th:case="74">Money Transfer R</span>
+                <span th:case="43">Other</span>  <!-- Default case -->
+            </span>
+            </td>
             <td th:text="${income.amount}"></td>
-            <td th:text="${income.currency}"></td>
+            <span th:switch="${income.currency}">
+                <span th:case="1">EUR</span>
+                <span th:case="2">UAH</span>
+                <span th:case="3">DKK</span>
+                <span th:case="4">USD</span>
+                <!-- fot test DB only -->
+                <span th:case="34">EUR</span>
+                <span th:case="35">UAH</span>
+                <span th:case="37">USD</span>
+                <!-- fot test DB only -->
+            </span>
             <td th:text="${income.date}"></td>
             <td th:text="${income.targetCard}"></td>
             <td th:text="${income.comments}"></td>

@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - changes on web side for travel">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHealthOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHealthOperationsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/travel.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/travel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/travel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - changes name of model class for rent/house">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/income.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/income.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,22 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00291" summary="#111 - get_last_ten_incomes">
-      <option name="closed" value="true" />
-      <created>1742243301486</created>
-      <option name="number" value="00291" />
-      <option name="presentableId" value="LOCAL-00291" />
-      <option name="project" value="LOCAL" />
-      <updated>1742243301486</updated>
-    </task>
-    <task id="LOCAL-00292" summary="#111 - get_last_ten_cash_oper">
-      <option name="closed" value="true" />
-      <created>1742243675142</created>
-      <option name="number" value="00292" />
-      <option name="presentableId" value="LOCAL-00292" />
-      <option name="project" value="LOCAL" />
-      <updated>1742243675142</updated>
     </task>
     <task id="LOCAL-00293" summary="#111 - model for last ten incomes operations">
       <option name="closed" value="true" />
@@ -600,7 +578,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743792952524</updated>
     </task>
-    <option name="localTasksCounter" value="340" />
+    <task id="LOCAL-00340" summary="#111 - changes name of model class for health">
+      <option name="closed" value="true" />
+      <created>1743793385712</created>
+      <option name="number" value="00340" />
+      <option name="presentableId" value="LOCAL-00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1743793385712</updated>
+    </task>
+    <task id="LOCAL-00341" summary="#111 - changes name of model class for rent/house">
+      <option name="closed" value="true" />
+      <created>1743793524961</created>
+      <option name="number" value="00341" />
+      <option name="presentableId" value="LOCAL-00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1743793524961</updated>
+    </task>
+    <option name="localTasksCounter" value="342" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -615,8 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - model for groceries operations" />
-    <MESSAGE value="#111 - DB service method for groceries operations" />
     <MESSAGE value="#111 - adjustment groceries endpoint" />
     <MESSAGE value="#111 - change frontend side for groceries" />
     <MESSAGE value="#111 - db function for health operations" />
@@ -640,6 +632,8 @@
     <MESSAGE value="#111 - db method for travel operations" />
     <MESSAGE value="#111 - change on controller side for travel" />
     <MESSAGE value="#111 - changes on web side for travel" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - changes on web side for travel" />
+    <MESSAGE value="#111 - changes name of model class for health" />
+    <MESSAGE value="#111 - changes name of model class for rent/house" />
+    <option name="LAST_COMMIT_MESSAGE" value="#111 - changes name of model class for rent/house" />
   </component>
 </project>
