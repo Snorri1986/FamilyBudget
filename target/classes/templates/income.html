@@ -102,7 +102,6 @@
                 <span th:case="37">USD</span>
                 <!-- fot test DB only -->
             </span>
-            <!-- <td th:text="${income.date}"></td> -->
             <td th:text="${#temporals.format(income.date, 'dd-MM-yyy')}"></td>
             <td th:text="${income.targetCard}"></td>
             <td th:text="${income.comments}"></td>
