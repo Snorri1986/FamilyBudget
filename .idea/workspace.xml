@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#111 - changes name of model class for rent/house">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#116 - solution for incomes(correction)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/income.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/income.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/income.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/income.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/income.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,22 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00293" summary="#111 - model for last ten incomes operations">
-      <option name="closed" value="true" />
-      <created>1742583854528</created>
-      <option name="number" value="00293" />
-      <option name="presentableId" value="LOCAL-00293" />
-      <option name="project" value="LOCAL" />
-      <updated>1742583854528</updated>
-    </task>
-    <task id="LOCAL-00294" summary="#111 - model with constructor">
-      <option name="closed" value="true" />
-      <created>1742584620035</created>
-      <option name="number" value="00294" />
-      <option name="presentableId" value="LOCAL-00294" />
-      <option name="project" value="LOCAL" />
-      <updated>1742584620035</updated>
     </task>
     <task id="LOCAL-00295" summary="#111 - method on DB service">
       <option name="closed" value="true" />
@@ -594,7 +579,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743793524961</updated>
     </task>
-    <option name="localTasksCounter" value="342" />
+    <task id="LOCAL-00342" summary="#116 - solution for incomes">
+      <option name="closed" value="true" />
+      <created>1743842385870</created>
+      <option name="number" value="00342" />
+      <option name="presentableId" value="LOCAL-00342" />
+      <option name="project" value="LOCAL" />
+      <updated>1743842385871</updated>
+    </task>
+    <task id="LOCAL-00343" summary="#116 - solution for incomes(correction)">
+      <option name="closed" value="true" />
+      <created>1743842416248</created>
+      <option name="number" value="00343" />
+      <option name="presentableId" value="LOCAL-00343" />
+      <option name="project" value="LOCAL" />
+      <updated>1743842416248</updated>
+    </task>
+    <option name="localTasksCounter" value="344" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,8 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - adjustment groceries endpoint" />
-    <MESSAGE value="#111 - change frontend side for groceries" />
     <MESSAGE value="#111 - db function for health operations" />
     <MESSAGE value="#111 - model for health operations" />
     <MESSAGE value="#111 - db service for health operations" />
@@ -634,6 +633,8 @@
     <MESSAGE value="#111 - changes on web side for travel" />
     <MESSAGE value="#111 - changes name of model class for health" />
     <MESSAGE value="#111 - changes name of model class for rent/house" />
-    <option name="LAST_COMMIT_MESSAGE" value="#111 - changes name of model class for rent/house" />
+    <MESSAGE value="#116 - solution for incomes" />
+    <MESSAGE value="#116 - solution for incomes(correction)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#116 - solution for incomes(correction)" />
   </component>
 </project>
