@@ -59,7 +59,7 @@
                 <span th:case="0">Expense</span>
              </span>
              <td th:text="${cash.amount}"></td>
-             <td th:text="${cash.date}"></td>
+             <td th:text="${#temporals.format(cash.date, 'dd-MM-yyy')}"></td>
              <td th:text="${cash.comments}"></td>
          </tr>
          </tbody>
