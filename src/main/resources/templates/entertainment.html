@@ -67,7 +67,7 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     <h2>Last 10 Entertainment operations</h2>
-    <table border="1">
+    <table class="full-width-table">
         <thead>
         <tr>
             <th>Event Type</th>
@@ -84,7 +84,7 @@
             <td th:text="${ent_event.eventTypeId}"></td>
             <td th:text="${ent_event.amount}"></td>
             <td th:text="${ent_event.currency}"></td>
-            <td th:text="${ent_event.date}"></td>
+            <td th:text="${#temporals.format(ent_event.date, 'dd-MM-yyy')}"></td>
             <td th:text="${ent_event.sourceCard}"></td>
             <td th:text="${ent_event.operType}"></td>
             <td th:text="${ent_event.comments}"></td>
