@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#116 - solution for atm_cash_register" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#121 - solution for atm_cash_register">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/atm_cash.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/atm_cash.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,14 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00299" summary="#111 - fix alias">
-      <option name="closed" value="true" />
-      <created>1742586082468</created>
-      <option name="number" value="00299" />
-      <option name="presentableId" value="LOCAL-00299" />
-      <option name="project" value="LOCAL" />
-      <updated>1742586082468</updated>
     </task>
     <task id="LOCAL-00300" summary="#111 - fix fields">
       <option name="closed" value="true" />
@@ -590,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744052526415</updated>
     </task>
-    <option name="localTasksCounter" value="348" />
+    <task id="LOCAL-00348" summary="#121 - solution for atm_cash_register">
+      <option name="closed" value="true" />
+      <created>1744052775665</created>
+      <option name="number" value="00348" />
+      <option name="presentableId" value="LOCAL-00348" />
+      <option name="project" value="LOCAL" />
+      <updated>1744052775665</updated>
+    </task>
+    <option name="localTasksCounter" value="349" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -605,7 +608,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - adjustment for health html and css" />
     <MESSAGE value="#111 - db function for rentHousing" />
     <MESSAGE value="#111 - model for rentHousing" />
     <MESSAGE value="#111 - db service method for rentHousing" />
@@ -630,6 +632,7 @@
     <MESSAGE value="#116 - solution for incomes(not final)" />
     <MESSAGE value="#116 - back to numbers, but with tips for income" />
     <MESSAGE value="#116 - solution for atm_cash_register" />
-    <option name="LAST_COMMIT_MESSAGE" value="#116 - solution for atm_cash_register" />
+    <MESSAGE value="#121 - solution for atm_cash_register" />
+    <option name="LAST_COMMIT_MESSAGE" value="#121 - solution for atm_cash_register" />
   </component>
 </project>
