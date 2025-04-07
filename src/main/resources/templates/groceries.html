@@ -67,6 +67,7 @@
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
     <h2>Last 10 Groceries operations</h2>
+    <h6>Currency: 1-EUR,2-UAH,3-DKK,4-USD</h6>
     <table class="full-width-table">
         <thead>
         <tr>
@@ -81,7 +82,18 @@
         </thead>
         <tbody>
         <tr th:each="groceries : ${groceriesLastTen}">
-            <td th:text="${groceries.groceriesType}"></td>
+            <!--<td th:text="${groceries.groceriesType}"></td>-->
+            <td>
+                <span th:switch="${groceries.groceriesType}">
+                <span th:case="18">Daily</span>
+                <span th:case="19">Weekly</span>
+                <span th:case="20">Weekend</span>
+                <span th:case="21">Fest</span>
+                <span th:case="43">Clothes</span>
+                <span th:case="44">Lunch at work</span>
+                <span th:case="22">Other</span>
+            </span>
+            </td>
             <td th:text="${groceries.amount}"></td>
             <td th:text="${groceries.currency}"></td>
             <td th:text="${#temporals.format(groceries.date, 'dd-MM-yyy')}"></td>
