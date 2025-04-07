@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#116 - solution for incomes(not final)">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#116 - back to numbers, but with tips for income">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/income.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/income.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/income.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/income.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/income.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00297" summary="#111 - adjustment on web page">
-      <option name="closed" value="true" />
-      <created>1742585057076</created>
-      <option name="number" value="00297" />
-      <option name="presentableId" value="LOCAL-00297" />
-      <option name="project" value="LOCAL" />
-      <updated>1742585057076</updated>
     </task>
     <task id="LOCAL-00298" summary="#111 - adjustment style on web page">
       <option name="closed" value="true" />
@@ -594,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743846986691</updated>
     </task>
-    <option name="localTasksCounter" value="346" />
+    <task id="LOCAL-00346" summary="#116 - back to numbers, but with tips for income">
+      <option name="closed" value="true" />
+      <created>1744051822811</created>
+      <option name="number" value="00346" />
+      <option name="presentableId" value="LOCAL-00346" />
+      <option name="project" value="LOCAL" />
+      <updated>1744051822811</updated>
+    </task>
+    <option name="localTasksCounter" value="347" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - db service for health operations" />
     <MESSAGE value="#111 - adjustment for health endpoint" />
     <MESSAGE value="#111 - adjustment for health html and css" />
     <MESSAGE value="#111 - db function for rentHousing" />
@@ -634,6 +634,7 @@
     <MESSAGE value="#116 - solution for incomes(correction)" />
     <MESSAGE value="#121 - solution for incomes" />
     <MESSAGE value="#116 - solution for incomes(not final)" />
-    <option name="LAST_COMMIT_MESSAGE" value="#116 - solution for incomes(not final)" />
+    <MESSAGE value="#116 - back to numbers, but with tips for income" />
+    <option name="LAST_COMMIT_MESSAGE" value="#116 - back to numbers, but with tips for income" />
   </component>
 </project>

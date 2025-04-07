@@ -67,6 +67,7 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     <h2>Last 10 Income operations</h2>
+    <h6>Currency: 1-EUR,2-UAH,3-DKK,4-USD</h6>
         <table class="full-width-table">
         <thead>
         <tr>
@@ -87,21 +88,11 @@
                 <span th:case="41">Travel Refund</span>
                 <span th:case="42">Shop Refund</span>
                 <span th:case="74">Money Transfer R</span>
-                <span th:case="43">Other</span>  <!-- Default case -->
+                <span th:case="43">Other</span>
             </span>
             </td>
             <td th:text="${income.amount}"></td>
-            <span th:switch="${income.currency}">
-                <span th:case="1">EUR</span>
-                <span th:case="2">UAH</span>
-                <span th:case="3">DKK</span>
-                <span th:case="4">USD</span>
-                <!-- fot test DB only -->
-                <span th:case="34">EUR</span>
-                <span th:case="35">UAH</span>
-                <span th:case="37">USD</span>
-                <!-- fot test DB only -->
-            </span>
+            <td th:text="${income.currency}"></td>
             <td th:text="${#temporals.format(income.date, 'dd-MM-yyy')}"></td>
             <td th:text="${income.targetCard}"></td>
             <td th:text="${income.comments}"></td>
