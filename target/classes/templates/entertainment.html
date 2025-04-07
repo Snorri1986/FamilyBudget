@@ -67,7 +67,8 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     <h2>Last 10 Entertainment operations</h2>
-    <table border="1">
+    <h6>Currency: 1-EUR,2-UAH,3-DKK,4-USD</h6>
+    <table class="full-width-table">
         <thead>
         <tr>
             <th>Event Type</th>
@@ -81,10 +82,20 @@
         </thead>
         <tbody>
         <tr th:each="ent_event : ${entertainmentLastTen}">
-            <td th:text="${ent_event.eventTypeId}"></td>
+            <td>
+            <span th:switch="${ent_event.eventTypeId}">
+                <span th:case="8">Travel</span>
+                <span th:case="13">Cinema</span>
+                <span th:case="14">Vacation</span>
+                <span th:case="15">Relax</span>
+                <span th:case="38">Restaurant</span>
+                <span th:case="16">Homefast</span>
+                <span th:case="17">Other</span>
+            </span>
+            </td>
             <td th:text="${ent_event.amount}"></td>
             <td th:text="${ent_event.currency}"></td>
-            <td th:text="${ent_event.date}"></td>
+            <td th:text="${#temporals.format(ent_event.date, 'dd-MM-yyy')}"></td>
             <td th:text="${ent_event.sourceCard}"></td>
             <td th:text="${ent_event.operType}"></td>
             <td th:text="${ent_event.comments}"></td>

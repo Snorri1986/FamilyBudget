@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#116 - final solution for atm_cash_register">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#121 - final solution for entertainment">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/entertainment.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/entertainment.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/entertainment.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/entertainment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/entertainment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,14 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00301" summary="#111 - fix fields">
-      <option name="closed" value="true" />
-      <created>1742586644807</created>
-      <option name="number" value="00301" />
-      <option name="presentableId" value="LOCAL-00301" />
-      <option name="project" value="LOCAL" />
-      <updated>1742586644807</updated>
     </task>
     <task id="LOCAL-00302" summary="#111 - last ten cash operations model">
       <option name="closed" value="true" />
@@ -593,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744052983912</updated>
     </task>
-    <option name="localTasksCounter" value="350" />
+    <task id="LOCAL-00350" summary="#121 - final solution for entertainment">
+      <option name="closed" value="true" />
+      <created>1744053267499</created>
+      <option name="number" value="00350" />
+      <option name="presentableId" value="LOCAL-00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1744053267499</updated>
+    </task>
+    <option name="localTasksCounter" value="351" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -608,7 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - model for rentHousing" />
     <MESSAGE value="#111 - db service method for rentHousing" />
     <MESSAGE value="#111 - change on controller level for rentHousing" />
     <MESSAGE value="#111 - change on web level for rentHousing" />
@@ -633,6 +635,7 @@
     <MESSAGE value="#116 - solution for atm_cash_register" />
     <MESSAGE value="#121 - solution for atm_cash_register" />
     <MESSAGE value="#116 - final solution for atm_cash_register" />
-    <option name="LAST_COMMIT_MESSAGE" value="#116 - final solution for atm_cash_register" />
+    <MESSAGE value="#121 - final solution for entertainment" />
+    <option name="LAST_COMMIT_MESSAGE" value="#121 - final solution for entertainment" />
   </component>
 </project>
