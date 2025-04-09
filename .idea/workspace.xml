@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#121 - final solution for telecom" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#116 - final solution for telecom">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/travel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/travel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/travel.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,14 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00313" summary="#111 - need to use fields from java model">
-      <option name="closed" value="true" />
-      <created>1743190382683</created>
-      <option name="number" value="00313" />
-      <option name="presentableId" value="LOCAL-00313" />
-      <option name="project" value="LOCAL" />
-      <updated>1743190382683</updated>
     </task>
     <task id="LOCAL-00314" summary="#111 - db function for groceries">
       <option name="closed" value="true" />
@@ -590,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744224366554</updated>
     </task>
-    <option name="localTasksCounter" value="362" />
+    <task id="LOCAL-00362" summary="#116 - final solution for telecom">
+      <option name="closed" value="true" />
+      <created>1744224863217</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1744224863217</updated>
+    </task>
+    <option name="localTasksCounter" value="363" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -605,7 +608,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - model for travel operations" />
     <MESSAGE value="#111 - db method for travel operations" />
     <MESSAGE value="#111 - change on controller side for travel" />
     <MESSAGE value="#111 - changes on web side for travel" />
@@ -630,6 +632,7 @@
     <MESSAGE value="#121 - final solution for rent housing" />
     <MESSAGE value="#116 - final solution for rent housing" />
     <MESSAGE value="#121 - final solution for telecom" />
-    <option name="LAST_COMMIT_MESSAGE" value="#121 - final solution for telecom" />
+    <MESSAGE value="#116 - final solution for telecom" />
+    <option name="LAST_COMMIT_MESSAGE" value="#116 - final solution for telecom" />
   </component>
 </project>

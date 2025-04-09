@@ -82,7 +82,6 @@
     </thead>
     <tbody>
     <tr th:each="telecom : ${telecomLastTen}">
-      <!--<td th:text="${telecom.telecomType}"></td>-->
       <td>
                 <span th:switch="${telecom.telecomType}">
                   <span th:case="5">Mobile</span>
