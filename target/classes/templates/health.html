@@ -82,7 +82,6 @@
         </thead>
         <tbody>
         <tr th:each="health : ${healthLastTen}">
-            <!--<td th:text="${health.healthType}"></td>-->
             <td>
                 <span th:switch="${health.healthType}">
                     <span th:case="22">Other</span>
