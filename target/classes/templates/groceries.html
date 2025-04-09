@@ -82,7 +82,6 @@
         </thead>
         <tbody>
         <tr th:each="groceries : ${groceriesLastTen}">
-            <!--<td th:text="${groceries.groceriesType}"></td>-->
             <td>
                 <span th:switch="${groceries.groceriesType}">
                 <span th:case="18">Daily</span>

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#116 - final clean up for groceries">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#121 - solution for health">
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/health.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/health.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/health.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/health.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/groceries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/health.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,14 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00307" summary="#111 - fix error on comments">
-      <option name="closed" value="true" />
-      <created>1742843101955</created>
-      <option name="number" value="00307" />
-      <option name="presentableId" value="LOCAL-00307" />
-      <option name="project" value="LOCAL" />
-      <updated>1742843101955</updated>
     </task>
     <task id="LOCAL-00308" summary="#111 - get_last_ten_entertainment">
       <option name="closed" value="true" />
@@ -594,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744221933409</updated>
     </task>
-    <option name="localTasksCounter" value="356" />
+    <task id="LOCAL-00356" summary="#121 - solution for health">
+      <option name="closed" value="true" />
+      <created>1744222610178</created>
+      <option name="number" value="00356" />
+      <option name="presentableId" value="LOCAL-00356" />
+      <option name="project" value="LOCAL" />
+      <updated>1744222610178</updated>
+    </task>
+    <option name="localTasksCounter" value="357" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,7 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - db service for telecom" />
     <MESSAGE value="#111 - changes on controller side for telecom" />
     <MESSAGE value="#111 - changes on web side for telecom" />
     <MESSAGE value="#111 - syntax error fixed" />
@@ -634,6 +635,7 @@
     <MESSAGE value="#121 - clean up for groceries" />
     <MESSAGE value="#116 - final solution for groceries" />
     <MESSAGE value="#116 - final clean up for groceries" />
-    <option name="LAST_COMMIT_MESSAGE" value="#116 - final clean up for groceries" />
+    <MESSAGE value="#121 - solution for health" />
+    <option name="LAST_COMMIT_MESSAGE" value="#121 - solution for health" />
   </component>
 </project>
