@@ -67,7 +67,7 @@
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
     <h2>Last 10 Health operations</h2>
-    <table border="1">
+    <table class="full-width-table">
         <thead>
         <tr>
             <th>Health Type</th>
@@ -84,7 +84,8 @@
             <td th:text="${health.healthType}"></td>
             <td th:text="${health.amount}"></td>
             <td th:text="${health.currency}"></td>
-            <td th:text="${health.date}"></td>
+            <!--<td th:text="${health.date}"></td>-->
+            <td th:text="${#temporals.format(health.date, 'dd-MM-yyy')}"></td>
             <td th:text="${health.sourceCard}"></td>
             <td th:text="${health.operType}"></td>
             <td th:text="${health.comments}"></td>
