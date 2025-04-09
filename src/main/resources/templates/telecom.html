@@ -67,7 +67,7 @@
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
   <h2>Last 10 Telecom operations</h2>
-  <table border="1">
+  <table class="full-width-table">
     <thead>
     <tr>
       <th>Telecom Type</th>
@@ -84,7 +84,7 @@
       <td th:text="${telecom.telecomType}"></td>
       <td th:text="${telecom.amount}"></td>
       <td th:text="${telecom.currency}"></td>
-      <td th:text="${telecom.date}"></td>
+      <td th:text="${#temporals.format(telecom.date, 'dd-MM-yyy')}"></td>
       <td th:text="${telecom.sourceCard}"></td>
       <td th:text="${telecom.operType}"></td>
       <td th:text="${telecom.comments}"></td>

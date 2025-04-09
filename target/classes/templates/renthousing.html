@@ -82,7 +82,6 @@
         </thead>
         <tbody>
         <tr th:each="rent : ${rentHousingLastTen}">
-            <!--<td th:text="${rent.housingRentType}"></td>-->
             <td>
                 <span th:switch="${rent.housingRentType}">
                    <span th:case="2">Rent</span>
