@@ -72,7 +72,7 @@ public class MainPageControllerTest {
   }
 
   @Test
-  void c() {
+  void testGetGroceriesPage() {
     List<LastTenGroceriesOperModel> mockLastTenGroceries = List.of(new LastTenGroceriesOperModel(), new LastTenGroceriesOperModel());
     when(dbService.getLastTenGroceriesOperations()).thenReturn(mockLastTenGroceries);
     String viewName = mainPageController.getGroceriesPage(model);
