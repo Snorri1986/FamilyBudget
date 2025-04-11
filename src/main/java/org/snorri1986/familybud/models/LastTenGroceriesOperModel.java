@@ -21,6 +21,9 @@ public class LastTenGroceriesOperModel {
     this.comments = comments;
   }
 
+  public LastTenGroceriesOperModel() {
+  }
+
   public long getGroceriesType() {
     return groceriesType;
   }
