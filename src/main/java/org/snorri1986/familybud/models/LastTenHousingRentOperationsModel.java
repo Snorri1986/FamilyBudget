@@ -21,6 +21,9 @@ public class LastTenHousingRentOperationsModel {
     this.comments = comments;
   }
 
+  public LastTenHousingRentOperationsModel() {
+  }
+
   public long getHousingRentType() {
     return housingRentType;
   }
