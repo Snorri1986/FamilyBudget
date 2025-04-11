@@ -21,6 +21,9 @@ public class LastTenHealthOperationsModel {
     this.comments = comments;
   }
 
+  public LastTenHealthOperationsModel() {
+  }
+
   public long getHealthType() {
     return healthType;
   }
