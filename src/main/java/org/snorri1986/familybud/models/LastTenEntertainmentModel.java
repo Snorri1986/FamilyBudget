@@ -21,6 +21,9 @@ public class LastTenEntertainmentModel {
     this.comments = comments;
   }
 
+  public LastTenEntertainmentModel() {
+  }
+
   public long getEventTypeId() {
     return eventTypeId;
   }
