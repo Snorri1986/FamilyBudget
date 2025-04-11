@@ -6,6 +6,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.snorri1986.familybud.models.*;
+import org.snorri1986.familybud.service.DBService;
 import org.springframework.ui.Model;
 
 import java.time.LocalDateTime;
@@ -14,7 +15,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
-import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.*;
 
 
 @ExtendWith(MockitoExtension.class)
@@ -25,6 +26,9 @@ public class MainPageControllerTest {
 
   @Mock
   private Model model;
+
+  @Mock
+  private DBService dbService;
 
   @Test
   void testGetLoginPage() {
@@ -41,12 +45,16 @@ public class MainPageControllerTest {
 
   @Test
   void testGetIncomePage() {
+    List<LastTenIncomesModel> mockLastTenIncomes = List.of(new LastTenIncomesModel(), new LastTenIncomesModel());
+    when(dbService.getLastTenIncomes()).thenReturn(mockLastTenIncomes);
     String viewName = mainPageController.getIncomePage(model);
     assertEquals("income", viewName);
     verify(model).addAttribute(eq("income_mod_attribute"), any(IncomeModelWeb.class));
     verify(model).addAttribute(eq("incomes"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
+    verify(model).addAttribute("incomesLastTen", mockLastTenIncomes);
+    verifyNoMoreInteractions(model);
   }
 
   @Test
