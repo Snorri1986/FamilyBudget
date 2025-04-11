@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#121 - final solution for travel">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#116 - final solution for travel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/travel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/travel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/travel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/travel.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/travel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/travel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenIncomesModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenIncomesModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.MainPageControllerTest">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -104,6 +102,22 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageControllerTest.testGetIncomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testGetIncomePage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,22 +149,6 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebFormsControllerTest.testSubmitNewAtm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
-      <option name="METHOD_NAME" value="testSubmitNewAtm" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainPageControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetTelecomPage" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
-        <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
-        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitNewAtm" />
       </list>
     </recent_temporary>
   </component>
@@ -203,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00315" summary="#111 - model for groceries operations">
-      <option name="closed" value="true" />
-      <created>1743192189783</created>
-      <option name="number" value="00315" />
-      <option name="presentableId" value="LOCAL-00315" />
-      <option name="project" value="LOCAL" />
-      <updated>1743192189783</updated>
     </task>
     <task id="LOCAL-00316" summary="#111 - DB service method for groceries operations">
       <option name="closed" value="true" />
@@ -596,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744225220041</updated>
     </task>
-    <option name="localTasksCounter" value="364" />
+    <task id="LOCAL-00364" summary="#116 - final solution for travel">
+      <option name="closed" value="true" />
+      <created>1744397330428</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1744397330428</updated>
+    </task>
+    <option name="localTasksCounter" value="365" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -611,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#111 - change on controller side for travel" />
     <MESSAGE value="#111 - changes on web side for travel" />
     <MESSAGE value="#111 - changes name of model class for health" />
     <MESSAGE value="#111 - changes name of model class for rent/house" />
@@ -636,6 +633,7 @@
     <MESSAGE value="#121 - final solution for telecom" />
     <MESSAGE value="#116 - final solution for telecom" />
     <MESSAGE value="#121 - final solution for travel" />
-    <option name="LAST_COMMIT_MESSAGE" value="#121 - final solution for travel" />
+    <MESSAGE value="#116 - final solution for travel" />
+    <option name="LAST_COMMIT_MESSAGE" value="#116 - final solution for travel" />
   </component>
 </project>

@@ -19,6 +19,10 @@ public class LastTenIncomesModel {
     this.comments = comments;
   }
 
+  public LastTenIncomesModel() {
+
+  }
+
   public long getiType() {
     return iType;
   }
