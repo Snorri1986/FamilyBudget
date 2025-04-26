@@ -23,6 +23,9 @@ public class LastTenTravelOperationsModel {
     this.comments = comments;
   }
 
+  public LastTenTravelOperationsModel() {
+  }
+
   public long getTravelType() {
     return travelType;
   }

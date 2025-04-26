@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#119 - verify last 10 testRentHousingPage">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTelecomOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTelecomOperationsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#119 - verify last 10 testGetTelecomPage">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTravelOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTravelOperationsModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +53,7 @@
     "JUnit.MainPageControllerTest.testGetIncomePage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetLoginPage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetTelecomPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetTravelPage.executor": "Run",
     "JUnit.MainPageControllerTest.testRentHousingPage.executor": "Run",
     "JUnit.WebFormsControllerTest.executor": "Run",
     "JUnit.WebFormsControllerTest.testGoToMain.executor": "Run",
@@ -78,7 +76,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageControllerTest.testGetTelecomPage">
+  <component name="RunManager" selected="JUnit.MainPageControllerTest.testGetTravelPage">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -90,22 +88,6 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPageControllerTest.testGetGroceriesPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetGroceriesPage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,6 +119,22 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
       <option name="METHOD_NAME" value="testGetTelecomPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageControllerTest.testGetTravelPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testGetTravelPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainPageControllerTest.testGetTravelPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetTelecomPage" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest.testRentHousingPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
-        <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
       </list>
     </recent_temporary>
   </component>
@@ -206,14 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00327" summary="#111 - change on controller level for rentHousing">
-      <option name="closed" value="true" />
-      <created>1743445333322</created>
-      <option name="number" value="00327" />
-      <option name="presentableId" value="LOCAL-00327" />
-      <option name="project" value="LOCAL" />
-      <updated>1743445333322</updated>
     </task>
     <task id="LOCAL-00328" summary="#111 - change on web level for rentHousing">
       <option name="closed" value="true" />
@@ -599,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744400073412</updated>
     </task>
-    <option name="localTasksCounter" value="376" />
+    <task id="LOCAL-00376" summary="#119 - verify last 10 testGetTelecomPage">
+      <option name="closed" value="true" />
+      <created>1745664521360</created>
+      <option name="number" value="00376" />
+      <option name="presentableId" value="LOCAL-00376" />
+      <option name="project" value="LOCAL" />
+      <updated>1745664521360</updated>
+    </task>
+    <option name="localTasksCounter" value="377" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -614,7 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#116 - final solution for atm_cash_register" />
     <MESSAGE value="#121 - final solution for entertainment" />
     <MESSAGE value="#116 - final solution for entertainment" />
     <MESSAGE value="#121 - final solution for groceries" />
@@ -639,6 +636,7 @@
     <MESSAGE value="#119 - verify last 10 testGetHealthPage" />
     <MESSAGE value="#119 - empty const LastTenHousingRentOperationsModel" />
     <MESSAGE value="#119 - verify last 10 testRentHousingPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="#119 - verify last 10 testRentHousingPage" />
+    <MESSAGE value="#119 - verify last 10 testGetTelecomPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="#119 - verify last 10 testGetTelecomPage" />
   </component>
 </project>
