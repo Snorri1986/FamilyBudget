@@ -20,6 +20,7 @@ public class AdditionalFuncPageControllerTest {
 
   @Test
   void testGetAtmCashPage() {
+    //TODO: look at MainPageControllerTest
     String viewName = additionalFuncPageController.getAtmCashPage(model);
     assertEquals("atm_cash", viewName);
   }

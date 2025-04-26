@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#119 - verify last 10 testGetHealthPage">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#119 - verify last 10 testRentHousingPage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHousingRentOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHousingRentOperationsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTelecomOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTelecomOperationsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
     </list>
@@ -42,42 +43,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FamilyBudgetMain.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JUnit.AdditionalFuncPageControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetAdditionalFunctionPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetEntertainmentPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetGroceriesPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetHealthPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetIncomePage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetLoginPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetTelecomPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testRentHousingPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testGoToMain.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testSubmitHealthForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testSubmitHousingForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testSubmitNewAtm.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Applications/FamilyBudget/src/main/resources/static/css&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FamilyBudgetMain.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.AdditionalFuncPageControllerTest.executor": "Run",
+    "JUnit.MainPageControllerTest.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetAdditionalFunctionPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetEntertainmentPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetGroceriesPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetHealthPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetIncomePage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetLoginPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetTelecomPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testRentHousingPage.executor": "Run",
+    "JUnit.WebFormsControllerTest.executor": "Run",
+    "JUnit.WebFormsControllerTest.testGoToMain.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitHealthForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitHousingForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitNewAtm.executor": "Run",
+    "Maven.FamilyBudget-LocalTomcat.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Applications/FamilyBudget/src/main/resources/static/css",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Applications\FamilyBudget\src\main\resources\static\css" />
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageControllerTest.testRentHousingPage">
-    <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainPageControllerTest.testGetTelecomPage">
+    <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -86,24 +88,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPageControllerTest.testGetEntertainmentPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetEntertainmentPage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,6 +121,22 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
       <option name="METHOD_NAME" value="testGetHealthPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageControllerTest.testGetTelecomPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testGetTelecomPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainPageControllerTest.testGetTelecomPage" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest.testRentHousingPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
-        <item itemvalue="JUnit.MainPageControllerTest" />
-        <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
       </list>
     </recent_temporary>
   </component>
@@ -204,22 +206,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00325" summary="#111 - model for rentHousing">
-      <option name="closed" value="true" />
-      <created>1743444824957</created>
-      <option name="number" value="00325" />
-      <option name="presentableId" value="LOCAL-00325" />
-      <option name="project" value="LOCAL" />
-      <updated>1743444824957</updated>
-    </task>
-    <task id="LOCAL-00326" summary="#111 - db service method for rentHousing">
-      <option name="closed" value="true" />
-      <created>1743445223174</created>
-      <option name="number" value="00326" />
-      <option name="presentableId" value="LOCAL-00326" />
-      <option name="project" value="LOCAL" />
-      <updated>1743445223174</updated>
     </task>
     <task id="LOCAL-00327" summary="#111 - change on controller level for rentHousing">
       <option name="closed" value="true" />
@@ -597,7 +583,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744399795742</updated>
     </task>
-    <option name="localTasksCounter" value="374" />
+    <task id="LOCAL-00374" summary="#119 - empty const LastTenHousingRentOperationsModel">
+      <option name="closed" value="true" />
+      <created>1744400040175</created>
+      <option name="number" value="00374" />
+      <option name="presentableId" value="LOCAL-00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1744400040175</updated>
+    </task>
+    <task id="LOCAL-00375" summary="#119 - verify last 10 testRentHousingPage">
+      <option name="closed" value="true" />
+      <created>1744400073412</created>
+      <option name="number" value="00375" />
+      <option name="presentableId" value="LOCAL-00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1744400073412</updated>
+    </task>
+    <option name="localTasksCounter" value="376" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -612,8 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#116 - solution for atm_cash_register" />
-    <MESSAGE value="#121 - solution for atm_cash_register" />
     <MESSAGE value="#116 - final solution for atm_cash_register" />
     <MESSAGE value="#121 - final solution for entertainment" />
     <MESSAGE value="#116 - final solution for entertainment" />
@@ -637,6 +637,8 @@
     <MESSAGE value="#119 - verify last ten LastTenGroceriesOperModel" />
     <MESSAGE value="#119 - empty constructor for LastTenHealthOperationsModel" />
     <MESSAGE value="#119 - verify last 10 testGetHealthPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="#119 - verify last 10 testGetHealthPage" />
+    <MESSAGE value="#119 - empty const LastTenHousingRentOperationsModel" />
+    <MESSAGE value="#119 - verify last 10 testRentHousingPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="#119 - verify last 10 testRentHousingPage" />
   </component>
 </project>

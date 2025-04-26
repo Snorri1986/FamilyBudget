@@ -21,6 +21,9 @@ public class LastTenTelecomOperationsModel {
     this.comments = comments;
   }
 
+  public LastTenTelecomOperationsModel() {
+  }
+
   public long getTelecomType() {
     return telecomType;
   }

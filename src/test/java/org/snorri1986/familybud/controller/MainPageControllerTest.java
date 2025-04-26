@@ -113,16 +113,22 @@ public class MainPageControllerTest {
     verifyNoMoreInteractions(model);
   }
 
+
   @Test
   void testGetTelecomPage() {
+    List<LastTenTelecomOperationsModel> mockLastTenTelecomOperations = List.of(new LastTenTelecomOperationsModel(),new LastTenTelecomOperationsModel());
+    when(dbService.getLastTenTelecomOperations()).thenReturn(mockLastTenTelecomOperations);
     String viewName = mainPageController.getTelecomPage(model);
     assertEquals("telecom", viewName);
     verify(model).addAttribute(eq("telecom_mod_attribute"), any(TelecomModelWeb.class));
     verify(model).addAttribute(eq("telecomOperations"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
+    verify(model).addAttribute("telecomLastTen", mockLastTenTelecomOperations);
+    verifyNoMoreInteractions(model);
   }
 
+  //TODO:
   @Test
   void testGetTravelPage() {
     String viewName = mainPageController.getTravelPage(model);
