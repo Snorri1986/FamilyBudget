@@ -5,8 +5,8 @@ AS $function$
 BEGIN
 
     IF oper_type = 'Cash' THEN
-        INSERT INTO cash_operations_log(optype, amount, date, comments)
-        VALUES (1,amount_value,oper_date,comm_value);
+        INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency)
+        VALUES (1,amount_value,oper_date,comm_value,get_last_login(),currency_value);
 
         PERFORM add_cash_balance(amount_value);
     ELSE
