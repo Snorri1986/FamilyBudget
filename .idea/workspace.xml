@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#122 - new column currency">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/travel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,30 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00331" summary="#111 - db service for telecom">
-      <option name="closed" value="true" />
-      <created>1743447223250</created>
-      <option name="number" value="00331" />
-      <option name="presentableId" value="LOCAL-00331" />
-      <option name="project" value="LOCAL" />
-      <updated>1743447223250</updated>
-    </task>
-    <task id="LOCAL-00332" summary="#111 - changes on controller side for telecom">
-      <option name="closed" value="true" />
-      <created>1743447402010</created>
-      <option name="number" value="00332" />
-      <option name="presentableId" value="LOCAL-00332" />
-      <option name="project" value="LOCAL" />
-      <updated>1743447402010</updated>
-    </task>
-    <task id="LOCAL-00333" summary="#111 - changes on web side for telecom">
-      <option name="closed" value="true" />
-      <created>1743791110740</created>
-      <option name="number" value="00333" />
-      <option name="presentableId" value="LOCAL-00333" />
-      <option name="project" value="LOCAL" />
-      <updated>1743791110740</updated>
     </task>
     <task id="LOCAL-00334" summary="#111 - syntax error fixed">
       <option name="closed" value="true" />
@@ -595,7 +571,31 @@
       <option name="project" value="LOCAL" />
       <updated>1745666618730</updated>
     </task>
-    <option name="localTasksCounter" value="380" />
+    <task id="LOCAL-00380" summary="#122 - i_income">
+      <option name="closed" value="true" />
+      <created>1745667557460</created>
+      <option name="number" value="00380" />
+      <option name="presentableId" value="LOCAL-00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1745667557460</updated>
+    </task>
+    <task id="LOCAL-00381" summary="#123 - i_income">
+      <option name="closed" value="true" />
+      <created>1745667597312</created>
+      <option name="number" value="00381" />
+      <option name="presentableId" value="LOCAL-00381" />
+      <option name="project" value="LOCAL" />
+      <updated>1745667597312</updated>
+    </task>
+    <task id="LOCAL-00382" summary="others">
+      <option name="closed" value="true" />
+      <created>1745667827309</created>
+      <option name="number" value="00382" />
+      <option name="presentableId" value="LOCAL-00382" />
+      <option name="project" value="LOCAL" />
+      <updated>1745667827309</updated>
+    </task>
+    <option name="localTasksCounter" value="383" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -610,9 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#121 - clean up for groceries" />
-    <MESSAGE value="#116 - final solution for groceries" />
-    <MESSAGE value="#116 - final clean up for groceries" />
     <MESSAGE value="#121 - solution for health" />
     <MESSAGE value="#116 - final solution for health" />
     <MESSAGE value="#121 - final solution for rent housing" />
@@ -635,6 +632,9 @@
     <MESSAGE value="#119 - verify last 10 testGetTravelPage" />
     <MESSAGE value="#119 - mock dbService." />
     <MESSAGE value="#122 - new column currency" />
-    <option name="LAST_COMMIT_MESSAGE" value="#122 - new column currency" />
+    <MESSAGE value="#122 - i_income" />
+    <MESSAGE value="#123 - i_income" />
+    <MESSAGE value="others" />
+    <option name="LAST_COMMIT_MESSAGE" value="others" />
   </component>
 </project>
