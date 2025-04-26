@@ -87,7 +87,6 @@
         </thead>
         <tbody>
         <tr th:each="travel : ${travelLastTen}">
-            <!--<td th:text="${travel.travelType}"></td>-->
             <td>
                 <span th:switch="${travel.travelType}">
                   <span th:case="33">Tickets</span>
