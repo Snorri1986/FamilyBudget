@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#119 - verify last 10 testGetTravelPage">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#119 - mock dbService.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdditionalFuncPageControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -187,9 +185,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
-        <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest" />
+        <item itemvalue="JUnit.WebFormsControllerTest" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetTravelPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetTelecomPage" />
       </list>
@@ -203,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00329" summary="#111 - db function for telecom">
-      <option name="closed" value="true" />
-      <created>1743446452869</created>
-      <option name="number" value="00329" />
-      <option name="presentableId" value="LOCAL-00329" />
-      <option name="project" value="LOCAL" />
-      <updated>1743446452869</updated>
     </task>
     <task id="LOCAL-00330" summary="#111 - model for telecom">
       <option name="closed" value="true" />
@@ -596,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745664820840</updated>
     </task>
-    <option name="localTasksCounter" value="378" />
+    <task id="LOCAL-00378" summary="#119 - mock dbService.">
+      <option name="closed" value="true" />
+      <created>1745665224268</created>
+      <option name="number" value="00378" />
+      <option name="presentableId" value="LOCAL-00378" />
+      <option name="project" value="LOCAL" />
+      <updated>1745665224268</updated>
+    </task>
+    <option name="localTasksCounter" value="379" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -611,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#116 - final solution for entertainment" />
     <MESSAGE value="#121 - final solution for groceries" />
     <MESSAGE value="#121 - clean up for groceries" />
     <MESSAGE value="#116 - final solution for groceries" />
@@ -636,6 +633,7 @@
     <MESSAGE value="#119 - verify last 10 testRentHousingPage" />
     <MESSAGE value="#119 - verify last 10 testGetTelecomPage" />
     <MESSAGE value="#119 - verify last 10 testGetTravelPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="#119 - verify last 10 testGetTravelPage" />
+    <MESSAGE value="#119 - mock dbService." />
+    <option name="LAST_COMMIT_MESSAGE" value="#119 - mock dbService." />
   </component>
 </project>

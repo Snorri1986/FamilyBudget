@@ -118,7 +118,8 @@ CREATE TABLE IF NOT EXISTS "cash_operations_log" (
         "amount" bigint NOT NULL,
         "date" timestamp with time zone NOT NULL,
         "comments" varchar(255) NOT NULL,
-        "user_last_session" text NOT NULL
+        "user_last_session" text NOT NULL,
+        currency int8 NULL,
         PRIMARY KEY ("id")
 );
 
