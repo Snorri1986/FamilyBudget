@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#123 - i_health" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#123 - i_housing_rent">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_health.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_health.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00337" summary="#111 - db method for travel operations">
-      <option name="closed" value="true" />
-      <created>1743792604958</created>
-      <option name="number" value="00337" />
-      <option name="presentableId" value="LOCAL-00337" />
-      <option name="project" value="LOCAL" />
-      <updated>1743792604958</updated>
     </task>
     <task id="LOCAL-00338" summary="#111 - change on controller side for travel">
       <option name="closed" value="true" />
@@ -592,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746263754558</updated>
     </task>
-    <option name="localTasksCounter" value="386" />
+    <task id="LOCAL-00386" summary="#123 - i_housing_rent">
+      <option name="closed" value="true" />
+      <created>1746264035842</created>
+      <option name="number" value="00386" />
+      <option name="presentableId" value="LOCAL-00386" />
+      <option name="project" value="LOCAL" />
+      <updated>1746264035842</updated>
+    </task>
+    <option name="localTasksCounter" value="387" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#116 - final solution for rent housing" />
     <MESSAGE value="#121 - final solution for telecom" />
     <MESSAGE value="#116 - final solution for telecom" />
     <MESSAGE value="#121 - final solution for travel" />
@@ -632,6 +633,7 @@
     <MESSAGE value="#123 - i_entertainment" />
     <MESSAGE value="#123 - i_groceries" />
     <MESSAGE value="#123 - i_health" />
-    <option name="LAST_COMMIT_MESSAGE" value="#123 - i_health" />
+    <MESSAGE value="#123 - i_housing_rent" />
+    <option name="LAST_COMMIT_MESSAGE" value="#123 - i_housing_rent" />
   </component>
 </project>
