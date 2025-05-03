@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#123 - i_entertainment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_groceries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_groceries.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,36 +40,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FamilyBudgetMain.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.AdditionalFuncPageControllerTest.executor": "Run",
-    "JUnit.MainPageControllerTest.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetAdditionalFunctionPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetEntertainmentPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetGroceriesPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetHealthPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetIncomePage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetLoginPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetTelecomPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testGetTravelPage.executor": "Run",
-    "JUnit.MainPageControllerTest.testRentHousingPage.executor": "Run",
-    "JUnit.WebFormsControllerTest.executor": "Run",
-    "JUnit.WebFormsControllerTest.testGoToMain.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitHealthForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitHousingForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor": "Run",
-    "JUnit.WebFormsControllerTest.testSubmitNewAtm.executor": "Run",
-    "Maven.FamilyBudget-LocalTomcat.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Applications/FamilyBudget/src/main/resources/static/css",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FamilyBudgetMain.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.AdditionalFuncPageControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetAdditionalFunctionPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetEntertainmentPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetGroceriesPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetHealthPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetIncomePage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetTelecomPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetTravelPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testRentHousingPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testGoToMain.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitHealthForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitHousingForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testSubmitNewAtm.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Applications/FamilyBudget/src/main/resources/static/css&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Applications\FamilyBudget\src\main\resources\static\css" />
@@ -202,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00334" summary="#111 - syntax error fixed">
-      <option name="closed" value="true" />
-      <created>1743791286483</created>
-      <option name="number" value="00334" />
-      <option name="presentableId" value="LOCAL-00334" />
-      <option name="project" value="LOCAL" />
-      <updated>1743791286499</updated>
     </task>
     <task id="LOCAL-00335" summary="#111 - db function for last ten travel opers">
       <option name="closed" value="true" />
@@ -595,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745667827309</updated>
     </task>
-    <option name="localTasksCounter" value="383" />
+    <task id="LOCAL-00383" summary="#123 - i_entertainment">
+      <option name="closed" value="true" />
+      <created>1745668176497</created>
+      <option name="number" value="00383" />
+      <option name="presentableId" value="LOCAL-00383" />
+      <option name="project" value="LOCAL" />
+      <updated>1745668176497</updated>
+    </task>
+    <option name="localTasksCounter" value="384" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -610,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#121 - solution for health" />
     <MESSAGE value="#116 - final solution for health" />
     <MESSAGE value="#121 - final solution for rent housing" />
     <MESSAGE value="#116 - final solution for rent housing" />
@@ -635,6 +634,7 @@
     <MESSAGE value="#122 - i_income" />
     <MESSAGE value="#123 - i_income" />
     <MESSAGE value="others" />
-    <option name="LAST_COMMIT_MESSAGE" value="others" />
+    <MESSAGE value="#123 - i_entertainment" />
+    <option name="LAST_COMMIT_MESSAGE" value="#123 - i_entertainment" />
   </component>
 </project>
