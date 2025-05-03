@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#123 - i_housing_rent">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_health.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_health.sql" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#123 - i_housing_rent new" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,22 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00338" summary="#111 - change on controller side for travel">
-      <option name="closed" value="true" />
-      <created>1743792742469</created>
-      <option name="number" value="00338" />
-      <option name="presentableId" value="LOCAL-00338" />
-      <option name="project" value="LOCAL" />
-      <updated>1743792742469</updated>
-    </task>
-    <task id="LOCAL-00339" summary="#111 - changes on web side for travel">
-      <option name="closed" value="true" />
-      <created>1743792952524</created>
-      <option name="number" value="00339" />
-      <option name="presentableId" value="LOCAL-00339" />
-      <option name="project" value="LOCAL" />
-      <updated>1743792952524</updated>
     </task>
     <task id="LOCAL-00340" summary="#111 - changes name of model class for health">
       <option name="closed" value="true" />
@@ -594,7 +576,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746264035842</updated>
     </task>
-    <option name="localTasksCounter" value="387" />
+    <task id="LOCAL-00387" summary="#123 - i_health new">
+      <option name="closed" value="true" />
+      <created>1746264395869</created>
+      <option name="number" value="00387" />
+      <option name="presentableId" value="LOCAL-00387" />
+      <option name="project" value="LOCAL" />
+      <updated>1746264395869</updated>
+    </task>
+    <task id="LOCAL-00388" summary="#123 - i_housing_rent new">
+      <option name="closed" value="true" />
+      <created>1746264496249</created>
+      <option name="number" value="00388" />
+      <option name="presentableId" value="LOCAL-00388" />
+      <option name="project" value="LOCAL" />
+      <updated>1746264496249</updated>
+    </task>
+    <option name="localTasksCounter" value="389" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,8 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#121 - final solution for telecom" />
-    <MESSAGE value="#116 - final solution for telecom" />
     <MESSAGE value="#121 - final solution for travel" />
     <MESSAGE value="#116 - final solution for travel" />
     <MESSAGE value="#119 - empty constructor for LastTenIncomesModel" />
@@ -634,6 +630,8 @@
     <MESSAGE value="#123 - i_groceries" />
     <MESSAGE value="#123 - i_health" />
     <MESSAGE value="#123 - i_housing_rent" />
-    <option name="LAST_COMMIT_MESSAGE" value="#123 - i_housing_rent" />
+    <MESSAGE value="#123 - i_health new" />
+    <MESSAGE value="#123 - i_housing_rent new" />
+    <option name="LAST_COMMIT_MESSAGE" value="#123 - i_housing_rent new" />
   </component>
 </project>
