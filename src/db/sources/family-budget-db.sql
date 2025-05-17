@@ -18,6 +18,16 @@ CREATE TABLE IF NOT EXISTS "income" (
 	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
+COMMENT ON TABLE public.income IS 'storage of income operations';
+COMMENT ON COLUMN public.income.id IS 'id of record';
+COMMENT ON COLUMN public.income.i_type IS 'income type';
+COMMENT ON COLUMN public.income.amount IS 'value of money';
+COMMENT ON COLUMN public.income.currency IS 'currency of operation';
+COMMENT ON COLUMN public.income."date" IS 'date of operation';
+COMMENT ON COLUMN public.income.target_card IS 'target card';
+COMMENT ON COLUMN public.income."comments" IS 'description of operation';
+COMMENT ON COLUMN public.income.opertype IS 'type of operation';
+COMMENT ON COLUMN public.income.user_last_session IS 'owner of operation';
 
 CREATE TABLE IF NOT EXISTS "groceries" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
