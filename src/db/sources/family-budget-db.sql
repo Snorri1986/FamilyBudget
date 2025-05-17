@@ -104,6 +104,16 @@ CREATE TABLE IF NOT EXISTS "health" (
 	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
+COMMENT ON TABLE public.health IS 'storage for health operations';
+COMMENT ON COLUMN public.health.id IS 'id of record';
+COMMENT ON COLUMN public.health.h_type_id IS 'health operation type';
+COMMENT ON COLUMN public.health.amount IS 'value of money';
+COMMENT ON COLUMN public.health.currency IS 'currency of operation';
+COMMENT ON COLUMN public.health."date" IS 'date of operation';
+COMMENT ON COLUMN public.health.source_card IS 'payment card number';
+COMMENT ON COLUMN public.health."comments" IS 'description of operation';
+COMMENT ON COLUMN public.health.opertype IS 'cash or card operation';
+COMMENT ON COLUMN public.health.user_last_session IS 'owner of operation';
 
 CREATE TABLE IF NOT EXISTS "telecom" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,

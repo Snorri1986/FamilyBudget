@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - comments for entertainment table" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - comments for expenses_type table">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00347" summary="#116 - solution for atm_cash_register">
-      <option name="closed" value="true" />
-      <created>1744052526415</created>
-      <option name="number" value="00347" />
-      <option name="presentableId" value="LOCAL-00347" />
-      <option name="project" value="LOCAL" />
-      <updated>1744052526415</updated>
     </task>
     <task id="LOCAL-00348" summary="#121 - solution for atm_cash_register">
       <option name="closed" value="true" />
@@ -592,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747487958764</updated>
     </task>
-    <option name="localTasksCounter" value="396" />
+    <task id="LOCAL-00396" summary="#120 - comments for expenses_type table">
+      <option name="closed" value="true" />
+      <created>1747488059247</created>
+      <option name="number" value="00396" />
+      <option name="presentableId" value="LOCAL-00396" />
+      <option name="project" value="LOCAL" />
+      <updated>1747488059252</updated>
+    </task>
+    <option name="localTasksCounter" value="397" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#119 - verify last ten LastTenGroceriesOperModel" />
     <MESSAGE value="#119 - empty constructor for LastTenHealthOperationsModel" />
     <MESSAGE value="#119 - verify last 10 testGetHealthPage" />
     <MESSAGE value="#119 - empty const LastTenHousingRentOperationsModel" />
@@ -632,6 +633,7 @@
     <MESSAGE value="#120 - comments for cash_operations_log table" />
     <MESSAGE value="#120 - comments for currency table" />
     <MESSAGE value="#120 - comments for entertainment table" />
-    <option name="LAST_COMMIT_MESSAGE" value="#120 - comments for entertainment table" />
+    <MESSAGE value="#120 - comments for expenses_type table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#120 - comments for expenses_type table" />
   </component>
 </project>
