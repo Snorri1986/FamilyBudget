@@ -123,6 +123,13 @@ CREATE TABLE IF NOT EXISTS "cash_operations_log" (
         currency int8 NULL,
         PRIMARY KEY ("id")
 );
+COMMENT ON TABLE cash_operations_log  is 'storage of cash operations';
+COMMENT ON COLUMN public.cash_operations_log.id IS 'id of record';
+COMMENT ON COLUMN public.cash_operations_log.optype IS '0 - expense, 1-income';
+COMMENT ON COLUMN public.cash_operations_log.amount IS 'value of money';
+COMMENT ON COLUMN public.cash_operations_log."date" IS 'operation date';
+COMMENT ON COLUMN public.cash_operations_log."comments" IS 'description of operation';
+COMMENT ON COLUMN public.cash_operations_log.user_last_session IS 'owner of record';
 
 CREATE TABLE public.user_last_login (
 	login varchar NULL,
