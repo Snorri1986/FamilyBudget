@@ -113,6 +113,9 @@ CREATE TABLE IF NOT EXISTS "expenses_type" (
 	"e_type" varchar(255) NOT NULL,
 	PRIMARY KEY ("id")
 );
+COMMENT ON TABLE public.expenses_type IS 'list of expenses with codes';
+COMMENT ON COLUMN public.expenses_type.id IS 'id of record';
+COMMENT ON COLUMN public.expenses_type.e_type IS 'code';
 
 CREATE TABLE IF NOT EXISTS "income_type" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
