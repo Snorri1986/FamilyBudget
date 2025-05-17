@@ -71,6 +71,16 @@ CREATE TABLE IF NOT EXISTS "entertainment" (
 	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
+COMMENT ON TABLE public.entertainment IS 'storage for entertainment operations';
+COMMENT ON COLUMN public.entertainment.id IS 'id of record';
+COMMENT ON COLUMN public.entertainment.event_type_id IS 'type of operation';
+COMMENT ON COLUMN public.entertainment.amount IS 'value of money';
+COMMENT ON COLUMN public.entertainment.currency IS 'currency of operations';
+COMMENT ON COLUMN public.entertainment."date" IS 'time of operations';
+COMMENT ON COLUMN public.entertainment.source_card IS 'payment card number';
+COMMENT ON COLUMN public.entertainment."comments" IS 'description of operation';
+COMMENT ON COLUMN public.entertainment.opertype IS 'cash or card';
+COMMENT ON COLUMN public.entertainment.user_last_session IS 'owner of operations';
 
 CREATE TABLE IF NOT EXISTS "health" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
