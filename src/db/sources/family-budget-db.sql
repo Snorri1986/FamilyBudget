@@ -31,6 +31,16 @@ CREATE TABLE IF NOT EXISTS "groceries" (
 	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
+COMMENT ON TABLE public.groceries IS 'storage of groceries operations';
+COMMENT ON COLUMN public.groceries.id IS 'id of record';
+COMMENT ON COLUMN public.groceries.g_type IS 'grocery type';
+COMMENT ON COLUMN public.groceries.amount IS 'value of money';
+COMMENT ON COLUMN public.groceries.currency IS 'currency of operation';
+COMMENT ON COLUMN public.groceries."date" IS 'date of operation';
+COMMENT ON COLUMN public.groceries.source_card IS 'payment card number';
+COMMENT ON COLUMN public.groceries."comments" IS 'description of operation';
+COMMENT ON COLUMN public.groceries.opertype IS 'cash or card operation';
+COMMENT ON COLUMN public.groceries.user_last_session IS 'owner of operation';
 
 CREATE TABLE IF NOT EXISTS "housing_rent" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
