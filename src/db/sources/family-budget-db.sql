@@ -54,6 +54,16 @@ CREATE TABLE IF NOT EXISTS "housing_rent" (
 	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
+COMMENT ON TABLE public.housing_rent IS 'storage of housing operations';
+COMMENT ON COLUMN public.housing_rent.id IS 'id of record';
+COMMENT ON COLUMN public.housing_rent.hr_type_id IS 'type of operation';
+COMMENT ON COLUMN public.housing_rent.amount IS 'value of money';
+COMMENT ON COLUMN public.housing_rent.currency IS 'currency of operation';
+COMMENT ON COLUMN public.housing_rent."date" IS 'date of operation';
+COMMENT ON COLUMN public.housing_rent.source_card IS 'payment card';
+COMMENT ON COLUMN public.housing_rent."comments" IS 'description of operation';
+COMMENT ON COLUMN public.housing_rent.opertype IS 'cash or card operation';
+COMMENT ON COLUMN public.housing_rent.user_last_session IS 'owner of operation';
 
 CREATE TABLE IF NOT EXISTS "travel" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,

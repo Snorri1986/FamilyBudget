@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - comments for expenses_type table">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - comments for health table">
       <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,22 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00348" summary="#121 - solution for atm_cash_register">
-      <option name="closed" value="true" />
-      <created>1744052775665</created>
-      <option name="number" value="00348" />
-      <option name="presentableId" value="LOCAL-00348" />
-      <option name="project" value="LOCAL" />
-      <updated>1744052775665</updated>
-    </task>
-    <task id="LOCAL-00349" summary="#116 - final solution for atm_cash_register">
-      <option name="closed" value="true" />
-      <created>1744052983912</created>
-      <option name="number" value="00349" />
-      <option name="presentableId" value="LOCAL-00349" />
-      <option name="project" value="LOCAL" />
-      <updated>1744052983912</updated>
     </task>
     <task id="LOCAL-00350" summary="#121 - final solution for entertainment">
       <option name="closed" value="true" />
@@ -594,7 +578,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747488059252</updated>
     </task>
-    <option name="localTasksCounter" value="397" />
+    <task id="LOCAL-00397" summary="#120 - comments for groceries table">
+      <option name="closed" value="true" />
+      <created>1747488432958</created>
+      <option name="number" value="00397" />
+      <option name="presentableId" value="LOCAL-00397" />
+      <option name="project" value="LOCAL" />
+      <updated>1747488432958</updated>
+    </task>
+    <task id="LOCAL-00398" summary="#120 - comments for health table">
+      <option name="closed" value="true" />
+      <created>1747488596966</created>
+      <option name="number" value="00398" />
+      <option name="presentableId" value="LOCAL-00398" />
+      <option name="project" value="LOCAL" />
+      <updated>1747488596966</updated>
+    </task>
+    <option name="localTasksCounter" value="399" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,8 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#119 - empty constructor for LastTenHealthOperationsModel" />
-    <MESSAGE value="#119 - verify last 10 testGetHealthPage" />
     <MESSAGE value="#119 - empty const LastTenHousingRentOperationsModel" />
     <MESSAGE value="#119 - verify last 10 testRentHousingPage" />
     <MESSAGE value="#119 - verify last 10 testGetTelecomPage" />
@@ -634,6 +632,8 @@
     <MESSAGE value="#120 - comments for currency table" />
     <MESSAGE value="#120 - comments for entertainment table" />
     <MESSAGE value="#120 - comments for expenses_type table" />
-    <option name="LAST_COMMIT_MESSAGE" value="#120 - comments for expenses_type table" />
+    <MESSAGE value="#120 - comments for groceries table" />
+    <MESSAGE value="#120 - comments for health table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#120 - comments for health table" />
   </component>
 </project>
