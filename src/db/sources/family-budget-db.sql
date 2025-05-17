@@ -2,6 +2,9 @@ CREATE TABLE IF NOT EXISTS "currency" (
   "id" BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   "name" VARCHAR(3) NOT NULL UNIQUE
 );
+COMMENT ON TABLE public.currency IS 'type of currencies on system';
+COMMENT ON COLUMN public.currency.id IS 'id of record';
+COMMENT ON COLUMN public.currency."name" IS 'name of currency';
 
 CREATE TABLE IF NOT EXISTS "income" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
