@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - descr for i_health func" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - descr for i_telecom func" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,38 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00373" summary="#119 - verify last 10 testGetHealthPage">
-      <option name="closed" value="true" />
-      <created>1744399795742</created>
-      <option name="number" value="00373" />
-      <option name="presentableId" value="LOCAL-00373" />
-      <option name="project" value="LOCAL" />
-      <updated>1744399795742</updated>
-    </task>
-    <task id="LOCAL-00374" summary="#119 - empty const LastTenHousingRentOperationsModel">
-      <option name="closed" value="true" />
-      <created>1744400040175</created>
-      <option name="number" value="00374" />
-      <option name="presentableId" value="LOCAL-00374" />
-      <option name="project" value="LOCAL" />
-      <updated>1744400040175</updated>
-    </task>
-    <task id="LOCAL-00375" summary="#119 - verify last 10 testRentHousingPage">
-      <option name="closed" value="true" />
-      <created>1744400073412</created>
-      <option name="number" value="00375" />
-      <option name="presentableId" value="LOCAL-00375" />
-      <option name="project" value="LOCAL" />
-      <updated>1744400073412</updated>
-    </task>
-    <task id="LOCAL-00376" summary="#119 - verify last 10 testGetTelecomPage">
-      <option name="closed" value="true" />
-      <created>1745664521360</created>
-      <option name="number" value="00376" />
-      <option name="presentableId" value="LOCAL-00376" />
-      <option name="project" value="LOCAL" />
-      <updated>1745664521360</updated>
     </task>
     <task id="LOCAL-00377" summary="#119 - verify last 10 testGetTravelPage">
       <option name="closed" value="true" />
@@ -592,7 +560,39 @@
       <option name="project" value="LOCAL" />
       <updated>1748611572452</updated>
     </task>
-    <option name="localTasksCounter" value="422" />
+    <task id="LOCAL-00422" summary="#120 - descr for i_housing_rent func">
+      <option name="closed" value="true" />
+      <created>1748611695230</created>
+      <option name="number" value="00422" />
+      <option name="presentableId" value="LOCAL-00422" />
+      <option name="project" value="LOCAL" />
+      <updated>1748611695230</updated>
+    </task>
+    <task id="LOCAL-00423" summary="#120 - descr for i_income func">
+      <option name="closed" value="true" />
+      <created>1748611758534</created>
+      <option name="number" value="00423" />
+      <option name="presentableId" value="LOCAL-00423" />
+      <option name="project" value="LOCAL" />
+      <updated>1748611758534</updated>
+    </task>
+    <task id="LOCAL-00424" summary="#120 - descr for i_login func">
+      <option name="closed" value="true" />
+      <created>1748611815367</created>
+      <option name="number" value="00424" />
+      <option name="presentableId" value="LOCAL-00424" />
+      <option name="project" value="LOCAL" />
+      <updated>1748611815367</updated>
+    </task>
+    <task id="LOCAL-00425" summary="#120 - descr for i_telecom func">
+      <option name="closed" value="true" />
+      <created>1748611875314</created>
+      <option name="number" value="00425" />
+      <option name="presentableId" value="LOCAL-00425" />
+      <option name="project" value="LOCAL" />
+      <updated>1748611875314</updated>
+    </task>
+    <option name="localTasksCounter" value="426" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,10 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#120 - comments for groceries table" />
-    <MESSAGE value="#120 - comments for health table" />
-    <MESSAGE value="#120 - comments for housing_rent table" />
-    <MESSAGE value="#120 - comments for income table" />
     <MESSAGE value="#120 - comments for income_type table" />
     <MESSAGE value="#120 - comments for telecom table" />
     <MESSAGE value="#120 - comments for travel table" />
@@ -632,6 +628,10 @@
     <MESSAGE value="#120 - descr for i_entertainment func" />
     <MESSAGE value="#120 - descr for i_groceries func" />
     <MESSAGE value="#120 - descr for i_health func" />
-    <option name="LAST_COMMIT_MESSAGE" value="#120 - descr for i_health func" />
+    <MESSAGE value="#120 - descr for i_housing_rent func" />
+    <MESSAGE value="#120 - descr for i_income func" />
+    <MESSAGE value="#120 - descr for i_login func" />
+    <MESSAGE value="#120 - descr for i_telecom func" />
+    <option name="LAST_COMMIT_MESSAGE" value="#120 - descr for i_telecom func" />
   </component>
 </project>
