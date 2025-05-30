@@ -14,3 +14,4 @@ AS $function$
 	END;
 $function$
 ;
+COMMENT ON FUNCTION public.get_last_login() IS 'get last auth user';
