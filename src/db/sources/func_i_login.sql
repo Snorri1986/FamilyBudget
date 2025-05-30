@@ -27,3 +27,4 @@ BEGIN
 END;
 $function$
 ;
+COMMENT ON FUNCTION public.i_login(text, text) IS 'insert new login record';
