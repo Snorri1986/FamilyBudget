@@ -19,6 +19,7 @@ BEGIN
 END;
 $function$
 ;
+COMMENT ON FUNCTION public.i_telecom(int4, int4, int4, date, bpchar, int4, bpchar) IS 'insert new telecom operation';
 
 
 
