@@ -162,6 +162,9 @@ CREATE TABLE IF NOT EXISTS "income_type" (
 	"inc_type" varchar(255) NOT NULL,
 	PRIMARY KEY ("id")
 );
+COMMENT ON TABLE public.income_type IS 'type of income';
+COMMENT ON COLUMN public.income_type.id IS 'id of record';
+COMMENT ON COLUMN public.income_type.inc_type IS 'income code number';
 
 create table cash_balance
 (
