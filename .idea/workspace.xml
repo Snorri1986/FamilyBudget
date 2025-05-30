@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - description for get_last_login function">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_telecom_operations.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_telecom_operations.sql" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - descr and rename get_last_ten_entertainment func" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,30 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00362" summary="#116 - final solution for telecom">
-      <option name="closed" value="true" />
-      <created>1744224863217</created>
-      <option name="number" value="00362" />
-      <option name="presentableId" value="LOCAL-00362" />
-      <option name="project" value="LOCAL" />
-      <updated>1744224863217</updated>
-    </task>
-    <task id="LOCAL-00363" summary="#121 - final solution for travel">
-      <option name="closed" value="true" />
-      <created>1744225220041</created>
-      <option name="number" value="00363" />
-      <option name="presentableId" value="LOCAL-00363" />
-      <option name="project" value="LOCAL" />
-      <updated>1744225220041</updated>
-    </task>
-    <task id="LOCAL-00364" summary="#116 - final solution for travel">
-      <option name="closed" value="true" />
-      <created>1744397330428</created>
-      <option name="number" value="00364" />
-      <option name="presentableId" value="LOCAL-00364" />
-      <option name="project" value="LOCAL" />
-      <updated>1744397330428</updated>
     </task>
     <task id="LOCAL-00365" summary="#119 - empty constructor for LastTenIncomesModel">
       <option name="closed" value="true" />
@@ -594,7 +568,31 @@
       <option name="project" value="LOCAL" />
       <updated>1748610489640</updated>
     </task>
-    <option name="localTasksCounter" value="411" />
+    <task id="LOCAL-00411" summary="#120 - description for get_last_telecom_operations function">
+      <option name="closed" value="true" />
+      <created>1748610677829</created>
+      <option name="number" value="00411" />
+      <option name="presentableId" value="LOCAL-00411" />
+      <option name="project" value="LOCAL" />
+      <updated>1748610677829</updated>
+    </task>
+    <task id="LOCAL-00412" summary="#120 - description for get_last_ten_cash_oper function">
+      <option name="closed" value="true" />
+      <created>1748610767978</created>
+      <option name="number" value="00412" />
+      <option name="presentableId" value="LOCAL-00412" />
+      <option name="project" value="LOCAL" />
+      <updated>1748610767978</updated>
+    </task>
+    <task id="LOCAL-00413" summary="#120 - descr and rename get_last_ten_entertainment func">
+      <option name="closed" value="true" />
+      <created>1748610961714</created>
+      <option name="number" value="00413" />
+      <option name="presentableId" value="LOCAL-00413" />
+      <option name="project" value="LOCAL" />
+      <updated>1748610961714</updated>
+    </task>
+    <option name="localTasksCounter" value="414" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,9 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#123 - i_housing_rent" />
-    <MESSAGE value="#123 - i_health new" />
-    <MESSAGE value="#123 - i_housing_rent new" />
     <MESSAGE value="#123 - i_telecom" />
     <MESSAGE value="#123 - i_travel" />
     <MESSAGE value="#124 - clean up" />
@@ -634,6 +629,9 @@
     <MESSAGE value="#120 - description for atm_cash_register function" />
     <MESSAGE value="#120 - description for get_cash_balance function" />
     <MESSAGE value="#120 - description for get_last_login function" />
-    <option name="LAST_COMMIT_MESSAGE" value="#120 - description for get_last_login function" />
+    <MESSAGE value="#120 - description for get_last_telecom_operations function" />
+    <MESSAGE value="#120 - description for get_last_ten_cash_oper function" />
+    <MESSAGE value="#120 - descr and rename get_last_ten_entertainment func" />
+    <option name="LAST_COMMIT_MESSAGE" value="#120 - descr and rename get_last_ten_entertainment func" />
   </component>
 </project>
