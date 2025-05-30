@@ -16,3 +16,4 @@ BEGIN
 
 END;
 $function$
+COMMENT ON FUNCTION public.i_income(int4, int4, int4, date, bpchar, int4, bpchar) IS 'insert income operation';
