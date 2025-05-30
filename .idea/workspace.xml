@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - comments for telecom table">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - comments for travel table" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,14 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00354" summary="#116 - final solution for groceries">
-      <option name="closed" value="true" />
-      <created>1744054874431</created>
-      <option name="number" value="00354" />
-      <option name="presentableId" value="LOCAL-00354" />
-      <option name="project" value="LOCAL" />
-      <updated>1744054874431</updated>
     </task>
     <task id="LOCAL-00355" summary="#116 - final clean up for groceries">
       <option name="closed" value="true" />
@@ -594,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748609266115</updated>
     </task>
-    <option name="localTasksCounter" value="403" />
+    <task id="LOCAL-00403" summary="#120 - comments for travel table">
+      <option name="closed" value="true" />
+      <created>1748609436776</created>
+      <option name="number" value="00403" />
+      <option name="presentableId" value="LOCAL-00403" />
+      <option name="project" value="LOCAL" />
+      <updated>1748609436776</updated>
+    </task>
+    <option name="localTasksCounter" value="404" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#119 - mock dbService." />
     <MESSAGE value="#122 - new column currency" />
     <MESSAGE value="#122 - i_income" />
     <MESSAGE value="#123 - i_income" />
@@ -634,6 +631,7 @@
     <MESSAGE value="#120 - comments for income table" />
     <MESSAGE value="#120 - comments for income_type table" />
     <MESSAGE value="#120 - comments for telecom table" />
-    <option name="LAST_COMMIT_MESSAGE" value="#120 - comments for telecom table" />
+    <MESSAGE value="#120 - comments for travel table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#120 - comments for travel table" />
   </component>
 </project>

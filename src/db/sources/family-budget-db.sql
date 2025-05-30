@@ -216,6 +216,9 @@ CREATE TABLE public.user_last_login (
 	login varchar NULL,
 	last_login timestamp NULL
 );
+COMMENT ON TABLE public.user_last_login IS 'auth login table';
+COMMENT ON COLUMN public.user_last_login.login IS 'login of user';
+
 
 ALTER TABLE "income" ADD CONSTRAINT "income_fk1" FOREIGN KEY ("i_type") REFERENCES "income_type"("id");
 ALTER TABLE "income" ADD CONSTRAINT "income_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
