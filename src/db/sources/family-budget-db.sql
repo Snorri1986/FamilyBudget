@@ -88,6 +88,17 @@ CREATE TABLE IF NOT EXISTS "travel" (
 	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
+COMMENT ON TABLE public.travel IS 'storage of travel operations';
+COMMENT ON COLUMN public.travel.id IS 'id of record';
+COMMENT ON COLUMN public.travel.tr_type_id IS 'expenses type';
+COMMENT ON COLUMN public.travel.amount IS 'amount';
+COMMENT ON COLUMN public.travel.currency IS 'currency';
+COMMENT ON COLUMN public.travel."date" IS 'date of operation';
+COMMENT ON COLUMN public.travel.source_card IS 'payment card';
+COMMENT ON COLUMN public.travel.destination IS 'travel destination';
+COMMENT ON COLUMN public.travel."comments" IS 'description of operation';
+COMMENT ON COLUMN public.travel.opertype IS 'card or cash';
+COMMENT ON COLUMN public.travel.user_last_session IS 'owner of operation';
 
 CREATE TABLE IF NOT EXISTS "entertainment" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
