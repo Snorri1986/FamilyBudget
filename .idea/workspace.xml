@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - descr and rename get_last_ten_entertainment func" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - descr for get_last_ten_housing_oper func">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_incomes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_incomes.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,30 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00365" summary="#119 - empty constructor for LastTenIncomesModel">
-      <option name="closed" value="true" />
-      <created>1744398713625</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
-      <option name="project" value="LOCAL" />
-      <updated>1744398713625</updated>
-    </task>
-    <task id="LOCAL-00366" summary="#119 - verify last ten operations testGetIncomePage">
-      <option name="closed" value="true" />
-      <created>1744398780631</created>
-      <option name="number" value="00366" />
-      <option name="presentableId" value="LOCAL-00366" />
-      <option name="project" value="LOCAL" />
-      <updated>1744398780631</updated>
-    </task>
-    <task id="LOCAL-00367" summary="#119 - empty constructor for LastTenEntertainmentModel">
-      <option name="closed" value="true" />
-      <created>1744399085216</created>
-      <option name="number" value="00367" />
-      <option name="presentableId" value="LOCAL-00367" />
-      <option name="project" value="LOCAL" />
-      <updated>1744399085216</updated>
     </task>
     <task id="LOCAL-00368" summary="#119 - verify last ten testGetEntertainmentPage">
       <option name="closed" value="true" />
@@ -592,7 +570,31 @@
       <option name="project" value="LOCAL" />
       <updated>1748610961714</updated>
     </task>
-    <option name="localTasksCounter" value="414" />
+    <task id="LOCAL-00414" summary="#120 - descr for get_last_ten_groceries_oper func">
+      <option name="closed" value="true" />
+      <created>1748611051055</created>
+      <option name="number" value="00414" />
+      <option name="presentableId" value="LOCAL-00414" />
+      <option name="project" value="LOCAL" />
+      <updated>1748611051055</updated>
+    </task>
+    <task id="LOCAL-00415" summary="#120 - descr for get_last_ten_health_oper func">
+      <option name="closed" value="true" />
+      <created>1748611135166</created>
+      <option name="number" value="00415" />
+      <option name="presentableId" value="LOCAL-00415" />
+      <option name="project" value="LOCAL" />
+      <updated>1748611135166</updated>
+    </task>
+    <task id="LOCAL-00416" summary="#120 - descr for get_last_ten_housing_oper func">
+      <option name="closed" value="true" />
+      <created>1748611208116</created>
+      <option name="number" value="00416" />
+      <option name="presentableId" value="LOCAL-00416" />
+      <option name="project" value="LOCAL" />
+      <updated>1748611208116</updated>
+    </task>
+    <option name="localTasksCounter" value="417" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,9 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#123 - i_telecom" />
-    <MESSAGE value="#123 - i_travel" />
-    <MESSAGE value="#124 - clean up" />
     <MESSAGE value="#120 - comments for cash_balance table" />
     <MESSAGE value="#120 - comments for cash_operations_log table" />
     <MESSAGE value="#120 - comments for currency table" />
@@ -632,6 +631,9 @@
     <MESSAGE value="#120 - description for get_last_telecom_operations function" />
     <MESSAGE value="#120 - description for get_last_ten_cash_oper function" />
     <MESSAGE value="#120 - descr and rename get_last_ten_entertainment func" />
-    <option name="LAST_COMMIT_MESSAGE" value="#120 - descr and rename get_last_ten_entertainment func" />
+    <MESSAGE value="#120 - descr for get_last_ten_groceries_oper func" />
+    <MESSAGE value="#120 - descr for get_last_ten_health_oper func" />
+    <MESSAGE value="#120 - descr for get_last_ten_housing_oper func" />
+    <option name="LAST_COMMIT_MESSAGE" value="#120 - descr for get_last_ten_housing_oper func" />
   </component>
 </project>

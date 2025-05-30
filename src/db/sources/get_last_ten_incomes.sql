@@ -12,3 +12,4 @@ AS $function$
 	END;
 $function$
 ;
+COMMENT ON FUNCTION public.get_last_ten_incomes() IS 'get last ten incomes opers';
