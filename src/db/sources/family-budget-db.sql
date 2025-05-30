@@ -147,6 +147,17 @@ CREATE TABLE IF NOT EXISTS "telecom" (
 	"user_last_session" text NOT NULL
 	PRIMARY KEY ("id")
 );
+COMMENT ON TABLE public.telecom IS 'storage of telecom operations';
+COMMENT ON COLUMN public.telecom.id IS 'id of record';
+COMMENT ON COLUMN public.telecom.t_type_id IS 'expenses type';
+COMMENT ON COLUMN public.telecom.amount IS 'amount';
+COMMENT ON COLUMN public.telecom.currency IS 'currency';
+COMMENT ON COLUMN public.telecom."date" IS 'date of operations';
+COMMENT ON COLUMN public.telecom.source_card IS 'payment card';
+COMMENT ON COLUMN public.telecom."comments" IS 'description of operation';
+COMMENT ON COLUMN public.telecom.opertype IS 'card or cash';
+COMMENT ON COLUMN public.telecom.user_last_session IS 'owner of operation';
+
 
 CREATE TABLE IF NOT EXISTS "expenses_type" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
