@@ -18,3 +18,4 @@ AS $function$
 	END;
 $function$
 ;
+COMMENT ON FUNCTION public.get_last_telecom_operations() IS 'get last ten telecom opers';
