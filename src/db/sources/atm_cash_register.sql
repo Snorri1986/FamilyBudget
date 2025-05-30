@@ -15,3 +15,4 @@ AS $function$
 	END;
 $function$
 ;
+COMMENT ON FUNCTION public.atm_cash_register(bpchar, int4, date, bpchar) IS 'register atm cash operations';
