@@ -10,3 +10,4 @@ AS $function$
 	END;
 $function$
 ;
+COMMENT ON FUNCTION public.get_cash_balance() IS 'get current cash balance';
