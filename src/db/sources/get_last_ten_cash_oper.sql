@@ -13,3 +13,4 @@ AS $function$
 $function$
 ;
 ;;
+COMMENT ON FUNCTION public.get_last_ten_cash_oper() IS 'get last ten cash operations';
