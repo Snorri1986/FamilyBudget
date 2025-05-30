@@ -18,3 +18,4 @@ AS $function$
       END;
 $function$
 ;
+COMMENT ON FUNCTION public.get_last_ten_health_oper() IS 'get last ten health opers';
