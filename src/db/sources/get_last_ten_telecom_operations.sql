@@ -1,6 +1,6 @@
-CREATE OR REPLACE FUNCTION public.get_last_telecom_operations()
-	RETURNS TABLE(t_type_id bigint,amount bigint,currency bigint,date timestamp with time zone,source_card bigint,opertype varchar(255),comments varchar(255))
-	LANGUAGE plpgsql
+CREATE OR REPLACE FUNCTION public.get_last_ten_telecom_operations()
+ RETURNS TABLE(t_type_id bigint, amount bigint, currency bigint, date timestamp with time zone, source_card bigint, opertype character varying, comments character varying)
+ LANGUAGE plpgsql
 AS $function$
 	BEGIN
          RETURN QUERY
@@ -18,4 +18,4 @@ AS $function$
 	END;
 $function$
 ;
-COMMENT ON FUNCTION public.get_last_telecom_operations() IS 'get last ten telecom opers';
+COMMENT ON FUNCTION public.get_last_ten_telecom_operations() IS 'get last ten telecom opers';

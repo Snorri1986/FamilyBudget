@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - descr for i_telecom func" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#120 - descr for minus_cash_balance func">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_telecom_operations.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_telecom_operations.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,22 +205,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00377" summary="#119 - verify last 10 testGetTravelPage">
-      <option name="closed" value="true" />
-      <created>1745664820840</created>
-      <option name="number" value="00377" />
-      <option name="presentableId" value="LOCAL-00377" />
-      <option name="project" value="LOCAL" />
-      <updated>1745664820840</updated>
-    </task>
-    <task id="LOCAL-00378" summary="#119 - mock dbService.">
-      <option name="closed" value="true" />
-      <created>1745665224268</created>
-      <option name="number" value="00378" />
-      <option name="presentableId" value="LOCAL-00378" />
-      <option name="project" value="LOCAL" />
-      <updated>1745665224268</updated>
     </task>
     <task id="LOCAL-00379" summary="#122 - new column currency">
       <option name="closed" value="true" />
@@ -592,7 +582,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748611875314</updated>
     </task>
-    <option name="localTasksCounter" value="426" />
+    <task id="LOCAL-00426" summary="#120 - descr for i_travel func">
+      <option name="closed" value="true" />
+      <created>1748611934916</created>
+      <option name="number" value="00426" />
+      <option name="presentableId" value="LOCAL-00426" />
+      <option name="project" value="LOCAL" />
+      <updated>1748611934916</updated>
+    </task>
+    <task id="LOCAL-00427" summary="#120 - descr for minus_cash_balance func">
+      <option name="closed" value="true" />
+      <created>1748612004099</created>
+      <option name="number" value="00427" />
+      <option name="presentableId" value="LOCAL-00427" />
+      <option name="project" value="LOCAL" />
+      <updated>1748612004099</updated>
+    </task>
+    <option name="localTasksCounter" value="428" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,8 +613,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#120 - comments for income_type table" />
-    <MESSAGE value="#120 - comments for telecom table" />
     <MESSAGE value="#120 - comments for travel table" />
     <MESSAGE value="#120 - comments for user_last_login table" />
     <MESSAGE value="#120 - delete table before move." />
@@ -632,6 +636,8 @@
     <MESSAGE value="#120 - descr for i_income func" />
     <MESSAGE value="#120 - descr for i_login func" />
     <MESSAGE value="#120 - descr for i_telecom func" />
-    <option name="LAST_COMMIT_MESSAGE" value="#120 - descr for i_telecom func" />
+    <MESSAGE value="#120 - descr for i_travel func" />
+    <MESSAGE value="#120 - descr for minus_cash_balance func" />
+    <option name="LAST_COMMIT_MESSAGE" value="#120 - descr for minus_cash_balance func" />
   </component>
 </project>

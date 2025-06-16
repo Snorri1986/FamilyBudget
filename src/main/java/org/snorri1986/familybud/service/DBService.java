@@ -215,7 +215,7 @@ public class DBService {
   }
 
   public List<LastTenTelecomOperationsModel> getLastTenTelecomOperations() {
-    String sql = "SELECT * from public.get_last_telecom_operations()";
+    String sql = "SELECT * from public.get_last_ten_telecom_operations()";
     return jdbcTemplate.query(sql,new RowMapper<LastTenTelecomOperationsModel>() {
       @Override
       public LastTenTelecomOperationsModel mapRow(ResultSet rs,int rowNum) throws SQLException {
