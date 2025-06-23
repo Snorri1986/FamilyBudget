@@ -70,18 +70,57 @@
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    <h2>Last 10 Travel operations</h2>
+    <h6>Currency: 1-EUR,2-UAH,3-DKK,4-USD</h6>
+    <table class="full-width-table">
+        <thead>
+        <tr>
+            <th>Travel Type</th>
+            <th>Amount</th>
+            <th>Currency</th>
+            <th>Date</th>
+            <th>Card</th>
+            <th>Destination</th>
+            <th>Operation type</th>
+            <th>Comments</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="travel : ${travelLastTen}">
+            <td>
+                <span th:switch="${travel.travelType}">
+                  <span th:case="33">Tickets</span>
+                <span th:case="34">Hotel</span>
+                <span th:case="35">FoodInTrip</span>
+                    <span th:case="36">TravelEntertainment</span>
+                    <span th:case="7">Public Transport</span>
+                  <span th:case="22">Other</span>
+                </span>
+            </td>
+            <td th:text="${travel.amount}"></td>
+            <td th:text="${travel.currency}"></td>
+            <td th:text="${#temporals.format(travel.date, 'dd-MM-yyy')}"></td>
+            <td th:text="${travel.sourceCard}"></td>
+            <td th:text="${travel.destination}"></td>
+            <td th:text="${travel.operType}"></td>
+            <td th:text="${travel.comments}"></td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 <script>
-    flatpickr("#transDate", {
-        dateFormat: "d.m.Y H:i",
-        enableTime: true,
-        noCalendar: false,
-        time_24hr: true,
-        maxDate: "today"
-    });
+    setTimeout(() => {
+          flatpickr("#transDate", {
+              dateFormat: "d.m.Y H:i",
+              enableTime: true,
+              noCalendar: false,
+              time_24hr: true,
+              maxDate: new Date()
+          });
+      }, 100);
 </script>
 </body>
 </html>

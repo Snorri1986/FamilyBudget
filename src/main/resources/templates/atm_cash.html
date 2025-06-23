@@ -42,6 +42,26 @@
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+     <h2>Last 10 Cash operations</h2>
+     <h6>Operation Type: 1-Income,2-Expense</h6>
+     <table class="full-width-table">
+         <thead>
+         <tr>
+             <th>Operation Type</th>
+             <th>Amount</th>
+             <th>Date</th>
+             <th>Comments</th>
+         </tr>
+         </thead>
+         <tbody>
+         <tr th:each="cash : ${lastTenCashOperations}">
+             <td th:text="${cash.opType}"></td>
+             <td th:text="${cash.amount}"></td>
+             <td th:text="${#temporals.format(cash.date, 'dd-MM-yyy')}"></td>
+             <td th:text="${cash.comments}"></td>
+         </tr>
+         </tbody>
+     </table>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

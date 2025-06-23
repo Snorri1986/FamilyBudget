@@ -21,7 +21,7 @@ public class DataSourceConfig {
   }
 
   // DEV
-/*  @Bean
+  /*@Bean
   public DataSource getDataSource() {
     DataSourceBuilder<?> dataSourceBuilder = DataSourceBuilder.create();
     dataSourceBuilder.url("jdbc:postgresql://cav8p52l9arddb.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com:5432/d537j7eaietli3");

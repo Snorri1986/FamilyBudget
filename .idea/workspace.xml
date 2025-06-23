@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#107 - fix flatpickr solution">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#106 - switch to PROD DB">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,8 +52,11 @@
     &quot;JUnit.MainPageControllerTest.testGetHealthPage.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainPageControllerTest.testGetIncomePage.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainPageControllerTest.testGetLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetTelecomPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetTravelPage.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainPageControllerTest.testRentHousingPage.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.WebFormsControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WebFormsControllerTest.testGetLastTenIncomeOpers.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.WebFormsControllerTest.testGoToMain.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor&quot;: &quot;Run&quot;,
@@ -63,7 +67,8 @@
     &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Applications/FamilyBudget/src/main/resources/static/css&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/Applications/FamilyBudget/src/main/resources/static/css&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -103,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageControllerTest.testGetAdditionalFunctionPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageControllerTest.testGetIncomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +118,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetAdditionalFunctionPage" />
+      <option name="METHOD_NAME" value="testGetIncomePage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebFormsControllerTest.testSubmitNewAtm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebFormsControllerTest.testGetLastTenIncomeOpers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -144,7 +149,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
-      <option name="METHOD_NAME" value="testSubmitNewAtm" />
+      <option name="METHOD_NAME" value="testGetLastTenIncomeOpers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
+        <item itemvalue="JUnit.WebFormsControllerTest.testGetLastTenIncomeOpers" />
         <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
-        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitNewAtm" />
-        <item itemvalue="JUnit.MainPageControllerTest.testGetAdditionalFunctionPage" />
       </list>
     </recent_temporary>
   </component>
@@ -199,399 +204,399 @@
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
     </task>
-    <task id="LOCAL-00214" summary="#102 - new version of function with cash loging(groceries)">
+    <task id="LOCAL-00381" summary="#123 - i_income">
       <option name="closed" value="true" />
-      <created>1738788059097</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
+      <created>1745667597312</created>
+      <option name="number" value="00381" />
+      <option name="presentableId" value="LOCAL-00381" />
       <option name="project" value="LOCAL" />
-      <updated>1738788059097</updated>
+      <updated>1745667597312</updated>
     </task>
-    <task id="LOCAL-00215" summary="#102 - new version of function with cash loging(health)">
+    <task id="LOCAL-00382" summary="others">
       <option name="closed" value="true" />
-      <created>1738788624111</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
+      <created>1745667827309</created>
+      <option name="number" value="00382" />
+      <option name="presentableId" value="LOCAL-00382" />
       <option name="project" value="LOCAL" />
-      <updated>1738788624111</updated>
+      <updated>1745667827309</updated>
     </task>
-    <task id="LOCAL-00216" summary="#102 - new version of function with cash loging(housing)">
+    <task id="LOCAL-00383" summary="#123 - i_entertainment">
       <option name="closed" value="true" />
-      <created>1738789402790</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
+      <created>1745668176497</created>
+      <option name="number" value="00383" />
+      <option name="presentableId" value="LOCAL-00383" />
       <option name="project" value="LOCAL" />
-      <updated>1738789402790</updated>
+      <updated>1745668176497</updated>
     </task>
-    <task id="LOCAL-00217" summary="#102 - new version of function with cash loging(telecom)">
+    <task id="LOCAL-00384" summary="#123 - i_groceries">
       <option name="closed" value="true" />
-      <created>1739217501134</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
+      <created>1746263299027</created>
+      <option name="number" value="00384" />
+      <option name="presentableId" value="LOCAL-00384" />
       <option name="project" value="LOCAL" />
-      <updated>1739217501134</updated>
+      <updated>1746263299027</updated>
     </task>
-    <task id="LOCAL-00218" summary="#102 - new version of function with cash loging(travel)">
+    <task id="LOCAL-00385" summary="#123 - i_health">
       <option name="closed" value="true" />
-      <created>1739217919309</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
+      <created>1746263754557</created>
+      <option name="number" value="00385" />
+      <option name="presentableId" value="LOCAL-00385" />
       <option name="project" value="LOCAL" />
-      <updated>1739217919309</updated>
+      <updated>1746263754558</updated>
     </task>
-    <task id="LOCAL-00219" summary="#94 - new db function for increas cash balance">
+    <task id="LOCAL-00386" summary="#123 - i_housing_rent">
       <option name="closed" value="true" />
-      <created>1739218822972</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
+      <created>1746264035842</created>
+      <option name="number" value="00386" />
+      <option name="presentableId" value="LOCAL-00386" />
       <option name="project" value="LOCAL" />
-      <updated>1739218822972</updated>
+      <updated>1746264035842</updated>
     </task>
-    <task id="LOCAL-00220" summary="#103 - new models">
+    <task id="LOCAL-00387" summary="#123 - i_health new">
       <option name="closed" value="true" />
-      <created>1739219625378</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
+      <created>1746264395869</created>
+      <option name="number" value="00387" />
+      <option name="presentableId" value="LOCAL-00387" />
       <option name="project" value="LOCAL" />
-      <updated>1739219625378</updated>
+      <updated>1746264395869</updated>
     </task>
-    <task id="LOCAL-00221" summary="#103 - change on MainController">
+    <task id="LOCAL-00388" summary="#123 - i_housing_rent new">
       <option name="closed" value="true" />
-      <created>1739219702925</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
+      <created>1746264496249</created>
+      <option name="number" value="00388" />
+      <option name="presentableId" value="LOCAL-00388" />
       <option name="project" value="LOCAL" />
-      <updated>1739219702925</updated>
+      <updated>1746264496249</updated>
     </task>
-    <task id="LOCAL-00222" summary="#103 - add TransactionType on html level">
+    <task id="LOCAL-00389" summary="#123 - i_telecom">
       <option name="closed" value="true" />
-      <created>1739219762163</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
+      <created>1746264881767</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
       <option name="project" value="LOCAL" />
-      <updated>1739219762163</updated>
+      <updated>1746264881767</updated>
     </task>
-    <task id="LOCAL-00223" summary="#103 - add TransactionType on webforms cntrl">
+    <task id="LOCAL-00390" summary="#123 - i_travel">
       <option name="closed" value="true" />
-      <created>1739219860082</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
+      <created>1746265107993</created>
+      <option name="number" value="00390" />
+      <option name="presentableId" value="LOCAL-00390" />
       <option name="project" value="LOCAL" />
-      <updated>1739219860082</updated>
+      <updated>1746265107993</updated>
     </task>
-    <task id="LOCAL-00224" summary="#103 - add TransactionType column to table">
+    <task id="LOCAL-00391" summary="#124 - clean up">
       <option name="closed" value="true" />
-      <created>1739220270738</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
+      <created>1746265374459</created>
+      <option name="number" value="00391" />
+      <option name="presentableId" value="LOCAL-00391" />
       <option name="project" value="LOCAL" />
-      <updated>1739220270738</updated>
+      <updated>1746265374459</updated>
     </task>
-    <task id="LOCAL-00225" summary="#103 - change on DB service">
+    <task id="LOCAL-00392" summary="#120 - comments for cash_balance table">
       <option name="closed" value="true" />
-      <created>1739220473678</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
+      <created>1746265814387</created>
+      <option name="number" value="00392" />
+      <option name="presentableId" value="LOCAL-00392" />
       <option name="project" value="LOCAL" />
-      <updated>1739220473678</updated>
+      <updated>1746265814387</updated>
     </task>
-    <task id="LOCAL-00226" summary="#103 - change on unit tests level">
+    <task id="LOCAL-00393" summary="#120 - comments for cash_operations_log table">
       <option name="closed" value="true" />
-      <created>1739220607007</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
+      <created>1747487564791</created>
+      <option name="number" value="00393" />
+      <option name="presentableId" value="LOCAL-00393" />
       <option name="project" value="LOCAL" />
-      <updated>1739220607007</updated>
+      <updated>1747487564791</updated>
     </task>
-    <task id="LOCAL-00227" summary="#94 - new version of function">
+    <task id="LOCAL-00394" summary="#120 - comments for currency table">
       <option name="closed" value="true" />
-      <created>1739221159603</created>
-      <option name="number" value="00227" />
-      <option name="presentableId" value="LOCAL-00227" />
+      <created>1747487746343</created>
+      <option name="number" value="00394" />
+      <option name="presentableId" value="LOCAL-00394" />
       <option name="project" value="LOCAL" />
-      <updated>1739221159603</updated>
+      <updated>1747487746343</updated>
     </task>
-    <task id="LOCAL-00228" summary="#103 - new version of function">
+    <task id="LOCAL-00395" summary="#120 - comments for entertainment table">
       <option name="closed" value="true" />
-      <created>1739221331947</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
+      <created>1747487958764</created>
+      <option name="number" value="00395" />
+      <option name="presentableId" value="LOCAL-00395" />
       <option name="project" value="LOCAL" />
-      <updated>1739221331947</updated>
+      <updated>1747487958764</updated>
     </task>
-    <task id="LOCAL-00229" summary="#103 - web forms cntrl and change of html">
+    <task id="LOCAL-00396" summary="#120 - comments for expenses_type table">
       <option name="closed" value="true" />
-      <created>1739221363257</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
+      <created>1747488059247</created>
+      <option name="number" value="00396" />
+      <option name="presentableId" value="LOCAL-00396" />
       <option name="project" value="LOCAL" />
-      <updated>1739221363257</updated>
+      <updated>1747488059252</updated>
     </task>
-    <task id="LOCAL-00230" summary="#96 - function minus_cash_balance">
+    <task id="LOCAL-00397" summary="#120 - comments for groceries table">
       <option name="closed" value="true" />
-      <created>1739390685917</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
+      <created>1747488432958</created>
+      <option name="number" value="00397" />
+      <option name="presentableId" value="LOCAL-00397" />
       <option name="project" value="LOCAL" />
-      <updated>1739390685917</updated>
+      <updated>1747488432958</updated>
     </task>
-    <task id="LOCAL-00231" summary="#104 - func i_entertainment with cash_balance mins">
+    <task id="LOCAL-00398" summary="#120 - comments for health table">
       <option name="closed" value="true" />
-      <created>1739391412051</created>
-      <option name="number" value="00231" />
-      <option name="presentableId" value="LOCAL-00231" />
+      <created>1747488596966</created>
+      <option name="number" value="00398" />
+      <option name="presentableId" value="LOCAL-00398" />
       <option name="project" value="LOCAL" />
-      <updated>1739391412051</updated>
+      <updated>1747488596966</updated>
     </task>
-    <task id="LOCAL-00232" summary="#104 - func i_groceries with cash_balance mins">
+    <task id="LOCAL-00399" summary="#120 - comments for housing_rent table">
       <option name="closed" value="true" />
-      <created>1739391681159</created>
-      <option name="number" value="00232" />
-      <option name="presentableId" value="LOCAL-00232" />
+      <created>1747488856619</created>
+      <option name="number" value="00399" />
+      <option name="presentableId" value="LOCAL-00399" />
       <option name="project" value="LOCAL" />
-      <updated>1739391681159</updated>
+      <updated>1747488856619</updated>
     </task>
-    <task id="LOCAL-00233" summary="#104 - func i_health with cash_balance mins">
+    <task id="LOCAL-00400" summary="#120 - comments for income table">
       <option name="closed" value="true" />
-      <created>1739392023661</created>
-      <option name="number" value="00233" />
-      <option name="presentableId" value="LOCAL-00233" />
+      <created>1747489077217</created>
+      <option name="number" value="00400" />
+      <option name="presentableId" value="LOCAL-00400" />
       <option name="project" value="LOCAL" />
-      <updated>1739392023661</updated>
+      <updated>1747489077217</updated>
     </task>
-    <task id="LOCAL-00234" summary="#104 - func i_housing_rent with cash_balance mins">
+    <task id="LOCAL-00401" summary="#120 - comments for income_type table">
       <option name="closed" value="true" />
-      <created>1739392300944</created>
-      <option name="number" value="00234" />
-      <option name="presentableId" value="LOCAL-00234" />
+      <created>1748609086698</created>
+      <option name="number" value="00401" />
+      <option name="presentableId" value="LOCAL-00401" />
       <option name="project" value="LOCAL" />
-      <updated>1739392300944</updated>
+      <updated>1748609086699</updated>
     </task>
-    <task id="LOCAL-00235" summary="#104 - func i_telecom with cash_balance mins">
+    <task id="LOCAL-00402" summary="#120 - comments for telecom table">
       <option name="closed" value="true" />
-      <created>1739393774548</created>
-      <option name="number" value="00235" />
-      <option name="presentableId" value="LOCAL-00235" />
+      <created>1748609266115</created>
+      <option name="number" value="00402" />
+      <option name="presentableId" value="LOCAL-00402" />
       <option name="project" value="LOCAL" />
-      <updated>1739393774548</updated>
+      <updated>1748609266115</updated>
     </task>
-    <task id="LOCAL-00236" summary="#104 - func i_travel with cash_balance mins">
+    <task id="LOCAL-00403" summary="#120 - comments for travel table">
       <option name="closed" value="true" />
-      <created>1739559312305</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
+      <created>1748609436776</created>
+      <option name="number" value="00403" />
+      <option name="presentableId" value="LOCAL-00403" />
       <option name="project" value="LOCAL" />
-      <updated>1739559312305</updated>
+      <updated>1748609436776</updated>
     </task>
-    <task id="LOCAL-00237" summary="#97 - css for others page">
+    <task id="LOCAL-00404" summary="#120 - comments for user_last_login table">
       <option name="closed" value="true" />
-      <created>1739559791633</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
+      <created>1748609640192</created>
+      <option name="number" value="00404" />
+      <option name="presentableId" value="LOCAL-00404" />
       <option name="project" value="LOCAL" />
-      <updated>1739559791633</updated>
+      <updated>1748609640192</updated>
     </task>
-    <task id="LOCAL-00238" summary="#97 - css for others page">
+    <task id="LOCAL-00405" summary="#120 - delete table before move.">
       <option name="closed" value="true" />
-      <created>1739559883308</created>
-      <option name="number" value="00238" />
-      <option name="presentableId" value="LOCAL-00238" />
+      <created>1748609817810</created>
+      <option name="number" value="00405" />
+      <option name="presentableId" value="LOCAL-00405" />
       <option name="project" value="LOCAL" />
-      <updated>1739559883308</updated>
+      <updated>1748609817810</updated>
     </task>
-    <task id="LOCAL-00239" summary="#97 - new title">
+    <task id="LOCAL-00406" summary="#120 - move table to one big file">
       <option name="closed" value="true" />
-      <created>1739560048592</created>
-      <option name="number" value="00239" />
-      <option name="presentableId" value="LOCAL-00239" />
+      <created>1748609852074</created>
+      <option name="number" value="00406" />
+      <option name="presentableId" value="LOCAL-00406" />
       <option name="project" value="LOCAL" />
-      <updated>1739560048592</updated>
+      <updated>1748609852074</updated>
     </task>
-    <task id="LOCAL-00240" summary="#97 - new button on html page">
+    <task id="LOCAL-00407" summary="#120 - description for add_cash_balance function">
       <option name="closed" value="true" />
-      <created>1739560470885</created>
-      <option name="number" value="00240" />
-      <option name="presentableId" value="LOCAL-00240" />
+      <created>1748610122122</created>
+      <option name="number" value="00407" />
+      <option name="presentableId" value="LOCAL-00407" />
       <option name="project" value="LOCAL" />
-      <updated>1739560470885</updated>
+      <updated>1748610122122</updated>
     </task>
-    <task id="LOCAL-00241" summary="#98 - model for ATM cash operations">
+    <task id="LOCAL-00408" summary="#120 - description for atm_cash_register function">
       <option name="closed" value="true" />
-      <created>1739560929867</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
+      <created>1748610282147</created>
+      <option name="number" value="00408" />
+      <option name="presentableId" value="LOCAL-00408" />
       <option name="project" value="LOCAL" />
-      <updated>1739560929867</updated>
+      <updated>1748610282147</updated>
     </task>
-    <task id="LOCAL-00242" summary="#98 - atm_cash temporary">
+    <task id="LOCAL-00409" summary="#120 - description for get_cash_balance function">
       <option name="closed" value="true" />
-      <created>1739561511121</created>
-      <option name="number" value="00242" />
-      <option name="presentableId" value="LOCAL-00242" />
+      <created>1748610404461</created>
+      <option name="number" value="00409" />
+      <option name="presentableId" value="LOCAL-00409" />
       <option name="project" value="LOCAL" />
-      <updated>1739561511121</updated>
+      <updated>1748610404461</updated>
     </task>
-    <task id="LOCAL-00243" summary="#98 - rename others page">
+    <task id="LOCAL-00410" summary="#120 - description for get_last_login function">
       <option name="closed" value="true" />
-      <created>1739561839880</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
+      <created>1748610489640</created>
+      <option name="number" value="00410" />
+      <option name="presentableId" value="LOCAL-00410" />
       <option name="project" value="LOCAL" />
-      <updated>1739561839880</updated>
+      <updated>1748610489640</updated>
     </task>
-    <task id="LOCAL-00244" summary="#98 - rename button">
+    <task id="LOCAL-00411" summary="#120 - description for get_last_telecom_operations function">
       <option name="closed" value="true" />
-      <created>1739561933196</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
+      <created>1748610677829</created>
+      <option name="number" value="00411" />
+      <option name="presentableId" value="LOCAL-00411" />
       <option name="project" value="LOCAL" />
-      <updated>1739561933196</updated>
+      <updated>1748610677829</updated>
     </task>
-    <task id="LOCAL-00245" summary="#98 - rename method">
+    <task id="LOCAL-00412" summary="#120 - description for get_last_ten_cash_oper function">
       <option name="closed" value="true" />
-      <created>1739562063154</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
+      <created>1748610767978</created>
+      <option name="number" value="00412" />
+      <option name="presentableId" value="LOCAL-00412" />
       <option name="project" value="LOCAL" />
-      <updated>1739562063154</updated>
+      <updated>1748610767978</updated>
     </task>
-    <task id="LOCAL-00246" summary="#98 - unit test for additional functions page">
+    <task id="LOCAL-00413" summary="#120 - descr and rename get_last_ten_entertainment func">
       <option name="closed" value="true" />
-      <created>1739562293772</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
+      <created>1748610961714</created>
+      <option name="number" value="00413" />
+      <option name="presentableId" value="LOCAL-00413" />
       <option name="project" value="LOCAL" />
-      <updated>1739562293772</updated>
+      <updated>1748610961714</updated>
     </task>
-    <task id="LOCAL-00247" summary="#98 - new controller - AdditionalFuncPageController">
+    <task id="LOCAL-00414" summary="#120 - descr for get_last_ten_groceries_oper func">
       <option name="closed" value="true" />
-      <created>1739819070456</created>
-      <option name="number" value="00247" />
-      <option name="presentableId" value="LOCAL-00247" />
+      <created>1748611051055</created>
+      <option name="number" value="00414" />
+      <option name="presentableId" value="LOCAL-00414" />
       <option name="project" value="LOCAL" />
-      <updated>1739819070456</updated>
+      <updated>1748611051055</updated>
     </task>
-    <task id="LOCAL-00248" summary="#98 - new button click">
+    <task id="LOCAL-00415" summary="#120 - descr for get_last_ten_health_oper func">
       <option name="closed" value="true" />
-      <created>1739819105378</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
+      <created>1748611135166</created>
+      <option name="number" value="00415" />
+      <option name="presentableId" value="LOCAL-00415" />
       <option name="project" value="LOCAL" />
-      <updated>1739819105378</updated>
+      <updated>1748611135166</updated>
     </task>
-    <task id="LOCAL-00249" summary="#98 - new unit test">
+    <task id="LOCAL-00416" summary="#120 - descr for get_last_ten_housing_oper func">
       <option name="closed" value="true" />
-      <created>1739819340797</created>
-      <option name="number" value="00249" />
-      <option name="presentableId" value="LOCAL-00249" />
+      <created>1748611208116</created>
+      <option name="number" value="00416" />
+      <option name="presentableId" value="LOCAL-00416" />
       <option name="project" value="LOCAL" />
-      <updated>1739819340797</updated>
+      <updated>1748611208116</updated>
     </task>
-    <task id="LOCAL-00250" summary="#98 - web page and controller">
+    <task id="LOCAL-00417" summary="#120 - descr for get_last_ten_incomes func">
       <option name="closed" value="true" />
-      <created>1739820116650</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
+      <created>1748611293138</created>
+      <option name="number" value="00417" />
+      <option name="presentableId" value="LOCAL-00417" />
       <option name="project" value="LOCAL" />
-      <updated>1739820116650</updated>
+      <updated>1748611293138</updated>
     </task>
-    <task id="LOCAL-00251" summary="#105 - atm_cash_register functions">
+    <task id="LOCAL-00418" summary="#120 - descr for get_last_ten_travel_operations func">
       <option name="closed" value="true" />
-      <created>1739821395104</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
+      <created>1748611361684</created>
+      <option name="number" value="00418" />
+      <option name="presentableId" value="LOCAL-00418" />
       <option name="project" value="LOCAL" />
-      <updated>1739821395104</updated>
+      <updated>1748611361684</updated>
     </task>
-    <task id="LOCAL-00252" summary="#98 - unit test to check ATM cash register">
+    <task id="LOCAL-00419" summary="#120 - descr for i_entertainment func">
       <option name="closed" value="true" />
-      <created>1739992216689</created>
-      <option name="number" value="00252" />
-      <option name="presentableId" value="LOCAL-00252" />
+      <created>1748611442325</created>
+      <option name="number" value="00419" />
+      <option name="presentableId" value="LOCAL-00419" />
       <option name="project" value="LOCAL" />
-      <updated>1739992216689</updated>
+      <updated>1748611442325</updated>
     </task>
-    <task id="LOCAL-00253" summary="#99 - new button - cash balance">
+    <task id="LOCAL-00420" summary="#120 - descr for i_groceries func">
       <option name="closed" value="true" />
-      <created>1739992717837</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
+      <created>1748611507170</created>
+      <option name="number" value="00420" />
+      <option name="presentableId" value="LOCAL-00420" />
       <option name="project" value="LOCAL" />
-      <updated>1739992717837</updated>
+      <updated>1748611507170</updated>
     </task>
-    <task id="LOCAL-00254" summary="#99 - new DB function get_cash_balance">
+    <task id="LOCAL-00421" summary="#120 - descr for i_health func">
       <option name="closed" value="true" />
-      <created>1739993247693</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
+      <created>1748611572452</created>
+      <option name="number" value="00421" />
+      <option name="presentableId" value="LOCAL-00421" />
       <option name="project" value="LOCAL" />
-      <updated>1739993247693</updated>
+      <updated>1748611572452</updated>
     </task>
-    <task id="LOCAL-00255" summary="#99 - get Cash balance from DB">
+    <task id="LOCAL-00422" summary="#120 - descr for i_housing_rent func">
       <option name="closed" value="true" />
-      <created>1739993647106</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
+      <created>1748611695230</created>
+      <option name="number" value="00422" />
+      <option name="presentableId" value="LOCAL-00422" />
       <option name="project" value="LOCAL" />
-      <updated>1739993647106</updated>
+      <updated>1748611695230</updated>
     </task>
-    <task id="LOCAL-00256" summary="#99 - cash balance page">
+    <task id="LOCAL-00423" summary="#120 - descr for i_income func">
       <option name="closed" value="true" />
-      <created>1739994109428</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
+      <created>1748611758534</created>
+      <option name="number" value="00423" />
+      <option name="presentableId" value="LOCAL-00423" />
       <option name="project" value="LOCAL" />
-      <updated>1739994109428</updated>
+      <updated>1748611758534</updated>
     </task>
-    <task id="LOCAL-00257" summary="#99 - new get method - cashBalance">
+    <task id="LOCAL-00424" summary="#120 - descr for i_login func">
       <option name="closed" value="true" />
-      <created>1739994338180</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
+      <created>1748611815367</created>
+      <option name="number" value="00424" />
+      <option name="presentableId" value="LOCAL-00424" />
       <option name="project" value="LOCAL" />
-      <updated>1739994338180</updated>
+      <updated>1748611815367</updated>
     </task>
-    <task id="LOCAL-00258" summary="#99 - showCashBalance()">
+    <task id="LOCAL-00425" summary="#120 - descr for i_telecom func">
       <option name="closed" value="true" />
-      <created>1739994921962</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
+      <created>1748611875314</created>
+      <option name="number" value="00425" />
+      <option name="presentableId" value="LOCAL-00425" />
       <option name="project" value="LOCAL" />
-      <updated>1739994921962</updated>
+      <updated>1748611875314</updated>
     </task>
-    <task id="LOCAL-00259" summary="#99 - show cash balance on the web page">
+    <task id="LOCAL-00426" summary="#120 - descr for i_travel func">
       <option name="closed" value="true" />
-      <created>1740773217551</created>
-      <option name="number" value="00259" />
-      <option name="presentableId" value="LOCAL-00259" />
+      <created>1748611934916</created>
+      <option name="number" value="00426" />
+      <option name="presentableId" value="LOCAL-00426" />
       <option name="project" value="LOCAL" />
-      <updated>1740773217552</updated>
+      <updated>1748611934916</updated>
     </task>
-    <task id="LOCAL-00260" summary="#84 - return back to PROD DB">
+    <task id="LOCAL-00427" summary="#120 - descr for minus_cash_balance func">
       <option name="closed" value="true" />
-      <created>1740776366373</created>
-      <option name="number" value="00260" />
-      <option name="presentableId" value="LOCAL-00260" />
+      <created>1748612004099</created>
+      <option name="number" value="00427" />
+      <option name="presentableId" value="LOCAL-00427" />
       <option name="project" value="LOCAL" />
-      <updated>1740776366373</updated>
+      <updated>1748612004099</updated>
     </task>
-    <task id="LOCAL-00261" summary="#107 - try with newDate()">
+    <task id="LOCAL-00428" summary="#126 - set correct name for DB function">
       <option name="closed" value="true" />
-      <created>1741029273772</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
+      <created>1750097511942</created>
+      <option name="number" value="00428" />
+      <option name="presentableId" value="LOCAL-00428" />
       <option name="project" value="LOCAL" />
-      <updated>1741029273772</updated>
+      <updated>1750097511944</updated>
     </task>
-    <task id="LOCAL-00262" summary="#107 - fix flatpickr solution">
+    <task id="LOCAL-00429" summary="#106 - switch to PROD DB">
       <option name="closed" value="true" />
-      <created>1741029982019</created>
-      <option name="number" value="00262" />
-      <option name="presentableId" value="LOCAL-00262" />
+      <created>1750702263864</created>
+      <option name="number" value="00429" />
+      <option name="presentableId" value="LOCAL-00429" />
       <option name="project" value="LOCAL" />
-      <updated>1741029982019</updated>
+      <updated>1750702263865</updated>
     </task>
-    <option name="localTasksCounter" value="263" />
+    <option name="localTasksCounter" value="430" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,31 +611,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#97 - css for others page" />
-    <MESSAGE value="#97 - new title" />
-    <MESSAGE value="#97 - new button on html page" />
-    <MESSAGE value="#98 - model for ATM cash operations" />
-    <MESSAGE value="#98 - atm_cash temporary" />
-    <MESSAGE value="#98 - rename others page" />
-    <MESSAGE value="#98 - rename button" />
-    <MESSAGE value="#98 - rename method" />
-    <MESSAGE value="#98 - unit test for additional functions page" />
-    <MESSAGE value="#98 - new controller - AdditionalFuncPageController" />
-    <MESSAGE value="#98 - new button click" />
-    <MESSAGE value="#98 - new unit test" />
-    <MESSAGE value="#98 - web page and controller" />
-    <MESSAGE value="#105 - atm_cash_register functions" />
-    <MESSAGE value="#98 - unit test to check ATM cash register" />
-    <MESSAGE value="#99 - new button - cash balance" />
-    <MESSAGE value="#99 - new DB function get_cash_balance" />
-    <MESSAGE value="#99 - get Cash balance from DB" />
-    <MESSAGE value="#99 - cash balance page" />
-    <MESSAGE value="#99 - new get method - cashBalance" />
-    <MESSAGE value="#99 - showCashBalance()" />
-    <MESSAGE value="#99 - show cash balance on the web page" />
-    <MESSAGE value="#84 - return back to PROD DB" />
-    <MESSAGE value="#107 - try with newDate()" />
-    <MESSAGE value="#107 - fix flatpickr solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="#107 - fix flatpickr solution" />
+    <MESSAGE value="#120 - delete table before move." />
+    <MESSAGE value="#120 - move table to one big file" />
+    <MESSAGE value="#120 - description for add_cash_balance function" />
+    <MESSAGE value="#120 - description for atm_cash_register function" />
+    <MESSAGE value="#120 - description for get_cash_balance function" />
+    <MESSAGE value="#120 - description for get_last_login function" />
+    <MESSAGE value="#120 - description for get_last_telecom_operations function" />
+    <MESSAGE value="#120 - description for get_last_ten_cash_oper function" />
+    <MESSAGE value="#120 - descr and rename get_last_ten_entertainment func" />
+    <MESSAGE value="#120 - descr for get_last_ten_groceries_oper func" />
+    <MESSAGE value="#120 - descr for get_last_ten_health_oper func" />
+    <MESSAGE value="#120 - descr for get_last_ten_housing_oper func" />
+    <MESSAGE value="#120 - descr for get_last_ten_incomes func" />
+    <MESSAGE value="#120 - descr for get_last_ten_travel_operations func" />
+    <MESSAGE value="#120 - descr for i_entertainment func" />
+    <MESSAGE value="#120 - descr for i_groceries func" />
+    <MESSAGE value="#120 - descr for i_health func" />
+    <MESSAGE value="#120 - descr for i_housing_rent func" />
+    <MESSAGE value="#120 - descr for i_income func" />
+    <MESSAGE value="#120 - descr for i_login func" />
+    <MESSAGE value="#120 - descr for i_telecom func" />
+    <MESSAGE value="#120 - descr for i_travel func" />
+    <MESSAGE value="#120 - descr for minus_cash_balance func" />
+    <MESSAGE value="#126 - set correct name for DB function" />
+    <MESSAGE value="#106 - switch to PROD DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="#106 - switch to PROD DB" />
   </component>
 </project>

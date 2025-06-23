@@ -1,6 +1,8 @@
 package org.snorri1986.familybud.controller;
 
 import org.snorri1986.familybud.models.*;
+import org.snorri1986.familybud.service.DBService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,6 +12,9 @@ import java.util.List;
 
 @Controller
 public class MainPageController {
+
+  @Autowired
+  DBService dbService;
 
   List<String> currencyNames = Arrays.asList("DKK", "EUR", "USD", "UAH", "Other");
   List<String> transactionTypes = Arrays.asList("Card", "Cash");
@@ -29,70 +34,84 @@ public class MainPageController {
   @GetMapping("/income")
   public String getIncomePage(Model model) {
     List<String> incomes = Arrays.asList("Salary", "Bonus", "TravelRefund", "ShopRefund","Money transfer R", "Other");
+    List<LastTenIncomesModel> lastTenIncomes = dbService.getLastTenIncomes();
     model.addAttribute("income_mod_attribute", new IncomeModelWeb());
     model.addAttribute("incomes", incomes);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("incomesLastTen", lastTenIncomes);
     return "income";
   }
 
   @GetMapping("/entertainment")
   public String getEntertainmentPage(Model model) {
     List<String> entList = Arrays.asList("Travel", "Cinema", "Vacation", "Relax","Restaurant","Homefest","Other");
+    List<LastTenEntertainmentModel> lastTenEntertainment = dbService.getLastTenEntertainmentOperations();
     model.addAttribute("entertainment_mod_attribute", new EntertainmentModelWeb());
     model.addAttribute("entList", entList);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("entertainmentLastTen", lastTenEntertainment);
     return "entertainment";
   }
 
   @GetMapping("/groceries")
   public String getGroceriesPage(Model model) {
-    List<String> purchesList = Arrays.asList("Daily","Weekly","Weekend","Fest","Clothes","Other");
+    List<String> purchesList = Arrays.asList("Daily","Weekly","Weekend","Fest","Clothes","Lunch at work","Other");
+    List<LastTenGroceriesOperModel> lastTenGroceries = dbService.getLastTenGroceriesOperations();
     model.addAttribute("groceries_mod_attribute", new GroceriesModelWeb());
     model.addAttribute("purchesList", purchesList);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("groceriesLastTen", lastTenGroceries);
     return "groceries";
   }
 
   @GetMapping("/health")
   public String getHealthPage(Model model) {
     List<String> healthTypeList = Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Haircut","Other");
+    List<LastTenHealthOperationsModel> lastTenHealth = dbService.getLastTenHealthOperations();
     model.addAttribute("health_mod_attribute", new HealthModelWeb());
     model.addAttribute("healthTypeList", healthTypeList);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("healthLastTen", lastTenHealth);
     return "health";
   }
 
   @GetMapping("/renthousing")
   public String getRentHousingPage(Model model) {
     List<String> housingTypes = Arrays.asList("Rent","Mortage","Money transfer S","A-kass","Electricity","HouseEquipments","Renovation","Other");
+    List<LastTenHousingRentOperationsModel> lastTenRentHousing = dbService.getLastTenHousingRentOperations();
     model.addAttribute("rent_housing_mod_attribute", new RentHousingModelWeb());
     model.addAttribute("housingTypes", housingTypes);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("rentHousingLastTen", lastTenRentHousing);
     return "renthousing";
   }
 
   @GetMapping("/telecom")
   public String getTelecomPage(Model model) {
     List<String> telecomOperations = Arrays.asList("Mobile","Internet","Roaming bundles","Others");
+    List<LastTenTelecomOperationsModel> lastTenTelecom = dbService.getLastTenTelecomOperations();
     model.addAttribute("telecom_mod_attribute", new TelecomModelWeb());
     model.addAttribute("telecomOperations", telecomOperations);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("telecomLastTen", lastTenTelecom);
     return "telecom";
   }
 
   @GetMapping("/travel")
   public String getTravelPage(Model model) {
     List<String> travelActivities = Arrays.asList("Tickets","Hotel","FoodInTrip","TravelEntertainment","Public transport","Others");
+    List<LastTenTravelOperationsModel> lastTenTravel = dbService.getLastTenTravelOperations();
     model.addAttribute("travel_mod_attribute", new TravelModelWeb());
     model.addAttribute("travelActivities", travelActivities);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("travelLastTen", lastTenTravel);
     return "travel";
   }
 

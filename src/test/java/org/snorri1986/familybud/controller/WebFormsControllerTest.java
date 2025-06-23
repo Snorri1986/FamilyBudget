@@ -17,8 +17,10 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @ExtendWith(MockitoExtension.class)
 public class WebFormsControllerTest {
@@ -31,7 +33,7 @@ public class WebFormsControllerTest {
 
   @Test
   public void testSubmitIncomeForm() {
-    // Arrange
+
     IncomeModelWeb income = new IncomeModelWeb();
     income.setIncomeType("Salary");
     income.setAmount(5000);
@@ -42,10 +44,10 @@ public class WebFormsControllerTest {
     income.setOperDescription("Monthly salary");
 
     ArgumentCaptor<IncomeModelDB> captor = ArgumentCaptor.forClass(IncomeModelDB.class);
-    // Act
+
     String result = webFormsController.submitIncomeForm(income);
 
-    // Assert
+
     Mockito.verify(dbService).insertNewIncome(captor.capture());
     IncomeModelDB capturedIncome = captor.getValue();
 

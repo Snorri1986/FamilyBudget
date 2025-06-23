@@ -1,7 +1,7 @@
-create function i_login(web_login text, web_password text) returns integer
-    language plpgsql
-as
-$$
+CREATE OR REPLACE FUNCTION public.i_login(web_login text, web_password text)
+ RETURNS integer
+ LANGUAGE plpgsql
+AS $function$
 DECLARE
     validation_result int;
     db_user text;
@@ -9,10 +9,15 @@ DECLARE
 
 BEGIN
 
-    SELECT username, password INTO db_user,db_password FROM users;
+    SELECT username, password INTO db_user,db_password FROM users
+    WHERE username = web_login;
 
     IF web_login = db_user AND web_password = db_password THEN
         validation_result := 1;
+
+    INSERT INTO public.user_last_login (login, last_login)
+    VALUES(web_login, LOCALTIMESTAMP);
+
     ELSE
         validation_result := 0;
     END IF;
@@ -20,4 +25,6 @@ BEGIN
     RETURN validation_result;
 
 END;
-$$;
+$function$
+;
+COMMENT ON FUNCTION public.i_login(text, text) IS 'insert new login record';

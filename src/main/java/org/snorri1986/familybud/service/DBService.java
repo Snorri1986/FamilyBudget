@@ -3,7 +3,13 @@ package org.snorri1986.familybud.service;
 import org.snorri1986.familybud.models.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Service;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.time.ZoneId;
+import java.util.List;
 
 @Service
 public class DBService {
@@ -14,12 +20,12 @@ public class DBService {
   public void insertNewIncome(IncomeModelDB incomeModel) {
     String sql = "SELECT public.i_income(?,?,?,?,?,?,?)";
     jdbcTemplate.queryForObject(sql, new Object[]{incomeModel.getIncomeType(),
-                                                  incomeModel.getAmount(),
-                                                  incomeModel.getCurrency(),
-                                                  incomeModel.getTransactionDate(),
-                                                  incomeModel.getTransactionType(),
-                                                  incomeModel.getCardNum(),
-                                                  incomeModel.getOperDescription()},String.class);
+            incomeModel.getAmount(),
+            incomeModel.getCurrency(),
+            incomeModel.getTransactionDate(),
+            incomeModel.getTransactionType(),
+            incomeModel.getCardNum(),
+            incomeModel.getOperDescription()}, String.class);
 
   }
 
@@ -31,7 +37,7 @@ public class DBService {
             entertainmentModelDB.getTransactionDate(),
             entertainmentModelDB.getTransactionType(),
             entertainmentModelDB.getCardNum(),
-            entertainmentModelDB.getOperDescription()},String.class);
+            entertainmentModelDB.getOperDescription()}, String.class);
   }
 
   public void insertNewGroceries(GroceriesModelDB groceriesModelDB) {
@@ -42,7 +48,7 @@ public class DBService {
             groceriesModelDB.getTransactionDate(),
             groceriesModelDB.getTransactionType(),
             groceriesModelDB.getCardNum(),
-            groceriesModelDB.getOperDescription()},String.class);
+            groceriesModelDB.getOperDescription()}, String.class);
 
   }
 
@@ -54,7 +60,7 @@ public class DBService {
             healthModelDB.getTransactionDate(),
             healthModelDB.getTransactionType(),
             healthModelDB.getCardNum(),
-            healthModelDB.getOperDescription()},String.class);
+            healthModelDB.getOperDescription()}, String.class);
   }
 
   public void insertNewRentHousing(RentHousingModelDB rentHousingModelDB) {
@@ -65,7 +71,7 @@ public class DBService {
             rentHousingModelDB.getTransactionDate(),
             rentHousingModelDB.getTransactionType(),
             rentHousingModelDB.getCardNum(),
-            rentHousingModelDB.getOperDescription()},String.class);
+            rentHousingModelDB.getOperDescription()}, String.class);
   }
 
   public void insertNewTelecom(TelecomModelDB telecomModelDB) {
@@ -76,7 +82,7 @@ public class DBService {
             telecomModelDB.getTransactionDate(),
             telecomModelDB.getTransactionType(),
             telecomModelDB.getCardNum(),
-            telecomModelDB.getOperDescription()},String.class);
+            telecomModelDB.getOperDescription()}, String.class);
   }
 
   public void insertNewTravel(TravelModelDB travelModelDB) {
@@ -88,7 +94,7 @@ public class DBService {
             travelModelDB.getTransactionType(),
             travelModelDB.getCardNum(),
             travelModelDB.getDestination(),
-            travelModelDB.getOperDescription()},String.class);
+            travelModelDB.getOperDescription()}, String.class);
   }
 
   public int checkLogin(UserModel userModel) {
@@ -103,16 +109,144 @@ public class DBService {
 
   public void insertNewAtmCash(AtmModelWeb atmModelWeb) {
     String sql = "SELECT public.atm_cash_register(?,?,?,?)";
-    jdbcTemplate.queryForObject(sql,new Object[]{
+    jdbcTemplate.queryForObject(sql, new Object[]{
             atmModelWeb.getOperType(),
             atmModelWeb.getAmount(),
             atmModelWeb.getTransactionDate(),
             atmModelWeb.getOperDescription()
-    },String.class);
+    }, String.class);
   }
 
   public int getCashBalance() {
     String sql = "SELECT public.get_cash_balance()";
-    return jdbcTemplate.queryForObject(sql,Integer.class);
+    return jdbcTemplate.queryForObject(sql, Integer.class);
+  }
+
+  public List<LastTenIncomesModel> getLastTenIncomes() {
+    String sql = "SELECT * FROM get_last_ten_incomes()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenIncomesModel>() {
+      @Override
+      public LastTenIncomesModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenIncomesModel(rs.getLong("i_type"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("target_card"),
+                rs.getString("comments"));
+      }
+    });
+  }
+
+  public List<LastTenCashOperModel> getLastTenCashOperations() {
+    String sql = "SELECT * FROM get_last_ten_cash_oper()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenCashOperModel>() {
+      @Override
+      public LastTenCashOperModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenCashOperModel(rs.getLong("optype"),
+                rs.getLong("amount"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getString("comments"));
+      }
+    });
+  }
+
+  public List<LastTenEntertainmentModel> getLastTenEntertainmentOperations() {
+    String sql = "SELECT * FROM get_last_ten_entertainment()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenEntertainmentModel>() {
+      @Override
+      public LastTenEntertainmentModel mapRow(ResultSet rs,int rowNum) throws SQLException {
+        return new LastTenEntertainmentModel(rs.getLong("event_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("source_card"),
+                rs.getString("operType"),
+                rs.getString("comments"));
+      }
+    });
+  }
+
+  public List<LastTenGroceriesOperModel> getLastTenGroceriesOperations() {
+    String sql = "SELECT * FROM get_last_ten_groceries_oper()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenGroceriesOperModel>() {
+      @Override
+      public LastTenGroceriesOperModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenGroceriesOperModel(rs.getLong("g_type"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("source_card"),
+                rs.getString("opertype"),
+                rs.getString("comments"));
+      }
+    });
+  }
+
+  public List<LastTenHealthOperationsModel> getLastTenHealthOperations() {
+    String sql = "SELECT * FROM get_last_ten_health_oper()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenHealthOperationsModel>() {
+      @Override
+      public LastTenHealthOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenHealthOperationsModel(rs.getLong("h_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("source_card"),
+                rs.getString("opertype"),
+                rs.getString("comments"));
+      }
+    });
+  }
+
+  public List<LastTenHousingRentOperationsModel> getLastTenHousingRentOperations() {
+    String sql = "SELECT * FROM get_last_ten_housing_oper()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenHousingRentOperationsModel>() {
+      @Override
+      public LastTenHousingRentOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenHousingRentOperationsModel(rs.getLong("hr_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("source_card"),
+                rs.getString("opertype"),
+                rs.getString("comments"));
+      }
+    });
+  }
+
+  public List<LastTenTelecomOperationsModel> getLastTenTelecomOperations() {
+    String sql = "SELECT * from public.get_last_ten_telecom_operations()";
+    return jdbcTemplate.query(sql,new RowMapper<LastTenTelecomOperationsModel>() {
+      @Override
+      public LastTenTelecomOperationsModel mapRow(ResultSet rs,int rowNum) throws SQLException {
+        return new LastTenTelecomOperationsModel(rs.getLong("t_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("source_card"),
+                rs.getString("opertype"),
+                rs.getString("comments"));
+      }
+    });
+  }
+
+  public List<LastTenTravelOperationsModel> getLastTenTravelOperations() {
+    String sql = "SELECT * from public.get_last_ten_travel_operations()";
+    return jdbcTemplate.query(sql,new RowMapper<LastTenTravelOperationsModel>() {
+      @Override
+      public LastTenTravelOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenTravelOperationsModel(rs.getLong("tr_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("source_card"),
+                rs.getString("destination"),
+                rs.getString("opertype"),
+                rs.getString("comments"));
+      }
+    });
   }
 }
+
+
+

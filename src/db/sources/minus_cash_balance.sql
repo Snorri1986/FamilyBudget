@@ -6,3 +6,4 @@ AS $function$
          UPDATE cash_balance SET balance = balance - amount_value;
 	END;
 $function$ ;
+COMMENT ON FUNCTION public.minus_cash_balance(int4) IS 'drop cash balance';
