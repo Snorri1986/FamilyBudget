@@ -1,5 +1,6 @@
+
 CREATE OR REPLACE FUNCTION public.get_last_ten_entertainment()
- RETURNS TABLE(event_type_id bigint, amount bigint, currency bigint, date timestamp with time zone, source_card bigint, opertype text, comments character varying)
+ RETURNS TABLE(event_type_id bigint, amount bigint, currency bigint, date timestamp with time zone, source_card bigint, opertype character varying, comments character varying)
  LANGUAGE plpgsql
 AS $function$
 	BEGIN
