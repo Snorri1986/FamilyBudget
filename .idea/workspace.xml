@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#106 - switch to PROD DB">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#106 - fixed error on get_last_ten_entertainment()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="v1.4.2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -203,22 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00381" summary="#123 - i_income">
-      <option name="closed" value="true" />
-      <created>1745667597312</created>
-      <option name="number" value="00381" />
-      <option name="presentableId" value="LOCAL-00381" />
-      <option name="project" value="LOCAL" />
-      <updated>1745667597312</updated>
-    </task>
-    <task id="LOCAL-00382" summary="others">
-      <option name="closed" value="true" />
-      <created>1745667827309</created>
-      <option name="number" value="00382" />
-      <option name="presentableId" value="LOCAL-00382" />
-      <option name="project" value="LOCAL" />
-      <updated>1745667827309</updated>
     </task>
     <task id="LOCAL-00383" summary="#123 - i_entertainment">
       <option name="closed" value="true" />
@@ -596,7 +579,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750702263865</updated>
     </task>
-    <option name="localTasksCounter" value="430" />
+    <task id="LOCAL-00430" summary="#106 - fixed error on getLastTenEntertainmentOperations()">
+      <option name="closed" value="true" />
+      <created>1750703395941</created>
+      <option name="number" value="00430" />
+      <option name="presentableId" value="LOCAL-00430" />
+      <option name="project" value="LOCAL" />
+      <updated>1750703395942</updated>
+    </task>
+    <task id="LOCAL-00431" summary="#106 - fixed error on get_last_ten_entertainment()">
+      <option name="closed" value="true" />
+      <created>1750703610107</created>
+      <option name="number" value="00431" />
+      <option name="presentableId" value="LOCAL-00431" />
+      <option name="project" value="LOCAL" />
+      <updated>1750703610107</updated>
+    </task>
+    <option name="localTasksCounter" value="432" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,15 +603,25 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#120 - delete table before move." />
-    <MESSAGE value="#120 - move table to one big file" />
     <MESSAGE value="#120 - description for add_cash_balance function" />
     <MESSAGE value="#120 - description for atm_cash_register function" />
     <MESSAGE value="#120 - description for get_cash_balance function" />
@@ -636,6 +645,8 @@
     <MESSAGE value="#120 - descr for minus_cash_balance func" />
     <MESSAGE value="#126 - set correct name for DB function" />
     <MESSAGE value="#106 - switch to PROD DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="#106 - switch to PROD DB" />
+    <MESSAGE value="#106 - fixed error on getLastTenEntertainmentOperations()" />
+    <MESSAGE value="#106 - fixed error on get_last_ten_entertainment()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#106 - fixed error on get_last_ten_entertainment()" />
   </component>
 </project>
