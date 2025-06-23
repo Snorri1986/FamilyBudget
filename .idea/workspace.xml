@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#126 - set correct name for DB function">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#106 - switch to PROD DB">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,14 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00380" summary="#122 - i_income">
-      <option name="closed" value="true" />
-      <created>1745667557460</created>
-      <option name="number" value="00380" />
-      <option name="presentableId" value="LOCAL-00380" />
-      <option name="project" value="LOCAL" />
-      <updated>1745667557460</updated>
     </task>
     <task id="LOCAL-00381" summary="#123 - i_income">
       <option name="closed" value="true" />
@@ -596,7 +588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750097511944</updated>
     </task>
-    <option name="localTasksCounter" value="429" />
+    <task id="LOCAL-00429" summary="#106 - switch to PROD DB">
+      <option name="closed" value="true" />
+      <created>1750702263864</created>
+      <option name="number" value="00429" />
+      <option name="presentableId" value="LOCAL-00429" />
+      <option name="project" value="LOCAL" />
+      <updated>1750702263865</updated>
+    </task>
+    <option name="localTasksCounter" value="430" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -611,7 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#120 - comments for user_last_login table" />
     <MESSAGE value="#120 - delete table before move." />
     <MESSAGE value="#120 - move table to one big file" />
     <MESSAGE value="#120 - description for add_cash_balance function" />
@@ -636,6 +635,7 @@
     <MESSAGE value="#120 - descr for i_travel func" />
     <MESSAGE value="#120 - descr for minus_cash_balance func" />
     <MESSAGE value="#126 - set correct name for DB function" />
-    <option name="LAST_COMMIT_MESSAGE" value="#126 - set correct name for DB function" />
+    <MESSAGE value="#106 - switch to PROD DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="#106 - switch to PROD DB" />
   </component>
 </project>
