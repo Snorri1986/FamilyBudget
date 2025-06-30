@@ -67,7 +67,7 @@ public class MainPageController {
     return "groceries";
   }
 
-  @GetMapping("/health")
+  @GetMapping("/health-care")
   public String getHealthPage(Model model) {
     List<String> healthTypeList = Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Haircut","Other");
     List<LastTenHealthOperationsModel> lastTenHealth = dbService.getLastTenHealthOperations();
