@@ -3,6 +3,7 @@
   "ext": [],
   "threads": 2,
   "output-type": "json",
+  "securityRelatedIssues": false,
   "incremental": false,
   "force-rebuild": false,
   "disable-cache": false,
