@@ -119,4 +119,12 @@ public class MainPageController {
   public String getAdditionalFunctionsPage(Model model) {
     return "additional";
   }
+
+  @GetMapping("/information")
+  public String getInfo(Model model) {
+    model.addAttribute("theApplication","Family Budget");
+    model.addAttribute("theVersion","1.5.2");
+    model.addAttribute("theSources","https://github.com/Snorri1986/FamilyBudget/releases");
+    return "information";
+  }
 }
