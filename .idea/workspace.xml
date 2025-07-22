@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#140 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#141 - todo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -219,22 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00391" summary="#124 - clean up">
-      <option name="closed" value="true" />
-      <created>1746265374459</created>
-      <option name="number" value="00391" />
-      <option name="presentableId" value="LOCAL-00391" />
-      <option name="project" value="LOCAL" />
-      <updated>1746265374459</updated>
-    </task>
-    <task id="LOCAL-00392" summary="#120 - comments for cash_balance table">
-      <option name="closed" value="true" />
-      <created>1746265814387</created>
-      <option name="number" value="00392" />
-      <option name="presentableId" value="LOCAL-00392" />
-      <option name="project" value="LOCAL" />
-      <updated>1746265814387</updated>
     </task>
     <task id="LOCAL-00393" summary="#120 - comments for cash_operations_log table">
       <option name="closed" value="true" />
@@ -612,7 +596,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753126864371</updated>
     </task>
-    <option name="localTasksCounter" value="440" />
+    <task id="LOCAL-00440" summary="#141 - todo">
+      <option name="closed" value="true" />
+      <created>1753208645686</created>
+      <option name="number" value="00440" />
+      <option name="presentableId" value="LOCAL-00440" />
+      <option name="project" value="LOCAL" />
+      <updated>1753208645686</updated>
+    </task>
+    <task id="LOCAL-00441" summary="#141 - todo">
+      <option name="closed" value="true" />
+      <created>1753208717968</created>
+      <option name="number" value="00441" />
+      <option name="presentableId" value="LOCAL-00441" />
+      <option name="project" value="LOCAL" />
+      <updated>1753208717968</updated>
+    </task>
+    <option name="localTasksCounter" value="442" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -639,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#120 - descr for get_last_ten_health_oper func" />
     <MESSAGE value="#120 - descr for get_last_ten_housing_oper func" />
     <MESSAGE value="#120 - descr for get_last_ten_incomes func" />
     <MESSAGE value="#120 - descr for get_last_ten_travel_operations func" />
@@ -664,6 +663,7 @@
     <MESSAGE value="#133 - properties for health" />
     <MESSAGE value="#140 - web page and getInfo for info()" />
     <MESSAGE value="#140 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#140 - others" />
+    <MESSAGE value="#141 - todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="#141 - todo" />
   </component>
 </project>
