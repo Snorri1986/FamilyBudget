@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#141 - todo">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#143 - SQL function get_last_ten_health_oper_card()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,14 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00393" summary="#120 - comments for cash_operations_log table">
-      <option name="closed" value="true" />
-      <created>1747487564791</created>
-      <option name="number" value="00393" />
-      <option name="presentableId" value="LOCAL-00393" />
-      <option name="project" value="LOCAL" />
-      <updated>1747487564791</updated>
     </task>
     <task id="LOCAL-00394" summary="#120 - comments for currency table">
       <option name="closed" value="true" />
@@ -612,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753208717968</updated>
     </task>
-    <option name="localTasksCounter" value="442" />
+    <task id="LOCAL-00442" summary="#143 - SQL function get_last_ten_health_oper_card()">
+      <option name="closed" value="true" />
+      <created>1753209588987</created>
+      <option name="number" value="00442" />
+      <option name="presentableId" value="LOCAL-00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1753209588987</updated>
+    </task>
+    <option name="localTasksCounter" value="443" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -639,7 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#120 - descr for get_last_ten_housing_oper func" />
     <MESSAGE value="#120 - descr for get_last_ten_incomes func" />
     <MESSAGE value="#120 - descr for get_last_ten_travel_operations func" />
     <MESSAGE value="#120 - descr for i_entertainment func" />
@@ -664,6 +664,7 @@
     <MESSAGE value="#140 - web page and getInfo for info()" />
     <MESSAGE value="#140 - others" />
     <MESSAGE value="#141 - todo" />
-    <option name="LAST_COMMIT_MESSAGE" value="#141 - todo" />
+    <MESSAGE value="#143 - SQL function get_last_ten_health_oper_card()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#143 - SQL function get_last_ten_health_oper_card()" />
   </component>
 </project>

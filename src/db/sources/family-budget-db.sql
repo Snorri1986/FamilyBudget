@@ -202,6 +202,7 @@ CREATE TABLE IF NOT EXISTS "cash_operations_log" (
         "comments" varchar(255) NOT NULL,
         "user_last_session" text NOT NULL,
         currency int8 NULL,
+        ex_type_id int4
         PRIMARY KEY ("id")
 );
 COMMENT ON TABLE cash_operations_log  is 'storage of cash operations';
@@ -211,6 +212,7 @@ COMMENT ON COLUMN public.cash_operations_log.amount IS 'value of money';
 COMMENT ON COLUMN public.cash_operations_log."date" IS 'operation date';
 COMMENT ON COLUMN public.cash_operations_log."comments" IS 'description of operation';
 COMMENT ON COLUMN public.cash_operations_log.user_last_session IS 'owner of record';
+COMMENT ON COLUMN public.cash_operations_log.ex_type_id IS 'expense type id';
 
 CREATE TABLE public.user_last_login (
 	login varchar NULL,
