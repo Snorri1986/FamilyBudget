@@ -182,6 +182,7 @@ public class DBService {
     });
   }
 
+  // TODO: will be replace
   public List<LastTenHealthOperationsModel> getLastTenHealthOperations() {
     String sql = "SELECT * FROM get_last_ten_health_oper()";
     return jdbcTemplate.query(sql, new RowMapper<LastTenHealthOperationsModel>() {
