@@ -1,3 +1,4 @@
+// TODO: will be deleted
 CREATE OR REPLACE FUNCTION public.get_last_ten_health_oper()
 	RETURNS TABLE(h_type_id bigint,amount bigint,currency bigint,date timestamp with time zone,source_card bigint, opertype varchar(255), comments varchar(255))
 	LANGUAGE plpgsql
