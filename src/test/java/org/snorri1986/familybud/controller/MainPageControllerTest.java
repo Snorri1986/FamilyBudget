@@ -88,7 +88,7 @@ public class MainPageControllerTest {
   @Test
   void testGetHealthPage() {
     List<LastTenHealthOperationsModel> mockLastTenHealth = List.of(new LastTenHealthOperationsModel(), new LastTenHealthOperationsModel());
-    when(dbService.getLastTenHealthOperations()).thenReturn(mockLastTenHealth);
+    when(dbService.getLastTenHealthOperationsCard()).thenReturn(mockLastTenHealth);
     String viewName = mainPageController.getHealthPage(model);
     assertEquals("health", viewName);
     verify(model).addAttribute(eq("health_mod_attribute"), any(HealthModelWeb.class));
