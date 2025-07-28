@@ -183,7 +183,7 @@ public class DBService {
   }
 
   // TODO: will be replace
-  public List<LastTenHealthOperationsModel> getLastTenHealthOperations() {
+  /*public List<LastTenHealthOperationsModel> getLastTenHealthOperations() {
     String sql = "SELECT * FROM get_last_ten_health_oper()";
     return jdbcTemplate.query(sql, new RowMapper<LastTenHealthOperationsModel>() {
       @Override
@@ -197,7 +197,7 @@ public class DBService {
                 rs.getString("comments"));
       }
     });
-  }
+  }*/
 
   public List<LastTenHealthOperationsModel> getLastTenHealthOperationsCard() {
     String sql = "SELECT * FROM get_last_ten_health_oper_card()";

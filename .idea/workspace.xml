@@ -221,14 +221,6 @@
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
     </task>
-    <task id="LOCAL-00396" summary="#120 - comments for expenses_type table">
-      <option name="closed" value="true" />
-      <created>1747488059247</created>
-      <option name="number" value="00396" />
-      <option name="presentableId" value="LOCAL-00396" />
-      <option name="project" value="LOCAL" />
-      <updated>1747488059252</updated>
-    </task>
     <task id="LOCAL-00397" summary="#120 - comments for groceries table">
       <option name="closed" value="true" />
       <created>1747488432958</created>
@@ -613,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753210733439</updated>
     </task>
-    <option name="localTasksCounter" value="445" />
+    <task id="LOCAL-00445" summary="#145 - new method getLastTenHealthOperationsCard()">
+      <option name="closed" value="true" />
+      <created>1753726198686</created>
+      <option name="number" value="00445" />
+      <option name="presentableId" value="LOCAL-00445" />
+      <option name="project" value="LOCAL" />
+      <updated>1753726198686</updated>
+    </task>
+    <option name="localTasksCounter" value="446" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
