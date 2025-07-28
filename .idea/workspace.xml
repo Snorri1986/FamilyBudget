@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#151 - others">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#144 - new DB function get_last_ten_health_oper_cash()">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,14 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00401" summary="#120 - comments for income_type table">
-      <option name="closed" value="true" />
-      <created>1748609086698</created>
-      <option name="number" value="00401" />
-      <option name="presentableId" value="LOCAL-00401" />
-      <option name="project" value="LOCAL" />
-      <updated>1748609086699</updated>
     </task>
     <task id="LOCAL-00402" summary="#120 - comments for telecom table">
       <option name="closed" value="true" />
@@ -613,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753726775469</updated>
     </task>
-    <option name="localTasksCounter" value="450" />
+    <task id="LOCAL-00450" summary="#144 - new DB function get_last_ten_health_oper_cash()">
+      <option name="closed" value="true" />
+      <created>1753728910150</created>
+      <option name="number" value="00450" />
+      <option name="presentableId" value="LOCAL-00450" />
+      <option name="project" value="LOCAL" />
+      <updated>1753728910150</updated>
+    </task>
+    <option name="localTasksCounter" value="451" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#120 - descr for i_income func" />
     <MESSAGE value="#120 - descr for i_login func" />
     <MESSAGE value="#120 - descr for i_telecom func" />
     <MESSAGE value="#120 - descr for i_travel func" />
@@ -665,6 +663,7 @@
     <MESSAGE value="#151 - commented getLastTenHealthOperations() before del" />
     <MESSAGE value="#151 - call dbService.getLastTenHealthOperationsCard()" />
     <MESSAGE value="#151 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#151 - others" />
+    <MESSAGE value="#144 - new DB function get_last_ten_health_oper_cash()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#144 - new DB function get_last_ten_health_oper_cash()" />
   </component>
 </project>
