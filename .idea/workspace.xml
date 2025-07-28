@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#143 - SQL function get_last_ten_health_oper_card()">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#150 - new version with expense type id">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,22 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00394" summary="#120 - comments for currency table">
-      <option name="closed" value="true" />
-      <created>1747487746343</created>
-      <option name="number" value="00394" />
-      <option name="presentableId" value="LOCAL-00394" />
-      <option name="project" value="LOCAL" />
-      <updated>1747487746343</updated>
-    </task>
-    <task id="LOCAL-00395" summary="#120 - comments for entertainment table">
-      <option name="closed" value="true" />
-      <created>1747487958764</created>
-      <option name="number" value="00395" />
-      <option name="presentableId" value="LOCAL-00395" />
-      <option name="project" value="LOCAL" />
-      <updated>1747487958764</updated>
     </task>
     <task id="LOCAL-00396" summary="#120 - comments for expenses_type table">
       <option name="closed" value="true" />
@@ -613,7 +597,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753209588987</updated>
     </task>
-    <option name="localTasksCounter" value="443" />
+    <task id="LOCAL-00443" summary="#149 - new field for table cash_operations_log">
+      <option name="closed" value="true" />
+      <created>1753210522154</created>
+      <option name="number" value="00443" />
+      <option name="presentableId" value="LOCAL-00443" />
+      <option name="project" value="LOCAL" />
+      <updated>1753210522154</updated>
+    </task>
+    <task id="LOCAL-00444" summary="#150 - new version with expense type id">
+      <option name="closed" value="true" />
+      <created>1753210733439</created>
+      <option name="number" value="00444" />
+      <option name="presentableId" value="LOCAL-00444" />
+      <option name="project" value="LOCAL" />
+      <updated>1753210733439</updated>
+    </task>
+    <option name="localTasksCounter" value="445" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,8 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#120 - descr for get_last_ten_incomes func" />
-    <MESSAGE value="#120 - descr for get_last_ten_travel_operations func" />
     <MESSAGE value="#120 - descr for i_entertainment func" />
     <MESSAGE value="#120 - descr for i_groceries func" />
     <MESSAGE value="#120 - descr for i_health func" />
@@ -665,6 +663,8 @@
     <MESSAGE value="#140 - others" />
     <MESSAGE value="#141 - todo" />
     <MESSAGE value="#143 - SQL function get_last_ten_health_oper_card()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#143 - SQL function get_last_ten_health_oper_card()" />
+    <MESSAGE value="#149 - new field for table cash_operations_log" />
+    <MESSAGE value="#150 - new version with expense type id" />
+    <option name="LAST_COMMIT_MESSAGE" value="#150 - new version with expense type id" />
   </component>
 </project>
