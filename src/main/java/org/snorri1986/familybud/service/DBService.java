@@ -221,11 +221,10 @@ public class DBService {
     return jdbcTemplate.query(sql, new RowMapper<LastTenHealthOperationsModel>() {
       @Override
       public LastTenHealthOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
-        return new LastTenHealthOperationsModel(rs.getLong("ex_type_id"),
+        return new LastTenHealthOperationsModel(rs.getLong("h_type_id"),
                 rs.getLong("amount"),
                 rs.getLong("currency"),
                 rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
-                rs.getLong("source_card"),
                 rs.getString("opertype"),  // always NULL
                 rs.getString("comments"));
       }
