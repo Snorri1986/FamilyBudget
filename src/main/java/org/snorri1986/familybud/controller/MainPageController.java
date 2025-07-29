@@ -70,12 +70,12 @@ public class MainPageController {
   @GetMapping("/health-care")
   public String getHealthPage(Model model) {
     List<String> healthTypeList = Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Haircut","Other");
-    List<LastTenHealthOperationsModel> lastTenHealth = dbService.getLastTenHealthOperationsCard();
+    List<LastTenHealthOperationsModel> lastTenHealthCardOperations = dbService.getLastTenHealthOperationsCard();
     model.addAttribute("health_mod_attribute", new HealthModelWeb());
     model.addAttribute("healthTypeList", healthTypeList);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
-    model.addAttribute("healthLastTen", lastTenHealth);
+    model.addAttribute("healthLastTenCardOperations", lastTenHealthCardOperations);
     return "health";
   }
 
