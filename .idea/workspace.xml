@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#151 - rename Attribute on html side">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHealthOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHealthOperationsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#154 - lastTenHealthCashOperations created">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/health.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,30 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00406" summary="#120 - move table to one big file">
-      <option name="closed" value="true" />
-      <created>1748609852074</created>
-      <option name="number" value="00406" />
-      <option name="presentableId" value="LOCAL-00406" />
-      <option name="project" value="LOCAL" />
-      <updated>1748609852074</updated>
-    </task>
-    <task id="LOCAL-00407" summary="#120 - description for add_cash_balance function">
-      <option name="closed" value="true" />
-      <created>1748610122122</created>
-      <option name="number" value="00407" />
-      <option name="presentableId" value="LOCAL-00407" />
-      <option name="project" value="LOCAL" />
-      <updated>1748610122122</updated>
-    </task>
-    <task id="LOCAL-00408" summary="#120 - description for atm_cash_register function">
-      <option name="closed" value="true" />
-      <created>1748610282147</created>
-      <option name="number" value="00408" />
-      <option name="presentableId" value="LOCAL-00408" />
-      <option name="project" value="LOCAL" />
-      <updated>1748610282147</updated>
     </task>
     <task id="LOCAL-00409" summary="#120 - description for get_cash_balance function">
       <option name="closed" value="true" />
@@ -617,7 +589,31 @@
       <option name="project" value="LOCAL" />
       <updated>1753815641136</updated>
     </task>
-    <option name="localTasksCounter" value="455" />
+    <task id="LOCAL-00455" summary="#156 - one more constructor without source_card fld">
+      <option name="closed" value="true" />
+      <created>1753816869739</created>
+      <option name="number" value="00455" />
+      <option name="presentableId" value="LOCAL-00455" />
+      <option name="project" value="LOCAL" />
+      <updated>1753816869739</updated>
+    </task>
+    <task id="LOCAL-00456" summary="#156 - source_card not needed for cash operations">
+      <option name="closed" value="true" />
+      <created>1753816932315</created>
+      <option name="number" value="00456" />
+      <option name="presentableId" value="LOCAL-00456" />
+      <option name="project" value="LOCAL" />
+      <updated>1753816932315</updated>
+    </task>
+    <task id="LOCAL-00457" summary="#154 - lastTenHealthCashOperations created">
+      <option name="closed" value="true" />
+      <created>1753817120232</created>
+      <option name="number" value="00457" />
+      <option name="presentableId" value="LOCAL-00457" />
+      <option name="project" value="LOCAL" />
+      <updated>1753817120232</updated>
+    </task>
+    <option name="localTasksCounter" value="458" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,9 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#126 - set correct name for DB function" />
-    <MESSAGE value="#106 - switch to PROD DB" />
-    <MESSAGE value="#106 - fixed error on getLastTenEntertainmentOperations()" />
     <MESSAGE value="#106 - fixed error on get_last_ten_entertainment()" />
     <MESSAGE value="#128 - switched to DEV DB" />
     <MESSAGE value="#128 - change version number" />
@@ -669,6 +662,9 @@
     <MESSAGE value="#146 - getLastTenHealthOperationsCash() final" />
     <MESSAGE value="#151 - rename Attribute and list" />
     <MESSAGE value="#151 - rename Attribute on html side" />
-    <option name="LAST_COMMIT_MESSAGE" value="#151 - rename Attribute on html side" />
+    <MESSAGE value="#156 - one more constructor without source_card fld" />
+    <MESSAGE value="#156 - source_card not needed for cash operations" />
+    <MESSAGE value="#154 - lastTenHealthCashOperations created" />
+    <option name="LAST_COMMIT_MESSAGE" value="#154 - lastTenHealthCashOperations created" />
   </component>
 </project>
