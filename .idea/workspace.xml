@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#144 - new DB function get_last_ten_health_oper_cash()">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#146 - getLastTenHealthOperationsCash() do not complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,14 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00402" summary="#120 - comments for telecom table">
-      <option name="closed" value="true" />
-      <created>1748609266115</created>
-      <option name="number" value="00402" />
-      <option name="presentableId" value="LOCAL-00402" />
-      <option name="project" value="LOCAL" />
-      <updated>1748609266115</updated>
     </task>
     <task id="LOCAL-00403" summary="#120 - comments for travel table">
       <option name="closed" value="true" />
@@ -612,7 +602,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753728910150</updated>
     </task>
-    <option name="localTasksCounter" value="451" />
+    <task id="LOCAL-00451" summary="#146 - getLastTenHealthOperationsCash() do not complete">
+      <option name="closed" value="true" />
+      <created>1753729370801</created>
+      <option name="number" value="00451" />
+      <option name="presentableId" value="LOCAL-00451" />
+      <option name="project" value="LOCAL" />
+      <updated>1753729370801</updated>
+    </task>
+    <option name="localTasksCounter" value="452" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -639,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#120 - descr for i_login func" />
     <MESSAGE value="#120 - descr for i_telecom func" />
     <MESSAGE value="#120 - descr for i_travel func" />
     <MESSAGE value="#120 - descr for minus_cash_balance func" />
@@ -664,6 +661,7 @@
     <MESSAGE value="#151 - call dbService.getLastTenHealthOperationsCard()" />
     <MESSAGE value="#151 - others" />
     <MESSAGE value="#144 - new DB function get_last_ten_health_oper_cash()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#144 - new DB function get_last_ten_health_oper_cash()" />
+    <MESSAGE value="#146 - getLastTenHealthOperationsCash() do not complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="#146 - getLastTenHealthOperationsCash() do not complete" />
   </component>
 </project>

@@ -216,7 +216,6 @@ public class DBService {
     });
   }
 
-  // TODO: continue #146
   public List<LastTenHealthOperationsModel> getLastTenHealthOperationsCash() {
     String sql = "SELECT * from get_last_ten_health_oper_cash()";
     return jdbcTemplate.query(sql, new RowMapper<LastTenHealthOperationsModel>() {
