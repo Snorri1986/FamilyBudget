@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#146 - getLastTenHealthOperationsCash() final">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#151 - rename Attribute on html side">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHealthOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHealthOperationsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/health.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,22 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00404" summary="#120 - comments for user_last_login table">
-      <option name="closed" value="true" />
-      <created>1748609640192</created>
-      <option name="number" value="00404" />
-      <option name="presentableId" value="LOCAL-00404" />
-      <option name="project" value="LOCAL" />
-      <updated>1748609640192</updated>
-    </task>
-    <task id="LOCAL-00405" summary="#120 - delete table before move.">
-      <option name="closed" value="true" />
-      <created>1748609817810</created>
-      <option name="number" value="00405" />
-      <option name="presentableId" value="LOCAL-00405" />
-      <option name="project" value="LOCAL" />
-      <updated>1748609817810</updated>
     </task>
     <task id="LOCAL-00406" summary="#120 - move table to one big file">
       <option name="closed" value="true" />
@@ -614,7 +601,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753814712002</updated>
     </task>
-    <option name="localTasksCounter" value="453" />
+    <task id="LOCAL-00453" summary="#151 - rename Attribute and list">
+      <option name="closed" value="true" />
+      <created>1753815609814</created>
+      <option name="number" value="00453" />
+      <option name="presentableId" value="LOCAL-00453" />
+      <option name="project" value="LOCAL" />
+      <updated>1753815609814</updated>
+    </task>
+    <task id="LOCAL-00454" summary="#151 - rename Attribute on html side">
+      <option name="closed" value="true" />
+      <created>1753815641136</created>
+      <option name="number" value="00454" />
+      <option name="presentableId" value="LOCAL-00454" />
+      <option name="project" value="LOCAL" />
+      <updated>1753815641136</updated>
+    </task>
+    <option name="localTasksCounter" value="455" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -641,8 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#120 - descr for i_travel func" />
-    <MESSAGE value="#120 - descr for minus_cash_balance func" />
     <MESSAGE value="#126 - set correct name for DB function" />
     <MESSAGE value="#106 - switch to PROD DB" />
     <MESSAGE value="#106 - fixed error on getLastTenEntertainmentOperations()" />
@@ -666,6 +667,8 @@
     <MESSAGE value="#144 - new DB function get_last_ten_health_oper_cash()" />
     <MESSAGE value="#146 - getLastTenHealthOperationsCash() do not complete" />
     <MESSAGE value="#146 - getLastTenHealthOperationsCash() final" />
-    <option name="LAST_COMMIT_MESSAGE" value="#146 - getLastTenHealthOperationsCash() final" />
+    <MESSAGE value="#151 - rename Attribute and list" />
+    <MESSAGE value="#151 - rename Attribute on html side" />
+    <option name="LAST_COMMIT_MESSAGE" value="#151 - rename Attribute on html side" />
   </component>
 </project>
