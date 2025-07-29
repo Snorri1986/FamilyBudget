@@ -71,11 +71,13 @@ public class MainPageController {
   public String getHealthPage(Model model) {
     List<String> healthTypeList = Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Haircut","Other");
     List<LastTenHealthOperationsModel> lastTenHealthCardOperations = dbService.getLastTenHealthOperationsCard();
+    List<LastTenHealthOperationsModel> lastTenHealthCashOperations = dbService.getLastTenHealthOperationsCash();
     model.addAttribute("health_mod_attribute", new HealthModelWeb());
     model.addAttribute("healthTypeList", healthTypeList);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
     model.addAttribute("healthLastTenCardOperations", lastTenHealthCardOperations);
+    model.addAttribute("healthLastTenCashOperations", lastTenHealthCashOperations);
     return "health";
   }
 
