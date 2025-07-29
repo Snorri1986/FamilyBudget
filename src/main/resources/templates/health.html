@@ -81,9 +81,9 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="health : ${healthLastTen}">
+        <tr th:each="healthCardOperation : ${healthLastTenCardOperations}">
             <td>
-                <span th:switch="${health.healthType}">
+                <span th:switch="${healthCardOperation.healthType}">
                     <span th:case="22">Other</span>
                 <span th:case="23">Dentist</span>
                 <span th:case="24">Medical check</span>
@@ -94,12 +94,12 @@
                 <span th:case="42">Haircut</span>
                 </span>
             </td>
-            <td th:text="${health.amount}"></td>
-            <td th:text="${health.currency}"></td>
-            <td th:text="${#temporals.format(health.date, 'dd-MM-yyy')}"></td>
-            <td th:text="${health.sourceCard}"></td>
-            <td th:text="${health.operType}"></td>
-            <td th:text="${health.comments}"></td>
+            <td th:text="${healthCardOperation.amount}"></td>
+            <td th:text="${healthCardOperation.currency}"></td>
+            <td th:text="${#temporals.format(healthCardOperation.date, 'dd-MM-yyy')}"></td>
+            <td th:text="${healthCardOperation.sourceCard}"></td>
+            <td th:text="${healthCardOperation.operType}"></td>
+            <td th:text="${healthCardOperation.comments}"></td>
         </tr>
         </tbody>
     </table>
