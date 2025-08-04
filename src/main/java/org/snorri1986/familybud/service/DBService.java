@@ -122,6 +122,7 @@ public class DBService {
     return jdbcTemplate.queryForObject(sql, Integer.class);
   }
 
+  // TODO: will be replaced with two new methods
   public List<LastTenIncomesModel> getLastTenIncomes() {
     String sql = "SELECT * FROM get_last_ten_incomes()";
     return jdbcTemplate.query(sql, new RowMapper<LastTenIncomesModel>() {
