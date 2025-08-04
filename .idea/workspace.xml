@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#154 - lastTenHealthCashOperations created">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/health.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#155 - cash operations on web">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.MainPageControllerTest.testGetHealthPage">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -220,14 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00409" summary="#120 - description for get_cash_balance function">
-      <option name="closed" value="true" />
-      <created>1748610404461</created>
-      <option name="number" value="00409" />
-      <option name="presentableId" value="LOCAL-00409" />
-      <option name="project" value="LOCAL" />
-      <updated>1748610404461</updated>
     </task>
     <task id="LOCAL-00410" summary="#120 - description for get_last_login function">
       <option name="closed" value="true" />
@@ -613,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753817120232</updated>
     </task>
-    <option name="localTasksCounter" value="458" />
+    <task id="LOCAL-00458" summary="#155 - cash operations on web">
+      <option name="closed" value="true" />
+      <created>1753817980413</created>
+      <option name="number" value="00458" />
+      <option name="presentableId" value="LOCAL-00458" />
+      <option name="project" value="LOCAL" />
+      <updated>1753817980413</updated>
+    </task>
+    <option name="localTasksCounter" value="459" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,7 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#106 - fixed error on get_last_ten_entertainment()" />
     <MESSAGE value="#128 - switched to DEV DB" />
     <MESSAGE value="#128 - change version number" />
     <MESSAGE value="#136 - change annotation" />
@@ -665,6 +664,7 @@
     <MESSAGE value="#156 - one more constructor without source_card fld" />
     <MESSAGE value="#156 - source_card not needed for cash operations" />
     <MESSAGE value="#154 - lastTenHealthCashOperations created" />
-    <option name="LAST_COMMIT_MESSAGE" value="#154 - lastTenHealthCashOperations created" />
+    <MESSAGE value="#155 - cash operations on web" />
+    <option name="LAST_COMMIT_MESSAGE" value="#155 - cash operations on web" />
   </component>
 </project>

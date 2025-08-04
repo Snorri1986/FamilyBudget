@@ -87,15 +87,18 @@ public class MainPageControllerTest {
 
   @Test
   void testGetHealthPage() {
-    List<LastTenHealthOperationsModel> mockLastTenHealth = List.of(new LastTenHealthOperationsModel(), new LastTenHealthOperationsModel());
-    when(dbService.getLastTenHealthOperationsCard()).thenReturn(mockLastTenHealth);
+    List<LastTenHealthOperationsModel> mockLastTenHealthCard = List.of(new LastTenHealthOperationsModel(), new LastTenHealthOperationsModel());
+    List<LastTenHealthOperationsModel> mockLastTenHealthCash = List.of(new LastTenHealthOperationsModel(), new LastTenHealthOperationsModel());
+    when(dbService.getLastTenHealthOperationsCard()).thenReturn(mockLastTenHealthCard);
+    when(dbService.getLastTenHealthOperationsCash()).thenReturn(mockLastTenHealthCash);
     String viewName = mainPageController.getHealthPage(model);
     assertEquals("health", viewName);
     verify(model).addAttribute(eq("health_mod_attribute"), any(HealthModelWeb.class));
     verify(model).addAttribute(eq("healthTypeList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("healthLastTen", mockLastTenHealth);
+    verify(model).addAttribute(eq("healthLastTenCardOperations"),any(List.class));
+    verify(model).addAttribute(eq("healthLastTenCashOperations"),any(List.class));
     verifyNoMoreInteractions(model);
   }
 
