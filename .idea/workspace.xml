@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#128 - commit others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#141 - just todo for getLastTenIncomes()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,22 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00413" summary="#120 - descr and rename get_last_ten_entertainment func">
-      <option name="closed" value="true" />
-      <created>1748610961714</created>
-      <option name="number" value="00413" />
-      <option name="presentableId" value="LOCAL-00413" />
-      <option name="project" value="LOCAL" />
-      <updated>1748610961714</updated>
-    </task>
-    <task id="LOCAL-00414" summary="#120 - descr for get_last_ten_groceries_oper func">
-      <option name="closed" value="true" />
-      <created>1748611051055</created>
-      <option name="number" value="00414" />
-      <option name="presentableId" value="LOCAL-00414" />
-      <option name="project" value="LOCAL" />
-      <updated>1748611051055</updated>
     </task>
     <task id="LOCAL-00415" summary="#120 - descr for get_last_ten_health_oper func">
       <option name="closed" value="true" />
@@ -613,7 +596,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754331912413</updated>
     </task>
-    <option name="localTasksCounter" value="462" />
+    <task id="LOCAL-00462" summary="#141 - remove old unused method">
+      <option name="closed" value="true" />
+      <created>1754332739404</created>
+      <option name="number" value="00462" />
+      <option name="presentableId" value="LOCAL-00462" />
+      <option name="project" value="LOCAL" />
+      <updated>1754332739404</updated>
+    </task>
+    <task id="LOCAL-00463" summary="#141 - just todo for getLastTenIncomes()">
+      <option name="closed" value="true" />
+      <created>1754332905027</created>
+      <option name="number" value="00463" />
+      <option name="presentableId" value="LOCAL-00463" />
+      <option name="project" value="LOCAL" />
+      <updated>1754332905029</updated>
+    </task>
+    <option name="localTasksCounter" value="464" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,8 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#138 - change on button definition" />
-    <MESSAGE value="#132 - others" />
     <MESSAGE value="#133 - properties for health" />
     <MESSAGE value="#140 - web page and getInfo for info()" />
     <MESSAGE value="#140 - others" />
@@ -665,6 +662,8 @@
     <MESSAGE value="#157 - new version after split cash and card opers" />
     <MESSAGE value="#147 - delete unused function" />
     <MESSAGE value="#128 - commit others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#128 - commit others" />
+    <MESSAGE value="#141 - remove old unused method" />
+    <MESSAGE value="#141 - just todo for getLastTenIncomes()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#141 - just todo for getLastTenIncomes()" />
   </component>
 </project>
