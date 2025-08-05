@@ -153,6 +153,21 @@ public class DBService {
     });
   }
 
+  public List<LastTenIncomesModel> getLastTenIncomesCash() {
+    String sql = "SELECT * FROM get_last_ten_incomes_cash()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenIncomesModel>() {
+      @Override
+      public LastTenIncomesModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenIncomesModel(rs.getLong("ex_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("opertype"),
+                rs.getString("comments"));
+      }
+    });
+  }
+
 
   public List<LastTenCashOperModel> getLastTenCashOperations() {
     String sql = "SELECT * FROM get_last_ten_cash_oper()";
