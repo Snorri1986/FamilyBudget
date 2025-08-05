@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#160 - new function returns only cash income operations" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#169 - new function passing expens type id to cash">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,14 +221,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00418" summary="#120 - descr for get_last_ten_travel_operations func">
-      <option name="closed" value="true" />
-      <created>1748611361684</created>
-      <option name="number" value="00418" />
-      <option name="presentableId" value="LOCAL-00418" />
-      <option name="project" value="LOCAL" />
-      <updated>1748611361684</updated>
     </task>
     <task id="LOCAL-00419" summary="#120 - descr for i_entertainment func">
       <option name="closed" value="true" />
@@ -610,7 +606,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754420727829</updated>
     </task>
-    <option name="localTasksCounter" value="467" />
+    <task id="LOCAL-00467" summary="#169 - new function passing expens type id to cash">
+      <option name="closed" value="true" />
+      <created>1754421204135</created>
+      <option name="number" value="00467" />
+      <option name="presentableId" value="LOCAL-00467" />
+      <option name="project" value="LOCAL" />
+      <updated>1754421204135</updated>
+    </task>
+    <option name="localTasksCounter" value="468" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -637,7 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#141 - todo" />
     <MESSAGE value="#143 - SQL function get_last_ten_health_oper_card()" />
     <MESSAGE value="#149 - new field for table cash_operations_log" />
     <MESSAGE value="#150 - new version with expense type id" />
@@ -662,6 +665,7 @@
     <MESSAGE value="#159 - new function returns only card operations" />
     <MESSAGE value="#167 - new function returns only health operations" />
     <MESSAGE value="#160 - new function returns only cash income operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#160 - new function returns only cash income operations" />
+    <MESSAGE value="#169 - new function passing expens type id to cash" />
+    <option name="LAST_COMMIT_MESSAGE" value="#169 - new function passing expens type id to cash" />
   </component>
 </project>
