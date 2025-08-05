@@ -34,12 +34,13 @@ public class MainPageController {
   @GetMapping("/income")
   public String getIncomePage(Model model) {
     List<String> incomes = Arrays.asList("Salary", "Bonus", "TravelRefund", "ShopRefund","Money transfer R", "Other");
-    List<LastTenIncomesModel> lastTenIncomes = dbService.getLastTenIncomes();
+    //List<LastTenIncomesModel> lastTenIncomes = dbService.getLastTenIncomes();
+    List<LastTenIncomesModel> lastTenIncomesCard = dbService.getLastTenIncomesCard();
     model.addAttribute("income_mod_attribute", new IncomeModelWeb());
     model.addAttribute("incomes", incomes);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
-    model.addAttribute("incomesLastTen", lastTenIncomes);
+    model.addAttribute("incomesLastTen", lastTenIncomesCard);
     return "income";
   }
 
