@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#169 - new function passing expens type id to cash">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#161 - others">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenIncomesModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenIncomesModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,38 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00419" summary="#120 - descr for i_entertainment func">
-      <option name="closed" value="true" />
-      <created>1748611442325</created>
-      <option name="number" value="00419" />
-      <option name="presentableId" value="LOCAL-00419" />
-      <option name="project" value="LOCAL" />
-      <updated>1748611442325</updated>
-    </task>
-    <task id="LOCAL-00420" summary="#120 - descr for i_groceries func">
-      <option name="closed" value="true" />
-      <created>1748611507170</created>
-      <option name="number" value="00420" />
-      <option name="presentableId" value="LOCAL-00420" />
-      <option name="project" value="LOCAL" />
-      <updated>1748611507170</updated>
-    </task>
-    <task id="LOCAL-00421" summary="#120 - descr for i_health func">
-      <option name="closed" value="true" />
-      <created>1748611572452</created>
-      <option name="number" value="00421" />
-      <option name="presentableId" value="LOCAL-00421" />
-      <option name="project" value="LOCAL" />
-      <updated>1748611572452</updated>
-    </task>
-    <task id="LOCAL-00422" summary="#120 - descr for i_housing_rent func">
-      <option name="closed" value="true" />
-      <created>1748611695230</created>
-      <option name="number" value="00422" />
-      <option name="presentableId" value="LOCAL-00422" />
-      <option name="project" value="LOCAL" />
-      <updated>1748611695230</updated>
     </task>
     <task id="LOCAL-00423" summary="#120 - descr for i_income func">
       <option name="closed" value="true" />
@@ -614,7 +581,39 @@
       <option name="project" value="LOCAL" />
       <updated>1754421204135</updated>
     </task>
-    <option name="localTasksCounter" value="468" />
+    <task id="LOCAL-00468" summary="#161- on DB Service class">
+      <option name="closed" value="true" />
+      <created>1754421791446</created>
+      <option name="number" value="00468" />
+      <option name="presentableId" value="LOCAL-00468" />
+      <option name="project" value="LOCAL" />
+      <updated>1754421791446</updated>
+    </task>
+    <task id="LOCAL-00469" summary="#161- on main controller">
+      <option name="closed" value="true" />
+      <created>1754421818912</created>
+      <option name="number" value="00469" />
+      <option name="presentableId" value="LOCAL-00469" />
+      <option name="project" value="LOCAL" />
+      <updated>1754421818912</updated>
+    </task>
+    <task id="LOCAL-00470" summary="#165 - temporary on test">
+      <option name="closed" value="true" />
+      <created>1754421863687</created>
+      <option name="number" value="00470" />
+      <option name="presentableId" value="LOCAL-00470" />
+      <option name="project" value="LOCAL" />
+      <updated>1754421863687</updated>
+    </task>
+    <task id="LOCAL-00471" summary="#161 - others">
+      <option name="closed" value="true" />
+      <created>1754421878950</created>
+      <option name="number" value="00471" />
+      <option name="presentableId" value="LOCAL-00471" />
+      <option name="project" value="LOCAL" />
+      <updated>1754421878950</updated>
+    </task>
+    <option name="localTasksCounter" value="472" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -641,10 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#143 - SQL function get_last_ten_health_oper_card()" />
-    <MESSAGE value="#149 - new field for table cash_operations_log" />
-    <MESSAGE value="#150 - new version with expense type id" />
-    <MESSAGE value="#145 - new method getLastTenHealthOperationsCard()" />
     <MESSAGE value="#151 - commented getLastTenHealthOperations() before del" />
     <MESSAGE value="#151 - call dbService.getLastTenHealthOperationsCard()" />
     <MESSAGE value="#151 - others" />
@@ -666,6 +661,10 @@
     <MESSAGE value="#167 - new function returns only health operations" />
     <MESSAGE value="#160 - new function returns only cash income operations" />
     <MESSAGE value="#169 - new function passing expens type id to cash" />
-    <option name="LAST_COMMIT_MESSAGE" value="#169 - new function passing expens type id to cash" />
+    <MESSAGE value="#161- on DB Service class" />
+    <MESSAGE value="#161- on main controller" />
+    <MESSAGE value="#165 - temporary on test" />
+    <MESSAGE value="#161 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#161 - others" />
   </component>
 </project>

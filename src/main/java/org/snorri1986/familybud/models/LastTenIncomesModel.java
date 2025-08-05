@@ -19,6 +19,15 @@ public class LastTenIncomesModel {
     this.comments = comments;
   }
 
+  // for last 10 cash operations
+  public LastTenIncomesModel(long iType, long amount, long currency, ZonedDateTime date, String comments) {
+    this.iType = iType;
+    this.amount = amount;
+    this.currency = currency;
+    this.date = date;
+    this.comments = comments;
+  }
+
   public LastTenIncomesModel() {
 
   }
