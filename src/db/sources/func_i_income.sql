@@ -5,8 +5,8 @@ AS $function$
 BEGIN
 
     IF oper_type = 'Cash' THEN
-        INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency)
-        VALUES (1,amount_value,oper_date,comm_value,get_last_login(),currency_value);
+        INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency,ex_type_id)
+        VALUES (1,amount_value,oper_date,comm_value,get_last_login(),currency_value,income_type);
 
         PERFORM add_cash_balance(amount_value);
     ELSE
@@ -16,4 +16,4 @@ BEGIN
 
 END;
 $function$
-COMMENT ON FUNCTION public.i_income(int4, int4, int4, date, bpchar, int4, bpchar) IS 'insert income operation';
+;
