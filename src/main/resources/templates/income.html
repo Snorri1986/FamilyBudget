@@ -80,7 +80,7 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="income : ${incomesLastTen}">
+        <tr th:each="income : ${incomesLastTenCard}">
             <td>
             <span th:switch="${income.iType}">
                 <span th:case="14">Salary</span>
