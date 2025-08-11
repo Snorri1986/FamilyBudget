@@ -1,5 +1,5 @@
 CREATE OR REPLACE FUNCTION public.get_last_ten_health_oper_cash()
- RETURNS TABLE(h_type_id integer, amount bigint, currency bigint, date timestamp with time zone, opertype text, comments character varying)
+ RETURNS TABLE(ex_type_id integer, amount bigint, currency bigint, date timestamp with time zone, opertype text, comments character varying)
  LANGUAGE plpgsql
 AS $function$
 	BEGIN

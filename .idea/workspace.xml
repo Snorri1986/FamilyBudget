@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#162 - new method retrieving cash">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#163 - changes on web side">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_incomes_cash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_incomes_cash.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/income.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,22 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00425" summary="#120 - descr for i_telecom func">
-      <option name="closed" value="true" />
-      <created>1748611875314</created>
-      <option name="number" value="00425" />
-      <option name="presentableId" value="LOCAL-00425" />
-      <option name="project" value="LOCAL" />
-      <updated>1748611875314</updated>
-    </task>
-    <task id="LOCAL-00426" summary="#120 - descr for i_travel func">
-      <option name="closed" value="true" />
-      <created>1748611934916</created>
-      <option name="number" value="00426" />
-      <option name="presentableId" value="LOCAL-00426" />
-      <option name="project" value="LOCAL" />
-      <updated>1748611934916</updated>
     </task>
     <task id="LOCAL-00427" summary="#120 - descr for minus_cash_balance func">
       <option name="closed" value="true" />
@@ -612,7 +602,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754422327052</updated>
     </task>
-    <option name="localTasksCounter" value="474" />
+    <task id="LOCAL-00474" summary="#163 - with dbService.getLastTenIncomesCard()">
+      <option name="closed" value="true" />
+      <created>1754941989193</created>
+      <option name="number" value="00474" />
+      <option name="presentableId" value="LOCAL-00474" />
+      <option name="project" value="LOCAL" />
+      <updated>1754941989193</updated>
+    </task>
+    <task id="LOCAL-00475" summary="#163 - changes on web side">
+      <option name="closed" value="true" />
+      <created>1754942007303</created>
+      <option name="number" value="00475" />
+      <option name="presentableId" value="LOCAL-00475" />
+      <option name="project" value="LOCAL" />
+      <updated>1754942007303</updated>
+    </task>
+    <option name="localTasksCounter" value="476" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -639,8 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#151 - others" />
-    <MESSAGE value="#144 - new DB function get_last_ten_health_oper_cash()" />
     <MESSAGE value="#146 - getLastTenHealthOperationsCash() do not complete" />
     <MESSAGE value="#146 - getLastTenHealthOperationsCash() final" />
     <MESSAGE value="#151 - rename Attribute and list" />
@@ -664,6 +668,8 @@
     <MESSAGE value="#161 - others" />
     <MESSAGE value="#162 - constructor without target card" />
     <MESSAGE value="#162 - new method retrieving cash" />
-    <option name="LAST_COMMIT_MESSAGE" value="#162 - new method retrieving cash" />
+    <MESSAGE value="#163 - with dbService.getLastTenIncomesCard()" />
+    <MESSAGE value="#163 - changes on web side" />
+    <option name="LAST_COMMIT_MESSAGE" value="#163 - changes on web side" />
   </component>
 </project>
