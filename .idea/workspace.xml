@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#164 - rename return field">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#164 - on web part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenIncomesModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenIncomesModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/income.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +85,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.MainPageControllerTest.testGetIncomePage">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -210,11 +204,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
-        <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -226,38 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00428" summary="#126 - set correct name for DB function">
-      <option name="closed" value="true" />
-      <created>1750097511942</created>
-      <option name="number" value="00428" />
-      <option name="presentableId" value="LOCAL-00428" />
-      <option name="project" value="LOCAL" />
-      <updated>1750097511944</updated>
-    </task>
-    <task id="LOCAL-00429" summary="#106 - switch to PROD DB">
-      <option name="closed" value="true" />
-      <created>1750702263864</created>
-      <option name="number" value="00429" />
-      <option name="presentableId" value="LOCAL-00429" />
-      <option name="project" value="LOCAL" />
-      <updated>1750702263865</updated>
-    </task>
-    <task id="LOCAL-00430" summary="#106 - fixed error on getLastTenEntertainmentOperations()">
-      <option name="closed" value="true" />
-      <created>1750703395941</created>
-      <option name="number" value="00430" />
-      <option name="presentableId" value="LOCAL-00430" />
-      <option name="project" value="LOCAL" />
-      <updated>1750703395942</updated>
-    </task>
-    <task id="LOCAL-00431" summary="#106 - fixed error on get_last_ten_entertainment()">
-      <option name="closed" value="true" />
-      <created>1750703610107</created>
-      <option name="number" value="00431" />
-      <option name="presentableId" value="LOCAL-00431" />
-      <option name="project" value="LOCAL" />
-      <updated>1750703610107</updated>
     </task>
     <task id="LOCAL-00432" summary="#128 - switched to DEV DB">
       <option name="closed" value="true" />
@@ -619,7 +581,39 @@
       <option name="project" value="LOCAL" />
       <updated>1754942855966</updated>
     </task>
-    <option name="localTasksCounter" value="477" />
+    <task id="LOCAL-00477" summary="#164 - opertype has to string">
+      <option name="closed" value="true" />
+      <created>1754943794637</created>
+      <option name="number" value="00477" />
+      <option name="presentableId" value="LOCAL-00477" />
+      <option name="project" value="LOCAL" />
+      <updated>1754943794637</updated>
+    </task>
+    <task id="LOCAL-00478" summary="#164 - add list for cash">
+      <option name="closed" value="true" />
+      <created>1754943831530</created>
+      <option name="number" value="00478" />
+      <option name="presentableId" value="LOCAL-00478" />
+      <option name="project" value="LOCAL" />
+      <updated>1754943831530</updated>
+    </task>
+    <task id="LOCAL-00479" summary="#164 - new constructor and get_set operType field">
+      <option name="closed" value="true" />
+      <created>1754943887104</created>
+      <option name="number" value="00479" />
+      <option name="presentableId" value="LOCAL-00479" />
+      <option name="project" value="LOCAL" />
+      <updated>1754943887104</updated>
+    </task>
+    <task id="LOCAL-00480" summary="#164 - on web part">
+      <option name="closed" value="true" />
+      <created>1754943906143</created>
+      <option name="number" value="00480" />
+      <option name="presentableId" value="LOCAL-00480" />
+      <option name="project" value="LOCAL" />
+      <updated>1754943906143</updated>
+    </task>
+    <option name="localTasksCounter" value="481" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -646,10 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#146 - getLastTenHealthOperationsCash() final" />
-    <MESSAGE value="#151 - rename Attribute and list" />
-    <MESSAGE value="#151 - rename Attribute on html side" />
-    <MESSAGE value="#156 - one more constructor without source_card fld" />
     <MESSAGE value="#156 - source_card not needed for cash operations" />
     <MESSAGE value="#154 - lastTenHealthCashOperations created" />
     <MESSAGE value="#155 - cash operations on web" />
@@ -671,6 +661,10 @@
     <MESSAGE value="#163 - with dbService.getLastTenIncomesCard()" />
     <MESSAGE value="#163 - changes on web side" />
     <MESSAGE value="#164 - rename return field" />
-    <option name="LAST_COMMIT_MESSAGE" value="#164 - rename return field" />
+    <MESSAGE value="#164 - opertype has to string" />
+    <MESSAGE value="#164 - add list for cash" />
+    <MESSAGE value="#164 - new constructor and get_set operType field" />
+    <MESSAGE value="#164 - on web part" />
+    <option name="LAST_COMMIT_MESSAGE" value="#164 - on web part" />
   </component>
 </project>

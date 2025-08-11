@@ -45,17 +45,18 @@ public class MainPageControllerTest {
 
   @Test
   void testGetIncomePage() {
-    //TODO: will be replaced
     List<LastTenIncomesModel> mockLastTenIncomesCard = List.of(new LastTenIncomesModel(), new LastTenIncomesModel());
-    //when(dbService.getLastTenIncomes()).thenReturn(mockLastTenIncomes);
+    List<LastTenIncomesModel> mockLastTenIncomesCash = List.of(new LastTenIncomesModel(), new LastTenIncomesModel());
     when(dbService.getLastTenIncomesCard()).thenReturn(mockLastTenIncomesCard);
+    when(dbService.getLastTenIncomesCash()).thenReturn(mockLastTenIncomesCash);
     String viewName = mainPageController.getIncomePage(model);
     assertEquals("income", viewName);
     verify(model).addAttribute(eq("income_mod_attribute"), any(IncomeModelWeb.class));
     verify(model).addAttribute(eq("incomes"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("incomesLastTen", mockLastTenIncomesCard);
+    verify(model).addAttribute("incomesLastTenCard", mockLastTenIncomesCard);
+    verify(model).addAttribute("incomesLastTenCash", mockLastTenIncomesCash);
     verifyNoMoreInteractions(model);
   }
 
