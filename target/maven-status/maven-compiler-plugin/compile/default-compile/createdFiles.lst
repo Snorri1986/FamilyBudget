@@ -10,6 +10,7 @@ org\snorri1986\familybud\Utils.class
 org\snorri1986\familybud\service\DBService$1.class
 org\snorri1986\familybud\service\DBService$5.class
 org\snorri1986\familybud\models\LastTenTravelOperationsModel.class
+org\snorri1986\familybud\service\DBService$10.class
 org\snorri1986\familybud\service\DBService.class
 org\snorri1986\familybud\models\EntertainmentModelWeb.class
 org\snorri1986\familybud\models\GroceriesModelWeb.class
