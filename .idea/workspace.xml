@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#161 - others">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenIncomesModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenIncomesModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#162 - new method retrieving cash">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,22 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00423" summary="#120 - descr for i_income func">
-      <option name="closed" value="true" />
-      <created>1748611758534</created>
-      <option name="number" value="00423" />
-      <option name="presentableId" value="LOCAL-00423" />
-      <option name="project" value="LOCAL" />
-      <updated>1748611758534</updated>
-    </task>
-    <task id="LOCAL-00424" summary="#120 - descr for i_login func">
-      <option name="closed" value="true" />
-      <created>1748611815367</created>
-      <option name="number" value="00424" />
-      <option name="presentableId" value="LOCAL-00424" />
-      <option name="project" value="LOCAL" />
-      <updated>1748611815367</updated>
     </task>
     <task id="LOCAL-00425" summary="#120 - descr for i_telecom func">
       <option name="closed" value="true" />
@@ -613,7 +596,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754421878950</updated>
     </task>
-    <option name="localTasksCounter" value="472" />
+    <task id="LOCAL-00472" summary="#162 - constructor without target card">
+      <option name="closed" value="true" />
+      <created>1754422152430</created>
+      <option name="number" value="00472" />
+      <option name="presentableId" value="LOCAL-00472" />
+      <option name="project" value="LOCAL" />
+      <updated>1754422152430</updated>
+    </task>
+    <task id="LOCAL-00473" summary="#162 - new method retrieving cash">
+      <option name="closed" value="true" />
+      <created>1754422327052</created>
+      <option name="number" value="00473" />
+      <option name="presentableId" value="LOCAL-00473" />
+      <option name="project" value="LOCAL" />
+      <updated>1754422327052</updated>
+    </task>
+    <option name="localTasksCounter" value="474" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,8 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#151 - commented getLastTenHealthOperations() before del" />
-    <MESSAGE value="#151 - call dbService.getLastTenHealthOperationsCard()" />
     <MESSAGE value="#151 - others" />
     <MESSAGE value="#144 - new DB function get_last_ten_health_oper_cash()" />
     <MESSAGE value="#146 - getLastTenHealthOperationsCash() do not complete" />
@@ -665,6 +662,8 @@
     <MESSAGE value="#161- on main controller" />
     <MESSAGE value="#165 - temporary on test" />
     <MESSAGE value="#161 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#161 - others" />
+    <MESSAGE value="#162 - constructor without target card" />
+    <MESSAGE value="#162 - new method retrieving cash" />
+    <option name="LAST_COMMIT_MESSAGE" value="#162 - new method retrieving cash" />
   </component>
 </project>
