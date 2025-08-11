@@ -122,22 +122,6 @@ public class DBService {
     return jdbcTemplate.queryForObject(sql, Integer.class);
   }
 
-  // TODO: will be replaced with two new methods
-  /*public List<LastTenIncomesModel> getLastTenIncomes() {
-    String sql = "SELECT * FROM get_last_ten_incomes()";
-    return jdbcTemplate.query(sql, new RowMapper<LastTenIncomesModel>() {
-      @Override
-      public LastTenIncomesModel mapRow(ResultSet rs, int rowNum) throws SQLException {
-        return new LastTenIncomesModel(rs.getLong("i_type"),
-                rs.getLong("amount"),
-                rs.getLong("currency"),
-                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
-                rs.getLong("target_card"),
-                rs.getString("comments"));
-      }
-    });
-  }*/
-
   public List<LastTenIncomesModel> getLastTenIncomesCard() {
     String sql = "SELECT * FROM get_last_ten_incomes_card()";
     return jdbcTemplate.query(sql, new RowMapper<LastTenIncomesModel>() {
