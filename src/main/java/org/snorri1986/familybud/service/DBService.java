@@ -162,7 +162,7 @@ public class DBService {
                 rs.getLong("amount"),
                 rs.getLong("currency"),
                 rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
-                rs.getLong("opertype"),
+                rs.getString("opertype"),
                 rs.getString("comments"));
       }
     });
