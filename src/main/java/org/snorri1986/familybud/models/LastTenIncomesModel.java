@@ -8,6 +8,7 @@ public class LastTenIncomesModel {
   private long currency;
   private ZonedDateTime date;
   private long targetCard;
+  private String operType;
   private String comments;
 
   public LastTenIncomesModel(long iType, long amount, long currency, ZonedDateTime date, long targetCard, String comments) {
@@ -20,11 +21,12 @@ public class LastTenIncomesModel {
   }
 
   // for last 10 cash operations
-  public LastTenIncomesModel(long iType, long amount, long currency, ZonedDateTime date, String comments) {
+  public LastTenIncomesModel(long iType, long amount, long currency, ZonedDateTime date,String operType, String comments) {
     this.iType = iType;
     this.amount = amount;
     this.currency = currency;
     this.date = date;
+    this.operType = operType;
     this.comments = comments;
   }
 
@@ -62,6 +64,14 @@ public class LastTenIncomesModel {
 
   public void setDate(ZonedDateTime date) {
     this.date = date;
+  }
+
+  public String getOperType() {
+    return operType;
+  }
+
+  public void setOperType(String operType) {
+    this.operType = operType;
   }
 
   public long getTargetCard() {
