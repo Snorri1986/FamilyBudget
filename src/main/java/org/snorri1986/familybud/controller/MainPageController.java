@@ -49,11 +49,13 @@ public class MainPageController {
   public String getEntertainmentPage(Model model) {
     List<String> entList = Arrays.asList("Travel", "Cinema", "Vacation", "Relax","Restaurant","Homefest","Other");
     List<LastTenEntertainmentModel> lastTenEntertainmentCard = dbService.getLastTenEntertainmentOperationsCard();
+    List<LastTenEntertainmentModel> lastTenEntertainmentCash = dbService.getLastTenEntertainmentOperationsCash();
     model.addAttribute("entertainment_mod_attribute", new EntertainmentModelWeb());
     model.addAttribute("entList", entList);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
     model.addAttribute("entertainmentLastTenCard", lastTenEntertainmentCard);
+    model.addAttribute("entertainmentLastTenCash", lastTenEntertainmentCash);
     return "entertainment";
   }
 

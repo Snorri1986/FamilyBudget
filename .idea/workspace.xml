@@ -4,7 +4,85 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#173 - others" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#174 - on test level">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/DataSourceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/FamilyBudgetMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/UserModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/entertainment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/groceries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/health.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/income.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/renthousing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_entertainment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_groceries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_health.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_income.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_renthousing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_telecom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_travel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/telecom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/travel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/entertainment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/appllication.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/entertainment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/groceries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/health.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/income.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/renthousing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_entertainment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_groceries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_health.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_income.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_renthousing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_telecom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_travel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/telecom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/travel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/entertainment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/groceries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/health.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/income.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/others.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/renthousing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_entertainment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_groceries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_health.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_income.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_renthousing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_telecom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_travel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/telecom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/travel.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,30 +295,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00443" summary="#149 - new field for table cash_operations_log">
-      <option name="closed" value="true" />
-      <created>1753210522154</created>
-      <option name="number" value="00443" />
-      <option name="presentableId" value="LOCAL-00443" />
-      <option name="project" value="LOCAL" />
-      <updated>1753210522154</updated>
-    </task>
-    <task id="LOCAL-00444" summary="#150 - new version with expense type id">
-      <option name="closed" value="true" />
-      <created>1753210733439</created>
-      <option name="number" value="00444" />
-      <option name="presentableId" value="LOCAL-00444" />
-      <option name="project" value="LOCAL" />
-      <updated>1753210733439</updated>
-    </task>
-    <task id="LOCAL-00445" summary="#145 - new method getLastTenHealthOperationsCard()">
-      <option name="closed" value="true" />
-      <created>1753726198686</created>
-      <option name="number" value="00445" />
-      <option name="presentableId" value="LOCAL-00445" />
-      <option name="project" value="LOCAL" />
-      <updated>1753726198686</updated>
     </task>
     <task id="LOCAL-00446" summary="#151 - commented getLastTenHealthOperations() before del">
       <option name="closed" value="true" />
@@ -610,7 +664,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755551824024</updated>
     </task>
-    <option name="localTasksCounter" value="492" />
+    <task id="LOCAL-00492" summary="#174 - on main controller level">
+      <option name="closed" value="true" />
+      <created>1755552102434</created>
+      <option name="number" value="00492" />
+      <option name="presentableId" value="LOCAL-00492" />
+      <option name="project" value="LOCAL" />
+      <updated>1755552102434</updated>
+    </task>
+    <task id="LOCAL-00493" summary="#174 - on html level">
+      <option name="closed" value="true" />
+      <created>1755552116602</created>
+      <option name="number" value="00493" />
+      <option name="presentableId" value="LOCAL-00493" />
+      <option name="project" value="LOCAL" />
+      <updated>1755552116602</updated>
+    </task>
+    <task id="LOCAL-00494" summary="#174 - on test level">
+      <option name="closed" value="true" />
+      <created>1755552130493</created>
+      <option name="number" value="00494" />
+      <option name="presentableId" value="LOCAL-00494" />
+      <option name="project" value="LOCAL" />
+      <updated>1755552130493</updated>
+    </task>
+    <option name="localTasksCounter" value="495" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -637,9 +715,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#169 - new function passing expens type id to cash" />
-    <MESSAGE value="#161- on DB Service class" />
-    <MESSAGE value="#161- on main controller" />
     <MESSAGE value="#165 - temporary on test" />
     <MESSAGE value="#161 - others" />
     <MESSAGE value="#162 - constructor without target card" />
@@ -662,6 +737,9 @@
     <MESSAGE value="#173 - one more constructor" />
     <MESSAGE value="#173 - new method" />
     <MESSAGE value="#173 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#173 - others" />
+    <MESSAGE value="#174 - on main controller level" />
+    <MESSAGE value="#174 - on html level" />
+    <MESSAGE value="#174 - on test level" />
+    <option name="LAST_COMMIT_MESSAGE" value="#174 - on test level" />
   </component>
 </project>
