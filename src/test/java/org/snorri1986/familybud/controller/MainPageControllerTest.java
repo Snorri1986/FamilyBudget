@@ -71,7 +71,8 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("entList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("entertainmentLastTen", mockLastTenEntertainmentCard);
+    //verify(model).addAttribute("entertainmentLastTen", mockLastTenEntertainmentCard);
+    verify(model).addAttribute("entertainmentLastTenCard", mockLastTenEntertainmentCard);
     verifyNoMoreInteractions(model);
   }
 
