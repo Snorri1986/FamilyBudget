@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#164 - on web part">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#166 - delete obsolete objects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageControllerTest.testGetIncomePage">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -220,22 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00432" summary="#128 - switched to DEV DB">
-      <option name="closed" value="true" />
-      <created>1750704797476</created>
-      <option name="number" value="00432" />
-      <option name="presentableId" value="LOCAL-00432" />
-      <option name="project" value="LOCAL" />
-      <updated>1750704797476</updated>
-    </task>
-    <task id="LOCAL-00433" summary="#128 - change version number">
-      <option name="closed" value="true" />
-      <created>1750704951922</created>
-      <option name="number" value="00433" />
-      <option name="presentableId" value="LOCAL-00433" />
-      <option name="project" value="LOCAL" />
-      <updated>1750704951922</updated>
     </task>
     <task id="LOCAL-00434" summary="#136 - change annotation">
       <option name="closed" value="true" />
@@ -613,7 +597,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754943906143</updated>
     </task>
-    <option name="localTasksCounter" value="481" />
+    <task id="LOCAL-00481" summary="#165 - new version with cash operations">
+      <option name="closed" value="true" />
+      <created>1754944273359</created>
+      <option name="number" value="00481" />
+      <option name="presentableId" value="LOCAL-00481" />
+      <option name="project" value="LOCAL" />
+      <updated>1754944273359</updated>
+    </task>
+    <task id="LOCAL-00482" summary="#166 - delete obsolete objects">
+      <option name="closed" value="true" />
+      <created>1754944463665</created>
+      <option name="number" value="00482" />
+      <option name="presentableId" value="LOCAL-00482" />
+      <option name="project" value="LOCAL" />
+      <updated>1754944463665</updated>
+    </task>
+    <option name="localTasksCounter" value="483" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,8 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#156 - source_card not needed for cash operations" />
-    <MESSAGE value="#154 - lastTenHealthCashOperations created" />
     <MESSAGE value="#155 - cash operations on web" />
     <MESSAGE value="#157 - new version after split cash and card opers" />
     <MESSAGE value="#147 - delete unused function" />
@@ -665,6 +663,8 @@
     <MESSAGE value="#164 - add list for cash" />
     <MESSAGE value="#164 - new constructor and get_set operType field" />
     <MESSAGE value="#164 - on web part" />
-    <option name="LAST_COMMIT_MESSAGE" value="#164 - on web part" />
+    <MESSAGE value="#165 - new version with cash operations" />
+    <MESSAGE value="#166 - delete obsolete objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="#166 - delete obsolete objects" />
   </component>
 </project>
