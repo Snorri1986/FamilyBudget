@@ -48,12 +48,13 @@ public class MainPageController {
   @GetMapping("/entertainment")
   public String getEntertainmentPage(Model model) {
     List<String> entList = Arrays.asList("Travel", "Cinema", "Vacation", "Relax","Restaurant","Homefest","Other");
-    List<LastTenEntertainmentModel> lastTenEntertainment = dbService.getLastTenEntertainmentOperations();
+    //List<LastTenEntertainmentModel> lastTenEntertainment = dbService.getLastTenEntertainmentOperations();
+    List<LastTenEntertainmentModel> lastTenEntertainmentCard = dbService.getLastTenEntertainmentOperationsCard();
     model.addAttribute("entertainment_mod_attribute", new EntertainmentModelWeb());
     model.addAttribute("entList", entList);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
-    model.addAttribute("entertainmentLastTen", lastTenEntertainment);
+    model.addAttribute("entertainmentLastTen", lastTenEntertainmentCard);
     return "entertainment";
   }
 
