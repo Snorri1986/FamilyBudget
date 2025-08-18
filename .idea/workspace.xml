@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#166 - delete obsolete objects">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#170 - new function only for card operations">
       <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,14 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00434" summary="#136 - change annotation">
-      <option name="closed" value="true" />
-      <created>1751310743119</created>
-      <option name="number" value="00434" />
-      <option name="presentableId" value="LOCAL-00434" />
-      <option name="project" value="LOCAL" />
-      <updated>1751310743121</updated>
     </task>
     <task id="LOCAL-00435" summary="#138 - change on button definition">
       <option name="closed" value="true" />
@@ -613,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754944463665</updated>
     </task>
-    <option name="localTasksCounter" value="483" />
+    <task id="LOCAL-00483" summary="#170 - new function only for card operations">
+      <option name="closed" value="true" />
+      <created>1755549396493</created>
+      <option name="number" value="00483" />
+      <option name="presentableId" value="LOCAL-00483" />
+      <option name="project" value="LOCAL" />
+      <updated>1755549396493</updated>
+    </task>
+    <option name="localTasksCounter" value="484" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#155 - cash operations on web" />
     <MESSAGE value="#157 - new version after split cash and card opers" />
     <MESSAGE value="#147 - delete unused function" />
     <MESSAGE value="#128 - commit others" />
@@ -665,6 +663,7 @@
     <MESSAGE value="#164 - on web part" />
     <MESSAGE value="#165 - new version with cash operations" />
     <MESSAGE value="#166 - delete obsolete objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="#166 - delete obsolete objects" />
+    <MESSAGE value="#170 - new function only for card operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="#170 - new function only for card operations" />
   </component>
 </project>
