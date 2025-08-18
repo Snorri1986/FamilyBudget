@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#172 - temporary changes on test level">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenEntertainmentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenEntertainmentModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#173 - others" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,30 +217,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00440" summary="#141 - todo">
-      <option name="closed" value="true" />
-      <created>1753208645686</created>
-      <option name="number" value="00440" />
-      <option name="presentableId" value="LOCAL-00440" />
-      <option name="project" value="LOCAL" />
-      <updated>1753208645686</updated>
-    </task>
-    <task id="LOCAL-00441" summary="#141 - todo">
-      <option name="closed" value="true" />
-      <created>1753208717968</created>
-      <option name="number" value="00441" />
-      <option name="presentableId" value="LOCAL-00441" />
-      <option name="project" value="LOCAL" />
-      <updated>1753208717968</updated>
-    </task>
-    <task id="LOCAL-00442" summary="#143 - SQL function get_last_ten_health_oper_card()">
-      <option name="closed" value="true" />
-      <created>1753209588987</created>
-      <option name="number" value="00442" />
-      <option name="presentableId" value="LOCAL-00442" />
-      <option name="project" value="LOCAL" />
-      <updated>1753209588987</updated>
     </task>
     <task id="LOCAL-00443" summary="#149 - new field for table cash_operations_log">
       <option name="closed" value="true" />
@@ -615,7 +586,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755551005686</updated>
     </task>
-    <option name="localTasksCounter" value="489" />
+    <task id="LOCAL-00489" summary="#173 - one more constructor">
+      <option name="closed" value="true" />
+      <created>1755551783781</created>
+      <option name="number" value="00489" />
+      <option name="presentableId" value="LOCAL-00489" />
+      <option name="project" value="LOCAL" />
+      <updated>1755551783781</updated>
+    </task>
+    <task id="LOCAL-00490" summary="#173 - new method">
+      <option name="closed" value="true" />
+      <created>1755551808875</created>
+      <option name="number" value="00490" />
+      <option name="presentableId" value="LOCAL-00490" />
+      <option name="project" value="LOCAL" />
+      <updated>1755551808875</updated>
+    </task>
+    <task id="LOCAL-00491" summary="#173 - others">
+      <option name="closed" value="true" />
+      <created>1755551824024</created>
+      <option name="number" value="00491" />
+      <option name="presentableId" value="LOCAL-00491" />
+      <option name="project" value="LOCAL" />
+      <updated>1755551824024</updated>
+    </task>
+    <option name="localTasksCounter" value="492" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -642,9 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#159 - new function returns only card operations" />
-    <MESSAGE value="#167 - new function returns only health operations" />
-    <MESSAGE value="#160 - new function returns only cash income operations" />
     <MESSAGE value="#169 - new function passing expens type id to cash" />
     <MESSAGE value="#161- on DB Service class" />
     <MESSAGE value="#161- on main controller" />
@@ -667,6 +659,9 @@
     <MESSAGE value="#172 - new method on DBService class" />
     <MESSAGE value="#172 - temporary changes on main controller" />
     <MESSAGE value="#172 - temporary changes on test level" />
-    <option name="LAST_COMMIT_MESSAGE" value="#172 - temporary changes on test level" />
+    <MESSAGE value="#173 - one more constructor" />
+    <MESSAGE value="#173 - new method" />
+    <MESSAGE value="#173 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#173 - others" />
   </component>
 </project>
