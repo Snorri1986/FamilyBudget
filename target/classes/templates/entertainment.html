@@ -81,9 +81,10 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="ent_event : ${entertainmentLastTen}">
+        <!-- Card operations -->
+        <tr th:each="ent_event_card : ${entertainmentLastTenCard}">
             <td>
-            <span th:switch="${ent_event.eventTypeId}">
+            <span th:switch="${ent_event_card.eventTypeId}">
                 <span th:case="8">Travel</span>
                 <span th:case="13">Cinema</span>
                 <span th:case="14">Vacation</span>
@@ -93,12 +94,32 @@
                 <span th:case="17">Other</span>
             </span>
             </td>
-            <td th:text="${ent_event.amount}"></td>
-            <td th:text="${ent_event.currency}"></td>
-            <td th:text="${#temporals.format(ent_event.date, 'dd-MM-yyy')}"></td>
-            <td th:text="${ent_event.sourceCard}"></td>
-            <td th:text="${ent_event.operType}"></td>
-            <td th:text="${ent_event.comments}"></td>
+            <td th:text="${ent_event_card.amount}"></td>
+            <td th:text="${ent_event_card.currency}"></td>
+            <td th:text="${#temporals.format(ent_event_card.date, 'dd-MM-yyy')}"></td>
+            <td th:text="${ent_event_card.sourceCard}"></td>
+            <td th:text="${ent_event_card.operType}"></td>
+            <td th:text="${ent_event_card.comments}"></td>
+        </tr>
+        <!-- Cash operations -->
+        <tr th:each="ent_event_cash : ${entertainmentLastTenCash}">
+            <td>
+            <span th:switch="${ent_event_cash.eventTypeId}">
+                <span th:case="8">Travel</span>
+                <span th:case="13">Cinema</span>
+                <span th:case="14">Vacation</span>
+                <span th:case="15">Relax</span>
+                <span th:case="38">Restaurant</span>
+                <span th:case="16">Homefast</span>
+                <span th:case="17">Other</span>
+            </span>
+            </td>
+            <td th:text="${ent_event_cash.amount}"></td>
+            <td th:text="${ent_event_cash.currency}"></td>
+            <td th:text="${#temporals.format(ent_event_cash.date, 'dd-MM-yyy')}"></td>
+            <td th:text="'----'"></td>
+            <td th:text="${ent_event_cash.operType}"></td>
+            <td th:text="${ent_event_cash.comments}"></td>
         </tr>
         </tbody>
     </table>
