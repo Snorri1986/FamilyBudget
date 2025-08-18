@@ -166,8 +166,25 @@ public class DBService {
     });
   }
 
-  public List<LastTenEntertainmentModel> getLastTenEntertainmentOperations() {
+  // TODO: obsolete. Will be removed shortly
+  /*public List<LastTenEntertainmentModel> getLastTenEntertainmentOperations() {
     String sql = "SELECT * FROM get_last_ten_entertainment()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenEntertainmentModel>() {
+      @Override
+      public LastTenEntertainmentModel mapRow(ResultSet rs,int rowNum) throws SQLException {
+        return new LastTenEntertainmentModel(rs.getLong("event_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("source_card"),
+                rs.getString("operType"),
+                rs.getString("comments"));
+      }
+    });
+  }*/
+
+  public List<LastTenEntertainmentModel> getLastTenEntertainmentOperationsCard() {
+    String sql = "SELECT * FROM get_last_ten_entertainment_card()";
     return jdbcTemplate.query(sql, new RowMapper<LastTenEntertainmentModel>() {
       @Override
       public LastTenEntertainmentModel mapRow(ResultSet rs,int rowNum) throws SQLException {
