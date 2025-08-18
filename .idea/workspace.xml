@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#171 - new function retrieving only cash operations">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#172 - temporary changes on test level">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenEntertainmentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenEntertainmentModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,30 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00437" summary="#133 - properties for health">
-      <option name="closed" value="true" />
-      <created>1753126737546</created>
-      <option name="number" value="00437" />
-      <option name="presentableId" value="LOCAL-00437" />
-      <option name="project" value="LOCAL" />
-      <updated>1753126737546</updated>
-    </task>
-    <task id="LOCAL-00438" summary="#140 - web page and getInfo for info()">
-      <option name="closed" value="true" />
-      <created>1753126811594</created>
-      <option name="number" value="00438" />
-      <option name="presentableId" value="LOCAL-00438" />
-      <option name="project" value="LOCAL" />
-      <updated>1753126811594</updated>
-    </task>
-    <task id="LOCAL-00439" summary="#140 - others">
-      <option name="closed" value="true" />
-      <created>1753126864371</created>
-      <option name="number" value="00439" />
-      <option name="presentableId" value="LOCAL-00439" />
-      <option name="project" value="LOCAL" />
-      <updated>1753126864371</updated>
     </task>
     <task id="LOCAL-00440" summary="#141 - todo">
       <option name="closed" value="true" />
@@ -618,7 +591,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755550379842</updated>
     </task>
-    <option name="localTasksCounter" value="486" />
+    <task id="LOCAL-00486" summary="#172 - new method on DBService class">
+      <option name="closed" value="true" />
+      <created>1755550957047</created>
+      <option name="number" value="00486" />
+      <option name="presentableId" value="LOCAL-00486" />
+      <option name="project" value="LOCAL" />
+      <updated>1755550957047</updated>
+    </task>
+    <task id="LOCAL-00487" summary="#172 - temporary changes on main controller">
+      <option name="closed" value="true" />
+      <created>1755550992233</created>
+      <option name="number" value="00487" />
+      <option name="presentableId" value="LOCAL-00487" />
+      <option name="project" value="LOCAL" />
+      <updated>1755550992233</updated>
+    </task>
+    <task id="LOCAL-00488" summary="#172 - temporary changes on test level">
+      <option name="closed" value="true" />
+      <created>1755551005686</created>
+      <option name="number" value="00488" />
+      <option name="presentableId" value="LOCAL-00488" />
+      <option name="project" value="LOCAL" />
+      <updated>1755551005686</updated>
+    </task>
+    <option name="localTasksCounter" value="489" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,9 +642,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#128 - commit others" />
-    <MESSAGE value="#141 - remove old unused method" />
-    <MESSAGE value="#141 - just todo for getLastTenIncomes()" />
     <MESSAGE value="#159 - new function returns only card operations" />
     <MESSAGE value="#167 - new function returns only health operations" />
     <MESSAGE value="#160 - new function returns only cash income operations" />
@@ -670,6 +664,9 @@
     <MESSAGE value="#170 - new function only for card operations" />
     <MESSAGE value="#178 - new function with ex_type_id" />
     <MESSAGE value="#171 - new function retrieving only cash operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#171 - new function retrieving only cash operations" />
+    <MESSAGE value="#172 - new method on DBService class" />
+    <MESSAGE value="#172 - temporary changes on main controller" />
+    <MESSAGE value="#172 - temporary changes on test level" />
+    <option name="LAST_COMMIT_MESSAGE" value="#172 - temporary changes on test level" />
   </component>
 </project>

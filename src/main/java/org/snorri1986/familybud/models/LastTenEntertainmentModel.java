@@ -21,6 +21,15 @@ public class LastTenEntertainmentModel {
     this.comments = comments;
   }
 
+  public LastTenEntertainmentModel(long eventTypeId, long amount, long currency, ZonedDateTime date, String operType, String comments) {
+    this.eventTypeId = eventTypeId;
+    this.amount = amount;
+    this.currency = currency;
+    this.date = date;
+    this.operType = operType;
+    this.comments = comments;
+  }
+
   public LastTenEntertainmentModel() {
   }
 
