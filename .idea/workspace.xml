@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#180 - others">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_groceries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_groceries.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#187 - others">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,21 +87,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
-    <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainPageControllerTest.testGetEntertainmentPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -111,6 +98,22 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
       <option name="METHOD_NAME" value="testGetEntertainmentPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageControllerTest.testGetGroceriesPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testGetGroceriesPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,19 +199,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
+      <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
       <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
-      <item itemvalue="JUnit.MainPageControllerTest" />
       <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
       <item itemvalue="JUnit.WebFormsControllerTest" />
       <item itemvalue="Maven.FamilyBudget-LocalTomcat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
-        <item itemvalue="JUnit.MainPageControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,22 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00456" summary="#156 - source_card not needed for cash operations">
-      <option name="closed" value="true" />
-      <created>1753816932315</created>
-      <option name="number" value="00456" />
-      <option name="presentableId" value="LOCAL-00456" />
-      <option name="project" value="LOCAL" />
-      <updated>1753816932315</updated>
-    </task>
-    <task id="LOCAL-00457" summary="#154 - lastTenHealthCashOperations created">
-      <option name="closed" value="true" />
-      <created>1753817120232</created>
-      <option name="number" value="00457" />
-      <option name="presentableId" value="LOCAL-00457" />
-      <option name="project" value="LOCAL" />
-      <updated>1753817120232</updated>
     </task>
     <task id="LOCAL-00458" summary="#155 - cash operations on web">
       <option name="closed" value="true" />
@@ -613,7 +600,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756157770919</updated>
     </task>
-    <option name="localTasksCounter" value="505" />
+    <task id="LOCAL-00505" summary="#187 - with ex_type_id field">
+      <option name="closed" value="true" />
+      <created>1756158014650</created>
+      <option name="number" value="00505" />
+      <option name="presentableId" value="LOCAL-00505" />
+      <option name="project" value="LOCAL" />
+      <updated>1756158014650</updated>
+    </task>
+    <task id="LOCAL-00506" summary="#187 - others">
+      <option name="closed" value="true" />
+      <created>1756158029342</created>
+      <option name="number" value="00506" />
+      <option name="presentableId" value="LOCAL-00506" />
+      <option name="project" value="LOCAL" />
+      <updated>1756158029342</updated>
+    </task>
+    <option name="localTasksCounter" value="507" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,8 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#164 - on web part" />
-    <MESSAGE value="#165 - new version with cash operations" />
     <MESSAGE value="#166 - delete obsolete objects" />
     <MESSAGE value="#170 - new function only for card operations" />
     <MESSAGE value="#178 - new function with ex_type_id" />
@@ -665,6 +666,8 @@
     <MESSAGE value="#179 - others" />
     <MESSAGE value="#180 - groceries cash operations" />
     <MESSAGE value="#180 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#180 - others" />
+    <MESSAGE value="#187 - with ex_type_id field" />
+    <MESSAGE value="#187 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#187 - others" />
   </component>
 </project>
