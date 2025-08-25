@@ -4,84 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#174 - on test level">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#175 - on html side">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/DataSourceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/FamilyBudgetMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/UserModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/entertainment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/groceries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/health.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/income.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/renthousing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_entertainment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_groceries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_health.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_income.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_renthousing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_telecom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_travel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/telecom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/travel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/entertainment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appllication.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/entertainment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/groceries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/health.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/income.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/renthousing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_entertainment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_groceries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_health.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_income.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_renthousing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_telecom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_travel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/telecom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/travel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/entertainment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/groceries.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/health.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/income.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/others.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/renthousing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_entertainment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_groceries.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_health.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_income.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_renthousing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_telecom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_travel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/telecom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/travel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,22 +85,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
-    <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MainPageControllerTest.testGetEntertainmentPage">
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -187,6 +97,22 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageControllerTest.testGetEntertainmentPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testGetEntertainmentPage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,8 +196,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
       <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
-      <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
       <item itemvalue="JUnit.MainPageControllerTest" />
       <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
       <item itemvalue="JUnit.WebFormsControllerTest" />
@@ -279,11 +205,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -295,22 +221,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00446" summary="#151 - commented getLastTenHealthOperations() before del">
-      <option name="closed" value="true" />
-      <created>1753726400689</created>
-      <option name="number" value="00446" />
-      <option name="presentableId" value="LOCAL-00446" />
-      <option name="project" value="LOCAL" />
-      <updated>1753726400689</updated>
-    </task>
-    <task id="LOCAL-00447" summary="#151 - call dbService.getLastTenHealthOperationsCard()">
-      <option name="closed" value="true" />
-      <created>1753726716684</created>
-      <option name="number" value="00447" />
-      <option name="presentableId" value="LOCAL-00447" />
-      <option name="project" value="LOCAL" />
-      <updated>1753726716684</updated>
     </task>
     <task id="LOCAL-00448" summary="#151 - call dbService.getLastTenHealthOperationsCard()">
       <option name="closed" value="true" />
@@ -688,7 +598,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755552130493</updated>
     </task>
-    <option name="localTasksCounter" value="495" />
+    <task id="LOCAL-00495" summary="#175 - on main page controller side">
+      <option name="closed" value="true" />
+      <created>1755552708050</created>
+      <option name="number" value="00495" />
+      <option name="presentableId" value="LOCAL-00495" />
+      <option name="project" value="LOCAL" />
+      <updated>1755552708050</updated>
+    </task>
+    <task id="LOCAL-00496" summary="#175 - on html side">
+      <option name="closed" value="true" />
+      <created>1755552732198</created>
+      <option name="number" value="00496" />
+      <option name="presentableId" value="LOCAL-00496" />
+      <option name="project" value="LOCAL" />
+      <updated>1755552732198</updated>
+    </task>
+    <option name="localTasksCounter" value="497" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -715,8 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#165 - temporary on test" />
-    <MESSAGE value="#161 - others" />
     <MESSAGE value="#162 - constructor without target card" />
     <MESSAGE value="#162 - new method retrieving cash" />
     <MESSAGE value="#163 - with dbService.getLastTenIncomesCard()" />
@@ -740,6 +664,8 @@
     <MESSAGE value="#174 - on main controller level" />
     <MESSAGE value="#174 - on html level" />
     <MESSAGE value="#174 - on test level" />
-    <option name="LAST_COMMIT_MESSAGE" value="#174 - on test level" />
+    <MESSAGE value="#175 - on main page controller side" />
+    <MESSAGE value="#175 - on html side" />
+    <option name="LAST_COMMIT_MESSAGE" value="#175 - on html side" />
   </component>
 </project>

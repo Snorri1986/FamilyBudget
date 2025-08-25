@@ -63,16 +63,17 @@ public class MainPageControllerTest {
   @Test
   void testGetEntertainmentPage() {
     List<LastTenEntertainmentModel> mockLastTenEntertainmentCard = List.of(new LastTenEntertainmentModel(), new LastTenEntertainmentModel());
-    //when(dbService.getLastTenEntertainmentOperations()).thenReturn(mockLastTenEntertainment);
+    List<LastTenEntertainmentModel> mockLastTenEntertainmentCash = List.of(new LastTenEntertainmentModel(), new LastTenEntertainmentModel());
     when(dbService.getLastTenEntertainmentOperationsCard()).thenReturn(mockLastTenEntertainmentCard);
+    when(dbService.getLastTenEntertainmentOperationsCash()).thenReturn(mockLastTenEntertainmentCash);
     String viewName = mainPageController.getEntertainmentPage(model);
     assertEquals("entertainment", viewName);
     verify(model).addAttribute(eq("entertainment_mod_attribute"), any(EntertainmentModelWeb.class));
     verify(model).addAttribute(eq("entList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    //verify(model).addAttribute("entertainmentLastTen", mockLastTenEntertainmentCard);
     verify(model).addAttribute("entertainmentLastTenCard", mockLastTenEntertainmentCard);
+    verify(model).addAttribute("entertainmentLastTenCash", mockLastTenEntertainmentCash);
     verifyNoMoreInteractions(model);
   }
 
