@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#179 - others">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#180 - others">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_groceries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_groceries.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,22 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00454" summary="#151 - rename Attribute on html side">
-      <option name="closed" value="true" />
-      <created>1753815641136</created>
-      <option name="number" value="00454" />
-      <option name="presentableId" value="LOCAL-00454" />
-      <option name="project" value="LOCAL" />
-      <updated>1753815641136</updated>
-    </task>
-    <task id="LOCAL-00455" summary="#156 - one more constructor without source_card fld">
-      <option name="closed" value="true" />
-      <created>1753816869739</created>
-      <option name="number" value="00455" />
-      <option name="presentableId" value="LOCAL-00455" />
-      <option name="project" value="LOCAL" />
-      <updated>1753816869739</updated>
     </task>
     <task id="LOCAL-00456" summary="#156 - source_card not needed for cash operations">
       <option name="closed" value="true" />
@@ -613,7 +597,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756156975726</updated>
     </task>
-    <option name="localTasksCounter" value="503" />
+    <task id="LOCAL-00503" summary="#180 - groceries cash operations">
+      <option name="closed" value="true" />
+      <created>1756157757138</created>
+      <option name="number" value="00503" />
+      <option name="presentableId" value="LOCAL-00503" />
+      <option name="project" value="LOCAL" />
+      <updated>1756157757138</updated>
+    </task>
+    <task id="LOCAL-00504" summary="#180 - others">
+      <option name="closed" value="true" />
+      <created>1756157770919</created>
+      <option name="number" value="00504" />
+      <option name="presentableId" value="LOCAL-00504" />
+      <option name="project" value="LOCAL" />
+      <updated>1756157770919</updated>
+    </task>
+    <option name="localTasksCounter" value="505" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,8 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#164 - add list for cash" />
-    <MESSAGE value="#164 - new constructor and get_set operType field" />
     <MESSAGE value="#164 - on web part" />
     <MESSAGE value="#165 - new version with cash operations" />
     <MESSAGE value="#166 - delete obsolete objects" />
@@ -665,6 +663,8 @@
     <MESSAGE value="#177 - others" />
     <MESSAGE value="#179 - new version gets only card operations" />
     <MESSAGE value="#179 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#179 - others" />
+    <MESSAGE value="#180 - groceries cash operations" />
+    <MESSAGE value="#180 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#180 - others" />
   </component>
 </project>
