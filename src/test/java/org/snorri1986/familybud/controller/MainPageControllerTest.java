@@ -80,7 +80,8 @@ public class MainPageControllerTest {
   @Test
   void testGetGroceriesPage() {
     List<LastTenGroceriesOperModel> mockLastTenGroceries = List.of(new LastTenGroceriesOperModel(), new LastTenGroceriesOperModel());
-    when(dbService.getLastTenGroceriesOperations()).thenReturn(mockLastTenGroceries);
+    //when(dbService.getLastTenGroceriesOperations()).thenReturn(mockLastTenGroceries);
+    when(dbService.getLastTenGroceriesOperationsCard()).thenReturn(mockLastTenGroceries);
     String viewName = mainPageController.getGroceriesPage(model);
     assertEquals("groceries", viewName);
     verify(model).addAttribute(eq("groceries_mod_attribute"), any(GroceriesModelWeb.class));
