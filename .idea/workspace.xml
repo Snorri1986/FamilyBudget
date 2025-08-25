@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#177 - delete obsolete function">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#177 - others">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_groceries_card.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageControllerTest.testGetEntertainmentPage">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -221,22 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00450" summary="#144 - new DB function get_last_ten_health_oper_cash()">
-      <option name="closed" value="true" />
-      <created>1753728910150</created>
-      <option name="number" value="00450" />
-      <option name="presentableId" value="LOCAL-00450" />
-      <option name="project" value="LOCAL" />
-      <updated>1753728910150</updated>
-    </task>
-    <task id="LOCAL-00451" summary="#146 - getLastTenHealthOperationsCash() do not complete">
-      <option name="closed" value="true" />
-      <created>1753729370801</created>
-      <option name="number" value="00451" />
-      <option name="presentableId" value="LOCAL-00451" />
-      <option name="project" value="LOCAL" />
-      <updated>1753729370801</updated>
     </task>
     <task id="LOCAL-00452" summary="#146 - getLastTenHealthOperationsCash() final">
       <option name="closed" value="true" />
@@ -614,7 +599,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756155782781</updated>
     </task>
-    <option name="localTasksCounter" value="499" />
+    <task id="LOCAL-00499" summary="#177 - delete obsolete method">
+      <option name="closed" value="true" />
+      <created>1756155853459</created>
+      <option name="number" value="00499" />
+      <option name="presentableId" value="LOCAL-00499" />
+      <option name="project" value="LOCAL" />
+      <updated>1756155853459</updated>
+    </task>
+    <task id="LOCAL-00500" summary="#177 - others">
+      <option name="closed" value="true" />
+      <created>1756155866445</created>
+      <option name="number" value="00500" />
+      <option name="presentableId" value="LOCAL-00500" />
+      <option name="project" value="LOCAL" />
+      <updated>1756155866445</updated>
+    </task>
+    <option name="localTasksCounter" value="501" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -641,8 +642,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#163 - with dbService.getLastTenIncomesCard()" />
-    <MESSAGE value="#163 - changes on web side" />
     <MESSAGE value="#164 - rename return field" />
     <MESSAGE value="#164 - opertype has to string" />
     <MESSAGE value="#164 - add list for cash" />
@@ -666,6 +665,8 @@
     <MESSAGE value="#175 - on html side" />
     <MESSAGE value="#176 - added cash operations to test" />
     <MESSAGE value="#177 - delete obsolete function" />
-    <option name="LAST_COMMIT_MESSAGE" value="#177 - delete obsolete function" />
+    <MESSAGE value="#177 - delete obsolete method" />
+    <MESSAGE value="#177 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#177 - others" />
   </component>
 </project>
