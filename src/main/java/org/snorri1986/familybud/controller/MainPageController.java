@@ -69,7 +69,7 @@ public class MainPageController {
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
     //model.addAttribute("groceriesLastTen", lastTenGroceries);
-    model.addAttribute("groceriesLastTen", lastTenGroceriesCard);
+    model.addAttribute("groceriesLastTenCard", lastTenGroceriesCard);
     return "groceries";
   }
 
