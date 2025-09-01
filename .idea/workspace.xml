@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#182 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#186 - adjusted test method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/groceries.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,46 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00465" summary="#167 - new function returns only health operations">
-      <option name="closed" value="true" />
-      <created>1754420076841</created>
-      <option name="number" value="00465" />
-      <option name="presentableId" value="LOCAL-00465" />
-      <option name="project" value="LOCAL" />
-      <updated>1754420076841</updated>
-    </task>
-    <task id="LOCAL-00466" summary="#160 - new function returns only cash income operations">
-      <option name="closed" value="true" />
-      <created>1754420727829</created>
-      <option name="number" value="00466" />
-      <option name="presentableId" value="LOCAL-00466" />
-      <option name="project" value="LOCAL" />
-      <updated>1754420727829</updated>
-    </task>
-    <task id="LOCAL-00467" summary="#169 - new function passing expens type id to cash">
-      <option name="closed" value="true" />
-      <created>1754421204135</created>
-      <option name="number" value="00467" />
-      <option name="presentableId" value="LOCAL-00467" />
-      <option name="project" value="LOCAL" />
-      <updated>1754421204135</updated>
-    </task>
-    <task id="LOCAL-00468" summary="#161- on DB Service class">
-      <option name="closed" value="true" />
-      <created>1754421791446</created>
-      <option name="number" value="00468" />
-      <option name="presentableId" value="LOCAL-00468" />
-      <option name="project" value="LOCAL" />
-      <updated>1754421791446</updated>
-    </task>
-    <task id="LOCAL-00469" summary="#161- on main controller">
-      <option name="closed" value="true" />
-      <created>1754421818912</created>
-      <option name="number" value="00469" />
-      <option name="presentableId" value="LOCAL-00469" />
-      <option name="project" value="LOCAL" />
-      <updated>1754421818912</updated>
     </task>
     <task id="LOCAL-00470" summary="#165 - temporary on test">
       <option name="closed" value="true" />
@@ -619,7 +578,47 @@
       <option name="project" value="LOCAL" />
       <updated>1756759990735</updated>
     </task>
-    <option name="localTasksCounter" value="514" />
+    <task id="LOCAL-00514" summary="#183 - temporary change on test">
+      <option name="closed" value="true" />
+      <created>1756760383545</created>
+      <option name="number" value="00514" />
+      <option name="presentableId" value="LOCAL-00514" />
+      <option name="project" value="LOCAL" />
+      <updated>1756760383545</updated>
+    </task>
+    <task id="LOCAL-00515" summary="#183 - rename attribute on main controller">
+      <option name="closed" value="true" />
+      <created>1756760418317</created>
+      <option name="number" value="00515" />
+      <option name="presentableId" value="LOCAL-00515" />
+      <option name="project" value="LOCAL" />
+      <updated>1756760418317</updated>
+    </task>
+    <task id="LOCAL-00516" summary="#183 - new attribute on http page">
+      <option name="closed" value="true" />
+      <created>1756760439132</created>
+      <option name="number" value="00516" />
+      <option name="presentableId" value="LOCAL-00516" />
+      <option name="project" value="LOCAL" />
+      <updated>1756760439132</updated>
+    </task>
+    <task id="LOCAL-00517" summary="#183 - others">
+      <option name="closed" value="true" />
+      <created>1756760451847</created>
+      <option name="number" value="00517" />
+      <option name="presentableId" value="LOCAL-00517" />
+      <option name="project" value="LOCAL" />
+      <updated>1756760451847</updated>
+    </task>
+    <task id="LOCAL-00518" summary="#186 - adjusted test method">
+      <option name="closed" value="true" />
+      <created>1756761079667</created>
+      <option name="number" value="00518" />
+      <option name="presentableId" value="LOCAL-00518" />
+      <option name="project" value="LOCAL" />
+      <updated>1756761079667</updated>
+    </task>
+    <option name="localTasksCounter" value="519" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -646,11 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#173 - one more constructor" />
-    <MESSAGE value="#173 - new method" />
-    <MESSAGE value="#173 - others" />
-    <MESSAGE value="#174 - on main controller level" />
-    <MESSAGE value="#174 - on html level" />
     <MESSAGE value="#174 - on test level" />
     <MESSAGE value="#175 - on main page controller side" />
     <MESSAGE value="#175 - on html side" />
@@ -671,6 +665,11 @@
     <MESSAGE value="#182 - new constructor without sourceCard" />
     <MESSAGE value="#182 - method for cash operations" />
     <MESSAGE value="#182 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#182 - others" />
+    <MESSAGE value="#183 - temporary change on test" />
+    <MESSAGE value="#183 - rename attribute on main controller" />
+    <MESSAGE value="#183 - new attribute on http page" />
+    <MESSAGE value="#183 - others" />
+    <MESSAGE value="#186 - adjusted test method" />
+    <option name="LAST_COMMIT_MESSAGE" value="#186 - adjusted test method" />
   </component>
 </project>
