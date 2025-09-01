@@ -81,9 +81,9 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="groceries : ${groceriesLastTen}">
+        <tr th:each="groceries_card : ${groceriesLastTenCard}">
             <td>
-                <span th:switch="${groceries.groceriesType}">
+                <span th:switch="${groceries_card.groceriesType}">
                 <span th:case="18">Daily</span>
                 <span th:case="19">Weekly</span>
                 <span th:case="20">Weekend</span>
@@ -93,12 +93,12 @@
                 <span th:case="22">Other</span>
             </span>
             </td>
-            <td th:text="${groceries.amount}"></td>
-            <td th:text="${groceries.currency}"></td>
-            <td th:text="${#temporals.format(groceries.date, 'dd-MM-yyy')}"></td>
-            <td th:text="${groceries.sourceCard}"></td>
-            <td th:text="${groceries.operType}"></td>
-            <td th:text="${groceries.comments}"></td>
+            <td th:text="${groceries_card.amount}"></td>
+            <td th:text="${groceries_card.currency}"></td>
+            <td th:text="${#temporals.format(groceries_card.date, 'dd-MM-yyy')}"></td>
+            <td th:text="${groceries_card.sourceCard}"></td>
+            <td th:text="${groceries_card.operType}"></td>
+            <td th:text="${groceries_card.comments}"></td>
         </tr>
         </tbody>
     </table>
