@@ -230,6 +230,21 @@ public class DBService {
     });
   }
 
+  public List<LastTenGroceriesOperModel> getLastTenGroceriesOperationsCash() {
+    String sql = "SELECT * FROM get_last_ten_groceries_cash()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenGroceriesOperModel>() {
+      @Override
+      public LastTenGroceriesOperModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenGroceriesOperModel(rs.getLong("ex_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getString("opertype"),
+                rs.getString("comments"));
+      }
+    });
+  }
+
   public List<LastTenHealthOperationsModel> getLastTenHealthOperationsCard() {
     String sql = "SELECT * FROM get_last_ten_health_oper_card()";
     return jdbcTemplate.query(sql, new RowMapper<LastTenHealthOperationsModel>() {
