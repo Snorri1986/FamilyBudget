@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#187 - others">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#181 - others">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenGroceriesOperModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenGroceriesOperModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,38 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00458" summary="#155 - cash operations on web">
-      <option name="closed" value="true" />
-      <created>1753817980413</created>
-      <option name="number" value="00458" />
-      <option name="presentableId" value="LOCAL-00458" />
-      <option name="project" value="LOCAL" />
-      <updated>1753817980413</updated>
-    </task>
-    <task id="LOCAL-00459" summary="#157 - new version after split cash and card opers">
-      <option name="closed" value="true" />
-      <created>1754331417753</created>
-      <option name="number" value="00459" />
-      <option name="presentableId" value="LOCAL-00459" />
-      <option name="project" value="LOCAL" />
-      <updated>1754331417753</updated>
-    </task>
-    <task id="LOCAL-00460" summary="#147 - delete unused function">
-      <option name="closed" value="true" />
-      <created>1754331886908</created>
-      <option name="number" value="00460" />
-      <option name="presentableId" value="LOCAL-00460" />
-      <option name="project" value="LOCAL" />
-      <updated>1754331886908</updated>
-    </task>
-    <task id="LOCAL-00461" summary="#128 - commit others">
-      <option name="closed" value="true" />
-      <created>1754331912413</created>
-      <option name="number" value="00461" />
-      <option name="presentableId" value="LOCAL-00461" />
-      <option name="project" value="LOCAL" />
-      <updated>1754331912413</updated>
     </task>
     <task id="LOCAL-00462" summary="#141 - remove old unused method">
       <option name="closed" value="true" />
@@ -616,7 +585,39 @@
       <option name="project" value="LOCAL" />
       <updated>1756158029342</updated>
     </task>
-    <option name="localTasksCounter" value="507" />
+    <task id="LOCAL-00507" summary="#181 - new getLastTenGroceriesOperationsCard() released">
+      <option name="closed" value="true" />
+      <created>1756158711593</created>
+      <option name="number" value="00507" />
+      <option name="presentableId" value="LOCAL-00507" />
+      <option name="project" value="LOCAL" />
+      <updated>1756158711593</updated>
+    </task>
+    <task id="LOCAL-00508" summary="#181 - use new card-method">
+      <option name="closed" value="true" />
+      <created>1756158766738</created>
+      <option name="number" value="00508" />
+      <option name="presentableId" value="LOCAL-00508" />
+      <option name="project" value="LOCAL" />
+      <updated>1756158766738</updated>
+    </task>
+    <task id="LOCAL-00509" summary="#181 - temp changes on test class">
+      <option name="closed" value="true" />
+      <created>1756158793546</created>
+      <option name="number" value="00509" />
+      <option name="presentableId" value="LOCAL-00509" />
+      <option name="project" value="LOCAL" />
+      <updated>1756158793546</updated>
+    </task>
+    <task id="LOCAL-00510" summary="#181 - others">
+      <option name="closed" value="true" />
+      <created>1756158809573</created>
+      <option name="number" value="00510" />
+      <option name="presentableId" value="LOCAL-00510" />
+      <option name="project" value="LOCAL" />
+      <updated>1756158809573</updated>
+    </task>
+    <option name="localTasksCounter" value="511" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -643,10 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#166 - delete obsolete objects" />
-    <MESSAGE value="#170 - new function only for card operations" />
-    <MESSAGE value="#178 - new function with ex_type_id" />
-    <MESSAGE value="#171 - new function retrieving only cash operations" />
     <MESSAGE value="#172 - new method on DBService class" />
     <MESSAGE value="#172 - temporary changes on main controller" />
     <MESSAGE value="#172 - temporary changes on test level" />
@@ -668,6 +665,10 @@
     <MESSAGE value="#180 - others" />
     <MESSAGE value="#187 - with ex_type_id field" />
     <MESSAGE value="#187 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#187 - others" />
+    <MESSAGE value="#181 - new getLastTenGroceriesOperationsCard() released" />
+    <MESSAGE value="#181 - use new card-method" />
+    <MESSAGE value="#181 - temp changes on test class" />
+    <MESSAGE value="#181 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#181 - others" />
   </component>
 </project>
