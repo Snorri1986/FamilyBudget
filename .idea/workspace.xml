@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#181 - others">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenGroceriesOperModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenGroceriesOperModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#182 - others">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/service/DBService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,30 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00462" summary="#141 - remove old unused method">
-      <option name="closed" value="true" />
-      <created>1754332739404</created>
-      <option name="number" value="00462" />
-      <option name="presentableId" value="LOCAL-00462" />
-      <option name="project" value="LOCAL" />
-      <updated>1754332739404</updated>
-    </task>
-    <task id="LOCAL-00463" summary="#141 - just todo for getLastTenIncomes()">
-      <option name="closed" value="true" />
-      <created>1754332905027</created>
-      <option name="number" value="00463" />
-      <option name="presentableId" value="LOCAL-00463" />
-      <option name="project" value="LOCAL" />
-      <updated>1754332905029</updated>
-    </task>
-    <task id="LOCAL-00464" summary="#159 - new function returns only card operations">
-      <option name="closed" value="true" />
-      <created>1754334104294</created>
-      <option name="number" value="00464" />
-      <option name="presentableId" value="LOCAL-00464" />
-      <option name="project" value="LOCAL" />
-      <updated>1754334104296</updated>
     </task>
     <task id="LOCAL-00465" summary="#167 - new function returns only health operations">
       <option name="closed" value="true" />
@@ -617,7 +595,31 @@
       <option name="project" value="LOCAL" />
       <updated>1756158809573</updated>
     </task>
-    <option name="localTasksCounter" value="511" />
+    <task id="LOCAL-00511" summary="#182 - new constructor without sourceCard">
+      <option name="closed" value="true" />
+      <created>1756759950853</created>
+      <option name="number" value="00511" />
+      <option name="presentableId" value="LOCAL-00511" />
+      <option name="project" value="LOCAL" />
+      <updated>1756759950854</updated>
+    </task>
+    <task id="LOCAL-00512" summary="#182 - method for cash operations">
+      <option name="closed" value="true" />
+      <created>1756759976114</created>
+      <option name="number" value="00512" />
+      <option name="presentableId" value="LOCAL-00512" />
+      <option name="project" value="LOCAL" />
+      <updated>1756759976114</updated>
+    </task>
+    <task id="LOCAL-00513" summary="#182 - others">
+      <option name="closed" value="true" />
+      <created>1756759990735</created>
+      <option name="number" value="00513" />
+      <option name="presentableId" value="LOCAL-00513" />
+      <option name="project" value="LOCAL" />
+      <updated>1756759990735</updated>
+    </task>
+    <option name="localTasksCounter" value="514" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,9 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#172 - new method on DBService class" />
-    <MESSAGE value="#172 - temporary changes on main controller" />
-    <MESSAGE value="#172 - temporary changes on test level" />
     <MESSAGE value="#173 - one more constructor" />
     <MESSAGE value="#173 - new method" />
     <MESSAGE value="#173 - others" />
@@ -669,6 +668,9 @@
     <MESSAGE value="#181 - use new card-method" />
     <MESSAGE value="#181 - temp changes on test class" />
     <MESSAGE value="#181 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#181 - others" />
+    <MESSAGE value="#182 - new constructor without sourceCard" />
+    <MESSAGE value="#182 - method for cash operations" />
+    <MESSAGE value="#182 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#182 - others" />
   </component>
 </project>

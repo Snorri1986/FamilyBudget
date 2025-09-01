@@ -38,5 +38,6 @@ org\snorri1986\familybud\models\TravelModelWeb.class
 org\snorri1986\familybud\service\DBService$6.class
 org\snorri1986\familybud\models\LastTenEntertainmentModel.class
 org\snorri1986\familybud\models\TravelModelDB.class
+org\snorri1986\familybud\service\DBService$12.class
 org\snorri1986\familybud\models\TelecomModelDB.class
 org\snorri1986\familybud\models\UserModel.class
