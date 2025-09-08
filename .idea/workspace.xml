@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#185 - remove old method on sql">
-      <change afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_housing_card.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#188 - new function. Only card operations" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,14 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00476" summary="#164 - rename return field">
-      <option name="closed" value="true" />
-      <created>1754942855966</created>
-      <option name="number" value="00476" />
-      <option name="presentableId" value="LOCAL-00476" />
-      <option name="project" value="LOCAL" />
-      <updated>1754942855966</updated>
     </task>
     <task id="LOCAL-00477" summary="#164 - opertype has to string">
       <option name="closed" value="true" />
@@ -615,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756761561113</updated>
     </task>
-    <option name="localTasksCounter" value="525" />
+    <task id="LOCAL-00525" summary="#188 - new function. Only card operations">
+      <option name="closed" value="true" />
+      <created>1757363003213</created>
+      <option name="number" value="00525" />
+      <option name="presentableId" value="LOCAL-00525" />
+      <option name="project" value="LOCAL" />
+      <updated>1757363003215</updated>
+    </task>
+    <option name="localTasksCounter" value="526" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -642,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#177 - delete obsolete method" />
     <MESSAGE value="#177 - others" />
     <MESSAGE value="#179 - new version gets only card operations" />
     <MESSAGE value="#179 - others" />
@@ -667,6 +663,7 @@
     <MESSAGE value="#184 - others" />
     <MESSAGE value="#185 - remove old method" />
     <MESSAGE value="#185 - remove old method on sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="#185 - remove old method on sql" />
+    <MESSAGE value="#188 - new function. Only card operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="#188 - new function. Only card operations" />
   </component>
 </project>
