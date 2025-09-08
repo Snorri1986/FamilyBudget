@@ -292,6 +292,21 @@ public class DBService {
     });
   }
 
+  public List<LastTenHousingRentOperationsModel> getLastTenHousingRentOperationsCash() {
+    String sql = "SELECT * FROM get_last_ten_housing_cash()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenHousingRentOperationsModel>() {
+      @Override
+      public LastTenHousingRentOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenHousingRentOperationsModel(rs.getLong("h_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getString("opertype"),  // always NULL
+                rs.getString("comments"));
+      }
+    });
+  }
+
 
   public List<LastTenTelecomOperationsModel> getLastTenTelecomOperations() {
     String sql = "SELECT * from public.get_last_ten_telecom_operations()";
