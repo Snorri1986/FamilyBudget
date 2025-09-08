@@ -259,8 +259,8 @@ public class DBService {
     });
   }
 
-
-  public List<LastTenHousingRentOperationsModel> getLastTenHousingRentOperations() {
+   // TODO: will be deleted soon
+  /*public List<LastTenHousingRentOperationsModel> getLastTenHousingRentOperations() {
     String sql = "SELECT * FROM get_last_ten_housing_oper()";
     return jdbcTemplate.query(sql, new RowMapper<LastTenHousingRentOperationsModel>() {
       @Override
@@ -274,7 +274,24 @@ public class DBService {
                 rs.getString("comments"));
       }
     });
+  }*/
+
+  public List<LastTenHousingRentOperationsModel> getLastTenHousingRentOperationsCard() {
+    String sql = "SELECT * FROM get_last_ten_housing_card()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenHousingRentOperationsModel>() {
+      @Override
+      public LastTenHousingRentOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenHousingRentOperationsModel(rs.getLong("hr_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("source_card"),
+                rs.getString("opertype"),
+                rs.getString("comments"));
+      }
+    });
   }
+
 
   public List<LastTenTelecomOperationsModel> getLastTenTelecomOperations() {
     String sql = "SELECT * from public.get_last_ten_telecom_operations()";
