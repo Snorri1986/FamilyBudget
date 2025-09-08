@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#197 - new version with expense type id to log cash table" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#189 - new function only for cash operations">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/FamilyBudgetMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,14 +231,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00478" summary="#164 - add list for cash">
-      <option name="closed" value="true" />
-      <created>1754943831530</created>
-      <option name="number" value="00478" />
-      <option name="presentableId" value="LOCAL-00478" />
-      <option name="project" value="LOCAL" />
-      <updated>1754943831530</updated>
     </task>
     <task id="LOCAL-00479" summary="#164 - new constructor and get_set operType field">
       <option name="closed" value="true" />
@@ -612,7 +616,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757363494826</updated>
     </task>
-    <option name="localTasksCounter" value="527" />
+    <task id="LOCAL-00527" summary="#189 - new function only for cash operations">
+      <option name="closed" value="true" />
+      <created>1757363935520</created>
+      <option name="number" value="00527" />
+      <option name="presentableId" value="LOCAL-00527" />
+      <option name="project" value="LOCAL" />
+      <updated>1757363935520</updated>
+    </task>
+    <option name="localTasksCounter" value="528" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -639,7 +651,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#179 - new version gets only card operations" />
     <MESSAGE value="#179 - others" />
     <MESSAGE value="#180 - groceries cash operations" />
     <MESSAGE value="#180 - others" />
@@ -664,6 +675,7 @@
     <MESSAGE value="#185 - remove old method on sql" />
     <MESSAGE value="#188 - new function. Only card operations" />
     <MESSAGE value="#197 - new version with expense type id to log cash table" />
-    <option name="LAST_COMMIT_MESSAGE" value="#197 - new version with expense type id to log cash table" />
+    <MESSAGE value="#189 - new function only for cash operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="#189 - new function only for cash operations" />
   </component>
 </project>
