@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#189 - new function only for cash operations">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#190 - others">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHousingRentOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHousingRentOperationsModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/FamilyBudgetMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,38 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00479" summary="#164 - new constructor and get_set operType field">
-      <option name="closed" value="true" />
-      <created>1754943887104</created>
-      <option name="number" value="00479" />
-      <option name="presentableId" value="LOCAL-00479" />
-      <option name="project" value="LOCAL" />
-      <updated>1754943887104</updated>
-    </task>
-    <task id="LOCAL-00480" summary="#164 - on web part">
-      <option name="closed" value="true" />
-      <created>1754943906143</created>
-      <option name="number" value="00480" />
-      <option name="presentableId" value="LOCAL-00480" />
-      <option name="project" value="LOCAL" />
-      <updated>1754943906143</updated>
-    </task>
-    <task id="LOCAL-00481" summary="#165 - new version with cash operations">
-      <option name="closed" value="true" />
-      <created>1754944273359</created>
-      <option name="number" value="00481" />
-      <option name="presentableId" value="LOCAL-00481" />
-      <option name="project" value="LOCAL" />
-      <updated>1754944273359</updated>
-    </task>
-    <task id="LOCAL-00482" summary="#166 - delete obsolete objects">
-      <option name="closed" value="true" />
-      <created>1754944463665</created>
-      <option name="number" value="00482" />
-      <option name="presentableId" value="LOCAL-00482" />
-      <option name="project" value="LOCAL" />
-      <updated>1754944463665</updated>
     </task>
     <task id="LOCAL-00483" summary="#170 - new function only for card operations">
       <option name="closed" value="true" />
@@ -624,7 +583,39 @@
       <option name="project" value="LOCAL" />
       <updated>1757363935520</updated>
     </task>
-    <option name="localTasksCounter" value="528" />
+    <task id="LOCAL-00528" summary="#190 - new method. Card operations">
+      <option name="closed" value="true" />
+      <created>1757364561320</created>
+      <option name="number" value="00528" />
+      <option name="presentableId" value="LOCAL-00528" />
+      <option name="project" value="LOCAL" />
+      <updated>1757364561320</updated>
+    </task>
+    <task id="LOCAL-00529" summary="#190 - temporary change on main controller level">
+      <option name="closed" value="true" />
+      <created>1757364603336</created>
+      <option name="number" value="00529" />
+      <option name="presentableId" value="LOCAL-00529" />
+      <option name="project" value="LOCAL" />
+      <updated>1757364603336</updated>
+    </task>
+    <task id="LOCAL-00530" summary="#190 - temporary change on test level">
+      <option name="closed" value="true" />
+      <created>1757364619814</created>
+      <option name="number" value="00530" />
+      <option name="presentableId" value="LOCAL-00530" />
+      <option name="project" value="LOCAL" />
+      <updated>1757364619814</updated>
+    </task>
+    <task id="LOCAL-00531" summary="#190 - others">
+      <option name="closed" value="true" />
+      <created>1757364631286</created>
+      <option name="number" value="00531" />
+      <option name="presentableId" value="LOCAL-00531" />
+      <option name="project" value="LOCAL" />
+      <updated>1757364631286</updated>
+    </task>
+    <option name="localTasksCounter" value="532" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -651,10 +642,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#179 - others" />
-    <MESSAGE value="#180 - groceries cash operations" />
-    <MESSAGE value="#180 - others" />
-    <MESSAGE value="#187 - with ex_type_id field" />
     <MESSAGE value="#187 - others" />
     <MESSAGE value="#181 - new getLastTenGroceriesOperationsCard() released" />
     <MESSAGE value="#181 - use new card-method" />
@@ -676,6 +663,10 @@
     <MESSAGE value="#188 - new function. Only card operations" />
     <MESSAGE value="#197 - new version with expense type id to log cash table" />
     <MESSAGE value="#189 - new function only for cash operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#189 - new function only for cash operations" />
+    <MESSAGE value="#190 - new method. Card operations" />
+    <MESSAGE value="#190 - temporary change on main controller level" />
+    <MESSAGE value="#190 - temporary change on test level" />
+    <MESSAGE value="#190 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#190 - others" />
   </component>
 </project>
