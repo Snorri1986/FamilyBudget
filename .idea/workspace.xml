@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#188 - new function. Only card operations" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#197 - new version with expense type id to log cash table" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,14 +219,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00477" summary="#164 - opertype has to string">
-      <option name="closed" value="true" />
-      <created>1754943794637</created>
-      <option name="number" value="00477" />
-      <option name="presentableId" value="LOCAL-00477" />
-      <option name="project" value="LOCAL" />
-      <updated>1754943794637</updated>
     </task>
     <task id="LOCAL-00478" summary="#164 - add list for cash">
       <option name="closed" value="true" />
@@ -612,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757363003215</updated>
     </task>
-    <option name="localTasksCounter" value="526" />
+    <task id="LOCAL-00526" summary="#197 - new version with expense type id to log cash table">
+      <option name="closed" value="true" />
+      <created>1757363494826</created>
+      <option name="number" value="00526" />
+      <option name="presentableId" value="LOCAL-00526" />
+      <option name="project" value="LOCAL" />
+      <updated>1757363494826</updated>
+    </task>
+    <option name="localTasksCounter" value="527" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -639,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#177 - others" />
     <MESSAGE value="#179 - new version gets only card operations" />
     <MESSAGE value="#179 - others" />
     <MESSAGE value="#180 - groceries cash operations" />
@@ -664,6 +663,7 @@
     <MESSAGE value="#185 - remove old method" />
     <MESSAGE value="#185 - remove old method on sql" />
     <MESSAGE value="#188 - new function. Only card operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#188 - new function. Only card operations" />
+    <MESSAGE value="#197 - new version with expense type id to log cash table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#197 - new version with expense type id to log cash table" />
   </component>
 </project>
