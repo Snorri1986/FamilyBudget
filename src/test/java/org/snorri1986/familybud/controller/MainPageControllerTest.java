@@ -114,7 +114,8 @@ public class MainPageControllerTest {
   @Test
   void testRentHousingPage() {
     List<LastTenHousingRentOperationsModel> mockLastTenRentHousing = List.of(new LastTenHousingRentOperationsModel(), new LastTenHousingRentOperationsModel());
-    when(dbService.getLastTenHousingRentOperations()).thenReturn(mockLastTenRentHousing);
+    //when(dbService.getLastTenHousingRentOperations()).thenReturn(mockLastTenRentHousing);
+    when(dbService.getLastTenHousingRentOperationsCard()).thenReturn(mockLastTenRentHousing);
     String viewName = mainPageController.getRentHousingPage(model);
     assertEquals("renthousing", viewName);
     verify(model).addAttribute(eq("rent_housing_mod_attribute"), any(RentHousingModelWeb.class));
