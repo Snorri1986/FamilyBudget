@@ -122,7 +122,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("housingTypes"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("rentHousingLastTen", mockLastTenRentHousing);
+    verify(model).addAttribute("rentHousingLastTenCard", mockLastTenRentHousing);
     verifyNoMoreInteractions(model);
   }
 
