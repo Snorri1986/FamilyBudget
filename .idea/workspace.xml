@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#192 - others">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#193 - others">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_housing_oper.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,38 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00490" summary="#173 - new method">
-      <option name="closed" value="true" />
-      <created>1755551808875</created>
-      <option name="number" value="00490" />
-      <option name="presentableId" value="LOCAL-00490" />
-      <option name="project" value="LOCAL" />
-      <updated>1755551808875</updated>
-    </task>
-    <task id="LOCAL-00491" summary="#173 - others">
-      <option name="closed" value="true" />
-      <created>1755551824024</created>
-      <option name="number" value="00491" />
-      <option name="presentableId" value="LOCAL-00491" />
-      <option name="project" value="LOCAL" />
-      <updated>1755551824024</updated>
-    </task>
-    <task id="LOCAL-00492" summary="#174 - on main controller level">
-      <option name="closed" value="true" />
-      <created>1755552102434</created>
-      <option name="number" value="00492" />
-      <option name="presentableId" value="LOCAL-00492" />
-      <option name="project" value="LOCAL" />
-      <updated>1755552102434</updated>
-    </task>
-    <task id="LOCAL-00493" summary="#174 - on html level">
-      <option name="closed" value="true" />
-      <created>1755552116602</created>
-      <option name="number" value="00493" />
-      <option name="presentableId" value="LOCAL-00493" />
-      <option name="project" value="LOCAL" />
-      <updated>1755552116602</updated>
     </task>
     <task id="LOCAL-00494" summary="#174 - on test level">
       <option name="closed" value="true" />
@@ -617,7 +584,39 @@
       <option name="project" value="LOCAL" />
       <updated>1757969666884</updated>
     </task>
-    <option name="localTasksCounter" value="539" />
+    <task id="LOCAL-00539" summary="#194 - test final">
+      <option name="closed" value="true" />
+      <created>1757970160727</created>
+      <option name="number" value="00539" />
+      <option name="presentableId" value="LOCAL-00539" />
+      <option name="project" value="LOCAL" />
+      <updated>1757970160727</updated>
+    </task>
+    <task id="LOCAL-00540" summary="#194 - new attributes">
+      <option name="closed" value="true" />
+      <created>1757970281506</created>
+      <option name="number" value="00540" />
+      <option name="presentableId" value="LOCAL-00540" />
+      <option name="project" value="LOCAL" />
+      <updated>1757970281507</updated>
+    </task>
+    <task id="LOCAL-00541" summary="#193 - cash on web">
+      <option name="closed" value="true" />
+      <created>1757970316504</created>
+      <option name="number" value="00541" />
+      <option name="presentableId" value="LOCAL-00541" />
+      <option name="project" value="LOCAL" />
+      <updated>1757970316504</updated>
+    </task>
+    <task id="LOCAL-00542" summary="#193 - others">
+      <option name="closed" value="true" />
+      <created>1757970326087</created>
+      <option name="number" value="00542" />
+      <option name="presentableId" value="LOCAL-00542" />
+      <option name="project" value="LOCAL" />
+      <updated>1757970326087</updated>
+    </task>
+    <option name="localTasksCounter" value="543" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,10 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#182 - others" />
-    <MESSAGE value="#183 - temporary change on test" />
-    <MESSAGE value="#183 - rename attribute on main controller" />
-    <MESSAGE value="#183 - new attribute on http page" />
     <MESSAGE value="#183 - others" />
     <MESSAGE value="#186 - adjusted test method" />
     <MESSAGE value="#184 - cash on main page controller" />
@@ -669,6 +664,10 @@
     <MESSAGE value="#192 - new name of attribute" />
     <MESSAGE value="#192 - on web level" />
     <MESSAGE value="#192 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#192 - others" />
+    <MESSAGE value="#194 - test final" />
+    <MESSAGE value="#194 - new attributes" />
+    <MESSAGE value="#193 - cash on web" />
+    <MESSAGE value="#193 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#193 - others" />
   </component>
 </project>
