@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#193 - others">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_housing_oper.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#195 - remove on repo level">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_telecom_card.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,14 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00494" summary="#174 - on test level">
-      <option name="closed" value="true" />
-      <created>1755552130493</created>
-      <option name="number" value="00494" />
-      <option name="presentableId" value="LOCAL-00494" />
-      <option name="project" value="LOCAL" />
-      <updated>1755552130493</updated>
     </task>
     <task id="LOCAL-00495" summary="#175 - on main page controller side">
       <option name="closed" value="true" />
@@ -616,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757970326087</updated>
     </task>
-    <option name="localTasksCounter" value="543" />
+    <task id="LOCAL-00543" summary="#195 - remove on repo level">
+      <option name="closed" value="true" />
+      <created>1757970485855</created>
+      <option name="number" value="00543" />
+      <option name="presentableId" value="LOCAL-00543" />
+      <option name="project" value="LOCAL" />
+      <updated>1757970485855</updated>
+    </task>
+    <option name="localTasksCounter" value="544" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -643,7 +642,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#183 - others" />
     <MESSAGE value="#186 - adjusted test method" />
     <MESSAGE value="#184 - cash on main page controller" />
     <MESSAGE value="#184 - cash on html level" />
@@ -668,6 +666,7 @@
     <MESSAGE value="#194 - new attributes" />
     <MESSAGE value="#193 - cash on web" />
     <MESSAGE value="#193 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#193 - others" />
+    <MESSAGE value="#195 - remove on repo level" />
+    <option name="LAST_COMMIT_MESSAGE" value="#195 - remove on repo level" />
   </component>
 </project>
