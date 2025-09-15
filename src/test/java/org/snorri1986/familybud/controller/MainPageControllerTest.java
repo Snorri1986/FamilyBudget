@@ -113,16 +113,18 @@ public class MainPageControllerTest {
 
   @Test
   void testRentHousingPage() {
-    List<LastTenHousingRentOperationsModel> mockLastTenRentHousing = List.of(new LastTenHousingRentOperationsModel(), new LastTenHousingRentOperationsModel());
-    //when(dbService.getLastTenHousingRentOperations()).thenReturn(mockLastTenRentHousing);
-    when(dbService.getLastTenHousingRentOperationsCard()).thenReturn(mockLastTenRentHousing);
+    List<LastTenHousingRentOperationsModel> mockLastTenRentHousingCard = List.of(new LastTenHousingRentOperationsModel(), new LastTenHousingRentOperationsModel());
+    List<LastTenHousingRentOperationsModel> mockLastTenRentHousingCash = List.of(new LastTenHousingRentOperationsModel(), new LastTenHousingRentOperationsModel());
+    when(dbService.getLastTenHousingRentOperationsCard()).thenReturn(mockLastTenRentHousingCard);
+    when(dbService.getLastTenHousingRentOperationsCash()).thenReturn(mockLastTenRentHousingCash);
     String viewName = mainPageController.getRentHousingPage(model);
     assertEquals("renthousing", viewName);
     verify(model).addAttribute(eq("rent_housing_mod_attribute"), any(RentHousingModelWeb.class));
     verify(model).addAttribute(eq("housingTypes"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("rentHousingLastTenCard", mockLastTenRentHousing);
+    verify(model).addAttribute("rentHousingLastTenCard", mockLastTenRentHousingCard);
+    verify(model).addAttribute("rentHousingLastTenCash", mockLastTenRentHousingCash);
     verifyNoMoreInteractions(model);
   }
 
