@@ -97,7 +97,7 @@ public class MainPageController {
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
     //model.addAttribute("rentHousingLastTen", lastTenRentHousing);
-    model.addAttribute("rentHousingLastTen", lastTenRentHousingCard);
+    model.addAttribute("rentHousingLastTenCard", lastTenRentHousingCard);
     return "renthousing";
   }
 
