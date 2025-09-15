@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#190 - others">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHousingRentOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenHousingRentOperationsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#191 - others">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebFormsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageControllerTest.testRentHousingPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -159,8 +158,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testRentHousingPage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,20 +197,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.MainPageControllerTest.testRentHousingPage" />
       <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
       <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
       <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
       <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
-      <item itemvalue="JUnit.WebFormsControllerTest" />
       <item itemvalue="Maven.FamilyBudget-LocalTomcat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainPageControllerTest.testRentHousingPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetHealthPage" />
-        <item itemvalue="JUnit.WebFormsControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -222,30 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00483" summary="#170 - new function only for card operations">
-      <option name="closed" value="true" />
-      <created>1755549396493</created>
-      <option name="number" value="00483" />
-      <option name="presentableId" value="LOCAL-00483" />
-      <option name="project" value="LOCAL" />
-      <updated>1755549396493</updated>
-    </task>
-    <task id="LOCAL-00484" summary="#178 - new function with ex_type_id">
-      <option name="closed" value="true" />
-      <created>1755549899192</created>
-      <option name="number" value="00484" />
-      <option name="presentableId" value="LOCAL-00484" />
-      <option name="project" value="LOCAL" />
-      <updated>1755549899192</updated>
-    </task>
-    <task id="LOCAL-00485" summary="#171 - new function retrieving only cash operations">
-      <option name="closed" value="true" />
-      <created>1755550379842</created>
-      <option name="number" value="00485" />
-      <option name="presentableId" value="LOCAL-00485" />
-      <option name="project" value="LOCAL" />
-      <updated>1755550379842</updated>
     </task>
     <task id="LOCAL-00486" summary="#172 - new method on DBService class">
       <option name="closed" value="true" />
@@ -615,7 +591,31 @@
       <option name="project" value="LOCAL" />
       <updated>1757364631286</updated>
     </task>
-    <option name="localTasksCounter" value="532" />
+    <task id="LOCAL-00532" summary="#191 - new constructor without source card">
+      <option name="closed" value="true" />
+      <created>1757365039090</created>
+      <option name="number" value="00532" />
+      <option name="presentableId" value="LOCAL-00532" />
+      <option name="project" value="LOCAL" />
+      <updated>1757365039090</updated>
+    </task>
+    <task id="LOCAL-00533" summary="#191 - new method for cash operations">
+      <option name="closed" value="true" />
+      <created>1757365054848</created>
+      <option name="number" value="00533" />
+      <option name="presentableId" value="LOCAL-00533" />
+      <option name="project" value="LOCAL" />
+      <updated>1757365054848</updated>
+    </task>
+    <task id="LOCAL-00534" summary="#191 - others">
+      <option name="closed" value="true" />
+      <created>1757365071534</created>
+      <option name="number" value="00534" />
+      <option name="presentableId" value="LOCAL-00534" />
+      <option name="project" value="LOCAL" />
+      <updated>1757365071534</updated>
+    </task>
+    <option name="localTasksCounter" value="535" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -642,9 +642,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#187 - others" />
-    <MESSAGE value="#181 - new getLastTenGroceriesOperationsCard() released" />
-    <MESSAGE value="#181 - use new card-method" />
     <MESSAGE value="#181 - temp changes on test class" />
     <MESSAGE value="#181 - others" />
     <MESSAGE value="#182 - new constructor without sourceCard" />
@@ -667,6 +664,9 @@
     <MESSAGE value="#190 - temporary change on main controller level" />
     <MESSAGE value="#190 - temporary change on test level" />
     <MESSAGE value="#190 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#190 - others" />
+    <MESSAGE value="#191 - new constructor without source card" />
+    <MESSAGE value="#191 - new method for cash operations" />
+    <MESSAGE value="#191 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#191 - others" />
   </component>
 </project>
