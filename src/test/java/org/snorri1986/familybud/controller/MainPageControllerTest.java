@@ -140,7 +140,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("telecomOperations"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("telecomLastTen", mockLastTenTelecomOperations);
+    verify(model).addAttribute("telecomLastTenCard", mockLastTenTelecomOperations);
     verifyNoMoreInteractions(model);
   }
 
