@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#200 - others">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTelecomOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTelecomOperationsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#201 - others">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,30 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00502" summary="#179 - others">
-      <option name="closed" value="true" />
-      <created>1756156975724</created>
-      <option name="number" value="00502" />
-      <option name="presentableId" value="LOCAL-00502" />
-      <option name="project" value="LOCAL" />
-      <updated>1756156975726</updated>
-    </task>
-    <task id="LOCAL-00503" summary="#180 - groceries cash operations">
-      <option name="closed" value="true" />
-      <created>1756157757138</created>
-      <option name="number" value="00503" />
-      <option name="presentableId" value="LOCAL-00503" />
-      <option name="project" value="LOCAL" />
-      <updated>1756157757138</updated>
-    </task>
-    <task id="LOCAL-00504" summary="#180 - others">
-      <option name="closed" value="true" />
-      <created>1756157770919</created>
-      <option name="number" value="00504" />
-      <option name="presentableId" value="LOCAL-00504" />
-      <option name="project" value="LOCAL" />
-      <updated>1756157770919</updated>
     </task>
     <task id="LOCAL-00505" summary="#187 - with ex_type_id field">
       <option name="closed" value="true" />
@@ -618,7 +594,31 @@
       <option name="project" value="LOCAL" />
       <updated>1758574888207</updated>
     </task>
-    <option name="localTasksCounter" value="551" />
+    <task id="LOCAL-00551" summary="#201 - new method for cash operations">
+      <option name="closed" value="true" />
+      <created>1758575224454</created>
+      <option name="number" value="00551" />
+      <option name="presentableId" value="LOCAL-00551" />
+      <option name="project" value="LOCAL" />
+      <updated>1758575224454</updated>
+    </task>
+    <task id="LOCAL-00552" summary="#201 - new constructor without sourceCard variable">
+      <option name="closed" value="true" />
+      <created>1758575279940</created>
+      <option name="number" value="00552" />
+      <option name="presentableId" value="LOCAL-00552" />
+      <option name="project" value="LOCAL" />
+      <updated>1758575279940</updated>
+    </task>
+    <task id="LOCAL-00553" summary="#201 - others">
+      <option name="closed" value="true" />
+      <created>1758575292820</created>
+      <option name="number" value="00553" />
+      <option name="presentableId" value="LOCAL-00553" />
+      <option name="project" value="LOCAL" />
+      <updated>1758575292820</updated>
+    </task>
+    <option name="localTasksCounter" value="554" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,9 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#197 - new version with expense type id to log cash table" />
-    <MESSAGE value="#189 - new function only for cash operations" />
-    <MESSAGE value="#190 - new method. Card operations" />
     <MESSAGE value="#190 - temporary change on main controller level" />
     <MESSAGE value="#190 - temporary change on test level" />
     <MESSAGE value="#190 - others" />
@@ -670,6 +667,9 @@
     <MESSAGE value="#200 - new source for lastTenTelecom. Temporary change" />
     <MESSAGE value="#200 - Temporary change on u-test level" />
     <MESSAGE value="#200 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#200 - others" />
+    <MESSAGE value="#201 - new method for cash operations" />
+    <MESSAGE value="#201 - new constructor without sourceCard variable" />
+    <MESSAGE value="#201 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#201 - others" />
   </component>
 </project>
