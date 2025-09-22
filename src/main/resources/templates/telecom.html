@@ -98,6 +98,23 @@
       <td th:text="${telecomCard.operType}"></td>
       <td th:text="${telecomCard.comments}"></td>
     </tr>
+    <!-- cash operations -->
+    <tr th:each="telecomCash : ${telecomLastTenCash}">
+      <td>
+                <span th:switch="${telecomCash.telecomType}">
+                  <span th:case="5">Mobile</span>
+                <span th:case="6">Internet</span>
+                <span th:case="32">Roaming</span>
+                  <span th:case="22">Other</span>
+                </span>
+      </td>
+      <td th:text="${telecomCash.amount}"></td>
+      <td th:text="${telecomCash.currency}"></td>
+      <td th:text="${#temporals.format(telecomCash.date, 'dd-MM-yyy')}"></td>
+      <td th:text="'----'"></td>
+      <td th:text="${telecomCash.operType}"></td>
+      <td th:text="${telecomCash.comments}"></td>
+    </tr>
     </tbody>
   </table>
 </div>
