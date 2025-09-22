@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#199 - new function for cash">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#200 - others">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTelecomOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTelecomOperationsModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,38 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00498" summary="#177 - delete obsolete function">
-      <option name="closed" value="true" />
-      <created>1756155782781</created>
-      <option name="number" value="00498" />
-      <option name="presentableId" value="LOCAL-00498" />
-      <option name="project" value="LOCAL" />
-      <updated>1756155782781</updated>
-    </task>
-    <task id="LOCAL-00499" summary="#177 - delete obsolete method">
-      <option name="closed" value="true" />
-      <created>1756155853459</created>
-      <option name="number" value="00499" />
-      <option name="presentableId" value="LOCAL-00499" />
-      <option name="project" value="LOCAL" />
-      <updated>1756155853459</updated>
-    </task>
-    <task id="LOCAL-00500" summary="#177 - others">
-      <option name="closed" value="true" />
-      <created>1756155866445</created>
-      <option name="number" value="00500" />
-      <option name="presentableId" value="LOCAL-00500" />
-      <option name="project" value="LOCAL" />
-      <updated>1756155866445</updated>
-    </task>
-    <task id="LOCAL-00501" summary="#179 - new version gets only card operations">
-      <option name="closed" value="true" />
-      <created>1756156954193</created>
-      <option name="number" value="00501" />
-      <option name="presentableId" value="LOCAL-00501" />
-      <option name="project" value="LOCAL" />
-      <updated>1756156954193</updated>
     </task>
     <task id="LOCAL-00502" summary="#179 - others">
       <option name="closed" value="true" />
@@ -618,7 +586,39 @@
       <option name="project" value="LOCAL" />
       <updated>1757972653461</updated>
     </task>
-    <option name="localTasksCounter" value="547" />
+    <task id="LOCAL-00547" summary="#200 - new method getLastTenTelecomOperationsCard()">
+      <option name="closed" value="true" />
+      <created>1758574787236</created>
+      <option name="number" value="00547" />
+      <option name="presentableId" value="LOCAL-00547" />
+      <option name="project" value="LOCAL" />
+      <updated>1758574787238</updated>
+    </task>
+    <task id="LOCAL-00548" summary="#200 - new source for lastTenTelecom. Temporary change">
+      <option name="closed" value="true" />
+      <created>1758574848479</created>
+      <option name="number" value="00548" />
+      <option name="presentableId" value="LOCAL-00548" />
+      <option name="project" value="LOCAL" />
+      <updated>1758574848479</updated>
+    </task>
+    <task id="LOCAL-00549" summary="#200 - Temporary change on u-test level">
+      <option name="closed" value="true" />
+      <created>1758574876847</created>
+      <option name="number" value="00549" />
+      <option name="presentableId" value="LOCAL-00549" />
+      <option name="project" value="LOCAL" />
+      <updated>1758574876847</updated>
+    </task>
+    <task id="LOCAL-00550" summary="#200 - others">
+      <option name="closed" value="true" />
+      <created>1758574888207</created>
+      <option name="number" value="00550" />
+      <option name="presentableId" value="LOCAL-00550" />
+      <option name="project" value="LOCAL" />
+      <updated>1758574888207</updated>
+    </task>
+    <option name="localTasksCounter" value="551" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,10 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#184 - others" />
-    <MESSAGE value="#185 - remove old method" />
-    <MESSAGE value="#185 - remove old method on sql" />
-    <MESSAGE value="#188 - new function. Only card operations" />
     <MESSAGE value="#197 - new version with expense type id to log cash table" />
     <MESSAGE value="#189 - new function only for cash operations" />
     <MESSAGE value="#190 - new method. Card operations" />
@@ -670,6 +666,10 @@
     <MESSAGE value="#198 - new function,just for card opers" />
     <MESSAGE value="#206 - new function with expense type" />
     <MESSAGE value="#199 - new function for cash" />
-    <option name="LAST_COMMIT_MESSAGE" value="#199 - new function for cash" />
+    <MESSAGE value="#200 - new method getLastTenTelecomOperationsCard()" />
+    <MESSAGE value="#200 - new source for lastTenTelecom. Temporary change" />
+    <MESSAGE value="#200 - Temporary change on u-test level" />
+    <MESSAGE value="#200 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#200 - others" />
   </component>
 </project>
