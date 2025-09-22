@@ -132,7 +132,8 @@ public class MainPageControllerTest {
   @Test
   void testGetTelecomPage() {
     List<LastTenTelecomOperationsModel> mockLastTenTelecomOperations = List.of(new LastTenTelecomOperationsModel(),new LastTenTelecomOperationsModel());
-    when(dbService.getLastTenTelecomOperations()).thenReturn(mockLastTenTelecomOperations);
+    //when(dbService.getLastTenTelecomOperations()).thenReturn(mockLastTenTelecomOperations);
+    when(dbService.getLastTenTelecomOperationsCard()).thenReturn(mockLastTenTelecomOperations);
     String viewName = mainPageController.getTelecomPage(model);
     assertEquals("telecom", viewName);
     verify(model).addAttribute(eq("telecom_mod_attribute"), any(TelecomModelWeb.class));
