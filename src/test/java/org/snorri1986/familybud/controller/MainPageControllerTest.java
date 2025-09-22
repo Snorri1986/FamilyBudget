@@ -131,16 +131,18 @@ public class MainPageControllerTest {
 
   @Test
   void testGetTelecomPage() {
-    List<LastTenTelecomOperationsModel> mockLastTenTelecomOperations = List.of(new LastTenTelecomOperationsModel(),new LastTenTelecomOperationsModel());
-    //when(dbService.getLastTenTelecomOperations()).thenReturn(mockLastTenTelecomOperations);
-    when(dbService.getLastTenTelecomOperationsCard()).thenReturn(mockLastTenTelecomOperations);
+    List<LastTenTelecomOperationsModel> mockLastTenTelecomOperationsCard = List.of(new LastTenTelecomOperationsModel(),new LastTenTelecomOperationsModel());
+    List<LastTenTelecomOperationsModel> mockLastTenTelecomOperationsCash = List.of(new LastTenTelecomOperationsModel(),new LastTenTelecomOperationsModel());
+    when(dbService.getLastTenTelecomOperationsCard()).thenReturn(mockLastTenTelecomOperationsCard);
+    when(dbService.getLastTenTelecomOperationsCash()).thenReturn(mockLastTenTelecomOperationsCash);
     String viewName = mainPageController.getTelecomPage(model);
     assertEquals("telecom", viewName);
     verify(model).addAttribute(eq("telecom_mod_attribute"), any(TelecomModelWeb.class));
     verify(model).addAttribute(eq("telecomOperations"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("telecomLastTenCard", mockLastTenTelecomOperations);
+    verify(model).addAttribute("telecomLastTenCard", mockLastTenTelecomOperationsCard);
+    verify(model).addAttribute("telecomLastTenCash", mockLastTenTelecomOperationsCash);
     verifyNoMoreInteractions(model);
   }
 
