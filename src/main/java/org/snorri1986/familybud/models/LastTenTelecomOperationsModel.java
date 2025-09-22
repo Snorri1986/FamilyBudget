@@ -21,6 +21,15 @@ public class LastTenTelecomOperationsModel {
     this.comments = comments;
   }
 
+  public LastTenTelecomOperationsModel(long telecomType, long amount, long currency, ZonedDateTime date, String operType, String comments) {
+    this.telecomType = telecomType;
+    this.amount = amount;
+    this.currency = currency;
+    this.date = date;
+    this.operType = operType;
+    this.comments = comments;
+  }
+
   public LastTenTelecomOperationsModel() {
   }
 
