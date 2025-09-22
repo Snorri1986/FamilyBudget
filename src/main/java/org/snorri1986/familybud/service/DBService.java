@@ -323,6 +323,21 @@ public class DBService {
     });
   }
 
+  public List<LastTenTelecomOperationsModel> getLastTenTelecomOperationsCash() {
+    String sql = "SELECT * from public.get_last_ten_telecom_cash()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenTelecomOperationsModel>() {
+      @Override
+      public LastTenTelecomOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenTelecomOperationsModel(rs.getLong("h_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getString("opertype"),  // always NULL
+                rs.getString("comments"));
+      }
+    });
+  }
+
   public List<LastTenTravelOperationsModel> getLastTenTravelOperations() {
     String sql = "SELECT * from public.get_last_ten_travel_operations()";
     return jdbcTemplate.query(sql,new RowMapper<LastTenTravelOperationsModel>() {
