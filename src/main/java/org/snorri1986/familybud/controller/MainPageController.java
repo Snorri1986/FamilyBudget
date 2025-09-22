@@ -105,11 +105,13 @@ public class MainPageController {
   public String getTelecomPage(Model model) {
     List<String> telecomOperations = Arrays.asList("Mobile","Internet","Roaming bundles","Others");
     List<LastTenTelecomOperationsModel> lastTenTelecomCard = dbService.getLastTenTelecomOperationsCard();
+    List<LastTenTelecomOperationsModel> lastTenTelecomCash = dbService.getLastTenTelecomOperationsCash();
     model.addAttribute("telecom_mod_attribute", new TelecomModelWeb());
     model.addAttribute("telecomOperations", telecomOperations);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
     model.addAttribute("telecomLastTenCard", lastTenTelecomCard);
+    model.addAttribute("telecomLastTenCash", lastTenTelecomCash);
     return "telecom";
   }
 
