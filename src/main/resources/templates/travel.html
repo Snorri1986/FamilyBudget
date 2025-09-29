@@ -86,9 +86,10 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="travel : ${travelLastTen}">
+        <!-- card operations -->
+        <tr th:each="travelCard : ${travelLastTenCard}">
             <td>
-                <span th:switch="${travel.travelType}">
+                <span th:switch="${travelCard.travelType}">
                   <span th:case="33">Tickets</span>
                 <span th:case="34">Hotel</span>
                 <span th:case="35">FoodInTrip</span>
@@ -97,14 +98,15 @@
                   <span th:case="22">Other</span>
                 </span>
             </td>
-            <td th:text="${travel.amount}"></td>
-            <td th:text="${travel.currency}"></td>
-            <td th:text="${#temporals.format(travel.date, 'dd-MM-yyy')}"></td>
-            <td th:text="${travel.sourceCard}"></td>
-            <td th:text="${travel.destination}"></td>
-            <td th:text="${travel.operType}"></td>
-            <td th:text="${travel.comments}"></td>
+            <td th:text="${travelCard.amount}"></td>
+            <td th:text="${travelCard.currency}"></td>
+            <td th:text="${#temporals.format(travelCard.date, 'dd-MM-yyy')}"></td>
+            <td th:text="${travelCard.sourceCard}"></td>
+            <td th:text="${travelCard.destination}"></td>
+            <td th:text="${travelCard.operType}"></td>
+            <td th:text="${travelCard.comments}"></td>
         </tr>
+        <!-- cash operations -->
         </tbody>
     </table>
 </div>
