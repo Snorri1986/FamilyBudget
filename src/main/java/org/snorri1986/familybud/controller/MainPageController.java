@@ -118,13 +118,12 @@ public class MainPageController {
   @GetMapping("/travel")
   public String getTravelPage(Model model) {
     List<String> travelActivities = Arrays.asList("Tickets","Hotel","FoodInTrip","TravelEntertainment","Public transport","Others");
-    //List<LastTenTravelOperationsModel> lastTenTravel = dbService.getLastTenTravelOperations();
-    List<LastTenTravelOperationsModel> lastTenTravel = dbService.getLastTenTravelOperationsCard();
+    List<LastTenTravelOperationsModel> lastTenTravelCard = dbService.getLastTenTravelOperationsCard();
     model.addAttribute("travel_mod_attribute", new TravelModelWeb());
     model.addAttribute("travelActivities", travelActivities);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
-    model.addAttribute("travelLastTen", lastTenTravel);
+    model.addAttribute("travelLastTenCard", lastTenTravelCard);
     return "travel";
   }
 
