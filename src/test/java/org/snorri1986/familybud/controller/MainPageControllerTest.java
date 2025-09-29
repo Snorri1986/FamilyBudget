@@ -157,7 +157,7 @@ public class MainPageControllerTest {
     verify(model).addAttribute(eq("travelActivities"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("travelLastTen", mockLastTenTravelOperations);
+    verify(model).addAttribute("travelLastTenCard", mockLastTenTravelOperations);
     verifyNoMoreInteractions(model);
   }
 
