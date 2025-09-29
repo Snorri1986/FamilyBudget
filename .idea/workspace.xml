@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#204 - updated u-test with cash operations">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#205 - on Java code level">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_travel_card.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/telecom.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,38 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00510" summary="#181 - others">
-      <option name="closed" value="true" />
-      <created>1756158809573</created>
-      <option name="number" value="00510" />
-      <option name="presentableId" value="LOCAL-00510" />
-      <option name="project" value="LOCAL" />
-      <updated>1756158809573</updated>
-    </task>
-    <task id="LOCAL-00511" summary="#182 - new constructor without sourceCard">
-      <option name="closed" value="true" />
-      <created>1756759950853</created>
-      <option name="number" value="00511" />
-      <option name="presentableId" value="LOCAL-00511" />
-      <option name="project" value="LOCAL" />
-      <updated>1756759950854</updated>
-    </task>
-    <task id="LOCAL-00512" summary="#182 - method for cash operations">
-      <option name="closed" value="true" />
-      <created>1756759976114</created>
-      <option name="number" value="00512" />
-      <option name="presentableId" value="LOCAL-00512" />
-      <option name="project" value="LOCAL" />
-      <updated>1756759976114</updated>
-    </task>
-    <task id="LOCAL-00513" summary="#182 - others">
-      <option name="closed" value="true" />
-      <created>1756759990735</created>
-      <option name="number" value="00513" />
-      <option name="presentableId" value="LOCAL-00513" />
-      <option name="project" value="LOCAL" />
-      <updated>1756759990735</updated>
     </task>
     <task id="LOCAL-00514" summary="#183 - temporary change on test">
       <option name="closed" value="true" />
@@ -619,7 +584,39 @@
       <option name="project" value="LOCAL" />
       <updated>1758576302566</updated>
     </task>
-    <option name="localTasksCounter" value="559" />
+    <task id="LOCAL-00559" summary="#203 - new attribute on controller level">
+      <option name="closed" value="true" />
+      <created>1758576973129</created>
+      <option name="number" value="00559" />
+      <option name="presentableId" value="LOCAL-00559" />
+      <option name="project" value="LOCAL" />
+      <updated>1758576973129</updated>
+    </task>
+    <task id="LOCAL-00560" summary="#203 - cash operations on web level">
+      <option name="closed" value="true" />
+      <created>1758577006856</created>
+      <option name="number" value="00560" />
+      <option name="presentableId" value="LOCAL-00560" />
+      <option name="project" value="LOCAL" />
+      <updated>1758577006856</updated>
+    </task>
+    <task id="LOCAL-00561" summary="#203 - others">
+      <option name="closed" value="true" />
+      <created>1758577024479</created>
+      <option name="number" value="00561" />
+      <option name="presentableId" value="LOCAL-00561" />
+      <option name="project" value="LOCAL" />
+      <updated>1758577024479</updated>
+    </task>
+    <task id="LOCAL-00562" summary="#205 - on Java code level">
+      <option name="closed" value="true" />
+      <created>1758577141506</created>
+      <option name="number" value="00562" />
+      <option name="presentableId" value="LOCAL-00562" />
+      <option name="project" value="LOCAL" />
+      <updated>1758577141506</updated>
+    </task>
+    <option name="localTasksCounter" value="563" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -646,10 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#191 - others" />
-    <MESSAGE value="#192 - on test level" />
-    <MESSAGE value="#192 - new name of attribute" />
-    <MESSAGE value="#192 - on web level" />
     <MESSAGE value="#192 - others" />
     <MESSAGE value="#194 - test final" />
     <MESSAGE value="#194 - new attributes" />
@@ -671,6 +664,10 @@
     <MESSAGE value="#202 - on u-test level" />
     <MESSAGE value="#202 - others" />
     <MESSAGE value="#204 - updated u-test with cash operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#204 - updated u-test with cash operations" />
+    <MESSAGE value="#203 - new attribute on controller level" />
+    <MESSAGE value="#203 - cash operations on web level" />
+    <MESSAGE value="#203 - others" />
+    <MESSAGE value="#205 - on Java code level" />
+    <option name="LAST_COMMIT_MESSAGE" value="#205 - on Java code level" />
   </component>
 </project>
