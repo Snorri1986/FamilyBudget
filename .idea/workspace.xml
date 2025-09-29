@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#205 - on Java code level">
-      <change afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_travel_card.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#207 - others" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,22 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00514" summary="#183 - temporary change on test">
-      <option name="closed" value="true" />
-      <created>1756760383545</created>
-      <option name="number" value="00514" />
-      <option name="presentableId" value="LOCAL-00514" />
-      <option name="project" value="LOCAL" />
-      <updated>1756760383545</updated>
-    </task>
-    <task id="LOCAL-00515" summary="#183 - rename attribute on main controller">
-      <option name="closed" value="true" />
-      <created>1756760418317</created>
-      <option name="number" value="00515" />
-      <option name="presentableId" value="LOCAL-00515" />
-      <option name="project" value="LOCAL" />
-      <updated>1756760418317</updated>
     </task>
     <task id="LOCAL-00516" summary="#183 - new attribute on http page">
       <option name="closed" value="true" />
@@ -616,7 +597,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758577141506</updated>
     </task>
-    <option name="localTasksCounter" value="563" />
+    <task id="LOCAL-00563" summary="#207 - new function only for card operations">
+      <option name="closed" value="true" />
+      <created>1759180559813</created>
+      <option name="number" value="00563" />
+      <option name="presentableId" value="LOCAL-00563" />
+      <option name="project" value="LOCAL" />
+      <updated>1759180559815</updated>
+    </task>
+    <task id="LOCAL-00564" summary="#207 - others">
+      <option name="closed" value="true" />
+      <created>1759180573379</created>
+      <option name="number" value="00564" />
+      <option name="presentableId" value="LOCAL-00564" />
+      <option name="project" value="LOCAL" />
+      <updated>1759180573379</updated>
+    </task>
+    <option name="localTasksCounter" value="565" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -643,8 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#192 - others" />
-    <MESSAGE value="#194 - test final" />
     <MESSAGE value="#194 - new attributes" />
     <MESSAGE value="#193 - cash on web" />
     <MESSAGE value="#193 - others" />
@@ -668,6 +663,8 @@
     <MESSAGE value="#203 - cash operations on web level" />
     <MESSAGE value="#203 - others" />
     <MESSAGE value="#205 - on Java code level" />
-    <option name="LAST_COMMIT_MESSAGE" value="#205 - on Java code level" />
+    <MESSAGE value="#207 - new function only for card operations" />
+    <MESSAGE value="#207 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#207 - others" />
   </component>
 </project>
