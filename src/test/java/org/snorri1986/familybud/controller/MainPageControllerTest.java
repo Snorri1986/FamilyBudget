@@ -148,16 +148,18 @@ public class MainPageControllerTest {
 
   @Test
   void testGetTravelPage() {
-    List<LastTenTravelOperationsModel> mockLastTenTravelOperations = List.of(new LastTenTravelOperationsModel(), new LastTenTravelOperationsModel());
-    //when(dbService.getLastTenTravelOperations()).thenReturn(mockLastTenTravelOperations);
-    when(dbService.getLastTenTravelOperationsCard()).thenReturn(mockLastTenTravelOperations);
+    List<LastTenTravelOperationsModel> mockLastTenTravelOperationsCard = List.of(new LastTenTravelOperationsModel(), new LastTenTravelOperationsModel());
+    List<LastTenTravelOperationsModel> mockLastTenTravelOperationsCash = List.of(new LastTenTravelOperationsModel(), new LastTenTravelOperationsModel());
+    when(dbService.getLastTenTravelOperationsCard()).thenReturn(mockLastTenTravelOperationsCard);
+    when(dbService.getLastTenTravelOperationsCash()).thenReturn(mockLastTenTravelOperationsCash);
     String viewName = mainPageController.getTravelPage(model);
     assertEquals("travel", viewName);
     verify(model).addAttribute(eq("travel_mod_attribute"), any(TravelModelWeb.class));
     verify(model).addAttribute(eq("travelActivities"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("travelLastTenCard", mockLastTenTravelOperations);
+    verify(model).addAttribute("travelLastTenCard", mockLastTenTravelOperationsCard);
+    verify(model).addAttribute("travelLastTenCash", mockLastTenTravelOperationsCash);
     verifyNoMoreInteractions(model);
   }
 
