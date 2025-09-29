@@ -23,6 +23,16 @@ public class LastTenTravelOperationsModel {
     this.comments = comments;
   }
 
+  public LastTenTravelOperationsModel(long travelType, long amount, long currency, ZonedDateTime date, String destination, String operType, String comments) {
+    this.travelType = travelType;
+    this.amount = amount;
+    this.currency = currency;
+    this.date = date;
+    this.destination = destination;
+    this.operType = operType;
+    this.comments = comments;
+  }
+
   public LastTenTravelOperationsModel() {
   }
 
