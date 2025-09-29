@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#209 - others">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTravelOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTravelOperationsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#210 - others">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/travel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageControllerTest.testGetTravelPage">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="MainPageControllerTest.testGetEntertainmentPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -226,30 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00524" summary="#185 - remove old method on sql">
-      <option name="closed" value="true" />
-      <created>1756761561113</created>
-      <option name="number" value="00524" />
-      <option name="presentableId" value="LOCAL-00524" />
-      <option name="project" value="LOCAL" />
-      <updated>1756761561113</updated>
-    </task>
-    <task id="LOCAL-00525" summary="#188 - new function. Only card operations">
-      <option name="closed" value="true" />
-      <created>1757363003213</created>
-      <option name="number" value="00525" />
-      <option name="presentableId" value="LOCAL-00525" />
-      <option name="project" value="LOCAL" />
-      <updated>1757363003215</updated>
-    </task>
-    <task id="LOCAL-00526" summary="#197 - new version with expense type id to log cash table">
-      <option name="closed" value="true" />
-      <created>1757363494826</created>
-      <option name="number" value="00526" />
-      <option name="presentableId" value="LOCAL-00526" />
-      <option name="project" value="LOCAL" />
-      <updated>1757363494826</updated>
     </task>
     <task id="LOCAL-00527" summary="#189 - new function only for cash operations">
       <option name="closed" value="true" />
@@ -619,7 +593,31 @@
       <option name="project" value="LOCAL" />
       <updated>1759181863378</updated>
     </task>
-    <option name="localTasksCounter" value="573" />
+    <task id="LOCAL-00573" summary="#210 - new method only for cash operations">
+      <option name="closed" value="true" />
+      <created>1759182311323</created>
+      <option name="number" value="00573" />
+      <option name="presentableId" value="LOCAL-00573" />
+      <option name="project" value="LOCAL" />
+      <updated>1759182311323</updated>
+    </task>
+    <task id="LOCAL-00574" summary="#210 - new constructor without sourcecard field">
+      <option name="closed" value="true" />
+      <created>1759182347637</created>
+      <option name="number" value="00574" />
+      <option name="presentableId" value="LOCAL-00574" />
+      <option name="project" value="LOCAL" />
+      <updated>1759182347637</updated>
+    </task>
+    <task id="LOCAL-00575" summary="#210 - others">
+      <option name="closed" value="true" />
+      <created>1759182366088</created>
+      <option name="number" value="00575" />
+      <option name="presentableId" value="LOCAL-00575" />
+      <option name="project" value="LOCAL" />
+      <updated>1759182366088</updated>
+    </task>
+    <option name="localTasksCounter" value="576" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -646,9 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#200 - new source for lastTenTelecom. Temporary change" />
-    <MESSAGE value="#200 - Temporary change on u-test level" />
-    <MESSAGE value="#200 - others" />
     <MESSAGE value="#201 - new method for cash operations" />
     <MESSAGE value="#201 - new constructor without sourceCard variable" />
     <MESSAGE value="#201 - others" />
@@ -671,6 +666,9 @@
     <MESSAGE value="#209 - temporary change on main controller" />
     <MESSAGE value="#209 - temporary change on unit test level" />
     <MESSAGE value="#209 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#209 - others" />
+    <MESSAGE value="#210 - new method only for cash operations" />
+    <MESSAGE value="#210 - new constructor without sourcecard field" />
+    <MESSAGE value="#210 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#210 - others" />
   </component>
 </project>
