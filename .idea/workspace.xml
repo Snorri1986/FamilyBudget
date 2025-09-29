@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#215 - others">
-      <change afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_travel_cash.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#209 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTravelOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenTravelOperationsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,54 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00518" summary="#186 - adjusted test method">
-      <option name="closed" value="true" />
-      <created>1756761079667</created>
-      <option name="number" value="00518" />
-      <option name="presentableId" value="LOCAL-00518" />
-      <option name="project" value="LOCAL" />
-      <updated>1756761079667</updated>
-    </task>
-    <task id="LOCAL-00519" summary="#184 - cash on main page controller">
-      <option name="closed" value="true" />
-      <created>1756761361743</created>
-      <option name="number" value="00519" />
-      <option name="presentableId" value="LOCAL-00519" />
-      <option name="project" value="LOCAL" />
-      <updated>1756761361743</updated>
-    </task>
-    <task id="LOCAL-00520" summary="#184 - cash on html level">
-      <option name="closed" value="true" />
-      <created>1756761376158</created>
-      <option name="number" value="00520" />
-      <option name="presentableId" value="LOCAL-00520" />
-      <option name="project" value="LOCAL" />
-      <updated>1756761376158</updated>
-    </task>
-    <task id="LOCAL-00521" summary="#184 - others">
-      <option name="closed" value="true" />
-      <created>1756761396677</created>
-      <option name="number" value="00521" />
-      <option name="presentableId" value="LOCAL-00521" />
-      <option name="project" value="LOCAL" />
-      <updated>1756761396677</updated>
-    </task>
-    <task id="LOCAL-00522" summary="#185 - remove old method">
-      <option name="closed" value="true" />
-      <created>1756761531990</created>
-      <option name="number" value="00522" />
-      <option name="presentableId" value="LOCAL-00522" />
-      <option name="project" value="LOCAL" />
-      <updated>1756761531990</updated>
-    </task>
-    <task id="LOCAL-00523" summary="#185 - remove old method on sql">
-      <option name="closed" value="true" />
-      <created>1756761545156</created>
-      <option name="number" value="00523" />
-      <option name="presentableId" value="LOCAL-00523" />
-      <option name="project" value="LOCAL" />
-      <updated>1756761545156</updated>
     </task>
     <task id="LOCAL-00524" summary="#185 - remove old method on sql">
       <option name="closed" value="true" />
@@ -616,7 +571,55 @@
       <option name="project" value="LOCAL" />
       <updated>1759181170282</updated>
     </task>
-    <option name="localTasksCounter" value="567" />
+    <task id="LOCAL-00567" summary="#208 - new function only for cash operations">
+      <option name="closed" value="true" />
+      <created>1759181518294</created>
+      <option name="number" value="00567" />
+      <option name="presentableId" value="LOCAL-00567" />
+      <option name="project" value="LOCAL" />
+      <updated>1759181518294</updated>
+    </task>
+    <task id="LOCAL-00568" summary="#208 - others">
+      <option name="closed" value="true" />
+      <created>1759181531101</created>
+      <option name="number" value="00568" />
+      <option name="presentableId" value="LOCAL-00568" />
+      <option name="project" value="LOCAL" />
+      <updated>1759181531101</updated>
+    </task>
+    <task id="LOCAL-00569" summary="#209 - new method only for card operations">
+      <option name="closed" value="true" />
+      <created>1759181795418</created>
+      <option name="number" value="00569" />
+      <option name="presentableId" value="LOCAL-00569" />
+      <option name="project" value="LOCAL" />
+      <updated>1759181795418</updated>
+    </task>
+    <task id="LOCAL-00570" summary="#209 - temporary change on main controller">
+      <option name="closed" value="true" />
+      <created>1759181822047</created>
+      <option name="number" value="00570" />
+      <option name="presentableId" value="LOCAL-00570" />
+      <option name="project" value="LOCAL" />
+      <updated>1759181822047</updated>
+    </task>
+    <task id="LOCAL-00571" summary="#209 - temporary change on unit test level">
+      <option name="closed" value="true" />
+      <created>1759181837092</created>
+      <option name="number" value="00571" />
+      <option name="presentableId" value="LOCAL-00571" />
+      <option name="project" value="LOCAL" />
+      <updated>1759181837092</updated>
+    </task>
+    <task id="LOCAL-00572" summary="#209 - others">
+      <option name="closed" value="true" />
+      <created>1759181863378</created>
+      <option name="number" value="00572" />
+      <option name="presentableId" value="LOCAL-00572" />
+      <option name="project" value="LOCAL" />
+      <updated>1759181863378</updated>
+    </task>
+    <option name="localTasksCounter" value="573" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -643,12 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#193 - others" />
-    <MESSAGE value="#195 - remove on repo level" />
-    <MESSAGE value="#198 - new function,just for card opers" />
-    <MESSAGE value="#206 - new function with expense type" />
-    <MESSAGE value="#199 - new function for cash" />
-    <MESSAGE value="#200 - new method getLastTenTelecomOperationsCard()" />
     <MESSAGE value="#200 - new source for lastTenTelecom. Temporary change" />
     <MESSAGE value="#200 - Temporary change on u-test level" />
     <MESSAGE value="#200 - others" />
@@ -668,6 +665,12 @@
     <MESSAGE value="#207 - others" />
     <MESSAGE value="#215 - new version with expense type id for cash" />
     <MESSAGE value="#215 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#215 - others" />
+    <MESSAGE value="#208 - new function only for cash operations" />
+    <MESSAGE value="#208 - others" />
+    <MESSAGE value="#209 - new method only for card operations" />
+    <MESSAGE value="#209 - temporary change on main controller" />
+    <MESSAGE value="#209 - temporary change on unit test level" />
+    <MESSAGE value="#209 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#209 - others" />
   </component>
 </project>
