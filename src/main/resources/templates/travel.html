@@ -107,6 +107,25 @@
             <td th:text="${travelCard.comments}"></td>
         </tr>
         <!-- cash operations -->
+        <tr th:each="travelCash : ${travelLastTenCash}">
+            <td>
+                <span th:switch="${travelCash.travelType}">
+                  <span th:case="33">Tickets</span>
+                <span th:case="34">Hotel</span>
+                <span th:case="35">FoodInTrip</span>
+                    <span th:case="36">TravelEntertainment</span>
+                    <span th:case="7">Public Transport</span>
+                  <span th:case="22">Other</span>
+                </span>
+            </td>
+            <td th:text="${travelCash.amount}"></td>
+            <td th:text="${travelCash.currency}"></td>
+            <td th:text="${#temporals.format(travelCash.date, 'dd-MM-yyy')}"></td>
+            <td th:text="${travelCash.sourceCard}"></td>
+            <td th:text="${travelCash.destination}"></td>
+            <td th:text="${travelCash.operType}"></td>
+            <td th:text="${travelCash.comments}"></td>
+        </tr>
         </tbody>
     </table>
 </div>
