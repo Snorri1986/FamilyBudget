@@ -149,7 +149,8 @@ public class MainPageControllerTest {
   @Test
   void testGetTravelPage() {
     List<LastTenTravelOperationsModel> mockLastTenTravelOperations = List.of(new LastTenTravelOperationsModel(), new LastTenTravelOperationsModel());
-    when(dbService.getLastTenTravelOperations()).thenReturn(mockLastTenTravelOperations);
+    //when(dbService.getLastTenTravelOperations()).thenReturn(mockLastTenTravelOperations);
+    when(dbService.getLastTenTravelOperationsCard()).thenReturn(mockLastTenTravelOperations);
     String viewName = mainPageController.getTravelPage(model);
     assertEquals("travel", viewName);
     verify(model).addAttribute(eq("travel_mod_attribute"), any(TravelModelWeb.class));
