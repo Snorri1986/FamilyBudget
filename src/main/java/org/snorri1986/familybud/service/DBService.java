@@ -356,6 +356,22 @@ public class DBService {
       }
     });
   }
+
+  public List<LastTenTravelOperationsModel> getLastTenTravelOperationsCash() {
+    String sql = "SELECT * from public.get_last_ten_travel_cash()";
+    return jdbcTemplate.query(sql,new RowMapper<LastTenTravelOperationsModel>() {
+      @Override
+      public LastTenTravelOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenTravelOperationsModel(rs.getLong("h_type_id"),
+                rs.getLong("amount"),
+                rs.getLong("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getString("destination"),
+                rs.getString("opertype"),  // always NULL
+                rs.getString("comments"));
+      }
+    });
+  }
 }
 
 
