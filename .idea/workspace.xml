@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#213 - new unit test">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#214 - on code level">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/travel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/travel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,46 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00532" summary="#191 - new constructor without source card">
-      <option name="closed" value="true" />
-      <created>1757365039090</created>
-      <option name="number" value="00532" />
-      <option name="presentableId" value="LOCAL-00532" />
-      <option name="project" value="LOCAL" />
-      <updated>1757365039090</updated>
-    </task>
-    <task id="LOCAL-00533" summary="#191 - new method for cash operations">
-      <option name="closed" value="true" />
-      <created>1757365054848</created>
-      <option name="number" value="00533" />
-      <option name="presentableId" value="LOCAL-00533" />
-      <option name="project" value="LOCAL" />
-      <updated>1757365054848</updated>
-    </task>
-    <task id="LOCAL-00534" summary="#191 - others">
-      <option name="closed" value="true" />
-      <created>1757365071534</created>
-      <option name="number" value="00534" />
-      <option name="presentableId" value="LOCAL-00534" />
-      <option name="project" value="LOCAL" />
-      <updated>1757365071534</updated>
-    </task>
-    <task id="LOCAL-00535" summary="#192 - on test level">
-      <option name="closed" value="true" />
-      <created>1757969603531</created>
-      <option name="number" value="00535" />
-      <option name="presentableId" value="LOCAL-00535" />
-      <option name="project" value="LOCAL" />
-      <updated>1757969603531</updated>
-    </task>
-    <task id="LOCAL-00536" summary="#192 - new name of attribute">
-      <option name="closed" value="true" />
-      <created>1757969636544</created>
-      <option name="number" value="00536" />
-      <option name="presentableId" value="LOCAL-00536" />
-      <option name="project" value="LOCAL" />
-      <updated>1757969636544</updated>
     </task>
     <task id="LOCAL-00537" summary="#192 - on web level">
       <option name="closed" value="true" />
@@ -620,7 +576,47 @@
       <option name="project" value="LOCAL" />
       <updated>1759183023213</updated>
     </task>
-    <option name="localTasksCounter" value="581" />
+    <task id="LOCAL-00581" summary="#208 - new function with destination">
+      <option name="closed" value="true" />
+      <created>1759183870392</created>
+      <option name="number" value="00581" />
+      <option name="presentableId" value="LOCAL-00581" />
+      <option name="project" value="LOCAL" />
+      <updated>1759183870392</updated>
+    </task>
+    <task id="LOCAL-00582" summary="#212 - on controller level">
+      <option name="closed" value="true" />
+      <created>1759183927663</created>
+      <option name="number" value="00582" />
+      <option name="presentableId" value="LOCAL-00582" />
+      <option name="project" value="LOCAL" />
+      <updated>1759183927663</updated>
+    </task>
+    <task id="LOCAL-00583" summary="#212 - on web level">
+      <option name="closed" value="true" />
+      <created>1759183943349</created>
+      <option name="number" value="00583" />
+      <option name="presentableId" value="LOCAL-00583" />
+      <option name="project" value="LOCAL" />
+      <updated>1759183943349</updated>
+    </task>
+    <task id="LOCAL-00584" summary="#212 - others">
+      <option name="closed" value="true" />
+      <created>1759183959270</created>
+      <option name="number" value="00584" />
+      <option name="presentableId" value="LOCAL-00584" />
+      <option name="project" value="LOCAL" />
+      <updated>1759183959270</updated>
+    </task>
+    <task id="LOCAL-00585" summary="#214 - on code level">
+      <option name="closed" value="true" />
+      <created>1759184048100</created>
+      <option name="number" value="00585" />
+      <option name="presentableId" value="LOCAL-00585" />
+      <option name="project" value="LOCAL" />
+      <updated>1759184048100</updated>
+    </task>
+    <option name="localTasksCounter" value="586" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -647,11 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#202 - on u-test level" />
-    <MESSAGE value="#202 - others" />
-    <MESSAGE value="#204 - updated u-test with cash operations" />
-    <MESSAGE value="#203 - new attribute on controller level" />
-    <MESSAGE value="#203 - cash operations on web level" />
     <MESSAGE value="#203 - others" />
     <MESSAGE value="#205 - on Java code level" />
     <MESSAGE value="#207 - new function only for card operations" />
@@ -672,6 +663,11 @@
     <MESSAGE value="#211 - change on web level" />
     <MESSAGE value="#211 - others" />
     <MESSAGE value="#213 - new unit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="#213 - new unit test" />
+    <MESSAGE value="#208 - new function with destination" />
+    <MESSAGE value="#212 - on controller level" />
+    <MESSAGE value="#212 - on web level" />
+    <MESSAGE value="#212 - others" />
+    <MESSAGE value="#214 - on code level" />
+    <option name="LAST_COMMIT_MESSAGE" value="#214 - on code level" />
   </component>
 </project>
