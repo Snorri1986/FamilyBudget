@@ -6,11 +6,15 @@ AS $function$
          IF oper_type = 'Income' THEN
              INSERT INTO atm_cash_operations_log(optype, amount, date, comments,user_last_session)
                     VALUES (1,amount_val,oper_date,comm_val,get_last_login());
-             PERFORM  public.add_cash_balance(amount_val);
+
+         PERFORM  public.add_cash_balance(amount_val);
+
          ELSIF oper_type = 'Expenses' THEN
-             PERFORM  public.minus_cash_balance(amount_val);
-                     INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session)
-                     VALUES (0,amount_val,oper_date,comm_val,get_last_login());
+              INSERT INTO atm_cash_operations_log(optype, amount, date, comments,user_last_session)
+                    VALUES (0,amount_val,oper_date,comm_val,get_last_login());
+
+         PERFORM  public.minus_cash_balance(amount_val);
+
          END IF;
 	END;
 $function$
