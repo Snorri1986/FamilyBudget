@@ -4,9 +4,9 @@ CREATE OR REPLACE FUNCTION public.atm_cash_register(oper_type character, amount_
 AS $function$
 	BEGIN
          IF oper_type = 'Income' THEN
+             INSERT INTO atm_cash_operations_log(optype, amount, date, comments,user_last_session)
+                    VALUES (1,amount_val,oper_date,comm_val,get_last_login());
              PERFORM  public.add_cash_balance(amount_val);
-                     INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session)
-                     VALUES (1,amount_val,oper_date,comm_val,get_last_login());
          ELSIF oper_type = 'Expenses' THEN
              PERFORM  public.minus_cash_balance(amount_val);
                      INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session)
@@ -15,4 +15,3 @@ AS $function$
 	END;
 $function$
 ;
-COMMENT ON FUNCTION public.atm_cash_register(bpchar, int4, date, bpchar) IS 'register atm cash operations';
