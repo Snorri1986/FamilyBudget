@@ -221,6 +221,18 @@ CREATE TABLE public.user_last_login (
 COMMENT ON TABLE public.user_last_login IS 'auth login table';
 COMMENT ON COLUMN public.user_last_login.login IS 'login of user';
 
+CREATE TABLE public.atm_cash_operations_log (
+	id int8 GENERATED ALWAYS AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 9223372036854775807 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	optype int8 NOT NULL,
+	amount int8 NOT NULL,
+	"date" timestamptz NOT NULL,
+	"comments" varchar(255) NOT NULL,
+	user_last_session text NULL,
+	currency int8 NULL,
+	ex_type_id int4 NULL,
+	CONSTRAINT atm_cash_operations_log_pkey PRIMARY KEY (id)
+);
+
 
 ALTER TABLE "income" ADD CONSTRAINT "income_fk1" FOREIGN KEY ("i_type") REFERENCES "income_type"("id");
 ALTER TABLE "income" ADD CONSTRAINT "income_fk3" FOREIGN KEY ("currency") REFERENCES "currency"("id");
