@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#217 - others" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#218 - others" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,22 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00541" summary="#193 - cash on web">
-      <option name="closed" value="true" />
-      <created>1757970316504</created>
-      <option name="number" value="00541" />
-      <option name="presentableId" value="LOCAL-00541" />
-      <option name="project" value="LOCAL" />
-      <updated>1757970316504</updated>
-    </task>
-    <task id="LOCAL-00542" summary="#193 - others">
-      <option name="closed" value="true" />
-      <created>1757970326087</created>
-      <option name="number" value="00542" />
-      <option name="presentableId" value="LOCAL-00542" />
-      <option name="project" value="LOCAL" />
-      <updated>1757970326087</updated>
     </task>
     <task id="LOCAL-00543" summary="#195 - remove on repo level">
       <option name="closed" value="true" />
@@ -613,7 +597,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761391533536</updated>
     </task>
-    <option name="localTasksCounter" value="590" />
+    <task id="LOCAL-00590" summary="#218 - save on atm_cash_operations_log table for income">
+      <option name="closed" value="true" />
+      <created>1761392086804</created>
+      <option name="number" value="00590" />
+      <option name="presentableId" value="LOCAL-00590" />
+      <option name="project" value="LOCAL" />
+      <updated>1761392086804</updated>
+    </task>
+    <task id="LOCAL-00591" summary="#218 - others">
+      <option name="closed" value="true" />
+      <created>1761392099705</created>
+      <option name="number" value="00591" />
+      <option name="presentableId" value="LOCAL-00591" />
+      <option name="project" value="LOCAL" />
+      <updated>1761392099705</updated>
+    </task>
+    <option name="localTasksCounter" value="592" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,8 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#215 - new version with expense type id for cash" />
-    <MESSAGE value="#215 - others" />
     <MESSAGE value="#208 - new function only for cash operations" />
     <MESSAGE value="#208 - others" />
     <MESSAGE value="#209 - new method only for card operations" />
@@ -665,6 +663,8 @@
     <MESSAGE value="#142 - others" />
     <MESSAGE value="#217 - new table atm_cash_operations_log" />
     <MESSAGE value="#217 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#217 - others" />
+    <MESSAGE value="#218 - save on atm_cash_operations_log table for income" />
+    <MESSAGE value="#218 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#218 - others" />
   </component>
 </project>
