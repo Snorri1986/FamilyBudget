@@ -2,6 +2,8 @@ CREATE OR REPLACE FUNCTION public.atm_cash_register(oper_type character, amount_
  RETURNS void
  LANGUAGE plpgsql
 AS $function$
+    DECLARE
+       cash_balance int4;
 	BEGIN
          IF oper_type = 'Income' THEN
              INSERT INTO atm_cash_operations_log(optype, amount, date, comments,user_last_session)
@@ -10,10 +12,16 @@ AS $function$
          PERFORM  public.add_cash_balance(amount_val);
 
          ELSIF oper_type = 'Expenses' THEN
-              INSERT INTO atm_cash_operations_log(optype, amount, date, comments,user_last_session)
+
+         SELECT public.get_cash_balance() INTO cash_balance;
+
+         -- balance < 0 is not allowed --
+         IF amount_val <= cash_balance THEN
+         INSERT INTO atm_cash_operations_log(optype, amount, date, comments,user_last_session)
                     VALUES (0,amount_val,oper_date,comm_val,get_last_login());
 
          PERFORM  public.minus_cash_balance(amount_val);
+         END IF;
 
          END IF;
 	END;
