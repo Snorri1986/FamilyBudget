@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#222 - others">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenAtmOperationsModel.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#223 - model to last 10 atm operations">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenAtmOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenAtmOperationsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,30 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00553" summary="#201 - others">
-      <option name="closed" value="true" />
-      <created>1758575292820</created>
-      <option name="number" value="00553" />
-      <option name="presentableId" value="LOCAL-00553" />
-      <option name="project" value="LOCAL" />
-      <updated>1758575292820</updated>
-    </task>
-    <task id="LOCAL-00554" summary="#202 - on controller level">
-      <option name="closed" value="true" />
-      <created>1758575658069</created>
-      <option name="number" value="00554" />
-      <option name="presentableId" value="LOCAL-00554" />
-      <option name="project" value="LOCAL" />
-      <updated>1758575658069</updated>
-    </task>
-    <task id="LOCAL-00555" summary="#202 - on web level">
-      <option name="closed" value="true" />
-      <created>1758575674057</created>
-      <option name="number" value="00555" />
-      <option name="presentableId" value="LOCAL-00555" />
-      <option name="project" value="LOCAL" />
-      <updated>1758575674057</updated>
     </task>
     <task id="LOCAL-00556" summary="#202 - on u-test level">
       <option name="closed" value="true" />
@@ -615,7 +593,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763209520799</updated>
     </task>
-    <option name="localTasksCounter" value="602" />
+    <task id="LOCAL-00602" summary="#216 - model to last ten atm operations">
+      <option name="closed" value="true" />
+      <created>1763209829203</created>
+      <option name="number" value="00602" />
+      <option name="presentableId" value="LOCAL-00602" />
+      <option name="project" value="LOCAL" />
+      <updated>1763209829203</updated>
+    </task>
+    <task id="LOCAL-00603" summary="#216 - others">
+      <option name="closed" value="true" />
+      <created>1763209860797</created>
+      <option name="number" value="00603" />
+      <option name="presentableId" value="LOCAL-00603" />
+      <option name="project" value="LOCAL" />
+      <updated>1763209860797</updated>
+    </task>
+    <task id="LOCAL-00604" summary="#223 - model to last 10 atm operations">
+      <option name="closed" value="true" />
+      <created>1763209995269</created>
+      <option name="number" value="00604" />
+      <option name="presentableId" value="LOCAL-00604" />
+      <option name="project" value="LOCAL" />
+      <updated>1763209995269</updated>
+    </task>
+    <option name="localTasksCounter" value="605" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -642,9 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#211 - change on controller level" />
-    <MESSAGE value="#211 - change on unit test level" />
-    <MESSAGE value="#211 - change on web level" />
     <MESSAGE value="#211 - others" />
     <MESSAGE value="#213 - new unit test" />
     <MESSAGE value="#208 - new function with destination" />
@@ -667,6 +666,9 @@
     <MESSAGE value="#221 - others" />
     <MESSAGE value="#222 - new function for last ten ATM operations" />
     <MESSAGE value="#222 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#222 - others" />
+    <MESSAGE value="#216 - model to last ten atm operations" />
+    <MESSAGE value="#216 - others" />
+    <MESSAGE value="#223 - model to last 10 atm operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="#223 - model to last 10 atm operations" />
   </component>
 </project>
