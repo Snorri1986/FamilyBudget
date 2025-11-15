@@ -355,6 +355,20 @@ public class DBService {
       }
     });
   }
+
+  public List<LastTenAtmOperationsModel> getLastTenAtmOperations() {
+    String sql = "SELECT * from public.get_last_ten_atm()";
+    return jdbcTemplate.query(sql, new RowMapper<LastTenAtmOperationsModel>() {
+      @Override
+      public LastTenAtmOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new LastTenAtmOperationsModel(rs.getLong("optype"),
+                rs.getLong("amount"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("currency"),
+                rs.getString("comments"));
+      }
+    });
+  }
 }
 
 
