@@ -12,6 +12,7 @@ public class LastTenAtmOperationsModel {
   private int currency;
   private String operDescription;
 
+  // constructor
   public LastTenAtmOperationsModel(String operType, int amount, Date transactionDate, int currency, String operDescription) {
     this.operType = operType;
     this.amount = amount;
@@ -20,6 +21,7 @@ public class LastTenAtmOperationsModel {
     this.operDescription = operDescription;
   }
 
+  // getters
   public String getOperType() {
     return operType;
   }
@@ -40,6 +42,7 @@ public class LastTenAtmOperationsModel {
     return operDescription;
   }
 
+  // setters
   public void setOperType(String operType) {
     this.operType = operType;
   }
