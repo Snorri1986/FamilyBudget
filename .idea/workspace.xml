@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#221 - others">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_atm.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/minus_cash_balance.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/minus_cash_balance.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,22 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00549" summary="#200 - Temporary change on u-test level">
-      <option name="closed" value="true" />
-      <created>1758574876847</created>
-      <option name="number" value="00549" />
-      <option name="presentableId" value="LOCAL-00549" />
-      <option name="project" value="LOCAL" />
-      <updated>1758574876847</updated>
-    </task>
-    <task id="LOCAL-00550" summary="#200 - others">
-      <option name="closed" value="true" />
-      <created>1758574888207</created>
-      <option name="number" value="00550" />
-      <option name="presentableId" value="LOCAL-00550" />
-      <option name="project" value="LOCAL" />
-      <updated>1758574888207</updated>
     </task>
     <task id="LOCAL-00551" summary="#201 - new method for cash operations">
       <option name="closed" value="true" />
@@ -616,7 +600,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761994531155</updated>
     </task>
-    <option name="localTasksCounter" value="598" />
+    <task id="LOCAL-00598" summary="#221 - balance protection is not necessary">
+      <option name="closed" value="true" />
+      <created>1761994976498</created>
+      <option name="number" value="00598" />
+      <option name="presentableId" value="LOCAL-00598" />
+      <option name="project" value="LOCAL" />
+      <updated>1761994976498</updated>
+    </task>
+    <task id="LOCAL-00599" summary="#221 - others">
+      <option name="closed" value="true" />
+      <created>1761994989323</created>
+      <option name="number" value="00599" />
+      <option name="presentableId" value="LOCAL-00599" />
+      <option name="project" value="LOCAL" />
+      <updated>1761994989323</updated>
+    </task>
+    <option name="localTasksCounter" value="600" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -643,7 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#210 - new method only for cash operations" />
     <MESSAGE value="#210 - new constructor without sourcecard field" />
     <MESSAGE value="#210 - others" />
     <MESSAGE value="#211 - change on controller level" />
@@ -667,6 +666,7 @@
     <MESSAGE value="#221 - check balance before run" />
     <MESSAGE value="#221 - other" />
     <MESSAGE value="#221 - new version with protection against negative balance" />
+    <MESSAGE value="#221 - balance protection is not necessary" />
     <MESSAGE value="#221 - others" />
     <option name="LAST_COMMIT_MESSAGE" value="#221 - others" />
   </component>
