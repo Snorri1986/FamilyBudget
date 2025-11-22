@@ -361,11 +361,11 @@ public class DBService {
     return jdbcTemplate.query(sql, new RowMapper<LastTenAtmOperationsModel>() {
       @Override
       public LastTenAtmOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
-        return new LastTenAtmOperationsModel(rs.getLong("optype"),
-                rs.getLong("amount"),
-                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
-                rs.getLong("currency"),
-                rs.getString("comments"));
+        return new LastTenAtmOperationsModel(rs.getLong("v_optype"),
+                rs.getLong("v_amount"),
+                rs.getTimestamp("v_date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getLong("v_currency"),
+                rs.getString("v_comments"));
       }
     });
   }
