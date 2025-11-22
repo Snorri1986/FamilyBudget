@@ -1,6 +1,7 @@
 package org.snorri1986.familybud.controller;
 
 import org.snorri1986.familybud.models.AtmModelWeb;
+import org.snorri1986.familybud.models.LastTenAtmOperationsModel;
 import org.snorri1986.familybud.models.LastTenCashOperModel;
 import org.snorri1986.familybud.service.DBService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,13 +21,24 @@ public class AdditionalFuncPageController {
   @Autowired
   DBService dbService;
 
-  @GetMapping("/atmCash")
+  /*@GetMapping("/atmCash")
   public String getAtmCashPage(Model model) {
     List<String> opList = Arrays.asList("Income", "Expenses");
     List<LastTenCashOperModel> lastTenCashOperations = dbService.getLastTenCashOperations();
     model.addAttribute("atm_mod_attribute", new AtmModelWeb());
     model.addAttribute("opList", opList);
     model.addAttribute("lastTenCashOperations", lastTenCashOperations);
+    return "atm_cash";
+  }*/
+
+  @GetMapping("/atmCash")
+  public String getLastTenAtmCashOperations(Model model) {
+    List<String> opList = Arrays.asList("Income", "Expenses");
+    //List<LastTenCashOperModel> lastTenCashOperations = dbService.getLastTenCashOperations();
+    List<LastTenAtmOperationsModel> lastTenAtmOperationsModel = dbService.getLastTenAtmOperations();
+    model.addAttribute("atm_mod_attribute", new AtmModelWeb());
+    model.addAttribute("opList", opList);
+    model.addAttribute("lastTenAtmOperations", lastTenAtmOperationsModel);
     return "atm_cash";
   }
 
