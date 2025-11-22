@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#226 - others">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#224 - others">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/atm_cash.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,30 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00559" summary="#203 - new attribute on controller level">
-      <option name="closed" value="true" />
-      <created>1758576973129</created>
-      <option name="number" value="00559" />
-      <option name="presentableId" value="LOCAL-00559" />
-      <option name="project" value="LOCAL" />
-      <updated>1758576973129</updated>
-    </task>
-    <task id="LOCAL-00560" summary="#203 - cash operations on web level">
-      <option name="closed" value="true" />
-      <created>1758577006856</created>
-      <option name="number" value="00560" />
-      <option name="presentableId" value="LOCAL-00560" />
-      <option name="project" value="LOCAL" />
-      <updated>1758577006856</updated>
-    </task>
-    <task id="LOCAL-00561" summary="#203 - others">
-      <option name="closed" value="true" />
-      <created>1758577024479</created>
-      <option name="number" value="00561" />
-      <option name="presentableId" value="LOCAL-00561" />
-      <option name="project" value="LOCAL" />
-      <updated>1758577024479</updated>
     </task>
     <task id="LOCAL-00562" summary="#205 - on Java code level">
       <option name="closed" value="true" />
@@ -616,7 +589,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763211360025</updated>
     </task>
-    <option name="localTasksCounter" value="608" />
+    <task id="LOCAL-00608" summary="#224 - new method getLastTenAtmCashOperations()">
+      <option name="closed" value="true" />
+      <created>1763815774612</created>
+      <option name="number" value="00608" />
+      <option name="presentableId" value="LOCAL-00608" />
+      <option name="project" value="LOCAL" />
+      <updated>1763815774612</updated>
+    </task>
+    <task id="LOCAL-00609" summary="#224 - temporary commented test">
+      <option name="closed" value="true" />
+      <created>1763815795336</created>
+      <option name="number" value="00609" />
+      <option name="presentableId" value="LOCAL-00609" />
+      <option name="project" value="LOCAL" />
+      <updated>1763815795336</updated>
+    </task>
+    <task id="LOCAL-00610" summary="#224 - others">
+      <option name="closed" value="true" />
+      <created>1763815807889</created>
+      <option name="number" value="00610" />
+      <option name="presentableId" value="LOCAL-00610" />
+      <option name="project" value="LOCAL" />
+      <updated>1763815807889</updated>
+    </task>
+    <option name="localTasksCounter" value="611" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -643,9 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#212 - on controller level" />
-    <MESSAGE value="#212 - on web level" />
-    <MESSAGE value="#212 - others" />
     <MESSAGE value="#214 - on code level" />
     <MESSAGE value="#142 - set income code as on production" />
     <MESSAGE value="#142 - others" />
@@ -668,6 +662,9 @@
     <MESSAGE value="#226 - new model" />
     <MESSAGE value="#226 - method to get data from database" />
     <MESSAGE value="#226 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#226 - others" />
+    <MESSAGE value="#224 - new method getLastTenAtmCashOperations()" />
+    <MESSAGE value="#224 - temporary commented test" />
+    <MESSAGE value="#224 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#224 - others" />
   </component>
 </project>
