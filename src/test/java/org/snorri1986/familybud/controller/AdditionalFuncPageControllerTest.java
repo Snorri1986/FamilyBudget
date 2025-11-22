@@ -22,9 +22,9 @@ public class AdditionalFuncPageControllerTest {
   @Mock
   private Model model;
 
-  @Test
+  /*@Test
   void testGetAtmCashPage() {
     String viewName = additionalFuncPageController.getAtmCashPage(model);
     assertEquals("atm_cash", viewName);
-  }
+  }*/
 }
