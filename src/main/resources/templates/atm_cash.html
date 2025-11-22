@@ -43,22 +43,24 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
      <h2>Last 10 Cash operations</h2>
-     <h6>Operation Type: 1-Income,2-Expense</h6>
+     <h6>Operation Type: 0-Expense,1-Income</h6>
      <table class="full-width-table">
          <thead>
          <tr>
              <th>Operation Type</th>
              <th>Amount</th>
              <th>Date</th>
+             <th>Currency</th>
              <th>Comments</th>
          </tr>
          </thead>
          <tbody>
-         <tr th:each="cash : ${lastTenCashOperations}">
-             <td th:text="${cash.opType}"></td>
-             <td th:text="${cash.amount}"></td>
-             <td th:text="${#temporals.format(cash.date, 'dd-MM-yyy')}"></td>
-             <td th:text="${cash.comments}"></td>
+         <tr th:each="atm : ${lastTenAtmOperations}">
+             <td th:text="${atm.operType}"></td>
+             <td th:text="${atm.amount}"></td>
+             <td th:text="${#temporals.format(atm.transactionDate, 'dd-MM-yyy')}"></td>
+             <td th:text="${atm.currency}"></td>
+             <td th:text="${atm.operDescription}"></td>
          </tr>
          </tbody>
      </table>
