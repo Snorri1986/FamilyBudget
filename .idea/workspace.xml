@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#223 - model to last 10 atm operations">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#226 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenAtmOperationsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LastTenAtmOperationsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
-    <configuration name="MainPageControllerTest.testGetEntertainmentPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -96,14 +98,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetEntertainmentPage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageControllerTest.testGetGroceriesPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +114,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetGroceriesPage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,7 +151,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageControllerTest.testRentHousingPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebFormsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -160,9 +160,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="METHOD_NAME" value="testRentHousingPage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,20 +198,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
+      <item itemvalue="JUnit.MainPageControllerTest" />
+      <item itemvalue="JUnit.WebFormsControllerTest" />
       <item itemvalue="JUnit.MainPageControllerTest.testGetTravelPage" />
       <item itemvalue="JUnit.MainPageControllerTest.testGetTelecomPage" />
-      <item itemvalue="JUnit.MainPageControllerTest.testRentHousingPage" />
-      <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
-      <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
       <item itemvalue="Maven.FamilyBudget-LocalTomcat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebFormsControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetTravelPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetTelecomPage" />
-        <item itemvalue="JUnit.MainPageControllerTest.testRentHousingPage" />
-        <item itemvalue="JUnit.MainPageControllerTest.testGetGroceriesPage" />
-        <item itemvalue="JUnit.MainPageControllerTest.testGetEntertainmentPage" />
       </list>
     </recent_temporary>
   </component>
@@ -224,30 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00556" summary="#202 - on u-test level">
-      <option name="closed" value="true" />
-      <created>1758575690013</created>
-      <option name="number" value="00556" />
-      <option name="presentableId" value="LOCAL-00556" />
-      <option name="project" value="LOCAL" />
-      <updated>1758575690013</updated>
-    </task>
-    <task id="LOCAL-00557" summary="#202 - others">
-      <option name="closed" value="true" />
-      <created>1758575705516</created>
-      <option name="number" value="00557" />
-      <option name="presentableId" value="LOCAL-00557" />
-      <option name="project" value="LOCAL" />
-      <updated>1758575705516</updated>
-    </task>
-    <task id="LOCAL-00558" summary="#204 - updated u-test with cash operations">
-      <option name="closed" value="true" />
-      <created>1758576302566</created>
-      <option name="number" value="00558" />
-      <option name="presentableId" value="LOCAL-00558" />
-      <option name="project" value="LOCAL" />
-      <updated>1758576302566</updated>
     </task>
     <task id="LOCAL-00559" summary="#203 - new attribute on controller level">
       <option name="closed" value="true" />
@@ -617,7 +592,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763209995269</updated>
     </task>
-    <option name="localTasksCounter" value="605" />
+    <task id="LOCAL-00605" summary="#226 - new model">
+      <option name="closed" value="true" />
+      <created>1763211317510</created>
+      <option name="number" value="00605" />
+      <option name="presentableId" value="LOCAL-00605" />
+      <option name="project" value="LOCAL" />
+      <updated>1763211317510</updated>
+    </task>
+    <task id="LOCAL-00606" summary="#226 - method to get data from database">
+      <option name="closed" value="true" />
+      <created>1763211343437</created>
+      <option name="number" value="00606" />
+      <option name="presentableId" value="LOCAL-00606" />
+      <option name="project" value="LOCAL" />
+      <updated>1763211343437</updated>
+    </task>
+    <task id="LOCAL-00607" summary="#226 - others">
+      <option name="closed" value="true" />
+      <created>1763211360025</created>
+      <option name="number" value="00607" />
+      <option name="presentableId" value="LOCAL-00607" />
+      <option name="project" value="LOCAL" />
+      <updated>1763211360025</updated>
+    </task>
+    <option name="localTasksCounter" value="608" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,9 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#211 - others" />
-    <MESSAGE value="#213 - new unit test" />
-    <MESSAGE value="#208 - new function with destination" />
     <MESSAGE value="#212 - on controller level" />
     <MESSAGE value="#212 - on web level" />
     <MESSAGE value="#212 - others" />
@@ -669,6 +665,9 @@
     <MESSAGE value="#216 - model to last ten atm operations" />
     <MESSAGE value="#216 - others" />
     <MESSAGE value="#223 - model to last 10 atm operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#223 - model to last 10 atm operations" />
+    <MESSAGE value="#226 - new model" />
+    <MESSAGE value="#226 - method to get data from database" />
+    <MESSAGE value="#226 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#226 - others" />
   </component>
 </project>
