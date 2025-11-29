@@ -34,6 +34,7 @@ public class WebFormsController {
       case "TravelRefund":  incomeModelDB.setIncomeType(15); break;
       case "ShopRefund":  incomeModelDB.setIncomeType(16); break;
       case "Money transfer R":  incomeModelDB.setIncomeType(41); break;
+      case "HumanRefund":  incomeModelDB.setIncomeType(18); break;
       case "Other":  incomeModelDB.setIncomeType(17); break;
     }
 
