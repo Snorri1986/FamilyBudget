@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#228 - remove old function">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#230 - others">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,22 +221,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00570" summary="#209 - temporary change on main controller">
-      <option name="closed" value="true" />
-      <created>1759181822047</created>
-      <option name="number" value="00570" />
-      <option name="presentableId" value="LOCAL-00570" />
-      <option name="project" value="LOCAL" />
-      <updated>1759181822047</updated>
-    </task>
-    <task id="LOCAL-00571" summary="#209 - temporary change on unit test level">
-      <option name="closed" value="true" />
-      <created>1759181837092</created>
-      <option name="number" value="00571" />
-      <option name="presentableId" value="LOCAL-00571" />
-      <option name="project" value="LOCAL" />
-      <updated>1759181837092</updated>
     </task>
     <task id="LOCAL-00572" summary="#209 - others">
       <option name="closed" value="true" />
@@ -614,7 +598,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763817469185</updated>
     </task>
-    <option name="localTasksCounter" value="619" />
+    <task id="LOCAL-00619" summary="#230 - new income type">
+      <option name="closed" value="true" />
+      <created>1764419240920</created>
+      <option name="number" value="00619" />
+      <option name="presentableId" value="LOCAL-00619" />
+      <option name="project" value="LOCAL" />
+      <updated>1764419240922</updated>
+    </task>
+    <task id="LOCAL-00620" summary="#230 - others">
+      <option name="closed" value="true" />
+      <created>1764419254019</created>
+      <option name="number" value="00620" />
+      <option name="presentableId" value="LOCAL-00620" />
+      <option name="project" value="LOCAL" />
+      <updated>1764419254019</updated>
+    </task>
+    <option name="localTasksCounter" value="621" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -641,8 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#219 - others" />
-    <MESSAGE value="#221 - check balance before run" />
     <MESSAGE value="#221 - other" />
     <MESSAGE value="#221 - new version with protection against negative balance" />
     <MESSAGE value="#221 - balance protection is not necessary" />
@@ -666,6 +664,8 @@
     <MESSAGE value="#228 - remove old method" />
     <MESSAGE value="#228 - others" />
     <MESSAGE value="#228 - remove old function" />
-    <option name="LAST_COMMIT_MESSAGE" value="#228 - remove old function" />
+    <MESSAGE value="#230 - new income type" />
+    <MESSAGE value="#230 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#230 - others" />
   </component>
 </project>
