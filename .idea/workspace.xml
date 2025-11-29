@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#232 - others">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/income.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#233 - others">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/income.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +87,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -204,10 +206,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetAtmCashPage" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
-        <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetAtmCashPage" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetTravelPage" />
       </list>
     </recent_temporary>
@@ -220,22 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00576" summary="#211 - change on controller level">
-      <option name="closed" value="true" />
-      <created>1759182676004</created>
-      <option name="number" value="00576" />
-      <option name="presentableId" value="LOCAL-00576" />
-      <option name="project" value="LOCAL" />
-      <updated>1759182676004</updated>
-    </task>
-    <task id="LOCAL-00577" summary="#211 - change on unit test level">
-      <option name="closed" value="true" />
-      <created>1759182694222</created>
-      <option name="number" value="00577" />
-      <option name="presentableId" value="LOCAL-00577" />
-      <option name="project" value="LOCAL" />
-      <updated>1759182694222</updated>
     </task>
     <task id="LOCAL-00578" summary="#211 - change on web level">
       <option name="closed" value="true" />
@@ -613,7 +599,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764420308767</updated>
     </task>
-    <option name="localTasksCounter" value="625" />
+    <task id="LOCAL-00625" summary="#233 - new income type on web">
+      <option name="closed" value="true" />
+      <created>1764420659902</created>
+      <option name="number" value="00625" />
+      <option name="presentableId" value="LOCAL-00625" />
+      <option name="project" value="LOCAL" />
+      <updated>1764420659902</updated>
+    </task>
+    <task id="LOCAL-00626" summary="#233 - others">
+      <option name="closed" value="true" />
+      <created>1764420674532</created>
+      <option name="number" value="00626" />
+      <option name="presentableId" value="LOCAL-00626" />
+      <option name="project" value="LOCAL" />
+      <updated>1764420674532</updated>
+    </task>
+    <option name="localTasksCounter" value="627" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,8 +642,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#222 - new function for last ten ATM operations" />
-    <MESSAGE value="#222 - others" />
     <MESSAGE value="#216 - model to last ten atm operations" />
     <MESSAGE value="#216 - others" />
     <MESSAGE value="#223 - model to last 10 atm operations" />
@@ -665,6 +665,8 @@
     <MESSAGE value="#231 - others" />
     <MESSAGE value="#232 - new version with code 18" />
     <MESSAGE value="#232 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#232 - others" />
+    <MESSAGE value="#233 - new income type on web" />
+    <MESSAGE value="#233 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#233 - others" />
   </component>
 </project>
