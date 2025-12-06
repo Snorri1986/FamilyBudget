@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#236 - others">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#237 - others" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,22 +218,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00582" summary="#212 - on controller level">
-      <option name="closed" value="true" />
-      <created>1759183927663</created>
-      <option name="number" value="00582" />
-      <option name="presentableId" value="LOCAL-00582" />
-      <option name="project" value="LOCAL" />
-      <updated>1759183927663</updated>
-    </task>
-    <task id="LOCAL-00583" summary="#212 - on web level">
-      <option name="closed" value="true" />
-      <created>1759183943349</created>
-      <option name="number" value="00583" />
-      <option name="presentableId" value="LOCAL-00583" />
-      <option name="project" value="LOCAL" />
-      <updated>1759183943349</updated>
     </task>
     <task id="LOCAL-00584" summary="#212 - others">
       <option name="closed" value="true" />
@@ -613,7 +595,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765018097522</updated>
     </task>
-    <option name="localTasksCounter" value="631" />
+    <task id="LOCAL-00631" summary="#237 - function to add new default payment card">
+      <option name="closed" value="true" />
+      <created>1765019260866</created>
+      <option name="number" value="00631" />
+      <option name="presentableId" value="LOCAL-00631" />
+      <option name="project" value="LOCAL" />
+      <updated>1765019260866</updated>
+    </task>
+    <task id="LOCAL-00632" summary="#237 - others">
+      <option name="closed" value="true" />
+      <created>1765019277293</created>
+      <option name="number" value="00632" />
+      <option name="presentableId" value="LOCAL-00632" />
+      <option name="project" value="LOCAL" />
+      <updated>1765019277293</updated>
+    </task>
+    <option name="localTasksCounter" value="633" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,8 +638,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#226 - method to get data from database" />
-    <MESSAGE value="#226 - others" />
     <MESSAGE value="#224 - new method getLastTenAtmCashOperations()" />
     <MESSAGE value="#224 - temporary commented test" />
     <MESSAGE value="#224 - others" />
@@ -665,6 +661,8 @@
     <MESSAGE value="#234 - others" />
     <MESSAGE value="#236 - add new button" />
     <MESSAGE value="#236 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#236 - others" />
+    <MESSAGE value="#237 - function to add new default payment card" />
+    <MESSAGE value="#237 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#237 - others" />
   </component>
 </project>
