@@ -117,6 +117,13 @@ public class DBService {
     }, String.class);
   }
 
+  public void insertNewDefaultPaymentCard(DefaultPaymentCardModel defaultPaymentCardModel) {
+    String sql = "SELECT public.i_default_card(?)";
+    jdbcTemplate.queryForObject(sql, new Object[]{
+            defaultPaymentCardModel.getCardNumber()
+    }, String.class);
+  }
+
   public int getCashBalance() {
     String sql = "SELECT public.get_cash_balance()";
     return jdbcTemplate.queryForObject(sql, Integer.class);
