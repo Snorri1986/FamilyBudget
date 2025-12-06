@@ -27,6 +27,7 @@ org\snorri1986\familybud\service\DBService$4.class
 org\snorri1986\familybud\controller\MainPageController.class
 org\snorri1986\familybud\models\LastTenGroceriesOperModel.class
 org\snorri1986\familybud\service\DBService$13.class
+org\snorri1986\familybud\models\DefaultPaymentCardModel.class
 org\snorri1986\familybud\models\IncomeModelWeb.class
 org\snorri1986\familybud\DataSourceConfig.class
 org\snorri1986\familybud\models\TelecomModelWeb.class
