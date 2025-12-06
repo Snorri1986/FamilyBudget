@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#234 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#236 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,22 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00580" summary="#213 - new unit test">
-      <option name="closed" value="true" />
-      <created>1759183023213</created>
-      <option name="number" value="00580" />
-      <option name="presentableId" value="LOCAL-00580" />
-      <option name="project" value="LOCAL" />
-      <updated>1759183023213</updated>
-    </task>
-    <task id="LOCAL-00581" summary="#208 - new function with destination">
-      <option name="closed" value="true" />
-      <created>1759183870392</created>
-      <option name="number" value="00581" />
-      <option name="presentableId" value="LOCAL-00581" />
-      <option name="project" value="LOCAL" />
-      <updated>1759183870392</updated>
     </task>
     <task id="LOCAL-00582" summary="#212 - on controller level">
       <option name="closed" value="true" />
@@ -614,7 +597,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764420999224</updated>
     </task>
-    <option name="localTasksCounter" value="629" />
+    <task id="LOCAL-00629" summary="#236 - add new button">
+      <option name="closed" value="true" />
+      <created>1765018082368</created>
+      <option name="number" value="00629" />
+      <option name="presentableId" value="LOCAL-00629" />
+      <option name="project" value="LOCAL" />
+      <updated>1765018082370</updated>
+    </task>
+    <task id="LOCAL-00630" summary="#236 - others">
+      <option name="closed" value="true" />
+      <created>1765018097522</created>
+      <option name="number" value="00630" />
+      <option name="presentableId" value="LOCAL-00630" />
+      <option name="project" value="LOCAL" />
+      <updated>1765018097522</updated>
+    </task>
+    <option name="localTasksCounter" value="631" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -641,8 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#223 - model to last 10 atm operations" />
-    <MESSAGE value="#226 - new model" />
     <MESSAGE value="#226 - method to get data from database" />
     <MESSAGE value="#226 - others" />
     <MESSAGE value="#224 - new method getLastTenAtmCashOperations()" />
@@ -666,6 +663,8 @@
     <MESSAGE value="#233 - others" />
     <MESSAGE value="#234 - delete unuseful method" />
     <MESSAGE value="#234 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#234 - others" />
+    <MESSAGE value="#236 - add new button" />
+    <MESSAGE value="#236 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#236 - others" />
   </component>
 </project>
