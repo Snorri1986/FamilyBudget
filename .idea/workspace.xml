@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#233 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#234 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/income.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/income.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -222,22 +221,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00578" summary="#211 - change on web level">
-      <option name="closed" value="true" />
-      <created>1759182709217</created>
-      <option name="number" value="00578" />
-      <option name="presentableId" value="LOCAL-00578" />
-      <option name="project" value="LOCAL" />
-      <updated>1759182709217</updated>
-    </task>
-    <task id="LOCAL-00579" summary="#211 - others">
-      <option name="closed" value="true" />
-      <created>1759182720623</created>
-      <option name="number" value="00579" />
-      <option name="presentableId" value="LOCAL-00579" />
-      <option name="project" value="LOCAL" />
-      <updated>1759182720623</updated>
     </task>
     <task id="LOCAL-00580" summary="#213 - new unit test">
       <option name="closed" value="true" />
@@ -615,7 +598,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764420674532</updated>
     </task>
-    <option name="localTasksCounter" value="627" />
+    <task id="LOCAL-00627" summary="#234 - delete unuseful method">
+      <option name="closed" value="true" />
+      <created>1764420979850</created>
+      <option name="number" value="00627" />
+      <option name="presentableId" value="LOCAL-00627" />
+      <option name="project" value="LOCAL" />
+      <updated>1764420979850</updated>
+    </task>
+    <task id="LOCAL-00628" summary="#234 - others">
+      <option name="closed" value="true" />
+      <created>1764420999224</created>
+      <option name="number" value="00628" />
+      <option name="presentableId" value="LOCAL-00628" />
+      <option name="project" value="LOCAL" />
+      <updated>1764420999224</updated>
+    </task>
+    <option name="localTasksCounter" value="629" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -642,8 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#216 - model to last ten atm operations" />
-    <MESSAGE value="#216 - others" />
     <MESSAGE value="#223 - model to last 10 atm operations" />
     <MESSAGE value="#226 - new model" />
     <MESSAGE value="#226 - method to get data from database" />
@@ -667,6 +664,8 @@
     <MESSAGE value="#232 - others" />
     <MESSAGE value="#233 - new income type on web" />
     <MESSAGE value="#233 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#233 - others" />
+    <MESSAGE value="#234 - delete unuseful method" />
+    <MESSAGE value="#234 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#234 - others" />
   </component>
 </project>
