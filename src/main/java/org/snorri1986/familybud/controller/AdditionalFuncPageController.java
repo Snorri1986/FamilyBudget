@@ -41,7 +41,7 @@ public class AdditionalFuncPageController {
 
   @GetMapping("/payment_card")
   public String setNewPaymentCard(Model model) {
-    model.addAttribute("login_mod_attribute", new DefaultPaymentCardModel());
+    model.addAttribute("card_mod_attribute", new DefaultPaymentCardModel());
     return "new_card";
   }
 }
