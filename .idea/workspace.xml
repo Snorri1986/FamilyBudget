@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#241 - others">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#238 - others">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/new_card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/DefaultPaymentCardModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/DefaultPaymentCardModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,22 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00586" summary="#142 - set income code as on production">
-      <option name="closed" value="true" />
-      <created>1760180062262</created>
-      <option name="number" value="00586" />
-      <option name="presentableId" value="LOCAL-00586" />
-      <option name="project" value="LOCAL" />
-      <updated>1760180062262</updated>
-    </task>
-    <task id="LOCAL-00587" summary="#142 - others">
-      <option name="closed" value="true" />
-      <created>1760180078880</created>
-      <option name="number" value="00587" />
-      <option name="presentableId" value="LOCAL-00587" />
-      <option name="project" value="LOCAL" />
-      <updated>1760180078880</updated>
     </task>
     <task id="LOCAL-00588" summary="#217 - new table atm_cash_operations_log">
       <option name="closed" value="true" />
@@ -613,7 +600,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765019658102</updated>
     </task>
-    <option name="localTasksCounter" value="635" />
+    <task id="LOCAL-00635" summary="#238 - new method for insert new payment card to DB">
+      <option name="closed" value="true" />
+      <created>1765020002702</created>
+      <option name="number" value="00635" />
+      <option name="presentableId" value="LOCAL-00635" />
+      <option name="project" value="LOCAL" />
+      <updated>1765020002702</updated>
+    </task>
+    <task id="LOCAL-00636" summary="#238 - others">
+      <option name="closed" value="true" />
+      <created>1765020022422</created>
+      <option name="number" value="00636" />
+      <option name="presentableId" value="LOCAL-00636" />
+      <option name="project" value="LOCAL" />
+      <updated>1765020022422</updated>
+    </task>
+    <option name="localTasksCounter" value="637" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -640,8 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#224 - others" />
-    <MESSAGE value="#225 - table's fields were incorrect" />
     <MESSAGE value="#225 - new fields" />
     <MESSAGE value="#225 - others" />
     <MESSAGE value="#227 - new unit-test" />
@@ -665,6 +666,8 @@
     <MESSAGE value="#237 - others" />
     <MESSAGE value="#241 - model for new default payment card" />
     <MESSAGE value="#241 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#241 - others" />
+    <MESSAGE value="#238 - new method for insert new payment card to DB" />
+    <MESSAGE value="#238 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#238 - others" />
   </component>
 </project>
