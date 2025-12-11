@@ -7,6 +7,8 @@ public class DefaultPaymentCardModel {
     this.cardNumber = cardNumber;
   }
 
+  public DefaultPaymentCardModel() {}
+
   public String getCardNumber() {
     return cardNumber;
   }
