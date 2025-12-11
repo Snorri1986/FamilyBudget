@@ -1,7 +1,9 @@
 package org.snorri1986.familybud.controller;
 
 import org.snorri1986.familybud.models.AtmModelWeb;
+import org.snorri1986.familybud.models.DefaultPaymentCardModel;
 import org.snorri1986.familybud.models.LastTenAtmOperationsModel;
+import org.snorri1986.familybud.models.UserModel;
 import org.snorri1986.familybud.service.DBService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -35,5 +37,11 @@ public class AdditionalFuncPageController {
     int cashBalance = webFormsController.getCashBalanceFromDB();
     model.addAttribute("cashBalance", cashBalance);
     return "cash_balance";
+  }
+
+  @GetMapping("/payment_card")
+  public String setNewPaymentCard(Model model) {
+    model.addAttribute("login_mod_attribute", new DefaultPaymentCardModel());
+    return "new_card";
   }
 }
