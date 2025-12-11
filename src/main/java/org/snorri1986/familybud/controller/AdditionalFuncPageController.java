@@ -1,14 +1,13 @@
 package org.snorri1986.familybud.controller;
 
-import org.snorri1986.familybud.models.AtmModelWeb;
-import org.snorri1986.familybud.models.DefaultPaymentCardModel;
-import org.snorri1986.familybud.models.LastTenAtmOperationsModel;
-import org.snorri1986.familybud.models.UserModel;
+import org.snorri1986.familybud.models.*;
 import org.snorri1986.familybud.service.DBService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.Arrays;
 import java.util.List;
@@ -43,5 +42,15 @@ public class AdditionalFuncPageController {
   public String setNewPaymentCard(Model model) {
     model.addAttribute("card_mod_attribute", new DefaultPaymentCardModel());
     return "new_card";
+  }
+
+  @PostMapping("/registerNewCard")
+  public String submitNewCardForm(@ModelAttribute("card_mod_attribute") DefaultPaymentCardModel newCardForm) {
+    DefaultPaymentCardModel defaultPaymentCardModel = new DefaultPaymentCardModel();
+    defaultPaymentCardModel.setCardNumber(newCardForm.getCardNumber());
+    // logging
+    System.out.println("New card number to DB" + defaultPaymentCardModel.toString());
+    dbService.insertNewDefaultPaymentCard(defaultPaymentCardModel);
+    return "s_card";
   }
 }
