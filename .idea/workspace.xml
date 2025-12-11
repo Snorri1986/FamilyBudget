@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#238 - others">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/new_card.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#243 - others">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/new_card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/DefaultPaymentCardModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/DefaultPaymentCardModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/new_card.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/new_card.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,46 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00588" summary="#217 - new table atm_cash_operations_log">
-      <option name="closed" value="true" />
-      <created>1761391264119</created>
-      <option name="number" value="00588" />
-      <option name="presentableId" value="LOCAL-00588" />
-      <option name="project" value="LOCAL" />
-      <updated>1761391264120</updated>
-    </task>
-    <task id="LOCAL-00589" summary="#217 - others">
-      <option name="closed" value="true" />
-      <created>1761391533536</created>
-      <option name="number" value="00589" />
-      <option name="presentableId" value="LOCAL-00589" />
-      <option name="project" value="LOCAL" />
-      <updated>1761391533536</updated>
-    </task>
-    <task id="LOCAL-00590" summary="#218 - save on atm_cash_operations_log table for income">
-      <option name="closed" value="true" />
-      <created>1761392086804</created>
-      <option name="number" value="00590" />
-      <option name="presentableId" value="LOCAL-00590" />
-      <option name="project" value="LOCAL" />
-      <updated>1761392086804</updated>
-    </task>
-    <task id="LOCAL-00591" summary="#218 - others">
-      <option name="closed" value="true" />
-      <created>1761392099705</created>
-      <option name="number" value="00591" />
-      <option name="presentableId" value="LOCAL-00591" />
-      <option name="project" value="LOCAL" />
-      <updated>1761392099705</updated>
-    </task>
-    <task id="LOCAL-00592" summary="#219 - using atm_cash_operations_log for expenses">
-      <option name="closed" value="true" />
-      <created>1761392645010</created>
-      <option name="number" value="00592" />
-      <option name="presentableId" value="LOCAL-00592" />
-      <option name="project" value="LOCAL" />
-      <updated>1761392645010</updated>
     </task>
     <task id="LOCAL-00593" summary="#219 - others">
       <option name="closed" value="true" />
@@ -616,7 +576,47 @@
       <option name="project" value="LOCAL" />
       <updated>1765020022422</updated>
     </task>
-    <option name="localTasksCounter" value="637" />
+    <task id="LOCAL-00637" summary="#243 - new endpoint">
+      <option name="closed" value="true" />
+      <created>1765479929855</created>
+      <option name="number" value="00637" />
+      <option name="presentableId" value="LOCAL-00637" />
+      <option name="project" value="LOCAL" />
+      <updated>1765479929855</updated>
+    </task>
+    <task id="LOCAL-00638" summary="#243 - new empty constructor">
+      <option name="closed" value="true" />
+      <created>1765479948522</created>
+      <option name="number" value="00638" />
+      <option name="presentableId" value="LOCAL-00638" />
+      <option name="project" value="LOCAL" />
+      <updated>1765479948522</updated>
+    </task>
+    <task id="LOCAL-00639" summary="#243 - new handler for button Set/Add card default">
+      <option name="closed" value="true" />
+      <created>1765479984671</created>
+      <option name="number" value="00639" />
+      <option name="presentableId" value="LOCAL-00639" />
+      <option name="project" value="LOCAL" />
+      <updated>1765479984671</updated>
+    </task>
+    <task id="LOCAL-00640" summary="#243 - new temporary page for web_form">
+      <option name="closed" value="true" />
+      <created>1765480003718</created>
+      <option name="number" value="00640" />
+      <option name="presentableId" value="LOCAL-00640" />
+      <option name="project" value="LOCAL" />
+      <updated>1765480003718</updated>
+    </task>
+    <task id="LOCAL-00641" summary="#243 - others">
+      <option name="closed" value="true" />
+      <created>1765480012777</created>
+      <option name="number" value="00641" />
+      <option name="presentableId" value="LOCAL-00641" />
+      <option name="project" value="LOCAL" />
+      <updated>1765480012777</updated>
+    </task>
+    <option name="localTasksCounter" value="642" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -643,11 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#225 - new fields" />
-    <MESSAGE value="#225 - others" />
-    <MESSAGE value="#227 - new unit-test" />
-    <MESSAGE value="#227 - others" />
-    <MESSAGE value="#228 - remove old method" />
     <MESSAGE value="#228 - others" />
     <MESSAGE value="#228 - remove old function" />
     <MESSAGE value="#230 - new income type" />
@@ -668,6 +663,11 @@
     <MESSAGE value="#241 - others" />
     <MESSAGE value="#238 - new method for insert new payment card to DB" />
     <MESSAGE value="#238 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#238 - others" />
+    <MESSAGE value="#243 - new endpoint" />
+    <MESSAGE value="#243 - new empty constructor" />
+    <MESSAGE value="#243 - new handler for button Set/Add card default" />
+    <MESSAGE value="#243 - new temporary page for web_form" />
+    <MESSAGE value="#243 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#243 - others" />
   </component>
 </project>
