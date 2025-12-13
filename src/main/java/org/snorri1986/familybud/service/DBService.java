@@ -362,6 +362,16 @@ public class DBService {
       }
     });
   }
+
+  public DefaultPaymentCardModel getPaymentCardDefault() {
+    String sql = "SELECT * from public.get_default_card()";
+    return (DefaultPaymentCardModel) jdbcTemplate.query(sql, new RowMapper<DefaultPaymentCardModel>() {
+      @Override
+      public DefaultPaymentCardModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new DefaultPaymentCardModel(rs.getString("card_default"));
+      }
+    });
+  }
 }
 
 
