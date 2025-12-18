@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#239 - Groceries.Controller method with default card" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#239 - Health.Others">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/RentHousingModelWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/RentHousingModelWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TelecomModelWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TelecomModelWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModelWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelModelWeb.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,30 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00614" summary="#227 - new unit-test">
-      <option name="closed" value="true" />
-      <created>1763817089487</created>
-      <option name="number" value="00614" />
-      <option name="presentableId" value="LOCAL-00614" />
-      <option name="project" value="LOCAL" />
-      <updated>1763817089487</updated>
-    </task>
-    <task id="LOCAL-00615" summary="#227 - others">
-      <option name="closed" value="true" />
-      <created>1763817105938</created>
-      <option name="number" value="00615" />
-      <option name="presentableId" value="LOCAL-00615" />
-      <option name="project" value="LOCAL" />
-      <updated>1763817105938</updated>
-    </task>
-    <task id="LOCAL-00616" summary="#228 - remove old method">
-      <option name="closed" value="true" />
-      <created>1763817310272</created>
-      <option name="number" value="00616" />
-      <option name="presentableId" value="LOCAL-00616" />
-      <option name="project" value="LOCAL" />
-      <updated>1763817310272</updated>
     </task>
     <task id="LOCAL-00617" summary="#228 - others">
       <option name="closed" value="true" />
@@ -611,7 +592,31 @@
       <option name="project" value="LOCAL" />
       <updated>1766091287509</updated>
     </task>
-    <option name="localTasksCounter" value="663" />
+    <task id="LOCAL-00663" summary="#239 - Health.New constructors">
+      <option name="closed" value="true" />
+      <created>1766091524988</created>
+      <option name="number" value="00663" />
+      <option name="presentableId" value="LOCAL-00663" />
+      <option name="project" value="LOCAL" />
+      <updated>1766091524988</updated>
+    </task>
+    <task id="LOCAL-00664" summary="#239 - Health.Controller methods with default card">
+      <option name="closed" value="true" />
+      <created>1766091553828</created>
+      <option name="number" value="00664" />
+      <option name="presentableId" value="LOCAL-00664" />
+      <option name="project" value="LOCAL" />
+      <updated>1766091553828</updated>
+    </task>
+    <task id="LOCAL-00665" summary="#239 - Health.Others">
+      <option name="closed" value="true" />
+      <created>1766091576654</created>
+      <option name="number" value="00665" />
+      <option name="presentableId" value="LOCAL-00665" />
+      <option name="project" value="LOCAL" />
+      <updated>1766091576654</updated>
+    </task>
+    <option name="localTasksCounter" value="666" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -638,9 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#238 - others" />
-    <MESSAGE value="#243 - new endpoint" />
-    <MESSAGE value="#243 - new empty constructor" />
     <MESSAGE value="#243 - new handler for button Set/Add card default" />
     <MESSAGE value="#243 - new temporary page for web_form" />
     <MESSAGE value="#243 - new web form" />
@@ -663,6 +665,9 @@
     <MESSAGE value="#239 - others" />
     <MESSAGE value="#239 - Groceries. New constructors" />
     <MESSAGE value="#239 - Groceries.Controller method with default card" />
-    <option name="LAST_COMMIT_MESSAGE" value="#239 - Groceries.Controller method with default card" />
+    <MESSAGE value="#239 - Health.New constructors" />
+    <MESSAGE value="#239 - Health.Controller methods with default card" />
+    <MESSAGE value="#239 - Health.Others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#239 - Health.Others" />
   </component>
 </project>
