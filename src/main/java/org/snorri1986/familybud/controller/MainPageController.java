@@ -36,7 +36,8 @@ public class MainPageController {
     List<String> incomes = Arrays.asList("Salary", "Bonus", "TravelRefund", "ShopRefund","Money transfer R","HumanRefund","Other");
     List<LastTenIncomesModel> lastTenIncomesCard = dbService.getLastTenIncomesCard();
     List<LastTenIncomesModel> lastTenIncomesCash = dbService.getLastTenIncomesCash();
-    model.addAttribute("income_mod_attribute", new IncomeModelWeb());
+    int defaultPaymentCard = dbService.getPaymentCardDefault();
+    model.addAttribute("income_mod_attribute", new IncomeModelWeb(defaultPaymentCard));
     model.addAttribute("incomes", incomes);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
