@@ -96,7 +96,8 @@ public class MainPageController {
     List<String> housingTypes = Arrays.asList("Rent","Mortage","Money transfer S","A-kass","Electricity","HouseEquipments","Renovation","Other");
     List<LastTenHousingRentOperationsModel> lastTenRentHousingCard = dbService.getLastTenHousingRentOperationsCard();
     List<LastTenHousingRentOperationsModel> lastTenRentHousingCash = dbService.getLastTenHousingRentOperationsCash();
-    model.addAttribute("rent_housing_mod_attribute", new RentHousingModelWeb());
+    int defaultPaymentCard = dbService.getPaymentCardDefault();
+    model.addAttribute("rent_housing_mod_attribute", new RentHousingModelWeb(defaultPaymentCard));
     model.addAttribute("housingTypes", housingTypes);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
@@ -110,7 +111,8 @@ public class MainPageController {
     List<String> telecomOperations = Arrays.asList("Mobile","Internet","Roaming bundles","Others");
     List<LastTenTelecomOperationsModel> lastTenTelecomCard = dbService.getLastTenTelecomOperationsCard();
     List<LastTenTelecomOperationsModel> lastTenTelecomCash = dbService.getLastTenTelecomOperationsCash();
-    model.addAttribute("telecom_mod_attribute", new TelecomModelWeb());
+    int defaultPaymentCard = dbService.getPaymentCardDefault();
+    model.addAttribute("telecom_mod_attribute", new TelecomModelWeb(defaultPaymentCard));
     model.addAttribute("telecomOperations", telecomOperations);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
@@ -124,7 +126,8 @@ public class MainPageController {
     List<String> travelActivities = Arrays.asList("Tickets","Hotel","FoodInTrip","TravelEntertainment","Public transport","Others");
     List<LastTenTravelOperationsModel> lastTenTravelCard = dbService.getLastTenTravelOperationsCard();
     List<LastTenTravelOperationsModel> lastTenTravelCash = dbService.getLastTenTravelOperationsCash();
-    model.addAttribute("travel_mod_attribute", new TravelModelWeb());
+    int defaultPaymentCard = dbService.getPaymentCardDefault();
+    model.addAttribute("travel_mod_attribute", new TravelModelWeb(defaultPaymentCard));
     model.addAttribute("travelActivities", travelActivities);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
