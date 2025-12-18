@@ -51,7 +51,8 @@ public class MainPageController {
     List<String> entList = Arrays.asList("Travel", "Cinema", "Vacation", "Relax","Restaurant","Homefest","Other");
     List<LastTenEntertainmentModel> lastTenEntertainmentCard = dbService.getLastTenEntertainmentOperationsCard();
     List<LastTenEntertainmentModel> lastTenEntertainmentCash = dbService.getLastTenEntertainmentOperationsCash();
-    model.addAttribute("entertainment_mod_attribute", new EntertainmentModelWeb());
+    int defaultPaymentCard = dbService.getPaymentCardDefault();
+    model.addAttribute("entertainment_mod_attribute", new EntertainmentModelWeb(defaultPaymentCard));
     model.addAttribute("entList", entList);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
