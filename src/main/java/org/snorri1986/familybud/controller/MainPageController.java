@@ -81,7 +81,8 @@ public class MainPageController {
     List<String> healthTypeList = Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Haircut","Other");
     List<LastTenHealthOperationsModel> lastTenHealthCardOperations = dbService.getLastTenHealthOperationsCard();
     List<LastTenHealthOperationsModel> lastTenHealthCashOperations = dbService.getLastTenHealthOperationsCash();
-    model.addAttribute("health_mod_attribute", new HealthModelWeb());
+    int defaultPaymentCard = dbService.getPaymentCardDefault();
+    model.addAttribute("health_mod_attribute", new HealthModelWeb(defaultPaymentCard));
     model.addAttribute("healthTypeList", healthTypeList);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
