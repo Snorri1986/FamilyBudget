@@ -14,6 +14,12 @@ public class EntertainmentModelWeb {
   private int cardNum;
   private String operDescription;
 
+  public EntertainmentModelWeb() {}
+
+  public EntertainmentModelWeb(int cardNum) {
+    this.cardNum = cardNum;
+  }
+
   public String getEventType() {
     return eventType;
   }
