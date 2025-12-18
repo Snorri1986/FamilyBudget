@@ -66,7 +66,8 @@ public class MainPageController {
     List<String> purchesList = Arrays.asList("Daily","Weekly","Weekend","Fest","Clothes","Lunch at work","Other");
     List<LastTenGroceriesOperModel> lastTenGroceriesCard = dbService.getLastTenGroceriesOperationsCard();
     List<LastTenGroceriesOperModel> lastTenGroceriesCash = dbService.getLastTenGroceriesOperationsCash();
-    model.addAttribute("groceries_mod_attribute", new GroceriesModelWeb());
+    int defaultPaymentCard = dbService.getPaymentCardDefault();
+    model.addAttribute("groceries_mod_attribute", new GroceriesModelWeb(defaultPaymentCard));
     model.addAttribute("purchesList", purchesList);
     model.addAttribute("currencyNames", currencyNames);
     model.addAttribute("transactionTypes", transactionTypes);
