@@ -40,4 +40,12 @@ public class AdditionalFuncPageControllerTest {
     Mockito.verify(dbService).insertNewDefaultPaymentCard(captor.capture());
     assertEquals("1234", captor.getValue().getCardNumber());
   }
+
+  @Test
+  void testGetPaymentCardDefault() {
+    Mockito.when(dbService.getPaymentCardDefault()).thenReturn(1234);
+    int card_result = dbService.getPaymentCardDefault();
+    assertEquals(1234, card_result);
+    Mockito.verify(dbService).getPaymentCardDefault();
+  }
 }
