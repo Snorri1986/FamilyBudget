@@ -2,9 +2,12 @@ package org.snorri1986.familybud.controller;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.ArgumentCaptor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.snorri1986.familybud.models.DefaultPaymentCardModel;
 import org.snorri1986.familybud.service.DBService;
 import org.springframework.ui.Model;
 
@@ -26,5 +29,15 @@ public class AdditionalFuncPageControllerTest {
   void testGetAtmCashPage() {
     String viewName = additionalFuncPageController.getLastTenAtmCashOperations(model);
     assertEquals("atm_cash", viewName);
+  }
+
+  @Test
+  void testSubmitNewCardForm() {
+    DefaultPaymentCardModel defaultPaymentCardModel = new DefaultPaymentCardModel();
+    defaultPaymentCardModel.setCardNumber("1234");
+    ArgumentCaptor<DefaultPaymentCardModel> captor = ArgumentCaptor.forClass(DefaultPaymentCardModel.class);
+    String result = additionalFuncPageController.submitNewCardForm(defaultPaymentCardModel);
+    Mockito.verify(dbService).insertNewDefaultPaymentCard(captor.capture());
+    assertEquals("1234", captor.getValue().getCardNumber());
   }
 }
