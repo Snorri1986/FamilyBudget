@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#249 - others">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelReportRequestModel.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#253 - others">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/travel_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelReportRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelReportRequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,22 +229,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00631" summary="#237 - function to add new default payment card">
-      <option name="closed" value="true" />
-      <created>1765019260866</created>
-      <option name="number" value="00631" />
-      <option name="presentableId" value="LOCAL-00631" />
-      <option name="project" value="LOCAL" />
-      <updated>1765019260866</updated>
-    </task>
-    <task id="LOCAL-00632" summary="#237 - others">
-      <option name="closed" value="true" />
-      <created>1765019277293</created>
-      <option name="number" value="00632" />
-      <option name="presentableId" value="LOCAL-00632" />
-      <option name="project" value="LOCAL" />
-      <updated>1765019277293</updated>
     </task>
     <task id="LOCAL-00633" summary="#241 - model for new default payment card">
       <option name="closed" value="true" />
@@ -617,7 +606,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767362321748</updated>
     </task>
-    <option name="localTasksCounter" value="680" />
+    <task id="LOCAL-00680" summary="#253 - new model for TravelRequest">
+      <option name="closed" value="true" />
+      <created>1767362537821</created>
+      <option name="number" value="00680" />
+      <option name="presentableId" value="LOCAL-00680" />
+      <option name="project" value="LOCAL" />
+      <updated>1767362537821</updated>
+    </task>
+    <task id="LOCAL-00681" summary="#253 - others">
+      <option name="closed" value="true" />
+      <created>1767362551682</created>
+      <option name="number" value="00681" />
+      <option name="presentableId" value="LOCAL-00681" />
+      <option name="project" value="LOCAL" />
+      <updated>1767362551682</updated>
+    </task>
+    <option name="localTasksCounter" value="682" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,8 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#247 - others" />
-    <MESSAGE value="#239 - new return type" />
     <MESSAGE value="#239 - just simple int enough" />
     <MESSAGE value="#239 - 2 constructors needs" />
     <MESSAGE value="#239 - method with default payment card" />
@@ -669,6 +672,8 @@
     <MESSAGE value="#248 - others" />
     <MESSAGE value="#249 - new button" />
     <MESSAGE value="#249 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#249 - others" />
+    <MESSAGE value="#253 - new model for TravelRequest" />
+    <MESSAGE value="#253 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#253 - others" />
   </component>
 </project>
