@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#248 - others">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#249 - others">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelReportRequestModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,22 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00629" summary="#236 - add new button">
-      <option name="closed" value="true" />
-      <created>1765018082368</created>
-      <option name="number" value="00629" />
-      <option name="presentableId" value="LOCAL-00629" />
-      <option name="project" value="LOCAL" />
-      <updated>1765018082370</updated>
-    </task>
-    <task id="LOCAL-00630" summary="#236 - others">
-      <option name="closed" value="true" />
-      <created>1765018097522</created>
-      <option name="number" value="00630" />
-      <option name="presentableId" value="LOCAL-00630" />
-      <option name="project" value="LOCAL" />
-      <updated>1765018097522</updated>
     </task>
     <task id="LOCAL-00631" summary="#237 - function to add new default payment card">
       <option name="closed" value="true" />
@@ -617,7 +601,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767360847746</updated>
     </task>
-    <option name="localTasksCounter" value="678" />
+    <task id="LOCAL-00678" summary="#249 - new button">
+      <option name="closed" value="true" />
+      <created>1767362304614</created>
+      <option name="number" value="00678" />
+      <option name="presentableId" value="LOCAL-00678" />
+      <option name="project" value="LOCAL" />
+      <updated>1767362304614</updated>
+    </task>
+    <task id="LOCAL-00679" summary="#249 - others">
+      <option name="closed" value="true" />
+      <created>1767362321748</created>
+      <option name="number" value="00679" />
+      <option name="presentableId" value="LOCAL-00679" />
+      <option name="project" value="LOCAL" />
+      <updated>1767362321748</updated>
+    </task>
+    <option name="localTasksCounter" value="680" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,8 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#246 - others" />
-    <MESSAGE value="#247 - new method returns default card" />
     <MESSAGE value="#247 - others" />
     <MESSAGE value="#239 - new return type" />
     <MESSAGE value="#239 - just simple int enough" />
@@ -669,6 +667,8 @@
     <MESSAGE value="#248 - clean up" />
     <MESSAGE value="#248 - new button" />
     <MESSAGE value="#248 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#248 - others" />
+    <MESSAGE value="#249 - new button" />
+    <MESSAGE value="#249 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#249 - others" />
   </component>
 </project>
