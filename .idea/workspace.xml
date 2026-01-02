@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#248 - clean up">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#248 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/DataSourceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/FamilyBudgetMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/UserModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,22 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00627" summary="#234 - delete unuseful method">
-      <option name="closed" value="true" />
-      <created>1764420979850</created>
-      <option name="number" value="00627" />
-      <option name="presentableId" value="LOCAL-00627" />
-      <option name="project" value="LOCAL" />
-      <updated>1764420979850</updated>
-    </task>
-    <task id="LOCAL-00628" summary="#234 - others">
-      <option name="closed" value="true" />
-      <created>1764420999224</created>
-      <option name="number" value="00628" />
-      <option name="presentableId" value="LOCAL-00628" />
-      <option name="project" value="LOCAL" />
-      <updated>1764420999224</updated>
     </task>
     <task id="LOCAL-00629" summary="#236 - add new button">
       <option name="closed" value="true" />
@@ -639,7 +601,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767360221791</updated>
     </task>
-    <option name="localTasksCounter" value="676" />
+    <task id="LOCAL-00676" summary="#248 - new button">
+      <option name="closed" value="true" />
+      <created>1767360835435</created>
+      <option name="number" value="00676" />
+      <option name="presentableId" value="LOCAL-00676" />
+      <option name="project" value="LOCAL" />
+      <updated>1767360835435</updated>
+    </task>
+    <task id="LOCAL-00677" summary="#248 - others">
+      <option name="closed" value="true" />
+      <created>1767360847746</created>
+      <option name="number" value="00677" />
+      <option name="presentableId" value="LOCAL-00677" />
+      <option name="project" value="LOCAL" />
+      <updated>1767360847746</updated>
+    </task>
+    <option name="localTasksCounter" value="678" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -666,8 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#245 - others" />
-    <MESSAGE value="#246 - new db function" />
     <MESSAGE value="#246 - others" />
     <MESSAGE value="#247 - new method returns default card" />
     <MESSAGE value="#247 - others" />
@@ -691,6 +667,8 @@
     <MESSAGE value="#240 - new UT for GetPaymentCardDefault" />
     <MESSAGE value="#240 - others" />
     <MESSAGE value="#248 - clean up" />
-    <option name="LAST_COMMIT_MESSAGE" value="#248 - clean up" />
+    <MESSAGE value="#248 - new button" />
+    <MESSAGE value="#248 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#248 - others" />
   </component>
 </project>
