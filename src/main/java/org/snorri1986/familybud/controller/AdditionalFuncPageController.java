@@ -53,4 +53,10 @@ public class AdditionalFuncPageController {
     dbService.insertNewDefaultPaymentCard(defaultPaymentCardModel);
     return "s_card";
   }
+
+  @GetMapping("/getTravelReport")
+  public String getTravelReport(Model model) {
+    model.addAttribute("travel_request_mod", new TravelReportRequestModel());
+    return "travel_report";
+  }
 }
