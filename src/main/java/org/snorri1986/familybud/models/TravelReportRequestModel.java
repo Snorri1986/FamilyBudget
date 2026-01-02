@@ -1,9 +1,9 @@
 package org.snorri1986.familybud.models;
 
 public class TravelReportRequestModel {
-  String travelDestination;
+  private String travelDestination;
 
-  TravelReportRequestModel() {}
+  public TravelReportRequestModel() {}
 
   public TravelReportRequestModel(String travelDestination) {
     this.travelDestination = travelDestination;
