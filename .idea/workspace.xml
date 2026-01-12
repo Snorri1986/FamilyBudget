@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#253 - others">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/travel_report.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#257 - others">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/travel_report.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelReportRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelReportRequestModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/travel_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/travel_report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,38 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00633" summary="#241 - model for new default payment card">
-      <option name="closed" value="true" />
-      <created>1765019645653</created>
-      <option name="number" value="00633" />
-      <option name="presentableId" value="LOCAL-00633" />
-      <option name="project" value="LOCAL" />
-      <updated>1765019645653</updated>
-    </task>
-    <task id="LOCAL-00634" summary="#241 - others">
-      <option name="closed" value="true" />
-      <created>1765019658100</created>
-      <option name="number" value="00634" />
-      <option name="presentableId" value="LOCAL-00634" />
-      <option name="project" value="LOCAL" />
-      <updated>1765019658102</updated>
-    </task>
-    <task id="LOCAL-00635" summary="#238 - new method for insert new payment card to DB">
-      <option name="closed" value="true" />
-      <created>1765020002702</created>
-      <option name="number" value="00635" />
-      <option name="presentableId" value="LOCAL-00635" />
-      <option name="project" value="LOCAL" />
-      <updated>1765020002702</updated>
-    </task>
-    <task id="LOCAL-00636" summary="#238 - others">
-      <option name="closed" value="true" />
-      <created>1765020022422</created>
-      <option name="number" value="00636" />
-      <option name="presentableId" value="LOCAL-00636" />
-      <option name="project" value="LOCAL" />
-      <updated>1765020022422</updated>
     </task>
     <task id="LOCAL-00637" summary="#243 - new endpoint">
       <option name="closed" value="true" />
@@ -622,7 +589,39 @@
       <option name="project" value="LOCAL" />
       <updated>1767362551682</updated>
     </task>
-    <option name="localTasksCounter" value="682" />
+    <task id="LOCAL-00682" summary="#257 - public constructor">
+      <option name="closed" value="true" />
+      <created>1767363355753</created>
+      <option name="number" value="00682" />
+      <option name="presentableId" value="LOCAL-00682" />
+      <option name="project" value="LOCAL" />
+      <updated>1767363355753</updated>
+    </task>
+    <task id="LOCAL-00683" summary="#257 - new get method getTravelReport(Model model)">
+      <option name="closed" value="true" />
+      <created>1767363431286</created>
+      <option name="number" value="00683" />
+      <option name="presentableId" value="LOCAL-00683" />
+      <option name="project" value="LOCAL" />
+      <updated>1767363431286</updated>
+    </task>
+    <task id="LOCAL-00684" summary="#257 - new empty web page">
+      <option name="closed" value="true" />
+      <created>1767363446869</created>
+      <option name="number" value="00684" />
+      <option name="presentableId" value="LOCAL-00684" />
+      <option name="project" value="LOCAL" />
+      <updated>1767363446869</updated>
+    </task>
+    <task id="LOCAL-00685" summary="#257 - others">
+      <option name="closed" value="true" />
+      <created>1767363458937</created>
+      <option name="number" value="00685" />
+      <option name="presentableId" value="LOCAL-00685" />
+      <option name="project" value="LOCAL" />
+      <updated>1767363458937</updated>
+    </task>
+    <option name="localTasksCounter" value="686" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -649,10 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#239 - just simple int enough" />
-    <MESSAGE value="#239 - 2 constructors needs" />
-    <MESSAGE value="#239 - method with default payment card" />
-    <MESSAGE value="#239 - 2 new constructors for EntertainmentModelWeb" />
     <MESSAGE value="#239 - add defaultPaymentCard" />
     <MESSAGE value="#239 - Groceries. New constructors" />
     <MESSAGE value="#239 - Groceries.Controller method with default card" />
@@ -674,6 +669,10 @@
     <MESSAGE value="#249 - others" />
     <MESSAGE value="#253 - new model for TravelRequest" />
     <MESSAGE value="#253 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#253 - others" />
+    <MESSAGE value="#257 - public constructor" />
+    <MESSAGE value="#257 - new get method getTravelReport(Model model)" />
+    <MESSAGE value="#257 - new empty web page" />
+    <MESSAGE value="#257 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#257 - others" />
   </component>
 </project>
