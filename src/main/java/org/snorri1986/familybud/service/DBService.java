@@ -363,6 +363,22 @@ public class DBService {
     });
   }
 
+  public List<TravelReportResponseModel> getTravelExpenseReportDB(TravelReportRequestModel travelReportRequestModel) {
+    String sql = "SELECT public.get_travel_expense_report(?)";
+    jdbcTemplate.queryForObject(sql, new Object[]{travelReportRequestModel.getTravelDestination()}, String.class);
+    return jdbcTemplate.query(sql, new RowMapper<TravelReportResponseModel>() {
+      @Override
+      public TravelReportResponseModel mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new TravelReportResponseModel(rs.getInt("tr_type_id"),
+                rs.getInt("amount"),
+                rs.getInt("currency"),
+                rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
+                rs.getInt("source_card"),
+                rs.getString("comments"));
+      }
+    });
+  }
+
   public int getPaymentCardDefault() {
     String sql = "SELECT * from public.get_default_card()";
     return jdbcTemplate.queryForObject(sql, Integer.class);
