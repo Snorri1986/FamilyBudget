@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#250 - change endpoint name">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#252 - others">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelReportResponseModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -120,22 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdditionalFuncPageControllerTest.testInsertNewDefaultPaymentCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
-      <option name="METHOD_NAME" value="testInsertNewDefaultPaymentCard" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AdditionalFuncPageControllerTest.testSubmitNewCardForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -148,6 +133,21 @@
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
       <option name="METHOD_NAME" value="testSubmitNewCardForm" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,8 +199,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.MainPageControllerTest" />
       <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetPaymentCardDefault" />
-      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testInsertNewDefaultPaymentCard" />
       <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testSubmitNewCardForm" />
       <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
       <item itemvalue="JUnit.WebFormsControllerTest" />
@@ -208,11 +208,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebFormsControllerTest" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testSubmitNewCardForm" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetPaymentCardDefault" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testInsertNewDefaultPaymentCard" />
-        <item itemvalue="JUnit.WebFormsControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -224,22 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00641" summary="#243 - others">
-      <option name="closed" value="true" />
-      <created>1765480012777</created>
-      <option name="number" value="00641" />
-      <option name="presentableId" value="LOCAL-00641" />
-      <option name="project" value="LOCAL" />
-      <updated>1765480012777</updated>
-    </task>
-    <task id="LOCAL-00642" summary="#243 - new web form">
-      <option name="closed" value="true" />
-      <created>1765481319875</created>
-      <option name="number" value="00642" />
-      <option name="presentableId" value="LOCAL-00642" />
-      <option name="project" value="LOCAL" />
-      <updated>1765481319875</updated>
     </task>
     <task id="LOCAL-00643" summary="#243 - css for new web form">
       <option name="closed" value="true" />
@@ -617,7 +601,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768245514263</updated>
     </task>
-    <option name="localTasksCounter" value="690" />
+    <task id="LOCAL-00690" summary="#252 - new DB function">
+      <option name="closed" value="true" />
+      <created>1768419097474</created>
+      <option name="number" value="00690" />
+      <option name="presentableId" value="LOCAL-00690" />
+      <option name="project" value="LOCAL" />
+      <updated>1768419097476</updated>
+    </task>
+    <task id="LOCAL-00691" summary="#252 - others">
+      <option name="closed" value="true" />
+      <created>1768419106019</created>
+      <option name="number" value="00691" />
+      <option name="presentableId" value="LOCAL-00691" />
+      <option name="project" value="LOCAL" />
+      <updated>1768419106019</updated>
+    </task>
+    <option name="localTasksCounter" value="692" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,8 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#239 - Health.Controller methods with default card" />
-    <MESSAGE value="#239 - Health.Others" />
     <MESSAGE value="#239 - others" />
     <MESSAGE value="#239 - RentHousing. 2 new constructors" />
     <MESSAGE value="#239 - Telecom. 2 new constructors" />
@@ -669,6 +667,8 @@
     <MESSAGE value="#250 - onclick attrib for button Travel report" />
     <MESSAGE value="#250 - web page with form and css to it" />
     <MESSAGE value="#250 - change endpoint name" />
-    <option name="LAST_COMMIT_MESSAGE" value="#250 - change endpoint name" />
+    <MESSAGE value="#252 - new DB function" />
+    <MESSAGE value="#252 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#252 - others" />
   </component>
 </project>
