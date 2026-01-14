@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#252 - others">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/TravelReportResponseModel.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#254 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -224,22 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00643" summary="#243 - css for new web form">
-      <option name="closed" value="true" />
-      <created>1765481331585</created>
-      <option name="number" value="00643" />
-      <option name="presentableId" value="LOCAL-00643" />
-      <option name="project" value="LOCAL" />
-      <updated>1765481331585</updated>
-    </task>
-    <task id="LOCAL-00644" summary="#243 - rename attribute">
-      <option name="closed" value="true" />
-      <created>1765481353065</created>
-      <option name="number" value="00644" />
-      <option name="presentableId" value="LOCAL-00644" />
-      <option name="project" value="LOCAL" />
-      <updated>1765481353065</updated>
     </task>
     <task id="LOCAL-00645" summary="#243 - others">
       <option name="closed" value="true" />
@@ -617,7 +601,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768419106019</updated>
     </task>
-    <option name="localTasksCounter" value="692" />
+    <task id="LOCAL-00692" summary="#254 - model for response from DB">
+      <option name="closed" value="true" />
+      <created>1768419680690</created>
+      <option name="number" value="00692" />
+      <option name="presentableId" value="LOCAL-00692" />
+      <option name="project" value="LOCAL" />
+      <updated>1768419680690</updated>
+    </task>
+    <task id="LOCAL-00693" summary="#254 - others">
+      <option name="closed" value="true" />
+      <created>1768419692263</created>
+      <option name="number" value="00693" />
+      <option name="presentableId" value="LOCAL-00693" />
+      <option name="project" value="LOCAL" />
+      <updated>1768419692263</updated>
+    </task>
+    <option name="localTasksCounter" value="694" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,8 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#239 - others" />
-    <MESSAGE value="#239 - RentHousing. 2 new constructors" />
     <MESSAGE value="#239 - Telecom. 2 new constructors" />
     <MESSAGE value="#239 - Travel. 2 new constructors" />
     <MESSAGE value="#239 - Renthousing, Telecom, Travel with default card" />
@@ -669,6 +667,8 @@
     <MESSAGE value="#250 - change endpoint name" />
     <MESSAGE value="#252 - new DB function" />
     <MESSAGE value="#252 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#252 - others" />
+    <MESSAGE value="#254 - model for response from DB" />
+    <MESSAGE value="#254 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#254 - others" />
   </component>
 </project>
