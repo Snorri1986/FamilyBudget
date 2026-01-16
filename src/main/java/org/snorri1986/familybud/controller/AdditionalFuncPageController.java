@@ -59,4 +59,12 @@ public class AdditionalFuncPageController {
     model.addAttribute("travel_request_mod", new TravelReportRequestModel());
     return "travel_report";
   }
+
+  @PostMapping("/getTravelReport")
+  public String getTravelExpense(@ModelAttribute("travel_request_mod") TravelReportRequestModel travelReportRequestModel,Model model) {
+    List<TravelReportResponseModel> reportList =
+            dbService.getTravelExpenseReportDB(travelReportRequestModel);
+    model.addAttribute("reportList", reportList);
+    return "travel_report";
+  }
 }
