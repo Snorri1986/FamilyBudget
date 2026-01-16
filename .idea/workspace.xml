@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#254 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#259 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_travel_expense_report.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_travel_expense_report.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,22 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00645" summary="#243 - others">
-      <option name="closed" value="true" />
-      <created>1765481361407</created>
-      <option name="number" value="00645" />
-      <option name="presentableId" value="LOCAL-00645" />
-      <option name="project" value="LOCAL" />
-      <updated>1765481361407</updated>
-    </task>
-    <task id="LOCAL-00646" summary="#245 - new post endpoint /registerNewCard">
-      <option name="closed" value="true" />
-      <created>1765482513043</created>
-      <option name="number" value="00646" />
-      <option name="presentableId" value="LOCAL-00646" />
-      <option name="project" value="LOCAL" />
-      <updated>1765482513043</updated>
     </task>
     <task id="LOCAL-00647" summary="#245 - success page">
       <option name="closed" value="true" />
@@ -617,7 +605,23 @@
       <option name="project" value="LOCAL" />
       <updated>1768419692263</updated>
     </task>
-    <option name="localTasksCounter" value="694" />
+    <task id="LOCAL-00694" summary="#259 - new method on DBService side">
+      <option name="closed" value="true" />
+      <created>1768420686243</created>
+      <option name="number" value="00694" />
+      <option name="presentableId" value="LOCAL-00694" />
+      <option name="project" value="LOCAL" />
+      <updated>1768420686245</updated>
+    </task>
+    <task id="LOCAL-00695" summary="#259 - others">
+      <option name="closed" value="true" />
+      <created>1768420702676</created>
+      <option name="number" value="00695" />
+      <option name="presentableId" value="LOCAL-00695" />
+      <option name="project" value="LOCAL" />
+      <updated>1768420702676</updated>
+    </task>
+    <option name="localTasksCounter" value="696" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -644,8 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#239 - Telecom. 2 new constructors" />
-    <MESSAGE value="#239 - Travel. 2 new constructors" />
     <MESSAGE value="#239 - Renthousing, Telecom, Travel with default card" />
     <MESSAGE value="#240 - new UT. Set new default card" />
     <MESSAGE value="#240 - new UT for GetPaymentCardDefault" />
@@ -669,6 +671,8 @@
     <MESSAGE value="#252 - others" />
     <MESSAGE value="#254 - model for response from DB" />
     <MESSAGE value="#254 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#254 - others" />
+    <MESSAGE value="#259 - new method on DBService side" />
+    <MESSAGE value="#259 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#259 - others" />
   </component>
 </project>
