@@ -363,7 +363,8 @@ public class DBService {
     });
   }
 
-  public List<TravelReportResponseModel> getTravelExpenseReportDB(TravelReportRequestModel travelReportRequestModel) {
+  // TODO: clean up
+  /*public List<TravelReportResponseModel> getTravelExpenseReportDB(TravelReportRequestModel travelReportRequestModel) {
     String sql = "SELECT public.get_travel_expense_report(?)";
     jdbcTemplate.queryForObject(sql, new Object[]{travelReportRequestModel.getTravelDestination()}, String.class);
     return jdbcTemplate.query(sql, new RowMapper<TravelReportResponseModel>() {
@@ -377,6 +378,27 @@ public class DBService {
                 rs.getString("comments"));
       }
     });
+  }*/
+
+  public List<TravelReportResponseModel> getTravelExpenseReportDB(
+          TravelReportRequestModel travelReportRequestModel) {
+
+    String sql = "SELECT * FROM public.get_travel_expense_report(?)";
+
+    return jdbcTemplate.query(
+            sql,
+            new Object[]{travelReportRequestModel.getTravelDestination()},
+            (rs, rowNum) -> new TravelReportResponseModel(
+                    rs.getInt("tr_type_id"),
+                    rs.getInt("amount"),
+                    rs.getInt("currency"),
+                    rs.getTimestamp("date")
+                            .toInstant()
+                            .atZone(ZoneId.systemDefault()),
+                    rs.getObject("source_card", Integer.class), // safer
+                    rs.getString("comments")
+            )
+    );
   }
 
   public int getPaymentCardDefault() {
