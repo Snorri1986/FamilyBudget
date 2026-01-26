@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#251 - others">
-      <change beforePath="$PROJECT_DIR$/.PVS-Studio/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.PVS-Studio/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#225 - html solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/travel_report.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/travel_report.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/travel_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/travel_report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +91,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -227,38 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00651" summary="#247 - new method returns default card">
-      <option name="closed" value="true" />
-      <created>1765629715004</created>
-      <option name="number" value="00651" />
-      <option name="presentableId" value="LOCAL-00651" />
-      <option name="project" value="LOCAL" />
-      <updated>1765629715004</updated>
-    </task>
-    <task id="LOCAL-00652" summary="#247 - others">
-      <option name="closed" value="true" />
-      <created>1765629731186</created>
-      <option name="number" value="00652" />
-      <option name="presentableId" value="LOCAL-00652" />
-      <option name="project" value="LOCAL" />
-      <updated>1765629731186</updated>
-    </task>
-    <task id="LOCAL-00653" summary="#239 - new return type">
-      <option name="closed" value="true" />
-      <created>1766090343056</created>
-      <option name="number" value="00653" />
-      <option name="presentableId" value="LOCAL-00653" />
-      <option name="project" value="LOCAL" />
-      <updated>1766090343056</updated>
-    </task>
-    <task id="LOCAL-00654" summary="#239 - just simple int enough">
-      <option name="closed" value="true" />
-      <created>1766090406776</created>
-      <option name="number" value="00654" />
-      <option name="presentableId" value="LOCAL-00654" />
-      <option name="project" value="LOCAL" />
-      <updated>1766090406776</updated>
     </task>
     <task id="LOCAL-00655" summary="#239 - 2 constructors needs">
       <option name="closed" value="true" />
@@ -620,7 +587,39 @@
       <option name="project" value="LOCAL" />
       <updated>1768593469476</updated>
     </task>
-    <option name="localTasksCounter" value="700" />
+    <task id="LOCAL-00700" summary="#225 - comments clean up">
+      <option name="closed" value="true" />
+      <created>1769455744940</created>
+      <option name="number" value="00700" />
+      <option name="presentableId" value="LOCAL-00700" />
+      <option name="project" value="LOCAL" />
+      <updated>1769455744942</updated>
+    </task>
+    <task id="LOCAL-00701" summary="#225 - others">
+      <option name="closed" value="true" />
+      <created>1769455760588</created>
+      <option name="number" value="00701" />
+      <option name="presentableId" value="LOCAL-00701" />
+      <option name="project" value="LOCAL" />
+      <updated>1769455760588</updated>
+    </task>
+    <task id="LOCAL-00702" summary="#225 - clean up of old version getTravelExpenseReportDB">
+      <option name="closed" value="true" />
+      <created>1769455822644</created>
+      <option name="number" value="00702" />
+      <option name="presentableId" value="LOCAL-00702" />
+      <option name="project" value="LOCAL" />
+      <updated>1769455822644</updated>
+    </task>
+    <task id="LOCAL-00703" summary="#225 - html solution">
+      <option name="closed" value="true" />
+      <created>1769455836592</created>
+      <option name="number" value="00703" />
+      <option name="presentableId" value="LOCAL-00703" />
+      <option name="project" value="LOCAL" />
+      <updated>1769455836594</updated>
+    </task>
+    <option name="localTasksCounter" value="704" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -647,10 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#248 - clean up" />
-    <MESSAGE value="#248 - new button" />
-    <MESSAGE value="#248 - others" />
-    <MESSAGE value="#249 - new button" />
     <MESSAGE value="#249 - others" />
     <MESSAGE value="#253 - new model for TravelRequest" />
     <MESSAGE value="#253 - others" />
@@ -672,6 +667,10 @@
     <MESSAGE value="#251 - method should be ready to get multiple rows" />
     <MESSAGE value="#251 - method to get travel expenses from DB" />
     <MESSAGE value="#251 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#251 - others" />
+    <MESSAGE value="#225 - comments clean up" />
+    <MESSAGE value="#225 - others" />
+    <MESSAGE value="#225 - clean up of old version getTravelExpenseReportDB" />
+    <MESSAGE value="#225 - html solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="#225 - html solution" />
   </component>
 </project>
