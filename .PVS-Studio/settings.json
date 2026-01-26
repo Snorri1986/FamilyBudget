@@ -39,7 +39,6 @@
   "traceSpoonLogFileName": "spoon.log",
   "check-license": false,
   "logging": "OFF",
-  "project": "D:/Applications/FamilyBudget",
   "type": "sources",
   "disableDiag": false
 }
