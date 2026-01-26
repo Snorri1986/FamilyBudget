@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 
@@ -64,7 +65,34 @@ public class AdditionalFuncPageController {
   public String getTravelExpense(@ModelAttribute("travel_request_mod") TravelReportRequestModel travelReportRequestModel,Model model) {
     List<TravelReportResponseModel> reportList =
             dbService.getTravelExpenseReportDB(travelReportRequestModel);
+    int totalUsdAmount =
+            reportList.stream()
+                    .filter(r -> r.getCurrency() == 4) // USD
+                    .mapToInt(TravelReportResponseModel::getAmount)
+                    .sum();
+
+    int totalEurAmount =
+            reportList.stream()
+                    .filter(r -> r.getCurrency() == 1) // EUR
+                    .mapToInt(TravelReportResponseModel::getAmount)
+                    .sum();
+
+    int totalDkkAmount =
+            reportList.stream()
+                    .filter(r -> r.getCurrency() == 3) // DKK
+                    .mapToInt(TravelReportResponseModel::getAmount)
+                    .sum();
+
+    int totalUahAmount =
+            reportList.stream()
+                    .filter(r -> r.getCurrency() == 2) // UAH
+                    .mapToInt(TravelReportResponseModel::getAmount)
+                    .sum();
     model.addAttribute("reportList", reportList);
+    model.addAttribute("SumUSD", totalUsdAmount);
+    model.addAttribute("SumEUR", totalEurAmount);
+    model.addAttribute("SumDKK", totalDkkAmount);
+    model.addAttribute("SumUAH", totalUahAmount);
     return "travel_report";
   }
 }
