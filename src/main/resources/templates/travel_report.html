@@ -22,8 +22,41 @@
             <input type="text" class="form-control" id="Destination" th:field="*{travelDestination}" maxlength="255" required>
         </div>
         <button type="submit" class="btn btn-primary">Get</button>
+        <!-- Web report -->
+        <h6>Currency: 1-EUR,2-UAH,3-DKK,4-USD</h6>
+        <table class="full-width-table">
+            <thead>
+            <tr>
+                <th>Transaction Type</th>
+                <th>Amount</th>
+                <th>Currency</th>
+                <th>Date</th>
+                <th>Card/Cash</th>
+                <th>Comments</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="travel_expenses : ${reportList}">
+                <td>
+            <span th:switch="${travel_expenses.travelExpenseTypeID}">
+                <span th:case="33">Tickets</span>
+                <span th:case="34">Hotel</span>
+                <span th:case="35">FoodInTrip</span>
+                <span th:case="36">TravelEntertainment</span>
+                <span th:case="7">PublicTransport</span>
+                <span th:case="12">Others</span>
+            </span>
+                </td>
+                <td th:text="${travel_expenses.amount}"></td>
+                <td th:text="${travel_expenses.currency}"></td>
+                <td th:text="${#temporals.format(travel_expenses.transactionDate, 'dd-MM-yyy')}"></td>
+                <td th:text="${travel_expenses.sourceCard}"></td>
+                <td th:text="${travel_expenses.comments}"></td>
+            </tr>
+            </tbody>
+        </table>
     </form>
     <p>Return back to main page <a th:href="@{/login}">here</a>.</p>
-</div>>
+</div>
 </body>
 </html>
