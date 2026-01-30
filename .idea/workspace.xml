@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#256 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,22 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00660" summary="#239 - others">
-      <option name="closed" value="true" />
-      <created>1766091052441</created>
-      <option name="number" value="00660" />
-      <option name="presentableId" value="LOCAL-00660" />
-      <option name="project" value="LOCAL" />
-      <updated>1766091052441</updated>
-    </task>
-    <task id="LOCAL-00661" summary="#239 - Groceries. New constructors">
-      <option name="closed" value="true" />
-      <created>1766091261097</created>
-      <option name="number" value="00661" />
-      <option name="presentableId" value="LOCAL-00661" />
-      <option name="project" value="LOCAL" />
-      <updated>1766091261097</updated>
     </task>
     <task id="LOCAL-00662" summary="#239 - Groceries.Controller method with default card">
       <option name="closed" value="true" />
@@ -619,7 +602,23 @@
       <option name="project" value="LOCAL" />
       <updated>1769799776856</updated>
     </task>
-    <option name="localTasksCounter" value="709" />
+    <task id="LOCAL-00709" summary="#256 - UT for testGetTravelExpense">
+      <option name="closed" value="true" />
+      <created>1769801501366</created>
+      <option name="number" value="00709" />
+      <option name="presentableId" value="LOCAL-00709" />
+      <option name="project" value="LOCAL" />
+      <updated>1769801501366</updated>
+    </task>
+    <task id="LOCAL-00710" summary="#256 - others">
+      <option name="closed" value="true" />
+      <created>1769801516972</created>
+      <option name="number" value="00710" />
+      <option name="presentableId" value="LOCAL-00710" />
+      <option name="project" value="LOCAL" />
+      <updated>1769801516972</updated>
+    </task>
+    <option name="localTasksCounter" value="711" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -646,7 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#257 - new empty web page" />
     <MESSAGE value="#257 - others" />
     <MESSAGE value="#250 - others" />
     <MESSAGE value="#250 - onclick attrib for button Travel report" />
@@ -670,6 +668,7 @@
     <MESSAGE value="#261 - calculation of sums" />
     <MESSAGE value="#261 - show on html side" />
     <MESSAGE value="#256 - ut for getTravelReport" />
+    <MESSAGE value="#256 - UT for testGetTravelExpense" />
     <MESSAGE value="#256 - others" />
     <option name="LAST_COMMIT_MESSAGE" value="#256 - others" />
   </component>
