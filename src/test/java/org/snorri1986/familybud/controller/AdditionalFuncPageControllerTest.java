@@ -48,4 +48,10 @@ public class AdditionalFuncPageControllerTest {
     assertEquals(1234, card_result);
     Mockito.verify(dbService).getPaymentCardDefault();
   }
+
+  @Test
+  void testGetTravelReportPage() {
+    String viewName = additionalFuncPageController.getTravelReport(model);
+    assertEquals("travel_report", viewName);
+  }
 }
