@@ -21,6 +21,15 @@ public class LastTenHealthOperationsModel {
     this.comments = comments;
   }
 
+  public LastTenHealthOperationsModel(long healthType, long amount, long currency, ZonedDateTime date, String operType, String comments) {
+    this.healthType = healthType;
+    this.amount = amount;
+    this.currency = currency;
+    this.date = date;
+    this.operType = operType;
+    this.comments = comments;
+  }
+
   public LastTenHealthOperationsModel() {
   }
 

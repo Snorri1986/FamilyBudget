@@ -1,0 +1,6 @@
+h1,div {text-align: center}
+.full-width-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.currency {text-align: left}

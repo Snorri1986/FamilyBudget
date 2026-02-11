@@ -15,6 +15,12 @@ public class TravelModelWeb {
   private String destination;
   private String operDescription;
 
+  public TravelModelWeb() {}
+
+  public TravelModelWeb(int cardNum) {
+    this.cardNum = cardNum;
+  }
+
   public String getTravelType() {
     return travelType;
   }

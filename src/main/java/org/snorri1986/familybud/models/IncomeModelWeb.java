@@ -14,6 +14,12 @@ public class IncomeModelWeb {
   private int cardNum;
   private String operDescription;
 
+  public IncomeModelWeb() {}
+
+  public IncomeModelWeb(int cardNum) {
+    this.cardNum = cardNum;
+  }
+
   public String getIncomeType() {
     return incomeType;
   }

@@ -14,6 +14,12 @@ public class TelecomModelWeb {
   private int cardNum;
   private String operDescription;
 
+  public TelecomModelWeb() {}
+
+  public TelecomModelWeb(int cardNum) {
+    this.cardNum = cardNum;
+  }
+
   public String getTelecomType() {
     return telecomType;
   }

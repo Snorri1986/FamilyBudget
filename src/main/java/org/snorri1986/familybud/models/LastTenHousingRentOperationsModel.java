@@ -21,6 +21,15 @@ public class LastTenHousingRentOperationsModel {
     this.comments = comments;
   }
 
+  public LastTenHousingRentOperationsModel(long housingRentType, long amount, long currency, ZonedDateTime date, String operType, String comments) {
+    this.housingRentType = housingRentType;
+    this.amount = amount;
+    this.currency = currency;
+    this.date = date;
+    this.operType = operType;
+    this.comments = comments;
+  }
+
   public LastTenHousingRentOperationsModel() {
   }
 

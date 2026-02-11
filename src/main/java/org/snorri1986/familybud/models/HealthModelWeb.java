@@ -14,6 +14,12 @@ public class HealthModelWeb {
   private int cardNum;
   private String operDescription;
 
+  public HealthModelWeb() {}
+
+  public HealthModelWeb(int cardNum) {
+    this.cardNum = cardNum;
+  }
+
   public String getHealthOperType() {
     return healthOperType;
   }

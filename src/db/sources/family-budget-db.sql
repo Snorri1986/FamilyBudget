@@ -202,6 +202,7 @@ CREATE TABLE IF NOT EXISTS "cash_operations_log" (
         "comments" varchar(255) NOT NULL,
         "user_last_session" text NOT NULL,
         currency int8 NULL,
+        ex_type_id int4
         PRIMARY KEY ("id")
 );
 COMMENT ON TABLE cash_operations_log  is 'storage of cash operations';
@@ -211,6 +212,7 @@ COMMENT ON COLUMN public.cash_operations_log.amount IS 'value of money';
 COMMENT ON COLUMN public.cash_operations_log."date" IS 'operation date';
 COMMENT ON COLUMN public.cash_operations_log."comments" IS 'description of operation';
 COMMENT ON COLUMN public.cash_operations_log.user_last_session IS 'owner of record';
+COMMENT ON COLUMN public.cash_operations_log.ex_type_id IS 'expense type id';
 
 CREATE TABLE public.user_last_login (
 	login varchar NULL,
@@ -218,6 +220,18 @@ CREATE TABLE public.user_last_login (
 );
 COMMENT ON TABLE public.user_last_login IS 'auth login table';
 COMMENT ON COLUMN public.user_last_login.login IS 'login of user';
+
+CREATE TABLE public.atm_cash_operations_log (
+	id int8 GENERATED ALWAYS AS IDENTITY( INCREMENT BY 1 MINVALUE 1 MAXVALUE 9223372036854775807 START 1 CACHE 1 NO CYCLE) NOT NULL,
+	optype int8 NOT NULL,
+	amount int8 NOT NULL,
+	"date" timestamptz NOT NULL,
+	"comments" varchar(255) NOT NULL,
+	user_last_session text NULL,
+	currency int8 NULL,
+	ex_type_id int4 NULL,
+	CONSTRAINT atm_cash_operations_log_pkey PRIMARY KEY (id)
+);
 
 
 ALTER TABLE "income" ADD CONSTRAINT "income_fk1" FOREIGN KEY ("i_type") REFERENCES "income_type"("id");

@@ -21,6 +21,15 @@ public class LastTenGroceriesOperModel {
     this.comments = comments;
   }
 
+  public LastTenGroceriesOperModel(long groceriesType, long amount, long currency, ZonedDateTime date, String operType, String comments) {
+    this.groceriesType = groceriesType;
+    this.amount = amount;
+    this.currency = currency;
+    this.date = date;
+    this.operType = operType;
+    this.comments = comments;
+  }
+
   public LastTenGroceriesOperModel() {
   }
 

@@ -68,6 +68,7 @@
 </form>
     <h2>Last 10 Health operations</h2>
     <h6>Currency: 1-EUR,2-UAH,3-DKK,4-USD</h6>
+    <!-- Card and cash operations -->
     <table class="full-width-table">
         <thead>
         <tr>
@@ -81,9 +82,10 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="health : ${healthLastTen}">
+        <!-- Card operations -->
+        <tr th:each="healthCardOperation : ${healthLastTenCardOperations}">
             <td>
-                <span th:switch="${health.healthType}">
+                <span th:switch="${healthCardOperation.healthType}">
                     <span th:case="22">Other</span>
                 <span th:case="23">Dentist</span>
                 <span th:case="24">Medical check</span>
@@ -94,12 +96,33 @@
                 <span th:case="42">Haircut</span>
                 </span>
             </td>
-            <td th:text="${health.amount}"></td>
-            <td th:text="${health.currency}"></td>
-            <td th:text="${#temporals.format(health.date, 'dd-MM-yyy')}"></td>
-            <td th:text="${health.sourceCard}"></td>
-            <td th:text="${health.operType}"></td>
-            <td th:text="${health.comments}"></td>
+            <td th:text="${healthCardOperation.amount}"></td>
+            <td th:text="${healthCardOperation.currency}"></td>
+            <td th:text="${#temporals.format(healthCardOperation.date, 'dd-MM-yyy')}"></td>
+            <td th:text="${healthCardOperation.sourceCard}"></td>
+            <td th:text="${healthCardOperation.operType}"></td>
+            <td th:text="${healthCardOperation.comments}"></td>
+        </tr>
+        <!-- Cash operations -->
+        <tr th:each="healthCashOperation : ${healthLastTenCashOperations}">
+            <td>
+                <span th:switch="${healthCashOperation.healthType}">
+                    <span th:case="22">Other</span>
+                <span th:case="23">Dentist</span>
+                <span th:case="24">Medical check</span>
+                <span th:case="25">Special doctor</span>
+                <span th:case="26">Swimming pool</span>
+                <span th:case="27">SPA</span>
+                <span th:case="28">Nails</span>
+                <span th:case="42">Haircut</span>
+                </span>
+            </td>
+            <td th:text="${healthCashOperation.amount}"></td>
+            <td th:text="${healthCashOperation.currency}"></td>
+            <td th:text="${#temporals.format(healthCashOperation.date, 'dd-MM-yyy')}"></td>
+            <td th:text="'----'"></td>
+            <td th:text="${healthCashOperation.operType}"></td>
+            <td th:text="${healthCashOperation.comments}"></td>
         </tr>
         </tbody>
     </table>

@@ -3,6 +3,8 @@
   "ext": [],
   "threads": 2,
   "output-type": "json",
+  "securityRelatedIssues": false,
+  "annotation-file": [],
   "incremental": false,
   "force-rebuild": false,
   "disable-cache": false,
@@ -37,6 +39,6 @@
   "traceSpoonLogFileName": "spoon.log",
   "check-license": false,
   "logging": "OFF",
-  "project": "D:/Applications/FamilyBudget",
-  "type": "sources"
+  "type": "sources",
+  "disableDiag": false
 }

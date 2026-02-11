@@ -6,8 +6,8 @@ AS $function$
 BEGIN
 
     IF oper_type = 'Cash' THEN
-        INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency)
-        VALUES (0,amount_val,oper_date,comm_val,get_last_login(),cur_value);
+        INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency,ex_type_id)
+        VALUES (0,amount_val,oper_date,comm_val,get_last_login(),cur_value,evn_type_id_val);
 
     PERFORM minus_cash_balance(amount_val);
 
@@ -19,7 +19,6 @@ BEGIN
 END;
 $function$
 ;
-COMMENT ON FUNCTION public.i_entertainment(int4, int4, int4, date, bpchar, int4, bpchar) IS 'insert entertainment operation';
 
 
 

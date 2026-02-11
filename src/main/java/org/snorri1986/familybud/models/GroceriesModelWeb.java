@@ -14,6 +14,12 @@ public class GroceriesModelWeb {
   private int cardNum;
   private String operDescription;
 
+  public GroceriesModelWeb() {}
+
+  public GroceriesModelWeb(int cardNum) {
+    this.cardNum = cardNum;
+  }
+
   public String getPurchesType() {
     return purchesType;
   }

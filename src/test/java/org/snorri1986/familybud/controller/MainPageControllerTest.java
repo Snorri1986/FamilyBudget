@@ -45,100 +45,121 @@ public class MainPageControllerTest {
 
   @Test
   void testGetIncomePage() {
-    List<LastTenIncomesModel> mockLastTenIncomes = List.of(new LastTenIncomesModel(), new LastTenIncomesModel());
-    when(dbService.getLastTenIncomes()).thenReturn(mockLastTenIncomes);
+    List<LastTenIncomesModel> mockLastTenIncomesCard = List.of(new LastTenIncomesModel(), new LastTenIncomesModel());
+    List<LastTenIncomesModel> mockLastTenIncomesCash = List.of(new LastTenIncomesModel(), new LastTenIncomesModel());
+    when(dbService.getLastTenIncomesCard()).thenReturn(mockLastTenIncomesCard);
+    when(dbService.getLastTenIncomesCash()).thenReturn(mockLastTenIncomesCash);
     String viewName = mainPageController.getIncomePage(model);
     assertEquals("income", viewName);
     verify(model).addAttribute(eq("income_mod_attribute"), any(IncomeModelWeb.class));
     verify(model).addAttribute(eq("incomes"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("incomesLastTen", mockLastTenIncomes);
+    verify(model).addAttribute("incomesLastTenCard", mockLastTenIncomesCard);
+    verify(model).addAttribute("incomesLastTenCash", mockLastTenIncomesCash);
     verifyNoMoreInteractions(model);
   }
 
   @Test
   void testGetEntertainmentPage() {
-    List<LastTenEntertainmentModel> mockLastTenEntertainment = List.of(new LastTenEntertainmentModel(), new LastTenEntertainmentModel());
-    when(dbService.getLastTenEntertainmentOperations()).thenReturn(mockLastTenEntertainment);
+    List<LastTenEntertainmentModel> mockLastTenEntertainmentCard = List.of(new LastTenEntertainmentModel(), new LastTenEntertainmentModel());
+    List<LastTenEntertainmentModel> mockLastTenEntertainmentCash = List.of(new LastTenEntertainmentModel(), new LastTenEntertainmentModel());
+    when(dbService.getLastTenEntertainmentOperationsCard()).thenReturn(mockLastTenEntertainmentCard);
+    when(dbService.getLastTenEntertainmentOperationsCash()).thenReturn(mockLastTenEntertainmentCash);
     String viewName = mainPageController.getEntertainmentPage(model);
     assertEquals("entertainment", viewName);
     verify(model).addAttribute(eq("entertainment_mod_attribute"), any(EntertainmentModelWeb.class));
     verify(model).addAttribute(eq("entList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("entertainmentLastTen", mockLastTenEntertainment);
+    verify(model).addAttribute("entertainmentLastTenCard", mockLastTenEntertainmentCard);
+    verify(model).addAttribute("entertainmentLastTenCash", mockLastTenEntertainmentCash);
     verifyNoMoreInteractions(model);
   }
 
   @Test
   void testGetGroceriesPage() {
-    List<LastTenGroceriesOperModel> mockLastTenGroceries = List.of(new LastTenGroceriesOperModel(), new LastTenGroceriesOperModel());
-    when(dbService.getLastTenGroceriesOperations()).thenReturn(mockLastTenGroceries);
+    List<LastTenGroceriesOperModel> mockLastTenGroceriesCard = List.of(new LastTenGroceriesOperModel(), new LastTenGroceriesOperModel());
+    List<LastTenGroceriesOperModel> mockLastTenGroceriesCash = List.of(new LastTenGroceriesOperModel(), new LastTenGroceriesOperModel());
+    when(dbService.getLastTenGroceriesOperationsCard()).thenReturn(mockLastTenGroceriesCard);
+    when(dbService.getLastTenGroceriesOperationsCash()).thenReturn(mockLastTenGroceriesCash);
     String viewName = mainPageController.getGroceriesPage(model);
     assertEquals("groceries", viewName);
     verify(model).addAttribute(eq("groceries_mod_attribute"), any(GroceriesModelWeb.class));
     verify(model).addAttribute(eq("purchesList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("groceriesLastTen", mockLastTenGroceries);
+    verify(model).addAttribute("groceriesLastTenCard", mockLastTenGroceriesCard);
+    verify(model).addAttribute("groceriesLastTenCash", mockLastTenGroceriesCash);
     verifyNoMoreInteractions(model);
   }
 
   @Test
   void testGetHealthPage() {
-    List<LastTenHealthOperationsModel> mockLastTenHealth = List.of(new LastTenHealthOperationsModel(), new LastTenHealthOperationsModel());
-    when(dbService.getLastTenHealthOperations()).thenReturn(mockLastTenHealth);
+    List<LastTenHealthOperationsModel> mockLastTenHealthCard = List.of(new LastTenHealthOperationsModel(), new LastTenHealthOperationsModel());
+    List<LastTenHealthOperationsModel> mockLastTenHealthCash = List.of(new LastTenHealthOperationsModel(), new LastTenHealthOperationsModel());
+    when(dbService.getLastTenHealthOperationsCard()).thenReturn(mockLastTenHealthCard);
+    when(dbService.getLastTenHealthOperationsCash()).thenReturn(mockLastTenHealthCash);
     String viewName = mainPageController.getHealthPage(model);
     assertEquals("health", viewName);
     verify(model).addAttribute(eq("health_mod_attribute"), any(HealthModelWeb.class));
     verify(model).addAttribute(eq("healthTypeList"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("healthLastTen", mockLastTenHealth);
+    verify(model).addAttribute(eq("healthLastTenCardOperations"),any(List.class));
+    verify(model).addAttribute(eq("healthLastTenCashOperations"),any(List.class));
     verifyNoMoreInteractions(model);
   }
 
   @Test
   void testRentHousingPage() {
-    List<LastTenHousingRentOperationsModel> mockLastTenRentHousing = List.of(new LastTenHousingRentOperationsModel(), new LastTenHousingRentOperationsModel());
-    when(dbService.getLastTenHousingRentOperations()).thenReturn(mockLastTenRentHousing);
+    List<LastTenHousingRentOperationsModel> mockLastTenRentHousingCard = List.of(new LastTenHousingRentOperationsModel(), new LastTenHousingRentOperationsModel());
+    List<LastTenHousingRentOperationsModel> mockLastTenRentHousingCash = List.of(new LastTenHousingRentOperationsModel(), new LastTenHousingRentOperationsModel());
+    when(dbService.getLastTenHousingRentOperationsCard()).thenReturn(mockLastTenRentHousingCard);
+    when(dbService.getLastTenHousingRentOperationsCash()).thenReturn(mockLastTenRentHousingCash);
     String viewName = mainPageController.getRentHousingPage(model);
     assertEquals("renthousing", viewName);
     verify(model).addAttribute(eq("rent_housing_mod_attribute"), any(RentHousingModelWeb.class));
     verify(model).addAttribute(eq("housingTypes"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("rentHousingLastTen", mockLastTenRentHousing);
+    verify(model).addAttribute("rentHousingLastTenCard", mockLastTenRentHousingCard);
+    verify(model).addAttribute("rentHousingLastTenCash", mockLastTenRentHousingCash);
     verifyNoMoreInteractions(model);
   }
 
 
   @Test
   void testGetTelecomPage() {
-    List<LastTenTelecomOperationsModel> mockLastTenTelecomOperations = List.of(new LastTenTelecomOperationsModel(),new LastTenTelecomOperationsModel());
-    when(dbService.getLastTenTelecomOperations()).thenReturn(mockLastTenTelecomOperations);
+    List<LastTenTelecomOperationsModel> mockLastTenTelecomOperationsCard = List.of(new LastTenTelecomOperationsModel(),new LastTenTelecomOperationsModel());
+    List<LastTenTelecomOperationsModel> mockLastTenTelecomOperationsCash = List.of(new LastTenTelecomOperationsModel(),new LastTenTelecomOperationsModel());
+    when(dbService.getLastTenTelecomOperationsCard()).thenReturn(mockLastTenTelecomOperationsCard);
+    when(dbService.getLastTenTelecomOperationsCash()).thenReturn(mockLastTenTelecomOperationsCash);
     String viewName = mainPageController.getTelecomPage(model);
     assertEquals("telecom", viewName);
     verify(model).addAttribute(eq("telecom_mod_attribute"), any(TelecomModelWeb.class));
     verify(model).addAttribute(eq("telecomOperations"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("telecomLastTen", mockLastTenTelecomOperations);
+    verify(model).addAttribute("telecomLastTenCard", mockLastTenTelecomOperationsCard);
+    verify(model).addAttribute("telecomLastTenCash", mockLastTenTelecomOperationsCash);
     verifyNoMoreInteractions(model);
   }
 
   @Test
   void testGetTravelPage() {
-    List<LastTenTravelOperationsModel> mockLastTenTravelOperations = List.of(new LastTenTravelOperationsModel(), new LastTenTravelOperationsModel());
-    when(dbService.getLastTenTravelOperations()).thenReturn(mockLastTenTravelOperations);
+    List<LastTenTravelOperationsModel> mockLastTenTravelOperationsCard = List.of(new LastTenTravelOperationsModel(), new LastTenTravelOperationsModel());
+    List<LastTenTravelOperationsModel> mockLastTenTravelOperationsCash = List.of(new LastTenTravelOperationsModel(), new LastTenTravelOperationsModel());
+    when(dbService.getLastTenTravelOperationsCard()).thenReturn(mockLastTenTravelOperationsCard);
+    when(dbService.getLastTenTravelOperationsCash()).thenReturn(mockLastTenTravelOperationsCash);
     String viewName = mainPageController.getTravelPage(model);
     assertEquals("travel", viewName);
     verify(model).addAttribute(eq("travel_mod_attribute"), any(TravelModelWeb.class));
     verify(model).addAttribute(eq("travelActivities"), any(List.class));
     verify(model).addAttribute(eq("currencyNames"),any(List.class));
     verify(model).addAttribute(eq("transactionTypes"),any(List.class));
-    verify(model).addAttribute("travelLastTen", mockLastTenTravelOperations);
+    verify(model).addAttribute("travelLastTenCard", mockLastTenTravelOperationsCard);
+    verify(model).addAttribute("travelLastTenCash", mockLastTenTravelOperationsCash);
     verifyNoMoreInteractions(model);
   }
 

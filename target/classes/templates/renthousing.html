@@ -81,9 +81,10 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="rent : ${rentHousingLastTen}">
+        <!-- Card operations -->
+        <tr th:each="rentCard : ${rentHousingLastTenCard}">
             <td>
-                <span th:switch="${rent.housingRentType}">
+                <span th:switch="${rentCard.housingRentType}">
                    <span th:case="2">Rent</span>
                 <span th:case="40">MT Send</span>
                 <span th:case="39">A-kasse</span>
@@ -93,12 +94,32 @@
                 <span th:case="22">Other</span>
                 </span>
             </td>
-            <td th:text="${rent.amount}"></td>
-            <td th:text="${rent.currency}"></td>
-            <td th:text="${#temporals.format(rent.date, 'dd-MM-yyy')}"></td>
-            <td th:text="${rent.sourceCard}"></td>
-            <td th:text="${rent.operType}"></td>
-            <td th:text="${rent.comments}"></td>
+            <td th:text="${rentCard.amount}"></td>
+            <td th:text="${rentCard.currency}"></td>
+            <td th:text="${#temporals.format(rentCard.date, 'dd-MM-yyy')}"></td>
+            <td th:text="${rentCard.sourceCard}"></td>
+            <td th:text="${rentCard.operType}"></td>
+            <td th:text="${rentCard.comments}"></td>
+        </tr>
+        <!-- Cash operations -->
+        <tr th:each="rentCash : ${rentHousingLastTenCash}">
+            <td>
+                <span th:switch="${rentCash.housingRentType}">
+                   <span th:case="2">Rent</span>
+                <span th:case="40">MT Send</span>
+                <span th:case="39">A-kasse</span>
+                <span th:case="29">Electricity</span>
+                <span th:case="30">Houseequipment</span>
+                <span th:case="31">Renovation</span>
+                <span th:case="22">Other</span>
+                </span>
+            </td>
+            <td th:text="${rentCash.amount}"></td>
+            <td th:text="${rentCash.currency}"></td>
+            <td th:text="${#temporals.format(rentCash.date, 'dd-MM-yyy')}"></td>
+            <td th:text="'----'"></td>
+            <td th:text="${rentCash.operType}"></td>
+            <td th:text="${rentCash.comments}"></td>
         </tr>
         </tbody>
     </table>

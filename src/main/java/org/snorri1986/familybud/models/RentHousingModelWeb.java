@@ -14,6 +14,12 @@ public class RentHousingModelWeb {
   private int cardNum;
   private String operDescription;
 
+  public RentHousingModelWeb() {}
+
+  public RentHousingModelWeb(int cardNum) {
+    this.cardNum = cardNum;
+  }
+
   public String getHousingType() {
     return housingType;
   }
