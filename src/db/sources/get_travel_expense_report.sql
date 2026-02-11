@@ -14,7 +14,6 @@ AS $function$
                 t.source_card::integer,
                 t.comments
          FROM public.travel t
-         JOIN public.cash_operations_log col ON t.tr_type_id = col.ex_type_id
          WHERE t.user_last_session = get_last_login()
          AND t.destination = t_destination
          UNION
