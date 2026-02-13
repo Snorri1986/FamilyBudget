@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#265 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#266 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_travel_expense_report.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_travel_expense_report.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/DataSourceConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -103,38 +103,6 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdditionalFuncPageControllerTest.testGetTravelExpense" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetTravelExpense" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdditionalFuncPageControllerTest.testGetTravelReportPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetTravelReportPage" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,6 +122,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainPageControllerTest.testGetIncomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testGetIncomePage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebFormsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -165,6 +149,22 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebFormsControllerTest.testGetLastTenIncomeOpers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
+      <option name="METHOD_NAME" value="testGetLastTenIncomeOpers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,8 +201,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetTravelExpense" />
-      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetTravelReportPage" />
+      <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
+      <item itemvalue="JUnit.WebFormsControllerTest.testGetLastTenIncomeOpers" />
       <item itemvalue="JUnit.MainPageControllerTest" />
       <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
       <item itemvalue="JUnit.WebFormsControllerTest" />
@@ -213,8 +213,8 @@
         <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetTravelExpense" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetTravelReportPage" />
+        <item itemvalue="JUnit.WebFormsControllerTest.testGetLastTenIncomeOpers" />
+        <item itemvalue="JUnit.MainPageControllerTest.testGetIncomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -226,22 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00666" summary="#239 - others">
-      <option name="closed" value="true" />
-      <created>1766091974988</created>
-      <option name="number" value="00666" />
-      <option name="presentableId" value="LOCAL-00666" />
-      <option name="project" value="LOCAL" />
-      <updated>1766091974988</updated>
-    </task>
-    <task id="LOCAL-00667" summary="#239 - RentHousing. 2 new constructors">
-      <option name="closed" value="true" />
-      <created>1766092007168</created>
-      <option name="number" value="00667" />
-      <option name="presentableId" value="LOCAL-00667" />
-      <option name="project" value="LOCAL" />
-      <updated>1766092007168</updated>
     </task>
     <task id="LOCAL-00668" summary="#239 - Telecom. 2 new constructors">
       <option name="closed" value="true" />
@@ -619,7 +603,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770840495282</updated>
     </task>
-    <option name="localTasksCounter" value="715" />
+    <task id="LOCAL-00715" summary="#266 - JOIN on card part is not needed">
+      <option name="closed" value="true" />
+      <created>1770841513362</created>
+      <option name="number" value="00715" />
+      <option name="presentableId" value="LOCAL-00715" />
+      <option name="project" value="LOCAL" />
+      <updated>1770841513362</updated>
+    </task>
+    <task id="LOCAL-00716" summary="#266 - others">
+      <option name="closed" value="true" />
+      <created>1770841526091</created>
+      <option name="number" value="00716" />
+      <option name="presentableId" value="LOCAL-00716" />
+      <option name="project" value="LOCAL" />
+      <updated>1770841526091</updated>
+    </task>
+    <option name="localTasksCounter" value="717" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -633,7 +633,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -646,8 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#250 - change endpoint name" />
-    <MESSAGE value="#252 - new DB function" />
     <MESSAGE value="#252 - others" />
     <MESSAGE value="#254 - model for response from DB" />
     <MESSAGE value="#254 - others" />
@@ -671,6 +669,8 @@
     <MESSAGE value="#128 - others" />
     <MESSAGE value="#265 - cast for opertype field" />
     <MESSAGE value="#265 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#265 - others" />
+    <MESSAGE value="#266 - JOIN on card part is not needed" />
+    <MESSAGE value="#266 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#266 - others" />
   </component>
 </project>
