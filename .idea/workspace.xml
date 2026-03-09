@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#270 - others">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#272 - others">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_health_oper_cash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_health_oper_cash.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,22 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00674" summary="#240 - others">
-      <option name="closed" value="true" />
-      <created>1767019652599</created>
-      <option name="number" value="00674" />
-      <option name="presentableId" value="LOCAL-00674" />
-      <option name="project" value="LOCAL" />
-      <updated>1767019652599</updated>
-    </task>
-    <task id="LOCAL-00675" summary="#248 - clean up">
-      <option name="closed" value="true" />
-      <created>1767360221791</created>
-      <option name="number" value="00675" />
-      <option name="presentableId" value="LOCAL-00675" />
-      <option name="project" value="LOCAL" />
-      <updated>1767360221791</updated>
     </task>
     <task id="LOCAL-00676" summary="#248 - new button">
       <option name="closed" value="true" />
@@ -620,7 +602,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772224363815</updated>
     </task>
-    <option name="localTasksCounter" value="723" />
+    <task id="LOCAL-00723" summary="#272 - new case - Gym">
+      <option name="closed" value="true" />
+      <created>1773087760107</created>
+      <option name="number" value="00723" />
+      <option name="presentableId" value="LOCAL-00723" />
+      <option name="project" value="LOCAL" />
+      <updated>1773087760107</updated>
+    </task>
+    <task id="LOCAL-00724" summary="#272 - others">
+      <option name="closed" value="true" />
+      <created>1773087772031</created>
+      <option name="number" value="00724" />
+      <option name="presentableId" value="LOCAL-00724" />
+      <option name="project" value="LOCAL" />
+      <updated>1773087772031</updated>
+    </task>
+    <option name="localTasksCounter" value="725" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -647,8 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#260 - integer 0 as source_card for cash" />
-    <MESSAGE value="#251 - method should be ready to get multiple rows" />
     <MESSAGE value="#251 - method to get travel expenses from DB" />
     <MESSAGE value="#251 - others" />
     <MESSAGE value="#225 - comments clean up" />
@@ -672,6 +668,8 @@
     <MESSAGE value="#268 - others" />
     <MESSAGE value="#270 - new element on list healthTypeList - Gym" />
     <MESSAGE value="#270 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#270 - others" />
+    <MESSAGE value="#272 - new case - Gym" />
+    <MESSAGE value="#272 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#272 - others" />
   </component>
 </project>
