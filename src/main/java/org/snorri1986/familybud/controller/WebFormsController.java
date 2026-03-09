@@ -122,6 +122,7 @@ public class WebFormsController {
       case "SPA": healthModelDB.setHealthOperType(27); break;
       case "Nails": healthModelDB.setHealthOperType(28); break;
       case "Haircut": healthModelDB.setHealthOperType(42); break;
+      case "Gym": healthModelDB.setHealthOperType(45); break;
       case "Other": healthModelDB.setHealthOperType(22); break;
     }
 
