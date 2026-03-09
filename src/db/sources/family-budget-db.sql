@@ -271,3 +271,9 @@ comment on column users.card4 is 'card5';
 comment on column users.card_default is 'default card';
 comment on column users.country is 'VAT country';
 comment on column users.city is 'VAT city';
+
+CREATE TABLE public.vat_rules (
+	country text NOT NULL,
+	city text NOT NULL,
+	vat_size int8 NULL
+);
