@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#268 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#270 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -228,22 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00672" summary="#240 - others">
-      <option name="closed" value="true" />
-      <created>1767018117806</created>
-      <option name="number" value="00672" />
-      <option name="presentableId" value="LOCAL-00672" />
-      <option name="project" value="LOCAL" />
-      <updated>1767018117806</updated>
-    </task>
-    <task id="LOCAL-00673" summary="#240 - new UT for GetPaymentCardDefault">
-      <option name="closed" value="true" />
-      <created>1767019639678</created>
-      <option name="number" value="00673" />
-      <option name="presentableId" value="LOCAL-00673" />
-      <option name="project" value="LOCAL" />
-      <updated>1767019639678</updated>
     </task>
     <task id="LOCAL-00674" summary="#240 - others">
       <option name="closed" value="true" />
@@ -621,7 +604,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771009831973</updated>
     </task>
-    <option name="localTasksCounter" value="721" />
+    <task id="LOCAL-00721" summary="#270 - new element on list healthTypeList - Gym">
+      <option name="closed" value="true" />
+      <created>1772224349404</created>
+      <option name="number" value="00721" />
+      <option name="presentableId" value="LOCAL-00721" />
+      <option name="project" value="LOCAL" />
+      <updated>1772224349404</updated>
+    </task>
+    <task id="LOCAL-00722" summary="#270 - others">
+      <option name="closed" value="true" />
+      <created>1772224363815</created>
+      <option name="number" value="00722" />
+      <option name="presentableId" value="LOCAL-00722" />
+      <option name="project" value="LOCAL" />
+      <updated>1772224363815</updated>
+    </task>
+    <option name="localTasksCounter" value="723" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -648,8 +647,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#259 - new method on DBService side" />
-    <MESSAGE value="#259 - others" />
     <MESSAGE value="#260 - integer 0 as source_card for cash" />
     <MESSAGE value="#251 - method should be ready to get multiple rows" />
     <MESSAGE value="#251 - method to get travel expenses from DB" />
@@ -673,6 +670,8 @@
     <MESSAGE value="#268 - set connection to DEV DB" />
     <MESSAGE value="#268 - set next application version" />
     <MESSAGE value="#268 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#268 - others" />
+    <MESSAGE value="#270 - new element on list healthTypeList - Gym" />
+    <MESSAGE value="#270 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#270 - others" />
   </component>
 </project>
