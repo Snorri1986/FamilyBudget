@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#272 - others">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_health_oper_cash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_health_oper_cash.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#273 - others">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,22 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00676" summary="#248 - new button">
-      <option name="closed" value="true" />
-      <created>1767360835435</created>
-      <option name="number" value="00676" />
-      <option name="presentableId" value="LOCAL-00676" />
-      <option name="project" value="LOCAL" />
-      <updated>1767360835435</updated>
-    </task>
-    <task id="LOCAL-00677" summary="#248 - others">
-      <option name="closed" value="true" />
-      <created>1767360847746</created>
-      <option name="number" value="00677" />
-      <option name="presentableId" value="LOCAL-00677" />
-      <option name="project" value="LOCAL" />
-      <updated>1767360847746</updated>
     </task>
     <task id="LOCAL-00678" summary="#249 - new button">
       <option name="closed" value="true" />
@@ -618,7 +602,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773087772031</updated>
     </task>
-    <option name="localTasksCounter" value="725" />
+    <task id="LOCAL-00725" summary="#273 - add new expense code">
+      <option name="closed" value="true" />
+      <created>1773088194741</created>
+      <option name="number" value="00725" />
+      <option name="presentableId" value="LOCAL-00725" />
+      <option name="project" value="LOCAL" />
+      <updated>1773088194741</updated>
+    </task>
+    <task id="LOCAL-00726" summary="#273 - others">
+      <option name="closed" value="true" />
+      <created>1773088208338</created>
+      <option name="number" value="00726" />
+      <option name="presentableId" value="LOCAL-00726" />
+      <option name="project" value="LOCAL" />
+      <updated>1773088208338</updated>
+    </task>
+    <option name="localTasksCounter" value="727" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,8 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#251 - method to get travel expenses from DB" />
-    <MESSAGE value="#251 - others" />
     <MESSAGE value="#225 - comments clean up" />
     <MESSAGE value="#225 - others" />
     <MESSAGE value="#225 - clean up of old version getTravelExpenseReportDB" />
@@ -670,6 +668,8 @@
     <MESSAGE value="#270 - others" />
     <MESSAGE value="#272 - new case - Gym" />
     <MESSAGE value="#272 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#272 - others" />
+    <MESSAGE value="#273 - add new expense code" />
+    <MESSAGE value="#273 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#273 - others" />
   </component>
 </project>
