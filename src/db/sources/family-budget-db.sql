@@ -252,8 +252,22 @@ ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk3" FOREIGN KEY ("currency") REFE
 create table users
 (
     username text,
-    password text
+    password text,
+    card1 varchar(5),
+    card2 varchar(5),
+    card3 varchar(5),
+    card4 varchar(5),
+    card_default varchar(5),
+    country text,
+    city text
 );
 comment on table users is 'Authorized users';
 comment on column users.username is 'login id';
 comment on column users.password is 'path phrase';
+comment on column users.card1 is 'card1';
+comment on column users.card2 is 'card2';
+comment on column users.card3 is 'card3';
+comment on column users.card4 is 'card5';
+comment on column users.card_default is 'default card';
+comment on column users.country is 'VAT country';
+comment on column users.city is 'VAT city';
