@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#353 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#282 - others">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +90,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -225,22 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00692" summary="#254 - model for response from DB">
-      <option name="closed" value="true" />
-      <created>1768419680690</created>
-      <option name="number" value="00692" />
-      <option name="presentableId" value="LOCAL-00692" />
-      <option name="project" value="LOCAL" />
-      <updated>1768419680690</updated>
-    </task>
-    <task id="LOCAL-00693" summary="#254 - others">
-      <option name="closed" value="true" />
-      <created>1768419692263</created>
-      <option name="number" value="00693" />
-      <option name="presentableId" value="LOCAL-00693" />
-      <option name="project" value="LOCAL" />
-      <updated>1768419692263</updated>
     </task>
     <task id="LOCAL-00694" summary="#259 - new method on DBService side">
       <option name="closed" value="true" />
@@ -618,7 +602,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773258072099</updated>
     </task>
-    <option name="localTasksCounter" value="741" />
+    <task id="LOCAL-00741" summary="#282 - new method insertNewLocation">
+      <option name="closed" value="true" />
+      <created>1773258475697</created>
+      <option name="number" value="00741" />
+      <option name="presentableId" value="LOCAL-00741" />
+      <option name="project" value="LOCAL" />
+      <updated>1773258475697</updated>
+    </task>
+    <task id="LOCAL-00742" summary="#282 - others">
+      <option name="closed" value="true" />
+      <created>1773258487109</created>
+      <option name="number" value="00742" />
+      <option name="presentableId" value="LOCAL-00742" />
+      <option name="project" value="LOCAL" />
+      <updated>1773258487109</updated>
+    </task>
+    <option name="localTasksCounter" value="743" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,8 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#266 - JOIN on card part is not needed" />
-    <MESSAGE value="#266 - others" />
     <MESSAGE value="#268 - set connection to DEV DB" />
     <MESSAGE value="#268 - set next application version" />
     <MESSAGE value="#268 - others" />
@@ -670,6 +668,8 @@
     <MESSAGE value="#281 - others" />
     <MESSAGE value="#353 - new model - LocationModel" />
     <MESSAGE value="#353 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#353 - others" />
+    <MESSAGE value="#282 - new method insertNewLocation" />
+    <MESSAGE value="#282 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#282 - others" />
   </component>
 </project>
