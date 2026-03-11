@@ -124,6 +124,14 @@ public class DBService {
     }, String.class);
   }
 
+  public void insertNewLocation(LocationModel locationModel) {
+    String sql = "SELECT public.set_location(?,?)";
+    jdbcTemplate.queryForObject(sql, new Object[]{
+            locationModel.getCountry(),
+            locationModel.getCity()
+    }, String.class);
+  }
+
   public int getCashBalance() {
     String sql = "SELECT public.get_cash_balance()";
     return jdbcTemplate.queryForObject(sql, Integer.class);
