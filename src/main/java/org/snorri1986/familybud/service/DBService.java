@@ -137,6 +137,11 @@ public class DBService {
     return jdbcTemplate.queryForObject(sql, Integer.class);
   }
 
+  public LocationModel getLocation() {
+    String sql = "SELECT public.get_location()";
+    return jdbcTemplate.queryForObject(sql, LocationModel.class);
+  }
+
   public List<LastTenIncomesModel> getLastTenIncomesCard() {
     String sql = "SELECT * FROM get_last_ten_incomes_card()";
     return jdbcTemplate.query(sql, new RowMapper<LastTenIncomesModel>() {
