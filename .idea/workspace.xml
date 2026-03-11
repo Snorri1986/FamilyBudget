@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#280 - function to get location">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#281 - others">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/LocationModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,22 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00688" summary="#250 - web page with form and css to it">
-      <option name="closed" value="true" />
-      <created>1768245490683</created>
-      <option name="number" value="00688" />
-      <option name="presentableId" value="LOCAL-00688" />
-      <option name="project" value="LOCAL" />
-      <updated>1768245490683</updated>
-    </task>
-    <task id="LOCAL-00689" summary="#250 - change endpoint name">
-      <option name="closed" value="true" />
-      <created>1768245514263</created>
-      <option name="number" value="00689" />
-      <option name="presentableId" value="LOCAL-00689" />
-      <option name="project" value="LOCAL" />
-      <updated>1768245514263</updated>
     </task>
     <task id="LOCAL-00690" summary="#252 - new DB function">
       <option name="closed" value="true" />
@@ -618,7 +602,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773257306359</updated>
     </task>
-    <option name="localTasksCounter" value="737" />
+    <task id="LOCAL-00737" summary="#281 - new button - Update location">
+      <option name="closed" value="true" />
+      <created>1773257548467</created>
+      <option name="number" value="00737" />
+      <option name="presentableId" value="LOCAL-00737" />
+      <option name="project" value="LOCAL" />
+      <updated>1773257548467</updated>
+    </task>
+    <task id="LOCAL-00738" summary="#281 - others">
+      <option name="closed" value="true" />
+      <created>1773257561966</created>
+      <option name="number" value="00738" />
+      <option name="presentableId" value="LOCAL-00738" />
+      <option name="project" value="LOCAL" />
+      <updated>1773257561966</updated>
+    </task>
+    <option name="localTasksCounter" value="739" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,8 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#128 - DB switch to Prod" />
-    <MESSAGE value="#128 - others" />
     <MESSAGE value="#265 - cast for opertype field" />
     <MESSAGE value="#265 - others" />
     <MESSAGE value="#266 - JOIN on card part is not needed" />
@@ -670,6 +668,8 @@
     <MESSAGE value="#279 - others" />
     <MESSAGE value="#279 - rename file + others" />
     <MESSAGE value="#280 - function to get location" />
-    <option name="LAST_COMMIT_MESSAGE" value="#280 - function to get location" />
+    <MESSAGE value="#281 - new button - Update location" />
+    <MESSAGE value="#281 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#281 - others" />
   </component>
 </project>
