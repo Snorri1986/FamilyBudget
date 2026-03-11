@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#279 - others">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/set-location.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/set_location.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#280 - function to get location">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -225,22 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00686" summary="#250 - others">
-      <option name="closed" value="true" />
-      <created>1768245419474</created>
-      <option name="number" value="00686" />
-      <option name="presentableId" value="LOCAL-00686" />
-      <option name="project" value="LOCAL" />
-      <updated>1768245419476</updated>
-    </task>
-    <task id="LOCAL-00687" summary="#250 - onclick attrib for button Travel report">
-      <option name="closed" value="true" />
-      <created>1768245463788</created>
-      <option name="number" value="00687" />
-      <option name="presentableId" value="LOCAL-00687" />
-      <option name="project" value="LOCAL" />
-      <updated>1768245463788</updated>
     </task>
     <task id="LOCAL-00688" summary="#250 - web page with form and css to it">
       <option name="closed" value="true" />
@@ -618,7 +602,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773256492952</updated>
     </task>
-    <option name="localTasksCounter" value="735" />
+    <task id="LOCAL-00735" summary="#279 - rename file + others">
+      <option name="closed" value="true" />
+      <created>1773257219630</created>
+      <option name="number" value="00735" />
+      <option name="presentableId" value="LOCAL-00735" />
+      <option name="project" value="LOCAL" />
+      <updated>1773257219630</updated>
+    </task>
+    <task id="LOCAL-00736" summary="#280 - function to get location">
+      <option name="closed" value="true" />
+      <created>1773257306359</created>
+      <option name="number" value="00736" />
+      <option name="presentableId" value="LOCAL-00736" />
+      <option name="project" value="LOCAL" />
+      <updated>1773257306359</updated>
+    </task>
+    <option name="localTasksCounter" value="737" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,8 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#256 - UT for testGetTravelExpense" />
-    <MESSAGE value="#256 - others" />
     <MESSAGE value="#128 - DB switch to Prod" />
     <MESSAGE value="#128 - others" />
     <MESSAGE value="#265 - cast for opertype field" />
@@ -670,6 +668,8 @@
     <MESSAGE value="#278 - others" />
     <MESSAGE value="#279 - new procedure set_location" />
     <MESSAGE value="#279 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#279 - others" />
+    <MESSAGE value="#279 - rename file + others" />
+    <MESSAGE value="#280 - function to get location" />
+    <option name="LAST_COMMIT_MESSAGE" value="#280 - function to get location" />
   </component>
 </project>
