@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#277 - others">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#278 - others">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/set-location.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -225,22 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00682" summary="#257 - public constructor">
-      <option name="closed" value="true" />
-      <created>1767363355753</created>
-      <option name="number" value="00682" />
-      <option name="presentableId" value="LOCAL-00682" />
-      <option name="project" value="LOCAL" />
-      <updated>1767363355753</updated>
-    </task>
-    <task id="LOCAL-00683" summary="#257 - new get method getTravelReport(Model model)">
-      <option name="closed" value="true" />
-      <created>1767363431286</created>
-      <option name="number" value="00683" />
-      <option name="presentableId" value="LOCAL-00683" />
-      <option name="project" value="LOCAL" />
-      <updated>1767363431286</updated>
     </task>
     <task id="LOCAL-00684" summary="#257 - new empty web page">
       <option name="closed" value="true" />
@@ -618,7 +603,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773089472641</updated>
     </task>
-    <option name="localTasksCounter" value="731" />
+    <task id="LOCAL-00731" summary="#278 - vat_rules table">
+      <option name="closed" value="true" />
+      <created>1773091324720</created>
+      <option name="number" value="00731" />
+      <option name="presentableId" value="LOCAL-00731" />
+      <option name="project" value="LOCAL" />
+      <updated>1773091324720</updated>
+    </task>
+    <task id="LOCAL-00732" summary="#278 - others">
+      <option name="closed" value="true" />
+      <created>1773091341836</created>
+      <option name="number" value="00732" />
+      <option name="presentableId" value="LOCAL-00732" />
+      <option name="project" value="LOCAL" />
+      <updated>1773091341836</updated>
+    </task>
+    <option name="localTasksCounter" value="733" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,8 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#261 - others" />
-    <MESSAGE value="#261 - calculation of sums" />
     <MESSAGE value="#261 - show on html side" />
     <MESSAGE value="#256 - ut for getTravelReport" />
     <MESSAGE value="#256 - UT for testGetTravelExpense" />
@@ -670,6 +669,8 @@
     <MESSAGE value="#274 - others" />
     <MESSAGE value="#277 - new columns for VAT and payment cards" />
     <MESSAGE value="#277 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#277 - others" />
+    <MESSAGE value="#278 - vat_rules table" />
+    <MESSAGE value="#278 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#278 - others" />
   </component>
 </project>
