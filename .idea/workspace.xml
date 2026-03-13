@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#282 - others">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#283 - others">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/set_location.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/set_location.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,22 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00694" summary="#259 - new method on DBService side">
-      <option name="closed" value="true" />
-      <created>1768420686243</created>
-      <option name="number" value="00694" />
-      <option name="presentableId" value="LOCAL-00694" />
-      <option name="project" value="LOCAL" />
-      <updated>1768420686245</updated>
-    </task>
-    <task id="LOCAL-00695" summary="#259 - others">
-      <option name="closed" value="true" />
-      <created>1768420702676</created>
-      <option name="number" value="00695" />
-      <option name="presentableId" value="LOCAL-00695" />
-      <option name="project" value="LOCAL" />
-      <updated>1768420702676</updated>
     </task>
     <task id="LOCAL-00696" summary="#260 - integer 0 as source_card for cash">
       <option name="closed" value="true" />
@@ -618,7 +603,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773258487109</updated>
     </task>
-    <option name="localTasksCounter" value="743" />
+    <task id="LOCAL-00743" summary="#283 - new method public LocationModel getLocation()">
+      <option name="closed" value="true" />
+      <created>1773259168560</created>
+      <option name="number" value="00743" />
+      <option name="presentableId" value="LOCAL-00743" />
+      <option name="project" value="LOCAL" />
+      <updated>1773259168560</updated>
+    </task>
+    <task id="LOCAL-00744" summary="#283 - others">
+      <option name="closed" value="true" />
+      <created>1773259186249</created>
+      <option name="number" value="00744" />
+      <option name="presentableId" value="LOCAL-00744" />
+      <option name="project" value="LOCAL" />
+      <updated>1773259186249</updated>
+    </task>
+    <option name="localTasksCounter" value="745" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,8 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#268 - set connection to DEV DB" />
-    <MESSAGE value="#268 - set next application version" />
     <MESSAGE value="#268 - others" />
     <MESSAGE value="#270 - new element on list healthTypeList - Gym" />
     <MESSAGE value="#270 - others" />
@@ -670,6 +669,8 @@
     <MESSAGE value="#353 - others" />
     <MESSAGE value="#282 - new method insertNewLocation" />
     <MESSAGE value="#282 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#282 - others" />
+    <MESSAGE value="#283 - new method public LocationModel getLocation()" />
+    <MESSAGE value="#283 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#283 - others" />
   </component>
 </project>
