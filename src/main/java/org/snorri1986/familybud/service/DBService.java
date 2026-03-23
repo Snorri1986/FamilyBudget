@@ -125,7 +125,7 @@ public class DBService {
   }
 
   public void insertNewLocation(LocationModel locationModel) {
-    String sql = "SELECT public.set_location(?,?,?)";
+    String sql = "SELECT public.i_location(?,?,?)";
     jdbcTemplate.queryForObject(sql, new Object[]{
             locationModel.getCountry(),
             locationModel.getCity(),
