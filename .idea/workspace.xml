@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#359 - others">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/s_location.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/s_location.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#360 - others">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/location.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/location.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -228,30 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00708" summary="#256 - others">
-      <option name="closed" value="true" />
-      <created>1769799776856</created>
-      <option name="number" value="00708" />
-      <option name="presentableId" value="LOCAL-00708" />
-      <option name="project" value="LOCAL" />
-      <updated>1769799776856</updated>
-    </task>
-    <task id="LOCAL-00709" summary="#256 - UT for testGetTravelExpense">
-      <option name="closed" value="true" />
-      <created>1769801501366</created>
-      <option name="number" value="00709" />
-      <option name="presentableId" value="LOCAL-00709" />
-      <option name="project" value="LOCAL" />
-      <updated>1769801501366</updated>
-    </task>
-    <task id="LOCAL-00710" summary="#256 - others">
-      <option name="closed" value="true" />
-      <created>1769801516972</created>
-      <option name="number" value="00710" />
-      <option name="presentableId" value="LOCAL-00710" />
-      <option name="project" value="LOCAL" />
-      <updated>1769801516972</updated>
     </task>
     <task id="LOCAL-00711" summary="#128 - DB switch to Prod">
       <option name="closed" value="true" />
@@ -621,7 +597,31 @@
       <option name="project" value="LOCAL" />
       <updated>1774293951662</updated>
     </task>
-    <option name="localTasksCounter" value="757" />
+    <task id="LOCAL-00757" summary="#360 - new success-page and css for it">
+      <option name="closed" value="true" />
+      <created>1774294245161</created>
+      <option name="number" value="00757" />
+      <option name="presentableId" value="LOCAL-00757" />
+      <option name="project" value="LOCAL" />
+      <updated>1774294245161</updated>
+    </task>
+    <task id="LOCAL-00758" summary="#360 - implementation of success page">
+      <option name="closed" value="true" />
+      <created>1774294285908</created>
+      <option name="number" value="00758" />
+      <option name="presentableId" value="LOCAL-00758" />
+      <option name="project" value="LOCAL" />
+      <updated>1774294285908</updated>
+    </task>
+    <task id="LOCAL-00759" summary="#360 - others">
+      <option name="closed" value="true" />
+      <created>1774294295645</created>
+      <option name="number" value="00759" />
+      <option name="presentableId" value="LOCAL-00759" />
+      <option name="project" value="LOCAL" />
+      <updated>1774294295645</updated>
+    </task>
+    <option name="localTasksCounter" value="760" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -648,9 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#278 - others" />
-    <MESSAGE value="#279 - new procedure set_location" />
-    <MESSAGE value="#279 - others" />
     <MESSAGE value="#279 - rename file + others" />
     <MESSAGE value="#280 - function to get location" />
     <MESSAGE value="#281 - new button - Update location" />
@@ -673,6 +670,9 @@
     <MESSAGE value="#358 - others" />
     <MESSAGE value="#359 - method for sending new location to DB" />
     <MESSAGE value="#359 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#359 - others" />
+    <MESSAGE value="#360 - new success-page and css for it" />
+    <MESSAGE value="#360 - implementation of success page" />
+    <MESSAGE value="#360 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#360 - others" />
   </component>
 </project>
