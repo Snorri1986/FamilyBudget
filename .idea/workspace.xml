@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#357 - uncomment method with updated LocationModel">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#358 - others">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -226,22 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00704" summary="#261 - others">
-      <option name="closed" value="true" />
-      <created>1769458018758</created>
-      <option name="number" value="00704" />
-      <option name="presentableId" value="LOCAL-00704" />
-      <option name="project" value="LOCAL" />
-      <updated>1769458018758</updated>
-    </task>
-    <task id="LOCAL-00705" summary="#261 - calculation of sums">
-      <option name="closed" value="true" />
-      <created>1769458035508</created>
-      <option name="number" value="00705" />
-      <option name="presentableId" value="LOCAL-00705" />
-      <option name="project" value="LOCAL" />
-      <updated>1769458035508</updated>
     </task>
     <task id="LOCAL-00706" summary="#261 - show on html side">
       <option name="closed" value="true" />
@@ -619,7 +604,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773434901086</updated>
     </task>
-    <option name="localTasksCounter" value="753" />
+    <task id="LOCAL-00753" summary="#358 - new get method to set new location">
+      <option name="closed" value="true" />
+      <created>1774293389345</created>
+      <option name="number" value="00753" />
+      <option name="presentableId" value="LOCAL-00753" />
+      <option name="project" value="LOCAL" />
+      <updated>1774293389345</updated>
+    </task>
+    <task id="LOCAL-00754" summary="#358 - others">
+      <option name="closed" value="true" />
+      <created>1774293401479</created>
+      <option name="number" value="00754" />
+      <option name="presentableId" value="LOCAL-00754" />
+      <option name="project" value="LOCAL" />
+      <updated>1774293401479</updated>
+    </task>
+    <option name="localTasksCounter" value="755" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -646,8 +647,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#274 - others" />
-    <MESSAGE value="#277 - new columns for VAT and payment cards" />
     <MESSAGE value="#277 - others" />
     <MESSAGE value="#278 - vat_rules table" />
     <MESSAGE value="#278 - others" />
@@ -671,6 +670,8 @@
     <MESSAGE value="#357 - new version with vat field" />
     <MESSAGE value="#357 - others" />
     <MESSAGE value="#357 - uncomment method with updated LocationModel" />
-    <option name="LAST_COMMIT_MESSAGE" value="#357 - uncomment method with updated LocationModel" />
+    <MESSAGE value="#358 - new get method to set new location" />
+    <MESSAGE value="#358 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#358 - others" />
   </component>
 </project>
