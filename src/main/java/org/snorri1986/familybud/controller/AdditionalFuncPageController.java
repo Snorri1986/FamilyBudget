@@ -45,6 +45,12 @@ public class AdditionalFuncPageController {
     return "new_card";
   }
 
+  @GetMapping("/set_location")
+  public String setNewLocation(Model model) {
+    model.addAttribute("location_attribute", new LocationModel());
+    return "location";
+  }
+
   @PostMapping("/registerNewCard")
   public String submitNewCardForm(@ModelAttribute("card_mod_attribute") DefaultPaymentCardModel newCardForm) {
     DefaultPaymentCardModel defaultPaymentCardModel = new DefaultPaymentCardModel();
