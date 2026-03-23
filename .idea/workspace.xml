@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#356 - others">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#357 - uncomment method with updated LocationModel">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -225,30 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00701" summary="#225 - others">
-      <option name="closed" value="true" />
-      <created>1769455760588</created>
-      <option name="number" value="00701" />
-      <option name="presentableId" value="LOCAL-00701" />
-      <option name="project" value="LOCAL" />
-      <updated>1769455760588</updated>
-    </task>
-    <task id="LOCAL-00702" summary="#225 - clean up of old version getTravelExpenseReportDB">
-      <option name="closed" value="true" />
-      <created>1769455822644</created>
-      <option name="number" value="00702" />
-      <option name="presentableId" value="LOCAL-00702" />
-      <option name="project" value="LOCAL" />
-      <updated>1769455822644</updated>
-    </task>
-    <task id="LOCAL-00703" summary="#225 - html solution">
-      <option name="closed" value="true" />
-      <created>1769455836592</created>
-      <option name="number" value="00703" />
-      <option name="presentableId" value="LOCAL-00703" />
-      <option name="project" value="LOCAL" />
-      <updated>1769455836594</updated>
     </task>
     <task id="LOCAL-00704" summary="#261 - others">
       <option name="closed" value="true" />
@@ -618,7 +595,31 @@
       <option name="project" value="LOCAL" />
       <updated>1773434539049</updated>
     </task>
-    <option name="localTasksCounter" value="750" />
+    <task id="LOCAL-00750" summary="#357 - new version with vat field">
+      <option name="closed" value="true" />
+      <created>1773434840164</created>
+      <option name="number" value="00750" />
+      <option name="presentableId" value="LOCAL-00750" />
+      <option name="project" value="LOCAL" />
+      <updated>1773434840166</updated>
+    </task>
+    <task id="LOCAL-00751" summary="#357 - others">
+      <option name="closed" value="true" />
+      <created>1773434857097</created>
+      <option name="number" value="00751" />
+      <option name="presentableId" value="LOCAL-00751" />
+      <option name="project" value="LOCAL" />
+      <updated>1773434857099</updated>
+    </task>
+    <task id="LOCAL-00752" summary="#357 - uncomment method with updated LocationModel">
+      <option name="closed" value="true" />
+      <created>1773434901086</created>
+      <option name="number" value="00752" />
+      <option name="presentableId" value="LOCAL-00752" />
+      <option name="project" value="LOCAL" />
+      <updated>1773434901086</updated>
+    </task>
+    <option name="localTasksCounter" value="753" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -645,9 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#273 - add new expense code" />
-    <MESSAGE value="#273 - others" />
-    <MESSAGE value="#274 - new expense type on web level" />
     <MESSAGE value="#274 - others" />
     <MESSAGE value="#277 - new columns for VAT and payment cards" />
     <MESSAGE value="#277 - others" />
@@ -670,6 +668,9 @@
     <MESSAGE value="#356 - temporary commented" />
     <MESSAGE value="#356 - new version with vat variable" />
     <MESSAGE value="#356 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#356 - others" />
+    <MESSAGE value="#357 - new version with vat field" />
+    <MESSAGE value="#357 - others" />
+    <MESSAGE value="#357 - uncomment method with updated LocationModel" />
+    <option name="LAST_COMMIT_MESSAGE" value="#357 - uncomment method with updated LocationModel" />
   </component>
 </project>
