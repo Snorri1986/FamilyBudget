@@ -1,7 +1,8 @@
-CREATE OR REPLACE PROCEDURE public.set_location(IN i_country character, IN i_city character, IN i_vat int4)
+CREATE OR REPLACE FUNCTION public.i_location(i_country character, i_city character, i_vat integer)
+ RETURNS void
  LANGUAGE plpgsql
-AS $procedure$
-    DECLARE
+AS $function$
+	DECLARE
            vat_city text;
 	BEGIN
          -- user's location --
@@ -23,6 +24,5 @@ AS $procedure$
             AND city = i_city;
          END IF;
 	END;
-$procedure$
-;
+$function$
 ;
