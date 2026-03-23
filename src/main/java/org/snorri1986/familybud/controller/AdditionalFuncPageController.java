@@ -48,6 +48,7 @@ public class AdditionalFuncPageController {
   @GetMapping("/set_location")
   public String setNewLocation(Model model) {
     model.addAttribute("location_attribute", new LocationModel());
+    // TODO: webpage is not ready
     return "location";
   }
 
@@ -58,6 +59,19 @@ public class AdditionalFuncPageController {
     // logging
     System.out.println("New card number to DB" + defaultPaymentCardModel.toString());
     dbService.insertNewDefaultPaymentCard(defaultPaymentCardModel);
+    return "s_card";
+  }
+
+  @PostMapping("/registerNewLocation")
+  public String submitNewLocation(@ModelAttribute("location_attribute") LocationModel locationModel) {
+    LocationModel locationModelSendToDB = new LocationModel();
+    locationModelSendToDB.setCity(locationModel.getCity());
+    locationModelSendToDB.setCountry(locationModel.getCountry());
+    locationModelSendToDB.setVat(locationModel.getVat());
+    // logging
+    System.out.println("New card number to DB" + locationModelSendToDB.toString());
+    dbService.insertNewLocation(locationModelSendToDB);
+    // TODO: webpage must be replaced
     return "s_card";
   }
 
