@@ -71,8 +71,7 @@ public class AdditionalFuncPageController {
     // logging
     System.out.println("New card number to DB" + locationModelSendToDB.toString());
     dbService.insertNewLocation(locationModelSendToDB);
-    // TODO: webpage must be replaced
-    return "s_card";
+    return "s_location";
   }
 
   @GetMapping("/travel_report")
