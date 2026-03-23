@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#360 - others">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/location.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/location.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#284 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/set_location.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/i_location.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,30 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00711" summary="#128 - DB switch to Prod">
-      <option name="closed" value="true" />
-      <created>1769802114377</created>
-      <option name="number" value="00711" />
-      <option name="presentableId" value="LOCAL-00711" />
-      <option name="project" value="LOCAL" />
-      <updated>1769802114377</updated>
-    </task>
-    <task id="LOCAL-00712" summary="#128 - others">
-      <option name="closed" value="true" />
-      <created>1769802127597</created>
-      <option name="number" value="00712" />
-      <option name="presentableId" value="LOCAL-00712" />
-      <option name="project" value="LOCAL" />
-      <updated>1769802127597</updated>
-    </task>
-    <task id="LOCAL-00713" summary="#265 - cast for opertype field">
-      <option name="closed" value="true" />
-      <created>1770840484105</created>
-      <option name="number" value="00713" />
-      <option name="presentableId" value="LOCAL-00713" />
-      <option name="project" value="LOCAL" />
-      <updated>1770840484105</updated>
     </task>
     <task id="LOCAL-00714" summary="#265 - others">
       <option name="closed" value="true" />
@@ -621,7 +596,31 @@
       <option name="project" value="LOCAL" />
       <updated>1774294295645</updated>
     </task>
-    <option name="localTasksCounter" value="760" />
+    <task id="LOCAL-00760" summary="#284 - set new location web page and its css">
+      <option name="closed" value="true" />
+      <created>1774295160601</created>
+      <option name="number" value="00760" />
+      <option name="presentableId" value="LOCAL-00760" />
+      <option name="project" value="LOCAL" />
+      <updated>1774295160601</updated>
+    </task>
+    <task id="LOCAL-00761" summary="#284 - integration to button">
+      <option name="closed" value="true" />
+      <created>1774295190839</created>
+      <option name="number" value="00761" />
+      <option name="presentableId" value="LOCAL-00761" />
+      <option name="project" value="LOCAL" />
+      <updated>1774295190839</updated>
+    </task>
+    <task id="LOCAL-00762" summary="#284 - others">
+      <option name="closed" value="true" />
+      <created>1774295203843</created>
+      <option name="number" value="00762" />
+      <option name="presentableId" value="LOCAL-00762" />
+      <option name="project" value="LOCAL" />
+      <updated>1774295203843</updated>
+    </task>
+    <option name="localTasksCounter" value="763" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -648,9 +647,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#279 - rename file + others" />
-    <MESSAGE value="#280 - function to get location" />
-    <MESSAGE value="#281 - new button - Update location" />
     <MESSAGE value="#281 - others" />
     <MESSAGE value="#353 - new model - LocationModel" />
     <MESSAGE value="#353 - others" />
@@ -673,6 +669,9 @@
     <MESSAGE value="#360 - new success-page and css for it" />
     <MESSAGE value="#360 - implementation of success page" />
     <MESSAGE value="#360 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#360 - others" />
+    <MESSAGE value="#284 - set new location web page and its css" />
+    <MESSAGE value="#284 - integration to button" />
+    <MESSAGE value="#284 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#284 - others" />
   </component>
 </project>
