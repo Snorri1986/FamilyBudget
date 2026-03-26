@@ -27,7 +27,8 @@ public class MainPageController {
 
   @GetMapping("/main")
   public String getMainPage(Model model) {
-    model.addAttribute("theDate",java.time.LocalDateTime.now());
+    LocationModel currentLocation = dbService.getLocation();
+    model.addAttribute("location",currentLocation);
     return "main";
   }
 
