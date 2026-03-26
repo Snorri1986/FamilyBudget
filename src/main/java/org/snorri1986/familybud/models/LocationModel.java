@@ -13,6 +13,11 @@ public class LocationModel {
     this.vat = vat;
   }
 
+  public LocationModel(String country, String city) {
+    this.country = country;
+    this.city = city;
+  }
+
   public String getCountry() {
     return country;
   }
