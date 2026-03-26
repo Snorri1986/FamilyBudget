@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#284 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#361 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/set_location.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/i_location.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,30 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00714" summary="#265 - others">
-      <option name="closed" value="true" />
-      <created>1770840495282</created>
-      <option name="number" value="00714" />
-      <option name="presentableId" value="LOCAL-00714" />
-      <option name="project" value="LOCAL" />
-      <updated>1770840495282</updated>
-    </task>
-    <task id="LOCAL-00715" summary="#266 - JOIN on card part is not needed">
-      <option name="closed" value="true" />
-      <created>1770841513362</created>
-      <option name="number" value="00715" />
-      <option name="presentableId" value="LOCAL-00715" />
-      <option name="project" value="LOCAL" />
-      <updated>1770841513362</updated>
-    </task>
-    <task id="LOCAL-00716" summary="#266 - others">
-      <option name="closed" value="true" />
-      <created>1770841526091</created>
-      <option name="number" value="00716" />
-      <option name="presentableId" value="LOCAL-00716" />
-      <option name="project" value="LOCAL" />
-      <updated>1770841526091</updated>
     </task>
     <task id="LOCAL-00717" summary="#268 - set connection to DEV DB">
       <option name="closed" value="true" />
@@ -620,7 +595,31 @@
       <option name="project" value="LOCAL" />
       <updated>1774295203843</updated>
     </task>
-    <option name="localTasksCounter" value="763" />
+    <task id="LOCAL-00763" summary="#361 - rewrite as function (easy to call)">
+      <option name="closed" value="true" />
+      <created>1774296234987</created>
+      <option name="number" value="00763" />
+      <option name="presentableId" value="LOCAL-00763" />
+      <option name="project" value="LOCAL" />
+      <updated>1774296234987</updated>
+    </task>
+    <task id="LOCAL-00764" summary="#361 - function implementation">
+      <option name="closed" value="true" />
+      <created>1774296254357</created>
+      <option name="number" value="00764" />
+      <option name="presentableId" value="LOCAL-00764" />
+      <option name="project" value="LOCAL" />
+      <updated>1774296254357</updated>
+    </task>
+    <task id="LOCAL-00765" summary="#361 - others">
+      <option name="closed" value="true" />
+      <created>1774296269492</created>
+      <option name="number" value="00765" />
+      <option name="presentableId" value="LOCAL-00765" />
+      <option name="project" value="LOCAL" />
+      <updated>1774296269492</updated>
+    </task>
+    <option name="localTasksCounter" value="766" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -647,9 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#281 - others" />
-    <MESSAGE value="#353 - new model - LocationModel" />
-    <MESSAGE value="#353 - others" />
     <MESSAGE value="#282 - new method insertNewLocation" />
     <MESSAGE value="#282 - others" />
     <MESSAGE value="#283 - new method public LocationModel getLocation()" />
@@ -672,6 +668,9 @@
     <MESSAGE value="#284 - set new location web page and its css" />
     <MESSAGE value="#284 - integration to button" />
     <MESSAGE value="#284 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#284 - others" />
+    <MESSAGE value="#361 - rewrite as function (easy to call)" />
+    <MESSAGE value="#361 - function implementation" />
+    <MESSAGE value="#361 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#361 - others" />
   </component>
 </project>
