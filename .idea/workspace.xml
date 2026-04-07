@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#363 - constructor without VAT field">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/DataSourceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/FamilyBudgetMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/UserModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#363 - others" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -249,22 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00721" summary="#270 - new element on list healthTypeList - Gym">
-      <option name="closed" value="true" />
-      <created>1772224349404</created>
-      <option name="number" value="00721" />
-      <option name="presentableId" value="LOCAL-00721" />
-      <option name="project" value="LOCAL" />
-      <updated>1772224349404</updated>
-    </task>
-    <task id="LOCAL-00722" summary="#270 - others">
-      <option name="closed" value="true" />
-      <created>1772224363815</created>
-      <option name="number" value="00722" />
-      <option name="presentableId" value="LOCAL-00722" />
-      <option name="project" value="LOCAL" />
-      <updated>1772224363815</updated>
     </task>
     <task id="LOCAL-00723" summary="#272 - new case - Gym">
       <option name="closed" value="true" />
@@ -642,7 +600,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774553886196</updated>
     </task>
-    <option name="localTasksCounter" value="770" />
+    <task id="LOCAL-00770" summary="#363 - revert last changes">
+      <option name="closed" value="true" />
+      <created>1775584387869</created>
+      <option name="number" value="00770" />
+      <option name="presentableId" value="LOCAL-00770" />
+      <option name="project" value="LOCAL" />
+      <updated>1775584387869</updated>
+    </task>
+    <task id="LOCAL-00771" summary="#363 - others">
+      <option name="closed" value="true" />
+      <created>1775584404050</created>
+      <option name="number" value="00771" />
+      <option name="presentableId" value="LOCAL-00771" />
+      <option name="project" value="LOCAL" />
+      <updated>1775584404050</updated>
+    </task>
+    <option name="localTasksCounter" value="772" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -669,8 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#283 - others" />
-    <MESSAGE value="#355 - new version. update vat_rule and location" />
     <MESSAGE value="#355 - others" />
     <MESSAGE value="#356 - temporary commented" />
     <MESSAGE value="#356 - new version with vat variable" />
@@ -694,6 +666,8 @@
     <MESSAGE value="#362 - delete localtime and call location from DB" />
     <MESSAGE value="#362 - others" />
     <MESSAGE value="#363 - constructor without VAT field" />
-    <option name="LAST_COMMIT_MESSAGE" value="#363 - constructor without VAT field" />
+    <MESSAGE value="#363 - revert last changes" />
+    <MESSAGE value="#363 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#363 - others" />
   </component>
 </project>
