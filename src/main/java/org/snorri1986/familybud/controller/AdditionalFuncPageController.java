@@ -74,7 +74,7 @@ public class AdditionalFuncPageController {
     locationModelSendToDB.setCountry(locationModel.getCountry());
     locationModelSendToDB.setVat(locationModel.getVat());
     // logging
-    System.out.println("New card number to DB" + locationModelSendToDB.toString());
+    System.out.println("New location has been sent to DB" + locationModelSendToDB.toString());
     dbService.insertNewLocation(locationModelSendToDB);
     return "s_location";
   }
