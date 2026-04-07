@@ -41,8 +41,7 @@ public class AdditionalFuncPageController {
 
   @GetMapping("/showLocation")
   public String showLocation(Model model) {
-    //TODO: temporary
-    return "cash_balance";
+    return "show_location";
   }
 
   @GetMapping("/payment_card")
