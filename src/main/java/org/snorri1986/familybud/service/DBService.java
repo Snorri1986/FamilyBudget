@@ -139,8 +139,9 @@ public class DBService {
   }
 
   public LocationModel getLocation() {
-    String sql = "SELECT public.get_location()";
-    return jdbcTemplate.queryForObject(sql, LocationModel.class);
+    String sql = "SELECT * FROM public.get_location()";
+    return jdbcTemplate.queryForObject(sql, (rs, rowNum) -> new LocationModel(rs.getString("v_country"),
+            rs.getString("v_city")));
   }
 
   public List<LastTenIncomesModel> getLastTenIncomesCard() {
