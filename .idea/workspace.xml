@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#364 - others" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#365 - others">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/show_location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,22 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00725" summary="#273 - add new expense code">
-      <option name="closed" value="true" />
-      <created>1773088194741</created>
-      <option name="number" value="00725" />
-      <option name="presentableId" value="LOCAL-00725" />
-      <option name="project" value="LOCAL" />
-      <updated>1773088194741</updated>
-    </task>
-    <task id="LOCAL-00726" summary="#273 - others">
-      <option name="closed" value="true" />
-      <created>1773088208338</created>
-      <option name="number" value="00726" />
-      <option name="presentableId" value="LOCAL-00726" />
-      <option name="project" value="LOCAL" />
-      <updated>1773088208338</updated>
     </task>
     <task id="LOCAL-00727" summary="#274 - new expense type on web level">
       <option name="closed" value="true" />
@@ -616,7 +604,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775584808557</updated>
     </task>
-    <option name="localTasksCounter" value="774" />
+    <task id="LOCAL-00774" summary="#365 - new button - show location">
+      <option name="closed" value="true" />
+      <created>1775585142230</created>
+      <option name="number" value="00774" />
+      <option name="presentableId" value="LOCAL-00774" />
+      <option name="project" value="LOCAL" />
+      <updated>1775585142230</updated>
+    </task>
+    <task id="LOCAL-00775" summary="#365 - others">
+      <option name="closed" value="true" />
+      <created>1775585159657</created>
+      <option name="number" value="00775" />
+      <option name="presentableId" value="LOCAL-00775" />
+      <option name="project" value="LOCAL" />
+      <updated>1775585159657</updated>
+    </task>
+    <option name="localTasksCounter" value="776" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -643,8 +647,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#356 - new version with vat variable" />
-    <MESSAGE value="#356 - others" />
     <MESSAGE value="#357 - new version with vat field" />
     <MESSAGE value="#357 - others" />
     <MESSAGE value="#357 - uncomment method with updated LocationModel" />
@@ -668,6 +670,8 @@
     <MESSAGE value="#363 - others" />
     <MESSAGE value="#364 - new endpoint showLocation" />
     <MESSAGE value="#364 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#364 - others" />
+    <MESSAGE value="#365 - new button - show location" />
+    <MESSAGE value="#365 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#365 - others" />
   </component>
 </project>
