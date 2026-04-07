@@ -8,6 +8,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.snorri1986.familybud.models.DefaultPaymentCardModel;
+import org.snorri1986.familybud.models.LocationModel;
 import org.snorri1986.familybud.models.TravelReportRequestModel;
 import org.snorri1986.familybud.models.TravelReportResponseModel;
 import org.snorri1986.familybud.service.DBService;
@@ -53,6 +54,20 @@ public class AdditionalFuncPageControllerTest {
     int card_result = dbService.getPaymentCardDefault();
     assertEquals(1234, card_result);
     Mockito.verify(dbService).getPaymentCardDefault();
+  }
+
+  @Test
+  void testSetNewLocation() {
+    LocationModel locationModelForTest = new LocationModel();
+    locationModelForTest.setCity("Oslo");
+    locationModelForTest.setCountry("Norway");
+    locationModelForTest.setVat(15);
+    ArgumentCaptor<LocationModel> captor = ArgumentCaptor.forClass(LocationModel.class);
+    String result = additionalFuncPageController.submitNewLocation(locationModelForTest);
+    Mockito.verify(dbService).insertNewLocation(captor.capture());
+    assertEquals("Oslo", captor.getValue().getCity());
+    assertEquals("Norway", captor.getValue().getCountry());
+    assertEquals(15, captor.getValue().getVat());
   }
 
   @Test
