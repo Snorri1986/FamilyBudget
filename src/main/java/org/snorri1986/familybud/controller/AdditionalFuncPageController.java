@@ -39,6 +39,12 @@ public class AdditionalFuncPageController {
     return "cash_balance";
   }
 
+  @GetMapping("/showLocation")
+  public String showLocation(Model model) {
+    //TODO: temporary
+    return "cash_balance";
+  }
+
   @GetMapping("/payment_card")
   public String setNewPaymentCard(Model model) {
     model.addAttribute("card_mod_attribute", new DefaultPaymentCardModel());
