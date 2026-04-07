@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#365 - others">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/show_location.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#366 - others">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,30 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00727" summary="#274 - new expense type on web level">
-      <option name="closed" value="true" />
-      <created>1773088616421</created>
-      <option name="number" value="00727" />
-      <option name="presentableId" value="LOCAL-00727" />
-      <option name="project" value="LOCAL" />
-      <updated>1773088616421</updated>
-    </task>
-    <task id="LOCAL-00728" summary="#274 - others">
-      <option name="closed" value="true" />
-      <created>1773088630063</created>
-      <option name="number" value="00728" />
-      <option name="presentableId" value="LOCAL-00728" />
-      <option name="project" value="LOCAL" />
-      <updated>1773088630063</updated>
-    </task>
-    <task id="LOCAL-00729" summary="#277 - new columns for VAT and payment cards">
-      <option name="closed" value="true" />
-      <created>1773089459123</created>
-      <option name="number" value="00729" />
-      <option name="presentableId" value="LOCAL-00729" />
-      <option name="project" value="LOCAL" />
-      <updated>1773089459123</updated>
     </task>
     <task id="LOCAL-00730" summary="#277 - others">
       <option name="closed" value="true" />
@@ -620,7 +594,31 @@
       <option name="project" value="LOCAL" />
       <updated>1775585159657</updated>
     </task>
-    <option name="localTasksCounter" value="776" />
+    <task id="LOCAL-00776" summary="#366 - new web page for showing location from DB">
+      <option name="closed" value="true" />
+      <created>1775585556353</created>
+      <option name="number" value="00776" />
+      <option name="presentableId" value="LOCAL-00776" />
+      <option name="project" value="LOCAL" />
+      <updated>1775585556353</updated>
+    </task>
+    <task id="LOCAL-00777" summary="#366 - using new web page in the controller">
+      <option name="closed" value="true" />
+      <created>1775585576644</created>
+      <option name="number" value="00777" />
+      <option name="presentableId" value="LOCAL-00777" />
+      <option name="project" value="LOCAL" />
+      <updated>1775585576644</updated>
+    </task>
+    <task id="LOCAL-00778" summary="#366 - others">
+      <option name="closed" value="true" />
+      <created>1775585592444</created>
+      <option name="number" value="00778" />
+      <option name="presentableId" value="LOCAL-00778" />
+      <option name="project" value="LOCAL" />
+      <updated>1775585592444</updated>
+    </task>
+    <option name="localTasksCounter" value="779" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -647,9 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#357 - new version with vat field" />
-    <MESSAGE value="#357 - others" />
-    <MESSAGE value="#357 - uncomment method with updated LocationModel" />
     <MESSAGE value="#358 - new get method to set new location" />
     <MESSAGE value="#358 - others" />
     <MESSAGE value="#359 - method for sending new location to DB" />
@@ -672,6 +667,9 @@
     <MESSAGE value="#364 - others" />
     <MESSAGE value="#365 - new button - show location" />
     <MESSAGE value="#365 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#365 - others" />
+    <MESSAGE value="#366 - new web page for showing location from DB" />
+    <MESSAGE value="#366 - using new web page in the controller" />
+    <MESSAGE value="#366 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#366 - others" />
   </component>
 </project>
