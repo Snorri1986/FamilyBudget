@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 
@@ -41,6 +40,8 @@ public class AdditionalFuncPageController {
 
   @GetMapping("/showLocation")
   public String showLocation(Model model) {
+    LocationModel location = dbService.getLocation();
+    model.addAttribute("location", location);
     return "show_location";
   }
 
@@ -53,7 +54,6 @@ public class AdditionalFuncPageController {
   @GetMapping("/set_location")
   public String setNewLocation(Model model) {
     model.addAttribute("location_attribute", new LocationModel());
-    // TODO: webpage is not ready
     return "location";
   }
 
