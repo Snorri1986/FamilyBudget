@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#363 - others" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#364 - others" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,22 +223,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00723" summary="#272 - new case - Gym">
-      <option name="closed" value="true" />
-      <created>1773087760107</created>
-      <option name="number" value="00723" />
-      <option name="presentableId" value="LOCAL-00723" />
-      <option name="project" value="LOCAL" />
-      <updated>1773087760107</updated>
-    </task>
-    <task id="LOCAL-00724" summary="#272 - others">
-      <option name="closed" value="true" />
-      <created>1773087772031</created>
-      <option name="number" value="00724" />
-      <option name="presentableId" value="LOCAL-00724" />
-      <option name="project" value="LOCAL" />
-      <updated>1773087772031</updated>
     </task>
     <task id="LOCAL-00725" summary="#273 - add new expense code">
       <option name="closed" value="true" />
@@ -616,7 +600,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775584404050</updated>
     </task>
-    <option name="localTasksCounter" value="772" />
+    <task id="LOCAL-00772" summary="#364 - new endpoint showLocation">
+      <option name="closed" value="true" />
+      <created>1775584791691</created>
+      <option name="number" value="00772" />
+      <option name="presentableId" value="LOCAL-00772" />
+      <option name="project" value="LOCAL" />
+      <updated>1775584791693</updated>
+    </task>
+    <task id="LOCAL-00773" summary="#364 - others">
+      <option name="closed" value="true" />
+      <created>1775584808557</created>
+      <option name="number" value="00773" />
+      <option name="presentableId" value="LOCAL-00773" />
+      <option name="project" value="LOCAL" />
+      <updated>1775584808557</updated>
+    </task>
+    <option name="localTasksCounter" value="774" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -643,8 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#355 - others" />
-    <MESSAGE value="#356 - temporary commented" />
     <MESSAGE value="#356 - new version with vat variable" />
     <MESSAGE value="#356 - others" />
     <MESSAGE value="#357 - new version with vat field" />
@@ -668,6 +666,8 @@
     <MESSAGE value="#363 - constructor without VAT field" />
     <MESSAGE value="#363 - revert last changes" />
     <MESSAGE value="#363 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#363 - others" />
+    <MESSAGE value="#364 - new endpoint showLocation" />
+    <MESSAGE value="#364 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#364 - others" />
   </component>
 </project>
