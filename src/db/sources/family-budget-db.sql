@@ -200,6 +200,7 @@ CREATE TABLE IF NOT EXISTS "cash_operations_log" (
         "id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
         "optype" bigint NOT NULL,
         "amount" bigint NOT NULL,
+        "vat" double precision,
         "date" timestamp with time zone NOT NULL,
         "comments" varchar(255) NOT NULL,
         "user_last_session" text NOT NULL,
@@ -211,6 +212,7 @@ COMMENT ON TABLE cash_operations_log  is 'storage of cash operations';
 COMMENT ON COLUMN public.cash_operations_log.id IS 'id of record';
 COMMENT ON COLUMN public.cash_operations_log.optype IS '0 - expense, 1-income';
 COMMENT ON COLUMN public.cash_operations_log.amount IS 'value of money';
+COMMENT ON COLUMN public.cash_operations_log.vat IS 'VAT value';
 COMMENT ON COLUMN public.cash_operations_log."date" IS 'operation date';
 COMMENT ON COLUMN public.cash_operations_log."comments" IS 'description of operation';
 COMMENT ON COLUMN public.cash_operations_log.user_last_session IS 'owner of record';
