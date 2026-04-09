@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#286 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/MainPageControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
     "JUnit.MainPageControllerTest.testGetHealthPage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetIncomePage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetLoginPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetMainPage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetTelecomPage.executor": "Run",
     "JUnit.MainPageControllerTest.testGetTravelPage.executor": "Run",
     "JUnit.MainPageControllerTest.testRentHousingPage.executor": "Run",
@@ -93,7 +94,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="JUnit.MainPageControllerTest">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -125,22 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdditionalFuncPageControllerTest.testSetNewLocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
-      <option name="METHOD_NAME" value="testSetNewLocation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -152,6 +137,22 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageControllerTest.testGetMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
+      <option name="METHOD_NAME" value="testGetMainPage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -204,7 +205,7 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetLocation" />
-      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testSetNewLocation" />
+      <item itemvalue="JUnit.MainPageControllerTest.testGetMainPage" />
       <item itemvalue="JUnit.MainPageControllerTest" />
       <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
       <item itemvalue="JUnit.WebFormsControllerTest" />
@@ -212,11 +213,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest.testGetMainPage" />
+        <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetLocation" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testSetNewLocation" />
       </list>
     </recent_temporary>
   </component>
@@ -228,22 +229,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00735" summary="#279 - rename file + others">
-      <option name="closed" value="true" />
-      <created>1773257219630</created>
-      <option name="number" value="00735" />
-      <option name="presentableId" value="LOCAL-00735" />
-      <option name="project" value="LOCAL" />
-      <updated>1773257219630</updated>
-    </task>
-    <task id="LOCAL-00736" summary="#280 - function to get location">
-      <option name="closed" value="true" />
-      <created>1773257306359</created>
-      <option name="number" value="00736" />
-      <option name="presentableId" value="LOCAL-00736" />
-      <option name="project" value="LOCAL" />
-      <updated>1773257306359</updated>
     </task>
     <task id="LOCAL-00737" summary="#281 - new button - Update location">
       <option name="closed" value="true" />
@@ -621,7 +606,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775587360327</updated>
     </task>
-    <option name="localTasksCounter" value="784" />
+    <task id="LOCAL-00784" summary="#286 - new ut testGetLocation()">
+      <option name="closed" value="true" />
+      <created>1775758189012</created>
+      <option name="number" value="00784" />
+      <option name="presentableId" value="LOCAL-00784" />
+      <option name="project" value="LOCAL" />
+      <updated>1775758189014</updated>
+    </task>
+    <task id="LOCAL-00785" summary="#286 - others">
+      <option name="closed" value="true" />
+      <created>1775758204599</created>
+      <option name="number" value="00785" />
+      <option name="presentableId" value="LOCAL-00785" />
+      <option name="project" value="LOCAL" />
+      <updated>1775758204599</updated>
+    </task>
+    <option name="localTasksCounter" value="786" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -648,7 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#360 - implementation of success page" />
     <MESSAGE value="#360 - others" />
     <MESSAGE value="#284 - set new location web page and its css" />
     <MESSAGE value="#284 - integration to button" />
@@ -672,6 +672,7 @@
     <MESSAGE value="#367 others" />
     <MESSAGE value="#368 - logging bugfix" />
     <MESSAGE value="#286 - new test - testSetNewLocation()" />
+    <MESSAGE value="#286 - new ut testGetLocation()" />
     <MESSAGE value="#286 - others" />
     <option name="LAST_COMMIT_MESSAGE" value="#286 - others" />
   </component>
