@@ -104,6 +104,7 @@ CREATE TABLE IF NOT EXISTS "entertainment" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
 	"event_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
+	"vat" double precision,
 	"currency" bigint NOT NULL,
 	"operType" varchar(255) NOT NULL,
 	"date" timestamp with time zone NOT NULL,
@@ -116,6 +117,7 @@ COMMENT ON TABLE public.entertainment IS 'storage for entertainment operations';
 COMMENT ON COLUMN public.entertainment.id IS 'id of record';
 COMMENT ON COLUMN public.entertainment.event_type_id IS 'type of operation';
 COMMENT ON COLUMN public.entertainment.amount IS 'value of money';
+COMMENT ON COLUMN public.entertainment.vat IS 'VAT value';
 COMMENT ON COLUMN public.entertainment.currency IS 'currency of operations';
 COMMENT ON COLUMN public.entertainment."date" IS 'time of operations';
 COMMENT ON COLUMN public.entertainment.source_card IS 'payment card number';
