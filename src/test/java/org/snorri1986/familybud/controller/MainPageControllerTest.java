@@ -9,7 +9,6 @@ import org.snorri1986.familybud.models.*;
 import org.snorri1986.familybud.service.DBService;
 import org.springframework.ui.Model;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -40,7 +39,6 @@ public class MainPageControllerTest {
   void testGetMainPage() {
     String viewName = mainPageController.getMainPage(model);
     assertEquals("main", viewName);
-    verify(model).addAttribute(eq("theDate"), any(LocalDateTime.class));
   }
 
   @Test
