@@ -71,6 +71,15 @@ public class AdditionalFuncPageControllerTest {
   }
 
   @Test
+  void testGetLocation() {
+    Mockito.when(dbService.getLocation()).thenReturn(new LocationModel("Denmark","Copenhagen"));
+    LocationModel locationMockDB = dbService.getLocation();
+    assertEquals("Copenhagen", locationMockDB.getCity());
+    assertEquals("Denmark", locationMockDB.getCountry());
+    Mockito.verify(dbService).getLocation();
+  }
+
+  @Test
   void testGetTravelReportPage() {
     String viewName = additionalFuncPageController.getTravelReport(model);
     assertEquals("travel_report", viewName);
