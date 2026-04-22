@@ -8,14 +8,14 @@ AS $function$
 BEGIN
 
     IF oper_type = 'Cash' THEN
-        INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency,ex_type_id)
-        VALUES (0,amount_val,oper_date,comm_value,get_last_login(),cur_val,hr_type_id);
+        INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency,ex_type_id,vat)
+        VALUES (0,amount_val,oper_date,comm_value,get_last_login(),cur_val,hr_type_id,calculate_vat(amount_val));
 
     PERFORM minus_cash_balance(amount_val);
 
     ELSE
-        INSERT INTO housing_rent(hr_type_id,amount,currency,date,source_card,comments,opertype,user_last_session)
-        VALUES (hr_type_id,amount_val,cur_val,oper_date,src_card,comm_value,oper_type,get_last_login());
+        INSERT INTO housing_rent(hr_type_id,amount,currency,date,source_card,comments,opertype,user_last_session,vat)
+        VALUES (hr_type_id,amount_val,cur_val,oper_date,src_card,comm_value,oper_type,get_last_login(),calculate_vat(amount_val));
     END IF;
 
 END;
