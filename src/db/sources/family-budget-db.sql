@@ -89,7 +89,8 @@ CREATE TABLE IF NOT EXISTS "travel" (
 	"source_card" bigint NOT NULL,
 	"destination" varchar(255) NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user_last_session" text NOT NULL
+	"user_last_session" text NOT NULL,
+	"vat" float8
 	PRIMARY KEY ("id")
 );
 COMMENT ON TABLE public.travel IS 'storage of travel operations';
@@ -103,6 +104,7 @@ COMMENT ON COLUMN public.travel.destination IS 'travel destination';
 COMMENT ON COLUMN public.travel."comments" IS 'description of operation';
 COMMENT ON COLUMN public.travel.opertype IS 'card or cash';
 COMMENT ON COLUMN public.travel.user_last_session IS 'owner of operation';
+COMMENT ON COLUMN public.travel.vat IS 'VAT value';
 
 CREATE TABLE IF NOT EXISTS "entertainment" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
