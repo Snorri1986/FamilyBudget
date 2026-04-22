@@ -165,7 +165,8 @@ CREATE TABLE IF NOT EXISTS "telecom" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user_last_session" text NOT NULL
+	"user_last_session" text NOT NULL,
+	"vat" float8
 	PRIMARY KEY ("id")
 );
 COMMENT ON TABLE public.telecom IS 'storage of telecom operations';
@@ -178,6 +179,7 @@ COMMENT ON COLUMN public.telecom.source_card IS 'payment card';
 COMMENT ON COLUMN public.telecom."comments" IS 'description of operation';
 COMMENT ON COLUMN public.telecom.opertype IS 'card or cash';
 COMMENT ON COLUMN public.telecom.user_last_session IS 'owner of operation';
+COMMENT ON COLUMN public.telecom.vat IS 'VAT value';
 
 
 CREATE TABLE IF NOT EXISTS "expenses_type" (
