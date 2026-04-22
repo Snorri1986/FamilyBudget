@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#298 - others">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#300 - others">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_telecom.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_telecom.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,22 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00756" summary="#359 - others">
-      <option name="closed" value="true" />
-      <created>1774293951662</created>
-      <option name="number" value="00756" />
-      <option name="presentableId" value="LOCAL-00756" />
-      <option name="project" value="LOCAL" />
-      <updated>1774293951662</updated>
-    </task>
-    <task id="LOCAL-00757" summary="#360 - new success-page and css for it">
-      <option name="closed" value="true" />
-      <created>1774294245161</created>
-      <option name="number" value="00757" />
-      <option name="presentableId" value="LOCAL-00757" />
-      <option name="project" value="LOCAL" />
-      <updated>1774294245161</updated>
     </task>
     <task id="LOCAL-00758" summary="#360 - implementation of success page">
       <option name="closed" value="true" />
@@ -621,7 +605,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776884171362</updated>
     </task>
-    <option name="localTasksCounter" value="805" />
+    <task id="LOCAL-00805" summary="#300 - new column - VAT">
+      <option name="closed" value="true" />
+      <created>1776884474832</created>
+      <option name="number" value="00805" />
+      <option name="presentableId" value="LOCAL-00805" />
+      <option name="project" value="LOCAL" />
+      <updated>1776884474832</updated>
+    </task>
+    <task id="LOCAL-00806" summary="#300 - others">
+      <option name="closed" value="true" />
+      <created>1776884485062</created>
+      <option name="number" value="00806" />
+      <option name="presentableId" value="LOCAL-00806" />
+      <option name="project" value="LOCAL" />
+      <updated>1776884485062</updated>
+    </task>
+    <option name="localTasksCounter" value="807" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -648,8 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#366 - others" />
-    <MESSAGE value="#367 using dbService.getLocation() + clean up" />
     <MESSAGE value="#367 others" />
     <MESSAGE value="#368 - logging bugfix" />
     <MESSAGE value="#286 - new test - testSetNewLocation()" />
@@ -673,6 +671,8 @@
     <MESSAGE value="#297 - others" />
     <MESSAGE value="#298 - new version with vat" />
     <MESSAGE value="#298 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#298 - others" />
+    <MESSAGE value="#300 - new column - VAT" />
+    <MESSAGE value="#300 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#300 - others" />
   </component>
 </project>
