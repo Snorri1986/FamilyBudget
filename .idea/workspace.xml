@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#371 - others">
-      <change afterPath="$PROJECT_DIR$/src/db/sources/calculate_vat.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#373 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_groceries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_groceries.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -229,22 +231,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00744" summary="#283 - others">
-      <option name="closed" value="true" />
-      <created>1773259186249</created>
-      <option name="number" value="00744" />
-      <option name="presentableId" value="LOCAL-00744" />
-      <option name="project" value="LOCAL" />
-      <updated>1773259186249</updated>
-    </task>
-    <task id="LOCAL-00745" summary="#355 - new version. update vat_rule and location">
-      <option name="closed" value="true" />
-      <created>1773434157203</created>
-      <option name="number" value="00745" />
-      <option name="presentableId" value="LOCAL-00745" />
-      <option name="project" value="LOCAL" />
-      <updated>1773434157203</updated>
     </task>
     <task id="LOCAL-00746" summary="#355 - others">
       <option name="closed" value="true" />
@@ -622,7 +608,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775759739450</updated>
     </task>
-    <option name="localTasksCounter" value="793" />
+    <task id="LOCAL-00793" summary="#373 - new function - calculate_vat">
+      <option name="closed" value="true" />
+      <created>1776709356351</created>
+      <option name="number" value="00793" />
+      <option name="presentableId" value="LOCAL-00793" />
+      <option name="project" value="LOCAL" />
+      <updated>1776709356353</updated>
+    </task>
+    <task id="LOCAL-00794" summary="#373 - others">
+      <option name="closed" value="true" />
+      <created>1776709369489</created>
+      <option name="number" value="00794" />
+      <option name="presentableId" value="LOCAL-00794" />
+      <option name="project" value="LOCAL" />
+      <updated>1776709369491</updated>
+    </task>
+    <option name="localTasksCounter" value="795" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -649,8 +651,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#361 - others" />
-    <MESSAGE value="#362 - delete localtime and call location from DB" />
     <MESSAGE value="#362 - others" />
     <MESSAGE value="#363 - constructor without VAT field" />
     <MESSAGE value="#363 - revert last changes" />
@@ -674,6 +674,8 @@
     <MESSAGE value="#288 - others" />
     <MESSAGE value="#371 - new colum VAT for cash_operations_log" />
     <MESSAGE value="#371 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#371 - others" />
+    <MESSAGE value="#373 - new function - calculate_vat" />
+    <MESSAGE value="#373 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#373 - others" />
   </component>
 </project>
