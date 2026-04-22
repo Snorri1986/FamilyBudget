@@ -63,7 +63,8 @@ CREATE TABLE IF NOT EXISTS "housing_rent" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user_last_session" text NOT NULL
+	"user_last_session" text NOT NULL,
+	"vat" float8
 	PRIMARY KEY ("id")
 );
 COMMENT ON TABLE public.housing_rent IS 'storage of housing operations';
@@ -76,6 +77,7 @@ COMMENT ON COLUMN public.housing_rent.source_card IS 'payment card';
 COMMENT ON COLUMN public.housing_rent."comments" IS 'description of operation';
 COMMENT ON COLUMN public.housing_rent.opertype IS 'cash or card operation';
 COMMENT ON COLUMN public.housing_rent.user_last_session IS 'owner of operation';
+COMMENT ON COLUMN public.housing_rent.vat IS 'VAT value';
 
 CREATE TABLE IF NOT EXISTS "travel" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
