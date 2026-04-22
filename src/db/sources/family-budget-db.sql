@@ -138,7 +138,8 @@ CREATE TABLE IF NOT EXISTS "health" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user_last_session" text NOT NULL
+	"user_last_session" text NOT NULL,
+	"vat" float8
 	PRIMARY KEY ("id")
 );
 COMMENT ON TABLE public.health IS 'storage for health operations';
@@ -151,6 +152,7 @@ COMMENT ON COLUMN public.health.source_card IS 'payment card number';
 COMMENT ON COLUMN public.health."comments" IS 'description of operation';
 COMMENT ON COLUMN public.health.opertype IS 'cash or card operation';
 COMMENT ON COLUMN public.health.user_last_session IS 'owner of operation';
+COMMENT ON COLUMN public.health.vat IS 'VAT value';
 
 CREATE TABLE IF NOT EXISTS "telecom" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
