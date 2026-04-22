@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#300 - others">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_telecom.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_telecom.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#303 - new column - VAT">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_travel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_travel.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,30 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00758" summary="#360 - implementation of success page">
-      <option name="closed" value="true" />
-      <created>1774294285908</created>
-      <option name="number" value="00758" />
-      <option name="presentableId" value="LOCAL-00758" />
-      <option name="project" value="LOCAL" />
-      <updated>1774294285908</updated>
-    </task>
-    <task id="LOCAL-00759" summary="#360 - others">
-      <option name="closed" value="true" />
-      <created>1774294295645</created>
-      <option name="number" value="00759" />
-      <option name="presentableId" value="LOCAL-00759" />
-      <option name="project" value="LOCAL" />
-      <updated>1774294295645</updated>
-    </task>
-    <task id="LOCAL-00760" summary="#284 - set new location web page and its css">
-      <option name="closed" value="true" />
-      <created>1774295160601</created>
-      <option name="number" value="00760" />
-      <option name="presentableId" value="LOCAL-00760" />
-      <option name="project" value="LOCAL" />
-      <updated>1774295160601</updated>
     </task>
     <task id="LOCAL-00761" summary="#284 - integration to button">
       <option name="closed" value="true" />
@@ -621,7 +597,31 @@
       <option name="project" value="LOCAL" />
       <updated>1776884485062</updated>
     </task>
-    <option name="localTasksCounter" value="807" />
+    <task id="LOCAL-00807" summary="#301 - with new column - VAT">
+      <option name="closed" value="true" />
+      <created>1776884821408</created>
+      <option name="number" value="00807" />
+      <option name="presentableId" value="LOCAL-00807" />
+      <option name="project" value="LOCAL" />
+      <updated>1776884821408</updated>
+    </task>
+    <task id="LOCAL-00808" summary="#301 - others">
+      <option name="closed" value="true" />
+      <created>1776884835409</created>
+      <option name="number" value="00808" />
+      <option name="presentableId" value="LOCAL-00808" />
+      <option name="project" value="LOCAL" />
+      <updated>1776884835409</updated>
+    </task>
+    <task id="LOCAL-00809" summary="#303 - new column - VAT">
+      <option name="closed" value="true" />
+      <created>1776885080948</created>
+      <option name="number" value="00809" />
+      <option name="presentableId" value="LOCAL-00809" />
+      <option name="project" value="LOCAL" />
+      <updated>1776885080948</updated>
+    </task>
+    <option name="localTasksCounter" value="810" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -648,9 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#367 others" />
-    <MESSAGE value="#368 - logging bugfix" />
-    <MESSAGE value="#286 - new test - testSetNewLocation()" />
     <MESSAGE value="#286 - new ut testGetLocation()" />
     <MESSAGE value="#286 - others" />
     <MESSAGE value="#369 - timemark is not need more" />
@@ -673,6 +670,9 @@
     <MESSAGE value="#298 - others" />
     <MESSAGE value="#300 - new column - VAT" />
     <MESSAGE value="#300 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#300 - others" />
+    <MESSAGE value="#301 - with new column - VAT" />
+    <MESSAGE value="#301 - others" />
+    <MESSAGE value="#303 - new column - VAT" />
+    <option name="LAST_COMMIT_MESSAGE" value="#303 - new column - VAT" />
   </component>
 </project>
