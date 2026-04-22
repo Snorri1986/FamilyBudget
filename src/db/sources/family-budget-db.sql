@@ -38,7 +38,8 @@ CREATE TABLE IF NOT EXISTS "groceries" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user_last_session" text NOT NULL
+	"user_last_session" text NOT NULL,
+	"vat" float8
 	PRIMARY KEY ("id")
 );
 COMMENT ON TABLE public.groceries IS 'storage of groceries operations';
@@ -51,6 +52,7 @@ COMMENT ON COLUMN public.groceries.source_card IS 'payment card number';
 COMMENT ON COLUMN public.groceries."comments" IS 'description of operation';
 COMMENT ON COLUMN public.groceries.opertype IS 'cash or card operation';
 COMMENT ON COLUMN public.groceries.user_last_session IS 'owner of operation';
+COMMENT ON COLUMN public.groceries.vat IS 'VAT value';
 
 CREATE TABLE IF NOT EXISTS "housing_rent" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
@@ -110,7 +112,8 @@ CREATE TABLE IF NOT EXISTS "entertainment" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user_last_session" text NOT NULL
+	"user_last_session" text NOT NULL,
+	"vat" float8
 	PRIMARY KEY ("id")
 );
 COMMENT ON TABLE public.entertainment IS 'storage for entertainment operations';
@@ -124,6 +127,7 @@ COMMENT ON COLUMN public.entertainment.source_card IS 'payment card number';
 COMMENT ON COLUMN public.entertainment."comments" IS 'description of operation';
 COMMENT ON COLUMN public.entertainment.opertype IS 'cash or card';
 COMMENT ON COLUMN public.entertainment.user_last_session IS 'owner of operations';
+COMMENT ON COLUMN public.entertainment.vat IS 'VAT value';
 
 CREATE TABLE IF NOT EXISTS "health" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
