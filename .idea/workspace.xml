@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#294 - others">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_health.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_health.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#295 - others">
+      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,22 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00750" summary="#357 - new version with vat field">
-      <option name="closed" value="true" />
-      <created>1773434840164</created>
-      <option name="number" value="00750" />
-      <option name="presentableId" value="LOCAL-00750" />
-      <option name="project" value="LOCAL" />
-      <updated>1773434840166</updated>
-    </task>
-    <task id="LOCAL-00751" summary="#357 - others">
-      <option name="closed" value="true" />
-      <created>1773434857097</created>
-      <option name="number" value="00751" />
-      <option name="presentableId" value="LOCAL-00751" />
-      <option name="project" value="LOCAL" />
-      <updated>1773434857099</updated>
     </task>
     <task id="LOCAL-00752" summary="#357 - uncomment method with updated LocationModel">
       <option name="closed" value="true" />
@@ -621,7 +605,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776883034241</updated>
     </task>
-    <option name="localTasksCounter" value="799" />
+    <task id="LOCAL-00799" summary="#295 - new version with vat field">
+      <option name="closed" value="true" />
+      <created>1776883453800</created>
+      <option name="number" value="00799" />
+      <option name="presentableId" value="LOCAL-00799" />
+      <option name="project" value="LOCAL" />
+      <updated>1776883453800</updated>
+    </task>
+    <task id="LOCAL-00800" summary="#295 - others">
+      <option name="closed" value="true" />
+      <created>1776883467315</created>
+      <option name="number" value="00800" />
+      <option name="presentableId" value="LOCAL-00800" />
+      <option name="project" value="LOCAL" />
+      <updated>1776883467315</updated>
+    </task>
+    <option name="localTasksCounter" value="801" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -648,8 +648,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#364 - new endpoint showLocation" />
-    <MESSAGE value="#364 - others" />
     <MESSAGE value="#365 - new button - show location" />
     <MESSAGE value="#365 - others" />
     <MESSAGE value="#366 - new web page for showing location from DB" />
@@ -673,6 +671,8 @@
     <MESSAGE value="#292 - others" />
     <MESSAGE value="#294 - new column - vat" />
     <MESSAGE value="#294 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#294 - others" />
+    <MESSAGE value="#295 - new version with vat field" />
+    <MESSAGE value="#295 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#295 - others" />
   </component>
 </project>
