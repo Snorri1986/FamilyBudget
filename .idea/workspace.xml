@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#303 - new column - VAT">
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_travel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_travel.sql" afterDir="false" />
-    </list>
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#304 - others" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,22 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00761" summary="#284 - integration to button">
-      <option name="closed" value="true" />
-      <created>1774295190839</created>
-      <option name="number" value="00761" />
-      <option name="presentableId" value="LOCAL-00761" />
-      <option name="project" value="LOCAL" />
-      <updated>1774295190839</updated>
-    </task>
-    <task id="LOCAL-00762" summary="#284 - others">
-      <option name="closed" value="true" />
-      <created>1774295203843</created>
-      <option name="number" value="00762" />
-      <option name="presentableId" value="LOCAL-00762" />
-      <option name="project" value="LOCAL" />
-      <updated>1774295203843</updated>
     </task>
     <task id="LOCAL-00763" summary="#361 - rewrite as function (easy to call)">
       <option name="closed" value="true" />
@@ -621,7 +603,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776885080948</updated>
     </task>
-    <option name="localTasksCounter" value="810" />
+    <task id="LOCAL-00810" summary="#304 - with new column - VAT">
+      <option name="closed" value="true" />
+      <created>1776885430223</created>
+      <option name="number" value="00810" />
+      <option name="presentableId" value="LOCAL-00810" />
+      <option name="project" value="LOCAL" />
+      <updated>1776885430223</updated>
+    </task>
+    <task id="LOCAL-00811" summary="#304 - others">
+      <option name="closed" value="true" />
+      <created>1776885443992</created>
+      <option name="number" value="00811" />
+      <option name="presentableId" value="LOCAL-00811" />
+      <option name="project" value="LOCAL" />
+      <updated>1776885443992</updated>
+    </task>
+    <option name="localTasksCounter" value="812" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -648,8 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#286 - new ut testGetLocation()" />
-    <MESSAGE value="#286 - others" />
     <MESSAGE value="#369 - timemark is not need more" />
     <MESSAGE value="#288 - new column for the table" />
     <MESSAGE value="#369 - others" />
@@ -673,6 +669,8 @@
     <MESSAGE value="#301 - with new column - VAT" />
     <MESSAGE value="#301 - others" />
     <MESSAGE value="#303 - new column - VAT" />
-    <option name="LAST_COMMIT_MESSAGE" value="#303 - new column - VAT" />
+    <MESSAGE value="#304 - with new column - VAT" />
+    <MESSAGE value="#304 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#304 - others" />
   </component>
 </project>
