@@ -119,4 +119,9 @@ public class AdditionalFuncPageController {
     model.addAttribute("SumUAH", totalUahAmount);
     return "travel_report";
   }
+
+  @GetMapping("/expense_report")
+  public String getExpenseReport() {
+    return "expense_report";
+  }
 }
