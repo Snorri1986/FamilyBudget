@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#304 - others" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#307 - others">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/expense_report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/expense_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,22 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00763" summary="#361 - rewrite as function (easy to call)">
-      <option name="closed" value="true" />
-      <created>1774296234987</created>
-      <option name="number" value="00763" />
-      <option name="presentableId" value="LOCAL-00763" />
-      <option name="project" value="LOCAL" />
-      <updated>1774296234987</updated>
-    </task>
-    <task id="LOCAL-00764" summary="#361 - function implementation">
-      <option name="closed" value="true" />
-      <created>1774296254357</created>
-      <option name="number" value="00764" />
-      <option name="presentableId" value="LOCAL-00764" />
-      <option name="project" value="LOCAL" />
-      <updated>1774296254357</updated>
     </task>
     <task id="LOCAL-00765" summary="#361 - others">
       <option name="closed" value="true" />
@@ -619,7 +607,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776885443992</updated>
     </task>
-    <option name="localTasksCounter" value="812" />
+    <task id="LOCAL-00812" summary="#307 - new button Expense report">
+      <option name="closed" value="true" />
+      <created>1777053822916</created>
+      <option name="number" value="00812" />
+      <option name="presentableId" value="LOCAL-00812" />
+      <option name="project" value="LOCAL" />
+      <updated>1777053822918</updated>
+    </task>
+    <task id="LOCAL-00813" summary="#307 - others">
+      <option name="closed" value="true" />
+      <created>1777053834136</created>
+      <option name="number" value="00813" />
+      <option name="presentableId" value="LOCAL-00813" />
+      <option name="project" value="LOCAL" />
+      <updated>1777053834136</updated>
+    </task>
+    <option name="localTasksCounter" value="814" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -646,8 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#369 - timemark is not need more" />
-    <MESSAGE value="#288 - new column for the table" />
     <MESSAGE value="#369 - others" />
     <MESSAGE value="#288 - others" />
     <MESSAGE value="#371 - new colum VAT for cash_operations_log" />
@@ -671,6 +673,8 @@
     <MESSAGE value="#303 - new column - VAT" />
     <MESSAGE value="#304 - with new column - VAT" />
     <MESSAGE value="#304 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#304 - others" />
+    <MESSAGE value="#307 - new button Expense report" />
+    <MESSAGE value="#307 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#307 - others" />
   </component>
 </project>
