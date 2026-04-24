@@ -1,6 +1,10 @@
-h1,div {text-align: center}
+h6,div {text-align: center}
 .full-width-table {
     width: 100%;
     border-collapse: collapse;
 }
 .timePeriod {text-align: left}
+
+h6 {
+  word-spacing: 80px;
+}
