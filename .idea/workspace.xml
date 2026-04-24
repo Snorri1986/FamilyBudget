@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#308 - others">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#309 - others">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/expense_report.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/expense_report.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,30 +229,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00767" summary="#362 - delete localtime and call location from DB">
-      <option name="closed" value="true" />
-      <created>1774552879801</created>
-      <option name="number" value="00767" />
-      <option name="presentableId" value="LOCAL-00767" />
-      <option name="project" value="LOCAL" />
-      <updated>1774552879802</updated>
-    </task>
-    <task id="LOCAL-00768" summary="#362 - others">
-      <option name="closed" value="true" />
-      <created>1774552893228</created>
-      <option name="number" value="00768" />
-      <option name="presentableId" value="LOCAL-00768" />
-      <option name="project" value="LOCAL" />
-      <updated>1774552893228</updated>
-    </task>
-    <task id="LOCAL-00769" summary="#363 - constructor without VAT field">
-      <option name="closed" value="true" />
-      <created>1774553886196</created>
-      <option name="number" value="00769" />
-      <option name="presentableId" value="LOCAL-00769" />
-      <option name="project" value="LOCAL" />
-      <updated>1774553886196</updated>
     </task>
     <task id="LOCAL-00770" summary="#363 - revert last changes">
       <option name="closed" value="true" />
@@ -622,7 +598,31 @@
       <option name="project" value="LOCAL" />
       <updated>1777054650341</updated>
     </task>
-    <option name="localTasksCounter" value="816" />
+    <task id="LOCAL-00816" summary="#309 - Get method on controller">
+      <option name="closed" value="true" />
+      <created>1777055078265</created>
+      <option name="number" value="00816" />
+      <option name="presentableId" value="LOCAL-00816" />
+      <option name="project" value="LOCAL" />
+      <updated>1777055078265</updated>
+    </task>
+    <task id="LOCAL-00817" summary="#309 - redirect on button side">
+      <option name="closed" value="true" />
+      <created>1777055094911</created>
+      <option name="number" value="00817" />
+      <option name="presentableId" value="LOCAL-00817" />
+      <option name="project" value="LOCAL" />
+      <updated>1777055094911</updated>
+    </task>
+    <task id="LOCAL-00818" summary="#309 - others">
+      <option name="closed" value="true" />
+      <created>1777055105781</created>
+      <option name="number" value="00818" />
+      <option name="presentableId" value="LOCAL-00818" />
+      <option name="project" value="LOCAL" />
+      <updated>1777055105781</updated>
+    </task>
+    <option name="localTasksCounter" value="819" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -649,9 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#371 - new colum VAT for cash_operations_log" />
-    <MESSAGE value="#371 - others" />
-    <MESSAGE value="#373 - new function - calculate_vat" />
     <MESSAGE value="#373 - others" />
     <MESSAGE value="#292 - new version with vat field" />
     <MESSAGE value="#292 - others" />
@@ -674,6 +671,9 @@
     <MESSAGE value="#307 - others" />
     <MESSAGE value="#308 - web page expense_report and css for it" />
     <MESSAGE value="#308 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#308 - others" />
+    <MESSAGE value="#309 - Get method on controller" />
+    <MESSAGE value="#309 - redirect on button side" />
+    <MESSAGE value="#309 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#309 - others" />
   </component>
 </project>
