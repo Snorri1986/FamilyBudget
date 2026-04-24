@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#307 - others">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/expense_report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/expense_report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#308 - others">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,22 +229,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-    </task>
-    <task id="LOCAL-00765" summary="#361 - others">
-      <option name="closed" value="true" />
-      <created>1774296269492</created>
-      <option name="number" value="00765" />
-      <option name="presentableId" value="LOCAL-00765" />
-      <option name="project" value="LOCAL" />
-      <updated>1774296269492</updated>
-    </task>
-    <task id="LOCAL-00766" summary="#362 - delete localtime and call location from DB">
-      <option name="closed" value="true" />
-      <created>1774552866308</created>
-      <option name="number" value="00766" />
-      <option name="presentableId" value="LOCAL-00766" />
-      <option name="project" value="LOCAL" />
-      <updated>1774552866308</updated>
     </task>
     <task id="LOCAL-00767" summary="#362 - delete localtime and call location from DB">
       <option name="closed" value="true" />
@@ -623,7 +606,23 @@
       <option name="project" value="LOCAL" />
       <updated>1777053834136</updated>
     </task>
-    <option name="localTasksCounter" value="814" />
+    <task id="LOCAL-00814" summary="#308 - web page expense_report and css for it">
+      <option name="closed" value="true" />
+      <created>1777054638364</created>
+      <option name="number" value="00814" />
+      <option name="presentableId" value="LOCAL-00814" />
+      <option name="project" value="LOCAL" />
+      <updated>1777054638364</updated>
+    </task>
+    <task id="LOCAL-00815" summary="#308 - others">
+      <option name="closed" value="true" />
+      <created>1777054650341</created>
+      <option name="number" value="00815" />
+      <option name="presentableId" value="LOCAL-00815" />
+      <option name="project" value="LOCAL" />
+      <updated>1777054650341</updated>
+    </task>
+    <option name="localTasksCounter" value="816" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -650,8 +649,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#369 - others" />
-    <MESSAGE value="#288 - others" />
     <MESSAGE value="#371 - new colum VAT for cash_operations_log" />
     <MESSAGE value="#371 - others" />
     <MESSAGE value="#373 - new function - calculate_vat" />
@@ -675,6 +672,8 @@
     <MESSAGE value="#304 - others" />
     <MESSAGE value="#307 - new button Expense report" />
     <MESSAGE value="#307 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#307 - others" />
+    <MESSAGE value="#308 - web page expense_report and css for it" />
+    <MESSAGE value="#308 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#308 - others" />
   </component>
 </project>
