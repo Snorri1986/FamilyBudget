@@ -4,95 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#310 - others">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/appllication.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/DataSourceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/FamilyBudgetMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/UserModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/entertainment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/groceries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/health.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/income.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/renthousing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_entertainment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_groceries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_health.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_income.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_renthousing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_telecom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_travel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/telecom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/travel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/entertainment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/groceries.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/health.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/income.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/renthousing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_entertainment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_groceries.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_health.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_income.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_renthousing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_telecom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_travel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/telecom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/travel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appllication.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/entertainment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/groceries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/health.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/income.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/renthousing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_entertainment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_groceries.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_health.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_income.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_renthousing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_telecom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/s_travel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/telecom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/static/css/travel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/entertainment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/groceries.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/health.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/income.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/others.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/renthousing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_entertainment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_groceries.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_health.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_income.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_renthousing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_telecom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/s_travel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/telecom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/templates/travel.html" beforeDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#390 - others">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/appllication.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/appllication.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,23 +255,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-      <workItem from="1778092851134" duration="1935000" />
-    </task>
-    <task id="LOCAL-00774" summary="#365 - new button - show location">
-      <option name="closed" value="true" />
-      <created>1775585142230</created>
-      <option name="number" value="00774" />
-      <option name="presentableId" value="LOCAL-00774" />
-      <option name="project" value="LOCAL" />
-      <updated>1775585142230</updated>
-    </task>
-    <task id="LOCAL-00775" summary="#365 - others">
-      <option name="closed" value="true" />
-      <created>1775585159657</created>
-      <option name="number" value="00775" />
-      <option name="presentableId" value="LOCAL-00775" />
-      <option name="project" value="LOCAL" />
-      <updated>1775585159657</updated>
+      <workItem from="1778092851134" duration="2262000" />
     </task>
     <task id="LOCAL-00776" summary="#366 - new web page for showing location from DB">
       <option name="closed" value="true" />
@@ -735,7 +633,23 @@
       <option name="project" value="LOCAL" />
       <updated>1777921530736</updated>
     </task>
-    <option name="localTasksCounter" value="823" />
+    <task id="LOCAL-00823" summary="#390 - new name for button Monthly">
+      <option name="closed" value="true" />
+      <created>1778094867874</created>
+      <option name="number" value="00823" />
+      <option name="presentableId" value="LOCAL-00823" />
+      <option name="project" value="LOCAL" />
+      <updated>1778094867875</updated>
+    </task>
+    <task id="LOCAL-00824" summary="#390 - others">
+      <option name="closed" value="true" />
+      <created>1778094879216</created>
+      <option name="number" value="00824" />
+      <option name="presentableId" value="LOCAL-00824" />
+      <option name="project" value="LOCAL" />
+      <updated>1778094879216</updated>
+    </task>
+    <option name="localTasksCounter" value="825" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -773,8 +687,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#294 - others" />
-    <MESSAGE value="#295 - new version with vat field" />
     <MESSAGE value="#295 - others" />
     <MESSAGE value="#297 - new column - VAT" />
     <MESSAGE value="#297 - others" />
@@ -798,7 +710,9 @@
     <MESSAGE value="#387 - others" />
     <MESSAGE value="#310 - new function - daily expenses" />
     <MESSAGE value="#310 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#310 - others" />
+    <MESSAGE value="#390 - new name for button Monthly" />
+    <MESSAGE value="#390 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#390 - others" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
