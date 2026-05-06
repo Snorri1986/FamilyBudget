@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#390 - others">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/appllication.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/appllication.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#391 - others">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/get_all_expenses_monthly.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,23 +255,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-      <workItem from="1778092851134" duration="2262000" />
-    </task>
-    <task id="LOCAL-00776" summary="#366 - new web page for showing location from DB">
-      <option name="closed" value="true" />
-      <created>1775585556353</created>
-      <option name="number" value="00776" />
-      <option name="presentableId" value="LOCAL-00776" />
-      <option name="project" value="LOCAL" />
-      <updated>1775585556353</updated>
-    </task>
-    <task id="LOCAL-00777" summary="#366 - using new web page in the controller">
-      <option name="closed" value="true" />
-      <created>1775585576644</created>
-      <option name="number" value="00777" />
-      <option name="presentableId" value="LOCAL-00777" />
-      <option name="project" value="LOCAL" />
-      <updated>1775585576644</updated>
+      <workItem from="1778092851134" duration="3659000" />
     </task>
     <task id="LOCAL-00778" summary="#366 - others">
       <option name="closed" value="true" />
@@ -649,7 +633,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778094879216</updated>
     </task>
-    <option name="localTasksCounter" value="825" />
+    <task id="LOCAL-00825" summary="#391 - fixed error file naming">
+      <option name="closed" value="true" />
+      <created>1778095312562</created>
+      <option name="number" value="00825" />
+      <option name="presentableId" value="LOCAL-00825" />
+      <option name="project" value="LOCAL" />
+      <updated>1778095312562</updated>
+    </task>
+    <task id="LOCAL-00826" summary="#391 - others">
+      <option name="closed" value="true" />
+      <created>1778095325408</created>
+      <option name="number" value="00826" />
+      <option name="presentableId" value="LOCAL-00826" />
+      <option name="project" value="LOCAL" />
+      <updated>1778095325408</updated>
+    </task>
+    <option name="localTasksCounter" value="827" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,8 +687,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#295 - others" />
-    <MESSAGE value="#297 - new column - VAT" />
     <MESSAGE value="#297 - others" />
     <MESSAGE value="#298 - new version with vat" />
     <MESSAGE value="#298 - others" />
@@ -712,7 +710,9 @@
     <MESSAGE value="#310 - others" />
     <MESSAGE value="#390 - new name for button Monthly" />
     <MESSAGE value="#390 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#390 - others" />
+    <MESSAGE value="#391 - fixed error file naming" />
+    <MESSAGE value="#391 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#391 - others" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
