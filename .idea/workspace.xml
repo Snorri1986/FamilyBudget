@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#391 - others">
-      <change afterPath="$PROJECT_DIR$/src/db/sources/get_all_expenses_monthly.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#311 - others">
+      <change afterPath="$PROJECT_DIR$/CODE_REVIEW.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL_CODE_REVIEW.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +17,49 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="a89c9975-5b69-4df0-a629-350c3c9ce068" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="e91b149d-2dcb-4309-91f3-3b864cdc9d39" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="a89c9975-5b69-4df0-a629-350c3c9ce068" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="status" value="Completed" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_D:/Applications/FamilyBudget" value="2mzBz2JsMll5mGI6e9tXWZxdcAQ" />
     </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="agent-panel" value="Auto" />
+      <entry key="chat-panel" value="Auto" />
+    </selectedModels>
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="5e3f822c-5189-45b1-9c41-dd057ce814cc" value="Violet" />
+      <entry key="654fcba4-0bd7-4989-939a-b6f63b9bbab4" value="Orange" />
+    </colors>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +95,20 @@
   <component name="ProjectId" id="2mzBz2JsMll5mGI6e9tXWZxdcAQ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -97,9 +151,11 @@
     "Maven.FamilyBudget [install].executor": "Run",
     "Maven.FamilyBudget-LocalTomcat.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "v2.1.0",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Applications/FamilyBudget/src/main/resources/static/css",
     "node.js.detected.package.eslint": "true",
@@ -110,8 +166,13 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "database.query.execution",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -255,23 +316,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
-      <workItem from="1778092851134" duration="3659000" />
-    </task>
-    <task id="LOCAL-00778" summary="#366 - others">
-      <option name="closed" value="true" />
-      <created>1775585592444</created>
-      <option name="number" value="00778" />
-      <option name="presentableId" value="LOCAL-00778" />
-      <option name="project" value="LOCAL" />
-      <updated>1775585592444</updated>
-    </task>
-    <task id="LOCAL-00779" summary="#367 using dbService.getLocation() + clean up">
-      <option name="closed" value="true" />
-      <created>1775586248585</created>
-      <option name="number" value="00779" />
-      <option name="presentableId" value="LOCAL-00779" />
-      <option name="project" value="LOCAL" />
-      <updated>1775586248585</updated>
+      <workItem from="1778092851134" duration="4534000" />
+      <workItem from="1778262686464" duration="351000" />
+      <workItem from="1778263097573" duration="7556000" />
     </task>
     <task id="LOCAL-00780" summary="#367 others">
       <option name="closed" value="true" />
@@ -649,7 +696,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778095325408</updated>
     </task>
-    <option name="localTasksCounter" value="827" />
+    <task id="LOCAL-00827" summary="#311 - new function to get full monthly expenses">
+      <option name="closed" value="true" />
+      <created>1778096850294</created>
+      <option name="number" value="00827" />
+      <option name="presentableId" value="LOCAL-00827" />
+      <option name="project" value="LOCAL" />
+      <updated>1778096850294</updated>
+    </task>
+    <task id="LOCAL-00828" summary="#311 - others">
+      <option name="closed" value="true" />
+      <created>1778096868475</created>
+      <option name="number" value="00828" />
+      <option name="presentableId" value="LOCAL-00828" />
+      <option name="project" value="LOCAL" />
+      <updated>1778096868475</updated>
+    </task>
+    <option name="localTasksCounter" value="829" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,8 +750,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#297 - others" />
-    <MESSAGE value="#298 - new version with vat" />
     <MESSAGE value="#298 - others" />
     <MESSAGE value="#300 - new column - VAT" />
     <MESSAGE value="#300 - others" />
@@ -712,7 +773,13 @@
     <MESSAGE value="#390 - others" />
     <MESSAGE value="#391 - fixed error file naming" />
     <MESSAGE value="#391 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#391 - others" />
+    <MESSAGE value="#311 - new function to get full monthly expenses" />
+    <MESSAGE value="#311 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#311 - others" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
