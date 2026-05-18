@@ -24,9 +24,26 @@ public class MainPageController {
   private static final List<String> TRANSACTION_TYPES = Collections.unmodifiableList(
           Arrays.asList("Card", "Cash"));
 
+  private static final List<String> INCOME_TYPE_LIST = Collections.unmodifiableList(
+          Arrays.asList("Salary", "Bonus", "TravelRefund", "ShopRefund","Money transfer R","HumanRefund","Other"));
+
+  private static final List<String> ENTERTAINMENT_TYPE_LIST = Collections.unmodifiableList(
+          Arrays.asList("Travel", "Cinema", "Vacation", "Relax","Restaurant","Homefest","Other"));
+
+  private static final List<String> GROCERIES_TYPE_LIST = Collections.unmodifiableList(
+          Arrays.asList("Daily","Weekly","Weekend","Fest","Clothes","Lunch at work","Other"));
 
   private static final List<String> HEALTH_TYPE_LIST = Collections.unmodifiableList(
           Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Haircut","Gym","Other"));
+
+  private static final List<String> RENT_HOUSING_TYPE_LIST = Collections.unmodifiableList(
+          Arrays.asList("Rent","Mortage","Money transfer S","A-kass","Electricity","HouseEquipments","Renovation","Other"));
+
+  private static final List<String> TELECOM_TYPE_LIST = Collections.unmodifiableList(
+          Arrays.asList("Mobile","Internet","Roaming bundles","Others"));
+
+  private static final List<String> TRAVEL_TYPE_LIST = Collections.unmodifiableList(
+          Arrays.asList("Tickets","Hotel","FoodInTrip","TravelEntertainment","Public transport","Others"));
 
 
   @GetMapping("/login")
@@ -42,12 +59,11 @@ public class MainPageController {
 
   @GetMapping("/income")
   public String getIncomePage(Model model) {
-    List<String> incomes = Arrays.asList("Salary", "Bonus", "TravelRefund", "ShopRefund","Money transfer R","HumanRefund","Other");
     List<LastTenIncomesModel> lastTenIncomesCard = Optional.ofNullable(dbService.getLastTenIncomesCard()).orElse(Collections.emptyList());
     List<LastTenIncomesModel> lastTenIncomesCash = Optional.ofNullable(dbService.getLastTenIncomesCash()).orElse(Collections.emptyList());
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("income_mod_attribute", new IncomeModelWeb(defaultPaymentCard));
-    model.addAttribute("incomes", incomes);
+    model.addAttribute("incomes", INCOME_TYPE_LIST);
     model.addAttribute("currencyNames", CURRENCY_NAMES);
     model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("incomesLastTenCard", lastTenIncomesCard);
@@ -57,12 +73,11 @@ public class MainPageController {
 
   @GetMapping("/entertainment")
   public String getEntertainmentPage(Model model) {
-    List<String> entList = Arrays.asList("Travel", "Cinema", "Vacation", "Relax","Restaurant","Homefest","Other");
     List<LastTenEntertainmentModel> lastTenEntertainmentCard = Optional.ofNullable(dbService.getLastTenEntertainmentOperationsCard()).orElse(Collections.emptyList());
     List<LastTenEntertainmentModel> lastTenEntertainmentCash = Optional.ofNullable(dbService.getLastTenEntertainmentOperationsCash()).orElse(Collections.emptyList());
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("entertainment_mod_attribute", new EntertainmentModelWeb(defaultPaymentCard));
-    model.addAttribute("entList", entList);
+    model.addAttribute("entList", ENTERTAINMENT_TYPE_LIST);
     model.addAttribute("currencyNames", CURRENCY_NAMES);
     model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("entertainmentLastTenCard", lastTenEntertainmentCard);
@@ -72,12 +87,11 @@ public class MainPageController {
 
   @GetMapping("/groceries")
   public String getGroceriesPage(Model model) {
-    List<String> purchesList = Arrays.asList("Daily","Weekly","Weekend","Fest","Clothes","Lunch at work","Other");
     List<LastTenGroceriesOperModel> lastTenGroceriesCard = Optional.ofNullable(dbService.getLastTenGroceriesOperationsCard()).orElse(Collections.emptyList());
     List<LastTenGroceriesOperModel> lastTenGroceriesCash = Optional.ofNullable(dbService.getLastTenGroceriesOperationsCash()).orElse(Collections.emptyList());
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("groceries_mod_attribute", new GroceriesModelWeb(defaultPaymentCard));
-    model.addAttribute("purchesList", purchesList);
+    model.addAttribute("purchesList", GROCERIES_TYPE_LIST);
     model.addAttribute("currencyNames", CURRENCY_NAMES);
     model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("groceriesLastTenCard", lastTenGroceriesCard);
@@ -102,12 +116,11 @@ public class MainPageController {
 
   @GetMapping("/renthousing")
   public String getRentHousingPage(Model model) {
-    List<String> housingTypes = Arrays.asList("Rent","Mortage","Money transfer S","A-kass","Electricity","HouseEquipments","Renovation","Other");
     List<LastTenHousingRentOperationsModel> lastTenRentHousingCard = Optional.ofNullable(dbService.getLastTenHousingRentOperationsCard()).orElse(Collections.emptyList());
     List<LastTenHousingRentOperationsModel> lastTenRentHousingCash = Optional.ofNullable(dbService.getLastTenHousingRentOperationsCash()).orElse(Collections.emptyList());
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("rent_housing_mod_attribute", new RentHousingModelWeb(defaultPaymentCard));
-    model.addAttribute("housingTypes", housingTypes);
+    model.addAttribute("housingTypes", RENT_HOUSING_TYPE_LIST);
     model.addAttribute("currencyNames", CURRENCY_NAMES);
     model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("rentHousingLastTenCard", lastTenRentHousingCard);
@@ -117,12 +130,11 @@ public class MainPageController {
 
   @GetMapping("/telecom")
   public String getTelecomPage(Model model) {
-    List<String> telecomOperations = Arrays.asList("Mobile","Internet","Roaming bundles","Others");
     List<LastTenTelecomOperationsModel> lastTenTelecomCard = Optional.ofNullable(dbService.getLastTenTelecomOperationsCard()).orElse(Collections.emptyList());
     List<LastTenTelecomOperationsModel> lastTenTelecomCash = Optional.ofNullable(dbService.getLastTenTelecomOperationsCash()).orElse(Collections.emptyList());
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("telecom_mod_attribute", new TelecomModelWeb(defaultPaymentCard));
-    model.addAttribute("telecomOperations", telecomOperations);
+    model.addAttribute("telecomOperations",TELECOM_TYPE_LIST);
     model.addAttribute("currencyNames", CURRENCY_NAMES);
     model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("telecomLastTenCard", lastTenTelecomCard);
@@ -132,12 +144,11 @@ public class MainPageController {
 
   @GetMapping("/travel")
   public String getTravelPage(Model model) {
-    List<String> travelActivities = Arrays.asList("Tickets","Hotel","FoodInTrip","TravelEntertainment","Public transport","Others");
     List<LastTenTravelOperationsModel> lastTenTravelCard = Optional.ofNullable(dbService.getLastTenTravelOperationsCard()).orElse(Collections.emptyList());
     List<LastTenTravelOperationsModel> lastTenTravelCash = Optional.ofNullable(dbService.getLastTenTravelOperationsCash()).orElse(Collections.emptyList());
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("travel_mod_attribute", new TravelModelWeb(defaultPaymentCard));
-    model.addAttribute("travelActivities", travelActivities);
+    model.addAttribute("travelActivities",TRAVEL_TYPE_LIST);
     model.addAttribute("currencyNames", CURRENCY_NAMES);
     model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("travelLastTenCard", lastTenTravelCard);
