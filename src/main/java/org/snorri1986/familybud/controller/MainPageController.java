@@ -8,7 +8,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 public class MainPageController {
@@ -16,8 +18,16 @@ public class MainPageController {
   @Autowired
   DBService dbService;
 
-  List<String> currencyNames = Arrays.asList("DKK", "EUR", "USD", "UAH", "Other");
-  List<String> transactionTypes = Arrays.asList("Card", "Cash");
+  private static final List<String> CURRENCY_NAMES = Collections.unmodifiableList(
+          Arrays.asList("DKK", "EUR", "USD", "UAH", "Other"));
+
+  private static final List<String> TRANSACTION_TYPES = Collections.unmodifiableList(
+          Arrays.asList("Card", "Cash"));
+
+
+  private static final List<String> HEALTH_TYPE_LIST = Collections.unmodifiableList(
+          Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Haircut","Gym","Other"));
+
 
   @GetMapping("/login")
   public String getLoginPage(Model model) {
@@ -38,8 +48,8 @@ public class MainPageController {
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("income_mod_attribute", new IncomeModelWeb(defaultPaymentCard));
     model.addAttribute("incomes", incomes);
-    model.addAttribute("currencyNames", currencyNames);
-    model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("currencyNames", CURRENCY_NAMES);
+    model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("incomesLastTenCard", lastTenIncomesCard);
     model.addAttribute("incomesLastTenCash", lastTenIncomesCash);
     return "income";
@@ -53,8 +63,8 @@ public class MainPageController {
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("entertainment_mod_attribute", new EntertainmentModelWeb(defaultPaymentCard));
     model.addAttribute("entList", entList);
-    model.addAttribute("currencyNames", currencyNames);
-    model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("currencyNames", CURRENCY_NAMES);
+    model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("entertainmentLastTenCard", lastTenEntertainmentCard);
     model.addAttribute("entertainmentLastTenCash", lastTenEntertainmentCash);
     return "entertainment";
@@ -68,8 +78,8 @@ public class MainPageController {
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("groceries_mod_attribute", new GroceriesModelWeb(defaultPaymentCard));
     model.addAttribute("purchesList", purchesList);
-    model.addAttribute("currencyNames", currencyNames);
-    model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("currencyNames", CURRENCY_NAMES);
+    model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("groceriesLastTenCard", lastTenGroceriesCard);
     model.addAttribute("groceriesLastTenCash", lastTenGroceriesCash);
     return "groceries";
@@ -77,14 +87,14 @@ public class MainPageController {
 
   @GetMapping("/health-care")
   public String getHealthPage(Model model) {
-    List<String> healthTypeList = Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Haircut","Gym","Other");
-    List<LastTenHealthOperationsModel> lastTenHealthCardOperations = dbService.getLastTenHealthOperationsCard();
-    List<LastTenHealthOperationsModel> lastTenHealthCashOperations = dbService.getLastTenHealthOperationsCash();
+    List<LastTenHealthOperationsModel> lastTenHealthCardOperations =
+            Optional.ofNullable(dbService.getLastTenHealthOperationsCard()).orElse(Collections.emptyList());
+    List<LastTenHealthOperationsModel> lastTenHealthCashOperations = Optional.ofNullable(dbService.getLastTenHealthOperationsCash()).orElse(Collections.emptyList());
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("health_mod_attribute", new HealthModelWeb(defaultPaymentCard));
-    model.addAttribute("healthTypeList", healthTypeList);
-    model.addAttribute("currencyNames", currencyNames);
-    model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("healthTypeList",HEALTH_TYPE_LIST);
+    model.addAttribute("currencyNames", CURRENCY_NAMES);
+    model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("healthLastTenCardOperations", lastTenHealthCardOperations);
     model.addAttribute("healthLastTenCashOperations", lastTenHealthCashOperations);
     return "health";
@@ -98,8 +108,8 @@ public class MainPageController {
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("rent_housing_mod_attribute", new RentHousingModelWeb(defaultPaymentCard));
     model.addAttribute("housingTypes", housingTypes);
-    model.addAttribute("currencyNames", currencyNames);
-    model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("currencyNames", CURRENCY_NAMES);
+    model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("rentHousingLastTenCard", lastTenRentHousingCard);
     model.addAttribute("rentHousingLastTenCash", lastTenRentHousingCash);
     return "renthousing";
@@ -113,8 +123,8 @@ public class MainPageController {
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("telecom_mod_attribute", new TelecomModelWeb(defaultPaymentCard));
     model.addAttribute("telecomOperations", telecomOperations);
-    model.addAttribute("currencyNames", currencyNames);
-    model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("currencyNames", CURRENCY_NAMES);
+    model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("telecomLastTenCard", lastTenTelecomCard);
     model.addAttribute("telecomLastTenCash", lastTenTelecomCash);
     return "telecom";
@@ -128,8 +138,8 @@ public class MainPageController {
     int defaultPaymentCard = dbService.getPaymentCardDefault();
     model.addAttribute("travel_mod_attribute", new TravelModelWeb(defaultPaymentCard));
     model.addAttribute("travelActivities", travelActivities);
-    model.addAttribute("currencyNames", currencyNames);
-    model.addAttribute("transactionTypes", transactionTypes);
+    model.addAttribute("currencyNames", CURRENCY_NAMES);
+    model.addAttribute("transactionTypes", TRANSACTION_TYPES);
     model.addAttribute("travelLastTenCard", lastTenTravelCard);
     model.addAttribute("travelLastTenCash", lastTenTravelCash);
     return "travel";
@@ -143,7 +153,7 @@ public class MainPageController {
   @GetMapping("/information")
   public String getInfo(Model model) {
     model.addAttribute("theApplication","Family Budget");
-    model.addAttribute("theVersion","1.5.2");
+    model.addAttribute("theVersion","2.1.0");
     model.addAttribute("theSources","https://github.com/Snorri1986/FamilyBudget/releases");
     return "information";
   }
