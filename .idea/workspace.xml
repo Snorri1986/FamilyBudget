@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#310 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#395 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
@@ -361,23 +361,7 @@
       <workItem from="1778263097573" duration="8089000" />
       <workItem from="1778526742836" duration="85000" />
       <workItem from="1779126942440" duration="226000" />
-      <workItem from="1779127375415" duration="2469000" />
-    </task>
-    <task id="LOCAL-00782" summary="#286 - new test - testSetNewLocation()">
-      <option name="closed" value="true" />
-      <created>1775587347720</created>
-      <option name="number" value="00782" />
-      <option name="presentableId" value="LOCAL-00782" />
-      <option name="project" value="LOCAL" />
-      <updated>1775587347720</updated>
-    </task>
-    <task id="LOCAL-00783" summary="#286 - others">
-      <option name="closed" value="true" />
-      <created>1775587360327</created>
-      <option name="number" value="00783" />
-      <option name="presentableId" value="LOCAL-00783" />
-      <option name="project" value="LOCAL" />
-      <updated>1775587360327</updated>
+      <workItem from="1779127375415" duration="3360000" />
     </task>
     <task id="LOCAL-00784" summary="#286 - new ut testGetLocation()">
       <option name="closed" value="true" />
@@ -755,7 +739,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778270981141</updated>
     </task>
-    <option name="localTasksCounter" value="831" />
+    <task id="LOCAL-00831" summary="#395 - Lists currency_names and transaction_types are consts now">
+      <option name="closed" value="true" />
+      <created>1779130008096</created>
+      <option name="number" value="00831" />
+      <option name="presentableId" value="LOCAL-00831" />
+      <option name="project" value="LOCAL" />
+      <updated>1779130008100</updated>
+    </task>
+    <task id="LOCAL-00832" summary="#395 - others">
+      <option name="closed" value="true" />
+      <created>1779130029247</created>
+      <option name="number" value="00832" />
+      <option name="presentableId" value="LOCAL-00832" />
+      <option name="project" value="LOCAL" />
+      <updated>1779130029247</updated>
+    </task>
+    <option name="localTasksCounter" value="833" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -793,8 +793,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#300 - new column - VAT" />
-    <MESSAGE value="#300 - others" />
     <MESSAGE value="#301 - with new column - VAT" />
     <MESSAGE value="#301 - others" />
     <MESSAGE value="#303 - new column - VAT" />
@@ -818,7 +816,9 @@
     <MESSAGE value="#311 - others" />
     <MESSAGE value="#310 - new version of function" />
     <MESSAGE value="#310 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#310 - others" />
+    <MESSAGE value="#395 - Lists currency_names and transaction_types are consts now" />
+    <MESSAGE value="#395 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#395 - others" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
