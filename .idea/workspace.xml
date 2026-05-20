@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#399 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#400 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +220,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -370,23 +369,7 @@
       <workItem from="1778526742836" duration="85000" />
       <workItem from="1779126942440" duration="226000" />
       <workItem from="1779127375415" duration="7826000" />
-      <workItem from="1779301107825" duration="6304000" />
-    </task>
-    <task id="LOCAL-00794" summary="#373 - others">
-      <option name="closed" value="true" />
-      <created>1776709369489</created>
-      <option name="number" value="00794" />
-      <option name="presentableId" value="LOCAL-00794" />
-      <option name="project" value="LOCAL" />
-      <updated>1776709369491</updated>
-    </task>
-    <task id="LOCAL-00795" summary="#292 - new version with vat field">
-      <option name="closed" value="true" />
-      <created>1776882491266</created>
-      <option name="number" value="00795" />
-      <option name="presentableId" value="LOCAL-00795" />
-      <option name="project" value="LOCAL" />
-      <updated>1776882491266</updated>
+      <workItem from="1779301107825" duration="6706000" />
     </task>
     <task id="LOCAL-00796" summary="#292 - others">
       <option name="closed" value="true" />
@@ -764,7 +747,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779305985399</updated>
     </task>
-    <option name="localTasksCounter" value="843" />
+    <task id="LOCAL-00843" summary="#400 - new Map ENTERTAINMENT_TYPES for entertainment">
+      <option name="closed" value="true" />
+      <created>1779307573867</created>
+      <option name="number" value="00843" />
+      <option name="presentableId" value="LOCAL-00843" />
+      <option name="project" value="LOCAL" />
+      <updated>1779307573867</updated>
+    </task>
+    <task id="LOCAL-00844" summary="#400 - others">
+      <option name="closed" value="true" />
+      <created>1779307592455</created>
+      <option name="number" value="00844" />
+      <option name="presentableId" value="LOCAL-00844" />
+      <option name="project" value="LOCAL" />
+      <updated>1779307592455</updated>
+    </task>
+    <option name="localTasksCounter" value="845" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -802,8 +801,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#309 - Get method on controller" />
-    <MESSAGE value="#309 - redirect on button side" />
     <MESSAGE value="#309 - others" />
     <MESSAGE value="#387 - new css with word-spacing" />
     <MESSAGE value="#387 - others" />
@@ -827,7 +824,9 @@
     <MESSAGE value="#398 - others" />
     <MESSAGE value="#399 - INCOME_TYPES solution for Incomes. Without switch" />
     <MESSAGE value="#399 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#399 - others" />
+    <MESSAGE value="#400 - new Map ENTERTAINMENT_TYPES for entertainment" />
+    <MESSAGE value="#400 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#400 - others" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -103,6 +103,7 @@ public class WebFormsController {
     System.out.println("Groceries purchase Registered: " + grocModel.toString());
     GroceriesModelDB groceriesModelDB = new GroceriesModelDB();
 
+    //TODO: replace via ENUM
     switch (grocModel.getPurchesType()) {
       case "Daily": groceriesModelDB.setPurchesType(18); break;
       case "Weekly": groceriesModelDB.setPurchesType(19); break;
@@ -131,6 +132,7 @@ public class WebFormsController {
     System.out.println("Health purchase Registered: " + healthModel.toString());
     HealthModelDB healthModelDB = new HealthModelDB();
 
+    //TODO: replace via ENUM
     switch(healthModel.getHealthOperType()) {
       case "Dentist": healthModelDB.setHealthOperType(23); break;
       case "Regular Medical check": healthModelDB.setHealthOperType(24); break;
@@ -161,6 +163,7 @@ public class WebFormsController {
     System.out.println("RentHousing purchase Registered: " + rentHousingModel.toString());
     RentHousingModelDB rentHousingModelDB = new RentHousingModelDB();
 
+    //TODO: replace via ENUM
     switch (rentHousingModel.getHousingType()) {
       case "Rent": rentHousingModelDB.setHousingType(2); break;
       case "Mortage": rentHousingModelDB.setHousingType(37); break;
@@ -185,11 +188,13 @@ public class WebFormsController {
     return "s_renthousing";
   }
 
+
   @PostMapping("/registerTelecom")
   public String submitTelecomForm(@ModelAttribute("telecom_mod_attribute") TelecomModelWeb telecomModel) {
     System.out.println("Telecom purchase Registered: " + telecomModel.toString());
     TelecomModelDB telecomModelDB = new TelecomModelDB();
 
+    //TODO: replace via ENUM
     switch (telecomModel.getTelecomType()) {
       case "Mobile": telecomModelDB.setTelecomType(5); break;
       case "Internet": telecomModelDB.setTelecomType(6); break;
@@ -215,6 +220,7 @@ public class WebFormsController {
     System.out.println("Travel purchase Registered: " + travelModel.toString());
     TravelModelDB travelModelDB = new TravelModelDB();
 
+    //TODO: replace via ENUM
     switch(travelModel.getTravelType()) {
       case "Tickets": travelModelDB.setTravelType(33); break;
       case "Hotel": travelModelDB.setTravelType(34); break;
