@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#397 - others">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#398 - others">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
             <option name="modeId" value="Agent" />
             <option name="modelType" value="builtin_family" />
             <option name="modelValue" value="auto" />
-            <option name="status" value="Completed" />
+            <option name="status" value="Stopped" />
             <option name="targetType" value="LOCAL" />
           </session>
           <session>
@@ -370,23 +368,7 @@
       <workItem from="1778526742836" duration="85000" />
       <workItem from="1779126942440" duration="226000" />
       <workItem from="1779127375415" duration="7826000" />
-      <workItem from="1779301107825" duration="540000" />
-    </task>
-    <task id="LOCAL-00788" summary="#288 - new column for the table">
-      <option name="closed" value="true" />
-      <created>1775759059874</created>
-      <option name="number" value="00788" />
-      <option name="presentableId" value="LOCAL-00788" />
-      <option name="project" value="LOCAL" />
-      <updated>1775759059874</updated>
-    </task>
-    <task id="LOCAL-00789" summary="#369 - others">
-      <option name="closed" value="true" />
-      <created>1775759120465</created>
-      <option name="number" value="00789" />
-      <option name="presentableId" value="LOCAL-00789" />
-      <option name="project" value="LOCAL" />
-      <updated>1775759120465</updated>
+      <workItem from="1779301107825" duration="1092000" />
     </task>
     <task id="LOCAL-00790" summary="#288 - others">
       <option name="closed" value="true" />
@@ -764,7 +746,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779132012480</updated>
     </task>
-    <option name="localTasksCounter" value="837" />
+    <task id="LOCAL-00837" summary="#398 - protection of default payment card">
+      <option name="closed" value="true" />
+      <created>1779301883492</created>
+      <option name="number" value="00837" />
+      <option name="presentableId" value="LOCAL-00837" />
+      <option name="project" value="LOCAL" />
+      <updated>1779301883508</updated>
+    </task>
+    <task id="LOCAL-00838" summary="#398 - others">
+      <option name="closed" value="true" />
+      <created>1779301902517</created>
+      <option name="number" value="00838" />
+      <option name="presentableId" value="LOCAL-00838" />
+      <option name="project" value="LOCAL" />
+      <updated>1779301902517</updated>
+    </task>
+    <option name="localTasksCounter" value="839" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -802,8 +800,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#304 - others" />
-    <MESSAGE value="#307 - new button Expense report" />
     <MESSAGE value="#307 - others" />
     <MESSAGE value="#308 - web page expense_report and css for it" />
     <MESSAGE value="#308 - others" />
@@ -827,7 +823,9 @@
     <MESSAGE value="#396 - others" />
     <MESSAGE value="#397 - expenses types are global and final" />
     <MESSAGE value="#397 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#397 - others" />
+    <MESSAGE value="#398 - protection of default payment card" />
+    <MESSAGE value="#398 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#398 - others" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
