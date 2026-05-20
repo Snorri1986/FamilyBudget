@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#398 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#399 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
@@ -237,22 +237,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdditionalFuncPageControllerTest.testGetLocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetLocation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -299,6 +283,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebFormsControllerTest.testSubmitEntertainmentForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
+      <option name="METHOD_NAME" value="testSubmitEntertainmentForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FamilyBudget-LocalTomcat" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -331,8 +331,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.WebFormsControllerTest.testSubmitEntertainmentForm" />
       <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
-      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetLocation" />
       <item itemvalue="JUnit.MainPageControllerTest" />
       <item itemvalue="JUnit.MainPageControllerTest.testGetMainPage" />
       <item itemvalue="JUnit.WebFormsControllerTest" />
@@ -341,10 +341,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WebFormsControllerTest" />
+        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitEntertainmentForm" />
         <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetMainPage" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetLocation" />
       </list>
     </recent_temporary>
   </component>
@@ -370,23 +370,7 @@
       <workItem from="1778526742836" duration="85000" />
       <workItem from="1779126942440" duration="226000" />
       <workItem from="1779127375415" duration="7826000" />
-      <workItem from="1779301107825" duration="4477000" />
-    </task>
-    <task id="LOCAL-00792" summary="#371 - others">
-      <option name="closed" value="true" />
-      <created>1775759739450</created>
-      <option name="number" value="00792" />
-      <option name="presentableId" value="LOCAL-00792" />
-      <option name="project" value="LOCAL" />
-      <updated>1775759739450</updated>
-    </task>
-    <task id="LOCAL-00793" summary="#373 - new function - calculate_vat">
-      <option name="closed" value="true" />
-      <created>1776709356351</created>
-      <option name="number" value="00793" />
-      <option name="presentableId" value="LOCAL-00793" />
-      <option name="project" value="LOCAL" />
-      <updated>1776709356353</updated>
+      <workItem from="1779301107825" duration="6304000" />
     </task>
     <task id="LOCAL-00794" summary="#373 - others">
       <option name="closed" value="true" />
@@ -764,7 +748,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779302444016</updated>
     </task>
-    <option name="localTasksCounter" value="841" />
+    <task id="LOCAL-00841" summary="#399 - INCOME_TYPES solution for Incomes. Without switch">
+      <option name="closed" value="true" />
+      <created>1779305964540</created>
+      <option name="number" value="00841" />
+      <option name="presentableId" value="LOCAL-00841" />
+      <option name="project" value="LOCAL" />
+      <updated>1779305964540</updated>
+    </task>
+    <task id="LOCAL-00842" summary="#399 - others">
+      <option name="closed" value="true" />
+      <created>1779305985398</created>
+      <option name="number" value="00842" />
+      <option name="presentableId" value="LOCAL-00842" />
+      <option name="project" value="LOCAL" />
+      <updated>1779305985399</updated>
+    </task>
+    <option name="localTasksCounter" value="843" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -802,8 +802,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#308 - web page expense_report and css for it" />
-    <MESSAGE value="#308 - others" />
     <MESSAGE value="#309 - Get method on controller" />
     <MESSAGE value="#309 - redirect on button side" />
     <MESSAGE value="#309 - others" />
@@ -827,7 +825,9 @@
     <MESSAGE value="#398 - protection of default payment card" />
     <MESSAGE value="#398 - back to Oprional.ofNullable" />
     <MESSAGE value="#398 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#398 - others" />
+    <MESSAGE value="#399 - INCOME_TYPES solution for Incomes. Without switch" />
+    <MESSAGE value="#399 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#399 - others" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
