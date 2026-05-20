@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#398 - others">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +221,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -368,23 +370,7 @@
       <workItem from="1778526742836" duration="85000" />
       <workItem from="1779126942440" duration="226000" />
       <workItem from="1779127375415" duration="7826000" />
-      <workItem from="1779301107825" duration="1092000" />
-    </task>
-    <task id="LOCAL-00790" summary="#288 - others">
-      <option name="closed" value="true" />
-      <created>1775759138625</created>
-      <option name="number" value="00790" />
-      <option name="presentableId" value="LOCAL-00790" />
-      <option name="project" value="LOCAL" />
-      <updated>1775759138625</updated>
-    </task>
-    <task id="LOCAL-00791" summary="#371 - new colum VAT for cash_operations_log">
-      <option name="closed" value="true" />
-      <created>1775759724458</created>
-      <option name="number" value="00791" />
-      <option name="presentableId" value="LOCAL-00791" />
-      <option name="project" value="LOCAL" />
-      <updated>1775759724458</updated>
+      <workItem from="1779301107825" duration="4477000" />
     </task>
     <task id="LOCAL-00792" summary="#371 - others">
       <option name="closed" value="true" />
@@ -762,7 +748,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779301902517</updated>
     </task>
-    <option name="localTasksCounter" value="839" />
+    <task id="LOCAL-00839" summary="#398 - back to Oprional.ofNullable">
+      <option name="closed" value="true" />
+      <created>1779302418619</created>
+      <option name="number" value="00839" />
+      <option name="presentableId" value="LOCAL-00839" />
+      <option name="project" value="LOCAL" />
+      <updated>1779302418619</updated>
+    </task>
+    <task id="LOCAL-00840" summary="#398 - others">
+      <option name="closed" value="true" />
+      <created>1779302444016</created>
+      <option name="number" value="00840" />
+      <option name="presentableId" value="LOCAL-00840" />
+      <option name="project" value="LOCAL" />
+      <updated>1779302444016</updated>
+    </task>
+    <option name="localTasksCounter" value="841" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -800,7 +802,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#307 - others" />
     <MESSAGE value="#308 - web page expense_report and css for it" />
     <MESSAGE value="#308 - others" />
     <MESSAGE value="#309 - Get method on controller" />
@@ -824,6 +825,7 @@
     <MESSAGE value="#397 - expenses types are global and final" />
     <MESSAGE value="#397 - others" />
     <MESSAGE value="#398 - protection of default payment card" />
+    <MESSAGE value="#398 - back to Oprional.ofNullable" />
     <MESSAGE value="#398 - others" />
     <option name="LAST_COMMIT_MESSAGE" value="#398 - others" />
   </component>
