@@ -27,6 +27,16 @@ public class WebFormsController {
           "Other", 17
   );
 
+  private static final Map<String, Integer> ENTERTAINMENT_TYPES = Map.of(
+          "Travel", 8,
+          "Cinema", 13,
+          "Vacation", 14,
+          "Relax", 15,
+          "Restaurant", 38,
+          "Homefest", 16,
+          "Other", 17
+  );
+
   @PostMapping("/toMain")
   public String goToMain(@ModelAttribute("login_mod_attribute") UserModel uModel) {
     int loginValidationResult = dbService.checkLogin(uModel);
@@ -68,19 +78,15 @@ public class WebFormsController {
     System.out.println("Entertainment Registered: " + entModel.toString());
     EntertainmentModelDB entertainmentModelDB = new EntertainmentModelDB();
 
-    switch (entModel.getEventType()) {
-      case "Travel": entertainmentModelDB.setEventType(8); break;
-      case "Cinema": entertainmentModelDB.setEventType(13); break;
-      case "Vacation": entertainmentModelDB.setEventType(14); break;
-      case "Relax": entertainmentModelDB.setEventType(15); break;
-      case "Restaurant": entertainmentModelDB.setEventType(38); break;
-      case "Homefest": entertainmentModelDB.setEventType(16); break;
-      case "Other": entertainmentModelDB.setEventType(17); break;
+    Integer entertainmentTypeId = ENTERTAINMENT_TYPES.get(entModel.getEventType());
+
+    if (entertainmentTypeId == null) {
+      throw new IllegalArgumentException("Unknown entertainment type: " + entModel.getEventType());
     }
 
+    entertainmentModelDB.setEventType(entertainmentTypeId);
     entertainmentModelDB.setAmount(entModel.getAmount());
     entertainmentModelDB.setCurrency(Utils.currencyConvert(entModel.getCurrency()));
-
     entertainmentModelDB.setTransactionDate(entModel.getTransactionDate());
     entertainmentModelDB.setTransactionType(entModel.getTransactionType());
     entertainmentModelDB.setCardNum(entModel.getCardNum());
