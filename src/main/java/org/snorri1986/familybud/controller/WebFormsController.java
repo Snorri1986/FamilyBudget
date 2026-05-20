@@ -9,11 +9,23 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import java.util.Map;
+
 @Controller
 public class WebFormsController {
 
   @Autowired
   DBService dbService;
+
+  private static final Map<String, Integer> INCOME_TYPES = Map.of(
+          "Salary", 14,
+          "Bonus", 13,
+          "TravelRefund", 15,
+          "ShopRefund", 16,
+          "Money transfer R", 41,
+          "HumanRefund", 18,
+          "Other", 17
+  );
 
   @PostMapping("/toMain")
   public String goToMain(@ModelAttribute("login_mod_attribute") UserModel uModel) {
@@ -27,16 +39,15 @@ public class WebFormsController {
     System.out.println("New income" + income.toString());
     IncomeModelDB incomeModelDB = new IncomeModelDB();
 
-    // convert values from web form
-    switch (income.getIncomeType()) {
-      case "Salary": incomeModelDB.setIncomeType(14); break;
-      case "Bonus": incomeModelDB.setIncomeType(13); break;
-      case "TravelRefund":  incomeModelDB.setIncomeType(15); break;
-      case "ShopRefund":  incomeModelDB.setIncomeType(16); break;
-      case "Money transfer R":  incomeModelDB.setIncomeType(41); break;
-      case "HumanRefund":  incomeModelDB.setIncomeType(18); break;
-      case "Other":  incomeModelDB.setIncomeType(17); break;
+    // input gathering
+    Integer incomeTypeId = INCOME_TYPES.get(income.getIncomeType());
+
+    // input validation
+    if (incomeTypeId == null) {
+      throw new IllegalArgumentException("Unknown income type: " + income.getIncomeType());
     }
+
+    incomeModelDB.setIncomeType(incomeTypeId);
 
     incomeModelDB.setAmount(income.getAmount());
     incomeModelDB.setCurrency(Utils.currencyConvert(income.getCurrency()));
