@@ -20,7 +20,7 @@
 <form th:action="@{/registerGroceries}" th:object="${groceries_mod_attribute}" method="post" class="needs-validation">
     <div class="form-group">
         <label for="purType">PurchesType:</label>
-        <select id="purType" name="purType" th:field="*{purchesType}" required>>
+        <select id="purType" name="purType" th:field="*{purchaseType}" required>>
             <option value="">-- Select purches type --</option>
             <option th:each="purType : ${purchesList}"
                     th:value="${purType}"
