@@ -42,7 +42,7 @@ public class DBService {
 
   public void insertNewGroceries(GroceriesModelDB groceriesModelDB) {
     String sql = "SELECT public.i_groceries(?,?,?,?,?,?,?)";
-    jdbcTemplate.queryForObject(sql, new Object[]{groceriesModelDB.getPurchesType(),
+    jdbcTemplate.queryForObject(sql, new Object[]{groceriesModelDB.getPurchaseType(),
             groceriesModelDB.getAmount(),
             groceriesModelDB.getCurrency(),
             groceriesModelDB.getTransactionDate(),

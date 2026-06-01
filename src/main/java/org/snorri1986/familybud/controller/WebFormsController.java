@@ -37,7 +37,7 @@ public class WebFormsController {
           "Other", 17
   );
 
-  private static final Map<String, Integer> GROCERIES_TYPES = Map.of (
+  private static final Map<String, Integer> GROCERY_TYPES = Map.of (
          "Daily", 18,
          "Weekly", 19,
          "Weekend", 20,
@@ -113,23 +113,13 @@ public class WebFormsController {
     System.out.println("Groceries purchase Registered: " + grocModel.toString());
     GroceriesModelDB groceriesModelDB = new GroceriesModelDB();
 
-    /*switch (grocModel.getPurchesType()) {
-      case "Daily": groceriesModelDB.setPurchesType(18); break;
-      case "Weekly": groceriesModelDB.setPurchesType(19); break;
-      case "Weekend": groceriesModelDB.setPurchesType(20); break;
-      case "Fest": groceriesModelDB.setPurchesType(21); break;
-      case "Clothes": groceriesModelDB.setPurchesType(43); break;
-      case "Lunch at work": groceriesModelDB.setPurchesType(44); break;
-      case "Other": groceriesModelDB.setPurchesType(22); break;
-    }*/
-
-    Integer groceriesTypeId = GROCERIES_TYPES.get(grocModel.getPurchesType());
+    Integer groceriesTypeId = GROCERY_TYPES.get(grocModel.getPurchaseType());
 
     if (groceriesTypeId == null) {
-      throw new IllegalArgumentException("Unknown groceries type: " + grocModel.getPurchesType());
+      throw new IllegalArgumentException("Unknown groceries type: " + grocModel.getPurchaseType());
     }
 
-    groceriesModelDB.setPurchesType(groceriesTypeId);
+    groceriesModelDB.setPurchaseType(groceriesTypeId);
     groceriesModelDB.setAmount(grocModel.getAmount());
     groceriesModelDB.setCurrency(Utils.currencyConvert(grocModel.getCurrency()));
     groceriesModelDB.setTransactionDate(grocModel.getTransactionDate());

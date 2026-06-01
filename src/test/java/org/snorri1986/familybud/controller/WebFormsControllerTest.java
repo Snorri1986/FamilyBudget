@@ -90,7 +90,7 @@ public class WebFormsControllerTest {
   @Test
   public void testSubmitGroceriesForm() {
     GroceriesModelWeb groceriesModelWeb = new GroceriesModelWeb();
-    groceriesModelWeb.setPurchesType("Weekly");
+    groceriesModelWeb.setPurchaseType("Weekly");
     groceriesModelWeb.setAmount(800);
     groceriesModelWeb.setCurrency("UAH");
     groceriesModelWeb.setTransactionDate(convertToDate("28.02.2023 11:00"));
@@ -103,7 +103,7 @@ public class WebFormsControllerTest {
 
     Mockito.verify(dbService).insertNewGroceries(captor.capture());
     GroceriesModelDB capturedGroceries = captor.getValue();
-    assertEquals(19, capturedGroceries.getPurchesType());
+    assertEquals(19, capturedGroceries.getPurchaseType());
     assertEquals(groceriesModelWeb.getAmount(), capturedGroceries.getAmount());
     assertEquals(Utils.currencyConvert(groceriesModelWeb.getCurrency()), capturedGroceries.getCurrency());
     assertEquals(groceriesModelWeb.getTransactionDate(), capturedGroceries.getTransactionDate());
