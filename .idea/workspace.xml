@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#401 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/groceries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/HealthModelDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/HealthModelDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/HealthModelWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/HealthModelWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,8 +347,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
-        <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
+        <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitEntertainmentForm" />
         <item itemvalue="JUnit.MainPageControllerTest.testGetMainPage" />
       </list>
@@ -371,23 +378,7 @@
       <workItem from="1779127375415" duration="7826000" />
       <workItem from="1779301107825" duration="7028000" />
       <workItem from="1780339218721" duration="171000" />
-      <workItem from="1780339430293" duration="3044000" />
-    </task>
-    <task id="LOCAL-00801" summary="#297 - new column - VAT">
-      <option name="closed" value="true" />
-      <created>1776883770044</created>
-      <option name="number" value="00801" />
-      <option name="presentableId" value="LOCAL-00801" />
-      <option name="project" value="LOCAL" />
-      <updated>1776883770044</updated>
-    </task>
-    <task id="LOCAL-00802" summary="#297 - others">
-      <option name="closed" value="true" />
-      <created>1776883785012</created>
-      <option name="number" value="00802" />
-      <option name="presentableId" value="LOCAL-00802" />
-      <option name="project" value="LOCAL" />
-      <updated>1776883785012</updated>
+      <workItem from="1780339430293" duration="5309000" />
     </task>
     <task id="LOCAL-00803" summary="#298 - new version with vat">
       <option name="closed" value="true" />
@@ -765,7 +756,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780341956316</updated>
     </task>
-    <option name="localTasksCounter" value="850" />
+    <task id="LOCAL-00850" summary="#401 - fixed name of field from Groceries model">
+      <option name="closed" value="true" />
+      <created>1780342609315</created>
+      <option name="number" value="00850" />
+      <option name="presentableId" value="LOCAL-00850" />
+      <option name="project" value="LOCAL" />
+      <updated>1780342609316</updated>
+    </task>
+    <task id="LOCAL-00851" summary="#401 - others">
+      <option name="closed" value="true" />
+      <created>1780342621963</created>
+      <option name="number" value="00851" />
+      <option name="presentableId" value="LOCAL-00851" />
+      <option name="project" value="LOCAL" />
+      <updated>1780342621965</updated>
+    </task>
+    <option name="localTasksCounter" value="852" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -803,7 +810,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#390 - new name for button Monthly" />
     <MESSAGE value="#390 - others" />
     <MESSAGE value="#391 - fixed error file naming" />
     <MESSAGE value="#391 - others" />
@@ -827,6 +833,7 @@
     <MESSAGE value="#272 - TODO marks" />
     <MESSAGE value="#401 - with new GROCERIES_TYPES" />
     <MESSAGE value="#401 - after code review" />
+    <MESSAGE value="#401 - fixed name of field from Groceries model" />
     <MESSAGE value="#401 - others" />
     <option name="LAST_COMMIT_MESSAGE" value="#401 - others" />
   </component>
