@@ -37,6 +37,16 @@ public class WebFormsController {
           "Other", 17
   );
 
+  private static final Map<String, Integer> GROCERIES_TYPES = Map.of (
+         "Daily", 18,
+         "Weekly", 19,
+         "Weekend", 20,
+         "Fest", 21,
+         "Clothes", 43,
+         "Lunch at work", 44,
+         "Other", 22
+  );
+
   @PostMapping("/toMain")
   public String goToMain(@ModelAttribute("login_mod_attribute") UserModel uModel) {
     int loginValidationResult = dbService.checkLogin(uModel);
@@ -103,8 +113,7 @@ public class WebFormsController {
     System.out.println("Groceries purchase Registered: " + grocModel.toString());
     GroceriesModelDB groceriesModelDB = new GroceriesModelDB();
 
-    //TODO: replace via ENUM
-    switch (grocModel.getPurchesType()) {
+    /*switch (grocModel.getPurchesType()) {
       case "Daily": groceriesModelDB.setPurchesType(18); break;
       case "Weekly": groceriesModelDB.setPurchesType(19); break;
       case "Weekend": groceriesModelDB.setPurchesType(20); break;
@@ -112,8 +121,15 @@ public class WebFormsController {
       case "Clothes": groceriesModelDB.setPurchesType(43); break;
       case "Lunch at work": groceriesModelDB.setPurchesType(44); break;
       case "Other": groceriesModelDB.setPurchesType(22); break;
+    }*/
+
+    Integer groceriesTypeId = GROCERIES_TYPES.get(grocModel.getPurchesType());
+
+    if (groceriesTypeId == null) {
+      throw new IllegalArgumentException("Unknown groceries type: " + grocModel.getPurchesType());
     }
 
+    groceriesModelDB.setPurchesType(groceriesTypeId);
     groceriesModelDB.setAmount(grocModel.getAmount());
     groceriesModelDB.setCurrency(Utils.currencyConvert(grocModel.getCurrency()));
     groceriesModelDB.setTransactionDate(grocModel.getTransactionDate());
