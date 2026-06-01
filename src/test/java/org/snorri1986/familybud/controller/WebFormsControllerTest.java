@@ -142,7 +142,7 @@ public class WebFormsControllerTest {
   @Test
   public void testSubmitHousingForm() {
     RentHousingModelWeb rentHousingModelWeb = new RentHousingModelWeb();
-    rentHousingModelWeb.setHousingType("Mortage");
+    rentHousingModelWeb.setHousingType("Mortgage");
     rentHousingModelWeb.setAmount(100);
     rentHousingModelWeb.setCurrency("DKK");
     rentHousingModelWeb.setTransactionDate(convertToDate("30.12.2024 11:00"));

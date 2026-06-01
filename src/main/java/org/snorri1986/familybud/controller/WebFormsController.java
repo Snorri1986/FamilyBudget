@@ -59,6 +59,17 @@ public class WebFormsController {
           "Other", 22
   );
 
+  private static final Map<String, Integer> RENT_HOUSING_TYPES = Map.of (
+          "Rent", 2,
+          "Mortgage", 37,
+          "Money transfer S", 40,
+          "A-kass", 39,
+          "Electricity", 29,
+          "House equipment", 30,
+          "Renovation", 31,
+          "Other", 22
+  );
+
   @PostMapping("/toMain")
   public String goToMain(@ModelAttribute("login_mod_attribute") UserModel uModel) {
     int loginValidationResult = dbService.checkLogin(uModel);
@@ -175,18 +186,13 @@ public class WebFormsController {
     System.out.println("RentHousing purchase Registered: " + rentHousingModel.toString());
     RentHousingModelDB rentHousingModelDB = new RentHousingModelDB();
 
-    //TODO: replace via ENUM
-    switch (rentHousingModel.getHousingType()) {
-      case "Rent": rentHousingModelDB.setHousingType(2); break;
-      case "Mortage": rentHousingModelDB.setHousingType(37); break;
-      case "Money transfer S": rentHousingModelDB.setHousingType(40); break;
-      case "A-kass": rentHousingModelDB.setHousingType(39); break;
-      case "Electricity": rentHousingModelDB.setHousingType(29); break;
-      case "HouseEquipments": rentHousingModelDB.setHousingType(30); break;
-      case "Renovation": rentHousingModelDB.setHousingType(31); break;
-      case "Other": rentHousingModelDB.setHousingType(22); break;
+    Integer rentHousingTypeId = RENT_HOUSING_TYPES.get(rentHousingModel.getHousingType());
+
+    if (rentHousingTypeId == null) {
+      throw new IllegalArgumentException("Unknown rent housing type: " + rentHousingModel.getHousingType());
     }
 
+    rentHousingModelDB.setHousingType(rentHousingTypeId);
     rentHousingModelDB.setAmount(rentHousingModel.getAmount());
     rentHousingModelDB.setCurrency(Utils.currencyConvert(rentHousingModel.getCurrency()));
     rentHousingModelDB.setTransactionDate(rentHousingModel.getTransactionDate());

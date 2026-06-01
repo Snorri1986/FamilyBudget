@@ -37,7 +37,7 @@ public class MainPageController {
           Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Haircut","Gym","Other"));
 
   private static final List<String> RENT_HOUSING_TYPE_LIST = Collections.unmodifiableList(
-          Arrays.asList("Rent","Mortage","Money transfer S","A-kass","Electricity","HouseEquipments","Renovation","Other"));
+          Arrays.asList("Rent","Mortgage","Money transfer S","A-kass","Electricity","House equipment","Renovation","Other"));
 
   private static final List<String> TELECOM_TYPE_LIST = Collections.unmodifiableList(
           Arrays.asList("Mobile","Internet","Roaming bundles","Others"));
