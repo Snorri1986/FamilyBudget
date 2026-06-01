@@ -47,6 +47,18 @@ public class WebFormsController {
          "Other", 22
   );
 
+  private static final Map<String, Integer> HEALTH_TYPES = Map.of (
+          "Dentist",23,
+          "Regular Medical check", 24,
+          "Special doctor", 25,
+          "Swimming pool", 26,
+          "SPA", 27,
+          "Nails", 28,
+          "Haircut", 42,
+          "Gym", 45,
+          "Other", 22
+  );
+
   @PostMapping("/toMain")
   public String goToMain(@ModelAttribute("login_mod_attribute") UserModel uModel) {
     int loginValidationResult = dbService.checkLogin(uModel);
@@ -138,19 +150,13 @@ public class WebFormsController {
     System.out.println("Health purchase Registered: " + healthModel.toString());
     HealthModelDB healthModelDB = new HealthModelDB();
 
-    //TODO: replace via ENUM
-    switch(healthModel.getHealthOperType()) {
-      case "Dentist": healthModelDB.setHealthOperType(23); break;
-      case "Regular Medical check": healthModelDB.setHealthOperType(24); break;
-      case "Special doctor": healthModelDB.setHealthOperType(25); break;
-      case "Swimming pool": healthModelDB.setHealthOperType(26); break;
-      case "SPA": healthModelDB.setHealthOperType(27); break;
-      case "Nails": healthModelDB.setHealthOperType(28); break;
-      case "Haircut": healthModelDB.setHealthOperType(42); break;
-      case "Gym": healthModelDB.setHealthOperType(45); break;
-      case "Other": healthModelDB.setHealthOperType(22); break;
+    Integer healthTypeId = HEALTH_TYPES.get(healthModel.getHealthOperationType());
+
+    if (healthTypeId == null) {
+      throw new IllegalArgumentException("Unknown health type: " + healthModel.getHealthOperationType());
     }
 
+    healthModelDB.setHealthOperationType(healthTypeId);
     healthModelDB.setAmount(healthModel.getAmount());
     healthModelDB.setCurrency(Utils.currencyConvert(healthModel.getCurrency()));
     healthModelDB.setTransactionDate(healthModel.getTransactionDate());

@@ -20,7 +20,7 @@
 <form th:action="@{/registerHealth}" th:object="${health_mod_attribute}" method="post" class="needs-validation">
     <div class="form-group">
         <label for="healthType">Health Activity Type:</label>
-        <select id="healthType" name="healthType" th:field="*{healthOperType}" required>>
+        <select id="healthType" name="healthType" th:field="*{healthOperationType}" required>>
             <option value="">-- Select health activity type --</option>
             <option th:each="healthType : ${healthTypeList}"
                     th:value="${healthType}"

@@ -116,7 +116,7 @@ public class WebFormsControllerTest {
   @Test
   public void testSubmitHealthForm() {
     HealthModelWeb healthModelWeb = new HealthModelWeb();
-    healthModelWeb.setHealthOperType("Regular Medical check");
+    healthModelWeb.setHealthOperationType("Regular Medical check");
     healthModelWeb.setAmount(1200);
     healthModelWeb.setCurrency("USD");
     healthModelWeb.setTransactionDate(convertToDate("01.01.2025 11:00"));
@@ -129,7 +129,7 @@ public class WebFormsControllerTest {
 
     Mockito.verify(dbService).insertNewHealth(captor.capture());
     HealthModelDB capturedHealth = captor.getValue();
-    assertEquals(24, capturedHealth.getHealthOperType());
+    assertEquals(24, capturedHealth.getHealthOperationType());
     assertEquals(healthModelWeb.getAmount(), capturedHealth.getAmount());
     assertEquals(Utils.currencyConvert(healthModelWeb.getCurrency()), capturedHealth.getCurrency());
     assertEquals(healthModelWeb.getTransactionDate(), capturedHealth.getTransactionDate());

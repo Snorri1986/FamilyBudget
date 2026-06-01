@@ -54,7 +54,7 @@ public class DBService {
 
   public void insertNewHealth(HealthModelDB healthModelDB) {
     String sql = "SELECT public.i_health(?,?,?,?,?,?,?)";
-    jdbcTemplate.queryForObject(sql, new Object[]{healthModelDB.getHealthOperType(),
+    jdbcTemplate.queryForObject(sql, new Object[]{healthModelDB.getHealthOperationType(),
             healthModelDB.getAmount(),
             healthModelDB.getCurrency(),
             healthModelDB.getTransactionDate(),
