@@ -43,7 +43,7 @@ public class MainPageController {
           Arrays.asList("Mobile","Internet","Roaming bundles","Other"));
 
   private static final List<String> TRAVEL_TYPE_LIST = Collections.unmodifiableList(
-          Arrays.asList("Tickets","Hotel","FoodInTrip","TravelEntertainment","Public transport","Others"));
+          Arrays.asList("Tickets","Hotel","Food in trip","Travel entertainment","Public transport","Other"));
 
   @GetMapping("/login")
   public String getLoginPage(Model model) {

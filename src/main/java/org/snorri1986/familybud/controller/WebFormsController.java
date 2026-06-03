@@ -77,6 +77,15 @@ public class WebFormsController {
           "Other", 12
   );
 
+  private static final Map<String, Integer> TRAVEL_TYPES = Map.of (
+          "Tickets", 33,
+          "Hotel", 34,
+          "Food in trip", 35,
+          "Travel entertainment", 36,
+          "Public transport", 7,
+          "Other", 12
+  );
+
   @PostMapping("/toMain")
   public String goToMain(@ModelAttribute("login_mod_attribute") UserModel uModel) {
     int loginValidationResult = dbService.checkLogin(uModel);
@@ -243,16 +252,12 @@ public class WebFormsController {
     System.out.println("Travel purchase Registered: " + travelModel.toString());
     TravelModelDB travelModelDB = new TravelModelDB();
 
-    //TODO: replace via ENUM
-    switch(travelModel.getTravelType()) {
-      case "Tickets": travelModelDB.setTravelType(33); break;
-      case "Hotel": travelModelDB.setTravelType(34); break;
-      case "FoodInTrip": travelModelDB.setTravelType(35); break;
-      case "TravelEntertainment": travelModelDB.setTravelType(36); break;
-      case "Public transport": travelModelDB.setTravelType(7); break;
-      case "Others": travelModelDB.setTravelType(12); break;
+    Integer travelTypeId = TRAVEL_TYPES.get(travelModel.getTravelType());
+    if (travelTypeId == null) {
+      throw new IllegalArgumentException("Unknown travel type: " + travelModel.getTravelType());
     }
 
+    travelModelDB.setTravelType(travelTypeId);
     travelModelDB.setAmount(travelModel.getAmount());
     travelModelDB.setCurrency(Utils.currencyConvert(travelModel.getCurrency()));
     travelModelDB.setTransactionDate(travelModel.getTransactionDate());
