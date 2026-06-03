@@ -70,6 +70,13 @@ public class WebFormsController {
           "Other", 22
   );
 
+  private static final Map<String, Integer> TELECOM_TYPES = Map.of (
+          "Mobile", 5,
+          "Internet", 6,
+          "Roaming bundles", 32,
+          "Other", 12
+  );
+
   @PostMapping("/toMain")
   public String goToMain(@ModelAttribute("login_mod_attribute") UserModel uModel) {
     int loginValidationResult = dbService.checkLogin(uModel);
@@ -212,14 +219,12 @@ public class WebFormsController {
     System.out.println("Telecom purchase Registered: " + telecomModel.toString());
     TelecomModelDB telecomModelDB = new TelecomModelDB();
 
-    //TODO: replace via ENUM
-    switch (telecomModel.getTelecomType()) {
-      case "Mobile": telecomModelDB.setTelecomType(5); break;
-      case "Internet": telecomModelDB.setTelecomType(6); break;
-      case "Roaming bundles": telecomModelDB.setTelecomType(32); break;
-      case "Others": telecomModelDB.setTelecomType(12); break;
+    Integer telecomTypeId = TELECOM_TYPES.get(telecomModel.getTelecomType());
+    if (telecomTypeId == null) {
+      throw new IllegalArgumentException("Unknown telecom type: " + telecomModel.getTelecomType());
     }
 
+    telecomModelDB.setTelecomType(telecomTypeId);
     telecomModelDB.setAmount(telecomModel.getAmount());
     telecomModelDB.setCurrency(Utils.currencyConvert(telecomModel.getCurrency()));
     telecomModelDB.setTransactionDate(telecomModel.getTransactionDate());

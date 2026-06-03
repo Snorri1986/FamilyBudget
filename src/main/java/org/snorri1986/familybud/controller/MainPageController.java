@@ -40,7 +40,7 @@ public class MainPageController {
           Arrays.asList("Rent","Mortgage","Money transfer S","A-kass","Electricity","House equipment","Renovation","Other"));
 
   private static final List<String> TELECOM_TYPE_LIST = Collections.unmodifiableList(
-          Arrays.asList("Mobile","Internet","Roaming bundles","Others"));
+          Arrays.asList("Mobile","Internet","Roaming bundles","Other"));
 
   private static final List<String> TRAVEL_TYPE_LIST = Collections.unmodifiableList(
           Arrays.asList("Tickets","Hotel","FoodInTrip","TravelEntertainment","Public transport","Others"));
