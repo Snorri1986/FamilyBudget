@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#404 - others and code review">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#405 - telecom via Map after code review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODE_REVIEW.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/telecom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/travel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/telecom.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/telecom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/travel.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,23 +377,7 @@
       <workItem from="1779301107825" duration="7028000" />
       <workItem from="1780339218721" duration="171000" />
       <workItem from="1780339430293" duration="7566000" />
-      <workItem from="1780509412394" duration="4136000" />
-    </task>
-    <task id="LOCAL-00809" summary="#303 - new column - VAT">
-      <option name="closed" value="true" />
-      <created>1776885080948</created>
-      <option name="number" value="00809" />
-      <option name="presentableId" value="LOCAL-00809" />
-      <option name="project" value="LOCAL" />
-      <updated>1776885080948</updated>
-    </task>
-    <task id="LOCAL-00810" summary="#304 - with new column - VAT">
-      <option name="closed" value="true" />
-      <created>1776885430223</created>
-      <option name="number" value="00810" />
-      <option name="presentableId" value="LOCAL-00810" />
-      <option name="project" value="LOCAL" />
-      <updated>1776885430223</updated>
+      <workItem from="1780509412394" duration="5755000" />
     </task>
     <task id="LOCAL-00811" summary="#304 - others">
       <option name="closed" value="true" />
@@ -772,7 +755,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780511283899</updated>
     </task>
-    <option name="localTasksCounter" value="858" />
+    <task id="LOCAL-00858" summary="#405 - others">
+      <option name="closed" value="true" />
+      <created>1780513664783</created>
+      <option name="number" value="00858" />
+      <option name="presentableId" value="LOCAL-00858" />
+      <option name="project" value="LOCAL" />
+      <updated>1780513664783</updated>
+    </task>
+    <task id="LOCAL-00859" summary="#405 - telecom via Map after code review">
+      <option name="closed" value="true" />
+      <created>1780513702605</created>
+      <option name="number" value="00859" />
+      <option name="presentableId" value="LOCAL-00859" />
+      <option name="project" value="LOCAL" />
+      <updated>1780513702605</updated>
+    </task>
+    <option name="localTasksCounter" value="860" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,8 +809,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#310 - others" />
-    <MESSAGE value="#395 - Lists currency_names and transaction_types are consts now" />
     <MESSAGE value="#395 - others" />
     <MESSAGE value="#396 - last ten operations have now protected against NULL" />
     <MESSAGE value="#396 - others" />
@@ -835,7 +832,9 @@
     <MESSAGE value="#403 - via RENT_HOUSING_TYPES and after code review" />
     <MESSAGE value="#404 - bugfix for mortgage expense on web side" />
     <MESSAGE value="#404 - others and code review" />
-    <option name="LAST_COMMIT_MESSAGE" value="#404 - others and code review" />
+    <MESSAGE value="#405 - others" />
+    <MESSAGE value="#405 - telecom via Map after code review" />
+    <option name="LAST_COMMIT_MESSAGE" value="#405 - telecom via Map after code review" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
