@@ -293,3 +293,19 @@ CREATE TABLE public.vat_rules (
 	city text NOT NULL,
 	vat_size int8 NULL
 );
+
+CREATE TABLE public.cash_expense_id (
+    exp_cash_id int,
+    exp_area text
+);
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+ (23, 'Health'),
+ (24, 'Health'),
+ (25, 'Health'),
+ (26, 'Health'),
+ (27, 'Health'),
+ (28, 'Health'),
+ (42, 'Health'),
+ (22, 'Health'),
+ (45, 'Health');
