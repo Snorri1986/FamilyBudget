@@ -309,3 +309,13 @@ insert into public.cash_expense_id (exp_cash_id, exp_area) values
  (42, 'Health'),
  (22, 'Health'),
  (45, 'Health');
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+(2, 'Housing'),
+(37, 'Housing'),
+(40, 'Housing'),
+(39, 'Housing'),
+(29, 'Housing'),
+(30, 'Housing'),
+(31, 'Housing'),
+(22, 'Housing');
