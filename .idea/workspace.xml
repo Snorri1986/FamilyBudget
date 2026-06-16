@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#406 - travel via Map and after code review">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#273 - others">
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_health_oper_cash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_health_oper_cash.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_housing_cash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_housing_cash.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,31 +377,7 @@
       <workItem from="1780509412394" duration="7054000" />
       <workItem from="1781549139913" duration="248000" />
       <workItem from="1781549566513" duration="3104000" />
-      <workItem from="1781631304782" duration="358000" />
-    </task>
-    <task id="LOCAL-00813" summary="#307 - others">
-      <option name="closed" value="true" />
-      <created>1777053834136</created>
-      <option name="number" value="00813" />
-      <option name="presentableId" value="LOCAL-00813" />
-      <option name="project" value="LOCAL" />
-      <updated>1777053834136</updated>
-    </task>
-    <task id="LOCAL-00814" summary="#308 - web page expense_report and css for it">
-      <option name="closed" value="true" />
-      <created>1777054638364</created>
-      <option name="number" value="00814" />
-      <option name="presentableId" value="LOCAL-00814" />
-      <option name="project" value="LOCAL" />
-      <updated>1777054638364</updated>
-    </task>
-    <task id="LOCAL-00815" summary="#308 - others">
-      <option name="closed" value="true" />
-      <created>1777054650341</created>
-      <option name="number" value="00815" />
-      <option name="presentableId" value="LOCAL-00815" />
-      <option name="project" value="LOCAL" />
-      <updated>1777054650341</updated>
+      <workItem from="1781631304782" duration="3167000" />
     </task>
     <task id="LOCAL-00816" summary="#309 - Get method on controller">
       <option name="closed" value="true" />
@@ -771,7 +747,31 @@
       <option name="project" value="LOCAL" />
       <updated>1780515594990</updated>
     </task>
-    <option name="localTasksCounter" value="862" />
+    <task id="LOCAL-00862" summary="#273 - rewrite as sql function via public.cash_expense_id table">
+      <option name="closed" value="true" />
+      <created>1781631943596</created>
+      <option name="number" value="00862" />
+      <option name="presentableId" value="LOCAL-00862" />
+      <option name="project" value="LOCAL" />
+      <updated>1781631943597</updated>
+    </task>
+    <task id="LOCAL-00863" summary="#273 - add new table public.cash_expense_id">
+      <option name="closed" value="true" />
+      <created>1781631966546</created>
+      <option name="number" value="00863" />
+      <option name="presentableId" value="LOCAL-00863" />
+      <option name="project" value="LOCAL" />
+      <updated>1781631966546</updated>
+    </task>
+    <task id="LOCAL-00864" summary="#273 - others">
+      <option name="closed" value="true" />
+      <created>1781631983000</created>
+      <option name="number" value="00864" />
+      <option name="presentableId" value="LOCAL-00864" />
+      <option name="project" value="LOCAL" />
+      <updated>1781631983000</updated>
+    </task>
+    <option name="localTasksCounter" value="865" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -809,9 +809,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#396 - others" />
-    <MESSAGE value="#397 - expenses types are global and final" />
-    <MESSAGE value="#397 - others" />
     <MESSAGE value="#398 - protection of default payment card" />
     <MESSAGE value="#398 - back to Oprional.ofNullable" />
     <MESSAGE value="#398 - others" />
@@ -834,7 +831,10 @@
     <MESSAGE value="#405 - telecom via Map after code review" />
     <MESSAGE value="#406 - others" />
     <MESSAGE value="#406 - travel via Map and after code review" />
-    <option name="LAST_COMMIT_MESSAGE" value="#406 - travel via Map and after code review" />
+    <MESSAGE value="#273 - rewrite as sql function via public.cash_expense_id table" />
+    <MESSAGE value="#273 - add new table public.cash_expense_id" />
+    <MESSAGE value="#273 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#273 - others" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
