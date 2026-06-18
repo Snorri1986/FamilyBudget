@@ -7,11 +7,11 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#410 - new version as sql function via cash_expense_id table.">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#409 - new version via cash_expense_id table">
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_entertainment_cash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_entertainment_cash.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_incomes_cash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_incomes_cash.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,39 +386,7 @@
       <workItem from="1781806294041" duration="146000" />
       <workItem from="1781806507720" duration="1090000" />
       <workItem from="1781807729407" duration="1596000" />
-      <workItem from="1781811109347" duration="1523000" />
-    </task>
-    <task id="LOCAL-00822" summary="#310 - others">
-      <option name="closed" value="true" />
-      <created>1777921530736</created>
-      <option name="number" value="00822" />
-      <option name="presentableId" value="LOCAL-00822" />
-      <option name="project" value="LOCAL" />
-      <updated>1777921530736</updated>
-    </task>
-    <task id="LOCAL-00823" summary="#390 - new name for button Monthly">
-      <option name="closed" value="true" />
-      <created>1778094867874</created>
-      <option name="number" value="00823" />
-      <option name="presentableId" value="LOCAL-00823" />
-      <option name="project" value="LOCAL" />
-      <updated>1778094867875</updated>
-    </task>
-    <task id="LOCAL-00824" summary="#390 - others">
-      <option name="closed" value="true" />
-      <created>1778094879216</created>
-      <option name="number" value="00824" />
-      <option name="presentableId" value="LOCAL-00824" />
-      <option name="project" value="LOCAL" />
-      <updated>1778094879216</updated>
-    </task>
-    <task id="LOCAL-00825" summary="#391 - fixed error file naming">
-      <option name="closed" value="true" />
-      <created>1778095312562</created>
-      <option name="number" value="00825" />
-      <option name="presentableId" value="LOCAL-00825" />
-      <option name="project" value="LOCAL" />
-      <updated>1778095312562</updated>
+      <workItem from="1781811109347" duration="2883000" />
     </task>
     <task id="LOCAL-00826" summary="#391 - others">
       <option name="closed" value="true" />
@@ -780,7 +748,39 @@
       <option name="project" value="LOCAL" />
       <updated>1781809010114</updated>
     </task>
-    <option name="localTasksCounter" value="871" />
+    <task id="LOCAL-00871" summary="#409 - others">
+      <option name="closed" value="true" />
+      <created>1781812657741</created>
+      <option name="number" value="00871" />
+      <option name="presentableId" value="LOCAL-00871" />
+      <option name="project" value="LOCAL" />
+      <updated>1781812657744</updated>
+    </task>
+    <task id="LOCAL-00872" summary="#409 - others 2">
+      <option name="closed" value="true" />
+      <created>1781812665375</created>
+      <option name="number" value="00872" />
+      <option name="presentableId" value="LOCAL-00872" />
+      <option name="project" value="LOCAL" />
+      <updated>1781812665375</updated>
+    </task>
+    <task id="LOCAL-00873" summary="#409 - insert expense codes for entertainment">
+      <option name="closed" value="true" />
+      <created>1781812728139</created>
+      <option name="number" value="00873" />
+      <option name="presentableId" value="LOCAL-00873" />
+      <option name="project" value="LOCAL" />
+      <updated>1781812728139</updated>
+    </task>
+    <task id="LOCAL-00874" summary="#409 - new version via cash_expense_id table">
+      <option name="closed" value="true" />
+      <created>1781812752197</created>
+      <option name="number" value="00874" />
+      <option name="presentableId" value="LOCAL-00874" />
+      <option name="project" value="LOCAL" />
+      <updated>1781812752198</updated>
+    </task>
+    <option name="localTasksCounter" value="875" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -818,10 +818,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#400 - others" />
-    <MESSAGE value="#272 - TODO marks" />
-    <MESSAGE value="#401 - with new GROCERIES_TYPES" />
-    <MESSAGE value="#401 - after code review" />
     <MESSAGE value="#401 - fixed name of field from Groceries model" />
     <MESSAGE value="#401 - others" />
     <MESSAGE value="#402 - others" />
@@ -843,7 +839,11 @@
     <MESSAGE value="#410 - others" />
     <MESSAGE value="#410 - insert expense types for groceries" />
     <MESSAGE value="#410 - new version as sql function via cash_expense_id table." />
-    <option name="LAST_COMMIT_MESSAGE" value="#410 - new version as sql function via cash_expense_id table." />
+    <MESSAGE value="#409 - others" />
+    <MESSAGE value="#409 - others 2" />
+    <MESSAGE value="#409 - insert expense codes for entertainment" />
+    <MESSAGE value="#409 - new version via cash_expense_id table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#409 - new version via cash_expense_id table" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

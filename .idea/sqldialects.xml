@@ -7,5 +7,6 @@
     <file url="file://$PROJECT_DIR$/src/db/sources/get_last_ten_groceries_cash.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/db/sources/get_last_ten_health_oper_cash.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/db/sources/get_last_ten_housing_cash.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/db/sources/get_last_ten_incomes_cash.sql" dialect="PostgreSQL" />
   </component>
 </project>
