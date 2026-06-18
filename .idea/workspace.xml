@@ -7,11 +7,11 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#411 - new version via table public.cash_expense_id">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#410 - new version as sql function via cash_expense_id table.">
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_groceries_cash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_groceries_cash.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_entertainment_cash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_entertainment_cash.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +227,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -385,31 +385,8 @@
       <workItem from="1781631304782" duration="3428000" />
       <workItem from="1781806294041" duration="146000" />
       <workItem from="1781806507720" duration="1090000" />
-      <workItem from="1781807729407" duration="999000" />
-    </task>
-    <task id="LOCAL-00819" summary="#387 - new css with word-spacing">
-      <option name="closed" value="true" />
-      <created>1777055879988</created>
-      <option name="number" value="00819" />
-      <option name="presentableId" value="LOCAL-00819" />
-      <option name="project" value="LOCAL" />
-      <updated>1777055879988</updated>
-    </task>
-    <task id="LOCAL-00820" summary="#387 - others">
-      <option name="closed" value="true" />
-      <created>1777055894255</created>
-      <option name="number" value="00820" />
-      <option name="presentableId" value="LOCAL-00820" />
-      <option name="project" value="LOCAL" />
-      <updated>1777055894255</updated>
-    </task>
-    <task id="LOCAL-00821" summary="#310 - new function - daily expenses">
-      <option name="closed" value="true" />
-      <created>1777921517384</created>
-      <option name="number" value="00821" />
-      <option name="presentableId" value="LOCAL-00821" />
-      <option name="project" value="LOCAL" />
-      <updated>1777921517386</updated>
+      <workItem from="1781807729407" duration="1596000" />
+      <workItem from="1781811109347" duration="1523000" />
     </task>
     <task id="LOCAL-00822" summary="#310 - others">
       <option name="closed" value="true" />
@@ -779,7 +756,31 @@
       <option name="project" value="LOCAL" />
       <updated>1781634652201</updated>
     </task>
-    <option name="localTasksCounter" value="868" />
+    <task id="LOCAL-00868" summary="#410 - others">
+      <option name="closed" value="true" />
+      <created>1781808951554</created>
+      <option name="number" value="00868" />
+      <option name="presentableId" value="LOCAL-00868" />
+      <option name="project" value="LOCAL" />
+      <updated>1781808951557</updated>
+    </task>
+    <task id="LOCAL-00869" summary="#410 - insert expense types for groceries">
+      <option name="closed" value="true" />
+      <created>1781808975257</created>
+      <option name="number" value="00869" />
+      <option name="presentableId" value="LOCAL-00869" />
+      <option name="project" value="LOCAL" />
+      <updated>1781808975257</updated>
+    </task>
+    <task id="LOCAL-00870" summary="#410 - new version as sql function via cash_expense_id table.">
+      <option name="closed" value="true" />
+      <created>1781809010113</created>
+      <option name="number" value="00870" />
+      <option name="presentableId" value="LOCAL-00870" />
+      <option name="project" value="LOCAL" />
+      <updated>1781809010114</updated>
+    </task>
+    <option name="localTasksCounter" value="871" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -817,9 +818,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#399 - INCOME_TYPES solution for Incomes. Without switch" />
-    <MESSAGE value="#399 - others" />
-    <MESSAGE value="#400 - new Map ENTERTAINMENT_TYPES for entertainment" />
     <MESSAGE value="#400 - others" />
     <MESSAGE value="#272 - TODO marks" />
     <MESSAGE value="#401 - with new GROCERIES_TYPES" />
@@ -842,7 +840,10 @@
     <MESSAGE value="#411 - others" />
     <MESSAGE value="#411 - insert for rent_housing expenses" />
     <MESSAGE value="#411 - new version via table public.cash_expense_id" />
-    <option name="LAST_COMMIT_MESSAGE" value="#411 - new version via table public.cash_expense_id" />
+    <MESSAGE value="#410 - others" />
+    <MESSAGE value="#410 - insert expense types for groceries" />
+    <MESSAGE value="#410 - new version as sql function via cash_expense_id table." />
+    <option name="LAST_COMMIT_MESSAGE" value="#410 - new version as sql function via cash_expense_id table." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
