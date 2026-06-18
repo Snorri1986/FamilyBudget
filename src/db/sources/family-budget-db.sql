@@ -319,3 +319,12 @@ insert into public.cash_expense_id (exp_cash_id, exp_area) values
 (30, 'Housing'),
 (31, 'Housing'),
 (22, 'Housing');
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+(18, 'Groceries'),
+(19, 'Groceries'),
+(20, 'Groceries'),
+(21, 'Groceries'),
+(43, 'Groceries'),
+(44, 'Groceries'),
+(22, 'Groceries');
