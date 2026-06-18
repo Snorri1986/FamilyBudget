@@ -337,3 +337,12 @@ insert into public.cash_expense_id (exp_cash_id, exp_area) values
 (38, 'Entertainment'),
 (16, 'Entertainment'),
 (17, 'Entertainment');
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+(14, 'Incomes'),
+(13, 'Incomes'),
+(15, 'Incomes'),
+(16, 'Incomes'),
+(41, 'Incomes'),
+(17, 'Incomes'),
+(18, 'Incomes');
