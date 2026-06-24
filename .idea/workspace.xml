@@ -7,11 +7,12 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#409 - new version via cash_expense_id table">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#412 - new version of function via cash_expense_id table">
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_incomes_cash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_incomes_cash.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_telecom_cash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_telecom_cash.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,31 +387,9 @@
       <workItem from="1781806294041" duration="146000" />
       <workItem from="1781806507720" duration="1090000" />
       <workItem from="1781807729407" duration="1596000" />
-      <workItem from="1781811109347" duration="2883000" />
-    </task>
-    <task id="LOCAL-00826" summary="#391 - others">
-      <option name="closed" value="true" />
-      <created>1778095325408</created>
-      <option name="number" value="00826" />
-      <option name="presentableId" value="LOCAL-00826" />
-      <option name="project" value="LOCAL" />
-      <updated>1778095325408</updated>
-    </task>
-    <task id="LOCAL-00827" summary="#311 - new function to get full monthly expenses">
-      <option name="closed" value="true" />
-      <created>1778096850294</created>
-      <option name="number" value="00827" />
-      <option name="presentableId" value="LOCAL-00827" />
-      <option name="project" value="LOCAL" />
-      <updated>1778096850294</updated>
-    </task>
-    <task id="LOCAL-00828" summary="#311 - others">
-      <option name="closed" value="true" />
-      <created>1778096868475</created>
-      <option name="number" value="00828" />
-      <option name="presentableId" value="LOCAL-00828" />
-      <option name="project" value="LOCAL" />
-      <updated>1778096868475</updated>
+      <workItem from="1781811109347" duration="3376000" />
+      <workItem from="1782324267936" duration="263000" />
+      <workItem from="1782324608343" duration="1665000" />
     </task>
     <task id="LOCAL-00829" summary="#310 - new version of function">
       <option name="closed" value="true" />
@@ -780,7 +759,31 @@
       <option name="project" value="LOCAL" />
       <updated>1781812752198</updated>
     </task>
-    <option name="localTasksCounter" value="875" />
+    <task id="LOCAL-00875" summary="#412 - others">
+      <option name="closed" value="true" />
+      <created>1781814029537</created>
+      <option name="number" value="00875" />
+      <option name="presentableId" value="LOCAL-00875" />
+      <option name="project" value="LOCAL" />
+      <updated>1781814029538</updated>
+    </task>
+    <task id="LOCAL-00876" summary="#412 - insert incomes expense codes to cash_expense_id">
+      <option name="closed" value="true" />
+      <created>1781814072286</created>
+      <option name="number" value="00876" />
+      <option name="presentableId" value="LOCAL-00876" />
+      <option name="project" value="LOCAL" />
+      <updated>1781814072287</updated>
+    </task>
+    <task id="LOCAL-00877" summary="#412 - new version of function via cash_expense_id table">
+      <option name="closed" value="true" />
+      <created>1781814097884</created>
+      <option name="number" value="00877" />
+      <option name="presentableId" value="LOCAL-00877" />
+      <option name="project" value="LOCAL" />
+      <updated>1781814097884</updated>
+    </task>
+    <option name="localTasksCounter" value="878" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -818,9 +821,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#401 - fixed name of field from Groceries model" />
-    <MESSAGE value="#401 - others" />
-    <MESSAGE value="#402 - others" />
     <MESSAGE value="#402 - via Map HEALTH_TYPES after code review" />
     <MESSAGE value="#403 - others" />
     <MESSAGE value="#403 - via RENT_HOUSING_TYPES and after code review" />
@@ -843,7 +843,10 @@
     <MESSAGE value="#409 - others 2" />
     <MESSAGE value="#409 - insert expense codes for entertainment" />
     <MESSAGE value="#409 - new version via cash_expense_id table" />
-    <option name="LAST_COMMIT_MESSAGE" value="#409 - new version via cash_expense_id table" />
+    <MESSAGE value="#412 - others" />
+    <MESSAGE value="#412 - insert incomes expense codes to cash_expense_id" />
+    <MESSAGE value="#412 - new version of function via cash_expense_id table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#412 - new version of function via cash_expense_id table" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
