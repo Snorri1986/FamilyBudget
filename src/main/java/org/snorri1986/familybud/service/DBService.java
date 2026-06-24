@@ -320,7 +320,7 @@ public class DBService {
     return jdbcTemplate.query(sql, new RowMapper<LastTenTelecomOperationsModel>() {
       @Override
       public LastTenTelecomOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
-        return new LastTenTelecomOperationsModel(rs.getLong("h_type_id"),
+        return new LastTenTelecomOperationsModel(rs.getLong("ex_type_id"),
                 rs.getLong("amount"),
                 rs.getLong("currency"),
                 rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
