@@ -7,12 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#413 - new version of function via cash_expense_id table">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#414 - new version via cash_expense_id and improved join">
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_last_ten_travel_cash.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_last_ten_travel_cash.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/calculate_vat.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/calculate_vat.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,39 +387,7 @@
       <workItem from="1781807729407" duration="1596000" />
       <workItem from="1781811109347" duration="3376000" />
       <workItem from="1782324267936" duration="263000" />
-      <workItem from="1782324608343" duration="4551000" />
-    </task>
-    <task id="LOCAL-00833" summary="#396 - last ten operations have now protected against NULL">
-      <option name="closed" value="true" />
-      <created>1779131076741</created>
-      <option name="number" value="00833" />
-      <option name="presentableId" value="LOCAL-00833" />
-      <option name="project" value="LOCAL" />
-      <updated>1779131076741</updated>
-    </task>
-    <task id="LOCAL-00834" summary="#396 - others">
-      <option name="closed" value="true" />
-      <created>1779131098144</created>
-      <option name="number" value="00834" />
-      <option name="presentableId" value="LOCAL-00834" />
-      <option name="project" value="LOCAL" />
-      <updated>1779131098144</updated>
-    </task>
-    <task id="LOCAL-00835" summary="#397 - expenses types are global and final">
-      <option name="closed" value="true" />
-      <created>1779131998064</created>
-      <option name="number" value="00835" />
-      <option name="presentableId" value="LOCAL-00835" />
-      <option name="project" value="LOCAL" />
-      <updated>1779131998064</updated>
-    </task>
-    <task id="LOCAL-00836" summary="#397 - others">
-      <option name="closed" value="true" />
-      <created>1779132012477</created>
-      <option name="number" value="00836" />
-      <option name="presentableId" value="LOCAL-00836" />
-      <option name="project" value="LOCAL" />
-      <updated>1779132012480</updated>
+      <workItem from="1782324608343" duration="6492000" />
     </task>
     <task id="LOCAL-00837" summary="#398 - protection of default payment card">
       <option name="closed" value="true" />
@@ -783,7 +749,39 @@
       <option name="project" value="LOCAL" />
       <updated>1782326586726</updated>
     </task>
-    <option name="localTasksCounter" value="882" />
+    <task id="LOCAL-00882" summary="#414 - others">
+      <option name="closed" value="true" />
+      <created>1782329299602</created>
+      <option name="number" value="00882" />
+      <option name="presentableId" value="LOCAL-00882" />
+      <option name="project" value="LOCAL" />
+      <updated>1782329299602</updated>
+    </task>
+    <task id="LOCAL-00883" summary="#414 - insert statement for Travel expenses">
+      <option name="closed" value="true" />
+      <created>1782329323121</created>
+      <option name="number" value="00883" />
+      <option name="presentableId" value="LOCAL-00883" />
+      <option name="project" value="LOCAL" />
+      <updated>1782329323121</updated>
+    </task>
+    <task id="LOCAL-00884" summary="#414 - just rename column name">
+      <option name="closed" value="true" />
+      <created>1782329340093</created>
+      <option name="number" value="00884" />
+      <option name="presentableId" value="LOCAL-00884" />
+      <option name="project" value="LOCAL" />
+      <updated>1782329340093</updated>
+    </task>
+    <task id="LOCAL-00885" summary="#414 - new version via cash_expense_id and improved join">
+      <option name="closed" value="true" />
+      <created>1782329369785</created>
+      <option name="number" value="00885" />
+      <option name="presentableId" value="LOCAL-00885" />
+      <option name="project" value="LOCAL" />
+      <updated>1782329369785</updated>
+    </task>
+    <option name="localTasksCounter" value="886" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -821,10 +819,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#404 - others and code review" />
-    <MESSAGE value="#405 - others" />
-    <MESSAGE value="#405 - telecom via Map after code review" />
-    <MESSAGE value="#406 - others" />
     <MESSAGE value="#406 - travel via Map and after code review" />
     <MESSAGE value="#273 - rewrite as sql function via public.cash_expense_id table" />
     <MESSAGE value="#273 - add new table public.cash_expense_id" />
@@ -846,7 +840,11 @@
     <MESSAGE value="#413 - insert expense codes for Telecom into cash_expense_id" />
     <MESSAGE value="#413 - just rename column name" />
     <MESSAGE value="#413 - new version of function via cash_expense_id table" />
-    <option name="LAST_COMMIT_MESSAGE" value="#413 - new version of function via cash_expense_id table" />
+    <MESSAGE value="#414 - others" />
+    <MESSAGE value="#414 - insert statement for Travel expenses" />
+    <MESSAGE value="#414 - just rename column name" />
+    <MESSAGE value="#414 - new version via cash_expense_id and improved join" />
+    <option name="LAST_COMMIT_MESSAGE" value="#414 - new version via cash_expense_id and improved join" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
