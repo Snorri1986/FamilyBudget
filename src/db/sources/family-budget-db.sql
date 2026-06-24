@@ -352,3 +352,11 @@ insert into public.cash_expense_id (exp_cash_id, exp_area) values
 (6, 'Telecom'),
 (32, 'Telecom'),
 (12, 'Telecom');
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+(7, 'Travel'),
+(12, 'Travel'),
+(33, 'Travel'),
+(34, 'Travel'),
+(35, 'Travel'),
+(36, 'Travel');
