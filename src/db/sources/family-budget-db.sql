@@ -346,3 +346,9 @@ insert into public.cash_expense_id (exp_cash_id, exp_area) values
 (41, 'Incomes'),
 (17, 'Incomes'),
 (18, 'Incomes');
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+(5, 'Telecom'),
+(6, 'Telecom'),
+(32, 'Telecom'),
+(12, 'Telecom');
