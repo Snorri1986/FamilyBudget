@@ -294,6 +294,9 @@ CREATE TABLE public.vat_rules (
 	vat_size int8 NULL
 );
 
+ALTER TABLE public.vat_rules
+    ADD CONSTRAINT vat_rules_country_city_key UNIQUE (country, city);
+
 CREATE TABLE public.cash_expense_id (
     exp_cash_id int,
     exp_area text
