@@ -7,10 +7,11 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#414 - new version via cash_expense_id and improved join">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#373 - new version after code review with exception handling">
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/calculate_vat.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/calculate_vat.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/family-budget-db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/i_location.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/i_location.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +145,7 @@
         <option name="modeId" value="Agent" />
         <option name="model">
           <model>
-            <option name="modelType" value="builtin_family" />
+            <option name="modelType" value="builtin_id" />
             <option name="modelValue" value="auto" />
           </model>
         </option>
@@ -226,7 +227,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.AdditionalFuncPageControllerTest">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -345,9 +346,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHousingForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitEntertainmentForm" />
       </list>
@@ -356,8 +357,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
       </set>
     </attachedChunks>
   </component>
@@ -387,23 +388,9 @@
       <workItem from="1781807729407" duration="1596000" />
       <workItem from="1781811109347" duration="3376000" />
       <workItem from="1782324267936" duration="263000" />
-      <workItem from="1782324608343" duration="6492000" />
-    </task>
-    <task id="LOCAL-00837" summary="#398 - protection of default payment card">
-      <option name="closed" value="true" />
-      <created>1779301883492</created>
-      <option name="number" value="00837" />
-      <option name="presentableId" value="LOCAL-00837" />
-      <option name="project" value="LOCAL" />
-      <updated>1779301883508</updated>
-    </task>
-    <task id="LOCAL-00838" summary="#398 - others">
-      <option name="closed" value="true" />
-      <created>1779301902517</created>
-      <option name="number" value="00838" />
-      <option name="presentableId" value="LOCAL-00838" />
-      <option name="project" value="LOCAL" />
-      <updated>1779301902517</updated>
+      <workItem from="1782324608343" duration="6894000" />
+      <workItem from="1783622847984" duration="273000" />
+      <workItem from="1783623303727" duration="4998000" />
     </task>
     <task id="LOCAL-00839" summary="#398 - back to Oprional.ofNullable">
       <option name="closed" value="true" />
@@ -781,7 +768,23 @@
       <option name="project" value="LOCAL" />
       <updated>1782329369785</updated>
     </task>
-    <option name="localTasksCounter" value="886" />
+    <task id="LOCAL-00886" summary="#373 - others">
+      <option name="closed" value="true" />
+      <created>1782331191083</created>
+      <option name="number" value="00886" />
+      <option name="presentableId" value="LOCAL-00886" />
+      <option name="project" value="LOCAL" />
+      <updated>1782331191083</updated>
+    </task>
+    <task id="LOCAL-00887" summary="#373 - new version after code review with exception handling">
+      <option name="closed" value="true" />
+      <created>1782331250605</created>
+      <option name="number" value="00887" />
+      <option name="presentableId" value="LOCAL-00887" />
+      <option name="project" value="LOCAL" />
+      <updated>1782331250605</updated>
+    </task>
+    <option name="localTasksCounter" value="888" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -819,8 +822,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#406 - travel via Map and after code review" />
-    <MESSAGE value="#273 - rewrite as sql function via public.cash_expense_id table" />
     <MESSAGE value="#273 - add new table public.cash_expense_id" />
     <MESSAGE value="#273 - others" />
     <MESSAGE value="#411 - others" />
@@ -844,7 +845,9 @@
     <MESSAGE value="#414 - insert statement for Travel expenses" />
     <MESSAGE value="#414 - just rename column name" />
     <MESSAGE value="#414 - new version via cash_expense_id and improved join" />
-    <option name="LAST_COMMIT_MESSAGE" value="#414 - new version via cash_expense_id and improved join" />
+    <MESSAGE value="#373 - others" />
+    <MESSAGE value="#373 - new version after code review with exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="#373 - new version after code review with exception handling" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
