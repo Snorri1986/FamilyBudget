@@ -7,11 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#279 - new version of func i_location after code review">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#280 - new fields name after code review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_location.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_location.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,31 +390,7 @@
       <workItem from="1783622847984" duration="273000" />
       <workItem from="1783623303727" duration="7017000" />
       <workItem from="1783971516094" duration="173000" />
-      <workItem from="1783971774016" duration="1305000" />
-    </task>
-    <task id="LOCAL-00842" summary="#399 - others">
-      <option name="closed" value="true" />
-      <created>1779305985398</created>
-      <option name="number" value="00842" />
-      <option name="presentableId" value="LOCAL-00842" />
-      <option name="project" value="LOCAL" />
-      <updated>1779305985399</updated>
-    </task>
-    <task id="LOCAL-00843" summary="#400 - new Map ENTERTAINMENT_TYPES for entertainment">
-      <option name="closed" value="true" />
-      <created>1779307573867</created>
-      <option name="number" value="00843" />
-      <option name="presentableId" value="LOCAL-00843" />
-      <option name="project" value="LOCAL" />
-      <updated>1779307573867</updated>
-    </task>
-    <task id="LOCAL-00844" summary="#400 - others">
-      <option name="closed" value="true" />
-      <created>1779307592455</created>
-      <option name="number" value="00844" />
-      <option name="presentableId" value="LOCAL-00844" />
-      <option name="project" value="LOCAL" />
-      <updated>1779307592455</updated>
+      <workItem from="1783971774016" duration="2832000" />
     </task>
     <task id="LOCAL-00845" summary="#272 - TODO marks">
       <option name="closed" value="true" />
@@ -786,7 +760,31 @@
       <option name="project" value="LOCAL" />
       <updated>1783628561606</updated>
     </task>
-    <option name="localTasksCounter" value="891" />
+    <task id="LOCAL-00891" summary="#280 - others">
+      <option name="closed" value="true" />
+      <created>1783973381907</created>
+      <option name="number" value="00891" />
+      <option name="presentableId" value="LOCAL-00891" />
+      <option name="project" value="LOCAL" />
+      <updated>1783973381908</updated>
+    </task>
+    <task id="LOCAL-00892" summary="#280 - new version of function after code review">
+      <option name="closed" value="true" />
+      <created>1783973414848</created>
+      <option name="number" value="00892" />
+      <option name="presentableId" value="LOCAL-00892" />
+      <option name="project" value="LOCAL" />
+      <updated>1783973414848</updated>
+    </task>
+    <task id="LOCAL-00893" summary="#280 - new fields name after code review">
+      <option name="closed" value="true" />
+      <created>1783973467787</created>
+      <option name="number" value="00893" />
+      <option name="presentableId" value="LOCAL-00893" />
+      <option name="project" value="LOCAL" />
+      <updated>1783973467787</updated>
+    </task>
+    <option name="localTasksCounter" value="894" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -824,9 +822,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#411 - insert for rent_housing expenses" />
-    <MESSAGE value="#411 - new version via table public.cash_expense_id" />
-    <MESSAGE value="#410 - others" />
     <MESSAGE value="#410 - insert expense types for groceries" />
     <MESSAGE value="#410 - new version as sql function via cash_expense_id table." />
     <MESSAGE value="#409 - others" />
@@ -849,7 +844,10 @@
     <MESSAGE value="#279 - others" />
     <MESSAGE value="#279 - unique constraint on vat_rules table" />
     <MESSAGE value="#279 - new version of func i_location after code review" />
-    <option name="LAST_COMMIT_MESSAGE" value="#279 - new version of func i_location after code review" />
+    <MESSAGE value="#280 - others" />
+    <MESSAGE value="#280 - new version of function after code review" />
+    <MESSAGE value="#280 - new fields name after code review" />
+    <option name="LAST_COMMIT_MESSAGE" value="#280 - new fields name after code review" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
