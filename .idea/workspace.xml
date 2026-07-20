@@ -7,7 +7,7 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#281 - new attrib after code review">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#282 - new version of insertNewLocation after code review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
@@ -392,23 +392,7 @@
       <workItem from="1783971516094" duration="173000" />
       <workItem from="1783971774016" duration="3187000" />
       <workItem from="1784575813972" duration="551000" />
-      <workItem from="1784577000968" duration="1404000" />
-    </task>
-    <task id="LOCAL-00847" summary="#401 - others">
-      <option name="closed" value="true" />
-      <created>1780340086713</created>
-      <option name="number" value="00847" />
-      <option name="presentableId" value="LOCAL-00847" />
-      <option name="project" value="LOCAL" />
-      <updated>1780340086713</updated>
-    </task>
-    <task id="LOCAL-00848" summary="#401 - after code review">
-      <option name="closed" value="true" />
-      <created>1780341937468</created>
-      <option name="number" value="00848" />
-      <option name="presentableId" value="LOCAL-00848" />
-      <option name="project" value="LOCAL" />
-      <updated>1780341937468</updated>
+      <workItem from="1784577000968" duration="2643000" />
     </task>
     <task id="LOCAL-00849" summary="#401 - others">
       <option name="closed" value="true" />
@@ -786,7 +770,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783974822701</updated>
     </task>
-    <option name="localTasksCounter" value="896" />
+    <task id="LOCAL-00896" summary="#282 - others">
+      <option name="closed" value="true" />
+      <created>1784578540203</created>
+      <option name="number" value="00896" />
+      <option name="presentableId" value="LOCAL-00896" />
+      <option name="project" value="LOCAL" />
+      <updated>1784578540204</updated>
+    </task>
+    <task id="LOCAL-00897" summary="#282 - new version of insertNewLocation after code review">
+      <option name="closed" value="true" />
+      <created>1784578577171</created>
+      <option name="number" value="00897" />
+      <option name="presentableId" value="LOCAL-00897" />
+      <option name="project" value="LOCAL" />
+      <updated>1784578577171</updated>
+    </task>
+    <option name="localTasksCounter" value="898" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -824,8 +824,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#409 - others" />
-    <MESSAGE value="#409 - others 2" />
     <MESSAGE value="#409 - insert expense codes for entertainment" />
     <MESSAGE value="#409 - new version via cash_expense_id table" />
     <MESSAGE value="#412 - others" />
@@ -849,7 +847,9 @@
     <MESSAGE value="#280 - new fields name after code review" />
     <MESSAGE value="#281 - others" />
     <MESSAGE value="#281 - new attrib after code review" />
-    <option name="LAST_COMMIT_MESSAGE" value="#281 - new attrib after code review" />
+    <MESSAGE value="#282 - others" />
+    <MESSAGE value="#282 - new version of insertNewLocation after code review" />
+    <option name="LAST_COMMIT_MESSAGE" value="#282 - new version of insertNewLocation after code review" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
