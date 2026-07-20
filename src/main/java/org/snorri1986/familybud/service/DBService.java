@@ -18,6 +18,9 @@ public class DBService {
   @Autowired
   private JdbcTemplate jdbcTemplate;
 
+  private static final String GET_LOCATION_SQL =
+          "SELECT user_country, user_city FROM public.get_location()";
+
   public void insertNewIncome(IncomeModelDB incomeModel) {
     String sql = "SELECT public.i_income(?,?,?,?,?,?,?)";
     jdbcTemplate.queryForObject(sql, new Object[]{incomeModel.getIncomeType(),
@@ -143,8 +146,7 @@ public class DBService {
   }
 
   public LocationModel getLocation() {
-    String sql = "SELECT * FROM public.get_location()";
-    return jdbcTemplate.queryForObject(sql, (rs, rowNum) -> new LocationModel(rs.getString("user_country"),
+    return jdbcTemplate.queryForObject(GET_LOCATION_SQL, (rs, rowNum) -> new LocationModel(rs.getString("user_country"),
             rs.getString("user_city")));
   }
 
