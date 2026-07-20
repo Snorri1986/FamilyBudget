@@ -10,6 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.ZoneId;
 import java.util.List;
+import java.util.Objects;
 
 @Service
 public class DBService {
@@ -124,13 +125,16 @@ public class DBService {
     }, String.class);
   }
 
-  public void insertNewLocation(LocationModel locationModel) {
-    String sql = "SELECT public.i_location(?,?,?)";
-    jdbcTemplate.queryForObject(sql, new Object[]{
-            locationModel.getCountry(),
-            locationModel.getCity(),
-            locationModel.getVat()
-    }, String.class);
+  public String insertNewLocation(LocationModel location) {
+    Objects.requireNonNull(location, "location must not be null");
+
+    return jdbcTemplate.queryForObject(
+            "SELECT public.i_location(?, ?, ?)",
+            String.class,
+            location.getCountry(),
+            location.getCity(),
+            location.getVat()
+    );
   }
 
   public int getCashBalance() {
