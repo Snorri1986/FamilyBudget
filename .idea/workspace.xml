@@ -7,9 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#280 - new fields name after code review">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#281 - new attrib after code review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,8 +344,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
+        <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHousingForm" />
         <item itemvalue="JUnit.WebFormsControllerTest.testSubmitEntertainmentForm" />
@@ -355,8 +355,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
       </set>
     </attachedChunks>
   </component>
@@ -390,23 +390,9 @@
       <workItem from="1783622847984" duration="273000" />
       <workItem from="1783623303727" duration="7017000" />
       <workItem from="1783971516094" duration="173000" />
-      <workItem from="1783971774016" duration="2832000" />
-    </task>
-    <task id="LOCAL-00845" summary="#272 - TODO marks">
-      <option name="closed" value="true" />
-      <created>1779307962419</created>
-      <option name="number" value="00845" />
-      <option name="presentableId" value="LOCAL-00845" />
-      <option name="project" value="LOCAL" />
-      <updated>1779307962419</updated>
-    </task>
-    <task id="LOCAL-00846" summary="#401 - with new GROCERIES_TYPES">
-      <option name="closed" value="true" />
-      <created>1780340067684</created>
-      <option name="number" value="00846" />
-      <option name="presentableId" value="LOCAL-00846" />
-      <option name="project" value="LOCAL" />
-      <updated>1780340067688</updated>
+      <workItem from="1783971774016" duration="3187000" />
+      <workItem from="1784575813972" duration="551000" />
+      <workItem from="1784577000968" duration="1404000" />
     </task>
     <task id="LOCAL-00847" summary="#401 - others">
       <option name="closed" value="true" />
@@ -784,7 +770,23 @@
       <option name="project" value="LOCAL" />
       <updated>1783973467787</updated>
     </task>
-    <option name="localTasksCounter" value="894" />
+    <task id="LOCAL-00894" summary="#281 - others">
+      <option name="closed" value="true" />
+      <created>1783974792992</created>
+      <option name="number" value="00894" />
+      <option name="presentableId" value="LOCAL-00894" />
+      <option name="project" value="LOCAL" />
+      <updated>1783974792992</updated>
+    </task>
+    <task id="LOCAL-00895" summary="#281 - new attrib after code review">
+      <option name="closed" value="true" />
+      <created>1783974822701</created>
+      <option name="number" value="00895" />
+      <option name="presentableId" value="LOCAL-00895" />
+      <option name="project" value="LOCAL" />
+      <updated>1783974822701</updated>
+    </task>
+    <option name="localTasksCounter" value="896" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -822,8 +824,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#410 - insert expense types for groceries" />
-    <MESSAGE value="#410 - new version as sql function via cash_expense_id table." />
     <MESSAGE value="#409 - others" />
     <MESSAGE value="#409 - others 2" />
     <MESSAGE value="#409 - insert expense codes for entertainment" />
@@ -847,7 +847,9 @@
     <MESSAGE value="#280 - others" />
     <MESSAGE value="#280 - new version of function after code review" />
     <MESSAGE value="#280 - new fields name after code review" />
-    <option name="LAST_COMMIT_MESSAGE" value="#280 - new fields name after code review" />
+    <MESSAGE value="#281 - others" />
+    <MESSAGE value="#281 - new attrib after code review" />
+    <option name="LAST_COMMIT_MESSAGE" value="#281 - new attrib after code review" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
