@@ -7,9 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#282 - new version of insertNewLocation after code review">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#283 - GET_LOCATION_SQL is global after code review">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +226,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
+  <component name="RunManager" selected="JUnit.AdditionalFuncPageControllerTest">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -392,23 +393,8 @@
       <workItem from="1783971516094" duration="173000" />
       <workItem from="1783971774016" duration="3187000" />
       <workItem from="1784575813972" duration="551000" />
-      <workItem from="1784577000968" duration="2643000" />
-    </task>
-    <task id="LOCAL-00849" summary="#401 - others">
-      <option name="closed" value="true" />
-      <created>1780341956316</created>
-      <option name="number" value="00849" />
-      <option name="presentableId" value="LOCAL-00849" />
-      <option name="project" value="LOCAL" />
-      <updated>1780341956316</updated>
-    </task>
-    <task id="LOCAL-00850" summary="#401 - fixed name of field from Groceries model">
-      <option name="closed" value="true" />
-      <created>1780342609315</created>
-      <option name="number" value="00850" />
-      <option name="presentableId" value="LOCAL-00850" />
-      <option name="project" value="LOCAL" />
-      <updated>1780342609316</updated>
+      <workItem from="1784577000968" duration="2959000" />
+      <workItem from="1784661493983" duration="2872000" />
     </task>
     <task id="LOCAL-00851" summary="#401 - others">
       <option name="closed" value="true" />
@@ -786,7 +772,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784578577171</updated>
     </task>
-    <option name="localTasksCounter" value="898" />
+    <task id="LOCAL-00898" summary="#283 - others">
+      <option name="closed" value="true" />
+      <created>1784579855777</created>
+      <option name="number" value="00898" />
+      <option name="presentableId" value="LOCAL-00898" />
+      <option name="project" value="LOCAL" />
+      <updated>1784579855777</updated>
+    </task>
+    <task id="LOCAL-00899" summary="#283 - GET_LOCATION_SQL is global after code review">
+      <option name="closed" value="true" />
+      <created>1784579894030</created>
+      <option name="number" value="00899" />
+      <option name="presentableId" value="LOCAL-00899" />
+      <option name="project" value="LOCAL" />
+      <updated>1784579894030</updated>
+    </task>
+    <option name="localTasksCounter" value="900" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -824,8 +826,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#409 - insert expense codes for entertainment" />
-    <MESSAGE value="#409 - new version via cash_expense_id table" />
     <MESSAGE value="#412 - others" />
     <MESSAGE value="#412 - insert incomes expense codes to cash_expense_id" />
     <MESSAGE value="#412 - new version of function via cash_expense_id table" />
@@ -849,7 +849,9 @@
     <MESSAGE value="#281 - new attrib after code review" />
     <MESSAGE value="#282 - others" />
     <MESSAGE value="#282 - new version of insertNewLocation after code review" />
-    <option name="LAST_COMMIT_MESSAGE" value="#282 - new version of insertNewLocation after code review" />
+    <MESSAGE value="#283 - others" />
+    <MESSAGE value="#283 - GET_LOCATION_SQL is global after code review" />
+    <option name="LAST_COMMIT_MESSAGE" value="#283 - GET_LOCATION_SQL is global after code review" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
