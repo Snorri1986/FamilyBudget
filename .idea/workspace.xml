@@ -7,10 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#283 - GET_LOCATION_SQL is global after code review">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#289 - new version after code review">
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_groceries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_groceries.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +226,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdditionalFuncPageControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -394,23 +394,8 @@
       <workItem from="1783971774016" duration="3187000" />
       <workItem from="1784575813972" duration="551000" />
       <workItem from="1784577000968" duration="2959000" />
-      <workItem from="1784661493983" duration="2872000" />
-    </task>
-    <task id="LOCAL-00851" summary="#401 - others">
-      <option name="closed" value="true" />
-      <created>1780342621963</created>
-      <option name="number" value="00851" />
-      <option name="presentableId" value="LOCAL-00851" />
-      <option name="project" value="LOCAL" />
-      <updated>1780342621965</updated>
-    </task>
-    <task id="LOCAL-00852" summary="#402 - others">
-      <option name="closed" value="true" />
-      <created>1780345021423</created>
-      <option name="number" value="00852" />
-      <option name="presentableId" value="LOCAL-00852" />
-      <option name="project" value="LOCAL" />
-      <updated>1780345021423</updated>
+      <workItem from="1784661493983" duration="3399000" />
+      <workItem from="1784747914697" duration="1320000" />
     </task>
     <task id="LOCAL-00853" summary="#402 - via Map HEALTH_TYPES after code review">
       <option name="closed" value="true" />
@@ -788,7 +773,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784579894030</updated>
     </task>
-    <option name="localTasksCounter" value="900" />
+    <task id="LOCAL-00900" summary="#289 - others">
+      <option name="closed" value="true" />
+      <created>1784664403295</created>
+      <option name="number" value="00900" />
+      <option name="presentableId" value="LOCAL-00900" />
+      <option name="project" value="LOCAL" />
+      <updated>1784664403296</updated>
+    </task>
+    <task id="LOCAL-00901" summary="#289 - new version after code review">
+      <option name="closed" value="true" />
+      <created>1784664428178</created>
+      <option name="number" value="00901" />
+      <option name="presentableId" value="LOCAL-00901" />
+      <option name="project" value="LOCAL" />
+      <updated>1784664428178</updated>
+    </task>
+    <option name="localTasksCounter" value="902" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -826,8 +827,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#412 - others" />
-    <MESSAGE value="#412 - insert incomes expense codes to cash_expense_id" />
     <MESSAGE value="#412 - new version of function via cash_expense_id table" />
     <MESSAGE value="#413 - others" />
     <MESSAGE value="#413 - insert expense codes for Telecom into cash_expense_id" />
@@ -851,7 +850,9 @@
     <MESSAGE value="#282 - new version of insertNewLocation after code review" />
     <MESSAGE value="#283 - others" />
     <MESSAGE value="#283 - GET_LOCATION_SQL is global after code review" />
-    <option name="LAST_COMMIT_MESSAGE" value="#283 - GET_LOCATION_SQL is global after code review" />
+    <MESSAGE value="#289 - others" />
+    <MESSAGE value="#289 - new version after code review" />
+    <option name="LAST_COMMIT_MESSAGE" value="#289 - new version after code review" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
