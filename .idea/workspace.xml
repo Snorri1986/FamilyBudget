@@ -7,10 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#301 - new version i_telecom after code review">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#304 - new version i_travel after code review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_travel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_travel.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,23 +394,8 @@
       <workItem from="1784575813972" duration="551000" />
       <workItem from="1784577000968" duration="2959000" />
       <workItem from="1784661493983" duration="3399000" />
-      <workItem from="1784747914697" duration="5393000" />
-    </task>
-    <task id="LOCAL-00861" summary="#406 - travel via Map and after code review">
-      <option name="closed" value="true" />
-      <created>1780515594990</created>
-      <option name="number" value="00861" />
-      <option name="presentableId" value="LOCAL-00861" />
-      <option name="project" value="LOCAL" />
-      <updated>1780515594990</updated>
-    </task>
-    <task id="LOCAL-00862" summary="#273 - rewrite as sql function via public.cash_expense_id table">
-      <option name="closed" value="true" />
-      <created>1781631943596</created>
-      <option name="number" value="00862" />
-      <option name="presentableId" value="LOCAL-00862" />
-      <option name="project" value="LOCAL" />
-      <updated>1781631943597</updated>
+      <workItem from="1784747914697" duration="7241000" />
+      <workItem from="1784919276041" duration="297000" />
     </task>
     <task id="LOCAL-00863" summary="#273 - add new table public.cash_expense_id">
       <option name="closed" value="true" />
@@ -789,7 +773,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784752531051</updated>
     </task>
-    <option name="localTasksCounter" value="910" />
+    <task id="LOCAL-00910" summary="#304 - others">
+      <option name="closed" value="true" />
+      <created>1784753638975</created>
+      <option name="number" value="00910" />
+      <option name="presentableId" value="LOCAL-00910" />
+      <option name="project" value="LOCAL" />
+      <updated>1784753638975</updated>
+    </task>
+    <task id="LOCAL-00911" summary="#304 - new version i_travel after code review">
+      <option name="closed" value="true" />
+      <created>1784753668353</created>
+      <option name="number" value="00911" />
+      <option name="presentableId" value="LOCAL-00911" />
+      <option name="project" value="LOCAL" />
+      <updated>1784753668353</updated>
+    </task>
+    <option name="localTasksCounter" value="912" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,8 +827,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#414 - new version via cash_expense_id and improved join" />
-    <MESSAGE value="#373 - others" />
     <MESSAGE value="#373 - new version after code review with exception handling" />
     <MESSAGE value="#279 - others" />
     <MESSAGE value="#279 - unique constraint on vat_rules table" />
@@ -852,7 +850,9 @@
     <MESSAGE value="#298 - new version after code review" />
     <MESSAGE value="#301 - others" />
     <MESSAGE value="#301 - new version i_telecom after code review" />
-    <option name="LAST_COMMIT_MESSAGE" value="#301 - new version i_telecom after code review" />
+    <MESSAGE value="#304 - others" />
+    <MESSAGE value="#304 - new version i_travel after code review" />
+    <option name="LAST_COMMIT_MESSAGE" value="#304 - new version i_travel after code review" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
