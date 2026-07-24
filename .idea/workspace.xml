@@ -7,9 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#304 - new version i_travel after code review">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#307 - back to a tag and added responsive solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/expense_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/expense_report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,23 +395,7 @@
       <workItem from="1784577000968" duration="2959000" />
       <workItem from="1784661493983" duration="3399000" />
       <workItem from="1784747914697" duration="7241000" />
-      <workItem from="1784919276041" duration="297000" />
-    </task>
-    <task id="LOCAL-00863" summary="#273 - add new table public.cash_expense_id">
-      <option name="closed" value="true" />
-      <created>1781631966546</created>
-      <option name="number" value="00863" />
-      <option name="presentableId" value="LOCAL-00863" />
-      <option name="project" value="LOCAL" />
-      <updated>1781631966546</updated>
-    </task>
-    <task id="LOCAL-00864" summary="#273 - others">
-      <option name="closed" value="true" />
-      <created>1781631983000</created>
-      <option name="number" value="00864" />
-      <option name="presentableId" value="LOCAL-00864" />
-      <option name="project" value="LOCAL" />
-      <updated>1781631983000</updated>
+      <workItem from="1784919276041" duration="2846000" />
     </task>
     <task id="LOCAL-00865" summary="#411 - others">
       <option name="closed" value="true" />
@@ -789,7 +773,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784753668353</updated>
     </task>
-    <option name="localTasksCounter" value="912" />
+    <task id="LOCAL-00912" summary="#307 - others">
+      <option name="closed" value="true" />
+      <created>1784919634395</created>
+      <option name="number" value="00912" />
+      <option name="presentableId" value="LOCAL-00912" />
+      <option name="project" value="LOCAL" />
+      <updated>1784919634396</updated>
+    </task>
+    <task id="LOCAL-00913" summary="#307 - back to a tag and added responsive solution">
+      <option name="closed" value="true" />
+      <created>1784919713291</created>
+      <option name="number" value="00913" />
+      <option name="presentableId" value="LOCAL-00913" />
+      <option name="project" value="LOCAL" />
+      <updated>1784919713292</updated>
+    </task>
+    <option name="localTasksCounter" value="914" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,8 +827,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#373 - new version after code review with exception handling" />
-    <MESSAGE value="#279 - others" />
     <MESSAGE value="#279 - unique constraint on vat_rules table" />
     <MESSAGE value="#279 - new version of func i_location after code review" />
     <MESSAGE value="#280 - others" />
@@ -852,7 +850,9 @@
     <MESSAGE value="#301 - new version i_telecom after code review" />
     <MESSAGE value="#304 - others" />
     <MESSAGE value="#304 - new version i_travel after code review" />
-    <option name="LAST_COMMIT_MESSAGE" value="#304 - new version i_travel after code review" />
+    <MESSAGE value="#307 - others" />
+    <MESSAGE value="#307 - back to a tag and added responsive solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="#307 - back to a tag and added responsive solution" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
