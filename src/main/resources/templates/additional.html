@@ -13,17 +13,17 @@
 </head>
 <body>
 <h1>Additional functions</h1>
-<div class="text-center">
-    <div class="btn-group" role="group" aria-label="Additional functions">
-        <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/atmCash}'|">ATM Cash register</button>
-        <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/cashBalance}'|">Cash balance</button>
-        <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/payment_card}'|">Set/Add card default</button>
-        <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/travel_report}'|">Travel report</button>
-        <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/set_location}'|">Update location</button>
-        <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/showLocation}'|">Show location</button>
-        <button type="button" class="btn btn-primary btn-lg" th:onclick="|window.location.href='@{/expense_report}'|">Expense report</button>
+<nav class="text-center">
+    <div class="btn-group flex-wrap" role="group" aria-label="Additional functions">
+        <a href="/atmCash" class="btn btn-primary btn-lg">ATM Cash register</a>
+        <a href="/cashBalance" class="btn btn-primary btn-lg">Cash balance</a>
+        <a href="/payment_card" class="btn btn-primary btn-lg">Set/Add card default</a>
+        <a href="/travel_report" class="btn btn-primary btn-lg">Travel report</a>
+        <a href="/set_location" class="btn btn-primary btn-lg">Update location</a>
+        <a href="/showLocation" class="btn btn-primary btn-lg">Show location</a>
+        <a href="/expense_report" class="btn btn-primary btn-lg">Expense report</a>
     </div>
-</div>
+</nav>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
