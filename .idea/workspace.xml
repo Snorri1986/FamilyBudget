@@ -7,9 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#307 - back to a tag and added responsive solution">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#308 - after code review">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/get_all_expenses_annual.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/expense_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/expense_report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,70 +156,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FamilyBudgetMain.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JUnit.AdditionalFuncPageControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AdditionalFuncPageControllerTest.testGetAtmCashPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AdditionalFuncPageControllerTest.testGetLocation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AdditionalFuncPageControllerTest.testGetPaymentCardDefault.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AdditionalFuncPageControllerTest.testGetTravelExpense.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AdditionalFuncPageControllerTest.testGetTravelReportPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AdditionalFuncPageControllerTest.testInsertNewDefaultPaymentCard.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AdditionalFuncPageControllerTest.testSetNewLocation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AdditionalFuncPageControllerTest.testSubmitNewCardForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetAdditionalFunctionPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetEntertainmentPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetGroceriesPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetHealthPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetIncomePage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetLoginPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetMainPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetTelecomPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testGetTravelPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MainPageControllerTest.testRentHousingPage.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testGetLastTenIncomeOpers.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testGoToMain.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testSubmitHealthForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testSubmitHousingForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WebFormsControllerTest.testSubmitNewAtm.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.FamilyBudget [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.FamilyBudget [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;v2.1.0&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Applications/FamilyBudget/src/main/resources/static/css&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FamilyBudgetMain.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.AdditionalFuncPageControllerTest.executor": "Run",
+    "JUnit.AdditionalFuncPageControllerTest.testGetAtmCashPage.executor": "Run",
+    "JUnit.AdditionalFuncPageControllerTest.testGetLocation.executor": "Run",
+    "JUnit.AdditionalFuncPageControllerTest.testGetPaymentCardDefault.executor": "Run",
+    "JUnit.AdditionalFuncPageControllerTest.testGetTravelExpense.executor": "Run",
+    "JUnit.AdditionalFuncPageControllerTest.testGetTravelReportPage.executor": "Run",
+    "JUnit.AdditionalFuncPageControllerTest.testInsertNewDefaultPaymentCard.executor": "Run",
+    "JUnit.AdditionalFuncPageControllerTest.testSetNewLocation.executor": "Run",
+    "JUnit.AdditionalFuncPageControllerTest.testSubmitNewCardForm.executor": "Run",
+    "JUnit.MainPageControllerTest.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetAdditionalFunctionPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetEntertainmentPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetGroceriesPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetHealthPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetIncomePage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetLoginPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetMainPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetTelecomPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testGetTravelPage.executor": "Run",
+    "JUnit.MainPageControllerTest.testRentHousingPage.executor": "Run",
+    "JUnit.WebFormsControllerTest.executor": "Run",
+    "JUnit.WebFormsControllerTest.testGetLastTenIncomeOpers.executor": "Run",
+    "JUnit.WebFormsControllerTest.testGoToMain.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitEntertainmentForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitGroceriesForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitHealthForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitHousingForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitIncomeForm.executor": "Run",
+    "JUnit.WebFormsControllerTest.testSubmitNewAtm.executor": "Run",
+    "Maven.FamilyBudget [clean].executor": "Run",
+    "Maven.FamilyBudget [install].executor": "Run",
+    "Maven.FamilyBudget-LocalTomcat.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "v2.1.0",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Applications/FamilyBudget/src/main/resources/static/css",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Applications\FamilyBudget\src\main\resources\static\css" />
@@ -355,8 +356,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.258" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.258" />
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
       </set>
     </attachedChunks>
   </component>
@@ -395,23 +396,9 @@
       <workItem from="1784577000968" duration="2959000" />
       <workItem from="1784661493983" duration="3399000" />
       <workItem from="1784747914697" duration="7241000" />
-      <workItem from="1784919276041" duration="2846000" />
-    </task>
-    <task id="LOCAL-00865" summary="#411 - others">
-      <option name="closed" value="true" />
-      <created>1781634605584</created>
-      <option name="number" value="00865" />
-      <option name="presentableId" value="LOCAL-00865" />
-      <option name="project" value="LOCAL" />
-      <updated>1781634605584</updated>
-    </task>
-    <task id="LOCAL-00866" summary="#411 - insert for rent_housing expenses">
-      <option name="closed" value="true" />
-      <created>1781634627625</created>
-      <option name="number" value="00866" />
-      <option name="presentableId" value="LOCAL-00866" />
-      <option name="project" value="LOCAL" />
-      <updated>1781634627625</updated>
+      <workItem from="1784919276041" duration="3420000" />
+      <workItem from="1785866846833" duration="163000" />
+      <workItem from="1785867132546" duration="4129000" />
     </task>
     <task id="LOCAL-00867" summary="#411 - new version via table public.cash_expense_id">
       <option name="closed" value="true" />
@@ -789,7 +776,23 @@
       <option name="project" value="LOCAL" />
       <updated>1784919713292</updated>
     </task>
-    <option name="localTasksCounter" value="914" />
+    <task id="LOCAL-00914" summary="#308 - others">
+      <option name="closed" value="true" />
+      <created>1784922247916</created>
+      <option name="number" value="00914" />
+      <option name="presentableId" value="LOCAL-00914" />
+      <option name="project" value="LOCAL" />
+      <updated>1784922247916</updated>
+    </task>
+    <task id="LOCAL-00915" summary="#308 - after code review">
+      <option name="closed" value="true" />
+      <created>1784922275029</created>
+      <option name="number" value="00915" />
+      <option name="presentableId" value="LOCAL-00915" />
+      <option name="project" value="LOCAL" />
+      <updated>1784922275029</updated>
+    </task>
+    <option name="localTasksCounter" value="916" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,8 +830,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#279 - unique constraint on vat_rules table" />
-    <MESSAGE value="#279 - new version of func i_location after code review" />
     <MESSAGE value="#280 - others" />
     <MESSAGE value="#280 - new version of function after code review" />
     <MESSAGE value="#280 - new fields name after code review" />
@@ -852,7 +853,9 @@
     <MESSAGE value="#304 - new version i_travel after code review" />
     <MESSAGE value="#307 - others" />
     <MESSAGE value="#307 - back to a tag and added responsive solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="#307 - back to a tag and added responsive solution" />
+    <MESSAGE value="#308 - others" />
+    <MESSAGE value="#308 - after code review" />
+    <option name="LAST_COMMIT_MESSAGE" value="#308 - after code review" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

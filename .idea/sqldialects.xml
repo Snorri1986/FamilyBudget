@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/src/db/sources/func_i_housing_rent.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/db/sources/func_i_telecom.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/db/sources/func_i_travel.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/db/sources/get_all_expenses_annual.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/db/sources/get_all_expenses_daily.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/db/sources/get_all_expenses_monthly.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/db/sources/get_last_ten_entertainment_cash.sql" dialect="PostgreSQL" />
