@@ -10,51 +10,64 @@
  * - Targets previous calendar month data
  * - Sums expenses from: entertainment, groceries, health, housing_rent, telecom, travel
  */
-CREATE OR REPLACE FUNCTION public.get_all_expenses_monthly()
+CREATE OR REPLACE FUNCTION public.get_all_expenses_monthly(p_currency_id integer DEFAULT 3)
 	RETURNS int4
 	LANGUAGE plpgsql
 AS $function$
 DECLARE
-	v_user_session          bigint;
+	v_user_session          text;
 	v_month_start           timestamp;
 	v_month_end             timestamp;
 	v_total_expenses        int4 := 0;
 BEGIN
 
-	-- Cache the user session to avoid multiple function calls (performance optimization)
-	v_user_session := public.get_last_login();
+    -- Cache the user session to avoid multiple function calls (performance optimization)
+    v_user_session := public.get_last_login();
 
-	-- Define the previous month's date range
-	v_month_start := date_trunc('month', current_date - interval '1 month');
-	v_month_end := date_trunc('month', current_date);
+    -- validation
+    IF v_user_session IS NULL THEN
+        RAISE EXCEPTION 'User session is null. Cannot calculate expenses without a valid user session.';
+    END IF;
 
-	-- Aggregate all expenses from the 6 expense categories
-	SELECT COALESCE(
-		(SELECT sum(amount) FROM public.entertainment
-		 WHERE user_last_session = v_user_session AND currency = 3
-		   AND date >= v_month_start AND date < v_month_end), 0)
-	+ COALESCE(
-		(SELECT sum(amount) FROM public.groceries
-		 WHERE user_last_session = v_user_session AND currency = 3
-		   AND date >= v_month_start AND date < v_month_end), 0)
-	+ COALESCE(
-		(SELECT sum(amount) FROM public.health
-		 WHERE user_last_session = v_user_session AND currency = 3
-		   AND date >= v_month_start AND date < v_month_end), 0)
-	+ COALESCE(
-		(SELECT sum(amount) FROM public.housing_rent
-		 WHERE user_last_session = v_user_session AND currency = 3
-		   AND date >= v_month_start AND date < v_month_end), 0)
-	+ COALESCE(
-		(SELECT sum(amount) FROM public.telecom
-		 WHERE user_last_session = v_user_session AND currency = 3
-		   AND date >= v_month_start AND date < v_month_end), 0)
-	+ COALESCE(
-		(SELECT sum(amount) FROM public.travel
-		 WHERE user_last_session = v_user_session AND currency = 3
-		   AND date >= v_month_start AND date < v_month_end), 0)
-	INTO v_total_expenses;
+    -- Define the previous month's date range
+    v_month_start := date_trunc('month', current_date - interval '1 month');
+    v_month_end := date_trunc('month', current_date);
 
-	RETURN v_total_expenses;
-END;
+    -- Aggregate all expenses from the 6 expense categories
+    WITH all_expenses AS (
+        SELECT amount FROM public.entertainment
+        WHERE user_last_session = v_user_session
+          AND currency = p_currency_id
+          AND "date" >= v_month_start AND "date" < v_month_end
+        UNION ALL
+        SELECT amount FROM public.groceries
+        WHERE user_last_session = v_user_session
+          AND currency = p_currency_id
+          AND "date" >= v_month_start AND "date" < v_month_end
+        UNION ALL
+        SELECT amount FROM public.health
+        WHERE user_last_session = v_user_session
+          AND currency = p_currency_id
+          AND "date" >= v_month_start AND "date" < v_month_end
+        UNION ALL
+        SELECT amount FROM public.housing_rent
+        WHERE user_last_session = v_user_session
+          AND currency = p_currency_id
+          AND "date" >= v_month_start AND "date" < v_month_end
+        UNION ALL
+        SELECT amount FROM public.telecom
+        WHERE user_last_session = v_user_session
+          AND currency = p_currency_id
+          AND "date" >= v_month_start AND "date" < v_month_end
+        UNION ALL
+        SELECT amount FROM public.travel
+        WHERE user_last_session = v_user_session
+          AND currency = p_currency_id
+          AND "date" >= v_month_start AND "date" < v_month_end
+    )
+    SELECT COALESCE(SUM(amount), 0) INTO v_total_expenses FROM all_expenses;
+
+    RETURN v_total_expenses;
+
+    END;
 $function$;
