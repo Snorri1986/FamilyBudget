@@ -7,16 +7,14 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.snorri1986.familybud.models.DefaultPaymentCardModel;
-import org.snorri1986.familybud.models.LocationModel;
-import org.snorri1986.familybud.models.TravelReportRequestModel;
-import org.snorri1986.familybud.models.TravelReportResponseModel;
+import org.snorri1986.familybud.models.*;
 import org.snorri1986.familybud.service.DBService;
 import org.springframework.ui.Model;
 
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -111,5 +109,13 @@ public class AdditionalFuncPageControllerTest {
             .mapToInt(TravelReportResponseModel::getAmount)
             .sum());
     assertEquals("travel_report", result);
+  }
+
+  @Test
+  void testGetDailyExpenseReport() {
+    Mockito.when(dbService.getDailyExpenseReport()).thenReturn(new ExpenseModel());
+    ExpenseModel dailyExpenseReport = dbService.getDailyExpenseReport();
+    assertNotNull(dailyExpenseReport);
+    Mockito.verify(dbService).getDailyExpenseReport();
   }
 }
