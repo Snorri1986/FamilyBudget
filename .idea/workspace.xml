@@ -7,10 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#315 - unit test for getMonthlyExpenseReport()">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#316 - unit test for getAnnualExpenseReport()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/expense_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/expense_report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,31 +403,7 @@
       <workItem from="1785867132546" duration="6866000" />
       <workItem from="1785957459420" duration="1429000" />
       <workItem from="1785959225748" duration="629000" />
-      <workItem from="1786124748540" duration="5181000" />
-    </task>
-    <task id="LOCAL-00881" summary="#413 - new version of function via cash_expense_id table">
-      <option name="closed" value="true" />
-      <created>1782326586726</created>
-      <option name="number" value="00881" />
-      <option name="presentableId" value="LOCAL-00881" />
-      <option name="project" value="LOCAL" />
-      <updated>1782326586726</updated>
-    </task>
-    <task id="LOCAL-00882" summary="#414 - others">
-      <option name="closed" value="true" />
-      <created>1782329299602</created>
-      <option name="number" value="00882" />
-      <option name="presentableId" value="LOCAL-00882" />
-      <option name="project" value="LOCAL" />
-      <updated>1782329299602</updated>
-    </task>
-    <task id="LOCAL-00883" summary="#414 - insert statement for Travel expenses">
-      <option name="closed" value="true" />
-      <created>1782329323121</created>
-      <option name="number" value="00883" />
-      <option name="presentableId" value="LOCAL-00883" />
-      <option name="project" value="LOCAL" />
-      <updated>1782329323121</updated>
+      <workItem from="1786124748540" duration="6588000" />
     </task>
     <task id="LOCAL-00884" summary="#414 - just rename column name">
       <option name="closed" value="true" />
@@ -798,7 +773,31 @@
       <option name="project" value="LOCAL" />
       <updated>1786129286441</updated>
     </task>
-    <option name="localTasksCounter" value="930" />
+    <task id="LOCAL-00930" summary="#316 - others">
+      <option name="closed" value="true" />
+      <created>1786130107564</created>
+      <option name="number" value="00930" />
+      <option name="presentableId" value="LOCAL-00930" />
+      <option name="project" value="LOCAL" />
+      <updated>1786130107564</updated>
+    </task>
+    <task id="LOCAL-00931" summary="#316 - new method getting annual expenses">
+      <option name="closed" value="true" />
+      <created>1786130140196</created>
+      <option name="number" value="00931" />
+      <option name="presentableId" value="LOCAL-00931" />
+      <option name="project" value="LOCAL" />
+      <updated>1786130140196</updated>
+    </task>
+    <task id="LOCAL-00932" summary="#316 - unit test for getAnnualExpenseReport()">
+      <option name="closed" value="true" />
+      <created>1786130166356</created>
+      <option name="number" value="00932" />
+      <option name="presentableId" value="LOCAL-00932" />
+      <option name="project" value="LOCAL" />
+      <updated>1786130166356</updated>
+    </task>
+    <option name="localTasksCounter" value="933" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -836,9 +835,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#295 - new version after code review" />
-    <MESSAGE value="#298 - others" />
-    <MESSAGE value="#298 - new version after code review" />
     <MESSAGE value="#301 - others" />
     <MESSAGE value="#301 - new version i_telecom after code review" />
     <MESSAGE value="#304 - others" />
@@ -861,7 +857,10 @@
     <MESSAGE value="#315 - others" />
     <MESSAGE value="#315 - method for getting all monthly expenses" />
     <MESSAGE value="#315 - unit test for getMonthlyExpenseReport()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#315 - unit test for getMonthlyExpenseReport()" />
+    <MESSAGE value="#316 - others" />
+    <MESSAGE value="#316 - new method getting annual expenses" />
+    <MESSAGE value="#316 - unit test for getAnnualExpenseReport()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#316 - unit test for getAnnualExpenseReport()" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
