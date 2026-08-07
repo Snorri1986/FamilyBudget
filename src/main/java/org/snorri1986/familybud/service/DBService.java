@@ -145,6 +145,11 @@ public class DBService {
     return jdbcTemplate.queryForObject(sql, Integer.class);
   }
 
+  public ExpenseModel getDailyExpenseReport() {
+    String sql = "SELECT public.get_all_expenses_daily()";
+    return jdbcTemplate.queryForObject(sql, ExpenseModel.class);
+  }
+
   public LocationModel getLocation() {
     return jdbcTemplate.queryForObject(GET_LOCATION_SQL, (rs, rowNum) -> new LocationModel(rs.getString("user_country"),
             rs.getString("user_city")));
