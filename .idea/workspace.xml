@@ -7,9 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#429 - production ready version of get_all_expenses_daily">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#430 - production version">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/ExpenseModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_expenses_monthly.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_expenses_monthly.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +225,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -399,22 +399,8 @@
       <workItem from="1785866846833" duration="163000" />
       <workItem from="1785867132546" duration="6866000" />
       <workItem from="1785957459420" duration="1429000" />
-    </task>
-    <task id="LOCAL-00871" summary="#409 - others">
-      <option name="closed" value="true" />
-      <created>1781812657741</created>
-      <option name="number" value="00871" />
-      <option name="presentableId" value="LOCAL-00871" />
-      <option name="project" value="LOCAL" />
-      <updated>1781812657744</updated>
-    </task>
-    <task id="LOCAL-00872" summary="#409 - others 2">
-      <option name="closed" value="true" />
-      <created>1781812665375</created>
-      <option name="number" value="00872" />
-      <option name="presentableId" value="LOCAL-00872" />
-      <option name="project" value="LOCAL" />
-      <updated>1781812665375</updated>
+      <workItem from="1785959225748" duration="629000" />
+      <workItem from="1786124748540" duration="1134000" />
     </task>
     <task id="LOCAL-00873" summary="#409 - insert expense codes for entertainment">
       <option name="closed" value="true" />
@@ -792,7 +778,23 @@
       <option name="project" value="LOCAL" />
       <updated>1785873128585</updated>
     </task>
-    <option name="localTasksCounter" value="920" />
+    <task id="LOCAL-00920" summary="#430 - others">
+      <option name="closed" value="true" />
+      <created>1785959454580</created>
+      <option name="number" value="00920" />
+      <option name="presentableId" value="LOCAL-00920" />
+      <option name="project" value="LOCAL" />
+      <updated>1785959454582</updated>
+    </task>
+    <task id="LOCAL-00921" summary="#430 - production version">
+      <option name="closed" value="true" />
+      <created>1785959476188</created>
+      <option name="number" value="00921" />
+      <option name="presentableId" value="LOCAL-00921" />
+      <option name="project" value="LOCAL" />
+      <updated>1785959476188</updated>
+    </task>
+    <option name="localTasksCounter" value="922" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -830,8 +832,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#281 - new attrib after code review" />
-    <MESSAGE value="#282 - others" />
     <MESSAGE value="#282 - new version of insertNewLocation after code review" />
     <MESSAGE value="#283 - others" />
     <MESSAGE value="#283 - GET_LOCATION_SQL is global after code review" />
@@ -855,7 +855,9 @@
     <MESSAGE value="#312 - production ready version of get_all_expenses_annual" />
     <MESSAGE value="#429 - others" />
     <MESSAGE value="#429 - production ready version of get_all_expenses_daily" />
-    <option name="LAST_COMMIT_MESSAGE" value="#429 - production ready version of get_all_expenses_daily" />
+    <MESSAGE value="#430 - others" />
+    <MESSAGE value="#430 - production version" />
+    <option name="LAST_COMMIT_MESSAGE" value="#430 - production version" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

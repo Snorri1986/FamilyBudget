@@ -19,6 +19,7 @@ org\snorri1986\familybud\models\TravelModelDB.class
 org\snorri1986\familybud\models\TelecomModelDB.class
 org\snorri1986\familybud\models\UserModel.class
 org\snorri1986\familybud\service\DBService$9.class
+org\snorri1986\familybud\models\ExpenseModel.class
 org\snorri1986\familybud\models\LastTenIncomesModel.class
 org\snorri1986\familybud\service\DBService$15.class
 org\snorri1986\familybud\models\LastTenCashOperModel.class
