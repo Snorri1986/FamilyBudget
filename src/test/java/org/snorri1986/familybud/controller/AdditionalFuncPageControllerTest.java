@@ -118,4 +118,12 @@ public class AdditionalFuncPageControllerTest {
     assertNotNull(dailyExpenseReport);
     Mockito.verify(dbService).getDailyExpenseReport();
   }
+
+  @Test
+  void testGetMonthlyExpenseReport() {
+    Mockito.when(dbService.getMonthlyExpenseReport()).thenReturn(new ExpenseModel());
+    ExpenseModel monthlyExpenseReport = dbService.getMonthlyExpenseReport();
+    assertNotNull(monthlyExpenseReport);
+    Mockito.verify(dbService).getMonthlyExpenseReport();
+  }
 }
