@@ -7,7 +7,7 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#313 - new class model for Expense report">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#314 - unit test for getDailyExpenseReport">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/AdditionalFuncPageControllerTest.java" afterDir="false" />
@@ -164,6 +164,7 @@
     "JUnit.AdditionalFuncPageControllerTest.testGetAtmCashPage.executor": "Run",
     "JUnit.AdditionalFuncPageControllerTest.testGetDailyExpenseReport.executor": "Run",
     "JUnit.AdditionalFuncPageControllerTest.testGetLocation.executor": "Run",
+    "JUnit.AdditionalFuncPageControllerTest.testGetMonthlyExpenseReport.executor": "Run",
     "JUnit.AdditionalFuncPageControllerTest.testGetPaymentCardDefault.executor": "Run",
     "JUnit.AdditionalFuncPageControllerTest.testGetTravelExpense.executor": "Run",
     "JUnit.AdditionalFuncPageControllerTest.testGetTravelReportPage.executor": "Run",
@@ -259,6 +260,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdditionalFuncPageControllerTest.testGetMonthlyExpenseReport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FamilyBudget" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
+      <option name="METHOD_NAME" value="testGetMonthlyExpenseReport" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -285,22 +302,6 @@
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebFormsControllerTest.testSubmitHousingForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FamilyBudget" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.snorri1986.familybud.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
-      <option name="METHOD_NAME" value="testSubmitHousingForm" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -338,10 +339,10 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetDailyExpenseReport" />
+      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetMonthlyExpenseReport" />
       <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
       <item itemvalue="JUnit.MainPageControllerTest" />
       <item itemvalue="JUnit.WebFormsControllerTest" />
-      <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHousingForm" />
       <item itemvalue="Maven.FamilyBudget-LocalTomcat" />
     </list>
     <recent_temporary>
@@ -349,8 +350,8 @@
         <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetMonthlyExpenseReport" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetDailyExpenseReport" />
-        <item itemvalue="JUnit.WebFormsControllerTest.testSubmitHousingForm" />
       </list>
     </recent_temporary>
   </component>
@@ -402,31 +403,7 @@
       <workItem from="1785867132546" duration="6866000" />
       <workItem from="1785957459420" duration="1429000" />
       <workItem from="1785959225748" duration="629000" />
-      <workItem from="1786124748540" duration="3033000" />
-    </task>
-    <task id="LOCAL-00875" summary="#412 - others">
-      <option name="closed" value="true" />
-      <created>1781814029537</created>
-      <option name="number" value="00875" />
-      <option name="presentableId" value="LOCAL-00875" />
-      <option name="project" value="LOCAL" />
-      <updated>1781814029538</updated>
-    </task>
-    <task id="LOCAL-00876" summary="#412 - insert incomes expense codes to cash_expense_id">
-      <option name="closed" value="true" />
-      <created>1781814072286</created>
-      <option name="number" value="00876" />
-      <option name="presentableId" value="LOCAL-00876" />
-      <option name="project" value="LOCAL" />
-      <updated>1781814072287</updated>
-    </task>
-    <task id="LOCAL-00877" summary="#412 - new version of function via cash_expense_id table">
-      <option name="closed" value="true" />
-      <created>1781814097884</created>
-      <option name="number" value="00877" />
-      <option name="presentableId" value="LOCAL-00877" />
-      <option name="project" value="LOCAL" />
-      <updated>1781814097884</updated>
+      <workItem from="1786124748540" duration="4159000" />
     </task>
     <task id="LOCAL-00878" summary="#413 - others">
       <option name="closed" value="true" />
@@ -796,7 +773,31 @@
       <option name="project" value="LOCAL" />
       <updated>1786126023179</updated>
     </task>
-    <option name="localTasksCounter" value="924" />
+    <task id="LOCAL-00924" summary="#314 - others">
+      <option name="closed" value="true" />
+      <created>1786128088078</created>
+      <option name="number" value="00924" />
+      <option name="presentableId" value="LOCAL-00924" />
+      <option name="project" value="LOCAL" />
+      <updated>1786128088078</updated>
+    </task>
+    <task id="LOCAL-00925" summary="#314 - java method to retrieve all expense daily">
+      <option name="closed" value="true" />
+      <created>1786128128180</created>
+      <option name="number" value="00925" />
+      <option name="presentableId" value="LOCAL-00925" />
+      <option name="project" value="LOCAL" />
+      <updated>1786128128181</updated>
+    </task>
+    <task id="LOCAL-00926" summary="#314 - unit test for getDailyExpenseReport">
+      <option name="closed" value="true" />
+      <created>1786128159406</created>
+      <option name="number" value="00926" />
+      <option name="presentableId" value="LOCAL-00926" />
+      <option name="project" value="LOCAL" />
+      <updated>1786128159409</updated>
+    </task>
+    <option name="localTasksCounter" value="927" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -834,9 +835,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#283 - GET_LOCATION_SQL is global after code review" />
-    <MESSAGE value="#289 - others" />
-    <MESSAGE value="#289 - new version after code review" />
     <MESSAGE value="#292 - others" />
     <MESSAGE value="#292 - new version of function after code review" />
     <MESSAGE value="#295 - others" />
@@ -859,7 +857,10 @@
     <MESSAGE value="#430 - production version" />
     <MESSAGE value="#313 - others" />
     <MESSAGE value="#313 - new class model for Expense report" />
-    <option name="LAST_COMMIT_MESSAGE" value="#313 - new class model for Expense report" />
+    <MESSAGE value="#314 - others" />
+    <MESSAGE value="#314 - java method to retrieve all expense daily" />
+    <MESSAGE value="#314 - unit test for getDailyExpenseReport" />
+    <option name="LAST_COMMIT_MESSAGE" value="#314 - unit test for getDailyExpenseReport" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
