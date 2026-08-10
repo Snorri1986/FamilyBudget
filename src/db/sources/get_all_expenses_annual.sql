@@ -1,16 +1,16 @@
 -- DROP FUNCTION public.get_all_expenses_annual();
 
 /**
- * FUNCTION: get_all_expenses_annual()
+ * FUNCTION: get_all_expenses_annual(p_currency_id integer DEFAULT 3)
  * PURPOSE: Calculates total annual expenses across all categories for the current user
  * RETURNS: int4 - Total annual expenses sum
  *
  * NOTES:
- * - Filters by currency ID = 3. Will be flexible in the future to allow user selection of currency
+ * - Filters by specified currency ID (default = 3)
  * - Targets previous year data
  * - Sums expenses from: entertainment, groceries, health, housing_rent, telecom, travel
  */
-CREATE OR REPLACE FUNCTION public.get_all_expenses_annual()
+CREATE OR REPLACE FUNCTION public.get_all_expenses_annual(p_currency_id integer DEFAULT 3)
     RETURNS int4
     LANGUAGE plpgsql
 AS $function$
@@ -36,23 +36,23 @@ BEGIN
     -- Aggregate all expenses from the 6 expense categories
     WITH all_expenses AS (
         SELECT amount FROM public.entertainment
-        WHERE user_last_session = v_user_session AND currency = 3
+        WHERE user_last_session = v_user_session AND currency = p_currency_id
           AND "date" >= v_year_start AND "date" < v_year_end
         UNION ALL
         SELECT amount FROM public.groceries
-        WHERE user_last_session = v_user_session AND currency = 3
+        WHERE user_last_session = v_user_session AND currency = p_currency_id
           AND "date" >= v_year_start AND "date" < v_year_end
         UNION ALL
         SELECT amount FROM public.health
-        WHERE user_last_session = v_user_session AND currency = 3
+        WHERE user_last_session = v_user_session AND currency = p_currency_id
           AND "date" >= v_year_start AND "date" < v_year_end
         UNION ALL
         SELECT amount FROM public.housing_rent
-        WHERE user_last_session = v_user_session AND currency = 3
+        WHERE user_last_session = v_user_session AND currency = p_currency_id
           AND "date" >= v_year_start AND "date" < v_year_end
         UNION ALL
         SELECT amount FROM public.telecom
-        WHERE user_last_session = v_user_session AND currency = 3
+        WHERE user_last_session = v_user_session AND currency = p_currency_id
           AND "date" >= v_year_start AND "date" < v_year_end
         UNION ALL
         SELECT amount FROM public.travel
