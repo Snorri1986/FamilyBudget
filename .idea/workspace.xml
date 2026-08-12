@@ -7,13 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#434 - new unit tests">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#317 - new web design as a table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/ExpenseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/expense_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/expense_report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -413,31 +409,7 @@
       <workItem from="1786388130930" duration="194000" />
       <workItem from="1786388532366" duration="3356000" />
       <workItem from="1786559916311" duration="82000" />
-      <workItem from="1786560131371" duration="2008000" />
-    </task>
-    <task id="LOCAL-00888" summary="#279 - others">
-      <option name="closed" value="true" />
-      <created>1783628489368</created>
-      <option name="number" value="00888" />
-      <option name="presentableId" value="LOCAL-00888" />
-      <option name="project" value="LOCAL" />
-      <updated>1783628489369</updated>
-    </task>
-    <task id="LOCAL-00889" summary="#279 - unique constraint on vat_rules table">
-      <option name="closed" value="true" />
-      <created>1783628533479</created>
-      <option name="number" value="00889" />
-      <option name="presentableId" value="LOCAL-00889" />
-      <option name="project" value="LOCAL" />
-      <updated>1783628533479</updated>
-    </task>
-    <task id="LOCAL-00890" summary="#279 - new version of func i_location after code review">
-      <option name="closed" value="true" />
-      <created>1783628561606</created>
-      <option name="number" value="00890" />
-      <option name="presentableId" value="LOCAL-00890" />
-      <option name="project" value="LOCAL" />
-      <updated>1783628561606</updated>
+      <workItem from="1786560131371" duration="3067000" />
     </task>
     <task id="LOCAL-00891" summary="#280 - others">
       <option name="closed" value="true" />
@@ -807,7 +779,31 @@
       <option name="project" value="LOCAL" />
       <updated>1786561812809</updated>
     </task>
-    <option name="localTasksCounter" value="937" />
+    <task id="LOCAL-00937" summary="#317 - others">
+      <option name="closed" value="true" />
+      <created>1786562244951</created>
+      <option name="number" value="00937" />
+      <option name="presentableId" value="LOCAL-00937" />
+      <option name="project" value="LOCAL" />
+      <updated>1786562244951</updated>
+    </task>
+    <task id="LOCAL-00938" summary="#317 - methods with currency param">
+      <option name="closed" value="true" />
+      <created>1786562296727</created>
+      <option name="number" value="00938" />
+      <option name="presentableId" value="LOCAL-00938" />
+      <option name="project" value="LOCAL" />
+      <updated>1786562296727</updated>
+    </task>
+    <task id="LOCAL-00939" summary="#317 - new web design as a table">
+      <option name="closed" value="true" />
+      <created>1786562326503</created>
+      <option name="number" value="00939" />
+      <option name="presentableId" value="LOCAL-00939" />
+      <option name="project" value="LOCAL" />
+      <updated>1786562326503</updated>
+    </task>
+    <option name="localTasksCounter" value="940" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -845,9 +841,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#307 - others" />
-    <MESSAGE value="#307 - back to a tag and added responsive solution" />
-    <MESSAGE value="#308 - others" />
     <MESSAGE value="#308 - after code review" />
     <MESSAGE value="#312 - others" />
     <MESSAGE value="#312 - production ready version of get_all_expenses_annual" />
@@ -870,7 +863,10 @@
     <MESSAGE value="#432 - remove buttons as they not need" />
     <MESSAGE value="#433 - final version with currency as parameter" />
     <MESSAGE value="#434 - new unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="#434 - new unit tests" />
+    <MESSAGE value="#317 - others" />
+    <MESSAGE value="#317 - methods with currency param" />
+    <MESSAGE value="#317 - new web design as a table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#317 - new web design as a table" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
