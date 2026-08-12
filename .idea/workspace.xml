@@ -7,9 +7,13 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#316 - unit test for getAnnualExpenseReport()">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#434 - new unit tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/models/ExpenseModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/expense_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/expense_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +167,7 @@
     "JUnit.AdditionalFuncPageControllerTest.testGetAnnualExpenseReport.executor": "Run",
     "JUnit.AdditionalFuncPageControllerTest.testGetAtmCashPage.executor": "Run",
     "JUnit.AdditionalFuncPageControllerTest.testGetDailyExpenseReport.executor": "Run",
+    "JUnit.AdditionalFuncPageControllerTest.testGetDailyExpenseReportByCurrency.executor": "Run",
     "JUnit.AdditionalFuncPageControllerTest.testGetLocation.executor": "Run",
     "JUnit.AdditionalFuncPageControllerTest.testGetMonthlyExpenseReport.executor": "Run",
     "JUnit.AdditionalFuncPageControllerTest.testGetPaymentCardDefault.executor": "Run",
@@ -260,7 +265,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdditionalFuncPageControllerTest.testGetMonthlyExpenseReport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdditionalFuncPageControllerTest.testGetDailyExpenseReportByCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -270,7 +275,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetMonthlyExpenseReport" />
+      <option name="METHOD_NAME" value="testGetDailyExpenseReportByCurrency" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -319,6 +324,7 @@
             <option name="goals">
               <list>
                 <option value="clean" />
+                <option value="test" />
                 <option value="spring-boot:run" />
               </list>
             </option>
@@ -338,8 +344,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetDailyExpenseReportByCurrency" />
       <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetAnnualExpenseReport" />
-      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetMonthlyExpenseReport" />
       <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
       <item itemvalue="JUnit.MainPageControllerTest" />
       <item itemvalue="JUnit.WebFormsControllerTest" />
@@ -347,19 +353,19 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetDailyExpenseReportByCurrency" />
         <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.WebFormsControllerTest" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetAnnualExpenseReport" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetMonthlyExpenseReport" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
       </set>
     </attachedChunks>
   </component>
@@ -403,39 +409,11 @@
       <workItem from="1785867132546" duration="6866000" />
       <workItem from="1785957459420" duration="1429000" />
       <workItem from="1785959225748" duration="629000" />
-      <workItem from="1786124748540" duration="6588000" />
-    </task>
-    <task id="LOCAL-00884" summary="#414 - just rename column name">
-      <option name="closed" value="true" />
-      <created>1782329340093</created>
-      <option name="number" value="00884" />
-      <option name="presentableId" value="LOCAL-00884" />
-      <option name="project" value="LOCAL" />
-      <updated>1782329340093</updated>
-    </task>
-    <task id="LOCAL-00885" summary="#414 - new version via cash_expense_id and improved join">
-      <option name="closed" value="true" />
-      <created>1782329369785</created>
-      <option name="number" value="00885" />
-      <option name="presentableId" value="LOCAL-00885" />
-      <option name="project" value="LOCAL" />
-      <updated>1782329369785</updated>
-    </task>
-    <task id="LOCAL-00886" summary="#373 - others">
-      <option name="closed" value="true" />
-      <created>1782331191083</created>
-      <option name="number" value="00886" />
-      <option name="presentableId" value="LOCAL-00886" />
-      <option name="project" value="LOCAL" />
-      <updated>1782331191083</updated>
-    </task>
-    <task id="LOCAL-00887" summary="#373 - new version after code review with exception handling">
-      <option name="closed" value="true" />
-      <created>1782331250605</created>
-      <option name="number" value="00887" />
-      <option name="presentableId" value="LOCAL-00887" />
-      <option name="project" value="LOCAL" />
-      <updated>1782331250605</updated>
+      <workItem from="1786124748540" duration="7261000" />
+      <workItem from="1786388130930" duration="194000" />
+      <workItem from="1786388532366" duration="3356000" />
+      <workItem from="1786559916311" duration="82000" />
+      <workItem from="1786560131371" duration="2008000" />
     </task>
     <task id="LOCAL-00888" summary="#279 - others">
       <option name="closed" value="true" />
@@ -797,7 +775,39 @@
       <option name="project" value="LOCAL" />
       <updated>1786130166356</updated>
     </task>
-    <option name="localTasksCounter" value="933" />
+    <task id="LOCAL-00933" summary="#432 - others">
+      <option name="closed" value="true" />
+      <created>1786131501801</created>
+      <option name="number" value="00933" />
+      <option name="presentableId" value="LOCAL-00933" />
+      <option name="project" value="LOCAL" />
+      <updated>1786131501801</updated>
+    </task>
+    <task id="LOCAL-00934" summary="#432 - remove buttons as they not need">
+      <option name="closed" value="true" />
+      <created>1786131534032</created>
+      <option name="number" value="00934" />
+      <option name="presentableId" value="LOCAL-00934" />
+      <option name="project" value="LOCAL" />
+      <updated>1786131534032</updated>
+    </task>
+    <task id="LOCAL-00935" summary="#433 - final version with currency as parameter">
+      <option name="closed" value="true" />
+      <created>1786391626576</created>
+      <option name="number" value="00935" />
+      <option name="presentableId" value="LOCAL-00935" />
+      <option name="project" value="LOCAL" />
+      <updated>1786391626580</updated>
+    </task>
+    <task id="LOCAL-00936" summary="#434 - new unit tests">
+      <option name="closed" value="true" />
+      <created>1786561812804</created>
+      <option name="number" value="00936" />
+      <option name="presentableId" value="LOCAL-00936" />
+      <option name="project" value="LOCAL" />
+      <updated>1786561812809</updated>
+    </task>
+    <option name="localTasksCounter" value="937" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -835,10 +845,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#301 - others" />
-    <MESSAGE value="#301 - new version i_telecom after code review" />
-    <MESSAGE value="#304 - others" />
-    <MESSAGE value="#304 - new version i_travel after code review" />
     <MESSAGE value="#307 - others" />
     <MESSAGE value="#307 - back to a tag and added responsive solution" />
     <MESSAGE value="#308 - others" />
@@ -860,7 +866,11 @@
     <MESSAGE value="#316 - others" />
     <MESSAGE value="#316 - new method getting annual expenses" />
     <MESSAGE value="#316 - unit test for getAnnualExpenseReport()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#316 - unit test for getAnnualExpenseReport()" />
+    <MESSAGE value="#432 - others" />
+    <MESSAGE value="#432 - remove buttons as they not need" />
+    <MESSAGE value="#433 - final version with currency as parameter" />
+    <MESSAGE value="#434 - new unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="#434 - new unit tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
