@@ -12,9 +12,42 @@
     <title>Expense report</title>
 </head>
 <body>
-<h6>DKK:    EUR:    USD:    UAH:</h6>
-<div class="timePeriod">
-    <dl> <dt>Daily</dt> <dd></dd> <dt>Monthly</dt> <dd></dd> <dt>Annual</dt> <dd></dd> </dl>
+<!-- Currency columns and period rows: render as a table so values line up under each currency -->
+<div class="container mt-3">
+    <table class="table table-sm table-bordered text-center">
+        <thead class="table-light">
+        <tr>
+            <th scope="col">Period</th>
+            <th scope="col">DKK</th>
+            <th scope="col">EUR</th>
+            <th scope="col">USD</th>
+            <th scope="col">UAH</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">Daily</th>
+            <td th:text="${dailyExpense['DKK']}">-</td>
+            <td th:text="${dailyExpense['EUR']}">-</td>
+            <td th:text="${dailyExpense['USD']}">-</td>
+            <td th:text="${dailyExpense['UAH']}">-</td>
+        </tr>
+        <tr>
+            <th scope="row">Monthly</th>
+            <td th:text="${monthlyExpense['DKK']}">-</td>
+            <td th:text="${monthlyExpense['EUR']}">-</td>
+            <td th:text="${monthlyExpense['USD']}">-</td>
+            <td th:text="${monthlyExpense['UAH']}">-</td>
+        </tr>
+        <tr>
+            <th scope="row">Annual</th>
+            <td th:text="${yearlyExpense['DKK']}">-</td>
+            <td th:text="${yearlyExpense['EUR']}">-</td>
+            <td th:text="${yearlyExpense['USD']}">-</td>
+            <td th:text="${yearlyExpense['UAH']}">-</td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 <nav class="text-center">
     <div class="btn-group flex-wrap" role="group" aria-label="Additional functions">
