@@ -145,19 +145,19 @@ public class DBService {
     return jdbcTemplate.queryForObject(sql, Integer.class);
   }
 
-  public ExpenseModel getDailyExpenseReport() {
-    String sql = "SELECT public.get_all_expenses_daily()";
-    return jdbcTemplate.queryForObject(sql, ExpenseModel.class);
+  public int getDailyExpenseReportByCurrency(int currencyId) {
+     String sql = "SELECT public.get_all_expenses_daily(?)";
+     return jdbcTemplate.queryForObject(sql, new Object[]{currencyId}, Integer.class);
   }
 
-  public ExpenseModel getMonthlyExpenseReport() {
-    String sql = "SELECT public.get_all_expenses_monthly()";
-    return jdbcTemplate.queryForObject(sql, ExpenseModel.class);
+   public int getMonthlyExpenseReportByCurrency(int currencyId) {
+     String sql = "SELECT public.get_all_expenses_monthly(?)";
+     return jdbcTemplate.queryForObject(sql, new Object[]{currencyId}, Integer.class);
   }
 
-  public ExpenseModel getAnnualExpenseReport() {
-    String sql = "SELECT public.get_all_expenses_annual()";
-    return jdbcTemplate.queryForObject(sql, ExpenseModel.class);
+   public int getAnnualExpenseReportByCurrency(int currencyId) {
+     String sql = "SELECT public.get_all_expenses_annual(?)";
+     return jdbcTemplate.queryForObject(sql, new Object[]{currencyId}, Integer.class);
   }
 
   public LocationModel getLocation() {
