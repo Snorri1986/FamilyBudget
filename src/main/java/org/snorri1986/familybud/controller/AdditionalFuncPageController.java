@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 public class AdditionalFuncPageController {
@@ -120,8 +122,35 @@ public class AdditionalFuncPageController {
     return "travel_report";
   }
 
-  @GetMapping("/expense_report")
+  /*@GetMapping("/expense_report")
   public String getExpenseReport() {
     return "expense_report";
-  }
+  }*/
+
+   @GetMapping("/expense_report")
+   public String getExpenseReport(Model model) {
+     // Currency IDs: EUR = 1, UAH = 2, DKK = 3, USD = 4
+     Map<String, Object> dailyExpense = new HashMap<>();
+     dailyExpense.put("EUR", dbService.getDailyExpenseReportByCurrency(1));
+     dailyExpense.put("UAH", dbService.getDailyExpenseReportByCurrency(2));
+     dailyExpense.put("DKK", dbService.getDailyExpenseReportByCurrency(3));
+     dailyExpense.put("USD", dbService.getDailyExpenseReportByCurrency(4));
+
+     Map<String, Object> monthlyExpense = new HashMap<>();
+     monthlyExpense.put("EUR", dbService.getMonthlyExpenseReportByCurrency(1));
+     monthlyExpense.put("UAH", dbService.getMonthlyExpenseReportByCurrency(2));
+     monthlyExpense.put("DKK", dbService.getMonthlyExpenseReportByCurrency(3));
+     monthlyExpense.put("USD", dbService.getMonthlyExpenseReportByCurrency(4));
+
+     Map<String, Object> yearlyExpense = new HashMap<>();
+     yearlyExpense.put("EUR", dbService.getAnnualExpenseReportByCurrency(1));
+     yearlyExpense.put("UAH", dbService.getAnnualExpenseReportByCurrency(2));
+     yearlyExpense.put("DKK", dbService.getAnnualExpenseReportByCurrency(3));
+     yearlyExpense.put("USD", dbService.getAnnualExpenseReportByCurrency(4));
+
+     model.addAttribute("dailyExpense", dailyExpense);
+     model.addAttribute("monthlyExpense", monthlyExpense);
+     model.addAttribute("yearlyExpense", yearlyExpense);
+     return "expense_report";
+   }
 }

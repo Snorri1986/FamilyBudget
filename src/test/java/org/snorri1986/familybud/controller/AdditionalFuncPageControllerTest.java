@@ -14,7 +14,6 @@ import org.springframework.ui.Model;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -112,26 +111,86 @@ public class AdditionalFuncPageControllerTest {
   }
 
   @Test
-  void testGetDailyExpenseReport() {
-    Mockito.when(dbService.getDailyExpenseReport()).thenReturn(new ExpenseModel());
-    ExpenseModel dailyExpenseReport = dbService.getDailyExpenseReport();
-    assertNotNull(dailyExpenseReport);
-    Mockito.verify(dbService).getDailyExpenseReport();
+  void testGetDailyExpenseReportByCurrencyEUR() {
+    Mockito.when(dbService.getDailyExpenseReportByCurrency(1)).thenReturn(1000);
+    int dailyExpenseReport = dbService.getDailyExpenseReportByCurrency(1);
+    Mockito.verify(dbService).getDailyExpenseReportByCurrency(1);
   }
 
   @Test
-  void testGetMonthlyExpenseReport() {
-    Mockito.when(dbService.getMonthlyExpenseReport()).thenReturn(new ExpenseModel());
-    ExpenseModel monthlyExpenseReport = dbService.getMonthlyExpenseReport();
-    assertNotNull(monthlyExpenseReport);
-    Mockito.verify(dbService).getMonthlyExpenseReport();
+  void testGetDailyExpenseReportByCurrencyUAH() {
+    Mockito.when(dbService.getDailyExpenseReportByCurrency(2)).thenReturn(1000);
+    int dailyExpenseReport = dbService.getDailyExpenseReportByCurrency(2);
+    Mockito.verify(dbService).getDailyExpenseReportByCurrency(2);
   }
 
   @Test
-  void testGetAnnualExpenseReport() {
-    Mockito.when(dbService.getAnnualExpenseReport()).thenReturn(new ExpenseModel());
-    ExpenseModel annualExpenseReport = dbService.getAnnualExpenseReport();
-    assertNotNull(annualExpenseReport);
-    Mockito.verify(dbService).getAnnualExpenseReport();
+  void testGetDailyExpenseReportByCurrencyDKK() {
+    Mockito.when(dbService.getDailyExpenseReportByCurrency(3)).thenReturn(1000);
+    int dailyExpenseReport = dbService.getDailyExpenseReportByCurrency(3);
+    Mockito.verify(dbService).getDailyExpenseReportByCurrency(3);
+  }
+
+  @Test
+  void testGetDailyExpenseReportByCurrencyUSD() {
+    Mockito.when(dbService.getDailyExpenseReportByCurrency(4)).thenReturn(1000);
+    int dailyExpenseReport = dbService.getDailyExpenseReportByCurrency(4);
+    Mockito.verify(dbService).getDailyExpenseReportByCurrency(4);
+  }
+
+  @Test
+  void testGetMonthlyExpenseReportByCurrencyEUR() {
+    Mockito.when(dbService.getMonthlyExpenseReportByCurrency(1)).thenReturn(1000);
+    int monthlyExpenseReport = dbService.getMonthlyExpenseReportByCurrency(1);
+    Mockito.verify(dbService).getMonthlyExpenseReportByCurrency(1);
+  }
+
+  @Test
+  void testGetMonthlyExpenseReportByCurrencyUAH() {
+    Mockito.when(dbService.getMonthlyExpenseReportByCurrency(2)).thenReturn(1000);
+    int monthlyExpenseReport = dbService.getMonthlyExpenseReportByCurrency(2);
+    Mockito.verify(dbService).getMonthlyExpenseReportByCurrency(2);
+  }
+
+  @Test
+  void testGetMonthlyExpenseReportByCurrencyDKK() {
+    Mockito.when(dbService.getMonthlyExpenseReportByCurrency(3)).thenReturn(1000);
+    int monthlyExpenseReport = dbService.getMonthlyExpenseReportByCurrency(3);
+    Mockito.verify(dbService).getMonthlyExpenseReportByCurrency(3);
+  }
+
+  @Test
+  void testGetMonthlyExpenseReportByCurrencyUSD() {
+    Mockito.when(dbService.getMonthlyExpenseReportByCurrency(4)).thenReturn(1000);
+    int monthlyExpenseReport = dbService.getMonthlyExpenseReportByCurrency(4);
+    Mockito.verify(dbService).getMonthlyExpenseReportByCurrency(4);
+  }
+
+  @Test
+  void testGetAnnualExpenseReportByCurrencyEUR() {
+    Mockito.when(dbService.getAnnualExpenseReportByCurrency(1)).thenReturn(1000);
+    int annualExpenseReport = dbService.getAnnualExpenseReportByCurrency(1);
+    Mockito.verify(dbService).getAnnualExpenseReportByCurrency(1);
+  }
+
+  @Test
+  void testGetAnnualExpenseReportByCurrencyUAH() {
+    Mockito.when(dbService.getAnnualExpenseReportByCurrency(2)).thenReturn(1000);
+    int annualExpenseReport = dbService.getAnnualExpenseReportByCurrency(2);
+    Mockito.verify(dbService).getAnnualExpenseReportByCurrency(2);
+  }
+
+  @Test
+  void testGetAnnualExpenseReportByCurrencyDKK() {
+    Mockito.when(dbService.getAnnualExpenseReportByCurrency(3)).thenReturn(1000);
+    int annualExpenseReport = dbService.getAnnualExpenseReportByCurrency(3);
+    Mockito.verify(dbService).getAnnualExpenseReportByCurrency(3);
+  }
+
+  @Test
+  void testGetAnnualExpenseReportByCurrencyUSD() {
+    Mockito.when(dbService.getAnnualExpenseReportByCurrency(4)).thenReturn(1000);
+    int annualExpenseReport = dbService.getAnnualExpenseReportByCurrency(4);
+    Mockito.verify(dbService).getAnnualExpenseReportByCurrency(4);
   }
 }
