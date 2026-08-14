@@ -208,6 +208,12 @@ create table cash_balance
 );
 comment on column cash_balance.balance is 'current cash balance';
 
+create table card_balance
+(
+    balance integer
+);
+comment on column card_balance.balance is 'current card balance';
+
 CREATE TABLE IF NOT EXISTS "cash_operations_log" (
         "id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
         "optype" bigint NOT NULL,
