@@ -7,8 +7,8 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#321 - new table card_balance">
-      <change afterPath="$PROJECT_DIR$/src/db/sources/get_card_balance.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#323 - new function about card balance">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/add_card_balance.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -411,23 +411,7 @@
       <workItem from="1786388532366" duration="3356000" />
       <workItem from="1786559916311" duration="82000" />
       <workItem from="1786560131371" duration="3402000" />
-      <workItem from="1786728621689" duration="2270000" />
-    </task>
-    <task id="LOCAL-00895" summary="#281 - new attrib after code review">
-      <option name="closed" value="true" />
-      <created>1783974822701</created>
-      <option name="number" value="00895" />
-      <option name="presentableId" value="LOCAL-00895" />
-      <option name="project" value="LOCAL" />
-      <updated>1783974822701</updated>
-    </task>
-    <task id="LOCAL-00896" summary="#282 - others">
-      <option name="closed" value="true" />
-      <created>1784578540203</created>
-      <option name="number" value="00896" />
-      <option name="presentableId" value="LOCAL-00896" />
-      <option name="project" value="LOCAL" />
-      <updated>1784578540204</updated>
+      <workItem from="1786728621689" duration="4659000" />
     </task>
     <task id="LOCAL-00897" summary="#282 - new version of insertNewLocation after code review">
       <option name="closed" value="true" />
@@ -805,7 +789,23 @@
       <option name="project" value="LOCAL" />
       <updated>1786729242529</updated>
     </task>
-    <option name="localTasksCounter" value="944" />
+    <task id="LOCAL-00944" summary="#323 - others">
+      <option name="closed" value="true" />
+      <created>1786731085764</created>
+      <option name="number" value="00944" />
+      <option name="presentableId" value="LOCAL-00944" />
+      <option name="project" value="LOCAL" />
+      <updated>1786731085764</updated>
+    </task>
+    <task id="LOCAL-00945" summary="#323 - new function about card balance">
+      <option name="closed" value="true" />
+      <created>1786731120421</created>
+      <option name="number" value="00945" />
+      <option name="presentableId" value="LOCAL-00945" />
+      <option name="project" value="LOCAL" />
+      <updated>1786731120421</updated>
+    </task>
+    <option name="localTasksCounter" value="946" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -843,8 +843,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#429 - production ready version of get_all_expenses_daily" />
-    <MESSAGE value="#430 - others" />
     <MESSAGE value="#430 - production version" />
     <MESSAGE value="#313 - others" />
     <MESSAGE value="#313 - new class model for Expense report" />
@@ -868,7 +866,9 @@
     <MESSAGE value="#320 - new button - card balance" />
     <MESSAGE value="#321 - others" />
     <MESSAGE value="#321 - new table card_balance" />
-    <option name="LAST_COMMIT_MESSAGE" value="#321 - new table card_balance" />
+    <MESSAGE value="#323 - others" />
+    <MESSAGE value="#323 - new function about card balance" />
+    <option name="LAST_COMMIT_MESSAGE" value="#323 - new function about card balance" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/db/sources/add_card_balance.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/db/sources/calculate_vat.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/db/sources/family-budget-db.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" dialect="PostgreSQL" />
