@@ -7,10 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#323 - new function about card balance">
-      <change afterPath="$PROJECT_DIR$/src/db/sources/add_card_balance.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#324 - new function to increase card_balance">
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_income.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_income.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,23 +411,7 @@
       <workItem from="1786388532366" duration="3356000" />
       <workItem from="1786559916311" duration="82000" />
       <workItem from="1786560131371" duration="3402000" />
-      <workItem from="1786728621689" duration="4659000" />
-    </task>
-    <task id="LOCAL-00897" summary="#282 - new version of insertNewLocation after code review">
-      <option name="closed" value="true" />
-      <created>1784578577171</created>
-      <option name="number" value="00897" />
-      <option name="presentableId" value="LOCAL-00897" />
-      <option name="project" value="LOCAL" />
-      <updated>1784578577171</updated>
-    </task>
-    <task id="LOCAL-00898" summary="#283 - others">
-      <option name="closed" value="true" />
-      <created>1784579855777</created>
-      <option name="number" value="00898" />
-      <option name="presentableId" value="LOCAL-00898" />
-      <option name="project" value="LOCAL" />
-      <updated>1784579855777</updated>
+      <workItem from="1786728621689" duration="6125000" />
     </task>
     <task id="LOCAL-00899" summary="#283 - GET_LOCATION_SQL is global after code review">
       <option name="closed" value="true" />
@@ -805,7 +789,23 @@
       <option name="project" value="LOCAL" />
       <updated>1786731120421</updated>
     </task>
-    <option name="localTasksCounter" value="946" />
+    <task id="LOCAL-00946" summary="#324 - others">
+      <option name="closed" value="true" />
+      <created>1786733539236</created>
+      <option name="number" value="00946" />
+      <option name="presentableId" value="LOCAL-00946" />
+      <option name="project" value="LOCAL" />
+      <updated>1786733539236</updated>
+    </task>
+    <task id="LOCAL-00947" summary="#324 - new function to increase card_balance">
+      <option name="closed" value="true" />
+      <created>1786733626023</created>
+      <option name="number" value="00947" />
+      <option name="presentableId" value="LOCAL-00947" />
+      <option name="project" value="LOCAL" />
+      <updated>1786733626023</updated>
+    </task>
+    <option name="localTasksCounter" value="948" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -843,8 +843,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#430 - production version" />
-    <MESSAGE value="#313 - others" />
     <MESSAGE value="#313 - new class model for Expense report" />
     <MESSAGE value="#314 - others" />
     <MESSAGE value="#314 - java method to retrieve all expense daily" />
@@ -868,7 +866,9 @@
     <MESSAGE value="#321 - new table card_balance" />
     <MESSAGE value="#323 - others" />
     <MESSAGE value="#323 - new function about card balance" />
-    <option name="LAST_COMMIT_MESSAGE" value="#323 - new function about card balance" />
+    <MESSAGE value="#324 - others" />
+    <MESSAGE value="#324 - new function to increase card_balance" />
+    <option name="LAST_COMMIT_MESSAGE" value="#324 - new function to increase card_balance" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
