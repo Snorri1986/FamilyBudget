@@ -40,12 +40,16 @@ BEGIN
     vat_value := calculate_vat(amount_value);
 
     IF oper_type = 'Cash' THEN
+
+        PERFORM minus_cash_balance(amount_value);
+
         INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency,ex_type_id,vat)
         VALUES (0,amount_value,oper_date,comm_value,username,currency_value,gtype_value,vat_value);
 
-    PERFORM minus_cash_balance(amount_value);
-
     ELSE
+
+        PERFORM minus_card_balance(amount_value);
+
         INSERT INTO groceries(g_type, amount, currency, date, source_card, comments,opertype,user_last_session,vat)
         VALUES (gtype_value, amount_value,currency_value,oper_date,src_payment_card,comm_value,oper_type,username,vat_value);
     END IF;
