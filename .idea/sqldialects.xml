@@ -24,5 +24,6 @@
     <file url="file://$PROJECT_DIR$/src/db/sources/get_last_ten_travel_cash.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/db/sources/get_location.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/db/sources/i_location.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/src/db/sources/minus_card_balance.sql" dialect="GenericSQL" />
   </component>
 </project>
