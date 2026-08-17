@@ -1,10 +1,11 @@
-create or replace function i_entertainment(evn_type_id_val integer, amount_val integer, cur_value integer, oper_date date, oper_type text, src_card integer, comm_val text) returns void
-    language plpgsql
-as
+CREATE OR REPLACE FUNCTION i_entertainment(evn_type_id_val integer, amount_val integer, cur_value integer, oper_date date, oper_type text, src_card integer, comm_val text)
+    RETURNS void
+    LANGUAGE plpgsql
+AS
 $$
 DECLARE
-    username text;
-    vat_value double precision;
+    username TEXT;
+    vat_value DOUBLE PRECISION;
 BEGIN
 
     IF evn_type_id_val IS NULL THEN
@@ -36,14 +37,19 @@ BEGIN
     vat_value := calculate_vat(amount_val);
 
     IF oper_type = 'Cash' THEN
-        INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency,ex_type_id,vat)
-        VALUES (0,amount_val,oper_date,comm_val,username,cur_value,evn_type_id_val,vat_value);
 
         PERFORM minus_cash_balance(amount_val);
 
+        INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency,ex_type_id,vat)
+        VALUES (0,amount_val,oper_date,comm_val,username,cur_value,evn_type_id_val,vat_value);
+
     ELSE
+
+        PERFORM minus_card_balance(amount_val);
+
         INSERT INTO entertainment(event_type_id,amount,currency,date,source_card,comments,opertype,user_last_session,vat)
         VALUES (evn_type_id_val,amount_val,cur_value,oper_date,src_card,comm_val,oper_type,username,vat_value);
+
     END IF;
 
 END;
