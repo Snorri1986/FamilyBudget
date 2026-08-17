@@ -42,12 +42,16 @@ BEGIN
     vat_value := calculate_vat(amount_val);
 
     IF oper_type = 'Cash' THEN
+
+        PERFORM minus_cash_balance(amount_val);
+
         INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency,ex_type_id,vat)
         VALUES (0,amount_val,oper_date,comm_value,username,cur_val,hr_type_id,vat_value);
 
-    PERFORM minus_cash_balance(amount_val);
-
     ELSE
+
+        PERFORM minus_card_balance(amount_val);
+
         INSERT INTO housing_rent(hr_type_id,amount,currency,date,source_card,comments,opertype,user_last_session,vat)
         VALUES (hr_type_id,amount_val,cur_val,oper_date,src_card,comm_value,oper_type,username,vat_value);
     END IF;
