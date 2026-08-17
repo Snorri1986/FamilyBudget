@@ -7,10 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#325 - new version with call add_card_balance">
-      <change afterPath="$PROJECT_DIR$/src/db/sources/minus_card_balance.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#326 - new minus_card_balance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_entertainment.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -413,23 +412,7 @@
       <workItem from="1786560131371" duration="3402000" />
       <workItem from="1786728621689" duration="6681000" />
       <workItem from="1786987857283" duration="91000" />
-      <workItem from="1786988034054" duration="2671000" />
-    </task>
-    <task id="LOCAL-00901" summary="#289 - new version after code review">
-      <option name="closed" value="true" />
-      <created>1784664428178</created>
-      <option name="number" value="00901" />
-      <option name="presentableId" value="LOCAL-00901" />
-      <option name="project" value="LOCAL" />
-      <updated>1784664428178</updated>
-    </task>
-    <task id="LOCAL-00902" summary="#292 - others">
-      <option name="closed" value="true" />
-      <created>1784749262709</created>
-      <option name="number" value="00902" />
-      <option name="presentableId" value="LOCAL-00902" />
-      <option name="project" value="LOCAL" />
-      <updated>1784749262710</updated>
+      <workItem from="1786988034054" duration="4326000" />
     </task>
     <task id="LOCAL-00903" summary="#292 - new version of function after code review">
       <option name="closed" value="true" />
@@ -807,7 +790,23 @@
       <option name="project" value="LOCAL" />
       <updated>1786734874728</updated>
     </task>
-    <option name="localTasksCounter" value="950" />
+    <task id="LOCAL-00950" summary="#326 - others">
+      <option name="closed" value="true" />
+      <created>1786991067984</created>
+      <option name="number" value="00950" />
+      <option name="presentableId" value="LOCAL-00950" />
+      <option name="project" value="LOCAL" />
+      <updated>1786991067985</updated>
+    </task>
+    <task id="LOCAL-00951" summary="#326 - new minus_card_balance">
+      <option name="closed" value="true" />
+      <created>1786991095351</created>
+      <option name="number" value="00951" />
+      <option name="presentableId" value="LOCAL-00951" />
+      <option name="project" value="LOCAL" />
+      <updated>1786991095351</updated>
+    </task>
+    <option name="localTasksCounter" value="952" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -845,8 +844,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#314 - java method to retrieve all expense daily" />
-    <MESSAGE value="#314 - unit test for getDailyExpenseReport" />
     <MESSAGE value="#315 - others" />
     <MESSAGE value="#315 - method for getting all monthly expenses" />
     <MESSAGE value="#315 - unit test for getMonthlyExpenseReport()" />
@@ -870,7 +867,9 @@
     <MESSAGE value="#324 - new function to increase card_balance" />
     <MESSAGE value="#325 - others" />
     <MESSAGE value="#325 - new version with call add_card_balance" />
-    <option name="LAST_COMMIT_MESSAGE" value="#325 - new version with call add_card_balance" />
+    <MESSAGE value="#326 - others" />
+    <MESSAGE value="#326 - new minus_card_balance" />
+    <option name="LAST_COMMIT_MESSAGE" value="#326 - new minus_card_balance" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
