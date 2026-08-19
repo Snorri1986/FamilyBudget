@@ -7,9 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#331 - new version with minus_card_balance call">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#332 - new version with minus_card_balance call">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/card_balance.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_travel.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_travel.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +214,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -413,23 +413,9 @@
       <workItem from="1786728621689" duration="6681000" />
       <workItem from="1786987857283" duration="91000" />
       <workItem from="1786988034054" duration="7090000" />
-      <workItem from="1787161318760" duration="934000" />
-    </task>
-    <task id="LOCAL-00913" summary="#307 - back to a tag and added responsive solution">
-      <option name="closed" value="true" />
-      <created>1784919713291</created>
-      <option name="number" value="00913" />
-      <option name="presentableId" value="LOCAL-00913" />
-      <option name="project" value="LOCAL" />
-      <updated>1784919713292</updated>
-    </task>
-    <task id="LOCAL-00914" summary="#308 - others">
-      <option name="closed" value="true" />
-      <created>1784922247916</created>
-      <option name="number" value="00914" />
-      <option name="presentableId" value="LOCAL-00914" />
-      <option name="project" value="LOCAL" />
-      <updated>1784922247916</updated>
+      <workItem from="1787161318760" duration="2991000" />
+      <workItem from="1787164389304" duration="160000" />
+      <workItem from="1787164591863" duration="1464000" />
     </task>
     <task id="LOCAL-00915" summary="#308 - after code review">
       <option name="closed" value="true" />
@@ -807,7 +793,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787161924791</updated>
     </task>
-    <option name="localTasksCounter" value="962" />
+    <task id="LOCAL-00962" summary="#332 - others">
+      <option name="closed" value="true" />
+      <created>1787162548421</created>
+      <option name="number" value="00962" />
+      <option name="presentableId" value="LOCAL-00962" />
+      <option name="project" value="LOCAL" />
+      <updated>1787162548421</updated>
+    </task>
+    <task id="LOCAL-00963" summary="#332 - new version with minus_card_balance call">
+      <option name="closed" value="true" />
+      <created>1787162653708</created>
+      <option name="number" value="00963" />
+      <option name="presentableId" value="LOCAL-00963" />
+      <option name="project" value="LOCAL" />
+      <updated>1787162653709</updated>
+    </task>
+    <option name="localTasksCounter" value="964" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -845,8 +847,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#317 - others" />
-    <MESSAGE value="#317 - methods with currency param" />
     <MESSAGE value="#317 - new web design as a table" />
     <MESSAGE value="#320 - other" />
     <MESSAGE value="#320 - new button - card balance" />
@@ -870,7 +870,9 @@
     <MESSAGE value="#330 - new version with minus_card_balance call" />
     <MESSAGE value="#331 - others" />
     <MESSAGE value="#331 - new version with minus_card_balance call" />
-    <option name="LAST_COMMIT_MESSAGE" value="#331 - new version with minus_card_balance call" />
+    <MESSAGE value="#332 - others" />
+    <MESSAGE value="#332 - new version with minus_card_balance call" />
+    <option name="LAST_COMMIT_MESSAGE" value="#332 - new version with minus_card_balance call" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
