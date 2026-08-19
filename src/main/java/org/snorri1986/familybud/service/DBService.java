@@ -145,6 +145,12 @@ public class DBService {
     return jdbcTemplate.queryForObject(sql, Integer.class);
   }
 
+  public int getCardBalance() {
+    String sql = "SELECT public.get_card_balance()";
+    Integer result = jdbcTemplate.queryForObject(sql, Integer.class);
+    return result != null ? result : 0;
+  }
+
   public int getDailyExpenseReportByCurrency(int currencyId) {
      String sql = "SELECT public.get_all_expenses_daily(?)";
      return jdbcTemplate.queryForObject(sql, new Object[]{currencyId}, Integer.class);
