@@ -3,6 +3,7 @@ package org.snorri1986.familybud.controller;
 import org.snorri1986.familybud.models.*;
 import org.snorri1986.familybud.service.DBService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -38,6 +39,19 @@ public class AdditionalFuncPageController {
     int cashBalance = webFormsController.getCashBalanceFromDB();
     model.addAttribute("cashBalance", cashBalance);
     return "cash_balance";
+  }
+
+  @GetMapping("/cardBalance")
+  public String showCardBalance(@NonNull Model model) {
+    try {
+      int cardBalance = webFormsController.getCardBalanceFromDB();
+      model.addAttribute("cardBalance", cardBalance);
+    } catch (Exception e) {
+      System.err.println("Error retrieving card balance: " + e.getMessage());
+      model.addAttribute("error", "Unable to load card balance. Please try again later.");
+      model.addAttribute("cardBalance", 0);
+    }
+    return "card_balance";
   }
 
   @GetMapping("/showLocation")
