@@ -7,8 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#441 - new method getCardBalance()">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#442 - new method getCardBalanceFromDB()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/AdditionalFuncPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,23 +415,7 @@
       <workItem from="1786988034054" duration="7090000" />
       <workItem from="1787161318760" duration="2991000" />
       <workItem from="1787164389304" duration="160000" />
-      <workItem from="1787164591863" duration="2996000" />
-    </task>
-    <task id="LOCAL-00921" summary="#430 - production version">
-      <option name="closed" value="true" />
-      <created>1785959476188</created>
-      <option name="number" value="00921" />
-      <option name="presentableId" value="LOCAL-00921" />
-      <option name="project" value="LOCAL" />
-      <updated>1785959476188</updated>
-    </task>
-    <task id="LOCAL-00922" summary="#313 - others">
-      <option name="closed" value="true" />
-      <created>1786125987645</created>
-      <option name="number" value="00922" />
-      <option name="presentableId" value="LOCAL-00922" />
-      <option name="project" value="LOCAL" />
-      <updated>1786125987647</updated>
+      <workItem from="1787164591863" duration="3789000" />
     </task>
     <task id="LOCAL-00923" summary="#313 - new class model for Expense report">
       <option name="closed" value="true" />
@@ -808,7 +793,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787167481740</updated>
     </task>
-    <option name="localTasksCounter" value="970" />
+    <task id="LOCAL-00970" summary="#442 - others">
+      <option name="closed" value="true" />
+      <created>1787167779505</created>
+      <option name="number" value="00970" />
+      <option name="presentableId" value="LOCAL-00970" />
+      <option name="project" value="LOCAL" />
+      <updated>1787167779505</updated>
+    </task>
+    <task id="LOCAL-00971" summary="#442 - new method getCardBalanceFromDB()">
+      <option name="closed" value="true" />
+      <created>1787167805424</created>
+      <option name="number" value="00971" />
+      <option name="presentableId" value="LOCAL-00971" />
+      <option name="project" value="LOCAL" />
+      <updated>1787167805424</updated>
+    </task>
+    <option name="localTasksCounter" value="972" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -846,8 +847,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#323 - new function about card balance" />
-    <MESSAGE value="#324 - others" />
     <MESSAGE value="#324 - new function to increase card_balance" />
     <MESSAGE value="#325 - others" />
     <MESSAGE value="#325 - new version with call add_card_balance" />
@@ -871,7 +870,9 @@
     <MESSAGE value="#441 - code review summary" />
     <MESSAGE value="#441 - others" />
     <MESSAGE value="#441 - new method getCardBalance()" />
-    <option name="LAST_COMMIT_MESSAGE" value="#441 - new method getCardBalance()" />
+    <MESSAGE value="#442 - others" />
+    <MESSAGE value="#442 - new method getCardBalanceFromDB()" />
+    <option name="LAST_COMMIT_MESSAGE" value="#442 - new method getCardBalanceFromDB()" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
