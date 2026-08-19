@@ -7,9 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#332 - new version with minus_card_balance call">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/card_balance.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#440 - new web page showing card balance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,31 +415,7 @@
       <workItem from="1786988034054" duration="7090000" />
       <workItem from="1787161318760" duration="2991000" />
       <workItem from="1787164389304" duration="160000" />
-      <workItem from="1787164591863" duration="1464000" />
-    </task>
-    <task id="LOCAL-00915" summary="#308 - after code review">
-      <option name="closed" value="true" />
-      <created>1784922275029</created>
-      <option name="number" value="00915" />
-      <option name="presentableId" value="LOCAL-00915" />
-      <option name="project" value="LOCAL" />
-      <updated>1784922275029</updated>
-    </task>
-    <task id="LOCAL-00916" summary="#312 - others">
-      <option name="closed" value="true" />
-      <created>1785871311299</created>
-      <option name="number" value="00916" />
-      <option name="presentableId" value="LOCAL-00916" />
-      <option name="project" value="LOCAL" />
-      <updated>1785871311305</updated>
-    </task>
-    <task id="LOCAL-00917" summary="#312 - production ready version of get_all_expenses_annual">
-      <option name="closed" value="true" />
-      <created>1785871342570</created>
-      <option name="number" value="00917" />
-      <option name="presentableId" value="LOCAL-00917" />
-      <option name="project" value="LOCAL" />
-      <updated>1785871342570</updated>
+      <workItem from="1787164591863" duration="2567000" />
     </task>
     <task id="LOCAL-00918" summary="#429 - others">
       <option name="closed" value="true" />
@@ -809,7 +785,31 @@
       <option name="project" value="LOCAL" />
       <updated>1787162653709</updated>
     </task>
-    <option name="localTasksCounter" value="964" />
+    <task id="LOCAL-00964" summary="#440 - code review summary">
+      <option name="closed" value="true" />
+      <created>1787166299380</created>
+      <option name="number" value="00964" />
+      <option name="presentableId" value="LOCAL-00964" />
+      <option name="project" value="LOCAL" />
+      <updated>1787166299380</updated>
+    </task>
+    <task id="LOCAL-00965" summary="#440 - others">
+      <option name="closed" value="true" />
+      <created>1787166310579</created>
+      <option name="number" value="00965" />
+      <option name="presentableId" value="LOCAL-00965" />
+      <option name="project" value="LOCAL" />
+      <updated>1787166310579</updated>
+    </task>
+    <task id="LOCAL-00966" summary="#440 - new web page showing card balance">
+      <option name="closed" value="true" />
+      <created>1787166341876</created>
+      <option name="number" value="00966" />
+      <option name="presentableId" value="LOCAL-00966" />
+      <option name="project" value="LOCAL" />
+      <updated>1787166341877</updated>
+    </task>
+    <option name="localTasksCounter" value="967" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -847,9 +847,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#317 - new web design as a table" />
-    <MESSAGE value="#320 - other" />
-    <MESSAGE value="#320 - new button - card balance" />
     <MESSAGE value="#321 - others" />
     <MESSAGE value="#321 - new table card_balance" />
     <MESSAGE value="#323 - others" />
@@ -872,7 +869,10 @@
     <MESSAGE value="#331 - new version with minus_card_balance call" />
     <MESSAGE value="#332 - others" />
     <MESSAGE value="#332 - new version with minus_card_balance call" />
-    <option name="LAST_COMMIT_MESSAGE" value="#332 - new version with minus_card_balance call" />
+    <MESSAGE value="#440 - code review summary" />
+    <MESSAGE value="#440 - others" />
+    <MESSAGE value="#440 - new web page showing card balance" />
+    <option name="LAST_COMMIT_MESSAGE" value="#440 - new web page showing card balance" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
