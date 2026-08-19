@@ -282,4 +282,8 @@ public class WebFormsController {
   public int getCashBalanceFromDB() {
     return dbService.getCashBalance();
   }
+
+  public int getCardBalanceFromDB() {
+    return dbService.getCardBalance();
+  }
 }
