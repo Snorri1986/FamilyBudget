@@ -7,9 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#329 - new version with minus_card_balance call">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#330 - new version with minus_card_balance call">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_housing_rent.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_housing_rent.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/func_i_telecom.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/func_i_telecom.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -412,23 +412,8 @@
       <workItem from="1786560131371" duration="3402000" />
       <workItem from="1786728621689" duration="6681000" />
       <workItem from="1786987857283" duration="91000" />
-      <workItem from="1786988034054" duration="6703000" />
-    </task>
-    <task id="LOCAL-00909" summary="#301 - new version i_telecom after code review">
-      <option name="closed" value="true" />
-      <created>1784752531050</created>
-      <option name="number" value="00909" />
-      <option name="presentableId" value="LOCAL-00909" />
-      <option name="project" value="LOCAL" />
-      <updated>1784752531051</updated>
-    </task>
-    <task id="LOCAL-00910" summary="#304 - others">
-      <option name="closed" value="true" />
-      <created>1784753638975</created>
-      <option name="number" value="00910" />
-      <option name="presentableId" value="LOCAL-00910" />
-      <option name="project" value="LOCAL" />
-      <updated>1784753638975</updated>
+      <workItem from="1786988034054" duration="7090000" />
+      <workItem from="1787161318760" duration="311000" />
     </task>
     <task id="LOCAL-00911" summary="#304 - new version i_travel after code review">
       <option name="closed" value="true" />
@@ -806,7 +791,23 @@
       <option name="project" value="LOCAL" />
       <updated>1786994509914</updated>
     </task>
-    <option name="localTasksCounter" value="958" />
+    <task id="LOCAL-00958" summary="#330 - others">
+      <option name="closed" value="true" />
+      <created>1786995043726</created>
+      <option name="number" value="00958" />
+      <option name="presentableId" value="LOCAL-00958" />
+      <option name="project" value="LOCAL" />
+      <updated>1786995043726</updated>
+    </task>
+    <task id="LOCAL-00959" summary="#330 - new version with minus_card_balance call">
+      <option name="closed" value="true" />
+      <created>1786995069554</created>
+      <option name="number" value="00959" />
+      <option name="presentableId" value="LOCAL-00959" />
+      <option name="project" value="LOCAL" />
+      <updated>1786995069554</updated>
+    </task>
+    <option name="localTasksCounter" value="960" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -844,8 +845,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#432 - others" />
-    <MESSAGE value="#432 - remove buttons as they not need" />
     <MESSAGE value="#433 - final version with currency as parameter" />
     <MESSAGE value="#434 - new unit tests" />
     <MESSAGE value="#317 - others" />
@@ -869,7 +868,9 @@
     <MESSAGE value="#328 - new version with minus_card_balance call" />
     <MESSAGE value="#329 - others" />
     <MESSAGE value="#329 - new version with minus_card_balance call" />
-    <option name="LAST_COMMIT_MESSAGE" value="#329 - new version with minus_card_balance call" />
+    <MESSAGE value="#330 - others" />
+    <MESSAGE value="#330 - new version with minus_card_balance call" />
+    <option name="LAST_COMMIT_MESSAGE" value="#330 - new version with minus_card_balance call" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
