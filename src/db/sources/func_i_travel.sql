@@ -40,16 +40,20 @@ BEGIN
     vat_value := calculate_vat(amount_val);
 
     IF oper_type = 'Cash' THEN
-        INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency,ex_type_id,vat)
-        VALUES (0,amount_val,oper_date,comm_val,username,curr_val,tr_type_id_val,vat_value);
 
         PERFORM minus_cash_balance(amount_val);
 
+        INSERT INTO cash_operations_log(optype, amount, date, comments,user_last_session,currency,ex_type_id,vat)
+        VALUES (0,amount_val,oper_date,comm_val,username,curr_val,tr_type_id_val,vat_value);
+
     ELSE
+
+        PERFORM minus_card_balance(amount_val);
+
         INSERT INTO travel(tr_type_id,amount,currency,date,source_card,destination,comments,opertype,user_last_session,vat)
         VALUES (tr_type_id_val,amount_val,curr_val,oper_date,src_card_val,destin_val,comm_val,oper_type,username,vat_value);
-    END IF;
 
+    END IF;
 END;
 $function$
 ;
