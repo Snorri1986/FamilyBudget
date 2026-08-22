@@ -27,6 +27,9 @@ public class AdditionalFuncPageControllerTest {
   private AdditionalFuncPageController additionalFuncPageController;
 
   @Mock
+  private WebFormsController webFormsController;
+
+  @Mock
   private Model model;
 
   @Test
@@ -193,4 +196,34 @@ public class AdditionalFuncPageControllerTest {
     int annualExpenseReport = dbService.getAnnualExpenseReportByCurrency(4);
     Mockito.verify(dbService).getAnnualExpenseReportByCurrency(4);
   }
+
+  @Test
+  void testGetCashBalance() {
+    Mockito.when(dbService.getCashBalance()).thenReturn(1000);
+    int cashBalance = dbService.getCashBalance();
+    Mockito.verify(dbService).getCashBalance();
+    assertEquals(1000, cashBalance);
+  }
+
+  @Test
+  void testGetCardBalance() {
+    Mockito.when(dbService.getCardBalance()).thenReturn(1000);
+    int cardBalance = dbService.getCardBalance();
+    Mockito.verify(dbService).getCardBalance();
+    assertEquals(1000, cardBalance);
+  }
+
+  @Test
+  void testShowCardBalance() {
+    String viewName = additionalFuncPageController.showCardBalance(model);
+    assertEquals("card_balance", viewName);
+  }
+
+  @Test
+  void testShowCashBalance() {
+    String viewName = additionalFuncPageController.showCashBalance(model);
+    assertEquals("cash_balance", viewName);
+  }
 }
+
+
