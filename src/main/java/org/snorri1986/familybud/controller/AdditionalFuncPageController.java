@@ -136,12 +136,7 @@ public class AdditionalFuncPageController {
     return "travel_report";
   }
 
-  /*@GetMapping("/expense_report")
-  public String getExpenseReport() {
-    return "expense_report";
-  }*/
-
-   @GetMapping("/expense_report")
+  @GetMapping("/expense_report")
    public String getExpenseReport(Model model) {
      // Currency IDs: EUR = 1, UAH = 2, DKK = 3, USD = 4
      Map<String, Object> dailyExpense = new HashMap<>();
