@@ -7,9 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#445 - unit tests for show balances">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#335 - new name and new VAT button">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/vat_report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/vat_report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/additional.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/additional.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -423,22 +424,7 @@
       <workItem from="1787164389304" duration="160000" />
       <workItem from="1787164591863" duration="4419000" />
       <workItem from="1787394513393" duration="3491000" />
-    </task>
-    <task id="LOCAL-00931" summary="#316 - new method getting annual expenses">
-      <option name="closed" value="true" />
-      <created>1786130140196</created>
-      <option name="number" value="00931" />
-      <option name="presentableId" value="LOCAL-00931" />
-      <option name="project" value="LOCAL" />
-      <updated>1786130140196</updated>
-    </task>
-    <task id="LOCAL-00932" summary="#316 - unit test for getAnnualExpenseReport()">
-      <option name="closed" value="true" />
-      <created>1786130166356</created>
-      <option name="number" value="00932" />
-      <option name="presentableId" value="LOCAL-00932" />
-      <option name="project" value="LOCAL" />
-      <updated>1786130166356</updated>
+      <workItem from="1787681711063" duration="1000000" />
     </task>
     <task id="LOCAL-00933" summary="#432 - others">
       <option name="closed" value="true" />
@@ -816,7 +802,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787396751707</updated>
     </task>
-    <option name="localTasksCounter" value="980" />
+    <task id="LOCAL-00980" summary="#335 - others">
+      <option name="closed" value="true" />
+      <created>1787681904365</created>
+      <option name="number" value="00980" />
+      <option name="presentableId" value="LOCAL-00980" />
+      <option name="project" value="LOCAL" />
+      <updated>1787681904366</updated>
+    </task>
+    <task id="LOCAL-00981" summary="#335 - new name and new VAT button">
+      <option name="closed" value="true" />
+      <created>1787681946367</created>
+      <option name="number" value="00981" />
+      <option name="presentableId" value="LOCAL-00981" />
+      <option name="project" value="LOCAL" />
+      <updated>1787681946372</updated>
+    </task>
+    <option name="localTasksCounter" value="982" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -854,8 +856,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#328 - new version with minus_card_balance call" />
-    <MESSAGE value="#329 - others" />
     <MESSAGE value="#329 - new version with minus_card_balance call" />
     <MESSAGE value="#330 - others" />
     <MESSAGE value="#330 - new version with minus_card_balance call" />
@@ -879,7 +879,9 @@
     <MESSAGE value="#445 - others" />
     <MESSAGE value="#445 - removed unused commented code" />
     <MESSAGE value="#445 - unit tests for show balances" />
-    <option name="LAST_COMMIT_MESSAGE" value="#445 - unit tests for show balances" />
+    <MESSAGE value="#335 - others" />
+    <MESSAGE value="#335 - new name and new VAT button" />
+    <option name="LAST_COMMIT_MESSAGE" value="#335 - new name and new VAT button" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
