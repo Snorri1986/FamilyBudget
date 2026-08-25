@@ -7,9 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#335 - new name and new VAT button">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/vat_report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/vat_report.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#336 - new webpage and css for it">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_daily.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -424,23 +424,7 @@
       <workItem from="1787164389304" duration="160000" />
       <workItem from="1787164591863" duration="4419000" />
       <workItem from="1787394513393" duration="3491000" />
-      <workItem from="1787681711063" duration="1000000" />
-    </task>
-    <task id="LOCAL-00933" summary="#432 - others">
-      <option name="closed" value="true" />
-      <created>1786131501801</created>
-      <option name="number" value="00933" />
-      <option name="presentableId" value="LOCAL-00933" />
-      <option name="project" value="LOCAL" />
-      <updated>1786131501801</updated>
-    </task>
-    <task id="LOCAL-00934" summary="#432 - remove buttons as they not need">
-      <option name="closed" value="true" />
-      <created>1786131534032</created>
-      <option name="number" value="00934" />
-      <option name="presentableId" value="LOCAL-00934" />
-      <option name="project" value="LOCAL" />
-      <updated>1786131534032</updated>
+      <workItem from="1787681711063" duration="2274000" />
     </task>
     <task id="LOCAL-00935" summary="#433 - final version with currency as parameter">
       <option name="closed" value="true" />
@@ -818,7 +802,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787681946372</updated>
     </task>
-    <option name="localTasksCounter" value="982" />
+    <task id="LOCAL-00982" summary="#336 - others">
+      <option name="closed" value="true" />
+      <created>1787682981223</created>
+      <option name="number" value="00982" />
+      <option name="presentableId" value="LOCAL-00982" />
+      <option name="project" value="LOCAL" />
+      <updated>1787682981223</updated>
+    </task>
+    <task id="LOCAL-00983" summary="#336 - new webpage and css for it">
+      <option name="closed" value="true" />
+      <created>1787683018820</created>
+      <option name="number" value="00983" />
+      <option name="presentableId" value="LOCAL-00983" />
+      <option name="project" value="LOCAL" />
+      <updated>1787683018821</updated>
+    </task>
+    <option name="localTasksCounter" value="984" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -856,8 +856,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#329 - new version with minus_card_balance call" />
-    <MESSAGE value="#330 - others" />
     <MESSAGE value="#330 - new version with minus_card_balance call" />
     <MESSAGE value="#331 - others" />
     <MESSAGE value="#331 - new version with minus_card_balance call" />
@@ -881,7 +879,9 @@
     <MESSAGE value="#445 - unit tests for show balances" />
     <MESSAGE value="#335 - others" />
     <MESSAGE value="#335 - new name and new VAT button" />
-    <option name="LAST_COMMIT_MESSAGE" value="#335 - new name and new VAT button" />
+    <MESSAGE value="#336 - others" />
+    <MESSAGE value="#336 - new webpage and css for it" />
+    <option name="LAST_COMMIT_MESSAGE" value="#336 - new webpage and css for it" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
