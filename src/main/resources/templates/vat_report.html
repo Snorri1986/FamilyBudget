@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--reference to CSS library - Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous">
+    <link th:href="@{/css/vat_report.css}" rel="stylesheet" />
+    <title>VAT report</title>
+</head>
+<body>
+<!-- Currency columns and period rows: render as a table so values line up under each currency -->
+<div class="container mt-3">
+    <table class="table table-sm table-bordered text-center">
+        <thead class="table-light">
+        <tr>
+            <th scope="col">Period</th>
+            <th scope="col">DKK</th>
+            <th scope="col">EUR</th>
+            <th scope="col">USD</th>
+            <th scope="col">UAH</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">Daily</th>
+            <td th:text="${dailyVatValue['DKK']}">-</td>
+            <td th:text="${dailyVatValue['EUR']}">-</td>
+            <td th:text="${dailyVatValue['USD']}">-</td>
+            <td th:text="${dailyVatValue['UAH']}">-</td>
+        </tr>
+        <tr>
+            <th scope="row">Monthly</th>
+            <td th:text="${monthlyVatValue['DKK']}">-</td>
+            <td th:text="${monthlyVatValue['EUR']}">-</td>
+            <td th:text="${monthlyVatValue['USD']}">-</td>
+            <td th:text="${monthlyVatValue['UAH']}">-</td>
+        </tr>
+        <tr>
+            <th scope="row">Annual</th>
+            <td th:text="${yearlyVatValue['DKK']}">-</td>
+            <td th:text="${yearlyVatValue['EUR']}">-</td>
+            <td th:text="${yearlyVatValue['USD']}">-</td>
+            <td th:text="${yearlyVatValue['UAH']}">-</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<nav class="text-center">
+    <div class="btn-group flex-wrap" role="group" aria-label="Additional functions">
+        <a href="/main" class="btn btn-primary">Main page</a>
+    </div>
+</nav>
+</body>
+</html>
