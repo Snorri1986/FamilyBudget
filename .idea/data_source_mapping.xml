@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="DataSourcePerFileMappings">
-    <file url="file://$PROJECT_DIR$/src/db/sources/get_all_expenses_monthly.sql" value="654fcba4-0bd7-4989-939a-b6f63b9bbab4" />
-  </component>
-</project>

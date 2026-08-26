@@ -7,8 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#336 - new webpage and css for it">
-      <change afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_daily.sql" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#338 - new function retrieves all daily VAT">
+      <change afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_monthly.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -356,11 +357,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testShowCashBalance" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testShowCardBalance" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetCardBalance" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetCashBalance" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetCardBalance" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -424,23 +425,9 @@
       <workItem from="1787164389304" duration="160000" />
       <workItem from="1787164591863" duration="4419000" />
       <workItem from="1787394513393" duration="3491000" />
-      <workItem from="1787681711063" duration="2274000" />
-    </task>
-    <task id="LOCAL-00935" summary="#433 - final version with currency as parameter">
-      <option name="closed" value="true" />
-      <created>1786391626576</created>
-      <option name="number" value="00935" />
-      <option name="presentableId" value="LOCAL-00935" />
-      <option name="project" value="LOCAL" />
-      <updated>1786391626580</updated>
-    </task>
-    <task id="LOCAL-00936" summary="#434 - new unit tests">
-      <option name="closed" value="true" />
-      <created>1786561812804</created>
-      <option name="number" value="00936" />
-      <option name="presentableId" value="LOCAL-00936" />
-      <option name="project" value="LOCAL" />
-      <updated>1786561812809</updated>
+      <workItem from="1787681711063" duration="3630000" />
+      <workItem from="1787769569437" duration="75000" />
+      <workItem from="1787769704367" duration="2623000" />
     </task>
     <task id="LOCAL-00937" summary="#317 - others">
       <option name="closed" value="true" />
@@ -818,7 +805,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787683018821</updated>
     </task>
-    <option name="localTasksCounter" value="984" />
+    <task id="LOCAL-00984" summary="#338 - others">
+      <option name="closed" value="true" />
+      <created>1787684110302</created>
+      <option name="number" value="00984" />
+      <option name="presentableId" value="LOCAL-00984" />
+      <option name="project" value="LOCAL" />
+      <updated>1787684110303</updated>
+    </task>
+    <task id="LOCAL-00985" summary="#338 - new function retrieves all daily VAT">
+      <option name="closed" value="true" />
+      <created>1787684154628</created>
+      <option name="number" value="00985" />
+      <option name="presentableId" value="LOCAL-00985" />
+      <option name="project" value="LOCAL" />
+      <updated>1787684154630</updated>
+    </task>
+    <option name="localTasksCounter" value="986" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -856,8 +859,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#330 - new version with minus_card_balance call" />
-    <MESSAGE value="#331 - others" />
     <MESSAGE value="#331 - new version with minus_card_balance call" />
     <MESSAGE value="#332 - others" />
     <MESSAGE value="#332 - new version with minus_card_balance call" />
@@ -881,7 +882,9 @@
     <MESSAGE value="#335 - new name and new VAT button" />
     <MESSAGE value="#336 - others" />
     <MESSAGE value="#336 - new webpage and css for it" />
-    <option name="LAST_COMMIT_MESSAGE" value="#336 - new webpage and css for it" />
+    <MESSAGE value="#338 - others" />
+    <MESSAGE value="#338 - new function retrieves all daily VAT" />
+    <option name="LAST_COMMIT_MESSAGE" value="#338 - new function retrieves all daily VAT" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
