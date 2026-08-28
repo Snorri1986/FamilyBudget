@@ -198,6 +198,90 @@ public class AdditionalFuncPageControllerTest {
   }
 
   @Test
+  void testGetDailyVatReportByCurrencyEUR() {
+    Mockito.when(dbService.getDailyVatReportByCurrency(1)).thenReturn(1000.00);
+    double dailyVatReport = dbService.getDailyVatReportByCurrency(1);
+    Mockito.verify(dbService).getDailyVatReportByCurrency(1);
+  }
+
+  @Test
+  void testGetDailyVatReportByCurrencyUAH() {
+    Mockito.when(dbService.getDailyVatReportByCurrency(2)).thenReturn(1000.00);
+    double dailyVatReport = dbService.getDailyVatReportByCurrency(2);
+    Mockito.verify(dbService).getDailyVatReportByCurrency(2);
+  }
+
+  @Test
+  void testGetDailyVatReportByCurrencyDKK() {
+    Mockito.when(dbService.getDailyVatReportByCurrency(3)).thenReturn(1000.00);
+    double dailyVatReport = dbService.getDailyVatReportByCurrency(3);
+    Mockito.verify(dbService).getDailyVatReportByCurrency(3);
+  }
+
+  @Test
+  void testGetDailyVatReportByCurrencyUSD() {
+    Mockito.when(dbService.getDailyVatReportByCurrency(4)).thenReturn(1000.00);
+    double dailyVatReport = dbService.getDailyVatReportByCurrency(4);
+    Mockito.verify(dbService).getDailyVatReportByCurrency(4);
+  }
+
+  @Test
+  void testGetMonthlyVatReportByCurrencyEUR() {
+    Mockito.when(dbService.getMonthlyVatReportByCurrency(1)).thenReturn(1000.00);
+    double monthlyVatReport = dbService.getMonthlyVatReportByCurrency(1);
+    Mockito.verify(dbService).getMonthlyVatReportByCurrency(1);
+  }
+
+  @Test
+  void testGetMonthlyVatReportByCurrencyUAH() {
+    Mockito.when(dbService.getMonthlyVatReportByCurrency(2)).thenReturn(1000.00);
+    double monthlyVatReport = dbService.getMonthlyVatReportByCurrency(2);
+    Mockito.verify(dbService).getMonthlyVatReportByCurrency(2);
+  }
+
+  @Test
+  void testGetMonthlyVatReportByCurrencyDKK() {
+    Mockito.when(dbService.getMonthlyVatReportByCurrency(3)).thenReturn(1000.00);
+    double monthlyVatReport = dbService.getMonthlyVatReportByCurrency(3);
+    Mockito.verify(dbService).getMonthlyVatReportByCurrency(3);
+  }
+
+  @Test
+  void testGetMonthlyVatReportByCurrencyUSD() {
+    Mockito.when(dbService.getMonthlyVatReportByCurrency(4)).thenReturn(1000.00);
+    double monthlyVatReport = dbService.getMonthlyVatReportByCurrency(4);
+    Mockito.verify(dbService).getMonthlyVatReportByCurrency(4);
+  }
+
+  @Test
+  void testGetAnnualVatReportByCurrencyEUR() {
+    Mockito.when(dbService.getAnnualVatReportByCurrency(1)).thenReturn(1000.00);
+    double annualVatReport = dbService.getAnnualVatReportByCurrency(1);
+    Mockito.verify(dbService).getAnnualVatReportByCurrency(1);
+  }
+
+  @Test
+  void testGetAnnualVatReportByCurrencyUAH() {
+    Mockito.when(dbService.getAnnualVatReportByCurrency(2)).thenReturn(1000.00);
+    double annualVatReport = dbService.getAnnualVatReportByCurrency(2);
+    Mockito.verify(dbService).getAnnualVatReportByCurrency(2);
+  }
+
+  @Test
+  void testGetAnnualVatReportByCurrencyDKK() {
+    Mockito.when(dbService.getAnnualVatReportByCurrency(3)).thenReturn(1000.00);
+    double annualVatReport = dbService.getAnnualVatReportByCurrency(3);
+    Mockito.verify(dbService).getAnnualVatReportByCurrency(3);
+  }
+
+  @Test
+  void testGetAnnualVatReportByCurrencyUSD() {
+    Mockito.when(dbService.getAnnualVatReportByCurrency(4)).thenReturn(1000.00);
+    double annualVatReport = dbService.getAnnualVatReportByCurrency(4);
+    Mockito.verify(dbService).getAnnualVatReportByCurrency(4);
+  }
+
+  @Test
   void testGetCashBalance() {
     Mockito.when(dbService.getCashBalance()).thenReturn(1000);
     int cashBalance = dbService.getCashBalance();
