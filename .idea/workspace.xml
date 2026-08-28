@@ -7,8 +7,7 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#342 - new method getDailyVatReportByCurrency">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#343 - new method getMonthlyVatReportByCurrency">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/service/DBService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -426,23 +425,7 @@
       <workItem from="1787681711063" duration="3630000" />
       <workItem from="1787769569437" duration="75000" />
       <workItem from="1787769704367" duration="3188000" />
-      <workItem from="1787939409535" duration="1920000" />
-    </task>
-    <task id="LOCAL-00944" summary="#323 - others">
-      <option name="closed" value="true" />
-      <created>1786731085764</created>
-      <option name="number" value="00944" />
-      <option name="presentableId" value="LOCAL-00944" />
-      <option name="project" value="LOCAL" />
-      <updated>1786731085764</updated>
-    </task>
-    <task id="LOCAL-00945" summary="#323 - new function about card balance">
-      <option name="closed" value="true" />
-      <created>1786731120421</created>
-      <option name="number" value="00945" />
-      <option name="presentableId" value="LOCAL-00945" />
-      <option name="project" value="LOCAL" />
-      <updated>1786731120421</updated>
+      <workItem from="1787939409535" duration="2271000" />
     </task>
     <task id="LOCAL-00946" summary="#324 - others">
       <option name="closed" value="true" />
@@ -820,7 +803,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787941035980</updated>
     </task>
-    <option name="localTasksCounter" value="993" />
+    <task id="LOCAL-00993" summary="#343 - others">
+      <option name="closed" value="true" />
+      <created>1787941424282</created>
+      <option name="number" value="00993" />
+      <option name="presentableId" value="LOCAL-00993" />
+      <option name="project" value="LOCAL" />
+      <updated>1787941424283</updated>
+    </task>
+    <task id="LOCAL-00994" summary="#343 - new method getMonthlyVatReportByCurrency">
+      <option name="closed" value="true" />
+      <created>1787941456792</created>
+      <option name="number" value="00994" />
+      <option name="presentableId" value="LOCAL-00994" />
+      <option name="project" value="LOCAL" />
+      <updated>1787941456792</updated>
+    </task>
+    <option name="localTasksCounter" value="995" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -858,8 +857,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#441 - code review summary" />
-    <MESSAGE value="#441 - others" />
     <MESSAGE value="#441 - new method getCardBalance()" />
     <MESSAGE value="#442 - others" />
     <MESSAGE value="#442 - new method getCardBalanceFromDB()" />
@@ -883,7 +880,9 @@
     <MESSAGE value="#340 - function to retrieve VAT annual" />
     <MESSAGE value="#342 - others" />
     <MESSAGE value="#342 - new method getDailyVatReportByCurrency" />
-    <option name="LAST_COMMIT_MESSAGE" value="#342 - new method getDailyVatReportByCurrency" />
+    <MESSAGE value="#343 - others" />
+    <MESSAGE value="#343 - new method getMonthlyVatReportByCurrency" />
+    <option name="LAST_COMMIT_MESSAGE" value="#343 - new method getMonthlyVatReportByCurrency" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
