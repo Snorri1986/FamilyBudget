@@ -90,7 +90,7 @@ public class WebFormsControllerTest {
   @Test
   public void testSubmitGroceriesForm() {
     GroceriesModelWeb groceriesModelWeb = new GroceriesModelWeb();
-    groceriesModelWeb.setPurchesType("Weekly");
+    groceriesModelWeb.setPurchaseType("Weekly");
     groceriesModelWeb.setAmount(800);
     groceriesModelWeb.setCurrency("UAH");
     groceriesModelWeb.setTransactionDate(convertToDate("28.02.2023 11:00"));
@@ -103,7 +103,7 @@ public class WebFormsControllerTest {
 
     Mockito.verify(dbService).insertNewGroceries(captor.capture());
     GroceriesModelDB capturedGroceries = captor.getValue();
-    assertEquals(19, capturedGroceries.getPurchesType());
+    assertEquals(19, capturedGroceries.getPurchaseType());
     assertEquals(groceriesModelWeb.getAmount(), capturedGroceries.getAmount());
     assertEquals(Utils.currencyConvert(groceriesModelWeb.getCurrency()), capturedGroceries.getCurrency());
     assertEquals(groceriesModelWeb.getTransactionDate(), capturedGroceries.getTransactionDate());
@@ -116,7 +116,7 @@ public class WebFormsControllerTest {
   @Test
   public void testSubmitHealthForm() {
     HealthModelWeb healthModelWeb = new HealthModelWeb();
-    healthModelWeb.setHealthOperType("Regular Medical check");
+    healthModelWeb.setHealthOperationType("Regular Medical check");
     healthModelWeb.setAmount(1200);
     healthModelWeb.setCurrency("USD");
     healthModelWeb.setTransactionDate(convertToDate("01.01.2025 11:00"));
@@ -129,7 +129,7 @@ public class WebFormsControllerTest {
 
     Mockito.verify(dbService).insertNewHealth(captor.capture());
     HealthModelDB capturedHealth = captor.getValue();
-    assertEquals(24, capturedHealth.getHealthOperType());
+    assertEquals(24, capturedHealth.getHealthOperationType());
     assertEquals(healthModelWeb.getAmount(), capturedHealth.getAmount());
     assertEquals(Utils.currencyConvert(healthModelWeb.getCurrency()), capturedHealth.getCurrency());
     assertEquals(healthModelWeb.getTransactionDate(), capturedHealth.getTransactionDate());
@@ -142,7 +142,7 @@ public class WebFormsControllerTest {
   @Test
   public void testSubmitHousingForm() {
     RentHousingModelWeb rentHousingModelWeb = new RentHousingModelWeb();
-    rentHousingModelWeb.setHousingType("Mortage");
+    rentHousingModelWeb.setHousingType("Mortgage");
     rentHousingModelWeb.setAmount(100);
     rentHousingModelWeb.setCurrency("DKK");
     rentHousingModelWeb.setTransactionDate(convertToDate("30.12.2024 11:00"));

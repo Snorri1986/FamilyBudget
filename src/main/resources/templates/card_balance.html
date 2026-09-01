@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Redirect to main page -->
+    <meta http-equiv="refresh" content="5;url=/main">
+    <title>Card balance</title>
+</head>
+<body>
+<p th:if="${cardBalance != null}" th:text="'Card balance: ' + ${cardBalance}"></p>
+<p th:unless="${cardBalance != null}">Card balance is not available</p>
+</body>
+</html>

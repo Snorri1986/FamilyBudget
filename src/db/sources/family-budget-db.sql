@@ -38,7 +38,8 @@ CREATE TABLE IF NOT EXISTS "groceries" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user_last_session" text NOT NULL
+	"user_last_session" text NOT NULL,
+	"vat" float8
 	PRIMARY KEY ("id")
 );
 COMMENT ON TABLE public.groceries IS 'storage of groceries operations';
@@ -51,6 +52,7 @@ COMMENT ON COLUMN public.groceries.source_card IS 'payment card number';
 COMMENT ON COLUMN public.groceries."comments" IS 'description of operation';
 COMMENT ON COLUMN public.groceries.opertype IS 'cash or card operation';
 COMMENT ON COLUMN public.groceries.user_last_session IS 'owner of operation';
+COMMENT ON COLUMN public.groceries.vat IS 'VAT value';
 
 CREATE TABLE IF NOT EXISTS "housing_rent" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
@@ -61,7 +63,8 @@ CREATE TABLE IF NOT EXISTS "housing_rent" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user_last_session" text NOT NULL
+	"user_last_session" text NOT NULL,
+	"vat" float8
 	PRIMARY KEY ("id")
 );
 COMMENT ON TABLE public.housing_rent IS 'storage of housing operations';
@@ -74,6 +77,7 @@ COMMENT ON COLUMN public.housing_rent.source_card IS 'payment card';
 COMMENT ON COLUMN public.housing_rent."comments" IS 'description of operation';
 COMMENT ON COLUMN public.housing_rent.opertype IS 'cash or card operation';
 COMMENT ON COLUMN public.housing_rent.user_last_session IS 'owner of operation';
+COMMENT ON COLUMN public.housing_rent.vat IS 'VAT value';
 
 CREATE TABLE IF NOT EXISTS "travel" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
@@ -85,7 +89,8 @@ CREATE TABLE IF NOT EXISTS "travel" (
 	"source_card" bigint NOT NULL,
 	"destination" varchar(255) NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user_last_session" text NOT NULL
+	"user_last_session" text NOT NULL,
+	"vat" float8
 	PRIMARY KEY ("id")
 );
 COMMENT ON TABLE public.travel IS 'storage of travel operations';
@@ -99,29 +104,34 @@ COMMENT ON COLUMN public.travel.destination IS 'travel destination';
 COMMENT ON COLUMN public.travel."comments" IS 'description of operation';
 COMMENT ON COLUMN public.travel.opertype IS 'card or cash';
 COMMENT ON COLUMN public.travel.user_last_session IS 'owner of operation';
+COMMENT ON COLUMN public.travel.vat IS 'VAT value';
 
 CREATE TABLE IF NOT EXISTS "entertainment" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
 	"event_type_id" bigint NOT NULL,
 	"amount" bigint NOT NULL,
+	"vat" double precision,
 	"currency" bigint NOT NULL,
 	"operType" varchar(255) NOT NULL,
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user_last_session" text NOT NULL
+	"user_last_session" text NOT NULL,
+	"vat" float8
 	PRIMARY KEY ("id")
 );
 COMMENT ON TABLE public.entertainment IS 'storage for entertainment operations';
 COMMENT ON COLUMN public.entertainment.id IS 'id of record';
 COMMENT ON COLUMN public.entertainment.event_type_id IS 'type of operation';
 COMMENT ON COLUMN public.entertainment.amount IS 'value of money';
+COMMENT ON COLUMN public.entertainment.vat IS 'VAT value';
 COMMENT ON COLUMN public.entertainment.currency IS 'currency of operations';
 COMMENT ON COLUMN public.entertainment."date" IS 'time of operations';
 COMMENT ON COLUMN public.entertainment.source_card IS 'payment card number';
 COMMENT ON COLUMN public.entertainment."comments" IS 'description of operation';
 COMMENT ON COLUMN public.entertainment.opertype IS 'cash or card';
 COMMENT ON COLUMN public.entertainment.user_last_session IS 'owner of operations';
+COMMENT ON COLUMN public.entertainment.vat IS 'VAT value';
 
 CREATE TABLE IF NOT EXISTS "health" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
@@ -132,7 +142,8 @@ CREATE TABLE IF NOT EXISTS "health" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user_last_session" text NOT NULL
+	"user_last_session" text NOT NULL,
+	"vat" float8
 	PRIMARY KEY ("id")
 );
 COMMENT ON TABLE public.health IS 'storage for health operations';
@@ -145,6 +156,7 @@ COMMENT ON COLUMN public.health.source_card IS 'payment card number';
 COMMENT ON COLUMN public.health."comments" IS 'description of operation';
 COMMENT ON COLUMN public.health.opertype IS 'cash or card operation';
 COMMENT ON COLUMN public.health.user_last_session IS 'owner of operation';
+COMMENT ON COLUMN public.health.vat IS 'VAT value';
 
 CREATE TABLE IF NOT EXISTS "telecom" (
 	"id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
@@ -155,7 +167,8 @@ CREATE TABLE IF NOT EXISTS "telecom" (
 	"date" timestamp with time zone NOT NULL,
 	"source_card" bigint NOT NULL,
 	"comments" varchar(255) NOT NULL,
-	"user_last_session" text NOT NULL
+	"user_last_session" text NOT NULL,
+	"vat" float8
 	PRIMARY KEY ("id")
 );
 COMMENT ON TABLE public.telecom IS 'storage of telecom operations';
@@ -168,6 +181,7 @@ COMMENT ON COLUMN public.telecom.source_card IS 'payment card';
 COMMENT ON COLUMN public.telecom."comments" IS 'description of operation';
 COMMENT ON COLUMN public.telecom.opertype IS 'card or cash';
 COMMENT ON COLUMN public.telecom.user_last_session IS 'owner of operation';
+COMMENT ON COLUMN public.telecom.vat IS 'VAT value';
 
 
 CREATE TABLE IF NOT EXISTS "expenses_type" (
@@ -194,10 +208,17 @@ create table cash_balance
 );
 comment on column cash_balance.balance is 'current cash balance';
 
+create table card_balance
+(
+    balance integer
+);
+comment on column card_balance.balance is 'current card balance';
+
 CREATE TABLE IF NOT EXISTS "cash_operations_log" (
         "id" bigint GENERATED ALWAYS AS IDENTITY NOT NULL UNIQUE,
         "optype" bigint NOT NULL,
         "amount" bigint NOT NULL,
+        "vat" double precision,
         "date" timestamp with time zone NOT NULL,
         "comments" varchar(255) NOT NULL,
         "user_last_session" text NOT NULL,
@@ -209,6 +230,7 @@ COMMENT ON TABLE cash_operations_log  is 'storage of cash operations';
 COMMENT ON COLUMN public.cash_operations_log.id IS 'id of record';
 COMMENT ON COLUMN public.cash_operations_log.optype IS '0 - expense, 1-income';
 COMMENT ON COLUMN public.cash_operations_log.amount IS 'value of money';
+COMMENT ON COLUMN public.cash_operations_log.vat IS 'VAT value';
 COMMENT ON COLUMN public.cash_operations_log."date" IS 'operation date';
 COMMENT ON COLUMN public.cash_operations_log."comments" IS 'description of operation';
 COMMENT ON COLUMN public.cash_operations_log.user_last_session IS 'owner of record';
@@ -252,8 +274,98 @@ ALTER TABLE "telecom" ADD CONSTRAINT "telecom_fk3" FOREIGN KEY ("currency") REFE
 create table users
 (
     username text,
-    password text
+    password text,
+    card1 varchar(5),
+    card2 varchar(5),
+    card3 varchar(5),
+    card4 varchar(5),
+    card_default varchar(5),
+    country text,
+    city text
 );
 comment on table users is 'Authorized users';
 comment on column users.username is 'login id';
 comment on column users.password is 'path phrase';
+comment on column users.card1 is 'card1';
+comment on column users.card2 is 'card2';
+comment on column users.card3 is 'card3';
+comment on column users.card4 is 'card5';
+comment on column users.card_default is 'default card';
+comment on column users.country is 'VAT country';
+comment on column users.city is 'VAT city';
+
+CREATE TABLE public.vat_rules (
+	country text NOT NULL,
+	city text NOT NULL,
+	vat_size int8 NULL
+);
+
+ALTER TABLE public.vat_rules
+    ADD CONSTRAINT vat_rules_country_city_key UNIQUE (country, city);
+
+CREATE TABLE public.cash_expense_id (
+    exp_cash_id int,
+    exp_area text
+);
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+ (23, 'Health'),
+ (24, 'Health'),
+ (25, 'Health'),
+ (26, 'Health'),
+ (27, 'Health'),
+ (28, 'Health'),
+ (42, 'Health'),
+ (22, 'Health'),
+ (45, 'Health');
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+(2, 'Housing'),
+(37, 'Housing'),
+(40, 'Housing'),
+(39, 'Housing'),
+(29, 'Housing'),
+(30, 'Housing'),
+(31, 'Housing'),
+(22, 'Housing');
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+(18, 'Groceries'),
+(19, 'Groceries'),
+(20, 'Groceries'),
+(21, 'Groceries'),
+(43, 'Groceries'),
+(44, 'Groceries'),
+(22, 'Groceries');
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+(8, 'Entertainment'),
+(13, 'Entertainment'),
+(14, 'Entertainment'),
+(15, 'Entertainment'),
+(38, 'Entertainment'),
+(16, 'Entertainment'),
+(17, 'Entertainment');
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+(14, 'Incomes'),
+(13, 'Incomes'),
+(15, 'Incomes'),
+(16, 'Incomes'),
+(41, 'Incomes'),
+(17, 'Incomes'),
+(18, 'Incomes');
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+(5, 'Telecom'),
+(6, 'Telecom'),
+(32, 'Telecom'),
+(12, 'Telecom');
+
+insert into public.cash_expense_id (exp_cash_id, exp_area) values
+(7, 'Travel'),
+(12, 'Travel'),
+(33, 'Travel'),
+(34, 'Travel'),
+(35, 'Travel'),
+(36, 'Travel');

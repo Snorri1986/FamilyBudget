@@ -5,7 +5,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import java.util.Date;
 
 public class GroceriesModelWeb {
-  private String purchesType;
+  private String purchaseType;
   private int amount;
   private String currency;
   @DateTimeFormat(pattern = "dd.MM.yyyy HH:mm")
@@ -20,12 +20,12 @@ public class GroceriesModelWeb {
     this.cardNum = cardNum;
   }
 
-  public String getPurchesType() {
-    return purchesType;
+  public String getPurchaseType() {
+    return purchaseType;
   }
 
-  public void setPurchesType(String purchesType) {
-    this.purchesType = purchesType;
+  public void setPurchaseType(String purchaseType) {
+    this.purchaseType = purchaseType;
   }
 
   public int getAmount() {
@@ -79,7 +79,7 @@ public class GroceriesModelWeb {
   @Override
   public String toString() {
     return "GroceriesModelWeb{" +
-            "purchesType='" + purchesType + '\'' +
+            "purchaseType='" + purchaseType + '\'' +
             ", amount=" + amount +
             ", currency='" + currency + '\'' +
             ", transactionDate=" + transactionDate +

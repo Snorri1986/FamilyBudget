@@ -9,11 +9,82 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import java.util.Map;
+
 @Controller
 public class WebFormsController {
 
   @Autowired
   DBService dbService;
+
+  private static final Map<String, Integer> INCOME_TYPES = Map.of(
+          "Salary", 14,
+          "Bonus", 13,
+          "TravelRefund", 15,
+          "ShopRefund", 16,
+          "Money transfer R", 41,
+          "HumanRefund", 18,
+          "Other", 17
+  );
+
+  private static final Map<String, Integer> ENTERTAINMENT_TYPES = Map.of(
+          "Travel", 8,
+          "Cinema", 13,
+          "Vacation", 14,
+          "Relax", 15,
+          "Restaurant", 38,
+          "Homefest", 16,
+          "Other", 17
+  );
+
+  private static final Map<String, Integer> GROCERY_TYPES = Map.of (
+         "Daily", 18,
+         "Weekly", 19,
+         "Weekend", 20,
+         "Fest", 21,
+         "Clothes", 43,
+         "Lunch at work", 44,
+         "Other", 22
+  );
+
+  private static final Map<String, Integer> HEALTH_TYPES = Map.of (
+          "Dentist",23,
+          "Regular Medical check", 24,
+          "Special doctor", 25,
+          "Swimming pool", 26,
+          "SPA", 27,
+          "Nails", 28,
+          "Haircut", 42,
+          "Gym", 45,
+          "Other", 22
+  );
+
+  private static final Map<String, Integer> RENT_HOUSING_TYPES = Map.of (
+          "Rent", 2,
+          "Mortgage", 37,
+          "Money transfer S", 40,
+          "A-kass", 39,
+          "Electricity", 29,
+          "House equipment", 30,
+          "Renovation", 31,
+          "Other", 22
+  );
+
+  private static final Map<String, Integer> TELECOM_TYPES = Map.of (
+          "Mobile", 5,
+          "Internet", 6,
+          "Roaming bundles", 32,
+          "Other", 12
+  );
+
+  private static final Map<String, Integer> TRAVEL_TYPES = Map.of (
+          "Tickets", 33,
+          "Hotel", 34,
+          "Food in trip", 35,
+          "Travel entertainment", 36,
+          "Public transport", 7,
+          "Other", 12
+  );
 
   @PostMapping("/toMain")
   public String goToMain(@ModelAttribute("login_mod_attribute") UserModel uModel) {
@@ -27,16 +98,15 @@ public class WebFormsController {
     System.out.println("New income" + income.toString());
     IncomeModelDB incomeModelDB = new IncomeModelDB();
 
-    // convert values from web form
-    switch (income.getIncomeType()) {
-      case "Salary": incomeModelDB.setIncomeType(14); break;
-      case "Bonus": incomeModelDB.setIncomeType(13); break;
-      case "TravelRefund":  incomeModelDB.setIncomeType(15); break;
-      case "ShopRefund":  incomeModelDB.setIncomeType(16); break;
-      case "Money transfer R":  incomeModelDB.setIncomeType(41); break;
-      case "HumanRefund":  incomeModelDB.setIncomeType(18); break;
-      case "Other":  incomeModelDB.setIncomeType(17); break;
+    // input gathering
+    Integer incomeTypeId = INCOME_TYPES.get(income.getIncomeType());
+
+    // input validation
+    if (incomeTypeId == null) {
+      throw new IllegalArgumentException("Unknown income type: " + income.getIncomeType());
     }
+
+    incomeModelDB.setIncomeType(incomeTypeId);
 
     incomeModelDB.setAmount(income.getAmount());
     incomeModelDB.setCurrency(Utils.currencyConvert(income.getCurrency()));
@@ -57,19 +127,15 @@ public class WebFormsController {
     System.out.println("Entertainment Registered: " + entModel.toString());
     EntertainmentModelDB entertainmentModelDB = new EntertainmentModelDB();
 
-    switch (entModel.getEventType()) {
-      case "Travel": entertainmentModelDB.setEventType(8); break;
-      case "Cinema": entertainmentModelDB.setEventType(13); break;
-      case "Vacation": entertainmentModelDB.setEventType(14); break;
-      case "Relax": entertainmentModelDB.setEventType(15); break;
-      case "Restaurant": entertainmentModelDB.setEventType(38); break;
-      case "Homefest": entertainmentModelDB.setEventType(16); break;
-      case "Other": entertainmentModelDB.setEventType(17); break;
+    Integer entertainmentTypeId = ENTERTAINMENT_TYPES.get(entModel.getEventType());
+
+    if (entertainmentTypeId == null) {
+      throw new IllegalArgumentException("Unknown entertainment type: " + entModel.getEventType());
     }
 
+    entertainmentModelDB.setEventType(entertainmentTypeId);
     entertainmentModelDB.setAmount(entModel.getAmount());
     entertainmentModelDB.setCurrency(Utils.currencyConvert(entModel.getCurrency()));
-
     entertainmentModelDB.setTransactionDate(entModel.getTransactionDate());
     entertainmentModelDB.setTransactionType(entModel.getTransactionType());
     entertainmentModelDB.setCardNum(entModel.getCardNum());
@@ -86,16 +152,13 @@ public class WebFormsController {
     System.out.println("Groceries purchase Registered: " + grocModel.toString());
     GroceriesModelDB groceriesModelDB = new GroceriesModelDB();
 
-    switch (grocModel.getPurchesType()) {
-      case "Daily": groceriesModelDB.setPurchesType(18); break;
-      case "Weekly": groceriesModelDB.setPurchesType(19); break;
-      case "Weekend": groceriesModelDB.setPurchesType(20); break;
-      case "Fest": groceriesModelDB.setPurchesType(21); break;
-      case "Clothes": groceriesModelDB.setPurchesType(43); break;
-      case "Lunch at work": groceriesModelDB.setPurchesType(44); break;
-      case "Other": groceriesModelDB.setPurchesType(22); break;
+    Integer groceriesTypeId = GROCERY_TYPES.get(grocModel.getPurchaseType());
+
+    if (groceriesTypeId == null) {
+      throw new IllegalArgumentException("Unknown groceries type: " + grocModel.getPurchaseType());
     }
 
+    groceriesModelDB.setPurchaseType(groceriesTypeId);
     groceriesModelDB.setAmount(grocModel.getAmount());
     groceriesModelDB.setCurrency(Utils.currencyConvert(grocModel.getCurrency()));
     groceriesModelDB.setTransactionDate(grocModel.getTransactionDate());
@@ -114,17 +177,13 @@ public class WebFormsController {
     System.out.println("Health purchase Registered: " + healthModel.toString());
     HealthModelDB healthModelDB = new HealthModelDB();
 
-    switch(healthModel.getHealthOperType()) {
-      case "Dentist": healthModelDB.setHealthOperType(23); break;
-      case "Regular Medical check": healthModelDB.setHealthOperType(24); break;
-      case "Special doctor": healthModelDB.setHealthOperType(25); break;
-      case "Swimming pool": healthModelDB.setHealthOperType(26); break;
-      case "SPA": healthModelDB.setHealthOperType(27); break;
-      case "Nails": healthModelDB.setHealthOperType(28); break;
-      case "Haircut": healthModelDB.setHealthOperType(42); break;
-      case "Other": healthModelDB.setHealthOperType(22); break;
+    Integer healthTypeId = HEALTH_TYPES.get(healthModel.getHealthOperationType());
+
+    if (healthTypeId == null) {
+      throw new IllegalArgumentException("Unknown health type: " + healthModel.getHealthOperationType());
     }
 
+    healthModelDB.setHealthOperationType(healthTypeId);
     healthModelDB.setAmount(healthModel.getAmount());
     healthModelDB.setCurrency(Utils.currencyConvert(healthModel.getCurrency()));
     healthModelDB.setTransactionDate(healthModel.getTransactionDate());
@@ -143,17 +202,13 @@ public class WebFormsController {
     System.out.println("RentHousing purchase Registered: " + rentHousingModel.toString());
     RentHousingModelDB rentHousingModelDB = new RentHousingModelDB();
 
-    switch (rentHousingModel.getHousingType()) {
-      case "Rent": rentHousingModelDB.setHousingType(2); break;
-      case "Mortage": rentHousingModelDB.setHousingType(37); break;
-      case "Money transfer S": rentHousingModelDB.setHousingType(40); break;
-      case "A-kass": rentHousingModelDB.setHousingType(39); break;
-      case "Electricity": rentHousingModelDB.setHousingType(29); break;
-      case "HouseEquipments": rentHousingModelDB.setHousingType(30); break;
-      case "Renovation": rentHousingModelDB.setHousingType(31); break;
-      case "Other": rentHousingModelDB.setHousingType(22); break;
+    Integer rentHousingTypeId = RENT_HOUSING_TYPES.get(rentHousingModel.getHousingType());
+
+    if (rentHousingTypeId == null) {
+      throw new IllegalArgumentException("Unknown rent housing type: " + rentHousingModel.getHousingType());
     }
 
+    rentHousingModelDB.setHousingType(rentHousingTypeId);
     rentHousingModelDB.setAmount(rentHousingModel.getAmount());
     rentHousingModelDB.setCurrency(Utils.currencyConvert(rentHousingModel.getCurrency()));
     rentHousingModelDB.setTransactionDate(rentHousingModel.getTransactionDate());
@@ -167,18 +222,18 @@ public class WebFormsController {
     return "s_renthousing";
   }
 
+
   @PostMapping("/registerTelecom")
   public String submitTelecomForm(@ModelAttribute("telecom_mod_attribute") TelecomModelWeb telecomModel) {
     System.out.println("Telecom purchase Registered: " + telecomModel.toString());
     TelecomModelDB telecomModelDB = new TelecomModelDB();
 
-    switch (telecomModel.getTelecomType()) {
-      case "Mobile": telecomModelDB.setTelecomType(5); break;
-      case "Internet": telecomModelDB.setTelecomType(6); break;
-      case "Roaming bundles": telecomModelDB.setTelecomType(32); break;
-      case "Others": telecomModelDB.setTelecomType(12); break;
+    Integer telecomTypeId = TELECOM_TYPES.get(telecomModel.getTelecomType());
+    if (telecomTypeId == null) {
+      throw new IllegalArgumentException("Unknown telecom type: " + telecomModel.getTelecomType());
     }
 
+    telecomModelDB.setTelecomType(telecomTypeId);
     telecomModelDB.setAmount(telecomModel.getAmount());
     telecomModelDB.setCurrency(Utils.currencyConvert(telecomModel.getCurrency()));
     telecomModelDB.setTransactionDate(telecomModel.getTransactionDate());
@@ -197,15 +252,12 @@ public class WebFormsController {
     System.out.println("Travel purchase Registered: " + travelModel.toString());
     TravelModelDB travelModelDB = new TravelModelDB();
 
-    switch(travelModel.getTravelType()) {
-      case "Tickets": travelModelDB.setTravelType(33); break;
-      case "Hotel": travelModelDB.setTravelType(34); break;
-      case "FoodInTrip": travelModelDB.setTravelType(35); break;
-      case "TravelEntertainment": travelModelDB.setTravelType(36); break;
-      case "Public transport": travelModelDB.setTravelType(7); break;
-      case "Others": travelModelDB.setTravelType(12); break;
+    Integer travelTypeId = TRAVEL_TYPES.get(travelModel.getTravelType());
+    if (travelTypeId == null) {
+      throw new IllegalArgumentException("Unknown travel type: " + travelModel.getTravelType());
     }
 
+    travelModelDB.setTravelType(travelTypeId);
     travelModelDB.setAmount(travelModel.getAmount());
     travelModelDB.setCurrency(Utils.currencyConvert(travelModel.getCurrency()));
     travelModelDB.setTransactionDate(travelModel.getTransactionDate());
@@ -229,5 +281,9 @@ public class WebFormsController {
 
   public int getCashBalanceFromDB() {
     return dbService.getCashBalance();
+  }
+
+  public int getCardBalanceFromDB() {
+    return dbService.getCardBalance();
   }
 }

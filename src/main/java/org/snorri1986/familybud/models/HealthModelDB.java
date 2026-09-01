@@ -5,7 +5,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import java.util.Date;
 
 public class HealthModelDB {
-  private int healthOperType;
+  private int healthOperationType;
   private int amount;
   private int currency;
   @DateTimeFormat(pattern = "dd.MM.yyyy HH:mm")
@@ -14,12 +14,12 @@ public class HealthModelDB {
   private int cardNum;
   private String operDescription;
 
-  public int getHealthOperType() {
-    return healthOperType;
+  public int getHealthOperationType() {
+    return healthOperationType;
   }
 
-  public void setHealthOperType(int healthOperType) {
-    this.healthOperType = healthOperType;
+  public void setHealthOperationType(int healthOperType) {
+    this.healthOperationType = healthOperType;
   }
 
   public int getAmount() {
@@ -73,7 +73,7 @@ public class HealthModelDB {
   @Override
   public String toString() {
     return "HealthModelDB{" +
-            "healthOperType=" + healthOperType +
+            "healthOperType=" + healthOperationType +
             ", amount=" + amount +
             ", currency=" + currency +
             ", transactionDate=" + transactionDate +

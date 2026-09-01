@@ -3,10 +3,12 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#265 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#346 - new unit tests for VAT reporting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_travel_expense_report.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_travel_expense_report.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,82 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="39463b5d-c745-4ba0-a53d-69ca4d764770" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="e91b149d-2dcb-4309-91f3-3b864cdc9d39" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="a89c9975-5b69-4df0-a629-350c3c9ce068" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="status" value="Completed" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="5a2f6067-d4d1-4181-899f-ff3115b168df" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="39463b5d-c745-4ba0-a53d-69ca4d764770" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="status" value="Stopped" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="a909fce7-4aef-423a-9b7a-19fd3b426444" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="b946ff8f-7876-46ec-9bee-0ff95e57eadc" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/Applications/FamilyBudget" value="2mzBz2JsMll5mGI6e9tXWZxdcAQ" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="agent-panel" value="Auto" />
+      <entry key="chat-panel" value="Auto" />
+    </selectedModels>
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="654fcba4-0bd7-4989-939a-b6f63b9bbab4" value="Orange" />
+    </colors>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,17 +105,50 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="v2.1.0" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Snorri1986&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Snorri1986/FamilyBudget.git&quot;,
+    &quot;accountId&quot;: &quot;840196f8-48d9-4a4d-b959-d62eebfa69f2&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2mzBz2JsMll5mGI6e9tXWZxdcAQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,11 +159,22 @@
     &quot;Application.FamilyBudgetMain.executor&quot;: &quot;Run&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JUnit.AdditionalFuncPageControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionalFuncPageControllerTest.testGetAnnualExpenseReport.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.AdditionalFuncPageControllerTest.testGetAtmCashPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionalFuncPageControllerTest.testGetCardBalance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionalFuncPageControllerTest.testGetCashBalance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionalFuncPageControllerTest.testGetDailyExpenseReport.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionalFuncPageControllerTest.testGetDailyExpenseReportByCurrency.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionalFuncPageControllerTest.testGetDailyVatReportByCurrencyEUR.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionalFuncPageControllerTest.testGetLocation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionalFuncPageControllerTest.testGetMonthlyExpenseReport.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.AdditionalFuncPageControllerTest.testGetPaymentCardDefault.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.AdditionalFuncPageControllerTest.testGetTravelExpense.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.AdditionalFuncPageControllerTest.testGetTravelReportPage.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.AdditionalFuncPageControllerTest.testInsertNewDefaultPaymentCard.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionalFuncPageControllerTest.testSetNewLocation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionalFuncPageControllerTest.testShowCardBalance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdditionalFuncPageControllerTest.testShowCashBalance.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.AdditionalFuncPageControllerTest.testSubmitNewCardForm.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainPageControllerTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainPageControllerTest.testGetAdditionalFunctionPage.executor&quot;: &quot;Run&quot;,
@@ -61,6 +183,7 @@
     &quot;JUnit.MainPageControllerTest.testGetHealthPage.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainPageControllerTest.testGetIncomePage.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainPageControllerTest.testGetLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MainPageControllerTest.testGetMainPage.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainPageControllerTest.testGetTelecomPage.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainPageControllerTest.testGetTravelPage.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.MainPageControllerTest.testRentHousingPage.executor&quot;: &quot;Run&quot;,
@@ -77,12 +200,31 @@
     &quot;Maven.FamilyBudget [install].executor&quot;: &quot;Run&quot;,
     &quot;Maven.FamilyBudget-LocalTomcat.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v2.1.0&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Applications/FamilyBudget/src/main/resources/static/css&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -91,7 +233,7 @@
       <recent name="D:\Applications\FamilyBudget\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebFormsControllerTest">
+  <component name="RunManager" selected="Maven.FamilyBudget-LocalTomcat">
     <configuration name="AdditionalFuncPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
@@ -107,7 +249,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdditionalFuncPageControllerTest.testGetTravelExpense" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdditionalFuncPageControllerTest.testGetCashBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +259,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetTravelExpense" />
+      <option name="METHOD_NAME" value="testGetCashBalance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdditionalFuncPageControllerTest.testGetTravelReportPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdditionalFuncPageControllerTest.testGetDailyVatReportByCurrencyEUR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -133,13 +275,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
       <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
-      <option name="METHOD_NAME" value="testGetTravelReportPage" />
+      <option name="METHOD_NAME" value="testGetDailyVatReportByCurrencyEUR" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdditionalFuncPageControllerTest.testShowCardBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -148,13 +290,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.MainPageControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
+      <option name="METHOD_NAME" value="testShowCardBalance" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebFormsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdditionalFuncPageControllerTest.testShowCashBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FamilyBudget" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +306,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.snorri1986.familybud.controller" />
-      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.WebFormsControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.snorri1986.familybud.controller.AdditionalFuncPageControllerTest" />
+      <option name="METHOD_NAME" value="testShowCashBalance" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,6 +326,7 @@
             <option name="goals">
               <list>
                 <option value="clean" />
+                <option value="test" />
                 <option value="spring-boot:run" />
               </list>
             </option>
@@ -201,22 +346,30 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetTravelExpense" />
-      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetTravelReportPage" />
-      <item itemvalue="JUnit.MainPageControllerTest" />
+      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetDailyVatReportByCurrencyEUR" />
+      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetCashBalance" />
+      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testShowCardBalance" />
+      <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testShowCashBalance" />
       <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
-      <item itemvalue="JUnit.WebFormsControllerTest" />
       <item itemvalue="Maven.FamilyBudget-LocalTomcat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WebFormsControllerTest" />
-        <item itemvalue="JUnit.MainPageControllerTest" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetTravelExpense" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetTravelReportPage" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetDailyVatReportByCurrencyEUR" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testShowCashBalance" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testShowCardBalance" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetCashBalance" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -226,401 +379,460 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728069786681</updated>
+      <workItem from="1778092851134" duration="4534000" />
+      <workItem from="1778262686464" duration="351000" />
+      <workItem from="1778263097573" duration="8089000" />
+      <workItem from="1778526742836" duration="85000" />
+      <workItem from="1779126942440" duration="226000" />
+      <workItem from="1779127375415" duration="7826000" />
+      <workItem from="1779301107825" duration="7028000" />
+      <workItem from="1780339218721" duration="171000" />
+      <workItem from="1780339430293" duration="7566000" />
+      <workItem from="1780509412394" duration="7054000" />
+      <workItem from="1781549139913" duration="248000" />
+      <workItem from="1781549566513" duration="3104000" />
+      <workItem from="1781631304782" duration="3428000" />
+      <workItem from="1781806294041" duration="146000" />
+      <workItem from="1781806507720" duration="1090000" />
+      <workItem from="1781807729407" duration="1596000" />
+      <workItem from="1781811109347" duration="3376000" />
+      <workItem from="1782324267936" duration="263000" />
+      <workItem from="1782324608343" duration="6894000" />
+      <workItem from="1783622847984" duration="273000" />
+      <workItem from="1783623303727" duration="7017000" />
+      <workItem from="1783971516094" duration="173000" />
+      <workItem from="1783971774016" duration="3187000" />
+      <workItem from="1784575813972" duration="551000" />
+      <workItem from="1784577000968" duration="2959000" />
+      <workItem from="1784661493983" duration="3399000" />
+      <workItem from="1784747914697" duration="7241000" />
+      <workItem from="1784919276041" duration="3420000" />
+      <workItem from="1785866846833" duration="163000" />
+      <workItem from="1785867132546" duration="6866000" />
+      <workItem from="1785957459420" duration="1429000" />
+      <workItem from="1785959225748" duration="629000" />
+      <workItem from="1786124748540" duration="7261000" />
+      <workItem from="1786388130930" duration="194000" />
+      <workItem from="1786388532366" duration="3356000" />
+      <workItem from="1786559916311" duration="82000" />
+      <workItem from="1786560131371" duration="3402000" />
+      <workItem from="1786728621689" duration="6681000" />
+      <workItem from="1786987857283" duration="91000" />
+      <workItem from="1786988034054" duration="7090000" />
+      <workItem from="1787161318760" duration="2991000" />
+      <workItem from="1787164389304" duration="160000" />
+      <workItem from="1787164591863" duration="4419000" />
+      <workItem from="1787394513393" duration="3491000" />
+      <workItem from="1787681711063" duration="3630000" />
+      <workItem from="1787769569437" duration="75000" />
+      <workItem from="1787769704367" duration="3188000" />
+      <workItem from="1787939409535" duration="6557000" />
     </task>
-    <task id="LOCAL-00666" summary="#239 - others">
+    <task id="LOCAL-00954" summary="#328 - others">
       <option name="closed" value="true" />
-      <created>1766091974988</created>
-      <option name="number" value="00666" />
-      <option name="presentableId" value="LOCAL-00666" />
+      <created>1786993443820</created>
+      <option name="number" value="00954" />
+      <option name="presentableId" value="LOCAL-00954" />
       <option name="project" value="LOCAL" />
-      <updated>1766091974988</updated>
+      <updated>1786993443820</updated>
     </task>
-    <task id="LOCAL-00667" summary="#239 - RentHousing. 2 new constructors">
+    <task id="LOCAL-00955" summary="#328 - new version with minus_card_balance call">
       <option name="closed" value="true" />
-      <created>1766092007168</created>
-      <option name="number" value="00667" />
-      <option name="presentableId" value="LOCAL-00667" />
+      <created>1786993473770</created>
+      <option name="number" value="00955" />
+      <option name="presentableId" value="LOCAL-00955" />
       <option name="project" value="LOCAL" />
-      <updated>1766092007168</updated>
+      <updated>1786993473772</updated>
     </task>
-    <task id="LOCAL-00668" summary="#239 - Telecom. 2 new constructors">
+    <task id="LOCAL-00956" summary="#329 - others">
       <option name="closed" value="true" />
-      <created>1766092022431</created>
-      <option name="number" value="00668" />
-      <option name="presentableId" value="LOCAL-00668" />
+      <created>1786994484098</created>
+      <option name="number" value="00956" />
+      <option name="presentableId" value="LOCAL-00956" />
       <option name="project" value="LOCAL" />
-      <updated>1766092022431</updated>
+      <updated>1786994484098</updated>
     </task>
-    <task id="LOCAL-00669" summary="#239 - Travel. 2 new constructors">
+    <task id="LOCAL-00957" summary="#329 - new version with minus_card_balance call">
       <option name="closed" value="true" />
-      <created>1766092039057</created>
-      <option name="number" value="00669" />
-      <option name="presentableId" value="LOCAL-00669" />
+      <created>1786994509913</created>
+      <option name="number" value="00957" />
+      <option name="presentableId" value="LOCAL-00957" />
       <option name="project" value="LOCAL" />
-      <updated>1766092039057</updated>
+      <updated>1786994509914</updated>
     </task>
-    <task id="LOCAL-00670" summary="#239 - Renthousing, Telecom, Travel with default card">
+    <task id="LOCAL-00958" summary="#330 - others">
       <option name="closed" value="true" />
-      <created>1766092069289</created>
-      <option name="number" value="00670" />
-      <option name="presentableId" value="LOCAL-00670" />
+      <created>1786995043726</created>
+      <option name="number" value="00958" />
+      <option name="presentableId" value="LOCAL-00958" />
       <option name="project" value="LOCAL" />
-      <updated>1766092069289</updated>
+      <updated>1786995043726</updated>
     </task>
-    <task id="LOCAL-00671" summary="#240 - new UT. Set new default card">
+    <task id="LOCAL-00959" summary="#330 - new version with minus_card_balance call">
       <option name="closed" value="true" />
-      <created>1767018105832</created>
-      <option name="number" value="00671" />
-      <option name="presentableId" value="LOCAL-00671" />
+      <created>1786995069554</created>
+      <option name="number" value="00959" />
+      <option name="presentableId" value="LOCAL-00959" />
       <option name="project" value="LOCAL" />
-      <updated>1767018105832</updated>
+      <updated>1786995069554</updated>
     </task>
-    <task id="LOCAL-00672" summary="#240 - others">
+    <task id="LOCAL-00960" summary="#331 - others">
       <option name="closed" value="true" />
-      <created>1767018117806</created>
-      <option name="number" value="00672" />
-      <option name="presentableId" value="LOCAL-00672" />
+      <created>1787161898325</created>
+      <option name="number" value="00960" />
+      <option name="presentableId" value="LOCAL-00960" />
       <option name="project" value="LOCAL" />
-      <updated>1767018117806</updated>
+      <updated>1787161898326</updated>
     </task>
-    <task id="LOCAL-00673" summary="#240 - new UT for GetPaymentCardDefault">
+    <task id="LOCAL-00961" summary="#331 - new version with minus_card_balance call">
       <option name="closed" value="true" />
-      <created>1767019639678</created>
-      <option name="number" value="00673" />
-      <option name="presentableId" value="LOCAL-00673" />
+      <created>1787161924791</created>
+      <option name="number" value="00961" />
+      <option name="presentableId" value="LOCAL-00961" />
       <option name="project" value="LOCAL" />
-      <updated>1767019639678</updated>
+      <updated>1787161924791</updated>
     </task>
-    <task id="LOCAL-00674" summary="#240 - others">
+    <task id="LOCAL-00962" summary="#332 - others">
       <option name="closed" value="true" />
-      <created>1767019652599</created>
-      <option name="number" value="00674" />
-      <option name="presentableId" value="LOCAL-00674" />
+      <created>1787162548421</created>
+      <option name="number" value="00962" />
+      <option name="presentableId" value="LOCAL-00962" />
       <option name="project" value="LOCAL" />
-      <updated>1767019652599</updated>
+      <updated>1787162548421</updated>
     </task>
-    <task id="LOCAL-00675" summary="#248 - clean up">
+    <task id="LOCAL-00963" summary="#332 - new version with minus_card_balance call">
       <option name="closed" value="true" />
-      <created>1767360221791</created>
-      <option name="number" value="00675" />
-      <option name="presentableId" value="LOCAL-00675" />
+      <created>1787162653708</created>
+      <option name="number" value="00963" />
+      <option name="presentableId" value="LOCAL-00963" />
       <option name="project" value="LOCAL" />
-      <updated>1767360221791</updated>
+      <updated>1787162653709</updated>
     </task>
-    <task id="LOCAL-00676" summary="#248 - new button">
+    <task id="LOCAL-00964" summary="#440 - code review summary">
       <option name="closed" value="true" />
-      <created>1767360835435</created>
-      <option name="number" value="00676" />
-      <option name="presentableId" value="LOCAL-00676" />
+      <created>1787166299380</created>
+      <option name="number" value="00964" />
+      <option name="presentableId" value="LOCAL-00964" />
       <option name="project" value="LOCAL" />
-      <updated>1767360835435</updated>
+      <updated>1787166299380</updated>
     </task>
-    <task id="LOCAL-00677" summary="#248 - others">
+    <task id="LOCAL-00965" summary="#440 - others">
       <option name="closed" value="true" />
-      <created>1767360847746</created>
-      <option name="number" value="00677" />
-      <option name="presentableId" value="LOCAL-00677" />
+      <created>1787166310579</created>
+      <option name="number" value="00965" />
+      <option name="presentableId" value="LOCAL-00965" />
       <option name="project" value="LOCAL" />
-      <updated>1767360847746</updated>
+      <updated>1787166310579</updated>
     </task>
-    <task id="LOCAL-00678" summary="#249 - new button">
+    <task id="LOCAL-00966" summary="#440 - new web page showing card balance">
       <option name="closed" value="true" />
-      <created>1767362304614</created>
-      <option name="number" value="00678" />
-      <option name="presentableId" value="LOCAL-00678" />
+      <created>1787166341876</created>
+      <option name="number" value="00966" />
+      <option name="presentableId" value="LOCAL-00966" />
       <option name="project" value="LOCAL" />
-      <updated>1767362304614</updated>
+      <updated>1787166341877</updated>
     </task>
-    <task id="LOCAL-00679" summary="#249 - others">
+    <task id="LOCAL-00967" summary="#441 - code review summary">
       <option name="closed" value="true" />
-      <created>1767362321748</created>
-      <option name="number" value="00679" />
-      <option name="presentableId" value="LOCAL-00679" />
+      <created>1787167435736</created>
+      <option name="number" value="00967" />
+      <option name="presentableId" value="LOCAL-00967" />
       <option name="project" value="LOCAL" />
-      <updated>1767362321748</updated>
+      <updated>1787167435736</updated>
     </task>
-    <task id="LOCAL-00680" summary="#253 - new model for TravelRequest">
+    <task id="LOCAL-00968" summary="#441 - others">
       <option name="closed" value="true" />
-      <created>1767362537821</created>
-      <option name="number" value="00680" />
-      <option name="presentableId" value="LOCAL-00680" />
+      <created>1787167449776</created>
+      <option name="number" value="00968" />
+      <option name="presentableId" value="LOCAL-00968" />
       <option name="project" value="LOCAL" />
-      <updated>1767362537821</updated>
+      <updated>1787167449776</updated>
     </task>
-    <task id="LOCAL-00681" summary="#253 - others">
+    <task id="LOCAL-00969" summary="#441 - new method getCardBalance()">
       <option name="closed" value="true" />
-      <created>1767362551682</created>
-      <option name="number" value="00681" />
-      <option name="presentableId" value="LOCAL-00681" />
+      <created>1787167481740</created>
+      <option name="number" value="00969" />
+      <option name="presentableId" value="LOCAL-00969" />
       <option name="project" value="LOCAL" />
-      <updated>1767362551682</updated>
+      <updated>1787167481740</updated>
     </task>
-    <task id="LOCAL-00682" summary="#257 - public constructor">
+    <task id="LOCAL-00970" summary="#442 - others">
       <option name="closed" value="true" />
-      <created>1767363355753</created>
-      <option name="number" value="00682" />
-      <option name="presentableId" value="LOCAL-00682" />
+      <created>1787167779505</created>
+      <option name="number" value="00970" />
+      <option name="presentableId" value="LOCAL-00970" />
       <option name="project" value="LOCAL" />
-      <updated>1767363355753</updated>
+      <updated>1787167779505</updated>
     </task>
-    <task id="LOCAL-00683" summary="#257 - new get method getTravelReport(Model model)">
+    <task id="LOCAL-00971" summary="#442 - new method getCardBalanceFromDB()">
       <option name="closed" value="true" />
-      <created>1767363431286</created>
-      <option name="number" value="00683" />
-      <option name="presentableId" value="LOCAL-00683" />
+      <created>1787167805424</created>
+      <option name="number" value="00971" />
+      <option name="presentableId" value="LOCAL-00971" />
       <option name="project" value="LOCAL" />
-      <updated>1767363431286</updated>
+      <updated>1787167805424</updated>
     </task>
-    <task id="LOCAL-00684" summary="#257 - new empty web page">
+    <task id="LOCAL-00972" summary="#443 - code review summary">
       <option name="closed" value="true" />
-      <created>1767363446869</created>
-      <option name="number" value="00684" />
-      <option name="presentableId" value="LOCAL-00684" />
+      <created>1787168633737</created>
+      <option name="number" value="00972" />
+      <option name="presentableId" value="LOCAL-00972" />
       <option name="project" value="LOCAL" />
-      <updated>1767363446869</updated>
+      <updated>1787168633737</updated>
     </task>
-    <task id="LOCAL-00685" summary="#257 - others">
+    <task id="LOCAL-00973" summary="#443 - others">
       <option name="closed" value="true" />
-      <created>1767363458937</created>
-      <option name="number" value="00685" />
-      <option name="presentableId" value="LOCAL-00685" />
+      <created>1787168644710</created>
+      <option name="number" value="00973" />
+      <option name="presentableId" value="LOCAL-00973" />
       <option name="project" value="LOCAL" />
-      <updated>1767363458937</updated>
+      <updated>1787168644710</updated>
     </task>
-    <task id="LOCAL-00686" summary="#250 - others">
+    <task id="LOCAL-00974" summary="#443 - new endpoint - cardBalance">
       <option name="closed" value="true" />
-      <created>1768245419474</created>
-      <option name="number" value="00686" />
-      <option name="presentableId" value="LOCAL-00686" />
+      <created>1787168673743</created>
+      <option name="number" value="00974" />
+      <option name="presentableId" value="LOCAL-00974" />
       <option name="project" value="LOCAL" />
-      <updated>1768245419476</updated>
+      <updated>1787168673743</updated>
     </task>
-    <task id="LOCAL-00687" summary="#250 - onclick attrib for button Travel report">
+    <task id="LOCAL-00975" summary="#444 - others">
       <option name="closed" value="true" />
-      <created>1768245463788</created>
-      <option name="number" value="00687" />
-      <option name="presentableId" value="LOCAL-00687" />
+      <created>1787168927956</created>
+      <option name="number" value="00975" />
+      <option name="presentableId" value="LOCAL-00975" />
       <option name="project" value="LOCAL" />
-      <updated>1768245463788</updated>
+      <updated>1787168927956</updated>
     </task>
-    <task id="LOCAL-00688" summary="#250 - web page with form and css to it">
+    <task id="LOCAL-00976" summary="#444 - button card balance became alive">
       <option name="closed" value="true" />
-      <created>1768245490683</created>
-      <option name="number" value="00688" />
-      <option name="presentableId" value="LOCAL-00688" />
+      <created>1787168963226</created>
+      <option name="number" value="00976" />
+      <option name="presentableId" value="LOCAL-00976" />
       <option name="project" value="LOCAL" />
-      <updated>1768245490683</updated>
+      <updated>1787168963226</updated>
     </task>
-    <task id="LOCAL-00689" summary="#250 - change endpoint name">
+    <task id="LOCAL-00977" summary="#445 - others">
       <option name="closed" value="true" />
-      <created>1768245514263</created>
-      <option name="number" value="00689" />
-      <option name="presentableId" value="LOCAL-00689" />
+      <created>1787396652789</created>
+      <option name="number" value="00977" />
+      <option name="presentableId" value="LOCAL-00977" />
       <option name="project" value="LOCAL" />
-      <updated>1768245514263</updated>
+      <updated>1787396652790</updated>
     </task>
-    <task id="LOCAL-00690" summary="#252 - new DB function">
+    <task id="LOCAL-00978" summary="#445 - removed unused commented code">
       <option name="closed" value="true" />
-      <created>1768419097474</created>
-      <option name="number" value="00690" />
-      <option name="presentableId" value="LOCAL-00690" />
+      <created>1787396713983</created>
+      <option name="number" value="00978" />
+      <option name="presentableId" value="LOCAL-00978" />
       <option name="project" value="LOCAL" />
-      <updated>1768419097476</updated>
+      <updated>1787396713983</updated>
     </task>
-    <task id="LOCAL-00691" summary="#252 - others">
+    <task id="LOCAL-00979" summary="#445 - unit tests for show balances">
       <option name="closed" value="true" />
-      <created>1768419106019</created>
-      <option name="number" value="00691" />
-      <option name="presentableId" value="LOCAL-00691" />
+      <created>1787396751707</created>
+      <option name="number" value="00979" />
+      <option name="presentableId" value="LOCAL-00979" />
       <option name="project" value="LOCAL" />
-      <updated>1768419106019</updated>
+      <updated>1787396751707</updated>
     </task>
-    <task id="LOCAL-00692" summary="#254 - model for response from DB">
+    <task id="LOCAL-00980" summary="#335 - others">
       <option name="closed" value="true" />
-      <created>1768419680690</created>
-      <option name="number" value="00692" />
-      <option name="presentableId" value="LOCAL-00692" />
+      <created>1787681904365</created>
+      <option name="number" value="00980" />
+      <option name="presentableId" value="LOCAL-00980" />
       <option name="project" value="LOCAL" />
-      <updated>1768419680690</updated>
+      <updated>1787681904366</updated>
     </task>
-    <task id="LOCAL-00693" summary="#254 - others">
+    <task id="LOCAL-00981" summary="#335 - new name and new VAT button">
       <option name="closed" value="true" />
-      <created>1768419692263</created>
-      <option name="number" value="00693" />
-      <option name="presentableId" value="LOCAL-00693" />
+      <created>1787681946367</created>
+      <option name="number" value="00981" />
+      <option name="presentableId" value="LOCAL-00981" />
       <option name="project" value="LOCAL" />
-      <updated>1768419692263</updated>
+      <updated>1787681946372</updated>
     </task>
-    <task id="LOCAL-00694" summary="#259 - new method on DBService side">
+    <task id="LOCAL-00982" summary="#336 - others">
       <option name="closed" value="true" />
-      <created>1768420686243</created>
-      <option name="number" value="00694" />
-      <option name="presentableId" value="LOCAL-00694" />
+      <created>1787682981223</created>
+      <option name="number" value="00982" />
+      <option name="presentableId" value="LOCAL-00982" />
       <option name="project" value="LOCAL" />
-      <updated>1768420686245</updated>
+      <updated>1787682981223</updated>
     </task>
-    <task id="LOCAL-00695" summary="#259 - others">
+    <task id="LOCAL-00983" summary="#336 - new webpage and css for it">
       <option name="closed" value="true" />
-      <created>1768420702676</created>
-      <option name="number" value="00695" />
-      <option name="presentableId" value="LOCAL-00695" />
+      <created>1787683018820</created>
+      <option name="number" value="00983" />
+      <option name="presentableId" value="LOCAL-00983" />
       <option name="project" value="LOCAL" />
-      <updated>1768420702676</updated>
+      <updated>1787683018821</updated>
     </task>
-    <task id="LOCAL-00696" summary="#260 - integer 0 as source_card for cash">
+    <task id="LOCAL-00984" summary="#338 - others">
       <option name="closed" value="true" />
-      <created>1768593279504</created>
-      <option name="number" value="00696" />
-      <option name="presentableId" value="LOCAL-00696" />
+      <created>1787684110302</created>
+      <option name="number" value="00984" />
+      <option name="presentableId" value="LOCAL-00984" />
       <option name="project" value="LOCAL" />
-      <updated>1768593279506</updated>
+      <updated>1787684110303</updated>
     </task>
-    <task id="LOCAL-00697" summary="#251 - method should be ready to get multiple rows">
+    <task id="LOCAL-00985" summary="#338 - new function retrieves all daily VAT">
       <option name="closed" value="true" />
-      <created>1768593419129</created>
-      <option name="number" value="00697" />
-      <option name="presentableId" value="LOCAL-00697" />
+      <created>1787684154628</created>
+      <option name="number" value="00985" />
+      <option name="presentableId" value="LOCAL-00985" />
       <option name="project" value="LOCAL" />
-      <updated>1768593419129</updated>
+      <updated>1787684154630</updated>
     </task>
-    <task id="LOCAL-00698" summary="#251 - method to get travel expenses from DB">
+    <task id="LOCAL-00986" summary="#339 - others">
       <option name="closed" value="true" />
-      <created>1768593454237</created>
-      <option name="number" value="00698" />
-      <option name="presentableId" value="LOCAL-00698" />
+      <created>1787772370874</created>
+      <option name="number" value="00986" />
+      <option name="presentableId" value="LOCAL-00986" />
       <option name="project" value="LOCAL" />
-      <updated>1768593454237</updated>
+      <updated>1787772370875</updated>
     </task>
-    <task id="LOCAL-00699" summary="#251 - others">
+    <task id="LOCAL-00987" summary="#339 - function to retrieve VAT monthly">
       <option name="closed" value="true" />
-      <created>1768593469476</created>
-      <option name="number" value="00699" />
-      <option name="presentableId" value="LOCAL-00699" />
+      <created>1787772410178</created>
+      <option name="number" value="00987" />
+      <option name="presentableId" value="LOCAL-00987" />
       <option name="project" value="LOCAL" />
-      <updated>1768593469476</updated>
+      <updated>1787772410178</updated>
     </task>
-    <task id="LOCAL-00700" summary="#225 - comments clean up">
+    <task id="LOCAL-00988" summary="#340 - others">
       <option name="closed" value="true" />
-      <created>1769455744940</created>
-      <option name="number" value="00700" />
-      <option name="presentableId" value="LOCAL-00700" />
+      <created>1787940378976</created>
+      <option name="number" value="00988" />
+      <option name="presentableId" value="LOCAL-00988" />
       <option name="project" value="LOCAL" />
-      <updated>1769455744942</updated>
+      <updated>1787940378977</updated>
     </task>
-    <task id="LOCAL-00701" summary="#225 - others">
+    <task id="LOCAL-00989" summary="#340 - others">
       <option name="closed" value="true" />
-      <created>1769455760588</created>
-      <option name="number" value="00701" />
-      <option name="presentableId" value="LOCAL-00701" />
+      <created>1787940387876</created>
+      <option name="number" value="00989" />
+      <option name="presentableId" value="LOCAL-00989" />
       <option name="project" value="LOCAL" />
-      <updated>1769455760588</updated>
+      <updated>1787940387876</updated>
     </task>
-    <task id="LOCAL-00702" summary="#225 - clean up of old version getTravelExpenseReportDB">
+    <task id="LOCAL-00990" summary="#340 - function to retrieve VAT annual">
       <option name="closed" value="true" />
-      <created>1769455822644</created>
-      <option name="number" value="00702" />
-      <option name="presentableId" value="LOCAL-00702" />
+      <created>1787940405692</created>
+      <option name="number" value="00990" />
+      <option name="presentableId" value="LOCAL-00990" />
       <option name="project" value="LOCAL" />
-      <updated>1769455822644</updated>
+      <updated>1787940405692</updated>
     </task>
-    <task id="LOCAL-00703" summary="#225 - html solution">
+    <task id="LOCAL-00991" summary="#342 - others">
       <option name="closed" value="true" />
-      <created>1769455836592</created>
-      <option name="number" value="00703" />
-      <option name="presentableId" value="LOCAL-00703" />
+      <created>1787940964432</created>
+      <option name="number" value="00991" />
+      <option name="presentableId" value="LOCAL-00991" />
       <option name="project" value="LOCAL" />
-      <updated>1769455836594</updated>
+      <updated>1787940964432</updated>
     </task>
-    <task id="LOCAL-00704" summary="#261 - others">
+    <task id="LOCAL-00992" summary="#342 - new method getDailyVatReportByCurrency">
       <option name="closed" value="true" />
-      <created>1769458018758</created>
-      <option name="number" value="00704" />
-      <option name="presentableId" value="LOCAL-00704" />
+      <created>1787941035978</created>
+      <option name="number" value="00992" />
+      <option name="presentableId" value="LOCAL-00992" />
       <option name="project" value="LOCAL" />
-      <updated>1769458018758</updated>
+      <updated>1787941035980</updated>
     </task>
-    <task id="LOCAL-00705" summary="#261 - calculation of sums">
+    <task id="LOCAL-00993" summary="#343 - others">
       <option name="closed" value="true" />
-      <created>1769458035508</created>
-      <option name="number" value="00705" />
-      <option name="presentableId" value="LOCAL-00705" />
+      <created>1787941424282</created>
+      <option name="number" value="00993" />
+      <option name="presentableId" value="LOCAL-00993" />
       <option name="project" value="LOCAL" />
-      <updated>1769458035508</updated>
+      <updated>1787941424283</updated>
     </task>
-    <task id="LOCAL-00706" summary="#261 - show on html side">
+    <task id="LOCAL-00994" summary="#343 - new method getMonthlyVatReportByCurrency">
       <option name="closed" value="true" />
-      <created>1769458053134</created>
-      <option name="number" value="00706" />
-      <option name="presentableId" value="LOCAL-00706" />
+      <created>1787941456792</created>
+      <option name="number" value="00994" />
+      <option name="presentableId" value="LOCAL-00994" />
       <option name="project" value="LOCAL" />
-      <updated>1769458053134</updated>
+      <updated>1787941456792</updated>
     </task>
-    <task id="LOCAL-00707" summary="#256 - ut for getTravelReport">
+    <task id="LOCAL-00995" summary="#344 - others">
       <option name="closed" value="true" />
-      <created>1769799761286</created>
-      <option name="number" value="00707" />
-      <option name="presentableId" value="LOCAL-00707" />
+      <created>1787941839984</created>
+      <option name="number" value="00995" />
+      <option name="presentableId" value="LOCAL-00995" />
       <option name="project" value="LOCAL" />
-      <updated>1769799761286</updated>
+      <updated>1787941839985</updated>
     </task>
-    <task id="LOCAL-00708" summary="#256 - others">
+    <task id="LOCAL-00996" summary="#344 - getAnnualVatReportByCurrency">
       <option name="closed" value="true" />
-      <created>1769799776856</created>
-      <option name="number" value="00708" />
-      <option name="presentableId" value="LOCAL-00708" />
+      <created>1787941868983</created>
+      <option name="number" value="00996" />
+      <option name="presentableId" value="LOCAL-00996" />
       <option name="project" value="LOCAL" />
-      <updated>1769799776856</updated>
+      <updated>1787941868983</updated>
     </task>
-    <task id="LOCAL-00709" summary="#256 - UT for testGetTravelExpense">
+    <task id="LOCAL-00997" summary="#345 - others">
       <option name="closed" value="true" />
-      <created>1769801501366</created>
-      <option name="number" value="00709" />
-      <option name="presentableId" value="LOCAL-00709" />
+      <created>1787942743109</created>
+      <option name="number" value="00997" />
+      <option name="presentableId" value="LOCAL-00997" />
       <option name="project" value="LOCAL" />
-      <updated>1769801501366</updated>
+      <updated>1787942743109</updated>
     </task>
-    <task id="LOCAL-00710" summary="#256 - others">
+    <task id="LOCAL-00998" summary="#345 - new endpoint vat_report">
       <option name="closed" value="true" />
-      <created>1769801516972</created>
-      <option name="number" value="00710" />
-      <option name="presentableId" value="LOCAL-00710" />
+      <created>1787942769305</created>
+      <option name="number" value="00998" />
+      <option name="presentableId" value="LOCAL-00998" />
       <option name="project" value="LOCAL" />
-      <updated>1769801516972</updated>
+      <updated>1787942769305</updated>
     </task>
-    <task id="LOCAL-00711" summary="#128 - DB switch to Prod">
+    <task id="LOCAL-00999" summary="#337 - others">
       <option name="closed" value="true" />
-      <created>1769802114377</created>
-      <option name="number" value="00711" />
-      <option name="presentableId" value="LOCAL-00711" />
+      <created>1787943093986</created>
+      <option name="number" value="00999" />
+      <option name="presentableId" value="LOCAL-00999" />
       <option name="project" value="LOCAL" />
-      <updated>1769802114377</updated>
+      <updated>1787943093986</updated>
     </task>
-    <task id="LOCAL-00712" summary="#128 - others">
+    <task id="LOCAL-01000" summary="#337 - call vat_report via button">
       <option name="closed" value="true" />
-      <created>1769802127597</created>
-      <option name="number" value="00712" />
-      <option name="presentableId" value="LOCAL-00712" />
+      <created>1787943125962</created>
+      <option name="number" value="01000" />
+      <option name="presentableId" value="LOCAL-01000" />
       <option name="project" value="LOCAL" />
-      <updated>1769802127597</updated>
+      <updated>1787943125962</updated>
     </task>
-    <task id="LOCAL-00713" summary="#265 - cast for opertype field">
+    <task id="LOCAL-01001" summary="#346 - others">
       <option name="closed" value="true" />
-      <created>1770840484105</created>
-      <option name="number" value="00713" />
-      <option name="presentableId" value="LOCAL-00713" />
+      <created>1787943885765</created>
+      <option name="number" value="01001" />
+      <option name="presentableId" value="LOCAL-01001" />
       <option name="project" value="LOCAL" />
-      <updated>1770840484105</updated>
+      <updated>1787943885765</updated>
     </task>
-    <task id="LOCAL-00714" summary="#265 - others">
+    <task id="LOCAL-01002" summary="#346 - new unit tests for VAT reporting">
       <option name="closed" value="true" />
-      <created>1770840495282</created>
-      <option name="number" value="00714" />
-      <option name="presentableId" value="LOCAL-00714" />
+      <created>1787943910632</created>
+      <option name="number" value="01002" />
+      <option name="presentableId" value="LOCAL-01002" />
       <option name="project" value="LOCAL" />
-      <updated>1770840495282</updated>
+      <updated>1787943910632</updated>
     </task>
-    <option name="localTasksCounter" value="715" />
+    <option name="localTasksCounter" value="1003" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.thymeleaf:thymeleaf" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -633,7 +845,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -646,31 +858,43 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#250 - change endpoint name" />
-    <MESSAGE value="#252 - new DB function" />
-    <MESSAGE value="#252 - others" />
-    <MESSAGE value="#254 - model for response from DB" />
-    <MESSAGE value="#254 - others" />
-    <MESSAGE value="#259 - new method on DBService side" />
-    <MESSAGE value="#259 - others" />
-    <MESSAGE value="#260 - integer 0 as source_card for cash" />
-    <MESSAGE value="#251 - method should be ready to get multiple rows" />
-    <MESSAGE value="#251 - method to get travel expenses from DB" />
-    <MESSAGE value="#251 - others" />
-    <MESSAGE value="#225 - comments clean up" />
-    <MESSAGE value="#225 - others" />
-    <MESSAGE value="#225 - clean up of old version getTravelExpenseReportDB" />
-    <MESSAGE value="#225 - html solution" />
-    <MESSAGE value="#261 - others" />
-    <MESSAGE value="#261 - calculation of sums" />
-    <MESSAGE value="#261 - show on html side" />
-    <MESSAGE value="#256 - ut for getTravelReport" />
-    <MESSAGE value="#256 - UT for testGetTravelExpense" />
-    <MESSAGE value="#256 - others" />
-    <MESSAGE value="#128 - DB switch to Prod" />
-    <MESSAGE value="#128 - others" />
-    <MESSAGE value="#265 - cast for opertype field" />
-    <MESSAGE value="#265 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#265 - others" />
+    <MESSAGE value="#445 - others" />
+    <MESSAGE value="#445 - removed unused commented code" />
+    <MESSAGE value="#445 - unit tests for show balances" />
+    <MESSAGE value="#335 - others" />
+    <MESSAGE value="#335 - new name and new VAT button" />
+    <MESSAGE value="#336 - others" />
+    <MESSAGE value="#336 - new webpage and css for it" />
+    <MESSAGE value="#338 - others" />
+    <MESSAGE value="#338 - new function retrieves all daily VAT" />
+    <MESSAGE value="#339 - others" />
+    <MESSAGE value="#339 - function to retrieve VAT monthly" />
+    <MESSAGE value="#340 - others" />
+    <MESSAGE value="#340 - function to retrieve VAT annual" />
+    <MESSAGE value="#342 - others" />
+    <MESSAGE value="#342 - new method getDailyVatReportByCurrency" />
+    <MESSAGE value="#343 - others" />
+    <MESSAGE value="#343 - new method getMonthlyVatReportByCurrency" />
+    <MESSAGE value="#344 - others" />
+    <MESSAGE value="#344 - getAnnualVatReportByCurrency" />
+    <MESSAGE value="#345 - others" />
+    <MESSAGE value="#345 - new endpoint vat_report" />
+    <MESSAGE value="#337 - others" />
+    <MESSAGE value="#337 - call vat_report via button" />
+    <MESSAGE value="#346 - others" />
+    <MESSAGE value="#346 - new unit tests for VAT reporting" />
+    <option name="LAST_COMMIT_MESSAGE" value="#346 - new unit tests for VAT reporting" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

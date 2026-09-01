@@ -10,12 +10,16 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.ZoneId;
 import java.util.List;
+import java.util.Objects;
 
 @Service
 public class DBService {
 
   @Autowired
   private JdbcTemplate jdbcTemplate;
+
+  private static final String GET_LOCATION_SQL =
+          "SELECT user_country, user_city FROM public.get_location()";
 
   public void insertNewIncome(IncomeModelDB incomeModel) {
     String sql = "SELECT public.i_income(?,?,?,?,?,?,?)";
@@ -42,7 +46,7 @@ public class DBService {
 
   public void insertNewGroceries(GroceriesModelDB groceriesModelDB) {
     String sql = "SELECT public.i_groceries(?,?,?,?,?,?,?)";
-    jdbcTemplate.queryForObject(sql, new Object[]{groceriesModelDB.getPurchesType(),
+    jdbcTemplate.queryForObject(sql, new Object[]{groceriesModelDB.getPurchaseType(),
             groceriesModelDB.getAmount(),
             groceriesModelDB.getCurrency(),
             groceriesModelDB.getTransactionDate(),
@@ -54,7 +58,7 @@ public class DBService {
 
   public void insertNewHealth(HealthModelDB healthModelDB) {
     String sql = "SELECT public.i_health(?,?,?,?,?,?,?)";
-    jdbcTemplate.queryForObject(sql, new Object[]{healthModelDB.getHealthOperType(),
+    jdbcTemplate.queryForObject(sql, new Object[]{healthModelDB.getHealthOperationType(),
             healthModelDB.getAmount(),
             healthModelDB.getCurrency(),
             healthModelDB.getTransactionDate(),
@@ -124,9 +128,62 @@ public class DBService {
     }, String.class);
   }
 
+  public String insertNewLocation(LocationModel location) {
+    Objects.requireNonNull(location, "location must not be null");
+
+    return jdbcTemplate.queryForObject(
+            "SELECT public.i_location(?, ?, ?)",
+            String.class,
+            location.getCountry(),
+            location.getCity(),
+            location.getVat()
+    );
+  }
+
   public int getCashBalance() {
     String sql = "SELECT public.get_cash_balance()";
     return jdbcTemplate.queryForObject(sql, Integer.class);
+  }
+
+  public int getCardBalance() {
+    String sql = "SELECT public.get_card_balance()";
+    Integer result = jdbcTemplate.queryForObject(sql, Integer.class);
+    return result != null ? result : 0;
+  }
+
+  public int getDailyExpenseReportByCurrency(int currencyId) {
+     String sql = "SELECT public.get_all_expenses_daily(?)";
+     return jdbcTemplate.queryForObject(sql, new Object[]{currencyId}, Integer.class);
+  }
+
+   public int getMonthlyExpenseReportByCurrency(int currencyId) {
+     String sql = "SELECT public.get_all_expenses_monthly(?)";
+     return jdbcTemplate.queryForObject(sql, new Object[]{currencyId}, Integer.class);
+  }
+
+   public int getAnnualExpenseReportByCurrency(int currencyId) {
+     String sql = "SELECT public.get_all_expenses_annual(?)";
+     return jdbcTemplate.queryForObject(sql, new Object[]{currencyId}, Integer.class);
+  }
+
+  public double getDailyVatReportByCurrency(int currencyId) {
+    String sql = "SELECT public.get_all_vat_daily(?)";
+    return jdbcTemplate.queryForObject(sql, new Object[]{currencyId}, Double.class);
+  }
+
+  public double getMonthlyVatReportByCurrency(int currencyId) {
+    String sql = "SELECT public.get_all_vat_monthly(?)";
+    return jdbcTemplate.queryForObject(sql, new Object[]{currencyId}, Double.class);
+  }
+
+  public double getAnnualVatReportByCurrency(int currencyId) {
+    String sql = "SELECT public.get_all_vat_annual(?)";
+    return jdbcTemplate.queryForObject(sql, new Object[]{currencyId}, Double.class);
+  }
+
+  public LocationModel getLocation() {
+    return jdbcTemplate.queryForObject(GET_LOCATION_SQL, (rs, rowNum) -> new LocationModel(rs.getString("user_country"),
+            rs.getString("user_city")));
   }
 
   public List<LastTenIncomesModel> getLastTenIncomesCard() {
@@ -305,7 +362,7 @@ public class DBService {
     return jdbcTemplate.query(sql, new RowMapper<LastTenTelecomOperationsModel>() {
       @Override
       public LastTenTelecomOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
-        return new LastTenTelecomOperationsModel(rs.getLong("h_type_id"),
+        return new LastTenTelecomOperationsModel(rs.getLong("ex_type_id"),
                 rs.getLong("amount"),
                 rs.getLong("currency"),
                 rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),
@@ -338,7 +395,7 @@ public class DBService {
     return jdbcTemplate.query(sql,new RowMapper<LastTenTravelOperationsModel>() {
       @Override
       public LastTenTravelOperationsModel mapRow(ResultSet rs, int rowNum) throws SQLException {
-        return new LastTenTravelOperationsModel(rs.getLong("h_type_id"),
+        return new LastTenTravelOperationsModel(rs.getLong("ex_type_id"),
                 rs.getLong("amount"),
                 rs.getLong("currency"),
                 rs.getTimestamp("date").toInstant().atZone(ZoneId.systemDefault()),

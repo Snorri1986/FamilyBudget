@@ -3,15 +3,17 @@ package org.snorri1986.familybud.controller;
 import org.snorri1986.familybud.models.*;
 import org.snorri1986.familybud.service.DBService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import java.math.BigDecimal;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 public class AdditionalFuncPageController {
@@ -39,10 +41,36 @@ public class AdditionalFuncPageController {
     return "cash_balance";
   }
 
+  @GetMapping("/cardBalance")
+  public String showCardBalance(@NonNull Model model) {
+    try {
+      int cardBalance = webFormsController.getCardBalanceFromDB();
+      model.addAttribute("cardBalance", cardBalance);
+    } catch (Exception e) {
+      System.err.println("Error retrieving card balance: " + e.getMessage());
+      model.addAttribute("error", "Unable to load card balance. Please try again later.");
+      model.addAttribute("cardBalance", 0);
+    }
+    return "card_balance";
+  }
+
+  @GetMapping("/showLocation")
+  public String showLocation(Model model) {
+    LocationModel location = dbService.getLocation();
+    model.addAttribute("location", location);
+    return "show_location";
+  }
+
   @GetMapping("/payment_card")
   public String setNewPaymentCard(Model model) {
     model.addAttribute("card_mod_attribute", new DefaultPaymentCardModel());
     return "new_card";
+  }
+
+  @GetMapping("/set_location")
+  public String setNewLocation(Model model) {
+    model.addAttribute("location_attribute", new LocationModel());
+    return "location";
   }
 
   @PostMapping("/registerNewCard")
@@ -53,6 +81,18 @@ public class AdditionalFuncPageController {
     System.out.println("New card number to DB" + defaultPaymentCardModel.toString());
     dbService.insertNewDefaultPaymentCard(defaultPaymentCardModel);
     return "s_card";
+  }
+
+  @PostMapping("/registerNewLocation")
+  public String submitNewLocation(@ModelAttribute("location_attribute") LocationModel locationModel) {
+    LocationModel locationModelSendToDB = new LocationModel();
+    locationModelSendToDB.setCity(locationModel.getCity());
+    locationModelSendToDB.setCountry(locationModel.getCountry());
+    locationModelSendToDB.setVat(locationModel.getVat());
+    // logging
+    System.out.println("New location has been sent to DB" + locationModelSendToDB.toString());
+    dbService.insertNewLocation(locationModelSendToDB);
+    return "s_location";
   }
 
   @GetMapping("/travel_report")
@@ -94,5 +134,59 @@ public class AdditionalFuncPageController {
     model.addAttribute("SumDKK", totalDkkAmount);
     model.addAttribute("SumUAH", totalUahAmount);
     return "travel_report";
+  }
+
+  @GetMapping("/expense_report")
+   public String getExpenseReport(Model model) {
+     // Currency IDs: EUR = 1, UAH = 2, DKK = 3, USD = 4
+     Map<String, Object> dailyExpense = new HashMap<>();
+     dailyExpense.put("EUR", dbService.getDailyExpenseReportByCurrency(1));
+     dailyExpense.put("UAH", dbService.getDailyExpenseReportByCurrency(2));
+     dailyExpense.put("DKK", dbService.getDailyExpenseReportByCurrency(3));
+     dailyExpense.put("USD", dbService.getDailyExpenseReportByCurrency(4));
+
+     Map<String, Object> monthlyExpense = new HashMap<>();
+     monthlyExpense.put("EUR", dbService.getMonthlyExpenseReportByCurrency(1));
+     monthlyExpense.put("UAH", dbService.getMonthlyExpenseReportByCurrency(2));
+     monthlyExpense.put("DKK", dbService.getMonthlyExpenseReportByCurrency(3));
+     monthlyExpense.put("USD", dbService.getMonthlyExpenseReportByCurrency(4));
+
+     Map<String, Object> yearlyExpense = new HashMap<>();
+     yearlyExpense.put("EUR", dbService.getAnnualExpenseReportByCurrency(1));
+     yearlyExpense.put("UAH", dbService.getAnnualExpenseReportByCurrency(2));
+     yearlyExpense.put("DKK", dbService.getAnnualExpenseReportByCurrency(3));
+     yearlyExpense.put("USD", dbService.getAnnualExpenseReportByCurrency(4));
+
+     model.addAttribute("dailyExpense", dailyExpense);
+     model.addAttribute("monthlyExpense", monthlyExpense);
+     model.addAttribute("yearlyExpense", yearlyExpense);
+     return "expense_report";
+   }
+
+  @GetMapping("/vat_report")
+  public String getVatReport(Model model) {
+    // Currency IDs: EUR = 1, UAH = 2, DKK = 3, USD = 4
+    Map<String, Object> dailyVat = new HashMap<>();
+    dailyVat.put("EUR", dbService.getDailyVatReportByCurrency(1));
+    dailyVat.put("UAH", dbService.getDailyVatReportByCurrency(2));
+    dailyVat.put("DKK", dbService.getDailyVatReportByCurrency(3));
+    dailyVat.put("USD", dbService.getDailyVatReportByCurrency(4));
+
+    Map<String, Object> monthlyVat = new HashMap<>();
+    monthlyVat.put("EUR", dbService.getMonthlyVatReportByCurrency(1));
+    monthlyVat.put("UAH", dbService.getMonthlyVatReportByCurrency(2));
+    monthlyVat.put("DKK", dbService.getMonthlyVatReportByCurrency(3));
+    monthlyVat.put("USD", dbService.getMonthlyVatReportByCurrency(4));
+
+    Map<String, Object> annualVat = new HashMap<>();
+    annualVat.put("EUR", dbService.getAnnualVatReportByCurrency(1));
+    annualVat.put("UAH", dbService.getAnnualVatReportByCurrency(2));
+    annualVat.put("DKK", dbService.getAnnualVatReportByCurrency(3));
+    annualVat.put("USD", dbService.getAnnualVatReportByCurrency(4));
+
+    model.addAttribute("dailyVatValue", dailyVat);
+    model.addAttribute("monthlyVatValue", monthlyVat);
+    model.addAttribute("yearlyVatValue", annualVat);
+    return "vat_report";
   }
 }
