@@ -8,7 +8,7 @@
  * NOTES:
  * - Filters by specified currency ID (default = 3)
  * - Targets current date only
- * - Sums expenses from: entertainment, groceries, health, housing_rent, telecom, travel
+ * - Sums expenses from: entertainment, groceries, health, housing_rent, telecom, travel and cash money operations
  */
 CREATE OR REPLACE FUNCTION public.get_all_expenses_daily(p_currency_id integer DEFAULT 3)
     RETURNS numeric
@@ -34,7 +34,7 @@ BEGIN
     v_day_start := v_today::timestamp;
     v_day_end := (v_today + interval '1 day')::timestamp;
 
-    -- Aggregate expenses from all 6 expense categories
+    -- Aggregate expenses from all 7 expense categories
     WITH all_expenses AS (
         SELECT amount FROM public.entertainment
         WHERE user_last_session = v_user_session
@@ -62,6 +62,11 @@ BEGIN
           AND "date" >= v_day_start AND "date" < v_day_end
         UNION ALL
         SELECT amount FROM public.travel
+        WHERE user_last_session = v_user_session
+          AND currency = p_currency_id
+          AND "date" >= v_day_start AND "date" < v_day_end
+        UNION ALL
+        SELECT amount FROM public.cash_operations_log
         WHERE user_last_session = v_user_session
           AND currency = p_currency_id
           AND "date" >= v_day_start AND "date" < v_day_end
