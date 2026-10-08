@@ -7,9 +7,31 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#460 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#508 - only expense opers from cash table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_expenses_daily.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_expenses_daily.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_expenses_monthly.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_expenses_monthly.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/DataSourceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/FamilyBudgetMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelWeb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/UserModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -432,23 +454,7 @@
       <workItem from="1790878071097" duration="181000" />
       <workItem from="1790878613440" duration="6390000" />
       <workItem from="1791227452385" duration="2596000" />
-      <workItem from="1791482956573" duration="3063000" />
-    </task>
-    <task id="LOCAL-00963" summary="#332 - new version with minus_card_balance call">
-      <option name="closed" value="true" />
-      <created>1787162653708</created>
-      <option name="number" value="00963" />
-      <option name="presentableId" value="LOCAL-00963" />
-      <option name="project" value="LOCAL" />
-      <updated>1787162653709</updated>
-    </task>
-    <task id="LOCAL-00964" summary="#440 - code review summary">
-      <option name="closed" value="true" />
-      <created>1787166299380</created>
-      <option name="number" value="00964" />
-      <option name="presentableId" value="LOCAL-00964" />
-      <option name="project" value="LOCAL" />
-      <updated>1787166299380</updated>
+      <workItem from="1791482956573" duration="4603000" />
     </task>
     <task id="LOCAL-00965" summary="#440 - others">
       <option name="closed" value="true" />
@@ -826,7 +832,23 @@
       <option name="project" value="LOCAL" />
       <updated>1791485493012</updated>
     </task>
-    <option name="localTasksCounter" value="1012" />
+    <task id="LOCAL-01012" summary="#508 - others">
+      <option name="closed" value="true" />
+      <created>1791486620245</created>
+      <option name="number" value="01012" />
+      <option name="presentableId" value="LOCAL-01012" />
+      <option name="project" value="LOCAL" />
+      <updated>1791486620245</updated>
+    </task>
+    <task id="LOCAL-01013" summary="#508 - only expense opers from cash table">
+      <option name="closed" value="true" />
+      <created>1791486649902</created>
+      <option name="number" value="01013" />
+      <option name="presentableId" value="LOCAL-01013" />
+      <option name="project" value="LOCAL" />
+      <updated>1791486649902</updated>
+    </task>
+    <option name="localTasksCounter" value="1014" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -864,8 +886,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#339 - others" />
-    <MESSAGE value="#339 - function to retrieve VAT monthly" />
     <MESSAGE value="#340 - others" />
     <MESSAGE value="#340 - function to retrieve VAT annual" />
     <MESSAGE value="#342 - others" />
@@ -889,7 +909,9 @@
     <MESSAGE value="#459 - added operation by cash" />
     <MESSAGE value="#460 - added expense operations in cash" />
     <MESSAGE value="#460 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#460 - others" />
+    <MESSAGE value="#508 - others" />
+    <MESSAGE value="#508 - only expense opers from cash table" />
+    <option name="LAST_COMMIT_MESSAGE" value="#508 - only expense opers from cash table" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
