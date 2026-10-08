@@ -7,9 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#459 - added operation by cash">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#460 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_expenses_annual.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_expenses_annual.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_expenses_daily.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_expenses_daily.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -432,23 +432,7 @@
       <workItem from="1790878071097" duration="181000" />
       <workItem from="1790878613440" duration="6390000" />
       <workItem from="1791227452385" duration="2596000" />
-      <workItem from="1791482956573" duration="1917000" />
-    </task>
-    <task id="LOCAL-00961" summary="#331 - new version with minus_card_balance call">
-      <option name="closed" value="true" />
-      <created>1787161924791</created>
-      <option name="number" value="00961" />
-      <option name="presentableId" value="LOCAL-00961" />
-      <option name="project" value="LOCAL" />
-      <updated>1787161924791</updated>
-    </task>
-    <task id="LOCAL-00962" summary="#332 - others">
-      <option name="closed" value="true" />
-      <created>1787162548421</created>
-      <option name="number" value="00962" />
-      <option name="presentableId" value="LOCAL-00962" />
-      <option name="project" value="LOCAL" />
-      <updated>1787162548421</updated>
+      <workItem from="1791482956573" duration="3063000" />
     </task>
     <task id="LOCAL-00963" summary="#332 - new version with minus_card_balance call">
       <option name="closed" value="true" />
@@ -826,7 +810,23 @@
       <option name="project" value="LOCAL" />
       <updated>1791229860065</updated>
     </task>
-    <option name="localTasksCounter" value="1010" />
+    <task id="LOCAL-01010" summary="#460 - added expense operations in cash">
+      <option name="closed" value="true" />
+      <created>1791485470342</created>
+      <option name="number" value="01010" />
+      <option name="presentableId" value="LOCAL-01010" />
+      <option name="project" value="LOCAL" />
+      <updated>1791485470343</updated>
+    </task>
+    <task id="LOCAL-01011" summary="#460 - others">
+      <option name="closed" value="true" />
+      <created>1791485493012</created>
+      <option name="number" value="01011" />
+      <option name="presentableId" value="LOCAL-01011" />
+      <option name="project" value="LOCAL" />
+      <updated>1791485493012</updated>
+    </task>
+    <option name="localTasksCounter" value="1012" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -864,8 +864,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#338 - others" />
-    <MESSAGE value="#338 - new function retrieves all daily VAT" />
     <MESSAGE value="#339 - others" />
     <MESSAGE value="#339 - function to retrieve VAT monthly" />
     <MESSAGE value="#340 - others" />
@@ -889,7 +887,9 @@
     <MESSAGE value="#458 - new version with operations by cash" />
     <MESSAGE value="#459 - others" />
     <MESSAGE value="#459 - added operation by cash" />
-    <option name="LAST_COMMIT_MESSAGE" value="#459 - added operation by cash" />
+    <MESSAGE value="#460 - added expense operations in cash" />
+    <MESSAGE value="#460 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#460 - others" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
