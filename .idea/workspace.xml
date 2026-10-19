@@ -7,31 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#508 - only expense opers from cash table">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#509 - others_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_expenses_monthly.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_expenses_monthly.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/DataSourceConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/FamilyBudgetMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/MainPageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/controller/WebFormsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/EntertainmentModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/GroceriesModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/HealthModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/IncomeModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/RentHousingModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TelecomModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/TravelModelWeb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/snorri1986/familybud/models/UserModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/MainPageControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/snorri1986/familybud/controller/WebFormsControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_vat_daily.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_daily.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,11 +357,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetDailyVatReportByCurrencyEUR" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testShowCashBalance" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testShowCardBalance" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetDailyVatReportByCurrencyEUR" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetCashBalance" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -454,31 +432,10 @@
       <workItem from="1790878071097" duration="181000" />
       <workItem from="1790878613440" duration="6390000" />
       <workItem from="1791227452385" duration="2596000" />
-      <workItem from="1791482956573" duration="4603000" />
-    </task>
-    <task id="LOCAL-00965" summary="#440 - others">
-      <option name="closed" value="true" />
-      <created>1787166310579</created>
-      <option name="number" value="00965" />
-      <option name="presentableId" value="LOCAL-00965" />
-      <option name="project" value="LOCAL" />
-      <updated>1787166310579</updated>
-    </task>
-    <task id="LOCAL-00966" summary="#440 - new web page showing card balance">
-      <option name="closed" value="true" />
-      <created>1787166341876</created>
-      <option name="number" value="00966" />
-      <option name="presentableId" value="LOCAL-00966" />
-      <option name="project" value="LOCAL" />
-      <updated>1787166341877</updated>
-    </task>
-    <task id="LOCAL-00967" summary="#441 - code review summary">
-      <option name="closed" value="true" />
-      <created>1787167435736</created>
-      <option name="number" value="00967" />
-      <option name="presentableId" value="LOCAL-00967" />
-      <option name="project" value="LOCAL" />
-      <updated>1787167435736</updated>
+      <workItem from="1791482956573" duration="5192000" />
+      <workItem from="1792436278491" duration="142000" />
+      <workItem from="1792436534660" duration="123000" />
+      <workItem from="1792436834368" duration="900000" />
     </task>
     <task id="LOCAL-00968" summary="#441 - others">
       <option name="closed" value="true" />
@@ -848,7 +805,31 @@
       <option name="project" value="LOCAL" />
       <updated>1791486649902</updated>
     </task>
-    <option name="localTasksCounter" value="1014" />
+    <task id="LOCAL-01014" summary="#509 - others">
+      <option name="closed" value="true" />
+      <created>1791488388457</created>
+      <option name="number" value="01014" />
+      <option name="presentableId" value="LOCAL-01014" />
+      <option name="project" value="LOCAL" />
+      <updated>1791488388457</updated>
+    </task>
+    <task id="LOCAL-01015" summary="#509 - fixed select for cash operations. Only expenses included">
+      <option name="closed" value="true" />
+      <created>1791488436297</created>
+      <option name="number" value="01015" />
+      <option name="presentableId" value="LOCAL-01015" />
+      <option name="project" value="LOCAL" />
+      <updated>1791488436298</updated>
+    </task>
+    <task id="LOCAL-01016" summary="#509 - others_2">
+      <option name="closed" value="true" />
+      <created>1791488472988</created>
+      <option name="number" value="01016" />
+      <option name="presentableId" value="LOCAL-01016" />
+      <option name="project" value="LOCAL" />
+      <updated>1791488472988</updated>
+    </task>
+    <option name="localTasksCounter" value="1017" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -886,9 +867,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#340 - others" />
-    <MESSAGE value="#340 - function to retrieve VAT annual" />
-    <MESSAGE value="#342 - others" />
     <MESSAGE value="#342 - new method getDailyVatReportByCurrency" />
     <MESSAGE value="#343 - others" />
     <MESSAGE value="#343 - new method getMonthlyVatReportByCurrency" />
@@ -911,7 +889,10 @@
     <MESSAGE value="#460 - others" />
     <MESSAGE value="#508 - others" />
     <MESSAGE value="#508 - only expense opers from cash table" />
-    <option name="LAST_COMMIT_MESSAGE" value="#508 - only expense opers from cash table" />
+    <MESSAGE value="#509 - others" />
+    <MESSAGE value="#509 - fixed select for cash operations. Only expenses included" />
+    <MESSAGE value="#509 - others_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="#509 - others_2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
