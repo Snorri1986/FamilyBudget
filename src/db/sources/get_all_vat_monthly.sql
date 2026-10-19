@@ -21,7 +21,7 @@ END IF;
     v_month_start := date_trunc('month', current_date - interval '1 month');
     v_month_end := date_trunc('month', current_date);
 
-    -- Aggregate all expenses from the 6 expense categories
+    -- Aggregate all expenses from the 6 expense categories + operations in cash
 WITH all_monthly_vat AS (
     SELECT vat FROM public.entertainment
     WHERE user_last_session = v_user_session
@@ -49,6 +49,11 @@ WITH all_monthly_vat AS (
       AND "date" >= v_month_start AND "date" < v_month_end
     UNION ALL
     SELECT vat FROM public.travel
+    WHERE user_last_session = v_user_session
+      AND currency = p_currency_id
+      AND "date" >= v_month_start AND "date" < v_month_end
+    UNION ALL
+    SELECT vat FROM public.cash_operations_log
     WHERE user_last_session = v_user_session
       AND currency = p_currency_id
       AND "date" >= v_month_start AND "date" < v_month_end
