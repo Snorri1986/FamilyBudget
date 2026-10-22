@@ -7,9 +7,8 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#463 - with cash expense operations">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#475 - rename expense type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/entertainment.html" afterDir="false" />
@@ -439,23 +438,7 @@
       <workItem from="1792436278491" duration="142000" />
       <workItem from="1792436534660" duration="123000" />
       <workItem from="1792436834368" duration="2496000" />
-      <workItem from="1792690753501" duration="5661000" />
-    </task>
-    <task id="LOCAL-00978" summary="#445 - removed unused commented code">
-      <option name="closed" value="true" />
-      <created>1787396713983</created>
-      <option name="number" value="00978" />
-      <option name="presentableId" value="LOCAL-00978" />
-      <option name="project" value="LOCAL" />
-      <updated>1787396713983</updated>
-    </task>
-    <task id="LOCAL-00979" summary="#445 - unit tests for show balances">
-      <option name="closed" value="true" />
-      <created>1787396751707</created>
-      <option name="number" value="00979" />
-      <option name="presentableId" value="LOCAL-00979" />
-      <option name="project" value="LOCAL" />
-      <updated>1787396751707</updated>
+      <workItem from="1792690753501" duration="6609000" />
     </task>
     <task id="LOCAL-00980" summary="#335 - others">
       <option name="closed" value="true" />
@@ -833,7 +816,23 @@
       <option name="project" value="LOCAL" />
       <updated>1792694075353</updated>
     </task>
-    <option name="localTasksCounter" value="1027" />
+    <task id="LOCAL-01027" summary="#475 - others">
+      <option name="closed" value="true" />
+      <created>1792696632488</created>
+      <option name="number" value="01027" />
+      <option name="presentableId" value="LOCAL-01027" />
+      <option name="project" value="LOCAL" />
+      <updated>1792696632488</updated>
+    </task>
+    <task id="LOCAL-01028" summary="#475 - rename expense type">
+      <option name="closed" value="true" />
+      <created>1792696698864</created>
+      <option name="number" value="01028" />
+      <option name="presentableId" value="LOCAL-01028" />
+      <option name="project" value="LOCAL" />
+      <updated>1792696698866</updated>
+    </task>
+    <option name="localTasksCounter" value="1029" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -871,8 +870,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#337 - call vat_report via button" />
-    <MESSAGE value="#346 - others" />
     <MESSAGE value="#346 - new unit tests for VAT reporting" />
     <MESSAGE value="#451 - others" />
     <MESSAGE value="#451 - binding to dev database" />
@@ -896,7 +893,9 @@
     <MESSAGE value="#462 - only expense cash operations" />
     <MESSAGE value="#463 - others" />
     <MESSAGE value="#463 - with cash expense operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#463 - with cash expense operations" />
+    <MESSAGE value="#475 - others" />
+    <MESSAGE value="#475 - rename expense type" />
+    <option name="LAST_COMMIT_MESSAGE" value="#475 - rename expense type" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
