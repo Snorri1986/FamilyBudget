@@ -7,9 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#461 - only expense cash operations">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#462 - only expense cash operations">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_vat_annual.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_annual.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_vat_monthly.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_monthly.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -436,23 +436,7 @@
       <workItem from="1792436278491" duration="142000" />
       <workItem from="1792436534660" duration="123000" />
       <workItem from="1792436834368" duration="2496000" />
-      <workItem from="1792690753501" duration="1420000" />
-    </task>
-    <task id="LOCAL-00974" summary="#443 - new endpoint - cardBalance">
-      <option name="closed" value="true" />
-      <created>1787168673743</created>
-      <option name="number" value="00974" />
-      <option name="presentableId" value="LOCAL-00974" />
-      <option name="project" value="LOCAL" />
-      <updated>1787168673743</updated>
-    </task>
-    <task id="LOCAL-00975" summary="#444 - others">
-      <option name="closed" value="true" />
-      <created>1787168927956</created>
-      <option name="number" value="00975" />
-      <option name="presentableId" value="LOCAL-00975" />
-      <option name="project" value="LOCAL" />
-      <updated>1787168927956</updated>
+      <workItem from="1792690753501" duration="3209000" />
     </task>
     <task id="LOCAL-00976" summary="#444 - button card balance became alive">
       <option name="closed" value="true" />
@@ -830,7 +814,23 @@
       <option name="project" value="LOCAL" />
       <updated>1792691972729</updated>
     </task>
-    <option name="localTasksCounter" value="1023" />
+    <task id="LOCAL-01023" summary="#462 - others">
+      <option name="closed" value="true" />
+      <created>1792692420123</created>
+      <option name="number" value="01023" />
+      <option name="presentableId" value="LOCAL-01023" />
+      <option name="project" value="LOCAL" />
+      <updated>1792692420123</updated>
+    </task>
+    <task id="LOCAL-01024" summary="#462 - only expense cash operations">
+      <option name="closed" value="true" />
+      <created>1792692451518</created>
+      <option name="number" value="01024" />
+      <option name="presentableId" value="LOCAL-01024" />
+      <option name="project" value="LOCAL" />
+      <updated>1792692451518</updated>
+    </task>
+    <option name="localTasksCounter" value="1025" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -868,7 +868,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#345 - others" />
     <MESSAGE value="#345 - new endpoint vat_report" />
     <MESSAGE value="#337 - others" />
     <MESSAGE value="#337 - call vat_report via button" />
@@ -889,11 +888,12 @@
     <MESSAGE value="#509 - fixed select for cash operations. Only expenses included" />
     <MESSAGE value="#509 - others_2" />
     <MESSAGE value="#461 - cash operations included" />
-    <MESSAGE value="#462 - others" />
     <MESSAGE value="#462 - new version.cash included" />
     <MESSAGE value="#461 - others" />
     <MESSAGE value="#461 - only expense cash operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#461 - only expense cash operations" />
+    <MESSAGE value="#462 - others" />
+    <MESSAGE value="#462 - only expense cash operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="#462 - only expense cash operations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
