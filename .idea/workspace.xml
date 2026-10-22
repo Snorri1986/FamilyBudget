@@ -7,9 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#461 - cash operations included">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#462 - new version.cash included">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_vat_monthly.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_monthly.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_vat_annual.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_annual.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_vat_daily.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_daily.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -435,23 +436,8 @@
       <workItem from="1791482956573" duration="5192000" />
       <workItem from="1792436278491" duration="142000" />
       <workItem from="1792436534660" duration="123000" />
-      <workItem from="1792436834368" duration="1843000" />
-    </task>
-    <task id="LOCAL-00970" summary="#442 - others">
-      <option name="closed" value="true" />
-      <created>1787167779505</created>
-      <option name="number" value="00970" />
-      <option name="presentableId" value="LOCAL-00970" />
-      <option name="project" value="LOCAL" />
-      <updated>1787167779505</updated>
-    </task>
-    <task id="LOCAL-00971" summary="#442 - new method getCardBalanceFromDB()">
-      <option name="closed" value="true" />
-      <created>1787167805424</created>
-      <option name="number" value="00971" />
-      <option name="presentableId" value="LOCAL-00971" />
-      <option name="project" value="LOCAL" />
-      <updated>1787167805424</updated>
+      <workItem from="1792436834368" duration="2496000" />
+      <workItem from="1792690753501" duration="1038000" />
     </task>
     <task id="LOCAL-00972" summary="#443 - code review summary">
       <option name="closed" value="true" />
@@ -829,7 +815,23 @@
       <option name="project" value="LOCAL" />
       <updated>1792437943707</updated>
     </task>
-    <option name="localTasksCounter" value="1019" />
+    <task id="LOCAL-01019" summary="#462 - others">
+      <option name="closed" value="true" />
+      <created>1792438966168</created>
+      <option name="number" value="01019" />
+      <option name="presentableId" value="LOCAL-01019" />
+      <option name="project" value="LOCAL" />
+      <updated>1792438966168</updated>
+    </task>
+    <task id="LOCAL-01020" summary="#462 - new version.cash included">
+      <option name="closed" value="true" />
+      <created>1792438988762</created>
+      <option name="number" value="01020" />
+      <option name="presentableId" value="LOCAL-01020" />
+      <option name="project" value="LOCAL" />
+      <updated>1792438988762</updated>
+    </task>
+    <option name="localTasksCounter" value="1021" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -867,8 +869,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#343 - new method getMonthlyVatReportByCurrency" />
-    <MESSAGE value="#344 - others" />
     <MESSAGE value="#344 - getAnnualVatReportByCurrency" />
     <MESSAGE value="#345 - others" />
     <MESSAGE value="#345 - new endpoint vat_report" />
@@ -892,7 +892,9 @@
     <MESSAGE value="#509 - others_2" />
     <MESSAGE value="#461 - others" />
     <MESSAGE value="#461 - cash operations included" />
-    <option name="LAST_COMMIT_MESSAGE" value="#461 - cash operations included" />
+    <MESSAGE value="#462 - others" />
+    <MESSAGE value="#462 - new version.cash included" />
+    <option name="LAST_COMMIT_MESSAGE" value="#462 - new version.cash included" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
