@@ -56,6 +56,7 @@ WITH all_monthly_vat AS (
     SELECT vat FROM public.cash_operations_log
     WHERE user_last_session = v_user_session
       AND currency = p_currency_id
+      AND optype = 0
       AND "date" >= v_month_start AND "date" < v_month_end
 )
 SELECT COALESCE(SUM(vat),0) INTO v_total_monthly_vat FROM all_monthly_vat;
