@@ -7,9 +7,12 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#462 - only expense cash operations">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#463 - with cash expense operations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_vat_annual.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_annual.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/entertainment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -436,23 +439,7 @@
       <workItem from="1792436278491" duration="142000" />
       <workItem from="1792436534660" duration="123000" />
       <workItem from="1792436834368" duration="2496000" />
-      <workItem from="1792690753501" duration="3209000" />
-    </task>
-    <task id="LOCAL-00976" summary="#444 - button card balance became alive">
-      <option name="closed" value="true" />
-      <created>1787168963226</created>
-      <option name="number" value="00976" />
-      <option name="presentableId" value="LOCAL-00976" />
-      <option name="project" value="LOCAL" />
-      <updated>1787168963226</updated>
-    </task>
-    <task id="LOCAL-00977" summary="#445 - others">
-      <option name="closed" value="true" />
-      <created>1787396652789</created>
-      <option name="number" value="00977" />
-      <option name="presentableId" value="LOCAL-00977" />
-      <option name="project" value="LOCAL" />
-      <updated>1787396652790</updated>
+      <workItem from="1792690753501" duration="5661000" />
     </task>
     <task id="LOCAL-00978" summary="#445 - removed unused commented code">
       <option name="closed" value="true" />
@@ -830,7 +817,23 @@
       <option name="project" value="LOCAL" />
       <updated>1792692451518</updated>
     </task>
-    <option name="localTasksCounter" value="1025" />
+    <task id="LOCAL-01025" summary="#463 - others">
+      <option name="closed" value="true" />
+      <created>1792694045447</created>
+      <option name="number" value="01025" />
+      <option name="presentableId" value="LOCAL-01025" />
+      <option name="project" value="LOCAL" />
+      <updated>1792694045447</updated>
+    </task>
+    <task id="LOCAL-01026" summary="#463 - with cash expense operations">
+      <option name="closed" value="true" />
+      <created>1792694075353</created>
+      <option name="number" value="01026" />
+      <option name="presentableId" value="LOCAL-01026" />
+      <option name="project" value="LOCAL" />
+      <updated>1792694075353</updated>
+    </task>
+    <option name="localTasksCounter" value="1027" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -868,8 +871,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#345 - new endpoint vat_report" />
-    <MESSAGE value="#337 - others" />
     <MESSAGE value="#337 - call vat_report via button" />
     <MESSAGE value="#346 - others" />
     <MESSAGE value="#346 - new unit tests for VAT reporting" />
@@ -893,7 +894,9 @@
     <MESSAGE value="#461 - only expense cash operations" />
     <MESSAGE value="#462 - others" />
     <MESSAGE value="#462 - only expense cash operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="#462 - only expense cash operations" />
+    <MESSAGE value="#463 - others" />
+    <MESSAGE value="#463 - with cash expense operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="#463 - with cash expense operations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
