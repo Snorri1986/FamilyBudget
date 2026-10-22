@@ -57,6 +57,7 @@ WITH all_daily_vat AS (
     SELECT vat FROM public.cash_operations_log
     WHERE user_last_session = v_user_session
       AND currency = p_currency_id
+      AND optype = 0
       AND "date" >= v_day_start AND "date" < v_day_end
 )
 SELECT COALESCE(SUM(vat), 0) INTO v_total_daily_vat FROM all_daily_vat;
