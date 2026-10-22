@@ -7,10 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#462 - new version.cash included">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#461 - only expense cash operations">
       <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_vat_annual.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_annual.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_vat_daily.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_daily.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/sources/get_all_vat_monthly.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/sources/get_all_vat_monthly.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -437,23 +436,7 @@
       <workItem from="1792436278491" duration="142000" />
       <workItem from="1792436534660" duration="123000" />
       <workItem from="1792436834368" duration="2496000" />
-      <workItem from="1792690753501" duration="1038000" />
-    </task>
-    <task id="LOCAL-00972" summary="#443 - code review summary">
-      <option name="closed" value="true" />
-      <created>1787168633737</created>
-      <option name="number" value="00972" />
-      <option name="presentableId" value="LOCAL-00972" />
-      <option name="project" value="LOCAL" />
-      <updated>1787168633737</updated>
-    </task>
-    <task id="LOCAL-00973" summary="#443 - others">
-      <option name="closed" value="true" />
-      <created>1787168644710</created>
-      <option name="number" value="00973" />
-      <option name="presentableId" value="LOCAL-00973" />
-      <option name="project" value="LOCAL" />
-      <updated>1787168644710</updated>
+      <workItem from="1792690753501" duration="1420000" />
     </task>
     <task id="LOCAL-00974" summary="#443 - new endpoint - cardBalance">
       <option name="closed" value="true" />
@@ -831,7 +814,23 @@
       <option name="project" value="LOCAL" />
       <updated>1792438988762</updated>
     </task>
-    <option name="localTasksCounter" value="1021" />
+    <task id="LOCAL-01021" summary="#461 - others">
+      <option name="closed" value="true" />
+      <created>1792691915451</created>
+      <option name="number" value="01021" />
+      <option name="presentableId" value="LOCAL-01021" />
+      <option name="project" value="LOCAL" />
+      <updated>1792691915452</updated>
+    </task>
+    <task id="LOCAL-01022" summary="#461 - only expense cash operations">
+      <option name="closed" value="true" />
+      <created>1792691972729</created>
+      <option name="number" value="01022" />
+      <option name="presentableId" value="LOCAL-01022" />
+      <option name="project" value="LOCAL" />
+      <updated>1792691972729</updated>
+    </task>
+    <option name="localTasksCounter" value="1023" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -869,7 +868,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#344 - getAnnualVatReportByCurrency" />
     <MESSAGE value="#345 - others" />
     <MESSAGE value="#345 - new endpoint vat_report" />
     <MESSAGE value="#337 - others" />
@@ -890,11 +888,12 @@
     <MESSAGE value="#509 - others" />
     <MESSAGE value="#509 - fixed select for cash operations. Only expenses included" />
     <MESSAGE value="#509 - others_2" />
-    <MESSAGE value="#461 - others" />
     <MESSAGE value="#461 - cash operations included" />
     <MESSAGE value="#462 - others" />
     <MESSAGE value="#462 - new version.cash included" />
-    <option name="LAST_COMMIT_MESSAGE" value="#462 - new version.cash included" />
+    <MESSAGE value="#461 - others" />
+    <MESSAGE value="#461 - only expense cash operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="#461 - only expense cash operations" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
