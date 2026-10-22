@@ -1,4 +1,4 @@
--- DROP FUNCTION public.get_all_expenses_annual();
+-- DROP FUNCTION public.get_all_vat_annual(integer);
 
 /**
  * FUNCTION: get_all_vat_annual(p_currency_id integer DEFAULT 3)
@@ -8,7 +8,7 @@
  * NOTES:
  * - Filters by specified currency ID (default = 3)
  * - Targets previous year data
- * - Sums vat values from: entertainment, groceries, health, housing_rent, telecom, travel
+ * - Sums vat values from: entertainment, groceries, health, housing_rent, telecom, travel, cash operations
  */
 CREATE OR REPLACE FUNCTION public.get_all_vat_annual(p_currency_id integer DEFAULT 3)
     RETURNS DOUBLE PRECISION
@@ -33,7 +33,7 @@ END IF;
     v_year_start := date_trunc('year', current_date - interval '1 year');
     v_year_end := date_trunc('year', current_date);
 
-    -- Aggregate all vat from the 6 expense categories
+    -- Aggregate all vat from the 6 expense categories + operations in cash
 WITH all_vat_annual AS (
     SELECT vat FROM public.entertainment
     WHERE user_last_session = v_user_session AND currency = p_currency_id
@@ -56,7 +56,12 @@ WITH all_vat_annual AS (
       AND "date" >= v_year_start AND "date" < v_year_end
     UNION ALL
     SELECT vat FROM public.travel
-    WHERE user_last_session = v_user_session AND currency = 3
+    WHERE user_last_session = v_user_session AND currency = p_currency_id
+      AND "date" >= v_year_start AND "date" < v_year_end
+    UNION ALL
+    SELECT vat FROM public.cash_operations_log
+    WHERE user_last_session = v_user_session AND currency = p_currency_id
+      AND optype = 0
       AND "date" >= v_year_start AND "date" < v_year_end
 )
 SELECT COALESCE(SUM(vat), 0) INTO v_total_vat FROM all_vat_annual;
