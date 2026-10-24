@@ -28,7 +28,7 @@ public class MainPageController {
           Arrays.asList("Salary", "Bonus", "TravelRefund", "ShopRefund","Money transfer R","HumanRefund","Other"));
 
   private static final List<String> ENTERTAINMENT_TYPE_LIST = Collections.unmodifiableList(
-          Arrays.asList("Urban travel", "Cinema", "Vacation", "Relax","Restaurant","Homefest","Other"));
+          Arrays.asList("Urban travel", "Cinema", "Relax", "Restaurant", "Homefest", "Other"));
 
   private static final List<String> GROCERIES_TYPE_LIST = Collections.unmodifiableList(
           Arrays.asList("Daily","Weekly","Weekend","Fest","Clothes","Lunch at work","Other"));
