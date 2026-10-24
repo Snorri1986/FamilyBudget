@@ -7,10 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#476 - rename expense type">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#516-rehane expense type + bugix syntax">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/entertainment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -438,23 +437,7 @@
       <workItem from="1792436534660" duration="123000" />
       <workItem from="1792436834368" duration="2496000" />
       <workItem from="1792690753501" duration="7440000" />
-      <workItem from="1792845199850" duration="422000" />
-    </task>
-    <task id="LOCAL-00982" summary="#336 - others">
-      <option name="closed" value="true" />
-      <created>1787682981223</created>
-      <option name="number" value="00982" />
-      <option name="presentableId" value="LOCAL-00982" />
-      <option name="project" value="LOCAL" />
-      <updated>1787682981223</updated>
-    </task>
-    <task id="LOCAL-00983" summary="#336 - new webpage and css for it">
-      <option name="closed" value="true" />
-      <created>1787683018820</created>
-      <option name="number" value="00983" />
-      <option name="presentableId" value="LOCAL-00983" />
-      <option name="project" value="LOCAL" />
-      <updated>1787683018821</updated>
+      <workItem from="1792845199850" duration="3086000" />
     </task>
     <task id="LOCAL-00984" summary="#338 - others">
       <option name="closed" value="true" />
@@ -832,7 +815,23 @@
       <option name="project" value="LOCAL" />
       <updated>1792697733575</updated>
     </task>
-    <option name="localTasksCounter" value="1031" />
+    <task id="LOCAL-01031" summary="#516 - others">
+      <option name="closed" value="true" />
+      <created>1792845837209</created>
+      <option name="number" value="01031" />
+      <option name="presentableId" value="LOCAL-01031" />
+      <option name="project" value="LOCAL" />
+      <updated>1792845837214</updated>
+    </task>
+    <task id="LOCAL-01032" summary="#516-rehane expense type + bugix syntax">
+      <option name="closed" value="true" />
+      <created>1792845875696</created>
+      <option name="number" value="01032" />
+      <option name="presentableId" value="LOCAL-01032" />
+      <option name="project" value="LOCAL" />
+      <updated>1792845875697</updated>
+    </task>
+    <option name="localTasksCounter" value="1033" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -870,8 +869,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#451 - binding to dev database" />
-    <MESSAGE value="#451 - version number changed" />
     <MESSAGE value="#458 - others" />
     <MESSAGE value="#458 - new version with operations by cash" />
     <MESSAGE value="#459 - others" />
@@ -895,7 +892,9 @@
     <MESSAGE value="#475 - rename expense type" />
     <MESSAGE value="#476 - others" />
     <MESSAGE value="#476 - rename expense type" />
-    <option name="LAST_COMMIT_MESSAGE" value="#476 - rename expense type" />
+    <MESSAGE value="#516 - others" />
+    <MESSAGE value="#516-rehane expense type + bugix syntax" />
+    <option name="LAST_COMMIT_MESSAGE" value="#516-rehane expense type + bugix syntax" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
