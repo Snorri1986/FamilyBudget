@@ -20,7 +20,7 @@
     <form th:action="@{/registerEntertainment}" th:object="${entertainment_mod_attribute}" method="post" class="needs-validation">
         <div class="form-group">
             <label for="entType">Entertainment Type:</label>
-            <select id="entType" name="entType" th:field="*{eventType}" required>>
+            <select id="entType" name="entType" th:field="*{eventType}" required>
                 <option value="">-- Select event type --</option>
                 <option th:each="entType : ${entList}"
                         th:value="${entType}"
@@ -34,7 +34,7 @@
         </div>
         <div class="form-group">
             <label for="currency">Currency:</label>
-            <select id="currency" name="curName" th:field="*{currency}" required>>
+            <select id="currency" name="curName" th:field="*{currency}" required>
                 <option value="">-- Select currency name --</option>
                 <option th:each="currency : ${currencyNames}"
                         th:value="${currency}"
@@ -48,7 +48,7 @@
         </div>
         <div class="form-group">
             <label for="transType">Transaction Type:</label>
-            <select id="transType" name="transType" th:field="*{transactionType}" required>>
+            <select id="transType" name="transType" th:field="*{transactionType}" required>
                 <option value="">-- Select transaction type: --</option>
                 <option th:each="transType : ${transactionTypes}"
                         th:value="${transType}"
@@ -85,12 +85,12 @@
         <tr th:each="ent_event_card : ${entertainmentLastTenCard}">
             <td>
             <span th:switch="${ent_event_card.eventTypeId}">
-                <span th:case="8">Travel</span>
+                <span th:case="8">Urban travel</span>
                 <span th:case="13">Cinema</span>
                 <span th:case="14">Vacation</span>
                 <span th:case="15">Relax</span>
                 <span th:case="38">Restaurant</span>
-                <span th:case="16">Homefast</span>
+                <span th:case="16">Homefest</span>
                 <span th:case="17">Other</span>
             </span>
             </td>
@@ -105,12 +105,12 @@
         <tr th:each="ent_event_cash : ${entertainmentLastTenCash}">
             <td>
             <span th:switch="${ent_event_cash.eventTypeId}">
-                <span th:case="8">Travel</span>
+                <span th:case="8">Urban travel</span>
                 <span th:case="13">Cinema</span>
                 <span th:case="14">Vacation</span>
                 <span th:case="15">Relax</span>
                 <span th:case="38">Restaurant</span>
-                <span th:case="16">Homefast</span>
+                <span th:case="16">Homefest</span>
                 <span th:case="17">Other</span>
             </span>
             </td>
