@@ -7,8 +7,12 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#482 - removed Relax">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#483 - removed Relax">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/entertainment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -437,23 +441,7 @@
       <workItem from="1792436834368" duration="2496000" />
       <workItem from="1792690753501" duration="7440000" />
       <workItem from="1792845199850" duration="4343000" />
-      <workItem from="1793044712395" duration="345000" />
-    </task>
-    <task id="LOCAL-00990" summary="#340 - function to retrieve VAT annual">
-      <option name="closed" value="true" />
-      <created>1787940405692</created>
-      <option name="number" value="00990" />
-      <option name="presentableId" value="LOCAL-00990" />
-      <option name="project" value="LOCAL" />
-      <updated>1787940405692</updated>
-    </task>
-    <task id="LOCAL-00991" summary="#342 - others">
-      <option name="closed" value="true" />
-      <created>1787940964432</created>
-      <option name="number" value="00991" />
-      <option name="presentableId" value="LOCAL-00991" />
-      <option name="project" value="LOCAL" />
-      <updated>1787940964432</updated>
+      <workItem from="1793044712395" duration="1994000" />
     </task>
     <task id="LOCAL-00992" summary="#342 - new method getDailyVatReportByCurrency">
       <option name="closed" value="true" />
@@ -831,7 +819,23 @@
       <option name="project" value="LOCAL" />
       <updated>1793045052382</updated>
     </task>
-    <option name="localTasksCounter" value="1039" />
+    <task id="LOCAL-01039" summary="#483 - others">
+      <option name="closed" value="true" />
+      <created>1793045097632</created>
+      <option name="number" value="01039" />
+      <option name="presentableId" value="LOCAL-01039" />
+      <option name="project" value="LOCAL" />
+      <updated>1793045097632</updated>
+    </task>
+    <task id="LOCAL-01040" summary="#483 - removed Relax">
+      <option name="closed" value="true" />
+      <created>1793045120214</created>
+      <option name="number" value="01040" />
+      <option name="presentableId" value="LOCAL-01040" />
+      <option name="project" value="LOCAL" />
+      <updated>1793045120214</updated>
+    </task>
+    <option name="localTasksCounter" value="1041" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -869,8 +873,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#508 - others" />
-    <MESSAGE value="#508 - only expense opers from cash table" />
     <MESSAGE value="#509 - others" />
     <MESSAGE value="#509 - fixed select for cash operations. Only expenses included" />
     <MESSAGE value="#509 - others_2" />
@@ -894,7 +896,9 @@
     <MESSAGE value="#480 - removed expense type Vacation" />
     <MESSAGE value="#482 - others" />
     <MESSAGE value="#482 - removed Relax" />
-    <option name="LAST_COMMIT_MESSAGE" value="#482 - removed Relax" />
+    <MESSAGE value="#483 - others" />
+    <MESSAGE value="#483 - removed Relax" />
+    <option name="LAST_COMMIT_MESSAGE" value="#483 - removed Relax" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
