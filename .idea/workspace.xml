@@ -7,9 +7,8 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#479 - removing vacation expense">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#480 - removed expense type Vacation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -437,23 +436,7 @@
       <workItem from="1792436534660" duration="123000" />
       <workItem from="1792436834368" duration="2496000" />
       <workItem from="1792690753501" duration="7440000" />
-      <workItem from="1792845199850" duration="3749000" />
-    </task>
-    <task id="LOCAL-00986" summary="#339 - others">
-      <option name="closed" value="true" />
-      <created>1787772370874</created>
-      <option name="number" value="00986" />
-      <option name="presentableId" value="LOCAL-00986" />
-      <option name="project" value="LOCAL" />
-      <updated>1787772370875</updated>
-    </task>
-    <task id="LOCAL-00987" summary="#339 - function to retrieve VAT monthly">
-      <option name="closed" value="true" />
-      <created>1787772410178</created>
-      <option name="number" value="00987" />
-      <option name="presentableId" value="LOCAL-00987" />
-      <option name="project" value="LOCAL" />
-      <updated>1787772410178</updated>
+      <workItem from="1792845199850" duration="4343000" />
     </task>
     <task id="LOCAL-00988" summary="#340 - others">
       <option name="closed" value="true" />
@@ -831,7 +814,23 @@
       <option name="project" value="LOCAL" />
       <updated>1792849377674</updated>
     </task>
-    <option name="localTasksCounter" value="1035" />
+    <task id="LOCAL-01035" summary="#480 - others">
+      <option name="closed" value="true" />
+      <created>1792850026380</created>
+      <option name="number" value="01035" />
+      <option name="presentableId" value="LOCAL-01035" />
+      <option name="project" value="LOCAL" />
+      <updated>1792850026380</updated>
+    </task>
+    <task id="LOCAL-01036" summary="#480 - removed expense type Vacation">
+      <option name="closed" value="true" />
+      <created>1792850067021</created>
+      <option name="number" value="01036" />
+      <option name="presentableId" value="LOCAL-01036" />
+      <option name="project" value="LOCAL" />
+      <updated>1792850067021</updated>
+    </task>
+    <option name="localTasksCounter" value="1037" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -869,8 +868,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#459 - others" />
-    <MESSAGE value="#459 - added operation by cash" />
     <MESSAGE value="#460 - added expense operations in cash" />
     <MESSAGE value="#460 - others" />
     <MESSAGE value="#508 - others" />
@@ -894,7 +891,9 @@
     <MESSAGE value="#516-rehane expense type + bugix syntax" />
     <MESSAGE value="#479 - others" />
     <MESSAGE value="#479 - removing vacation expense" />
-    <option name="LAST_COMMIT_MESSAGE" value="#479 - removing vacation expense" />
+    <MESSAGE value="#480 - others" />
+    <MESSAGE value="#480 - removed expense type Vacation" />
+    <option name="LAST_COMMIT_MESSAGE" value="#480 - removed expense type Vacation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
