@@ -30,7 +30,6 @@ public class WebFormsController {
   private static final Map<String, Integer> ENTERTAINMENT_TYPES = Map.of(
           "Urban travel", 8,
           "Cinema", 13,
-          "Relax", 15,
           "Restaurant", 38,
           "Homefest", 16,
           "Other", 17
