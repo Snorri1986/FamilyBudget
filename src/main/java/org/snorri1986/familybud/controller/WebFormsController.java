@@ -56,6 +56,7 @@ public class WebFormsController {
           "Nails", 28,
           "Haircut", 42,
           "Gym", 45,
+          "Medication", 49,
           "Other", 22
   );
 
