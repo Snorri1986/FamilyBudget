@@ -31,7 +31,7 @@ public class MainPageController {
           Arrays.asList("Urban travel", "Cinema", "Sport", "Restaurant", "Homefest", "Museum", "Event park", "Community event", "Other"));
 
   private static final List<String> GROCERIES_TYPE_LIST = Collections.unmodifiableList(
-          Arrays.asList("Daily","Weekly","Weekend","Fest","Clothes","Lunch at work","Other"));
+          Arrays.asList("Daily","Weekly","Weekend","Clothes","Lunch at work","Other"));
 
   private static final List<String> HEALTH_TYPE_LIST = Collections.unmodifiableList(
           Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Haircut","Gym","Other"));
