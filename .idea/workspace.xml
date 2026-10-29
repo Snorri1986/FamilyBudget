@@ -7,10 +7,11 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#523 - new expenses codes on web side">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#492 - remove expense - fest on web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/snorri1986/familybud/controller/WebFormsControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -444,31 +445,8 @@
       <workItem from="1792845199850" duration="4343000" />
       <workItem from="1793044712395" duration="3256000" />
       <workItem from="1793299775065" duration="81000" />
-      <workItem from="1793299906509" duration="3015000" />
-    </task>
-    <task id="LOCAL-01000" summary="#337 - call vat_report via button">
-      <option name="closed" value="true" />
-      <created>1787943125962</created>
-      <option name="number" value="01000" />
-      <option name="presentableId" value="LOCAL-01000" />
-      <option name="project" value="LOCAL" />
-      <updated>1787943125962</updated>
-    </task>
-    <task id="LOCAL-01001" summary="#346 - others">
-      <option name="closed" value="true" />
-      <created>1787943885765</created>
-      <option name="number" value="01001" />
-      <option name="presentableId" value="LOCAL-01001" />
-      <option name="project" value="LOCAL" />
-      <updated>1787943885765</updated>
-    </task>
-    <task id="LOCAL-01002" summary="#346 - new unit tests for VAT reporting">
-      <option name="closed" value="true" />
-      <created>1787943910632</created>
-      <option name="number" value="01002" />
-      <option name="presentableId" value="LOCAL-01002" />
-      <option name="project" value="LOCAL" />
-      <updated>1787943910632</updated>
+      <workItem from="1793299906509" duration="3545000" />
+      <workItem from="1793303717295" duration="347000" />
     </task>
     <task id="LOCAL-01003" summary="#451 - others">
       <option name="closed" value="true" />
@@ -838,7 +816,31 @@
       <option name="project" value="LOCAL" />
       <updated>1793302435489</updated>
     </task>
-    <option name="localTasksCounter" value="1049" />
+    <task id="LOCAL-01049" summary="#491 - others">
+      <option name="closed" value="true" />
+      <created>1793303102031</created>
+      <option name="number" value="01049" />
+      <option name="presentableId" value="LOCAL-01049" />
+      <option name="project" value="LOCAL" />
+      <updated>1793303102031</updated>
+    </task>
+    <task id="LOCAL-01050" summary="#491 - remove expense - fest">
+      <option name="closed" value="true" />
+      <created>1793303128223</created>
+      <option name="number" value="01050" />
+      <option name="presentableId" value="LOCAL-01050" />
+      <option name="project" value="LOCAL" />
+      <updated>1793303128224</updated>
+    </task>
+    <task id="LOCAL-01051" summary="#492 - remove expense - fest on web">
+      <option name="closed" value="true" />
+      <created>1793303230836</created>
+      <option name="number" value="01051" />
+      <option name="presentableId" value="LOCAL-01051" />
+      <option name="project" value="LOCAL" />
+      <updated>1793303230837</updated>
+    </task>
+    <option name="localTasksCounter" value="1052" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -876,9 +878,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#462 - only expense cash operations" />
-    <MESSAGE value="#463 - others" />
-    <MESSAGE value="#463 - with cash expense operations" />
     <MESSAGE value="#475 - others" />
     <MESSAGE value="#475 - rename expense type" />
     <MESSAGE value="#476 - others" />
@@ -901,7 +900,10 @@
     <MESSAGE value="#488 - new expenses on MainPage" />
     <MESSAGE value="#489 - new expenses on WebForms" />
     <MESSAGE value="#523 - new expenses codes on web side" />
-    <option name="LAST_COMMIT_MESSAGE" value="#523 - new expenses codes on web side" />
+    <MESSAGE value="#491 - others" />
+    <MESSAGE value="#491 - remove expense - fest" />
+    <MESSAGE value="#492 - remove expense - fest on web" />
+    <option name="LAST_COMMIT_MESSAGE" value="#492 - remove expense - fest on web" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
