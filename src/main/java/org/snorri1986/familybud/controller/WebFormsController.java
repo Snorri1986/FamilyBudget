@@ -50,7 +50,6 @@ public class WebFormsController {
 
   private static final Map<String, Integer> HEALTH_TYPES = Map.of (
           "Dentist",23,
-          "Regular Medical check", 24,
           "Special doctor", 25,
           "Swimming pool", 26,
           "SPA", 27,
