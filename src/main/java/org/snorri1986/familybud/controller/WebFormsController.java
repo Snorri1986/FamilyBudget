@@ -33,6 +33,9 @@ public class WebFormsController {
           "Sport",9,
           "Restaurant", 38,
           "Homefest", 16,
+          "Museum", 46,
+          "Event park", 47,
+          "Community event", 48,
           "Other", 17
   );
 
