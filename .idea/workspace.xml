@@ -7,12 +7,10 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#519 - new expense - sport">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#523 - new expenses codes on web side">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/entertainment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/entertainment.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/entertainment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -446,39 +444,7 @@
       <workItem from="1792845199850" duration="4343000" />
       <workItem from="1793044712395" duration="3256000" />
       <workItem from="1793299775065" duration="81000" />
-      <workItem from="1793299906509" duration="2230000" />
-    </task>
-    <task id="LOCAL-00996" summary="#344 - getAnnualVatReportByCurrency">
-      <option name="closed" value="true" />
-      <created>1787941868983</created>
-      <option name="number" value="00996" />
-      <option name="presentableId" value="LOCAL-00996" />
-      <option name="project" value="LOCAL" />
-      <updated>1787941868983</updated>
-    </task>
-    <task id="LOCAL-00997" summary="#345 - others">
-      <option name="closed" value="true" />
-      <created>1787942743109</created>
-      <option name="number" value="00997" />
-      <option name="presentableId" value="LOCAL-00997" />
-      <option name="project" value="LOCAL" />
-      <updated>1787942743109</updated>
-    </task>
-    <task id="LOCAL-00998" summary="#345 - new endpoint vat_report">
-      <option name="closed" value="true" />
-      <created>1787942769305</created>
-      <option name="number" value="00998" />
-      <option name="presentableId" value="LOCAL-00998" />
-      <option name="project" value="LOCAL" />
-      <updated>1787942769305</updated>
-    </task>
-    <task id="LOCAL-00999" summary="#337 - others">
-      <option name="closed" value="true" />
-      <created>1787943093986</created>
-      <option name="number" value="00999" />
-      <option name="presentableId" value="LOCAL-00999" />
-      <option name="project" value="LOCAL" />
-      <updated>1787943093986</updated>
+      <workItem from="1793299906509" duration="3015000" />
     </task>
     <task id="LOCAL-01000" summary="#337 - call vat_report via button">
       <option name="closed" value="true" />
@@ -840,7 +806,39 @@
       <option name="project" value="LOCAL" />
       <updated>1793047064565</updated>
     </task>
-    <option name="localTasksCounter" value="1045" />
+    <task id="LOCAL-01045" summary="#488 - others">
+      <option name="closed" value="true" />
+      <created>1793302207122</created>
+      <option name="number" value="01045" />
+      <option name="presentableId" value="LOCAL-01045" />
+      <option name="project" value="LOCAL" />
+      <updated>1793302207125</updated>
+    </task>
+    <task id="LOCAL-01046" summary="#488 - new expenses on MainPage">
+      <option name="closed" value="true" />
+      <created>1793302238226</created>
+      <option name="number" value="01046" />
+      <option name="presentableId" value="LOCAL-01046" />
+      <option name="project" value="LOCAL" />
+      <updated>1793302238226</updated>
+    </task>
+    <task id="LOCAL-01047" summary="#489 - new expenses on WebForms">
+      <option name="closed" value="true" />
+      <created>1793302330004</created>
+      <option name="number" value="01047" />
+      <option name="presentableId" value="LOCAL-01047" />
+      <option name="project" value="LOCAL" />
+      <updated>1793302330004</updated>
+    </task>
+    <task id="LOCAL-01048" summary="#523 - new expenses codes on web side">
+      <option name="closed" value="true" />
+      <created>1793302435488</created>
+      <option name="number" value="01048" />
+      <option name="presentableId" value="LOCAL-01048" />
+      <option name="project" value="LOCAL" />
+      <updated>1793302435489</updated>
+    </task>
+    <option name="localTasksCounter" value="1049" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -878,10 +876,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#462 - new version.cash included" />
-    <MESSAGE value="#461 - others" />
-    <MESSAGE value="#461 - only expense cash operations" />
-    <MESSAGE value="#462 - others" />
     <MESSAGE value="#462 - only expense cash operations" />
     <MESSAGE value="#463 - others" />
     <MESSAGE value="#463 - with cash expense operations" />
@@ -903,7 +897,11 @@
     <MESSAGE value="#485 - new expense - sport" />
     <MESSAGE value="#486 - new expense - sport" />
     <MESSAGE value="#519 - new expense - sport" />
-    <option name="LAST_COMMIT_MESSAGE" value="#519 - new expense - sport" />
+    <MESSAGE value="#488 - others" />
+    <MESSAGE value="#488 - new expenses on MainPage" />
+    <MESSAGE value="#489 - new expenses on WebForms" />
+    <MESSAGE value="#523 - new expenses codes on web side" />
+    <option name="LAST_COMMIT_MESSAGE" value="#523 - new expenses codes on web side" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
