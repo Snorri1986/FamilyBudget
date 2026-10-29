@@ -43,9 +43,8 @@ public class WebFormsController {
          "Daily", 18,
          "Weekly", 19,
          "Weekend", 20,
-         "Fest", 21,
-         "Clothes", 43,
-         "Lunch at work", 44,
+          "Clothes", 43,
+          "Lunch at work", 44,
          "Other", 22
   );
 
