@@ -68,6 +68,7 @@ public class WebFormsController {
           "Electricity", 29,
           "House equipment", 30,
           "Renovation", 31,
+          "Home maintenance", 50,
           "Other", 22
   );
 
