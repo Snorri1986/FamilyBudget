@@ -7,12 +7,12 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#525 - others">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#528 - medication on web part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/health.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/health.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/health.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/renthousing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -447,39 +447,8 @@
       <workItem from="1793044712395" duration="3256000" />
       <workItem from="1793299775065" duration="81000" />
       <workItem from="1793299906509" duration="3545000" />
-      <workItem from="1793303717295" duration="2017000" />
-    </task>
-    <task id="LOCAL-01008" summary="#459 - others">
-      <option name="closed" value="true" />
-      <created>1791229834617</created>
-      <option name="number" value="01008" />
-      <option name="presentableId" value="LOCAL-01008" />
-      <option name="project" value="LOCAL" />
-      <updated>1791229834618</updated>
-    </task>
-    <task id="LOCAL-01009" summary="#459 - added operation by cash">
-      <option name="closed" value="true" />
-      <created>1791229860065</created>
-      <option name="number" value="01009" />
-      <option name="presentableId" value="LOCAL-01009" />
-      <option name="project" value="LOCAL" />
-      <updated>1791229860065</updated>
-    </task>
-    <task id="LOCAL-01010" summary="#460 - added expense operations in cash">
-      <option name="closed" value="true" />
-      <created>1791485470342</created>
-      <option name="number" value="01010" />
-      <option name="presentableId" value="LOCAL-01010" />
-      <option name="project" value="LOCAL" />
-      <updated>1791485470343</updated>
-    </task>
-    <task id="LOCAL-01011" summary="#460 - others">
-      <option name="closed" value="true" />
-      <created>1791485493012</created>
-      <option name="number" value="01011" />
-      <option name="presentableId" value="LOCAL-01011" />
-      <option name="project" value="LOCAL" />
-      <updated>1791485493012</updated>
+      <workItem from="1793303717295" duration="2507000" />
+      <workItem from="1793453204445" duration="776000" />
     </task>
     <task id="LOCAL-01012" summary="#508 - others">
       <option name="closed" value="true" />
@@ -841,7 +810,39 @@
       <option name="project" value="LOCAL" />
       <updated>1793304445547</updated>
     </task>
-    <option name="localTasksCounter" value="1057" />
+    <task id="LOCAL-01057" summary="#494 - others">
+      <option name="closed" value="true" />
+      <created>1793305831147</created>
+      <option name="number" value="01057" />
+      <option name="presentableId" value="LOCAL-01057" />
+      <option name="project" value="LOCAL" />
+      <updated>1793305831147</updated>
+    </task>
+    <task id="LOCAL-01058" summary="#494 - new expense - medication">
+      <option name="closed" value="true" />
+      <created>1793305858266</created>
+      <option name="number" value="01058" />
+      <option name="presentableId" value="LOCAL-01058" />
+      <option name="project" value="LOCAL" />
+      <updated>1793305858266</updated>
+    </task>
+    <task id="LOCAL-01059" summary="#495 - new expense - medication on web">
+      <option name="closed" value="true" />
+      <created>1793305943847</created>
+      <option name="number" value="01059" />
+      <option name="presentableId" value="LOCAL-01059" />
+      <option name="project" value="LOCAL" />
+      <updated>1793305943847</updated>
+    </task>
+    <task id="LOCAL-01060" summary="#528 - medication on web part">
+      <option name="closed" value="true" />
+      <created>1793306062938</created>
+      <option name="number" value="01060" />
+      <option name="presentableId" value="LOCAL-01060" />
+      <option name="project" value="LOCAL" />
+      <updated>1793306062939</updated>
+    </task>
+    <option name="localTasksCounter" value="1061" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -879,10 +880,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#516-rehane expense type + bugix syntax" />
-    <MESSAGE value="#479 - others" />
-    <MESSAGE value="#479 - removing vacation expense" />
-    <MESSAGE value="#480 - others" />
     <MESSAGE value="#480 - removed expense type Vacation" />
     <MESSAGE value="#482 - others" />
     <MESSAGE value="#482 - removed Relax" />
@@ -904,7 +901,11 @@
     <MESSAGE value="#498 - remove medical check.web forms" />
     <MESSAGE value="#525 - dentist as test expense" />
     <MESSAGE value="#525 - others" />
-    <option name="LAST_COMMIT_MESSAGE" value="#525 - others" />
+    <MESSAGE value="#494 - others" />
+    <MESSAGE value="#494 - new expense - medication" />
+    <MESSAGE value="#495 - new expense - medication on web" />
+    <MESSAGE value="#528 - medication on web part" />
+    <option name="LAST_COMMIT_MESSAGE" value="#528 - medication on web part" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
