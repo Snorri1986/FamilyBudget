@@ -76,6 +76,7 @@ public class WebFormsController {
           "Mobile", 5,
           "Internet", 6,
           "Roaming bundles", 32,
+          "Licenses & subscriptions", 51,
           "Other", 12
   );
 
