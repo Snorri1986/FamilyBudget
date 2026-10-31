@@ -7,10 +7,7 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#528 - medication on web part">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#501 - new expense - home maintenance">
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/renthousing.html" afterDir="false" />
     </list>
@@ -448,31 +445,7 @@
       <workItem from="1793299775065" duration="81000" />
       <workItem from="1793299906509" duration="3545000" />
       <workItem from="1793303717295" duration="2507000" />
-      <workItem from="1793453204445" duration="776000" />
-    </task>
-    <task id="LOCAL-01012" summary="#508 - others">
-      <option name="closed" value="true" />
-      <created>1791486620245</created>
-      <option name="number" value="01012" />
-      <option name="presentableId" value="LOCAL-01012" />
-      <option name="project" value="LOCAL" />
-      <updated>1791486620245</updated>
-    </task>
-    <task id="LOCAL-01013" summary="#508 - only expense opers from cash table">
-      <option name="closed" value="true" />
-      <created>1791486649902</created>
-      <option name="number" value="01013" />
-      <option name="presentableId" value="LOCAL-01013" />
-      <option name="project" value="LOCAL" />
-      <updated>1791486649902</updated>
-    </task>
-    <task id="LOCAL-01014" summary="#509 - others">
-      <option name="closed" value="true" />
-      <created>1791488388457</created>
-      <option name="number" value="01014" />
-      <option name="presentableId" value="LOCAL-01014" />
-      <option name="project" value="LOCAL" />
-      <updated>1791488388457</updated>
+      <workItem from="1793453204445" duration="1071000" />
     </task>
     <task id="LOCAL-01015" summary="#509 - fixed select for cash operations. Only expenses included">
       <option name="closed" value="true" />
@@ -842,7 +815,31 @@
       <option name="project" value="LOCAL" />
       <updated>1793306062939</updated>
     </task>
-    <option name="localTasksCounter" value="1061" />
+    <task id="LOCAL-01061" summary="#500 - others">
+      <option name="closed" value="true" />
+      <created>1793454021546</created>
+      <option name="number" value="01061" />
+      <option name="presentableId" value="LOCAL-01061" />
+      <option name="project" value="LOCAL" />
+      <updated>1793454021547</updated>
+    </task>
+    <task id="LOCAL-01062" summary="#500 - new expense - home maintenance">
+      <option name="closed" value="true" />
+      <created>1793454050844</created>
+      <option name="number" value="01062" />
+      <option name="presentableId" value="LOCAL-01062" />
+      <option name="project" value="LOCAL" />
+      <updated>1793454050844</updated>
+    </task>
+    <task id="LOCAL-01063" summary="#501 - new expense - home maintenance">
+      <option name="closed" value="true" />
+      <created>1793454213785</created>
+      <option name="number" value="01063" />
+      <option name="presentableId" value="LOCAL-01063" />
+      <option name="project" value="LOCAL" />
+      <updated>1793454213785</updated>
+    </task>
+    <option name="localTasksCounter" value="1064" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -880,9 +877,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#480 - removed expense type Vacation" />
-    <MESSAGE value="#482 - others" />
-    <MESSAGE value="#482 - removed Relax" />
     <MESSAGE value="#483 - others" />
     <MESSAGE value="#483 - removed Relax" />
     <MESSAGE value="#485 - others" />
@@ -905,7 +899,10 @@
     <MESSAGE value="#494 - new expense - medication" />
     <MESSAGE value="#495 - new expense - medication on web" />
     <MESSAGE value="#528 - medication on web part" />
-    <option name="LAST_COMMIT_MESSAGE" value="#528 - medication on web part" />
+    <MESSAGE value="#500 - others" />
+    <MESSAGE value="#500 - new expense - home maintenance" />
+    <MESSAGE value="#501 - new expense - home maintenance" />
+    <option name="LAST_COMMIT_MESSAGE" value="#501 - new expense - home maintenance" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
