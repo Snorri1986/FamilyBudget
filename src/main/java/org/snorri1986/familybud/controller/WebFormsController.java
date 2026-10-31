@@ -86,6 +86,7 @@ public class WebFormsController {
           "Food in trip", 35,
           "Travel entertainment", 36,
           "Public transport", 7,
+          "Gifts", 52,
           "Other", 12
   );
 
