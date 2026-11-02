@@ -7,10 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#536 - new expense - gifts">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/MainPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/controller/WebFormsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/renthousing.html" afterDir="false" />
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#457 - others">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/DataSourceConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +130,65 @@
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0" />
+      <entry key="M15" value="1.0" />
+      <entry key="M30" value="1.0" />
+      <entry key="H1" value="1.0" />
+      <entry key="H2" value="1.0" />
+      <entry key="H4" value="1.0" />
+      <entry key="D1" value="1.0" />
+      <entry key="W1" value="1.0" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.34868591658760134" />
+      <entry key="MS500" value="0.8100034736320458" />
+      <entry key="S2" value="0.9486843151404539" />
+      <entry key="S5" value="0.9791487822615405" />
+      <entry key="S10" value="0.9895194703802146" />
+      <entry key="S30" value="0.996494213953598" />
+      <entry key="S60" value="0.9982455679609091" />
+      <entry key="M2" value="0.9991223988885992" />
+      <entry key="M5" value="0.9996488670901112" />
+      <entry key="M10" value="0.9998244181305591" />
+      <entry key="M15" value="0.9998829419946618" />
+      <entry key="M30" value="0.9999414692844085" />
+      <entry key="H1" value="0.9999707342139612" />
+      <entry key="H2" value="0.9999853669999182" />
+      <entry key="H4" value="0.9999926834731934" />
+      <entry key="D1" value="0.999998780575148" />
+      <entry key="W1" value="0.9999998257963587" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -372,8 +430,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+        <option value="bundled-jdk-30f59d01ecdd-2df11533d9fe-intellij.indexing.shared.core-IU-262.11879.100" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.11879.100" />
       </set>
     </attachedChunks>
   </component>
@@ -446,23 +504,9 @@
       <workItem from="1793299775065" duration="81000" />
       <workItem from="1793299906509" duration="3545000" />
       <workItem from="1793303717295" duration="2507000" />
-      <workItem from="1793453204445" duration="3608000" />
-    </task>
-    <task id="LOCAL-01025" summary="#463 - others">
-      <option name="closed" value="true" />
-      <created>1792694045447</created>
-      <option name="number" value="01025" />
-      <option name="presentableId" value="LOCAL-01025" />
-      <option name="project" value="LOCAL" />
-      <updated>1792694045447</updated>
-    </task>
-    <task id="LOCAL-01026" summary="#463 - with cash expense operations">
-      <option name="closed" value="true" />
-      <created>1792694075353</created>
-      <option name="number" value="01026" />
-      <option name="presentableId" value="LOCAL-01026" />
-      <option name="project" value="LOCAL" />
-      <updated>1792694075353</updated>
+      <workItem from="1793453204445" duration="4157000" />
+      <workItem from="1793644709307" duration="268000" />
+      <workItem from="1793645193198" duration="72000" />
     </task>
     <task id="LOCAL-01027" summary="#475 - others">
       <option name="closed" value="true" />
@@ -840,7 +884,23 @@
       <option name="project" value="LOCAL" />
       <updated>1793456504845</updated>
     </task>
-    <option name="localTasksCounter" value="1074" />
+    <task id="LOCAL-01074" summary="#538 - new expense - loans">
+      <option name="closed" value="true" />
+      <created>1793457131087</created>
+      <option name="number" value="01074" />
+      <option name="presentableId" value="LOCAL-01074" />
+      <option name="project" value="LOCAL" />
+      <updated>1793457131087</updated>
+    </task>
+    <task id="LOCAL-01075" summary="#538 - others">
+      <option name="closed" value="true" />
+      <created>1793457148682</created>
+      <option name="number" value="01075" />
+      <option name="presentableId" value="LOCAL-01075" />
+      <option name="project" value="LOCAL" />
+      <updated>1793457148682</updated>
+    </task>
+    <option name="localTasksCounter" value="1076" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -878,9 +938,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#491 - others" />
-    <MESSAGE value="#491 - remove expense - fest" />
-    <MESSAGE value="#492 - remove expense - fest on web" />
     <MESSAGE value="#497 - others" />
     <MESSAGE value="#497 - remove medical check" />
     <MESSAGE value="#498 - remove medical check.web forms" />
@@ -903,7 +960,10 @@
     <MESSAGE value="#513 - new expense - gifts" />
     <MESSAGE value="#514 - new expense - gifts" />
     <MESSAGE value="#536 - new expense - gifts" />
-    <option name="LAST_COMMIT_MESSAGE" value="#536 - new expense - gifts" />
+    <MESSAGE value="#538 - new expense - loans" />
+    <MESSAGE value="#538 - others" />
+    <MESSAGE value="#457 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#457 - others" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
