@@ -28,22 +28,22 @@ public class MainPageController {
           Arrays.asList("Salary", "Bonus", "TravelRefund", "ShopRefund","Money transfer R","HumanRefund","Other"));
 
   private static final List<String> ENTERTAINMENT_TYPE_LIST = Collections.unmodifiableList(
-          Arrays.asList("Travel", "Cinema", "Vacation", "Relax","Restaurant","Homefest","Other"));
+          Arrays.asList("Urban travel", "Cinema", "Sport", "Restaurant", "Homefest", "Museum", "Event park", "Community event", "Other"));
 
   private static final List<String> GROCERIES_TYPE_LIST = Collections.unmodifiableList(
-          Arrays.asList("Daily","Weekly","Weekend","Fest","Clothes","Lunch at work","Other"));
+          Arrays.asList("Daily","Weekly","Weekend","Clothes","Lunch at work","Other"));
 
   private static final List<String> HEALTH_TYPE_LIST = Collections.unmodifiableList(
-          Arrays.asList("Dentist","Regular Medical check","Special doctor","Swimming pool","SPA","Nails","Haircut","Gym","Other"));
+          Arrays.asList("Dentist","Special doctor","Swimming pool","SPA","Nails","Haircut","Gym","Medication","Other"));
 
   private static final List<String> RENT_HOUSING_TYPE_LIST = Collections.unmodifiableList(
-          Arrays.asList("Rent","Mortgage","Money transfer S","A-kass","Electricity","House equipment","Renovation","Other"));
+          Arrays.asList("Rent","Mortgage","Money transfer S","A-kass","Electricity","House equipment","Renovation","Home maintenance","Loans","Other"));
 
   private static final List<String> TELECOM_TYPE_LIST = Collections.unmodifiableList(
-          Arrays.asList("Mobile","Internet","Roaming bundles","Other"));
+          Arrays.asList("Mobile","Internet","Roaming bundles","Licenses & subscriptions","Other"));
 
   private static final List<String> TRAVEL_TYPE_LIST = Collections.unmodifiableList(
-          Arrays.asList("Tickets","Hotel","Food in trip","Travel entertainment","Public transport","Other"));
+          Arrays.asList("Tickets","Hotel","Food in trip","Travel entertainment","Public transport","Gifts","Other"));
 
   @GetMapping("/login")
   public String getLoginPage(Model model) {

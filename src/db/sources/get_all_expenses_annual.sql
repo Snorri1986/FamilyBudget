@@ -56,7 +56,12 @@ BEGIN
           AND "date" >= v_year_start AND "date" < v_year_end
         UNION ALL
         SELECT amount FROM public.travel
-        WHERE user_last_session = v_user_session AND currency = 3
+        WHERE user_last_session = v_user_session AND currency = p_currency_id
+          AND "date" >= v_year_start AND "date" < v_year_end
+        UNION ALL
+        SELECT amount FROM public.cash_operations_log
+        WHERE user_last_session = v_user_session AND currency = p_currency_id
+          AND optype = 0
           AND "date" >= v_year_start AND "date" < v_year_end
     )
     SELECT COALESCE(SUM(amount), 0) INTO v_total_expenses FROM all_expenses;

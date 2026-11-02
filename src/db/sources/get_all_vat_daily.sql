@@ -22,7 +22,7 @@ END IF;
     v_day_start := v_today::timestamp;
     v_day_end := (v_today + interval '1 day')::timestamp;
 
-    -- Aggregate VAT from all 6 expense categories
+    -- Aggregate VAT from all 6 expense categories + operations in cash
 WITH all_daily_vat AS (
     SELECT vat FROM public.entertainment
     WHERE user_last_session = v_user_session
@@ -52,6 +52,12 @@ WITH all_daily_vat AS (
     SELECT vat FROM public.travel
     WHERE user_last_session = v_user_session
       AND currency = p_currency_id
+      AND "date" >= v_day_start AND "date" < v_day_end
+    UNION ALL
+    SELECT vat FROM public.cash_operations_log
+    WHERE user_last_session = v_user_session
+      AND currency = p_currency_id
+      AND optype = 0
       AND "date" >= v_day_start AND "date" < v_day_end
 )
 SELECT COALESCE(SUM(vat), 0) INTO v_total_daily_vat FROM all_daily_vat;

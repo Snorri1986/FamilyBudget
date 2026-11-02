@@ -7,8 +7,9 @@
     <option name="selectedModelId" value="auto" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#346 - new unit tests for VAT reporting">
+    <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#457 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/DataSourceConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +93,7 @@
   <component name="DatabaseLocalColorSettings">
     <colors>
       <entry key="654fcba4-0bd7-4989-939a-b6f63b9bbab4" value="Orange" />
+      <entry key="c764c166-8d38-42ac-aacd-c8b1ef5ddf76" value="" />
     </colors>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -105,7 +107,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v2.1.0" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,6 +131,65 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0" />
+      <entry key="M15" value="1.0" />
+      <entry key="M30" value="1.0" />
+      <entry key="H1" value="1.0" />
+      <entry key="H2" value="1.0" />
+      <entry key="H4" value="1.0" />
+      <entry key="D1" value="1.0" />
+      <entry key="W1" value="1.0" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.34868591658760134" />
+      <entry key="MS500" value="0.8100034736320458" />
+      <entry key="S2" value="0.9486843151404539" />
+      <entry key="S5" value="0.9791487822615405" />
+      <entry key="S10" value="0.9895194703802146" />
+      <entry key="S30" value="0.996494213953598" />
+      <entry key="S60" value="0.9982455679609091" />
+      <entry key="M2" value="0.9991223988885992" />
+      <entry key="M5" value="0.9996488670901112" />
+      <entry key="M10" value="0.9998244181305591" />
+      <entry key="M15" value="0.9998829419946618" />
+      <entry key="M30" value="0.9999414692844085" />
+      <entry key="H1" value="0.9999707342139612" />
+      <entry key="H2" value="0.9999853669999182" />
+      <entry key="H4" value="0.9999926834731934" />
+      <entry key="D1" value="0.999998780575148" />
+      <entry key="W1" value="0.9999998257963587" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -139,6 +200,7 @@
   <component name="ProjectSessionTemplates">
     <option name="panelTemplate">
       <template>
+        <option name="ensembleEnabled" value="false" />
         <option name="modeId" value="Agent" />
         <option name="model">
           <model>
@@ -146,9 +208,11 @@
             <option name="modelValue" value="auto" />
           </model>
         </option>
-        <option name="targetType" value="LOCAL" />
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
       </template>
     </option>
+    <option name="version" value="1" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -206,7 +270,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;v2.1.0&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;v2.1.1&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Applications/FamilyBudget/src/main/resources/static/css&quot;,
@@ -355,19 +419,19 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
-        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetDailyVatReportByCurrencyEUR" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testShowCashBalance" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testShowCardBalance" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetDailyVatReportByCurrencyEUR" />
         <item itemvalue="JUnit.AdditionalFuncPageControllerTest.testGetCashBalance" />
+        <item itemvalue="JUnit.AdditionalFuncPageControllerTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+        <option value="bundled-jdk-30f59d01ecdd-2df11533d9fe-intellij.indexing.shared.core-IU-262.11879.100" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.11879.100" />
       </set>
     </attachedChunks>
   </component>
@@ -427,400 +491,416 @@
       <workItem from="1787769569437" duration="75000" />
       <workItem from="1787769704367" duration="3188000" />
       <workItem from="1787939409535" duration="6557000" />
+      <workItem from="1790878071097" duration="181000" />
+      <workItem from="1790878613440" duration="6390000" />
+      <workItem from="1791227452385" duration="2596000" />
+      <workItem from="1791482956573" duration="5192000" />
+      <workItem from="1792436278491" duration="142000" />
+      <workItem from="1792436534660" duration="123000" />
+      <workItem from="1792436834368" duration="2496000" />
+      <workItem from="1792690753501" duration="7440000" />
+      <workItem from="1792845199850" duration="4343000" />
+      <workItem from="1793044712395" duration="3256000" />
+      <workItem from="1793299775065" duration="81000" />
+      <workItem from="1793299906509" duration="3545000" />
+      <workItem from="1793303717295" duration="2507000" />
+      <workItem from="1793453204445" duration="4157000" />
+      <workItem from="1793644709307" duration="268000" />
+      <workItem from="1793645193198" duration="72000" />
     </task>
-    <task id="LOCAL-00954" summary="#328 - others">
+    <task id="LOCAL-01027" summary="#475 - others">
       <option name="closed" value="true" />
-      <created>1786993443820</created>
-      <option name="number" value="00954" />
-      <option name="presentableId" value="LOCAL-00954" />
+      <created>1792696632488</created>
+      <option name="number" value="01027" />
+      <option name="presentableId" value="LOCAL-01027" />
       <option name="project" value="LOCAL" />
-      <updated>1786993443820</updated>
+      <updated>1792696632488</updated>
     </task>
-    <task id="LOCAL-00955" summary="#328 - new version with minus_card_balance call">
+    <task id="LOCAL-01028" summary="#475 - rename expense type">
       <option name="closed" value="true" />
-      <created>1786993473770</created>
-      <option name="number" value="00955" />
-      <option name="presentableId" value="LOCAL-00955" />
+      <created>1792696698864</created>
+      <option name="number" value="01028" />
+      <option name="presentableId" value="LOCAL-01028" />
       <option name="project" value="LOCAL" />
-      <updated>1786993473772</updated>
+      <updated>1792696698866</updated>
     </task>
-    <task id="LOCAL-00956" summary="#329 - others">
+    <task id="LOCAL-01029" summary="#476 - others">
       <option name="closed" value="true" />
-      <created>1786994484098</created>
-      <option name="number" value="00956" />
-      <option name="presentableId" value="LOCAL-00956" />
+      <created>1792697702834</created>
+      <option name="number" value="01029" />
+      <option name="presentableId" value="LOCAL-01029" />
       <option name="project" value="LOCAL" />
-      <updated>1786994484098</updated>
+      <updated>1792697702836</updated>
     </task>
-    <task id="LOCAL-00957" summary="#329 - new version with minus_card_balance call">
+    <task id="LOCAL-01030" summary="#476 - rename expense type">
       <option name="closed" value="true" />
-      <created>1786994509913</created>
-      <option name="number" value="00957" />
-      <option name="presentableId" value="LOCAL-00957" />
+      <created>1792697733575</created>
+      <option name="number" value="01030" />
+      <option name="presentableId" value="LOCAL-01030" />
       <option name="project" value="LOCAL" />
-      <updated>1786994509914</updated>
+      <updated>1792697733575</updated>
     </task>
-    <task id="LOCAL-00958" summary="#330 - others">
+    <task id="LOCAL-01031" summary="#516 - others">
       <option name="closed" value="true" />
-      <created>1786995043726</created>
-      <option name="number" value="00958" />
-      <option name="presentableId" value="LOCAL-00958" />
+      <created>1792845837209</created>
+      <option name="number" value="01031" />
+      <option name="presentableId" value="LOCAL-01031" />
       <option name="project" value="LOCAL" />
-      <updated>1786995043726</updated>
+      <updated>1792845837214</updated>
     </task>
-    <task id="LOCAL-00959" summary="#330 - new version with minus_card_balance call">
+    <task id="LOCAL-01032" summary="#516-rehane expense type + bugix syntax">
       <option name="closed" value="true" />
-      <created>1786995069554</created>
-      <option name="number" value="00959" />
-      <option name="presentableId" value="LOCAL-00959" />
+      <created>1792845875696</created>
+      <option name="number" value="01032" />
+      <option name="presentableId" value="LOCAL-01032" />
       <option name="project" value="LOCAL" />
-      <updated>1786995069554</updated>
+      <updated>1792845875697</updated>
     </task>
-    <task id="LOCAL-00960" summary="#331 - others">
+    <task id="LOCAL-01033" summary="#479 - others">
       <option name="closed" value="true" />
-      <created>1787161898325</created>
-      <option name="number" value="00960" />
-      <option name="presentableId" value="LOCAL-00960" />
+      <created>1792849352748</created>
+      <option name="number" value="01033" />
+      <option name="presentableId" value="LOCAL-01033" />
       <option name="project" value="LOCAL" />
-      <updated>1787161898326</updated>
+      <updated>1792849352749</updated>
     </task>
-    <task id="LOCAL-00961" summary="#331 - new version with minus_card_balance call">
+    <task id="LOCAL-01034" summary="#479 - removing vacation expense">
       <option name="closed" value="true" />
-      <created>1787161924791</created>
-      <option name="number" value="00961" />
-      <option name="presentableId" value="LOCAL-00961" />
+      <created>1792849377674</created>
+      <option name="number" value="01034" />
+      <option name="presentableId" value="LOCAL-01034" />
       <option name="project" value="LOCAL" />
-      <updated>1787161924791</updated>
+      <updated>1792849377674</updated>
     </task>
-    <task id="LOCAL-00962" summary="#332 - others">
+    <task id="LOCAL-01035" summary="#480 - others">
       <option name="closed" value="true" />
-      <created>1787162548421</created>
-      <option name="number" value="00962" />
-      <option name="presentableId" value="LOCAL-00962" />
+      <created>1792850026380</created>
+      <option name="number" value="01035" />
+      <option name="presentableId" value="LOCAL-01035" />
       <option name="project" value="LOCAL" />
-      <updated>1787162548421</updated>
+      <updated>1792850026380</updated>
     </task>
-    <task id="LOCAL-00963" summary="#332 - new version with minus_card_balance call">
+    <task id="LOCAL-01036" summary="#480 - removed expense type Vacation">
       <option name="closed" value="true" />
-      <created>1787162653708</created>
-      <option name="number" value="00963" />
-      <option name="presentableId" value="LOCAL-00963" />
+      <created>1792850067021</created>
+      <option name="number" value="01036" />
+      <option name="presentableId" value="LOCAL-01036" />
       <option name="project" value="LOCAL" />
-      <updated>1787162653709</updated>
+      <updated>1792850067021</updated>
     </task>
-    <task id="LOCAL-00964" summary="#440 - code review summary">
+    <task id="LOCAL-01037" summary="#482 - others">
       <option name="closed" value="true" />
-      <created>1787166299380</created>
-      <option name="number" value="00964" />
-      <option name="presentableId" value="LOCAL-00964" />
+      <created>1793045012060</created>
+      <option name="number" value="01037" />
+      <option name="presentableId" value="LOCAL-01037" />
       <option name="project" value="LOCAL" />
-      <updated>1787166299380</updated>
+      <updated>1793045012061</updated>
     </task>
-    <task id="LOCAL-00965" summary="#440 - others">
+    <task id="LOCAL-01038" summary="#482 - removed Relax">
       <option name="closed" value="true" />
-      <created>1787166310579</created>
-      <option name="number" value="00965" />
-      <option name="presentableId" value="LOCAL-00965" />
+      <created>1793045052382</created>
+      <option name="number" value="01038" />
+      <option name="presentableId" value="LOCAL-01038" />
       <option name="project" value="LOCAL" />
-      <updated>1787166310579</updated>
+      <updated>1793045052382</updated>
     </task>
-    <task id="LOCAL-00966" summary="#440 - new web page showing card balance">
+    <task id="LOCAL-01039" summary="#483 - others">
       <option name="closed" value="true" />
-      <created>1787166341876</created>
-      <option name="number" value="00966" />
-      <option name="presentableId" value="LOCAL-00966" />
+      <created>1793045097632</created>
+      <option name="number" value="01039" />
+      <option name="presentableId" value="LOCAL-01039" />
       <option name="project" value="LOCAL" />
-      <updated>1787166341877</updated>
+      <updated>1793045097632</updated>
     </task>
-    <task id="LOCAL-00967" summary="#441 - code review summary">
+    <task id="LOCAL-01040" summary="#483 - removed Relax">
       <option name="closed" value="true" />
-      <created>1787167435736</created>
-      <option name="number" value="00967" />
-      <option name="presentableId" value="LOCAL-00967" />
+      <created>1793045120214</created>
+      <option name="number" value="01040" />
+      <option name="presentableId" value="LOCAL-01040" />
       <option name="project" value="LOCAL" />
-      <updated>1787167435736</updated>
+      <updated>1793045120214</updated>
     </task>
-    <task id="LOCAL-00968" summary="#441 - others">
+    <task id="LOCAL-01041" summary="#485 - others">
       <option name="closed" value="true" />
-      <created>1787167449776</created>
-      <option name="number" value="00968" />
-      <option name="presentableId" value="LOCAL-00968" />
+      <created>1793046876366</created>
+      <option name="number" value="01041" />
+      <option name="presentableId" value="LOCAL-01041" />
       <option name="project" value="LOCAL" />
-      <updated>1787167449776</updated>
+      <updated>1793046876366</updated>
     </task>
-    <task id="LOCAL-00969" summary="#441 - new method getCardBalance()">
+    <task id="LOCAL-01042" summary="#485 - new expense - sport">
       <option name="closed" value="true" />
-      <created>1787167481740</created>
-      <option name="number" value="00969" />
-      <option name="presentableId" value="LOCAL-00969" />
+      <created>1793046900836</created>
+      <option name="number" value="01042" />
+      <option name="presentableId" value="LOCAL-01042" />
       <option name="project" value="LOCAL" />
-      <updated>1787167481740</updated>
+      <updated>1793046900836</updated>
     </task>
-    <task id="LOCAL-00970" summary="#442 - others">
+    <task id="LOCAL-01043" summary="#486 - new expense - sport">
       <option name="closed" value="true" />
-      <created>1787167779505</created>
-      <option name="number" value="00970" />
-      <option name="presentableId" value="LOCAL-00970" />
+      <created>1793046983908</created>
+      <option name="number" value="01043" />
+      <option name="presentableId" value="LOCAL-01043" />
       <option name="project" value="LOCAL" />
-      <updated>1787167779505</updated>
+      <updated>1793046983909</updated>
     </task>
-    <task id="LOCAL-00971" summary="#442 - new method getCardBalanceFromDB()">
+    <task id="LOCAL-01044" summary="#519 - new expense - sport">
       <option name="closed" value="true" />
-      <created>1787167805424</created>
-      <option name="number" value="00971" />
-      <option name="presentableId" value="LOCAL-00971" />
+      <created>1793047064565</created>
+      <option name="number" value="01044" />
+      <option name="presentableId" value="LOCAL-01044" />
       <option name="project" value="LOCAL" />
-      <updated>1787167805424</updated>
+      <updated>1793047064565</updated>
     </task>
-    <task id="LOCAL-00972" summary="#443 - code review summary">
+    <task id="LOCAL-01045" summary="#488 - others">
       <option name="closed" value="true" />
-      <created>1787168633737</created>
-      <option name="number" value="00972" />
-      <option name="presentableId" value="LOCAL-00972" />
+      <created>1793302207122</created>
+      <option name="number" value="01045" />
+      <option name="presentableId" value="LOCAL-01045" />
       <option name="project" value="LOCAL" />
-      <updated>1787168633737</updated>
+      <updated>1793302207125</updated>
     </task>
-    <task id="LOCAL-00973" summary="#443 - others">
+    <task id="LOCAL-01046" summary="#488 - new expenses on MainPage">
       <option name="closed" value="true" />
-      <created>1787168644710</created>
-      <option name="number" value="00973" />
-      <option name="presentableId" value="LOCAL-00973" />
+      <created>1793302238226</created>
+      <option name="number" value="01046" />
+      <option name="presentableId" value="LOCAL-01046" />
       <option name="project" value="LOCAL" />
-      <updated>1787168644710</updated>
+      <updated>1793302238226</updated>
     </task>
-    <task id="LOCAL-00974" summary="#443 - new endpoint - cardBalance">
+    <task id="LOCAL-01047" summary="#489 - new expenses on WebForms">
       <option name="closed" value="true" />
-      <created>1787168673743</created>
-      <option name="number" value="00974" />
-      <option name="presentableId" value="LOCAL-00974" />
+      <created>1793302330004</created>
+      <option name="number" value="01047" />
+      <option name="presentableId" value="LOCAL-01047" />
       <option name="project" value="LOCAL" />
-      <updated>1787168673743</updated>
+      <updated>1793302330004</updated>
     </task>
-    <task id="LOCAL-00975" summary="#444 - others">
+    <task id="LOCAL-01048" summary="#523 - new expenses codes on web side">
       <option name="closed" value="true" />
-      <created>1787168927956</created>
-      <option name="number" value="00975" />
-      <option name="presentableId" value="LOCAL-00975" />
+      <created>1793302435488</created>
+      <option name="number" value="01048" />
+      <option name="presentableId" value="LOCAL-01048" />
       <option name="project" value="LOCAL" />
-      <updated>1787168927956</updated>
+      <updated>1793302435489</updated>
     </task>
-    <task id="LOCAL-00976" summary="#444 - button card balance became alive">
+    <task id="LOCAL-01049" summary="#491 - others">
       <option name="closed" value="true" />
-      <created>1787168963226</created>
-      <option name="number" value="00976" />
-      <option name="presentableId" value="LOCAL-00976" />
+      <created>1793303102031</created>
+      <option name="number" value="01049" />
+      <option name="presentableId" value="LOCAL-01049" />
       <option name="project" value="LOCAL" />
-      <updated>1787168963226</updated>
+      <updated>1793303102031</updated>
     </task>
-    <task id="LOCAL-00977" summary="#445 - others">
+    <task id="LOCAL-01050" summary="#491 - remove expense - fest">
       <option name="closed" value="true" />
-      <created>1787396652789</created>
-      <option name="number" value="00977" />
-      <option name="presentableId" value="LOCAL-00977" />
+      <created>1793303128223</created>
+      <option name="number" value="01050" />
+      <option name="presentableId" value="LOCAL-01050" />
       <option name="project" value="LOCAL" />
-      <updated>1787396652790</updated>
+      <updated>1793303128224</updated>
     </task>
-    <task id="LOCAL-00978" summary="#445 - removed unused commented code">
+    <task id="LOCAL-01051" summary="#492 - remove expense - fest on web">
       <option name="closed" value="true" />
-      <created>1787396713983</created>
-      <option name="number" value="00978" />
-      <option name="presentableId" value="LOCAL-00978" />
+      <created>1793303230836</created>
+      <option name="number" value="01051" />
+      <option name="presentableId" value="LOCAL-01051" />
       <option name="project" value="LOCAL" />
-      <updated>1787396713983</updated>
+      <updated>1793303230837</updated>
     </task>
-    <task id="LOCAL-00979" summary="#445 - unit tests for show balances">
+    <task id="LOCAL-01052" summary="#497 - others">
       <option name="closed" value="true" />
-      <created>1787396751707</created>
-      <option name="number" value="00979" />
-      <option name="presentableId" value="LOCAL-00979" />
+      <created>1793304168856</created>
+      <option name="number" value="01052" />
+      <option name="presentableId" value="LOCAL-01052" />
       <option name="project" value="LOCAL" />
-      <updated>1787396751707</updated>
+      <updated>1793304168857</updated>
     </task>
-    <task id="LOCAL-00980" summary="#335 - others">
+    <task id="LOCAL-01053" summary="#497 - remove medical check">
       <option name="closed" value="true" />
-      <created>1787681904365</created>
-      <option name="number" value="00980" />
-      <option name="presentableId" value="LOCAL-00980" />
+      <created>1793304198866</created>
+      <option name="number" value="01053" />
+      <option name="presentableId" value="LOCAL-01053" />
       <option name="project" value="LOCAL" />
-      <updated>1787681904366</updated>
+      <updated>1793304198866</updated>
     </task>
-    <task id="LOCAL-00981" summary="#335 - new name and new VAT button">
+    <task id="LOCAL-01054" summary="#498 - remove medical check.web forms">
       <option name="closed" value="true" />
-      <created>1787681946367</created>
-      <option name="number" value="00981" />
-      <option name="presentableId" value="LOCAL-00981" />
+      <created>1793304315023</created>
+      <option name="number" value="01054" />
+      <option name="presentableId" value="LOCAL-01054" />
       <option name="project" value="LOCAL" />
-      <updated>1787681946372</updated>
+      <updated>1793304315024</updated>
     </task>
-    <task id="LOCAL-00982" summary="#336 - others">
+    <task id="LOCAL-01055" summary="#525 - dentist as test expense">
       <option name="closed" value="true" />
-      <created>1787682981223</created>
-      <option name="number" value="00982" />
-      <option name="presentableId" value="LOCAL-00982" />
+      <created>1793304428866</created>
+      <option name="number" value="01055" />
+      <option name="presentableId" value="LOCAL-01055" />
       <option name="project" value="LOCAL" />
-      <updated>1787682981223</updated>
+      <updated>1793304428866</updated>
     </task>
-    <task id="LOCAL-00983" summary="#336 - new webpage and css for it">
+    <task id="LOCAL-01056" summary="#525 - others">
       <option name="closed" value="true" />
-      <created>1787683018820</created>
-      <option name="number" value="00983" />
-      <option name="presentableId" value="LOCAL-00983" />
+      <created>1793304445540</created>
+      <option name="number" value="01056" />
+      <option name="presentableId" value="LOCAL-01056" />
       <option name="project" value="LOCAL" />
-      <updated>1787683018821</updated>
+      <updated>1793304445547</updated>
     </task>
-    <task id="LOCAL-00984" summary="#338 - others">
+    <task id="LOCAL-01057" summary="#494 - others">
       <option name="closed" value="true" />
-      <created>1787684110302</created>
-      <option name="number" value="00984" />
-      <option name="presentableId" value="LOCAL-00984" />
+      <created>1793305831147</created>
+      <option name="number" value="01057" />
+      <option name="presentableId" value="LOCAL-01057" />
       <option name="project" value="LOCAL" />
-      <updated>1787684110303</updated>
+      <updated>1793305831147</updated>
     </task>
-    <task id="LOCAL-00985" summary="#338 - new function retrieves all daily VAT">
+    <task id="LOCAL-01058" summary="#494 - new expense - medication">
       <option name="closed" value="true" />
-      <created>1787684154628</created>
-      <option name="number" value="00985" />
-      <option name="presentableId" value="LOCAL-00985" />
+      <created>1793305858266</created>
+      <option name="number" value="01058" />
+      <option name="presentableId" value="LOCAL-01058" />
       <option name="project" value="LOCAL" />
-      <updated>1787684154630</updated>
+      <updated>1793305858266</updated>
     </task>
-    <task id="LOCAL-00986" summary="#339 - others">
+    <task id="LOCAL-01059" summary="#495 - new expense - medication on web">
       <option name="closed" value="true" />
-      <created>1787772370874</created>
-      <option name="number" value="00986" />
-      <option name="presentableId" value="LOCAL-00986" />
+      <created>1793305943847</created>
+      <option name="number" value="01059" />
+      <option name="presentableId" value="LOCAL-01059" />
       <option name="project" value="LOCAL" />
-      <updated>1787772370875</updated>
+      <updated>1793305943847</updated>
     </task>
-    <task id="LOCAL-00987" summary="#339 - function to retrieve VAT monthly">
+    <task id="LOCAL-01060" summary="#528 - medication on web part">
       <option name="closed" value="true" />
-      <created>1787772410178</created>
-      <option name="number" value="00987" />
-      <option name="presentableId" value="LOCAL-00987" />
+      <created>1793306062938</created>
+      <option name="number" value="01060" />
+      <option name="presentableId" value="LOCAL-01060" />
       <option name="project" value="LOCAL" />
-      <updated>1787772410178</updated>
+      <updated>1793306062939</updated>
     </task>
-    <task id="LOCAL-00988" summary="#340 - others">
+    <task id="LOCAL-01061" summary="#500 - others">
       <option name="closed" value="true" />
-      <created>1787940378976</created>
-      <option name="number" value="00988" />
-      <option name="presentableId" value="LOCAL-00988" />
+      <created>1793454021546</created>
+      <option name="number" value="01061" />
+      <option name="presentableId" value="LOCAL-01061" />
       <option name="project" value="LOCAL" />
-      <updated>1787940378977</updated>
+      <updated>1793454021547</updated>
     </task>
-    <task id="LOCAL-00989" summary="#340 - others">
+    <task id="LOCAL-01062" summary="#500 - new expense - home maintenance">
       <option name="closed" value="true" />
-      <created>1787940387876</created>
-      <option name="number" value="00989" />
-      <option name="presentableId" value="LOCAL-00989" />
+      <created>1793454050844</created>
+      <option name="number" value="01062" />
+      <option name="presentableId" value="LOCAL-01062" />
       <option name="project" value="LOCAL" />
-      <updated>1787940387876</updated>
+      <updated>1793454050844</updated>
     </task>
-    <task id="LOCAL-00990" summary="#340 - function to retrieve VAT annual">
+    <task id="LOCAL-01063" summary="#501 - new expense - home maintenance">
       <option name="closed" value="true" />
-      <created>1787940405692</created>
-      <option name="number" value="00990" />
-      <option name="presentableId" value="LOCAL-00990" />
+      <created>1793454213785</created>
+      <option name="number" value="01063" />
+      <option name="presentableId" value="LOCAL-01063" />
       <option name="project" value="LOCAL" />
-      <updated>1787940405692</updated>
+      <updated>1793454213785</updated>
     </task>
-    <task id="LOCAL-00991" summary="#342 - others">
+    <task id="LOCAL-01064" summary="#530 - others">
       <option name="closed" value="true" />
-      <created>1787940964432</created>
-      <option name="number" value="00991" />
-      <option name="presentableId" value="LOCAL-00991" />
+      <created>1793454319997</created>
+      <option name="number" value="01064" />
+      <option name="presentableId" value="LOCAL-01064" />
       <option name="project" value="LOCAL" />
-      <updated>1787940964432</updated>
+      <updated>1793454319997</updated>
     </task>
-    <task id="LOCAL-00992" summary="#342 - new method getDailyVatReportByCurrency">
+    <task id="LOCAL-01065" summary="#530 - new expense - home maintenance">
       <option name="closed" value="true" />
-      <created>1787941035978</created>
-      <option name="number" value="00992" />
-      <option name="presentableId" value="LOCAL-00992" />
+      <created>1793454346167</created>
+      <option name="number" value="01065" />
+      <option name="presentableId" value="LOCAL-01065" />
       <option name="project" value="LOCAL" />
-      <updated>1787941035980</updated>
+      <updated>1793454346167</updated>
     </task>
-    <task id="LOCAL-00993" summary="#343 - others">
+    <task id="LOCAL-01066" summary="#505 - others">
       <option name="closed" value="true" />
-      <created>1787941424282</created>
-      <option name="number" value="00993" />
-      <option name="presentableId" value="LOCAL-00993" />
+      <created>1793455185147</created>
+      <option name="number" value="01066" />
+      <option name="presentableId" value="LOCAL-01066" />
       <option name="project" value="LOCAL" />
-      <updated>1787941424283</updated>
+      <updated>1793455185147</updated>
     </task>
-    <task id="LOCAL-00994" summary="#343 - new method getMonthlyVatReportByCurrency">
+    <task id="LOCAL-01067" summary="#505 - new expense - license &amp; subsc">
       <option name="closed" value="true" />
-      <created>1787941456792</created>
-      <option name="number" value="00994" />
-      <option name="presentableId" value="LOCAL-00994" />
+      <created>1793455224918</created>
+      <option name="number" value="01067" />
+      <option name="presentableId" value="LOCAL-01067" />
       <option name="project" value="LOCAL" />
-      <updated>1787941456792</updated>
+      <updated>1793455224918</updated>
     </task>
-    <task id="LOCAL-00995" summary="#344 - others">
+    <task id="LOCAL-01068" summary="#506 - new expense - license &amp; subsc">
       <option name="closed" value="true" />
-      <created>1787941839984</created>
-      <option name="number" value="00995" />
-      <option name="presentableId" value="LOCAL-00995" />
+      <created>1793455307739</created>
+      <option name="number" value="01068" />
+      <option name="presentableId" value="LOCAL-01068" />
       <option name="project" value="LOCAL" />
-      <updated>1787941839985</updated>
+      <updated>1793455307741</updated>
     </task>
-    <task id="LOCAL-00996" summary="#344 - getAnnualVatReportByCurrency">
+    <task id="LOCAL-01069" summary="#533 - new expense - license &amp; subsc">
       <option name="closed" value="true" />
-      <created>1787941868983</created>
-      <option name="number" value="00996" />
-      <option name="presentableId" value="LOCAL-00996" />
+      <created>1793455388339</created>
+      <option name="number" value="01069" />
+      <option name="presentableId" value="LOCAL-01069" />
       <option name="project" value="LOCAL" />
-      <updated>1787941868983</updated>
+      <updated>1793455388339</updated>
     </task>
-    <task id="LOCAL-00997" summary="#345 - others">
+    <task id="LOCAL-01070" summary="#513 - others">
       <option name="closed" value="true" />
-      <created>1787942743109</created>
-      <option name="number" value="00997" />
-      <option name="presentableId" value="LOCAL-00997" />
+      <created>1793456327241</created>
+      <option name="number" value="01070" />
+      <option name="presentableId" value="LOCAL-01070" />
       <option name="project" value="LOCAL" />
-      <updated>1787942743109</updated>
+      <updated>1793456327241</updated>
     </task>
-    <task id="LOCAL-00998" summary="#345 - new endpoint vat_report">
+    <task id="LOCAL-01071" summary="#513 - new expense - gifts">
       <option name="closed" value="true" />
-      <created>1787942769305</created>
-      <option name="number" value="00998" />
-      <option name="presentableId" value="LOCAL-00998" />
+      <created>1793456350749</created>
+      <option name="number" value="01071" />
+      <option name="presentableId" value="LOCAL-01071" />
       <option name="project" value="LOCAL" />
-      <updated>1787942769305</updated>
+      <updated>1793456350754</updated>
     </task>
-    <task id="LOCAL-00999" summary="#337 - others">
+    <task id="LOCAL-01072" summary="#514 - new expense - gifts">
       <option name="closed" value="true" />
-      <created>1787943093986</created>
-      <option name="number" value="00999" />
-      <option name="presentableId" value="LOCAL-00999" />
+      <created>1793456416167</created>
+      <option name="number" value="01072" />
+      <option name="presentableId" value="LOCAL-01072" />
       <option name="project" value="LOCAL" />
-      <updated>1787943093986</updated>
+      <updated>1793456416168</updated>
     </task>
-    <task id="LOCAL-01000" summary="#337 - call vat_report via button">
+    <task id="LOCAL-01073" summary="#536 - new expense - gifts">
       <option name="closed" value="true" />
-      <created>1787943125962</created>
-      <option name="number" value="01000" />
-      <option name="presentableId" value="LOCAL-01000" />
+      <created>1793456504845</created>
+      <option name="number" value="01073" />
+      <option name="presentableId" value="LOCAL-01073" />
       <option name="project" value="LOCAL" />
-      <updated>1787943125962</updated>
+      <updated>1793456504845</updated>
     </task>
-    <task id="LOCAL-01001" summary="#346 - others">
+    <task id="LOCAL-01074" summary="#538 - new expense - loans">
       <option name="closed" value="true" />
-      <created>1787943885765</created>
-      <option name="number" value="01001" />
-      <option name="presentableId" value="LOCAL-01001" />
+      <created>1793457131087</created>
+      <option name="number" value="01074" />
+      <option name="presentableId" value="LOCAL-01074" />
       <option name="project" value="LOCAL" />
-      <updated>1787943885765</updated>
+      <updated>1793457131087</updated>
     </task>
-    <task id="LOCAL-01002" summary="#346 - new unit tests for VAT reporting">
+    <task id="LOCAL-01075" summary="#538 - others">
       <option name="closed" value="true" />
-      <created>1787943910632</created>
-      <option name="number" value="01002" />
-      <option name="presentableId" value="LOCAL-01002" />
+      <created>1793457148682</created>
+      <option name="number" value="01075" />
+      <option name="presentableId" value="LOCAL-01075" />
       <option name="project" value="LOCAL" />
-      <updated>1787943910632</updated>
+      <updated>1793457148682</updated>
     </task>
-    <option name="localTasksCounter" value="1003" />
+    <option name="localTasksCounter" value="1076" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -858,32 +938,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="#445 - others" />
-    <MESSAGE value="#445 - removed unused commented code" />
-    <MESSAGE value="#445 - unit tests for show balances" />
-    <MESSAGE value="#335 - others" />
-    <MESSAGE value="#335 - new name and new VAT button" />
-    <MESSAGE value="#336 - others" />
-    <MESSAGE value="#336 - new webpage and css for it" />
-    <MESSAGE value="#338 - others" />
-    <MESSAGE value="#338 - new function retrieves all daily VAT" />
-    <MESSAGE value="#339 - others" />
-    <MESSAGE value="#339 - function to retrieve VAT monthly" />
-    <MESSAGE value="#340 - others" />
-    <MESSAGE value="#340 - function to retrieve VAT annual" />
-    <MESSAGE value="#342 - others" />
-    <MESSAGE value="#342 - new method getDailyVatReportByCurrency" />
-    <MESSAGE value="#343 - others" />
-    <MESSAGE value="#343 - new method getMonthlyVatReportByCurrency" />
-    <MESSAGE value="#344 - others" />
-    <MESSAGE value="#344 - getAnnualVatReportByCurrency" />
-    <MESSAGE value="#345 - others" />
-    <MESSAGE value="#345 - new endpoint vat_report" />
-    <MESSAGE value="#337 - others" />
-    <MESSAGE value="#337 - call vat_report via button" />
-    <MESSAGE value="#346 - others" />
-    <MESSAGE value="#346 - new unit tests for VAT reporting" />
-    <option name="LAST_COMMIT_MESSAGE" value="#346 - new unit tests for VAT reporting" />
+    <MESSAGE value="#497 - others" />
+    <MESSAGE value="#497 - remove medical check" />
+    <MESSAGE value="#498 - remove medical check.web forms" />
+    <MESSAGE value="#525 - dentist as test expense" />
+    <MESSAGE value="#525 - others" />
+    <MESSAGE value="#494 - others" />
+    <MESSAGE value="#494 - new expense - medication" />
+    <MESSAGE value="#495 - new expense - medication on web" />
+    <MESSAGE value="#528 - medication on web part" />
+    <MESSAGE value="#500 - others" />
+    <MESSAGE value="#500 - new expense - home maintenance" />
+    <MESSAGE value="#501 - new expense - home maintenance" />
+    <MESSAGE value="#530 - others" />
+    <MESSAGE value="#530 - new expense - home maintenance" />
+    <MESSAGE value="#505 - others" />
+    <MESSAGE value="#505 - new expense - license &amp; subsc" />
+    <MESSAGE value="#506 - new expense - license &amp; subsc" />
+    <MESSAGE value="#533 - new expense - license &amp; subsc" />
+    <MESSAGE value="#513 - others" />
+    <MESSAGE value="#513 - new expense - gifts" />
+    <MESSAGE value="#514 - new expense - gifts" />
+    <MESSAGE value="#536 - new expense - gifts" />
+    <MESSAGE value="#538 - new expense - loans" />
+    <MESSAGE value="#538 - others" />
+    <MESSAGE value="#457 - others" />
+    <option name="LAST_COMMIT_MESSAGE" value="#457 - others" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -14,5 +14,17 @@
       <working-dir>$ProjectFileDir$</working-dir>
       <time-zone>Europe/Copenhagen</time-zone>
     </data-source>
+    <data-source source="LOCAL" name="FamilyBudget-prod" uuid="c764c166-8d38-42ac-aacd-c8b1ef5ddf76">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://c9tiftt16dc3eo.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com:5432/da3clq4fosdocj</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.host.port" />
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+        <property name="com.intellij.clouds.kubernetes.db.container.port" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

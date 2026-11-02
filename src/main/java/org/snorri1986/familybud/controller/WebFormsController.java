@@ -28,12 +28,14 @@ public class WebFormsController {
   );
 
   private static final Map<String, Integer> ENTERTAINMENT_TYPES = Map.of(
-          "Travel", 8,
+          "Urban travel", 8,
           "Cinema", 13,
-          "Vacation", 14,
-          "Relax", 15,
+          "Sport",9,
           "Restaurant", 38,
           "Homefest", 16,
+          "Museum", 46,
+          "Event park", 47,
+          "Community event", 48,
           "Other", 17
   );
 
@@ -41,21 +43,20 @@ public class WebFormsController {
          "Daily", 18,
          "Weekly", 19,
          "Weekend", 20,
-         "Fest", 21,
-         "Clothes", 43,
-         "Lunch at work", 44,
+          "Clothes", 43,
+          "Lunch at work", 44,
          "Other", 22
   );
 
   private static final Map<String, Integer> HEALTH_TYPES = Map.of (
           "Dentist",23,
-          "Regular Medical check", 24,
           "Special doctor", 25,
           "Swimming pool", 26,
           "SPA", 27,
           "Nails", 28,
           "Haircut", 42,
           "Gym", 45,
+          "Medication", 49,
           "Other", 22
   );
 
@@ -67,6 +68,8 @@ public class WebFormsController {
           "Electricity", 29,
           "House equipment", 30,
           "Renovation", 31,
+          "Home maintenance", 50,
+          "Loans", 53,
           "Other", 22
   );
 
@@ -74,6 +77,7 @@ public class WebFormsController {
           "Mobile", 5,
           "Internet", 6,
           "Roaming bundles", 32,
+          "Licenses & subscriptions", 51,
           "Other", 12
   );
 
@@ -83,6 +87,7 @@ public class WebFormsController {
           "Food in trip", 35,
           "Travel entertainment", 36,
           "Public transport", 7,
+          "Gifts", 52,
           "Other", 12
   );
 
