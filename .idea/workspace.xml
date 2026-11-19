@@ -10,6 +10,38 @@
     <list default="true" id="ff07572a-1ca9-403e-bca0-48b5dc6a882f" name="Changes" comment="#457 - others">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/snorri1986/familybud/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/entertainment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/groceries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/health.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/income.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/renthousing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_entertainment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_groceries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_health.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_income.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_renthousing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_telecom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/s_travel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/telecom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/travel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/entertainment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/groceries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/health.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/income.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/renthousing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_entertainment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_groceries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_health.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_income.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_renthousing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_telecom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/s_travel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/telecom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/travel.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,8 +232,7 @@
   <component name="ProjectSessionTemplates">
     <option name="panelTemplate">
       <template>
-        <option name="ensembleEnabled" value="false" />
-        <option name="modeId" value="Agent" />
+        <option name="modeId" value="Ask" />
         <option name="model">
           <model>
             <option name="modelType" value="builtin_id" />
@@ -270,7 +301,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;v2.1.1&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Applications/FamilyBudget/src/main/resources/static/css&quot;,
@@ -430,8 +461,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2df11533d9fe-intellij.indexing.shared.core-IU-262.11879.100" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.11879.100" />
+        <option value="bundled-jdk-30f59d01ecdd-ac68fc9d2b05-intellij.indexing.shared.core-IU-263.7307.200" />
+        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-IU-263.7307.200" />
       </set>
     </attachedChunks>
   </component>
@@ -507,6 +538,12 @@
       <workItem from="1793453204445" duration="4157000" />
       <workItem from="1793644709307" duration="268000" />
       <workItem from="1793645193198" duration="72000" />
+      <workItem from="1793648529977" duration="17000" />
+      <workItem from="1794855279866" duration="131000" />
+      <workItem from="1794855612417" duration="546000" />
+      <workItem from="1794857274566" duration="197000" />
+      <workItem from="1794860444163" duration="38000" />
+      <workItem from="1795117024472" duration="351000" />
     </task>
     <task id="LOCAL-01027" summary="#475 - others">
       <option name="closed" value="true" />
